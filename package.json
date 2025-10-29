@@ -13,7 +13,8 @@
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
     "typecheck": "tsc",
-    "generate-sessions": "node scripts/generate-sessions-data.js"
+    "generate-sessions": "node scripts/generate-sessions-data.js",
+    "update-positions": "node scripts/add-session-positions.js"
   },
   "dependencies": {
     "@docusaurus/core": "3.9.2",

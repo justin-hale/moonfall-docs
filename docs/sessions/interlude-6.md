@@ -5,7 +5,7 @@ description: "The party completes their mission to help Toonlock by participatin
 summary: "The party completes their mission to help Toonlock by participating in a dangerous ritual while facing Crowley's final threats and earning powerful rewards."
 featureimage: "C4I6.webp"
 podcastlink: "https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4-interlude-April-18th--2025-DM-Taylor-e320mo8"
-sidebar_position: 26
+sidebar_position: 21
 ---
 
 **[🎧 Podcast Link](https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4-interlude-April-18th--2025-DM-Taylor-e320mo8) • *April 17, 2025***

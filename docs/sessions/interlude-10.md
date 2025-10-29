@@ -5,7 +5,7 @@ description: "The party is pulled into pocket dimensions where they face impossi
 summary: "The party is pulled into pocket dimensions where they face impossible moral choices and meet a imprisoned chaos god seeking revenge."
 featureimage: "C4I10.webp"
 podcastlink: "https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4-interlude-May-16th--2025-DM-Justin-e337l63"
-sidebar_position: 30
+sidebar_position: 17
 ---
 
 **[🎧 Podcast Link](https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4-interlude-May-16th--2025-DM-Justin-e337l63) • *May 15, 2025***

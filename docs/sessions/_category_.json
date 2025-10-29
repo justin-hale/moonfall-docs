@@ -2,7 +2,7 @@
   "label": "Sessions",
   "position": 1,
   "link": {
-    "type": "doc",
-    "id": "sessions/index"
+    "type": "generated-index",
+    "description": "Look back at session summaries from the entire campaign."
   }
 }

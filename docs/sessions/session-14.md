@@ -6,7 +6,7 @@ summary: "The party begins their pilgrimage up Grimvar's Spine mountain, where t
 featureimage: "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode400/41448639/41448639-1732395985454-c0ad5e30aee26.jpg"
 image: "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode400/41448639/41448639-1732395985454-c0ad5e30aee26.jpg"
 podcastlink: "https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4-E14-Ascending-Grimvars-Spine-e2rdgb5"
-sidebar_position: 14
+sidebar_position: 33
 ---
 
 **[🎧 Podcast Link](https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4-E14-Ascending-Grimvars-Spine-e2rdgb5) • *November 16, 2024***

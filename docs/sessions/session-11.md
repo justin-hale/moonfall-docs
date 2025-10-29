@@ -6,7 +6,7 @@ summary: "The party drinks Roscoe’s Everclear and uncovers [Red](/player-chara
 featureimage: "https://d2a9bkgsuxmqe2.cloudfront.net/staging/podcast_uploaded_episode400/41448639/41448639-1729360815024-1c70054943e82.jpg"
 image: "https://d2a9bkgsuxmqe2.cloudfront.net/staging/podcast_uploaded_episode400/41448639/41448639-1729360815024-1c70054943e82.jpg"
 podcastlink: "https://creators.spotify.com/pod/show/topher-hooper/episodes/C4-E11-You-Only-Live-Once-e2pspcd"
-sidebar_position: 11
+sidebar_position: 36
 ---
 
 **[🎧 Podcast Link](https://creators.spotify.com/pod/show/topher-hooper/episodes/C4-E11-You-Only-Live-Once-e2pspcd) • *October 18, 2024***

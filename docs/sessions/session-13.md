@@ -5,7 +5,7 @@ summary: "The party closes the portal, decides Frankie's fate, and investigates 
 featureimage: "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode400/41448639/41448639-1731362881012-3c22f2d1c5246.jpg"
 image: "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode400/41448639/41448639-1731362881012-3c22f2d1c5246.jpg"
 podcastlink: "https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4-E13-Burning-down-the-house-e2qrnf4"
-sidebar_position: 13
+sidebar_position: 34
 ---
 
 **[🎧 Podcast Link](https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4-E13-Burning-down-the-house-e2qrnf4) • *November 10, 2024***
