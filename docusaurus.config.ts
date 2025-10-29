@@ -58,8 +58,16 @@ const config: Config = {
   ],
 
   themeConfig: {
-    // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    // Default social card for pages without specific images - using Session 1 podcast background
+    image: 'img/moonfall-social-card.jpg',
+    
+    // Enhanced metadata for better SEO and social sharing
+    metadata: [
+      {name: 'keywords', content: 'D&D, dungeons and dragons, campaign, moonfall, sessions, podcast'},
+      {name: 'twitter:card', content: 'summary_large_image'},
+      {property: 'og:type', content: 'website'},
+    ],
+    
     colorMode: {
       respectPrefersColorScheme: true,
     },
