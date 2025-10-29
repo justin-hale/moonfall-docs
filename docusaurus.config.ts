@@ -49,6 +49,7 @@ const config: Config = {
           // Make the sessions page the homepage
           routeBasePath: '/',
         },
+        blog: false, // Disable blog
         theme: {
           customCss: './src/css/custom.css',
         },
