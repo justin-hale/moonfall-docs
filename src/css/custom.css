@@ -28,3 +28,23 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+/* Override generated index page width limitation */
+@media (min-width: 997px) {
+  /* More specific selectors to win specificity battle */
+  .main-wrapper [class*="generatedIndexPage"] {
+    max-width: none !important;
+    width: 100% !important;
+  }
+  
+  .container .container-fluid [class*="generatedIndexPage"] {
+    max-width: none !important;
+    width: 100% !important;
+  }
+  
+  /* Nuclear option - very high specificity */
+  html body .main-wrapper .container [class*="generatedIndexPage"] {
+    max-width: none !important;
+    width: 100% !important;
+  }
+}

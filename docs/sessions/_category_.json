@@ -2,6 +2,7 @@
   "label": "Sessions",
   "position": 1,
   "link": {
-    "type": "generated-index"
+    "type": "doc",
+    "id": "sessions/index"
   }
 }
