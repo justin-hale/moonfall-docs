@@ -1,5 +1,5 @@
 ---
-title: "22: The [Red](/player-characters/red)'s Last Flight"
+title: "22: Red's Last Flight"
 date: 2025-06-06
 description: "The party faces an Eldoran Knight while [Red](/player-characters/red) makes the ultimate sacrifice to power his clan's escape vessel."
 summary: "The party faces an Eldoran Knight while [Red](/player-characters/red) makes the ultimate sacrifice to power his clan's escape vessel."
