@@ -103,7 +103,7 @@ Through investigation and insight, Silas pieces together Lady Corwin's actual pl
 
 ## Planning the Resistance
 
-Realizing they've been manipulated, the party decides to keep the gold rather than deliver it as instructed. They begin planning their own resistance movement against Helga Ungar:
+Realizing they've been manipulated, the party decides to keep the gold rather than deliver it as instructed. They begin planning their own resistance movement against Helja Ungar:
 
 **Available Assets**:
 - Dragons (potentially controllable via the orb, but risky)
@@ -112,9 +112,9 @@ Realizing they've been manipulated, the party decides to keep the gold rather th
 - Luxury vehicles (for those who chose to keep them)
 
 **Strategic Options Discussed**:
-- Challenging Helga to various competitions (racing, wrestling, rock concerts)
-- Using the orb to direct dragons against Helga's stronghold
+- Challenging Helja to various competitions (racing, wrestling, rock concerts)
+- Using the orb to direct dragons against Helja's stronghold
 - Infiltrating the Forge Heart during the chaos
 - Creating a fake orb as a decoy
 
-The session ends with the party having one week to plan and execute their assault on Helga Ungar, now working as independent resistance fighters rather than Lady Corwin's pawns.
+The session ends with the party having one week to plan and execute their assault on Helja Ungar, now working as independent resistance fighters rather than Lady Corwin's pawns.

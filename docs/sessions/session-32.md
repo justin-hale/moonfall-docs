@@ -25,15 +25,15 @@ The party arrives at the dragon tribute drop-off point on schedule, carrying the
 
 #### The Tribute Exchange
 The party successfully negotiates with the dragons using multiple persuasive strategies:
-- Silas reveals they possess Helga's orb, proving the Iron Claws have been deceiving the dragons for months
-- They appeal to the dragons' pride, emphasizing how Helga has been "making fools" of them
+- Silas reveals they possess Helja's orb, proving the Iron Claws have been deceiving the dragons for months
+- They appeal to the dragons' pride, emphasizing how Helja has been "making fools" of them
 - The party offers not just the gold tribute, but also their stolen Bugatti as additional tribute
 
 #### Strategic Alliance Formation
 Through masterful persuasion (rolls of 27 and 30), the party convinces the dragons to:
-- Attack Helga's fortress directly rather than razing all of High Forge
+- Attack Helja's fortress directly rather than razing all of High Forge
 - Wait three days for the party to create a direct route through the mountain
-- Focus their vengeance specifically on Helga and the Iron Claws
+- Focus their vengeance specifically on Helja and the Iron Claws
 
 The dragons agree, demanding the tribute (gold and Bugatti) but accepting the party's proposal for a coordinated assault.
 

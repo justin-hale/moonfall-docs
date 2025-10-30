@@ -22,7 +22,7 @@ The party debates their approach while shopping for last-minute magical items an
 Arriving at the great hall, the party discovers:
 - Six cages containing hostages suspended on scaffolding over the bridge
 - At least a dozen elite Iron Claw guards positioned throughout the hall
-- Lieutenant Grim Jaw (seemingly resurrected and sewn back together) and Captain Corwin (Triple C, looking like a vacant undead puppet) commanding the operation
+- Lieutenant Grimjaw (seemingly resurrected and sewn back together) and Captain Corwin (Triple C, looking like a vacant undead puppet) commanding the operation
 - Helisanna's ravers preparing for a concert, seemingly unconcerned with the hostage situation
 
 Silas scouts ahead using his hat of disguise to appear as an Iron Claw soldier. The party splits up to rescue multiple hostages simultaneously, with some heading to the upper level and others staying below.
@@ -56,13 +56,13 @@ In a shocking turn, Silas reveals a plan he's been secretly coordinating with Br
 
 **The Setup:**
 - Silas stabs Bru (his own party member) to sell his deception
-- He claims to Lieutenant Grim Jaw that he wants to betray the party for money
-- Grim Jaw brings the group before Helga Ironart in the throne room of the forge heart
+- He claims to Lieutenant Grimjaw that he wants to betray the party for money
+- Grimjaw brings the group before Helja Ironart in the throne room of the forge heart
 
 **The Negotiation:**
-- Silas presents a fake orb to Helga, claiming it's the real dragon-controlling artifact
+- Silas presents a fake orb to Helja, claiming it's the real dragon-controlling artifact
 - He demands one million gold pieces to leave the city and reveal the real orb's location
-- Helga, surrounded by her elite guards and iron golems, initially threatens violence
+- Helja, surrounded by her elite guards and iron golems, initially threatens violence
 - Silas uses his knowledge of the approaching dragons (through a tunnel Bru is opening) as leverage
 - Throughout the negotiation, Silas uses psychic phone to relay detailed thoughts about the room's layout to the party
 
@@ -72,33 +72,33 @@ In a shocking turn, Silas reveals a plan he's been secretly coordinating with Br
 - The charges are set on a timed sequence to detonate on Bru's signal
 
 **The Assassination:**
-- When Helga agrees to shake on the deal, Silas gives the signal: "Now"
+- When Helja agrees to shake on the deal, Silas gives the signal: "Now"
 - Bru's explosives detonate, causing massive structural damage to the throne room
-- In the chaos, Silas attacks Helga with surprise
+- In the chaos, Silas attacks Helja with surprise
 - He critically strikes with a natural 20, dealing 51 damage with sneak attack
-- His attacks are personal—he whispers "What were their names?" referring to his crew that Helga killed in Grayport
-- Helga doesn't remember them, highlighting the casual cruelty of her villainy
-- Silas coordinates with Bru's cannon for the killing blow—flames incinerate Helga from inside her mouth, leaving only a skeleton falling into her throne
+- His attacks are personal—he whispers "What were their names?" referring to his crew that Helja killed in Grayport
+- Helja doesn't remember them, highlighting the casual cruelty of her villainy
+- Silas coordinates with Bru's cannon for the killing blow—flames incinerate Helja from inside her mouth, leaving only a skeleton falling into her throne
 
 ## Desperate Escape
 
-With Helga dead, the throne room begins collapsing:
+With Helja dead, the throne room begins collapsing:
 
 **Chaos Ensues:**
 - Multiple dexterity saving throws as debris falls from the crumbling facade
 - Silas uses his evasion to avoid damage despite his low HP (only 6 remaining)
-- Several of Helga's lieutenants use teleportation rings to escape
+- Several of Helja's lieutenants use teleportation rings to escape
 - Ohma successfully steals Marta's teleportation ring with sleight of hand
 - Ohma then kicks Marta off a ledge, though she survives and casts a spell
 
 **The Chase:**
-- Grim Jaw attempts to flee across the collapsing bridge
+- Grimjaw attempts to flee across the collapsing bridge
 - Triple C (zombie Captain Corwin) attacks Silas but is fought off
 - Bru's timed explosives continue detonating in sequence
 - The party races across the bridge as explosions chase them
 - Bob (Olivia's ram) becomes restrained but is dismissed and resummoned
 - Multiple party members take significant damage from falling debris (30 damage to those who failed their saves)
-- Despite attempts to stop them, both Grim Jaw and Triple C survive and escape
+- Despite attempts to stop them, both Grimjaw and Triple C survive and escape
 
 **Final Moments:**
 - The party reaches the door just as the final charge detonates
@@ -108,7 +108,7 @@ With Helga dead, the throne room begins collapsing:
 
 ## Character Moments
 
-**Silas's Revenge:** His personal vendetta against Helga for killing his crew in Grayport drives the entire deception plan. His cold professionalism in negotiating with her, only to personally execute her, shows both his tactical mind and emotional core.
+**Silas's Revenge:** His personal vendetta against Helja for killing his crew in Grayport drives the entire deception plan. His cold professionalism in negotiating with her, only to personally execute her, shows both his tactical mind and emotional core.
 
 **Bru's Engineering:** Justin's elaborate trap with timed explosives showcases Bru's artificer skills and willingness to take risks. His coordination with Silas demonstrates growing trust despite their usual dynamic.
 
@@ -122,8 +122,8 @@ With Helga dead, the throne room begins collapsing:
 
 ## Key Information Learned
 
-- Helga Ironart is dead, killed by Silas and Bru
-- The Iron Claws' leadership is scattered—Grim Jaw and Triple C escaped, while others like Car and Athena used teleportation rings to flee
+- Helja Ironart is dead, killed by Silas and Bru
+- The Iron Claws' leadership is scattered—Grimjaw and Triple C escaped, while others like Car and Athena used teleportation rings to flee
 - Marta is dead, killed by the explosions
 - The forge heart throne room is destroyed
 - Several teleportation rings exist that allow instant escape
@@ -133,9 +133,9 @@ With Helga dead, the throne room begins collapsing:
 
 - What happened to the approaching dragons?
 - Where did the surviving Iron Claw leaders teleport to?
-- Will Grim Jaw and Triple C seek revenge?
-- What will be the political fallout in High Forge with Helga dead?
+- Will Grimjaw and Triple C seek revenge?
+- What will be the political fallout in High Forge with Helja dead?
 - Can the party now use Marta's teleportation ring?
 - What role will Helisanna and her ravers play going forward?
 
-The session masterfully blended intense combat, clever deception, personal drama, and explosive action (literally). The party's coordinated betrayal of Helga represents a major turning point in the campaign, though the escape of key villains ensures future complications.
+The session masterfully blended intense combat, clever deception, personal drama, and explosive action (literally). The party's coordinated betrayal of Helja represents a major turning point in the campaign, though the escape of key villains ensures future complications.
