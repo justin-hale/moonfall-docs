@@ -176,7 +176,7 @@ The V contamination draws purple-eyed ravers toward the explosion site, creating
 
 ### Lieutenant Grimjaw's Trap
 
-The party arrives at the Distribution Center (housed in the old Stone Hammer Brewery) to find an organized ambush led by **Lieutenant Grimjaw**, Helja's right-hand man.
+The party arrives at the Distribution Center (housed in the old Stone Hammer Bruery) to find an organized ambush led by **Lieutenant Grimjaw**, Helja's right-hand man.
 
 **Enemy Forces**:
 - **Lieutenant Grimjaw**: Heavily armored with twin axes, scarred face, and gas-filtering breather mask

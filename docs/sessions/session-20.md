@@ -96,7 +96,7 @@ When properly aligned, the constellations glowed with connecting lines of light,
 
 **[Olivia](/player-characters/olivia)'s Intervention**: Growing increasingly frustrated with the circular conversations and apparent incompetence of the villagers, [Olivia](/player-characters/olivia) grabbed the driftwood from Elder Bryn and threw it back into the water, pointing out that it would simply drift back to shore naturally.
 
-## Brewing Tensions and Mysteries
+## Bruing Tensions and Mysteries
 
 **The Trial's Purpose**: Throughout these interactions, it became clear that [Red](/player-characters/red)'s trial involved helping the people of Lakeshore Vale, though the specific requirements remained unclear. The party began identifying several potential quests:
 - Recovering Finnick's stolen fishing rod from Tanner

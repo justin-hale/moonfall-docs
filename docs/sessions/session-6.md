@@ -18,13 +18,13 @@ sidebar_position: 41
 ### Group Reconvenes Over Breakfast
 - The group finally gathers and shares scattered info: dragons are real, approaching the city, and causing mass evacuations. This catches several members off guard.
 - There is light-hearted bickering about the concert from the night before and whose actions were most impactful, with multiple characters claiming credit.
-- Tensions briefly rise between [Silas](/player-characters/silas) and Brew, and [Helisanna](/player-characters/helisanna) is teased for her subpar performance.
+- Tensions briefly rise between [Silas](/player-characters/silas) and Bru, and [Helisanna](/player-characters/helisanna) is teased for her subpar performance.
 ### Planning for the Race
 - The group solidifies roles in the upcoming underground street race:
   - **[Elspeth](/player-characters/elspeth)** will drive the Doomfall.
   - **BoxBox** (her automaton) rides in the back for support.
   - **[Silas](/player-characters/silas)** and **[Helisanna](/player-characters/helisanna)** prepare sabotage and distraction tactics.
-  - **Brew** equips and plans the use of flamethrower cannons and caltrops.
+  - **Bru** equips and plans the use of flamethrower cannons and caltrops.
   - **[Red](/player-characters/red)** and **[Olivia](/player-characters/olivia)** offer support roles including healing, driving, and cannon operation.
 - Tactical positions and sabotage plans are laid out, including:
   - Trapping the narrow tunnel with caltrops ([Silas](/player-characters/silas)).
@@ -34,7 +34,7 @@ sidebar_position: 41
 ### Final Pre-Race Errands
 - [Elspeth](/player-characters/elspeth) visits rival racer Divald to exchange small talk and gather intel.
 - [Silas](/player-characters/silas) collects payment from Twilight Company for prior sabotage work.
-- Brew attempts to steal a communal liquor bottle in a failed scheme to poison rival racers — accidentally disrupting [Silas](/player-characters/silas)’ own sabotage plan.
+- Bru attempts to steal a communal liquor bottle in a failed scheme to poison rival racers — accidentally disrupting [Silas](/player-characters/silas)’ own sabotage plan.
 ## 🏎️ The Race Begins
 - [Elspeth](/player-characters/elspeth) lines up with nearly 50 racers. The team’s pre-race support is visualized as a surreal, symbolic combat encounter representing “the race” as a sentient monster.
 - Players alternate between skill checks and combat mechanics in a shared narrative framework, effectively “fighting” the dangers of the race.
@@ -42,13 +42,13 @@ sidebar_position: 41
 - [Silas](/player-characters/silas) expertly lays caltrops in the tunnel.
 - [Olivia](/player-characters/olivia) intimidates a goblin team into vacating a key ambush spot.
 - [Red](/player-characters/red) casts buffs and support magic like Emboldening Bond.
-- Brew fires fireworks from roof-mounted cannons to detonate landmines.
+- Bru fires fireworks from roof-mounted cannons to detonate landmines.
 - [Elspeth](/player-characters/elspeth) benefits from multiple buffs (Cat’s Grace, Sanctuary, Shield of Faith) while dodging traps and maintaining high speed.
 ## 💥 Combat with the "Race"
 - The “Race” manifests as a mechanical, mobile nightmare that targets [Elspeth](/player-characters/elspeth).
 - The party tactically overwhelms it using positioning, teamwork, and abilities like Hex, Smite, and psychic knives.
 - [Olivia](/player-characters/olivia) lands a decisive hit with Divine Smite.
-- [Silas](/player-characters/silas) and [Helisanna](/player-characters/helisanna) deal significant damage, while [Red](/player-characters/red) and Brew offer key support.
+- [Silas](/player-characters/silas) and [Helisanna](/player-characters/helisanna) deal significant damage, while [Red](/player-characters/red) and Bru offer key support.
 ## 🏁 Victory
 - [Elspeth](/player-characters/elspeth) overtakes the final racers using a clever fake-out maneuver and finishes with a jump across the final bridge — Fast & Furious-style.
 - She's awarded first place and a membership into the underground racing circuit.
@@ -61,7 +61,7 @@ sidebar_position: 41
 | **[Silas](/player-characters/silas)**         | Saboteur     | Caltrops placement; psychic communication; combat support. |
 | **[Helisanna](/player-characters/helisanna)**     | Spell Support | Hexed the enemy; dished out Eldritch Blasts; morale support. |
 | **[Olivia](/player-characters/olivia)**        | Cannon/Support | Intimidated enemy teams; landed big hits with her axe and Divine Smite. |
-| **Brew**          | Tinkerer     | Fired fireworks from cannon; activated Flamethrower. |
+| **Bru**          | Tinkerer     | Fired fireworks from cannon; activated Flamethrower. |
 | **[Red](/player-characters/red)**           | Healer/Pacifist | Buffed allies (Shield of Faith, Emboldening Bond); supported from the van. |
 ---
 ## 🐉 On the Horizon

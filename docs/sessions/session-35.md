@@ -41,7 +41,7 @@ The party brainstorms several potential approaches to the Helisana problem:
 
 **Ellis proposes using the dimensional rifts**: Perhaps they could send Helisana and the ravers to another dimension temporarily, giving the party time to deal with other threats. This leads to discussion of using the stellar radio technology from Red's research.
 
-**Luke suggests a rock-off**: Liliana could challenge Helisana to a musical battle, with pyrotechnics from Brew and Elspeth providing a spectacular show that might appeal to Helisana's desire for the perfect performance.
+**Luke suggests a rock-off**: Liliana could challenge Helisana to a musical battle, with pyrotechnics from Bru and Elspeth providing a spectacular show that might appeal to Helisana's desire for the perfect performance.
 
 **The Vegas Solution**: Ellis proposes that Silas contact Naomi about offering Helisana a residency at the Lotus Casino—giving her a venue for nightly performances with free booze and adoring crowds. This appeals to Helisana's core motivation (fame and recognition) without requiring combat. The party generally agrees this might be their best short-term solution.
 
@@ -49,10 +49,10 @@ The party brainstorms several potential approaches to the Helisana problem:
 
 ## Return to the Sewers
 
-Needing rest and a safe location, the party heads back to April Bonal's underground encampment. Along the way, Brew continues his ongoing argument with April about poison (still bitter about nearly dying from testing her toxin). The group also discovers that the dwarf couple living in Olivia's former apartment were legitimate residents assigned by the Iron Claws after Olivia fled—though this doesn't make the encounter any less awkward.
+Needing rest and a safe location, the party heads back to April Bonal's underground encampment. Along the way, Bru continues his ongoing argument with April about poison (still bitter about nearly dying from testing her toxin). The group also discovers that the dwarf couple living in Olivia's former apartment were legitimate residents assigned by the Iron Claws after Olivia fled—though this doesn't make the encounter any less awkward.
 
 At the encampment, they find:
-- April working on her chemistry set, trying to improve her poison after Brew's remarkable resistance
+- April working on her chemistry set, trying to improve her poison after Bru's remarkable resistance
 - Casey Bones practicing street hockey
 - Litu (Ohma's turtle disciple) and Chalk Rock (the detective) having dinner together and discussing their mentorship relationships
 - Bernardo providing pizza for everyone
@@ -61,34 +61,34 @@ Litu has thoughtfully set up a complete camp including a hot tub, demonstrating 
 
 ## Shopping and Preparations
 
-### Brew's Poison Problem
+### Bru's Poison Problem
 
-Before the group can properly rest, Brew insists on visiting a potion shop to restock supplies after his near-death experience. The party visits an establishment run by an elderly dwarf named Tunac in the Underlake district. When Ohma reveals his identity as "the Ninja Turtle" (the famous underground wrestler), Tunac agrees not to report them to authorities in exchange for the story.
+Before the group can properly rest, Bru insists on visiting a potion shop to restock supplies after his near-death experience. The party visits an establishment run by an elderly dwarf named Tunac in the Underlake district. When Ohma reveals his identity as "the Ninja Turtle" (the famous underground wrestler), Tunac agrees not to report them to authorities in exchange for the story.
 
-However, the shopping trip is repeatedly interrupted by Brew needing to make constitution saving throws against the poison still ravaging his system:
+However, the shopping trip is repeatedly interrupted by Bru needing to make constitution saving throws against the poison still ravaging his system:
 - He passes several through liberal use of Flash of Genius
 - April watches with scientific curiosity, insisting her poison should have killed him by now  
 - The party eventually carries the semiconscious goblin while continuing their errands
 - Elspeth finally uses Lesser Restoration to cure him after he drops to 1 hit point
 
-The incident highlights both Brew's impressive constitution and his tendency toward self-destructive decisions in pursuit of proving himself.
+The incident highlights both Bru's impressive constitution and his tendency toward self-destructive decisions in pursuit of proving himself.
 
 ### Kevin's Arsenal
 
-Ohma purchases supplies to upgrade Kevin (Brew's steel defender):
+Ohma purchases supplies to upgrade Kevin (Bru's steel defender):
 - 10 flasks of oil (1 gold total—apparently oil is remarkably cheap)
 - 5 scrolls of Acid Splash (100 gold)
 - 4 healing potions (200 gold)
 - 1 scroll of Web (240 gold)
 
-Brew plans to modify the Web scroll into wrist-mounted web shooters for Kevin, creating a Spider-Man style combat homunculus. When Ohma questions this allocation of their shared gold, Brew successfully arm-wrestles April to claim the crafting table in their safe house, then begins extracting juice from grapes to create "acid grapes" and "toilet wine."
+Bru plans to modify the Web scroll into wrist-mounted web shooters for Kevin, creating a Spider-Man style combat homunculus. When Ohma questions this allocation of their shared gold, Bru successfully arm-wrestles April to claim the crafting table in their safe house, then begins extracting juice from grapes to create "acid grapes" and "toilet wine."
 
 The goblin's creative chaos includes proposals to:
 - Create poisonous toilet wine to revenge-poison April
 - Craft grape-based acid bombs
 - Install spray mechanisms for various alchemical substances on Kevin
 
-Silas repeatedly tries to redirect Brew toward less dangerous projects, eventually coaxing him to help with Scarlet's interdimensional glass sphere research instead.
+Silas repeatedly tries to redirect Bru toward less dangerous projects, eventually coaxing him to help with Scarlet's interdimensional glass sphere research instead.
 
 ### Armor Shopping
 
@@ -119,7 +119,7 @@ The party realizes Chalk Rock is competent and well-intentioned, just anxious an
 
 At the Vroomfall (the party's mobile base), Scarlet has been conducting research on dimensional magic to advance the Pocket Village project. Silas assists her in creating several basketball-sized glass spheres that emanate interdimensional energy—likely components for the village's eventual construction or for manipulating planar barriers.
 
-Meanwhile, Brew converts his purchases into combat applications for Kevin:
+Meanwhile, Bru converts his purchases into combat applications for Kevin:
 - Creates wrist-mounted web shooters from the scroll
 - Installs an ammunition bandolier holding alchemist's fire, acid, and healing potions
 - Considers adding acid spray mechanisms
@@ -130,11 +130,11 @@ The modifications transform Kevin from a simple steel defender into a heavily ar
 
 **Liliana and the Party**: The new bard spends time getting to know the group properly. She expresses genuine care for them while acknowledging the situation with Helisana breaks her heart. Her sunny disposition and verbal tics ("Oh jeez," frequent apologies) create immediate contrast with Helisana's dark cynicism. She agrees to attempt using music to counter Helisana's influence if necessary, though she worries about matching powers enhanced by an ancient patron.
 
-**Brew's Recklessness**: The goblin's determination to prove himself stronger than April's poison nearly kills him multiple times. His stubbornness manifests as both impressive constitution saves and terrible decision-making. The party increasingly treats him like a chaotic younger sibling who needs constant supervision.
+**Bru's Recklessness**: The goblin's determination to prove himself stronger than April's poison nearly kills him multiple times. His stubbornness manifests as both impressive constitution saves and terrible decision-making. The party increasingly treats him like a chaotic younger sibling who needs constant supervision.
 
 **Ohma and Litu**: The master-student relationship continues developing, with Litu demonstrating thoughtfulness and dedication that makes Chalk Rock jealous. Ohma's patient mentorship style contrasts with his violent combat approach.
 
-**Silas and Brew**: Their friendship shows in Silas repeatedly saving Brew from his own poor choices, though he also enables some of the goblin's more creative chaos when it serves strategic purposes.
+**Silas and Bru**: Their friendship shows in Silas repeatedly saving Bru from his own poor choices, though he also enables some of the goblin's more creative chaos when it serves strategic purposes.
 
 **Olivia's Displacement**: Returning to her apartment to find it occupied by Iron Claws-assigned residents reinforces her exile status. She handles it pragmatically, taking only what she needs (the maps) rather than fighting innocent civilians caught in the regime's housing redistribution.
 

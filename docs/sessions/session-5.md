@@ -62,7 +62,7 @@ As the concert ends:
 ## 🍻 Denouement
 - The group splits: [Red](/player-characters/red) and Helisana go out drinking with [Bru](/player-characters/bru).
 * [Silas](/player-characters/silas) and [Elspeth](/player-characters/elspeth) secure the garage.
-* A mysterious cloaked figure approaches Brew and [Red](/player-characters/red), asking for [Silas](/player-characters/silas). [Red](/player-characters/red) lies convincingly and they vanish.
+* A mysterious cloaked figure approaches Bru and [Red](/player-characters/red), asking for [Silas](/player-characters/silas). [Red](/player-characters/red) lies convincingly and they vanish.
 * The crew tallies their haul: nearly **14,250 gold**, an unusual amount for such a young party.
 ## 🔍 Session Highlights
 - 🎤 Helisana’s evolving rock-star mystique continues to grow despite middling rolls.

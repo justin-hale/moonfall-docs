@@ -157,7 +157,7 @@ The party participates in a "White Owlbear" gift exchange (their world's version
 **Gifts Exchanged**:
 - **[Helisanna](/player-characters/helisanna) receives**: [Silas](/player-characters/silas)'s "one crime carried out on your behalf" coupon
 - **[Jasper](/player-characters/jasper) receives**: [Olivia](/player-characters/olivia)'s detective magnifying glass  
-- **[Elspeth](/player-characters/elspeth) receives**: VIP tickets for 10 to "Gaines Brewery Bakery and Bankery" in Eldora
+- **[Elspeth](/player-characters/elspeth) receives**: VIP tickets for 10 to "Gaines Bruery Bakery and Bankery" in Eldora
 - **[Olivia](/player-characters/olivia) receives**: [Helisanna](/player-characters/helisanna)'s bottle of Emmervale Elixir from High Forge
 - **[Red](/player-characters/red) receives**: [Elspeth](/player-characters/elspeth)'s custom train track with mini Vroomfall and Doomfall cars
 - **[Silas](/player-characters/silas) and [Bru](/player-characters/bru)'s exchange**: Deferred to next session
@@ -216,7 +216,7 @@ As Caspian prepares to leave town using the Winter King's magic to travel on the
 
 1. **Crowley's Master Plan**: The fae entity appears to be targeting powerful magical beings systematically
 2. **Eldoran Relations**: [Jasper](/player-characters/jasper)'s presence and heroics improve relations between Milstrom and Eldora
-3. **Gaines Brewery Mystery**: The tickets suggest potential future adventures in Eldora
+3. **Gaines Bruery Mystery**: The tickets suggest potential future adventures in Eldora
 4. **Caspian's Fate**: Her capture by Crowley may require future rescue efforts
 5. **Party Composition**: [Jasper](/player-characters/jasper)'s potential permanent addition to the group
 

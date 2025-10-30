@@ -215,7 +215,7 @@ In an emotionally significant scene, **[Jasper](/player-characters/jasper) Gaine
 
 **Parting Gifts**: [Jasper](/player-characters/jasper) leaves behind:
 - His **Eldoran armor** with crystal embellishments for the party to use
-- **VIP tickets** to his establishment, **Gaines Brewery, Bakery, and Bankery**
+- **VIP tickets** to his establishment, **Gaines Bruery, Bakery, and Bankery**
 - A heartfelt note promising assistance if they ever visit Eldoran
 
 ### Character Concerns

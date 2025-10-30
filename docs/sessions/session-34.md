@@ -15,11 +15,11 @@ The session opens with the party in the midst of combat against Crang and his co
 
 ## Combat Chaos
 
-The battle quickly becomes desperate. Crang's attacks deal massive poison damage, and the ravers' psychic assaults begin draining the party's intelligence scores. Ohma takes the fight to Crang directly, landing several stunning strikes, while Brew attempts various crowd control spells—most of which fail against Crang's exceptional saves.
+The battle quickly becomes desperate. Crang's attacks deal massive poison damage, and the ravers' psychic assaults begin draining the party's intelligence scores. Ohma takes the fight to Crang directly, landing several stunning strikes, while Bru attempts various crowd control spells—most of which fail against Crang's exceptional saves.
 
 The situation deteriorates when Helisana's patron takes full control. Despite Olivia's attempts to protect her with magic, Helisana fails her saving throws and begins attacking the party with her full Eldritch Blast arsenal. She downs Olivia multiple times, and the party struggles to maintain focus between dealing with Crang, the raver mobs, and their possessed companion.
 
-Silus, blinded and with his intelligence drained to nearly nothing, fights instinctively. Elspeth focuses on destroying the sound panels powering Crang's abilities, correctly identifying them as key to ending the encounter. Her dedication to this strategy, combined with Brew's well-timed Shatter spell, proves crucial.
+Silus, blinded and with his intelligence drained to nearly nothing, fights instinctively. Elspeth focuses on destroying the sound panels powering Crang's abilities, correctly identifying them as key to ending the encounter. Her dedication to this strategy, combined with Bru's well-timed Shatter spell, proves crucial.
 
 ## The Speakers Fall
 
@@ -35,7 +35,7 @@ Liliana explains she was the original personality, trapped inside a prison withi
 
 ## Theological Research
 
-Using her extensive knowledge of Dwarvish folklore, Elspeth (with Brew's Flash of Genius assistance) recalls ancient stories about Ach'uk. The entity is one of the oldest primordial beings—not a god of a domain like hills or lightning, but the spiritual embodiment of sad, dark music itself. Part of an ancient "orchestra" of primordial forces, Ach'uk represents percussion and drums, and has evolved with music through the ages, now drawn to electronic and industrial sounds.
+Using her extensive knowledge of Dwarvish folklore, Elspeth (with Bru's Flash of Genius assistance) recalls ancient stories about Ach'uk. The entity is one of the oldest primordial beings—not a god of a domain like hills or lightning, but the spiritual embodiment of sad, dark music itself. Part of an ancient "orchestra" of primordial forces, Ach'uk represents percussion and drums, and has evolved with music through the ages, now drawn to electronic and industrial sounds.
 
 Key facts learned:
 - Ach'uk doesn't have will or desire as mortals understand it—it spreads like vegetation seeking fertile ground
@@ -53,7 +53,7 @@ The party now faces several dilemmas:
 
 **Regarding the Timeline:** With less than two days before the planned uprising, the party must decide whether to proceed with overthrowing Hilda while Helisana/Ach'uk controls the ravers, attempt to "fix" Helisana first, or evacuate the city entirely.
 
-Silus proposes using Liliana to either merge with and heal Helisana, or to use her positive energy to vanquish the dark half entirely. Elspeth leans toward saving Helisana, seeing her as a friend despite everything. Brew sees it more pragmatically—kill the bad one, protect the good one. The party remains divided on whether Helisana ever truly cared about them as friends or only saw them as tools for fame.
+Silus proposes using Liliana to either merge with and heal Helisana, or to use her positive energy to vanquish the dark half entirely. Elspeth leans toward saving Helisana, seeing her as a friend despite everything. Bru sees it more pragmatically—kill the bad one, protect the good one. The party remains divided on whether Helisana ever truly cared about them as friends or only saw them as tools for fame.
 
 ## Session End
 

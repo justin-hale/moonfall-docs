@@ -53,7 +53,7 @@ At the aquafarm near the tunnel entrance, they rendezvous with Bo Dega and the T
 - Paint the Vroomfall to disguise it.
 - Use disguise kits on the more recognizable members.
 - Hide [Red](/player-characters/red) and [Silas](/player-characters/silas) in the bag of holding (without the orb).
-- Hide [Helisanna](/player-characters/helisanna), [Elspeth](/player-characters/elspeth), and Brew in produce crates.
+- Hide [Helisanna](/player-characters/helisanna), [Elspeth](/player-characters/elspeth), and Bru in produce crates.
 
 During prep, they discover the Twilight Company's crates are full of an illegal drug called "V" — a red liquid taken as eyedrops. [Olivia](/player-characters/olivia) demands they abandon the cargo or use it as bribe material. Lanny and Courtney reluctantly agree and sink the crates in the hydroponic lake.
 

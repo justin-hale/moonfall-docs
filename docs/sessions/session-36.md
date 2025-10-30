@@ -13,7 +13,7 @@ sidebar_position: 1
 
 ## A Desperate Morning
 
-The party awakens to Chalk Rock frantically alerting them that the Iron Claws have taken hostages in the great hall and are threatening to execute them. Despite some initial skepticism from Silas and Brew about whether they should care, the group quickly realizes the gravity of the situation when they learn the hostages include George (Olivia's nephew), Will, Rosco, Belvolt, Finnwick (who is actively bleeding out), and Lady Corwin.
+The party awakens to Chalk Rock frantically alerting them that the Iron Claws have taken hostages in the great hall and are threatening to execute them. Despite some initial skepticism from Silas and Bru about whether they should care, the group quickly realizes the gravity of the situation when they learn the hostages include George (Olivia's nephew), Will, Rosco, Belvolt, Finnwick (who is actively bleeding out), and Lady Corwin.
 
 The party debates their approach while shopping for last-minute magical items and preparing for what promises to be their final confrontation with the Iron Claws. They use magical disguises to blend in with the ravers preparing for Helisana's concert in the great hall.
 
@@ -34,7 +34,7 @@ As Helisana's concert begins (with a musical timer counting down), chaos erupts:
 **Initial Rescues:**
 - Silas stabs and kills one guard near George's cage
 - Elspeth uses telekinetic shove to push an Iron Claw into the lava
-- Brew uses his cannon to push another guard into the lava with force ballista
+- Bru uses his cannon to push another guard into the lava with force ballista
 - Olivia (controlled by Taylor) attacks and defeats the guard threatening George
 - Liliana heals the dying Finnwick with healing word
 
@@ -46,16 +46,16 @@ As Helisana's concert begins (with a musical timer counting down), chaos erupts:
 **Key Moments:**
 - Olivia and Bob (her ram mount) lead charges on the upper level
 - Ohma delivers devastating martial arts attacks, dealing massive damage
-- Brew's heat metal spell causes excruciating damage to an Iron Claw, who eventually jumps into the lava to escape the pain
+- Bru's heat metal spell causes excruciating damage to an Iron Claw, who eventually jumps into the lava to escape the pain
 - Multiple hostages are freed, though Belvolt is injured and Lady Corwin dies
 - Liliana uses hypnotic pattern to incapacitate several enemies including Marta
 
 ## The Ultimate Deception
 
-In a shocking turn, Silas reveals a plan he's been secretly coordinating with Brew:
+In a shocking turn, Silas reveals a plan he's been secretly coordinating with Bru:
 
 **The Setup:**
-- Silas stabs Brew (his own party member) to sell his deception
+- Silas stabs Bru (his own party member) to sell his deception
 - He claims to Lieutenant Grim Jaw that he wants to betray the party for money
 - Grim Jaw brings the group before Helga Ironart in the throne room of the forge heart
 
@@ -63,22 +63,22 @@ In a shocking turn, Silas reveals a plan he's been secretly coordinating with Br
 - Silas presents a fake orb to Helga, claiming it's the real dragon-controlling artifact
 - He demands one million gold pieces to leave the city and reveal the real orb's location
 - Helga, surrounded by her elite guards and iron golems, initially threatens violence
-- Silas uses his knowledge of the approaching dragons (through a tunnel Brew is opening) as leverage
+- Silas uses his knowledge of the approaching dragons (through a tunnel Bru is opening) as leverage
 - Throughout the negotiation, Silas uses psychic phone to relay detailed thoughts about the room's layout to the party
 
 **The Trap:**
-- While negotiating, Brew secretly plants explosive charges throughout the throne room
+- While negotiating, Bru secretly plants explosive charges throughout the throne room
 - He strings them along structural weak points and under the bridge
-- The charges are set on a timed sequence to detonate on Brew's signal
+- The charges are set on a timed sequence to detonate on Bru's signal
 
 **The Assassination:**
 - When Helga agrees to shake on the deal, Silas gives the signal: "Now"
-- Brew's explosives detonate, causing massive structural damage to the throne room
+- Bru's explosives detonate, causing massive structural damage to the throne room
 - In the chaos, Silas attacks Helga with surprise
 - He critically strikes with a natural 20, dealing 51 damage with sneak attack
 - His attacks are personal—he whispers "What were their names?" referring to his crew that Helga killed in Grayport
 - Helga doesn't remember them, highlighting the casual cruelty of her villainy
-- Silas coordinates with Brew's cannon for the killing blow—flames incinerate Helga from inside her mouth, leaving only a skeleton falling into her throne
+- Silas coordinates with Bru's cannon for the killing blow—flames incinerate Helga from inside her mouth, leaving only a skeleton falling into her throne
 
 ## Desperate Escape
 
@@ -94,7 +94,7 @@ With Helga dead, the throne room begins collapsing:
 **The Chase:**
 - Grim Jaw attempts to flee across the collapsing bridge
 - Triple C (zombie Captain Corwin) attacks Silas but is fought off
-- Brew's timed explosives continue detonating in sequence
+- Bru's timed explosives continue detonating in sequence
 - The party races across the bridge as explosions chase them
 - Bob (Olivia's ram) becomes restrained but is dismissed and resummoned
 - Multiple party members take significant damage from falling debris (30 damage to those who failed their saves)
@@ -102,15 +102,15 @@ With Helga dead, the throne room begins collapsing:
 
 **Final Moments:**
 - The party reaches the door just as the final charge detonates
-- Silas questions why Brew didn't use a remote detonator instead of a timer
-- Brew responds that "timers are always more fun"
+- Silas questions why Bru didn't use a remote detonator instead of a timer
+- Bru responds that "timers are always more fun"
 - The session ends on a cliffhanger as they escape through the doorway
 
 ## Character Moments
 
 **Silas's Revenge:** His personal vendetta against Helga for killing his crew in Grayport drives the entire deception plan. His cold professionalism in negotiating with her, only to personally execute her, shows both his tactical mind and emotional core.
 
-**Brew's Engineering:** Justin's elaborate trap with timed explosives showcases Brew's artificer skills and willingness to take risks. His coordination with Silas demonstrates growing trust despite their usual dynamic.
+**Bru's Engineering:** Justin's elaborate trap with timed explosives showcases Bru's artificer skills and willingness to take risks. His coordination with Silas demonstrates growing trust despite their usual dynamic.
 
 **Liliana's Support:** Luke's strategic use of crowd control spells (hypnotic pattern) and support abilities (mantle of inspiration, healing word) proves crucial in keeping the party alive during chaotic combat.
 
@@ -122,7 +122,7 @@ With Helga dead, the throne room begins collapsing:
 
 ## Key Information Learned
 
-- Helga Ironart is dead, killed by Silas and Brew
+- Helga Ironart is dead, killed by Silas and Bru
 - The Iron Claws' leadership is scattered—Grim Jaw and Triple C escaped, while others like Car and Athena used teleportation rings to flee
 - Marta is dead, killed by the explosions
 - The forge heart throne room is destroyed

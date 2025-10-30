@@ -13,7 +13,7 @@ sidebar_position: 7
 
 ## Background
 
-This session continues the elaborate heist planned by **Lady Corwin** to steal 500,000 gold pieces from Vault 7 in High Forge. The party split into two teams: the **Vault Team** (Silas, Ohma, and Helisanna) who infiltrated the actual vault, and the **Truck Team** (Brew, Elspeth, and Olivia) who were tasked with extracting the vault team using a stolen Ford F-150 and explosives.
+This session continues the elaborate heist planned by **Lady Corwin** to steal 500,000 gold pieces from Vault 7 in High Forge. The party split into two teams: the **Vault Team** (Silas, Ohma, and Helisanna) who infiltrated the actual vault, and the **Truck Team** (Bru, Elspeth, and Olivia) who were tasked with extracting the vault team using a stolen Ford F-150 and explosives.
 
 ## The Vault Team's Discovery
 
@@ -85,7 +85,7 @@ The session culminates in a complex multi-front battle:
 - **Silas** suffers severe damage and goes unconscious, requiring healing from **Ohma**
 - **Helisanna** uses crowd control magic to manage multiple enemies
 - **Elspeth** and **Olivia** provide crucial support with high damage output
-- **Brew** contributes with blinding effects and explosive support
+- **Bru** contributes with blinding effects and explosive support
 
 ### Key Combat Moments
 
@@ -115,7 +115,7 @@ The party makes their escape in the Ford F-150, complete with:
 
 - A premium magnetic cover concealing the stolen gold
 - **Coca-Cola** product placement as they bribe guards with ice-cold beverages
-- A captured baby **wormling** (dragon-like creature) that **Brew** attempts to tame
+- A captured baby **wormling** (dragon-like creature) that **Bru** attempts to tame
 - Post-heist ritual involving blindingly strong alcohol and dirt-eating tradition
 
 ## Mysterious Encounters
@@ -133,7 +133,7 @@ During their escape, the party encounters a mysterious cabin where they witness:
 
 The party eventually reaches what appears to be a **Blackstone family** summer home:
 
-- **Brew** identifies it from stolen documents as belonging to a wealthy old-money dwarven family
+- **Bru** identifies it from stolen documents as belonging to a wealthy old-money dwarven family
 - **Olivia** recognizes the Blackstones as having minor criminal records (DUIs)
 - The party debates whether to rob the obviously wealthy family
 - They observe a recent birth and family activity inside the well-appointed cabin
@@ -161,7 +161,7 @@ The draconic tablets introduce major campaign implications:
 ### Character Development
 
 - **Silas** demonstrates his growing importance as the translator of ancient secrets
-- **Brew** continues his evolution from chaotic inventor to criminal mastermind
+- **Bru** continues his evolution from chaotic inventor to criminal mastermind
 - **Elspeth** and **Olivia** work well as the moral compass while still participating in necessary crimes
 - **Helisanna** proves increasingly powerful in both social manipulation and combat
 - **Ohma** shows tactical thinking and support capabilities

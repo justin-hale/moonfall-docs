@@ -66,6 +66,8 @@ const config: Config = {
       {name: 'keywords', content: 'D&D, dungeons and dragons, campaign, moonfall, sessions, podcast'},
       {name: 'twitter:card', content: 'summary_large_image'},
       {property: 'og:type', content: 'website'},
+      {property: 'og:updated_time', content: new Date().toISOString()},
+      {name: 'cache-control', content: 'no-cache, no-store, must-revalidate'},
     ],
     
     colorMode: {
