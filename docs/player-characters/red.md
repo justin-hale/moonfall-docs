@@ -1,37 +1,50 @@
 ---
-title: Red
-description: Goliath cleric following the path of peace
+title: Red (Thurnok Skyhammer)
+description: Goliath cleric who sacrificed himself to save his people
 sidebar_position: 6
 ---
 
-# Red
+# Red (Thurnok Skyhammer)
 
-*Goliath Cleric • Pacifist Healer • The Gentle Giant*
+*Goliath Cleric • Pacifist Healer • Prince of the Skyhammer Clan • The Ultimate Sacrifice*
 
 ## Overview
 
-Red is a Goliath cleric who follows the path of peace despite his imposing stature, wielding divine magic for healing and protection rather than destruction. His pacifist beliefs stand in stark contrast to his powerful frame, creating an internal struggle between his gentle nature and the violent world around him.
+**Red** (true name: Thurnok Skyhammer) was a Goliath cleric who followed the path of peace despite his imposing stature, wielding divine magic for healing and protection rather than destruction. His journey led him from pacifist healer to discovering his true heritage as prince of the [Skyhammer Clan](/organizations/skyhammer-clan), culminating in the ultimate act of love: sacrificing himself to become the brain for his people's starship, allowing them to escape the planet and survive.
+
+## Final Status: Departed
+
+Red fulfilled his destiny by becoming one with the Skyhammer Clan's ancient starship. In an act of supreme sacrifice, he gave up his individual existence to serve as the vessel's consciousness, enabling his people to operate the craft and escape to safety. His pacifist philosophy found its ultimate expression—saving lives not through violence, but through the complete surrender of self.
 
 ## Background
 
+### The Hidden Prince
+- **Birth Name**: Thurnok Skyhammer, prince of the Skyhammer Clan
+- **Hidden Identity**: Raised as "Red" by Marion and Robert Cross to protect him from the [Eldoran Empire](/organizations/eldoran-empire)
+- **True Heritage**: Revealed by [Roscoe](/npcs/roscoe) in Session 11
+- **The Trials**: Underwent the deadly Wormhole Trials at [Grimvar's Spine](/locations/grimvars-spine) (Sessions 17-20)
+
 ### The Gentle Giant
-- Born into a warrior culture but chose the path of peace
-- Stands nearly eight feet tall but refuses to use his strength for violence
-- Believes that true strength comes from protecting and healing others
+- Stood nearly eight feet tall but refused to use his strength for violence
+- Chose the path of peace despite Goliath warrior heritage
+- Believed that true strength comes from protecting and healing others
+- His pacifism was tested when he learned of his royal bloodline
 
 ### The Divine Calling
 - Called to serve as a cleric of peace and healing
-- Struggles with the moral implications of violence
-- Seeks to find non-violent solutions to every conflict
+- Struggled with the moral implications of violence throughout his journey
+- Sought non-violent solutions even in desperate circumstances
+- His faith guided him to his ultimate sacrifice
 
-### The Moral Compass
-- Serves as the party's conscience in difficult decisions
-- Questions the ethics of their actions and methods
-- Provides guidance based on his peaceful philosophy
+### Parents' Murder
+- **Marion and Robert Cross**: Murdered by [Zeke](/npcs/zeke), possibly on Eldoran Empire's orders
+- Raised Red in hiding to protect him from imperial persecution
+- Their deaths eliminated the knowledge of how Skyhammer bloodline powers the starship
+- Red's trials became necessary because of their loss
 
-## Role in the Party
+## Role in the Party (While Active)
 
-Red's gentle nature and commitment to non-violence make him the party's **conscience**, though he has learned that sometimes healing others requires confronting those who would cause harm. He struggles with finding the balance between his beliefs and the reality of adventure.
+Red's gentle nature and commitment to non-violence made him the party's **conscience**. Though he learned that sometimes healing others requires confronting those who would cause harm, he never abandoned his core belief in peace. His eventual sacrifice—becoming the starship's brain—was the ultimate expression of his healing philosophy: complete self-giving for the survival of others.
 
 ### Combat Style
 - **Defensive Healing**: Focuses on keeping allies alive and healthy
@@ -58,15 +71,23 @@ Red's gentle nature and commitment to non-violence make him the party's **consci
 - Receives divine guidance through prayer and meditation
 - Powers manifest as protective rather than destructive magic
 
-## Character Development
+## Character Arc
 
-His healing powers have saved the party countless times, and his Spirit Guardians ability manifests as protective ethereal warriors. He has learned that sometimes the greatest act of peace is standing between evil and the innocent.
+### Journey to Sacrifice
+Red's story began as a simple pacifist healer but transformed into an epic of heritage, duty, and ultimate sacrifice:
+
+1. **Discovery** (Session 11): Roscoe revealed his true identity as Thurnok Skyhammer
+2. **Heritage** (Session 17): Met [Elder Ragar](/npcs/elder-ragar) and learned of his people's desperate need
+3. **Trials** (Session 20): Underwent the deadly Wormhole Trials to unlock his bloodline's power
+4. **Choice**: Chose duty to clan over continued adventuring with Taco Cat
+5. **Sacrifice**: Became the starship's consciousness, allowing his people to escape
 
 ### Growth Throughout the Campaign
-- Learning when violence is truly necessary
-- Balancing idealism with practical reality
-- Finding strength in vulnerability and compassion
-- Discovering that protection sometimes requires confrontation
+- Learned his pacifism could take many forms beyond refusing violence
+- Discovered that true heritage isn't about bloodline but about choice
+- Balanced duty to found family (Taco Cat) with duty to blood family (Skyhammer Clan)
+- Found that the greatest act of peace is complete self-sacrifice for others' survival
+- Proved that healing can mean giving one's entire existence for others to live
 
 ## Powers and Abilities
 
@@ -110,20 +131,64 @@ His healing powers have saved the party countless times, and his Spirit Guardian
 - **Prayer Book**: Contains his devotions and philosophical writings
 - **Staff of Peace**: Non-lethal weapon that focuses his magic
 
+## The Ultimate Sacrifice
+
+### Becoming the Starship
+Red's journey ended not in death, but in transformation. To save the Skyhammer Clan from extinction, he merged his consciousness with their ancient starship, becoming its brain and enabling his people to operate the vessel and escape the planet. 
+
+### The Choice
+- Knew the transformation would end his individual existence
+- Chose his people's survival over his own continued life
+- Final act was purest expression of his healing philosophy
+- Saved entire clan through complete self-sacrifice
+- Proved that pacifism's ultimate form is total self-giving
+
+### Legacy
+- Saved the Skyhammer Clan from annihilation
+- Fulfilled the destiny his murdered parents died protecting
+- Demonstrated that true strength is in what you give, not what you take
+- His consciousness now guides his people to safety among the stars
+- Taco Cat lost their healer and conscience but gained inspiration
+
 ## Notable Moments
+
+### Heritage Journey
+- **Session 11**: True identity revealed—shattered his understanding of self
+- **Session 17**: Met Elder Ragar, learned of starship and clan's desperation
+- **Session 20**: Survived deadly Wormhole Trials with party's support
+- **Final Sessions**: Chose clan over party, underwent transformation
 
 ### Healing Miracles
 - Countless times pulling party members back from death's door
 - Mass healing during desperate battles
 - Divine interventions at crucial moments
+- Spirit Guardians protecting allies without taking lives
 
 ### Moral Stands
 - Refusing to participate in unnecessary violence
 - Convincing enemies to surrender rather than fight
 - Protecting innocents even at personal cost
+- Ultimate stand: sacrificing self for others' survival
 
-*[This section would be updated with specific memorable moments from the campaign sessions]*
+## Related Characters
+- **Marion and Robert Cross** - Adoptive parents (murdered by [Zeke](/npcs/zeke))
+- [Elder Ragar](/npcs/elder-ragar) - Clan leader who explained Red's destiny
+- [Roscoe](/npcs/roscoe) - Revealed Red's true identity
+- [Taco Cat](/organizations/taco-cat) members - Chosen family he left behind
+
+## Related Organizations
+- [Skyhammer Clan](/organizations/skyhammer-clan) - His people, whom he saved
+- [Taco Cat](/organizations/taco-cat) - His adventuring family
+- [Twilight Company](/organizations/twilight-company) - Protected him as child
+- [Eldoran Empire](/organizations/eldoran-empire) - Hunted him and killed his parents
+
+## Related Locations
+- [Grimvar's Spine](/locations/grimvars-spine) - Clan home, site of trials
+- [Lakeshore Vale](/locations/lakeshore-vale) - Encountered during trials
+- [High Forge](/locations/high-forge) - Where he adventured with Taco Cat
 
 ---
 
-*"True strength isn't in the power to destroy, but in the wisdom to protect and the courage to heal."*
+*"True strength isn't in the power to destroy, but in the wisdom to protect and the courage to heal. And sometimes... the courage to give everything."* - Red's philosophy, fulfilled
+
+*"He didn't die. He became something greater. He became the salvation of his people."* - Taco Cat's remembrance
