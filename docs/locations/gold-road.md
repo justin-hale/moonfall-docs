@@ -330,7 +330,7 @@ The **Gold Road** is a major thoroughfare connecting multiple cities in the real
 - [Jasper Gaines](/player-characters/jasper) - Traveled to Eldoran via Gold Road
 - **Eldoran Knights** - Patrol and control road
 - **Merchants and Travelers** - Regular users
-- [Tien](/npcs/tien) - Caravan leader (likely uses Gold Road, needs NPC page)
+- **Tien** - Caravan leader (likely uses Gold Road)
 
 ## Related Organizations
 - [Eldoran Empire](/organizations/eldoran-empire) - Controllers
