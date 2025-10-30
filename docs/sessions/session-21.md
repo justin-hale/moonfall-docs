@@ -73,7 +73,7 @@ The party pursues the monsters to a platform near the original portal location, 
 ### Combat Highlights
 
 - [Silas](/player-characters/silas) delivers devastating sneak attacks, including an anime-style finishing move on Boog where he plunges a dagger between the creature's eyes
-- Helisana uses tactical Eldritch Blast with Repelling Blast to knock enemies off the tree branches
+- Helisanna uses tactical Eldritch Blast with Repelling Blast to knock enemies off the tree branches
 - [Elspeth](/player-characters/elspeth) and BoxBox coordinate attacks with her gun and his force-empowered tools
 - [Red](/player-characters/red) provides crucial healing support with mass healing word and his channel divinity abilities
 - [Bru](/player-characters/bru) contributes with his force ballista and explosive spells

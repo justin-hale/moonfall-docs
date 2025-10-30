@@ -14,7 +14,7 @@ sidebar_position: 42
 ## 🎤 Pre-Concert Preparations
 As the day of the massive Forge Heart concert dawns, the party finds themselves both flush with resources and buried in responsibilities. They’re set to perform for thousands, with a lucrative 10,000 gold contract from their patron, Sandra. But the concert is just one part of the whirlwind — the illegal street race looms the next day.
 ## Party Preparations:
-- **Helisana** chills, channeling her inner rock star and preparing mentally for the concert.
+- **Helisanna** chills, channeling her inner rock star and preparing mentally for the concert.
 * **[Elspeth](/player-characters/elspeth)** inspects the car and the van, setting traps and preparing “BoxBox” (her steel defender) to watch the garage. She also builds a tripwire shotgun trap with an alarm spell for added security.
 * **Felonias [Bru](/player-characters/bru)** designs and installs two under-the-table pyro-cannons on either side of the concert stage — dual-purpose as fireworks and defense weapons. Total cost: 500 gold.
 * **[Silas](/player-characters/silas)** buys MP3-like “magic stones” to record the concert, investing in a recording kit and planning to resell the exclusive concert audio for profit.
@@ -39,9 +39,9 @@ The party captures and incapacitates all three assailants before the show even s
 ## 🎶 The Concert: Chaos & Chords
 The concert is chaotic but powerful:
 1. **Start**: Initial performance is lackluster (low roll), crowd grows impatient.
-2. **Middle**: [Bru](/player-characters/bru) launches massive pyrotechnics to save the vibe. [Red](/player-characters/red) blesses Helisana with Enhance Ability. Crowd enthusiasm grows.
-3. **Finale**: Glowing-eyed crowd members join the stage as backup bandmates (possibly under infernal influence). Helisana rises via harness with firework “wings,” smoke blankets the stage. Epic finale saves the night.
-Despite Helisana’s middling rolls, the crowd is riveted by the **violence**, **fireworks**, and **demonic vibes**.
+2. **Middle**: [Bru](/player-characters/bru) launches massive pyrotechnics to save the vibe. [Red](/player-characters/red) blesses Helisanna with Enhance Ability. Crowd enthusiasm grows.
+3. **Finale**: Glowing-eyed crowd members join the stage as backup bandmates (possibly under infernal influence). Helisanna rises via harness with firework “wings,” smoke blankets the stage. Epic finale saves the night.
+Despite Helisanna’s middling rolls, the crowd is riveted by the **violence**, **fireworks**, and **demonic vibes**.
 ## 🔫 Surprise Ambush #2
 As the concert ends:
 - Four more enemies try to assassinate [Silas](/player-characters/silas) during the show’s final act.
@@ -60,12 +60,12 @@ As the concert ends:
 * [Elspeth](/player-characters/elspeth)’s traps and alarm successfully fended them off.
 * The duo admits they were hired to sabotage race competitors.
 ## 🍻 Denouement
-- The group splits: [Red](/player-characters/red) and Helisana go out drinking with [Bru](/player-characters/bru).
+- The group splits: [Red](/player-characters/red) and Helisanna go out drinking with [Bru](/player-characters/bru).
 * [Silas](/player-characters/silas) and [Elspeth](/player-characters/elspeth) secure the garage.
 * A mysterious cloaked figure approaches Bru and [Red](/player-characters/red), asking for [Silas](/player-characters/silas). [Red](/player-characters/red) lies convincingly and they vanish.
 * The crew tallies their haul: nearly **14,250 gold**, an unusual amount for such a young party.
 ## 🔍 Session Highlights
-- 🎤 Helisana’s evolving rock-star mystique continues to grow despite middling rolls.
+- 🎤 Helisanna’s evolving rock-star mystique continues to grow despite middling rolls.
 * 💼 [Silas](/player-characters/silas) leans deep into capitalism and espionage.
 * 🔧 [Elspeth](/player-characters/elspeth) builds, traps, and throws herself into the race prep.
 * 🔥 [Bru](/player-characters/bru)’s fireworks *absolutely* saved the concert.

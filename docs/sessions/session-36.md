@@ -15,7 +15,7 @@ sidebar_position: 1
 
 The party awakens to Chalk Rock frantically alerting them that the Iron Claws have taken hostages in the great hall and are threatening to execute them. Despite some initial skepticism from Silas and Bru about whether they should care, the group quickly realizes the gravity of the situation when they learn the hostages include George (Olivia's nephew), Will, Rosco, Belvolt, Finnwick (who is actively bleeding out), and Lady Corwin.
 
-The party debates their approach while shopping for last-minute magical items and preparing for what promises to be their final confrontation with the Iron Claws. They use magical disguises to blend in with the ravers preparing for Helisana's concert in the great hall.
+The party debates their approach while shopping for last-minute magical items and preparing for what promises to be their final confrontation with the Iron Claws. They use magical disguises to blend in with the ravers preparing for Helisanna's concert in the great hall.
 
 ## The Hostage Crisis
 
@@ -23,23 +23,23 @@ Arriving at the great hall, the party discovers:
 - Six cages containing hostages suspended on scaffolding over the bridge
 - At least a dozen elite Iron Claw guards positioned throughout the hall
 - Lieutenant Grim Jaw (seemingly resurrected and sewn back together) and Captain Corwin (Triple C, looking like a vacant undead puppet) commanding the operation
-- Helisana's ravers preparing for a concert, seemingly unconcerned with the hostage situation
+- Helisanna's ravers preparing for a concert, seemingly unconcerned with the hostage situation
 
 Silas scouts ahead using his hat of disguise to appear as an Iron Claw soldier. The party splits up to rescue multiple hostages simultaneously, with some heading to the upper level and others staying below.
 
 ## Battle in the Great Hall
 
-As Helisana's concert begins (with a musical timer counting down), chaos erupts:
+As Helisanna's concert begins (with a musical timer counting down), chaos erupts:
 
 **Initial Rescues:**
 - Silas stabs and kills one guard near George's cage
 - Elspeth uses telekinetic shove to push an Iron Claw into the lava
 - Bru uses his cannon to push another guard into the lava with force ballista
 - Olivia (controlled by Taylor) attacks and defeats the guard threatening George
-- Liliana heals the dying Finnwick with healing word
+- Leliana heals the dying Finnwick with healing word
 
 **The Ravers Join the Fight:**
-- Helisana begins her electric guitar performance, unleashing Eldritch blasts at the Iron Claws
+- Helisanna begins her electric guitar performance, unleashing Eldritch blasts at the Iron Claws
 - Her ravers, fulfilling their mission, swarm through the hall attacking Iron Claw soldiers
 - The party continues fighting under time pressure as the music creates urgency
 
@@ -48,7 +48,7 @@ As Helisana's concert begins (with a musical timer counting down), chaos erupts:
 - Ohma delivers devastating martial arts attacks, dealing massive damage
 - Bru's heat metal spell causes excruciating damage to an Iron Claw, who eventually jumps into the lava to escape the pain
 - Multiple hostages are freed, though Belvolt is injured and Lady Corwin dies
-- Liliana uses hypnotic pattern to incapacitate several enemies including Marta
+- Leliana uses hypnotic pattern to incapacitate several enemies including Marta
 
 ## The Ultimate Deception
 
@@ -112,13 +112,13 @@ With Helga dead, the throne room begins collapsing:
 
 **Bru's Engineering:** Justin's elaborate trap with timed explosives showcases Bru's artificer skills and willingness to take risks. His coordination with Silas demonstrates growing trust despite their usual dynamic.
 
-**Liliana's Support:** Luke's strategic use of crowd control spells (hypnotic pattern) and support abilities (mantle of inspiration, healing word) proves crucial in keeping the party alive during chaotic combat.
+**Leliana's Support:** Luke's strategic use of crowd control spells (hypnotic pattern) and support abilities (mantle of inspiration, healing word) proves crucial in keeping the party alive during chaotic combat.
 
 **Ohma's Pragmatism:** Walden's monk demonstrates both combat prowess and tactical thinking by stealing Marta's escape ring and attempting to eliminate threats.
 
 **Elspeth's Determination:** Ali's paladin shows her protective nature, particularly in saving Belvolt and trying to ensure everyone escapes safely.
 
-**Party Dynamics:** The session highlights the party's ability to coordinate complex plans under pressure, even when some members (like Liliana and Elspeth) aren't fully briefed on the deception.
+**Party Dynamics:** The session highlights the party's ability to coordinate complex plans under pressure, even when some members (like Leliana and Elspeth) aren't fully briefed on the deception.
 
 ## Key Information Learned
 
@@ -136,6 +136,6 @@ With Helga dead, the throne room begins collapsing:
 - Will Grim Jaw and Triple C seek revenge?
 - What will be the political fallout in High Forge with Helga dead?
 - Can the party now use Marta's teleportation ring?
-- What role will Helisana and her ravers play going forward?
+- What role will Helisanna and her ravers play going forward?
 
 The session masterfully blended intense combat, clever deception, personal drama, and explosive action (literally). The party's coordinated betrayal of Helga represents a major turning point in the campaign, though the escape of key villains ensures future complications.

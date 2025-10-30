@@ -21,7 +21,7 @@ Helisanna Doomfall is a bard/warlock whose electric guitar axe serves as both in
 
 ### The Warlock Pact
 - Made a pact that separated her from her original optimistic self
-- Liliana emerged as the "light" she lost in the bargain
+- Leliana emerged as the "light" she lost in the bargain
 - Gained dark eldritch powers in exchange
 
 ### The Performer
@@ -52,9 +52,9 @@ Helisanna embodies the fusion of **artistic expression** and **magical might**, 
 - Leads Taco Cat's musical direction
 - Inspires the group both artistically and adventurously
 
-### Connection to Liliana
+### Connection to Leliana
 - Originally the same person before the pact
-- Represents the "dark" to Liliana's "light"
+- Represents the "dark" to Leliana's "light"
 - Complex relationship with her separated self
 
 ## Character Development

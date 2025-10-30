@@ -76,7 +76,7 @@ The party realizes Zeke is likely heading to **Eldora**, putting their investiga
 
 ### Negotiating the Caravan Delay
 
-Before departing on the Pilgrim's Path to search for **[Olivia](/player-characters/olivia)'s grandson George**, the party needs to handle their contract with **Tien's tiefling trading caravan**. **Helisana** attempts to negotiate having them wait, but despite having advantage from party assistance, rolls poorly and ends up agreeing to **pay 200 gold** for the traders to wait in Milstrom during their detour.
+Before departing on the Pilgrim's Path to search for **[Olivia](/player-characters/olivia)'s grandson George**, the party needs to handle their contract with **Tien's tiefling trading caravan**. **Helisanna** attempts to negotiate having them wait, but despite having advantage from party assistance, rolls poorly and ends up agreeing to **pay 200 gold** for the traders to wait in Milstrom during their detour.
 
 ### Setting Out on the Pilgrim's Path
 
@@ -89,7 +89,7 @@ They make camp for the evening and spot a **shepherd's cottage** with smoke risi
 - **[Red](/player-characters/red)** processes the devastating revelation about his parents' murder and the identity of their killer
 - **[Olivia](/player-characters/olivia)** demonstrates leadership in political discussions and shows crafting skills by making gifts
 - **[Silas](/player-characters/silas)** proves invaluable with his investigative and stealth abilities, though his greed continues to be a defining trait
-- **Helisana** struggles with substance use throughout the session, affecting her social interactions
+- **Helisanna** struggles with substance use throughout the session, affecting her social interactions
 - **[Bru](/player-characters/bru)** maintains his explosive enthusiasm while being "managed" by the more responsible party members
 - **[Elspeth](/player-characters/elspeth)** serves as a voice of reason and technical expertise
 
