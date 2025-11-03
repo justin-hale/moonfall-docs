@@ -6,7 +6,7 @@ summary: "The party investigates a missing persons case in the sewers and meets 
 featureimage: "C4E33.webp"
 image: "/img/C4E33.webp"
 podcastlink: "https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4E33-September-13-e3874pn"
-sidebar_position: 4
+sidebar_position: 5
 ---
 
 **[🎧 Podcast Link](https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4E33-September-13-e3874pn) • *September 11, 2025***

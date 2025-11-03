@@ -6,7 +6,7 @@ summary: "The party reaches [Red](/player-characters/red)'s ancestral clan and d
 featureimage: "https://d2a9bkgsuxmqe2.cloudfront.net/staging/podcast_uploaded_episode400/41448639/41448639-1734206819666-7ef380cd7d28e.jpg"
 image: "https://d2a9bkgsuxmqe2.cloudfront.net/staging/podcast_uploaded_episode400/41448639/41448639-1734206819666-7ef380cd7d28e.jpg"
 podcastlink: "https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4-E17-The-Skyhammers-e2sb36u"
-sidebar_position: 30
+sidebar_position: 31
 ---
 
 **[🎧 Podcast Link](https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4-E17-The-Skyhammers-e2sb36u) • *December 13, 2024***

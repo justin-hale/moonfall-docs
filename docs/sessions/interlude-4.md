@@ -5,7 +5,7 @@ description: "The party ventures into a treacherous swamp to retrieve the final 
 summary: "The party ventures into a treacherous swamp to retrieve the final item needed to help Toonlock, facing deadly perytons and undead in the bog waters."
 featureimage: "C4I4.webp"
 podcastlink: "https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4-Interlude-March-28th--2025-DM-Taylor-e30rb5i"
-sidebar_position: 23
+sidebar_position: 24
 ---
 
 **[🎧 Podcast Link](https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4-Interlude-March-28th--2025-DM-Taylor-e30rb5i) • *March 27, 2025***

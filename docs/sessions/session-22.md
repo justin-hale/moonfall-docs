@@ -6,7 +6,7 @@ summary: "The party faces an Eldoran Knight while [Red](/player-characters/red) 
 featureimage: "C4E22.webp"
 image: "/img/C4E22.webp"
 podcastlink: "https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4E22-June-6th-e34d032"
-sidebar_position: 15
+sidebar_position: 16
 ---
 
 **[🎧 Podcast Link](https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4E22-June-6th-e34d032) • *June 5, 2025***

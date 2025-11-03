@@ -6,7 +6,7 @@ summary: "Our heroes race the Highforge Sprint!"
 featureimage: "https://d2a9bkgsuxmqe2.cloudfront.net/staging/podcast_uploaded_episode400/41448639/41448639-1725735250244-b9d6f23e3a787.jpg"
 image: "https://d2a9bkgsuxmqe2.cloudfront.net/staging/podcast_uploaded_episode400/41448639/41448639-1725735250244-b9d6f23e3a787.jpg"
 podcastlink: "https://creators.spotify.com/pod/show/topher-hooper/episodes/C4-E6-Highforge-Sprint-e2o4abn"
-sidebar_position: 41
+sidebar_position: 42
 ---
 
 **[🎧 Podcast Link](https://creators.spotify.com/pod/show/topher-hooper/episodes/C4-E6-Highforge-Sprint-e2o4abn) • *September 6, 2024***

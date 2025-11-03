@@ -6,7 +6,7 @@ summary: "Our heroes throw a pretty good concert."
 featureimage: "https://d2a9bkgsuxmqe2.cloudfront.net/staging/podcast_uploaded_episode400/41448639/41448639-1725217230877-74e9a0fe61bc7.jpg"
 image: "https://d2a9bkgsuxmqe2.cloudfront.net/staging/podcast_uploaded_episode400/41448639/41448639-1725217230877-74e9a0fe61bc7.jpg"
 podcastlink: "https://creators.spotify.com/pod/show/topher-hooper/episodes/C4-E5-A-Pretty-Good-Concert-e2nsibf"
-sidebar_position: 42
+sidebar_position: 43
 ---
 
 **[🎧 Podcast Link](https://creators.spotify.com/pod/show/topher-hooper/episodes/C4-E5-A-Pretty-Good-Concert-e2nsibf) • *August 31, 2024***

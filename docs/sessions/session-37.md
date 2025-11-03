@@ -8,8 +8,7 @@ image: "/img/C4E37.webp"
 podcastlink: ""
 sidebar_position: 1
 ---
-
-**October 24, 2025**
+**[🎧 Podcast Link](https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4E37-October-24-e3a9oua) • *October 24, 2025**
 
 ## Recap: The Fall of Helja Ironart
 
