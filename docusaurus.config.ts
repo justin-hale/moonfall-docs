@@ -20,6 +20,9 @@ const config: Config = {
   // For custom domains, use '/'
   baseUrl: '/',
 
+  // Ensure trailing slashes for consistent URLs
+  trailingSlash: true,
+
   // GitHub pages deployment config.
   organizationName: 'justin-hale', // Your GitHub username
   projectName: 'moonfall-docs', // Your repo name
@@ -57,31 +60,16 @@ const config: Config = {
     ],
   ],
 
-  themes: [
-    [
-      require.resolve('@cmfcmf/docusaurus-search-local'),
-      {
-        // Options here
-        indexDocs: true,
-        indexBlog: false,
-        indexPages: false,
-        language: 'en',
-        style: undefined,
-        maxSearchResults: 8,
-        // Useful for debugging
-        lunr: {
-          tokenizerSeparator: /[\s\-]+/,
-          b: 0.75,
-          k1: 1.2,
-          titleBoost: 5,
-          contentBoost: 1,
-          tagsBoost: 3,
-        },
-      },
-    ],
-  ],
-
   themeConfig: {
+    // Algolia Search Configuration
+    algolia: {
+      appId: 'N7HDFLOV04',
+      apiKey: '8ff99d380d018501b49942734aaed14a',
+      indexName: 'moonfallsessions',
+      contextualSearch: true,
+      searchParameters: {},
+      searchPagePath: 'search',
+    },
     // Default social card for pages without specific images - using Session 1 podcast background
     image: 'img/moonfall-social-card.jpg',
     
