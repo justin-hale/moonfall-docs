@@ -92,6 +92,7 @@ const config: Config = {
       {property: 'og:type', content: 'website'},
       {property: 'og:updated_time', content: new Date().toISOString()},
       {name: 'cache-control', content: 'no-cache, no-store, must-revalidate'},
+      {name: 'algolia-site-verification', content: '39B38526BA0E37E0'},
     ],
     
     colorMode: {
