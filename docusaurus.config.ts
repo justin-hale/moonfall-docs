@@ -66,9 +66,10 @@ const config: Config = {
       appId: 'N7HDFLOV04',
       apiKey: '8ff99d380d018501b49942734aaed14a',
       indexName: 'moonfallsessions',
-      contextualSearch: true,
-      searchParameters: {},
-      searchPagePath: 'search',
+      contextualSearch: false,
+      searchParameters: {
+        facetFilters: [],
+      },
     },
     // Default social card for pages without specific images - using Session 1 podcast background
     image: 'img/moonfall-social-card.jpg',
