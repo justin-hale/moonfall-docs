@@ -182,15 +182,100 @@ The party makes their way to the basement entrance with another round of perform
 - **[Scarlet]** trips and loses her hat, but the party forms a protective circle around her to shield her from ravers
 
 **Navigation**:
-- **Naomi** provides directions to the basement through the back corridors
-- The party must navigate past boiler rooms, storage areas, and maintenance tunnels
-- They encounter minimal resistance due to their disguises
+- **Naomi** provides directions to use the key to access the basement elevator
+- The key grants security clearance to the restricted basement level
+- The party takes the elevator down to the secure area
+
+## The Basement Puzzle Chambers
+
+### Chamber 1: The Aquan Door
+
+The elevator opens into a dimly lit stone chamber with a single door at the far end. Next to the door sits a basin filled with water. Symbols are carved into the wall above the door.
+
+**The Puzzle**:
+- **[Ohma](/player-characters/ohma)** rolls exceptional history checks (including one result in the mid-20s)
+- He instantly recognizes the symbols as **Aquan**, his native underwater language
+- The text reads: "Ask me to proceed"
+- **[Ohma](/player-characters/ohma)** attempts to speak Aquan but nothing comes out - he realizes he's never been able to speak his native tongue since leaving his underwater home
+
+**The Solution**:
+- **[Bru](/player-characters/bru)** climbs onto **[Ohma](/player-characters/ohma)'s** back and pushes his head toward the water
+- **[Ohma](/player-characters/ohma)** realizes the language can only be spoken underwater
+- Submerged in the basin, **[Ohma](/player-characters/ohma)** says "May we proceed?" in Aquan
+- The door immediately opens
+- The party notes that **[Ohma](/player-characters/ohma)** can hold his breath for an hour but cannot breathe underwater
+
+### Chamber 2: Don't Knock the Door
+
+The party enters a stone room with a door bearing text in Common: "Do not knock the door" (with "knock" capitalized).
+
+**Initial Confusion**:
+- **[Scarlet]** tries to simply open the door and takes 3 bludgeoning damage from a golden magical force that punches her back
+- **[Ohma](/player-characters/ohma)** flexes and tries to force the door open, taking 2 bludgeoning damage from another punch
+- **[Elspeth](/player-characters/elspeth)** uses mage hand to caress/knock the door - it takes damage and dissipates
+- **[Scarlet]** casts detect magic and determines it's abjuration (protection) magic
+- The party debates getting the water bowl from the previous room, trying knock-knock jokes, and whether "knock" is some kind of magical spell
+
+**Scarlet's Book Problem**:
+- Throughout the puzzle, **[Scarlet]** keeps pulling out books: "100 Riddles and Puzzles," a book about water bowls, "Alexandra's Favorite Stone Room Book"
+- **[Bru](/player-characters/bru)** and **[Silas](/player-characters/silas)** keep slapping books out of her hands
+- "This is where book burning starts"
+- **[Scarlet]** reveals she has a bag of holding filled with books (accidentally established as canon by DM Ellis)
+
+**The Breakthrough**:
+- **[Silas](/player-characters/silas)** rolls a 29 on insight
+- Realizes "knock" in Common has multiple meanings beyond physically knocking
+- It can also mean to insult or criticize
+- The sign means "Do not knock (insult) the door"
+
+**The Solution**:
+- **[Silas](/player-characters/silas)** compliments the door: "Door, you are the finest door I have ever seen in my short time here on this earth. And I got to say, you're my favorite door"
+- The door immediately opens
+- Ellis (DM) admits they were very close to solving it early on when someone briefly mentioned complimenting but didn't follow through
+
+### Chamber 3: The Sign Language Door
+
+This room contains a door with no handle. Pictograms cover the walls showing a figure using hand signs to communicate a message.
+
+**Investigation**:
+- **[Scarlet]** rolls 25 on investigation
+- **[Silas](/player-characters/silas)** rolls 29 on insight (continuing his hot streak)
+- The images depict someone using sign language, but most of the party can't read it
+
+**The Solution**:
+- **[Leliana](/player-characters/leliana)** knows sign language
+- She reads the message: "To go forward, you must go back"
+- The party tries walking back through the previous door, but it simply closes behind them
+- They realize they need to walk *backwards* through the next door
+- **[Silas](/player-characters/silas)** walks backward through the door and disappears, teleporting to the next room
+- **[Ohma](/player-characters/ohma)** doesn't walk backward well due to his shell, so he does a backwards jumping "cowabunga" through the door, nearly crashing into **[Silas](/player-characters/silas)** (who makes a DC 22 Dexterity save to dodge)
+- **[Bru](/player-characters/bru)** climbs onto **[Elspeth](/player-characters/elspeth)**, and when **[Scarlet]** walks through backward, **[Bru](/player-characters/bru)** "accidentally" puts his hands on her rear, leading to jokes about **[Scarlet]** having books on "goblin love"
+
+### Chamber 4: The Crushing Ceiling
+
+The final chamber is sunken down (like a conversation pit) with a lever next to a door with no handle on the far side.
+
+**The Trap**:
+- **[Scarlet]** (having the lowest HP at 26/29) volunteers to pull the lever
+- The ceiling begins slowly descending to crush the party
+- Pushing the lever back makes it stop and retract to its original position
+- There's no other interactable object in the room
+
+**Failed Attempts**:
+- The party tries opening the door while holding the lever down - nothing happens
+- They consider lying flat under where the previous door was to avoid being crushed
+- They debate running back through the door they came through after pulling the lever
+- **[Scarlet]** lays down in the "conversation pit" and pulls the lever
+
+**The Solution**:
+- The party realizes they need to let the ceiling come all the way down
+- It's not actually crushing them - it's lowering the entire floor/room to the next level
+- They pull the lever and wait as the room descends
+- When it stops, they're at the basement level with the reset chamber
 
 ## The Reset Room
 
-### Finding the Factory Reset
-
-**Naomi** leads them to a heavily secured room in the basement:
+**Naomi** explains the reset mechanism as they enter the final chamber:
 
 **The Reset Mechanism**:
 - A large circular chamber with crystalline walls
@@ -224,36 +309,25 @@ The party makes their way to the basement entrance with another round of perform
 
 ## Activating the Reset
 
-### The Countdown
-
-**[Silas](/player-characters/silas)** inserts the key card into the slot:
-
-**The Activation**:
-- Magical energy begins swirling around the room
-- The runes on the floor light up in sequence
-- A countdown timer appears in the air: 60 seconds
-- **[Silas](/player-characters/silas)** pulls the lever
+**[Silas](/player-characters/silas)** inserts the key card into the slot and pulls the lever:
 
 **The Reset Effect**:
+- Magical energy swirls around the room
+- The runes on the floor light up in sequence
+- A countdown timer appears in the air: 60 seconds
 - Throughout the casino, magical pulses ripple outward
 - Ravers begin disappearing in flashes of light, sent back to **High Forge**
 - **[Helisanna](/player-characters/helisanna)** and her entire entourage vanish mid-concert
 - The halfpipe, graffiti, and destruction begin magically cleaning and repairing
 - **Marvin** reappears in his office, confused but unharmed
 
-### Return Home
-
 **The Party's Departure**:
 - The party members begin glowing as the teleportation magic affects them
 - **[Silas](/player-characters/silas)** blows a kiss to **Naomi**
 - **Naomi**: "I'll see you soon, sugar bear"
 - Flash of light, and the party is back in **[Olivia](/player-characters/olivia)'s** apartment in **High Forge**
-
-**The Aftermath**:
 - **[Helisanna](/player-characters/helisanna)** and all the ravers are back in **High Forge**, confused
-- The **Ford F-150** is still wherever it was (thankfully not at the casino)
 - **Pepsi** is happy to see everyone return
-- **[Olivia](/player-characters/olivia)** asks how it went
 
 ## Character Moments
 
@@ -333,50 +407,16 @@ The party discusses **[Olivia](/player-characters/olivia)'s** past "cheating sca
 6. **David Blaine and Fufu**: The magic show duo's dynamic and **Fufu's** treatment as **Marvin's** most trusted employee
 7. **Julius's Wellbeing**: **Naomi's** baby son needed the chaos to end to get proper sleep
 
-## Themes and Development
-
-### Found Family
-
-The session reinforces the party's found family dynamics:
-- **[Silas](/player-characters/silas)** protecting his chosen family (**Naomi** and **Julius**)
-- **[Bru](/player-characters/bru)** and **[Silas](/player-characters/silas)** as roommates with **Pepsi**
-- The party's collective care for each other and their companions (**Kevin**, **Boxbox**, **Pepsi**)
-
-### Loyalty and Trust
-
-Multiple characters demonstrate loyalty:
-- **Fufu** trusted with the most important key in the casino
-- The resistance members staying loyal despite **Helisanna's** thrall
-- **[Silas](/player-characters/silas)** immediately rallying to help **Naomi**
-- The party working together despite knowing they'll be separated from **Naomi**
-
-### Chaos vs. Order
-
-The session explores the tension between:
-- **[Helisanna](/player-characters/helisanna)'s** chaotic takeover vs. the casino's structured operations
-- **[Bru](/player-characters/bru)'s** appreciation for destruction vs. the need to restore order
-- The ravers' freedom vs. the employees' need for safety and stability
-
-### Consequences and Responsibility
-
-**[Helisanna](/player-characters/helisanna)'s** actions create real consequences:
-- Employees unable to work or rest
-- **Fufu** forced into overwork
-- **Naomi's** baby unable to sleep
-- The party must clean up the mess despite **Helisanna** being their ally
-
 ## Session Conclusion
 
-This interlude successfully provides a lighter, more comedic adventure while still delivering character development and relationship moments. The heist-style mission showcases the party's problem-solving abilities, and the quick resolution (much faster than the DM anticipated) demonstrates their growing competence.
+This interlude provided a lighter, more comedic adventure with clever puzzle-solving and character moments. The party solved the basement trials much faster than the DM anticipated (who had prepared additional puzzles), demonstrating their growing problem-solving skills. **[Silas](/player-characters/silas)'s** relationship with **Naomi** added emotional weight to the otherwise humorous session, while **[Scarlet]'s** book obsession and the psychic phone antics kept things entertaining.
 
-The session also sets up future complications with the **Lotus Casino** being offline and **[Helisanna](/player-characters/helisanna)** returning to **High Forge** with her ravers. **[Silas](/player-characters/silas)'s** separation from **Naomi** creates personal stakes, while the party's successful rescue operation reinforces their reputation as reliable problem-solvers.
-
-Most importantly, the session balances humor (the psychic phone antics, **[Scarlet]'s** reactions to **Fufu**, **[Olivia](/player-characters/olivia)'s** racing scandal) with genuine emotion (**[Silas](/player-characters/silas)** and **Naomi's** goodbye, concern for baby **Julius**), creating a well-rounded adventure that advances both plot and character relationships.
+The session successfully balanced humor with genuine character development and sets up future complications with the **Lotus Casino** offline and **[Helisanna](/player-characters/helisanna)** returning to **High Forge**.
 
 ## Next Session Preview
 
 The party discussed planning for next week's session:
 - **[Silas](/player-characters/silas)** and **[Bru](/player-characters/bru)'s** backstory heist where their crew was killed by **Helja** in **Greyport**
 - Other players will create third-level characters for the crew (suggested names: **Peaches**, **Cream**, **Rocky Road**, **Strawberry Shortcake**)
-- **[Bru](/player-characters/bru)** will be known as **"Bartleby Thatch"** during the heist
+- **[Silas](/player-characters/silas)** will be known as **"Bartleby Thatch"** during the heist
 - The session will be run as a flashback/memory sequence
