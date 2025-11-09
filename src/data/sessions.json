@@ -219,6 +219,12 @@
   ],
   "interludes": [
     {
+      "number": 12,
+      "title": "Interlude 12",
+      "href": "/sessions/interlude-12",
+      "id": "interlude-12"
+    },
+    {
       "number": 11,
       "title": "Interlude 11",
       "href": "/sessions/interlude-11",

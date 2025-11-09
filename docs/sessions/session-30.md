@@ -6,7 +6,7 @@ summary: "The party completes their ambitious vault heist while facing unexpecte
 featureimage: "C4E30.webp"
 image: "/img/C4E30.webp"
 podcastlink: "https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4E30-August-22-e377kpp"
-sidebar_position: 8
+sidebar_position: 9
 ---
 
 **[🎧 Podcast Link](https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4E30-August-22-e377kpp) • *August 21, 2025***

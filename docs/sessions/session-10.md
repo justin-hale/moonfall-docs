@@ -6,7 +6,7 @@ summary: "The party uncovers a devil's grip on Milstrom"
 featureimage: "https://d2a9bkgsuxmqe2.cloudfront.net/staging/podcast_uploaded_episode400/41448639/41448639-1728757947491-e3ed88ae9a4b.jpg"
 image: "https://d2a9bkgsuxmqe2.cloudfront.net/staging/podcast_uploaded_episode400/41448639/41448639-1728757947491-e3ed88ae9a4b.jpg"
 podcastlink: "https://creators.spotify.com/pod/show/topher-hooper/episodes/C4-E10-The-[Red](/player-characters/red)-Scare-e2piu6o"
-sidebar_position: 38
+sidebar_position: 39
 ---
 
 **[🎧 Podcast Link](https://creators.spotify.com/pod/show/topher-hooper/episodes/C4-E10-The-[Red](/player-characters/red)-Scare-e2piu6o)**
