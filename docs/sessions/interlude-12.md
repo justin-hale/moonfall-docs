@@ -4,7 +4,7 @@ date: 2025-11-07
 description: "Taco Cat returns to the Lotus Casino to help Naomi deal with Helisanna's takeover and the chaos of her raver occupation."
 summary: "Taco Cat returns to the Lotus Casino to help Naomi deal with Helisanna's takeover and the chaos of her raver occupation."
 featureimage: "C4I12.webp"
-image: "C4I12.webp"
+image: "/img/C4I12.webp"
 podcastlink: ""
 sidebar_position: 1
 ---
