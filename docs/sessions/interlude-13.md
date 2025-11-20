@@ -5,7 +5,7 @@ description: 'A flashback heist revealing how Bru and Silas lost their original 
 summary: 'In this tragic flashback episode, the party played the doomed Sisyphus Circle gang attempting a vault heist on the Pandora gang in Greyport. After successfully infiltrating through rainbow puzzles, time riddles, and explosive traps, they recovered a mysterious dragon orb—only to face betrayal at the dropoff. Helja Ungar revealed herself as the client and executed the entire crew except Bru and Silas, who escaped through the storm drains with the orb, cementing their "always keep moving" philosophy.'
 featureimage: '/img/C4I13.webp'
 image: '/img/C4I13.webp'
-podcastlink: ''
+podcastlink: 'https://open.spotify.com/episode/6LvMWf0oglMydGymA1aFz8?si=XLqPZluPRKmAeakMjjZ6Gg'
 sidebar_position: 1
 ---
 
