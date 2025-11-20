@@ -6,7 +6,7 @@ summary: "The party holds a memorial for [Red](/player-characters/red) while unc
 featureimage: "C4E23.webp"
 image: "/img/C4E23.webp"
 podcastlink: "https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4E23-June-13th-e34d08c"
-sidebar_position: 16
+sidebar_position: 17
 ---
 
 **[🎧 Podcast Link](https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4E23-June-13th-e34d08c) • *June 12, 2025***

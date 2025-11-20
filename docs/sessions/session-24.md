@@ -6,7 +6,7 @@ summary: "The party receives a mysterious radio transmission and uncovers danger
 featureimage: "C4E24.webp"
 image: "/img/C4E24.webp"
 podcastlink: "https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4E24-June-20th-e34it9n"
-sidebar_position: 15
+sidebar_position: 16
 ---
 
 **[🎧 Podcast Link](https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4E24-June-20th-e34it9n) • *June 19, 2025***

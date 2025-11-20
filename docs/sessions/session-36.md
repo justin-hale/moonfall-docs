@@ -6,7 +6,7 @@ summary: "Taco Cat races against time to save hostages and confront the Iron Cla
 featureimage: "C4E36.webp"
 image: "/img/C4E36.webp"
 podcastlink: "https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4E36-October-10-e39d26s"
-sidebar_position: 3
+sidebar_position: 4
 ---
 
 **[🎧 Podcast Link](https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4E36-October-10-e39d26s) • *October 9, 2025***

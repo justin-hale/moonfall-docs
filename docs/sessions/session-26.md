@@ -6,7 +6,7 @@ summary: "The party infiltrates High Forge through underground tunnels, rescues 
 featureimage: "C4E26.webp"
 image: "/img/C4E26.webp"
 podcastlink: "https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4E26-July-11th-e35f9op"
-sidebar_position: 13
+sidebar_position: 14
 ---
 
 **[🎧 Podcast Link](https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4E26-July-11th-e35f9op) • *July 10, 2025***
