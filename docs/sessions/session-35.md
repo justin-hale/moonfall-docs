@@ -6,7 +6,7 @@ summary: "The party grapples with Helisanna's transformation and prepares for th
 featureimage: "C4E35.webp"
 image: "/img/C4E35.webp"
 podcastlink: "https://creators.spotify.com/pod/show/topher-hooper/episodes/C4-E1-Dinner-and-Nightcap-e393cbr"
-sidebar_position: 5
+sidebar_position: 6
 ---
 
 **[🎧 Podcast Link](https://creators.spotify.com/pod/show/topher-hooper/episodes/C4-E1-Dinner-and-Nightcap-e393cbr) • *October 2, 2025***
