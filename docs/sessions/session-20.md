@@ -6,7 +6,7 @@ summary: "The Taco Cat crew ventures into the mysterious wormhole for [Red](/pla
 featureimage: "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode400/41448639/41448639-1736613509472-2f2825544348a.jpg"
 image: "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode400/41448639/41448639-1736613509472-2f2825544348a.jpg"
 podcastlink: "https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4-E20-Trials-of-the-WM-Hole-e2tc0d8"
-sidebar_position: 32
+sidebar_position: 33
 ---
 
 **[🎧 Podcast Link](https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4-E20-Trials-of-the-WM-Hole-e2tc0d8) • *January 10, 2025***

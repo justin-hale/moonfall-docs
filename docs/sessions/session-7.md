@@ -6,7 +6,7 @@ summary: "A Dragon Attacks! Our heroes seek to escape highforge!"
 featureimage: "https://d2a9bkgsuxmqe2.cloudfront.net/staging/podcast_uploaded_episode400/41448639/41448639-1726335771728-06dca69a352f9.jpg"
 image: "https://d2a9bkgsuxmqe2.cloudfront.net/staging/podcast_uploaded_episode400/41448639/41448639-1726335771728-06dca69a352f9.jpg"
 podcastlink: "https://creators.spotify.com/pod/show/topher-hooper/episodes/C4-E7-Escape-Highforge-e2od837"
-sidebar_position: 44
+sidebar_position: 45
 ---
 
 **[🎧 Podcast Link](https://creators.spotify.com/pod/show/topher-hooper/episodes/C4-E7-Escape-Highforge-e2od837) • *September 13, 2024***

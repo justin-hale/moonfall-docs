@@ -6,7 +6,7 @@ summary: 'In this tragic flashback episode, the party played the doomed Sisyphus
 featureimage: '/img/C4I13.webp'
 image: '/img/C4I13.webp'
 podcastlink: 'https://open.spotify.com/episode/6LvMWf0oglMydGymA1aFz8?si=XLqPZluPRKmAeakMjjZ6Gg'
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 # Interlude XIII: The Sisyphus Circle

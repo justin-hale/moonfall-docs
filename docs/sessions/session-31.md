@@ -6,7 +6,7 @@ summary: "The party investigates a mysterious cabin in the mountains and discove
 featureimage: "C4E31.webp"
 image: "/img/C4E31.webp"
 podcastlink: "https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4E31-August-29-e37q3re"
-sidebar_position: 10
+sidebar_position: 11
 ---
 
 **[🎧 Podcast Link](https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4E31-August-29-e37q3re) • *August 28, 2025***

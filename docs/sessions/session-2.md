@@ -6,7 +6,7 @@ summary: "The party is in the dwarven city of High Forge, a place with strict ru
 featureimage: "https://d2a9bkgsuxmqe2.cloudfront.net/staging/podcast_uploaded_episode400/41448639/41448639-1723918380058-9f3d300d07063.jpg"
 image: "https://d2a9bkgsuxmqe2.cloudfront.net/staging/podcast_uploaded_episode400/41448639/41448639-1723918380058-9f3d300d07063.jpg"
 podcastlink: "https://creators.spotify.com/pod/show/topher-hooper/episodes/C4-E2-A-Rock-Show-And-A-Briefcase-e2n9urq"
-sidebar_position: 49
+sidebar_position: 50
 ---
 
 **[🎧 Podcast Link](https://creators.spotify.com/pod/show/topher-hooper/episodes/C4-E2-A-Rock-Show-And-A-Briefcase-e2n9urq) • *August 8, 2024***

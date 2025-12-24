@@ -6,7 +6,7 @@ summary: "The party enters the woods to break a fae bargain and strikes a danger
 featureimage: "https://d2a9bkgsuxmqe2.cloudfront.net/staging/podcast_uploaded_episode400/41448639/41448639-1728152431639-e540711b2853.jpg"
 image: "https://d2a9bkgsuxmqe2.cloudfront.net/staging/podcast_uploaded_episode400/41448639/41448639-1728152431639-e540711b2853.jpg"
 podcastlink: "https://creators.spotify.com/pod/show/topher-hooper/episodes/C4-E9A-Stranger-at-the-Crossroads-e2p98i0"
-sidebar_position: 42
+sidebar_position: 43
 ---
 
 **[🎧 Podcast Link](https://creators.spotify.com/pod/show/topher-hooper/episodes/C4-E9A-Stranger-at-the-Crossroads-e2p98i0) • *October 4, 2024***

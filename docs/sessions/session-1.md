@@ -6,7 +6,7 @@ summary: "Beginning of our new campaign, Moonfall. Our \"heroes\" go on a night 
 featureimage: "https://d2a9bkgsuxmqe2.cloudfront.net/staging/podcast_uploaded_episode400/41448639/41448639-1722888138489-a7a4bde8e442a.jpg"
 image: "https://d2a9bkgsuxmqe2.cloudfront.net/staging/podcast_uploaded_episode400/41448639/41448639-1722888138489-a7a4bde8e442a.jpg"
 podcastlink: "https://creators.spotify.com/pod/show/topher-hooper/episodes/C4-E1-Dinner-and-Nightcap-e2mrnbk"
-sidebar_position: 50
+sidebar_position: 51
 ---
 
 **[🎧 Podcast Link](https://creators.spotify.com/pod/show/topher-hooper/episodes/C4-E1-Dinner-and-Nightcap-e2mrnbk) • *August 4, 2024***

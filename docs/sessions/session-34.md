@@ -6,7 +6,7 @@ summary: "The party faces Crang and confronts a shocking revelation about Helisa
 featureimage: "C4E34.webp"
 image: "/img/C4E34.webp"
 podcastlink: "https://open.spotify.com/episode/1ENO5n70M8NByM8GLDrAeM?si=b7y7paQHS6SLpW_5RVG4bg"
-sidebar_position: 7
+sidebar_position: 8
 ---
 
 **[🎧 Podcast Link](https://open.spotify.com/episode/1ENO5n70M8NByM8GLDrAeM?si=b7y7paQHS6SLpW_5RVG4bg) • *September 25, 2025***

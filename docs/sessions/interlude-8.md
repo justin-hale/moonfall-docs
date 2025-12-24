@@ -5,7 +5,7 @@ description: "The party finds themselves transformed into food ingredients in a 
 summary: "The party finds themselves transformed into food ingredients in a twisted cooking show competition hosted by Crowley."
 featureimage: "C4I8.webp"
 podcastlink: "https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4-interlude-May-2nd--2025-DM-Zack-e32b0sh"
-sidebar_position: 23
+sidebar_position: 24
 ---
 
 **[🎧 Podcast Link](https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4-interlude-May-2nd--2025-DM-Zack-e32b0sh) • *May 1, 2025***

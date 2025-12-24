@@ -1,25 +1,25 @@
 ---
-title: 'Interlude XIV: The Greatport Speedway Conspiracy'
+title: 'Interlude XIV: The Greyport Speedway Conspiracy'
 date: '2025-12-05'
 description: "A flashback to Elspeth Cooper's racing past, revealing a six-racer conspiracy to frame her for cheating and end her legendary career in the magical racing circuit."
-summary: "In this racing-themed flashback episode, players took on the roles of six rival racers conspiring to disgrace Elspeth Cooper (Elspeth's past identity) and remove her from the racing circuit. What began as various sabotage attempts—from filing down her chassis to planting poppy seed muffins for a drug test—culminated in a high-stakes finale race at Greatport Speedway using custom D&D racing mechanics. The session revealed Elspeth's previous life as a 20+ year veteran racer and team owner who stood against corruption, setting up her eventual transformation into the adventurer the party knows."
+summary: "In this racing-themed flashback episode, players took on the roles of six rival racers conspiring to disgrace Elspeth Cooper (Elspeth's past identity) and remove her from the racing circuit. What began as various sabotage attempts—from filing down her chassis to planting poppy seed muffins for a drug test—culminated in a high-stakes finale race at Greyport Speedway using custom D&D racing mechanics. The session revealed Elspeth's previous life as a 20+ year veteran racer and team owner who stood against corruption, setting up her eventual transformation into the adventurer the party knows."
 featureimage: '/img/C4I14.webp'
 image: '/img/C4I14.webp'
 podcastlink: ''
-sidebar_position: 1
+sidebar_position: 2
 ---
 
-# Interlude XIV: The Greatport Speedway Conspiracy
+# Interlude XIV: The Greyport Speedway Conspiracy
 
 ## Session Overview
 
-This flashback session revealed **[Elspeth](/player-characters/elspeth)**'s secret past as **Elspeth Cooper**, a legendary dwarf racer in the magical racing circuit. The party played six rival racers who conspired to frame Elspeth for cheating and get her permanently banned from racing. The session combined Scott Pilgrim-style villain energy with Formula 1 racing mechanics, as the conspirators attempted increasingly ridiculous sabotage schemes before facing Elspeth in the season finale race at Greatport Speedway.
+This flashback session revealed **[Elspeth](/player-characters/elspeth)**'s secret past as **Elspeth Cooper**, a legendary dwarf racer in the magical racing circuit. The party played six rival racers who conspired to frame Elspeth for cheating and get her permanently banned from racing. The session combined Scott Pilgrim-style villain energy with Formula 1 racing mechanics, as the conspirators attempted increasingly ridiculous sabotage schemes before facing Elspeth in the season finale race at Greyport Speedway.
 
 ## The Conspiracy Meeting
 
 ### Tito Bonito's Ultimatum
 
-The session began with **Tito Bonito**, president of the racing circuit board, calling a secret meeting with six racers at the **Greatport Speedway** during finale race weekend. Notably absent from the meeting: **Elspeth Cooper**, the seventh and most successful racer.
+The session began with **Tito Bonito**, president of the racing circuit board, calling a secret meeting with six racers at the **Greyport Speedway** during finale race weekend. Notably absent from the meeting: **Elspeth Cooper**, the seventh and most successful racer.
 
 **The Conspirators:**
 - **Verstap** (Justin) - Dominant racer based on Max Verstappen, sponsored by Infinity Internet, Sun Bills coffee, and Blue Ox energy drinks
@@ -143,7 +143,7 @@ Throughout the pre-race scheming, Tito revealed the true architect of the conspi
 
 This revealed a tragic family betrayal at the heart of the conspiracy—Elspeth's own brother was engineering her disgrace.
 
-## The Greatport Finale Race
+## The Greyport Finale Race
 
 ### Custom Racing Mechanics
 
@@ -381,5 +381,5 @@ The conspirators had successfully framed Elspeth (chassis filing and crystal sab
 ---
 
 :::tip Next Session Preview
-Continue the Greatport Finale Race with refined mechanics to determine Elspeth Cooper's fate and the success of the six-racer conspiracy.
+Continue the Greyport Finale Race with refined mechanics to determine Elspeth Cooper's fate and the success of the six-racer conspiracy.
 :::

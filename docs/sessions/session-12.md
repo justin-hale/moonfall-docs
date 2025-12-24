@@ -6,7 +6,7 @@ summary: "The party pursues werewolves, recruits an unlikely ally, and faces the
 featureimage: "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode400/41448639/41448639-1729957948962-543bad37638b1.jpg"
 image: "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode400/41448639/41448639-1729957948962-543bad37638b1.jpg"
 podcastlink: "https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4-E12-Out-of-the-frying-pan--into-the-Fire-e2q61s3"
-sidebar_position: 39
+sidebar_position: 40
 ---
 
 **[🎧 Podcast Link](https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4-E12-Out-of-the-frying-pan--into-the-Fire-e2q61s3) • *October 25, 2024***
