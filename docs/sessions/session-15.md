@@ -6,7 +6,7 @@ summary: "The party pursues George and the pilgrims up Grimvar's Spine, discover
 featureimage: "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode400/41448639/41448639-1732396351179-c9e04da0627fb.jpg"
 image: "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode400/41448639/41448639-1732396351179-c9e04da0627fb.jpg"
 podcastlink: "https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4-E15-On-Georges-Heels-e2rdgg7"
-sidebar_position: 37
+sidebar_position: 38
 ---
 
 **[🎧 Podcast Link](https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4-E15-On-Georges-Heels-e2rdgg7) • *November 22, 2024***

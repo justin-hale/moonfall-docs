@@ -1,532 +1,736 @@
 ---
-title: 'Interlude XV: The Sacred Disturbance of Tortuga'
-date: '2025-12-19'
-description: "A flashback to young Bru's life on the Island of Tortuga before it rose from the sea, revealing the goblin bowling club's sacred mission to awaken the Turtle God through chaos."
-summary: "In this backstory session, players took on the roles of Bru's extended goblin family—members of the Bru's Cousins bowling league tasked with creating a 'sacred disturbance' to awaken the Turtle God. What began as a quest for prophetic coordinates involving oracles, fireworks, and a 7-Eleven bathroom laboratory escalated into an explosive finale that literally tore the island from the sea on the back of the awakened Turtle God. The session revealed young Bru's early experiments with explosives and established the tragic event that forced him to leave his homeland."
-featureimage: '/img/C4I15.webp'
-image: '/img/C4I15.webp'
+title: 'Interlude XV: The Greyport Finale Race'
+date: '2025-12-12'
+description: "Conclusion of the racing conspiracy against Elspeth Cooper, featuring experimental D&D racing mechanics, increasingly elaborate sabotage, and the ultimate disgrace of a racing legend."
+summary: "The six-racer conspiracy against Elspeth Cooper (Elspeth's past identity) reached its climax in the Greyport Speedway finale race. Using refined D&D racing mechanics, the conspirators employed red zones for illegal magic, VVS boost zones, and increasingly absurd sabotage attempts—including Wile E. Coyote painted tunnels, slow spells affecting allies, magic weapons, and strategic firebolts. Despite not winning the race, the frame job succeeded: Elspeth was disgraced and accused of using her brother's unregistered racing crystal, ending her 20+ year career. The session mixed high-speed tactical racing with comedy as every conspirator's schemes spiraled into chaos."
+featureimage: '/img/C4I14.webp'
+image: '/img/C4I14.webp'
 podcastlink: ''
-sidebar_position: 1
+sidebar_position: 2
 ---
 
-# Interlude XV: The Sacred Disturbance of Tortuga
+# Interlude XV: The Greyport Finale Race
 
 ## Session Overview
 
-This flashback session revealed **[Bru](/player-characters/bru)**'s life before the main campaign, when he was a young goblin (around 8-10 years old) living on the Island of Tortuga. The party played members of Bru's extended family—the **Bru's Cousins** bowling league—tasked by their godfather **Taskmaster Grit** with creating a "sacred disturbance" to awaken the Turtle God upon which their island rested. The session combined family comedy, goblin chaos, and explosive finales, ultimately revealing how the island rose from the sea and why Bru had to leave his homeland.
+Continuing directly from [Interlude XIV](/sessions/interlude-14), this session concluded the flashback race conspiracy against **Elspeth Cooper** (Elspeth's previous identity). The experimental D&D racing mechanics were refined with action economy changes, red zones for magical abilities, and VVS (Vroom Vroom System) boost zones. The six conspirators—Verstap, Den Lin, Serge, Scotty Mac, Lancey Stroll, and Xugor—deployed increasingly chaotic sabotage attempts while racing three laps around Greyport Speedway. Though the race outcome was secondary, the conspiracy succeeded: Elspeth was accused of using her brother Zachary's unregistered racing crystal, ending her legendary career in disgrace.
 
-## The Bru Family & Bowling League
+## Pre-Race Recap: The Conspiracy
 
-### The Sacred Mission
+As established in Interlude XIV, **Tito Bonito** (racing circuit board president) assembled six racers to disgrace **Elspeth Cooper** within 24 hours. Her crime: voting against a unanimous board decision that would have brought "big money" into the sport. All team owners except Elspeth had agreed she must be removed.
 
-**Taskmaster Grit**, godfather of the Bru's Cousins bowling league, gathered the family for an urgent mission during the Winter King's holiday (winter solstice). The goblin religion required a **sacred disturbance**—a massive chaos event to shake the very foundation of their island and awaken the Turtle God. Multiple bowling leagues competed to create the biggest disturbance, with eternal consequences for failure.
+**The Conspirators:**
+- **Verstap** (Justin) - Dominant golden boy, sponsored by Infinity Internet
+- **Den Lin** (Tyram) - Cartoonish villain with orphan coal mines and teleportation magic
+- **Serge** (Ellis) - Desperate second-tier driver, career on the line
+- **Scotty Mac** (Christopher) - Elspeth's best friend, torn by loyalty
+- **Lancey Stroll** (Luke) - Rich elf with Christopher Walken voice, whiny and entitled  
+- **Xugor** (Ali) - 7-foot orcish woman, quiet and methodical
 
-**The Stakes:**
-- Awaken the Turtle God through chaos
-- Win prestige for the Bru's Cousins bowling league
-- Avoid eternal damnation for insufficient disturbance
-- Maintain bowling lane reservations for their nightlight session
+**Pre-Race Sabotage Success:**
+- Serge successfully planted Team Cooper t-shirt evidence in Verstap's sabotaged engine
+- Xugor fed Elspeth poppy seed muffins (hoping for positive drug test)
+- Den Lin's schemes all spectacularly failed (pineapple pizza scandal, hooker photos, etc.)
+- Scotty placed a "nuclear option" rune under Elspeth's car to make it fly if needed
+- Both Verstap and Elspeth were penalized to back of grid for discovered sabotage
 
-### The Family Members
+**The Trump Card:**
+Unknown to most conspirators, Elspeth's brother **Zachary Cooper** had already ensured her downfall by switching her registered racing crystal (their mother's Cooper crystal) for an unregistered family crystal.
 
-**Young Bru** (Justin) - Age 8-10, teenage angst phase, aspiring explosives expert with a leather jacket and dreams of creating the perfect firework. The youngest of the group but considered the natural leader due to his attention to detail.
+## Refined Racing Mechanics
 
-**Drew** (Luke) - Bru's younger brother, high-energy goblin heavily addicted to cocaine (kept separate stashes for every occasion: walking cocaine, bathroom cocaine, dinner cocaine). Spoke rapidly, constantly bouncing, and prone to diving into piles of "snow" (mostly cocaine).
+The DM adjusted the experimental racing system based on Interlude XIV feedback:
 
-**Uncle Belch** (Tyram) - Bru's uncle, 9th level soulblade rogue with reliable talent and conspiracy theorist tendencies. Believed the Winter King was a front for the "mind flayer mafia" and taught Bru various paranoid theories.
+**Action Economy Changes:**
+- Started with two generic actions per turn (move or ability)
+- Mid-race switched to normal D&D action economy (action + bonus action)
+- This allowed spellcasters to use bonus action spells while moving
 
-**EA** (Ali) - Older cousin (spelled with all the Irish vowels: approximately 60 in goblin years), owner of a fireworks shop specializing in pranks and offensive shapes. Taught Bru his technical firework skills. Highly critical but ultimately helpful mentor figure.
+**Movement System:**
+- Roll d8 for base movement (in 5-foot squares)
+- Can dash (use action to roll additional d8)
+- Slow spell reduces movement die to d4 and limits to one action
 
-**Martha "Auntie Poops"** (Ellis) - Joined mid-session, brought her own unique energy to the family chaos.
+**Special Zones:**
+- **Blue Zones (VVS)** - Legal boost zones providing extra d4 movement
+- **Red Zones** - Areas where officials can't see, allowing magical abilities without detection
+- Only conspirators had maps showing these zones; Elspeth received standard map
 
-**Godfather Grit** - Taskmaster of the bowling league, perpetually vibrating with energy and stress, covered in chalk dust, speaks in urgent non-sequiturs. Has a score of 7 in bowling (terrible) because he was "trying to hit one pin every time."
+**Passing & Combat:**
+- When cars are adjacent at end of round, contested roll to determine position
+- Attacks and spells possible in red zones
+- Cars have 100 HP
+- Damage represents mechanical/cosmetic damage, not instant disqualification
 
-### Goblin Culture on Tortuga
+## The Race: Lap 1
 
-**Physical Traits:**
-- Goblins mature by age 10
-- Die frequently from heart attacks (hereditary epidemic)
-- Have litters of children (large families)
-- Considered "elderly" by age 60
+### Opening Moves: The Separation
 
-**Social Structure:**
-- Bowling leagues function as sacred covenants
-- Everyone related by blood or bowling
-- Cocaine use is normalized (micro-dosing throughout the day)
-- 7-Eleven bathrooms are acceptable laboratory spaces
+**Initiative Order (approximate):**
+1. Den Lin (first)
+2. Verstap  
+3. Serge
+4. Scotty Mac
+5. Lancey Stroll
+6. Xugor
+7. Elspeth (NPC, back of grid)
 
-**Religious Beliefs:**
-- The island rests on the back of a Turtle God
-- Sacred disturbances are religious obligations
-- The Winter King visits during winter solstice
-- Wishes granted to best Winter King costume
-- Dead sheep imagery is considered blasphemous
+**Den Lin's Painted Tunnel Scheme:**
+- Den Lin deployed his pre-planned Wile E. Coyote sabotage
+- Planted sign reading "SHORTCUT FOR ELSPETH ONLY" with arrow
+- Sign pointed to painted tunnel on wall with "ELSPETH" written above it
+- Hoped Elspeth would crash into the false tunnel
+- Move forward: 2 spaces (engine restart after placing sign)
 
-## The Winter King's Holiday
+**Early Positioning:**
+- Verstap, Scotty Mac, and Lancey all rolled double 8s (16 total movement)
+- Front pack pulled significantly ahead
+- Xugor, Serge, Den Lin, and Elspeth fell behind
+- Clear separation between leaders and stragglers
 
-### Festival Atmosphere
+### Serge's Strategic Sabotage
 
-The goblin city of Tortuga celebrated the winter solstice with chaotic festivities:
+**Awe Foes Attempt:**
+- Serge used Channel Divinity: Awe Foes (trying to frighten opponents)
+- Targeted Den Lin, Verstap, and Elspeth
+- DC 15 Wisdom save
+- **All three saved** (frustrating moment for desperate Serge)
+- Movement: 7 spaces
 
-**Celebrations:**
-- Everyone dressed as the Winter King (costume competition)
-- "Snow" covering the city (various white substances—cocaine, chalk, other materials)
-- Children having snowball fights (mud, rocks, and debris compacted together)
-- Nightclubs with heavy EDM and glow stick usage
-- Drug-fueled revelry throughout the city
+**Tactical Position:**
+- Stayed in mid-pack
+- Eyes on both Elspeth (primary target) and competitors
+- Preserving resources for later red zone plays
 
-**Winter King Tradition:**
-- Best costume wins the right to make a wish
-- Legend of a robot who wished for a stomach and received it
-- Father Winter visits on this holy night
+### The Great Slow Spell Incident
 
-**The Snow:**
-- Not actual snow (tropical region, too warm)
-- Each establishment creates their own "snow" through goblin ingenuity
-- Nightclubs use cocaine as snow effects
-- Children play in various questionable white substances
-- Drew acquired a full bag of nightclub cocaine for "personal use"
+**Xugor's Area Effect:**
+- Xugor cast Slow spell affecting multiple cars
+- Intended targets: Den Lin, Verstap, and others
+- **Friendly fire**: Also affected teammate Verstap
+- Effect: Reduces movement to d4, limits to one action, disadvantage on attacks
+- DC 17 Wisdom save
 
-## The Oracle's Quest
+**Saves:**
+- Verstap: Saved (16, then 18 on second slow)
+- Scotty Mac: Failed (slowed)
+- Serge: Saved (but slowed again later)
+- Lancey: Immune (already "naturally slow")
+- Den Lin: Failed (slowed)
 
-### Mistress Tatterbottom
+**Chaos:**
+- Slow spell became recurring theme
+- Multiple conspirators affected their own allies
+- "Are you guys cheating?" became running joke
+- Players debated whether slowed = frightened (different effects)
 
-The family's mission required finding **Mistress Tatterbottom**, an oracle traveling through the city in her caravan during the festival. She supposedly had coordinates for where to create the sacred disturbance.
+### Scotty Mac's Moral Crisis
 
-**The Caravan:**
-- Traveling slowly through festival crowds
-- Oracle available for readings
-- Chalk line marked the path to follow
-- Led eventually to a 7-Eleven
+**The Honest Racer:**
+- Scotty attempted misty step teleportation but couldn't take his car
+- Read Den Lin's "Shortcut for Elspeth Only" sign
+- As "honest racer," honorably avoided the "designated" shortcut
+- Clear internal conflict: wants to win, feels guilty about cheating
 
-### The 7-Eleven Bathroom Laboratory
+**Aging Rapidly:**
+- Running gag: Scotty aging throughout the race
+- Started at 40-50, by end might die of old age
+- "Poor Scotty Mac" sympathy despite being conspirator
+- Double-rolled sixes: "One for the money, two for the double eights!"
 
-The oracle's directions led to an unexpected location: **the bathroom of a 7-Eleven convenience store** run by a Pakistani clerk.
+### Lancey Stroll: The Polymorph Attempt
 
-**The Secret Laboratory:**
-- Bru's explosive workshop hidden in the bathroom
-- Contains slide puzzle lock on the door
-- Equipped for firework construction
-- Has sewer grate/ladder leading to nightclub below
-- Oracle indicated this bathroom was key to the disturbance
+**Turn Scotty Into a Sheep:**
+- Lancey cast Polymorph on Scotty Mac in visible zone
+- Attempted to turn him into a sheep mid-race
+- Scotty rolled **18 Wisdom save** (barely passed)
+- Would have created sheep covered in sponsorship stickers
+- Discussed: Would it be Dumb & Dumber van-dog but as sheep-car?
 
-**Notable Features:**
-- Only one bathroom (creating a multi-hour occupancy problem)
-- Vanessa (goblin customer) desperately needed to use it
-- Slide puzzle security system
-- Hidden entrance to the sewer system
-- Direct access to the Nerve Hub nightclub
+**Christopher Walken Energy:**
+- "I'm gonna turn him into a SHEEP"
+- Whiny rich boy attempting ridiculous sabotage
+- Father owns his team (privilege throughout)
+- Minimal effectiveness but high entertainment value
 
-## The Vanessa Tragedy
+### Verstap's Position & Slow Escape
 
-### Meet Vanessa
+**Golden Boy Status:**
+- Started with movement penalties (back of grid due to sabotage discovery)
+- Used misty step to teleport forward (60 ft bonus action)
+- Escaped multiple slow spells through high Wisdom saves
+- Movement rolls consistently high (9-12 spaces)
 
-A recurring NPC who became the session's tragic figure:
+**Avoiding Conflict:**
+- Verstap mostly focused on racing to win
+- Didn't engage in active sabotage during Lap 1
+- Benefited from being sponsored golden boy
+- Officials gave him benefit of doubt on earlier sabotage accusations
 
-**Characteristics:**
-- Goblin woman with weak bladder
-- Needed bathroom urgently
-- Drank water constantly (unusual for goblins)
-- Ate unusual foods (pineapple pizza)
-- Related to the family somehow
-- Generally considered annoying by the family
-- Kept insisting she needed to use the bathroom
+## The Race: Mid-Laps
 
-### The Death Toll
+### Den Lin's Elaborate Scheming Continues
 
-Vanessa died **three separate times** during the session due to heart attacks:
-
-**First Death:**
-- Cardiac arrest while waiting for bathroom
-- Family occupied bathroom for hours working on fireworks
-- EA had been verbally abusive to her
-- Pakistani clerk attempted CPR
-- Blamed on hereditary heart attack epidemic (not family's fault)
-
-**Second Death (Ghost Form):**
-- Returned as multiple Vanessa spirits/ghosts
-- Died again trying to keep up with Drew during jumping jacks
-- Second cardiac arrest while exercising
-
-**Third Death (Mass Multiplication):**
-- Eventually split into "a thousand wraiths"
-- Killed everyone in the goblin city
-- Family reconciled with her "purely out of spite"
-
-**Family Reaction:**
-- "Vanessa sucks" (general consensus)
-- Drew: "She really really sucks, can't stay alive"
-- EA: "I'm so glad she's dead"
-- Taskmaster Grit: "Why'd you have to kill Vanessa?"
-- No one attended her funeral (discussed but decided it was "too much work")
-
-## The Nerve Hub & Heart of Tortuga
-
-### Underground Nightclub
-
-The sewer ladder from the 7-Eleven bathroom led directly to the **Nerve Hub**, a major nightclub built near the literal beating heart of Tortuga.
-
-**The Venue:**
-- Heavy EDM music
-- Glow sticks everywhere
-- Massive drug usage (cocaine, hallucinogens)
-- Winter solstice party in full swing
-- DJs rhythm their music to the heartbeat of Tortuga
-
-**The Heart of Tortuga:**
-- Physical, beating heart beneath the island
-- Creates rhythmic thumping: "boop boop boop"
-- Shakes the nightclub with each beat
-- Central to the island's existence
-- Target location for the sacred disturbance
-
-### The Laboratory Setup
-
-Bru's explosive laboratory became the staging ground for the sacred disturbance:
-
-**Equipment & Materials:**
-- Firework construction supplies
-- Multiple types of cocaine
-- God ear wax jar (discovered later by Bru in present day)
-- Leather jacket for Bru's "angsty teenage" aesthetic
-- Various explosive components
-
-**The Firework Design:**
-
-Bru attempted to design a firework with a "B" symbol (for Bru), but EA took over:
-
-**Original Design (Bru):**
-- Large "B" shape
-- Diamond in the center
-- Amateurish construction
-- Multiple technical flaws
-
-**Final Design (EA's Improvements):**
-- Bru family crest inside diamond
-- Mug of brown liquid (signature drink)
-- Tail of a pig
-- 7-Eleven sign
-- Small fireworks going off (meta reference)
-- Sparkles and shards for visual impact
-- Maximum razzle-dazzle and pizzazz
-
-**Bru's Reaction:**
-- "Oh my god, you never let me try anything!"
-- "You never let me get better!"
-- Stormed out of bathroom in teenage angst
-- Witnessed Vanessa's first death
-- Blamed by Pakistani clerk for the death
-
-## The Sacred Disturbance
-
-### The Plan
-
-The family needed to create maximum chaos at the Nerve Hub to shake the Heart of Tortuga:
-
-**Components:**
-- Detach Heart of Tortuga from its moorings
-- Set off massive firework display
-- Use explosive laboratory as additional catalyst
-- Perform ritual (including sitting backwards in chairs for "down and chill" vibes)
-- Light final firework with Vanessa's spirit
+**Free Treats for Dwarves Trap:**
+- As Den Lin passed the pit area, signaled his "minions"
+- They set up sign: "FREE TREATS FOR DWARVES"
+- Display included keg of booze, beef jerky, "things dwarves like"
+- All placed on a **catapult**
+- If target stepped out for treats, catapult would launch them
 
 **Execution:**
-- Family infiltrated Nerve Hub through sewer entrance
-- Set up explosives at the Heart
-- Performed "sitting backwards in chairs" ritual
-- Drew led group in cocaine-fueled jumping jacks
-- Vanessa (ghost form) lit the final firework
-- Bru watched from his laboratory
+- Pre-planned during 24-hour sabotage window
+- Aimed at Elspeth and Scotty (both dwarves)
+- Classic Wile E. Coyote energy
+- Movement: 10 spaces
 
-### The Catastrophic Success
+**Den Lin's Slow Suffering:**
+- Constantly affected by Xugor's slow spells
+- Could only move d4 instead of d8
+- "What level of autism made that happen?" (regarding complex engine builds)
+- Still teleported using orphan soul power when possible
 
-The sacred disturbance exceeded all expectations:
+### Serge's Desperation Play: The Insurance Scam
 
-**The Explosion:**
-- Massive firework display showing Bru family crest
-- Earth began to crack beneath the city
-- Bru's laboratory broke free from the city
-- Laboratory descended toward the ground below
-- Island of Tortuga began rising from the sea
+**Magic Weapon Buff:**
+- Serge cast Magic Weapon on his car as bonus action
+- Made the entire vehicle a +1 magical weapon
+- Plan: Provoke "accident" with Elspeth to frame her
 
-**The Awakening:**
-- Turtle God awakened by the disturbance
-- Island lifted on the back of the awakened turtle
-- Entire goblin city began walking away on turtle's back
-- Ground fell away beneath Bru's falling laboratory
+**The Break Check Maneuver:**
+- Moved into red zone ahead of Elspeth
+- Purposefully slowed down (chose not to take full movement)
+- **Readied action**: When Elspeth passes, jerk car to look like she rear-ended him
+- "Oh my neck! Oh my back! Oh my neck and my back!"
 
-### The Aftermath
+**The Collision:**
+- Attack roll: 19 + 1 = **20** (hit)
+- Elspeth's Perception: 17 (failed to avoid)
+- Damage: 5 (unarmed strike damage, making it "look real")
+- **Elspeth took 16 HP damage** (bumper dragging behind)
+- **Serge lost 43 HP** (limping car)
 
-**Immediate Consequences:**
-- Bru deployed emergency parachute (all family members had them)
-- Escaped falling laboratory as it crashed
-- Watched his home city walk away on the turtle
-- Separated from his entire family
-- Forced to leave Tortuga
+**Commentary:**
+- "She hit me! They'll believe you!"
+- Serge already limping from earlier damage
+- Made it look extremely obvious Elspeth rammed him
+- Classic insurance fraud energy translated to racing
 
-**Long-term Impact:**
-- Island of Tortuga rose from the sea (recent event in campaign timeline)
-- Connected to recent rift openings and dragon migrations
-- Bru left his homeland forever
-- Additional trauma for young Bru (witnessed Vanessa deaths, lost family)
-- Explains Bru's age discrepancy (now established as 11-14 years old)
+### Xugor's Red Zone Artillery
 
-## Character Moments
+**Parked in Red Zone:**
+- Xugor strategically stopped moving
+- Positioned in zone where officials couldn't see
+- Focus: Frame Elspeth rather than win race
 
-### Young Bru's Development
+**Firebolt Bombardment:**
+- Shot Serge with firebolt for 12 damage
+- Each firebolt had post-it note saying "From Elspeth"
+- Elspeth was actually behind Xugor at the time
+- Obviously not from Elspeth, but created "evidence"
 
-The session established key aspects of Bru's character:
+**Second Casting:**
+- Another firebolt at Serge for 9 damage
+- "I'm shooting from a hidden location. No one knows it's me."
+- Choosing not to affect Elspeth directly ("she's my friend")
+- Strategic sacrifice: Not racing to win, ensuring frame job success
 
-**Skills & Interests:**
-- Early experimentation with explosives
-- Learning technical skills from EA
-- Attention to detail (why family considers him the leader)
-- Angsty teenage aesthetic (leather jacket, wants to seem cool)
-- Knowledge of technical facts (glass tubes in glow sticks)
+### The Slow Spell Wars
 
-**Trauma Origins:**
-- Witnessed multiple deaths (Vanessa's cardiac arrests)
-- Blamed for deaths he didn't cause
-- Lost his entire family when island rose
-- Forced to leave homeland at young age
-- Previous trauma mentioned: saw a sheep hit by a truck
+**Recurring Slow Effects:**
+- Xugor cast Slow multiple times
+- Each casting affected 4-6 cars in area
+- Verstap: Saved repeatedly (+8 Wisdom)
+- Scotty Mac: Slowed, then saved later
+- Den Lin: Perpetually slowed
+- Serge: Slowed, then saved with natural 25
 
-**Family Relationships:**
-- Close with Uncle Belch (learned conspiracy theories)
-- Mentored by EA (learned fireworks)
-- Typical younger sibling dynamic with Drew
-- Respected as natural leader despite being youngest
-- Connected to large extended family
+**Action Economy Confusion:**
+- "If you're slowed, can you take bonus actions?"
+- Slowed = one action, half speed, d4 movement
+- Frightened = different effect (disadvantage, can't move toward source)
+- Both could stack simultaneously
 
-### Drew's Cocaine Journey
+**Expeditious Retreat Counter:**
+- Xugor cast Expeditious Retreat to compensate
+- "Whoever's slowed is no longer slowed"
+- Used multiple bonus actions for extra movement
+- Balanced offensive debuffs with personal mobility
 
-Luke played Drew as perpetually high with escalating energy:
+### Verstap vs. Scotty Mac: The Friendship Contests
 
-**Cocaine Management:**
-- Separate stashes for every occasion and location
-- "Walking cocaine," "bathroom cocaine," "dinner cocaine"
-- Micro-dosing throughout the day
-- Eventually just snorting anything white (including shredded paper)
-- Taskmaster Grit noted he needed "help identifying proper high-quality cocaine"
+**Adjacent Racing:**
+- Verstap and Scotty repeatedly ended turns adjacent
+- Required contested rolls to determine passing position
+- Scotty rolled **14**, Lancey rolled **less than 14**
+- Verstap rolled **15**, Scotty rolled **11**
 
-**Physical Comedy:**
-- Constantly bouncing and moving
-- Dove into piles of "snow" (cocaine) to swim
-- Led family in jumping jacks (killed ghost Vanessa)
-- "His heart rate is in the few hundreds at least"
-- Predicted to crash or die from the come-down
+**Scotty's Decline:**
+- "Well, old Scotty here only rolled a six. Not my best I've ever had."
+- Still affected by slow spell: "If I'm slowed and rolled a six, did I actually roll a three?"
+- Corrected: Should roll d4 when slowed, not d8 then halve
+- Moved backward 3 spaces at one point (following slow rules strictly)
 
-**Epilogue:**
-- Got completely clean and sober
-- Became youth guidance counselor
-- Uses backwards-chair sitting technique to connect with troubled youth
-- Runs recovery group meetings
-- Starts each session by spinning chair backwards and putting hat on backwards
+**"Honest Racer" Roleplay:**
+- Scotty consistently played as conflicted
+- "I play by the rules" even while actively cheating
+- Called his "Papy" (father/team owner) in distress
+- Win watching from home, training to take his seat
 
-### Uncle Belch's Conspiracy Theories
+## The Race: Final Lap & Conclusion
 
-Tyram played Belch as the paranoid uncle teaching Bru worldview:
+### The Question of Victory
 
-**Theories:**
-- Winter King is a front for the mind flayer mafia
-- Water janazi (in skimpy clothes) is part of the conspiracy
-- Sacred disturbances have hidden purposes
-- Always suspicious of official narratives
-- Taught Bru his conspiratorial thinking
+**Racing Became Secondary:**
+- Primary goal: Frame Elspeth for cheating
+- Actual race winner less important than conspiracy success
+- Multiple racers stopped racing to focus on sabotage
 
-**Skills:**
-- 9th level soulblade rogue with reliable talent
-- Stealth minimum of 23 (rolled a 2, still got 23)
-- Capable investigator and infiltrator
-- Protective of younger family members
+**Likely Finishing Positions (approximate):**
+1. Verstap or Xugor (front runners)
+2. Den Lin (teleportation advantage despite slow)
+3. Scotty Mac (elderly but determined)
+4. Serge (damaged but functional)
+5. Lancey (naturally slow despite privilege)
+6. Elspeth (sabotaged, accused, penalized)
 
-**Epilogue:**
-- Possibly still alive (goblins age quickly, but he might be elderly)
-- If alive, became proprietor of bowling alley
-- Still bowls constantly
-- "Don't get distracted by any of these stupid scavenger hunts ever again"
+**Why Victory Didn't Matter:**
+- Xugor literally parked to shoot Elspeth
+- Serge stopped to create collision evidence
+- Den Lin focused on elaborate traps
+- Scotty conflicted about competing
+- Winning would draw attention; better to frame Elspeth and finish mid-pack
 
-### EA's Mentorship
+### The Post-Race Revelation
 
-Ali played EA as the harsh but effective teacher:
+**Tito's Announcement:**
+- Race officials investigated Elspeth's car
+- Found multiple "irregularities" from sabotage
+- Discovered the damning evidence: **Wrong crystal**
 
-**Teaching Style:**
-- Highly critical of Bru's work
-- "You never let me try anything!" (Bru's response)
-- Intimidation check: 19 (Bru stormed out)
-- Arcana check: 21 (completely redesigned firework)
-- Actually improved the final product significantly
+**The Crystal Conspiracy:**
+- Elspeth's registered crystal: Cooper family crystal (her mother's)
+- Crystal in her car: Different Cooper family crystal
+- Brother **Zachary Cooper** had switched them
+- Using unregistered crystal = definite cheating, grounds for ban
 
-**Fireworks Business:**
-- Owned shop specializing in offensive shapes
-- "Cool shapes that they make in the sky like middle fingers"
-- Pranks and provocative imagery
-- Technical expertise with explosives
-- Passed knowledge to young Bru
+**Elspeth's Reaction:**
+- Dramatically left the paddock
+- "Smells. Got it." (Den Lin's delayed punchline satisfaction)
+- No defense possible against crystal evidence
+- 20+ year career ended in disgrace
 
-**Epilogue:**
-- Possibly opened spa with god ear wax
-- "Rejuvenating all of the goblins"
-- Life extension treatments through "deep moisturizer"
-- Created wellness craze among goblins
-- Alleviating the heart attack epidemic
+**The Conspirators' "Victory":**
+- Tito: "We did it everyone! Congratulations!"
+- Most conspirators felt terrible
+- Scotty Mac: "I feel terrible. I've got to call my Papy."
+- Lancey: "I guess I'm calling my daddy."
+- Den Lin walked out satisfied
+- Xugor called her lawyer
+
+### Ongoing Accusations
+
+The DM revealed Ally had a **list of everything Elspeth has been accused of:**
+
+**Known Accusations:**
+1. Using unregistered crystal (Zachary's switch)
+2. Chassis filing (Xugor's pre-race sabotage, caught)
+3. Crystal tampering (Serge's planted Team Cooper shirt evidence)
+4. Rear-ending Serge (insurance scam collision)
+5. Shooting firebolt at Serge (Xugor's post-it note frame job)
+6. Pineapple pizza scandal (Den Lin's failed attempt)
+7. Hooker association (Den Lin's rave photos)
+8. Drug test concerns (Xugor's poppy seed muffins)
+
+**Frame Job Success:**
+- Even without the crystal switch, mountain of circumstantial evidence
+- Testimony from six conspirators
+- Video evidence of car damage
+- Zachary's betrayal ensured results regardless
+
+**Quote:** *"Even if we had done nothing, Zachary kind of had her from the start."*
+
+## Character Moments & Development
+
+### Serge: Career Desperation
+
+**Second-Tier Racer Mentality:**
+- Only saboteur who successfully executed plan (Verstap's engine tampering pre-race)
+- Insurance fraud collision perfectly executed
+- Took significant damage (43 HP) to frame Elspeth
+- "I might lose a job if he [Verstap] wins"
+
+**Moral Calculation:**
+- Knew framing Elspeth was wrong
+- Career survival overrode ethics
+- "Yes, but I might get bumped if he wins"
+- Desperate people do desperate things
+
+### Scotty Mac: Friendship Betrayed
+
+**The "Honest Racer":**
+- Best friends with Elspeth for decades
+- Given nuclear option rune (make her car fly = obvious cheating)
+- Tried to race honestly despite conspiracy
+- "Come on, Lancey. Scotty needs [to win]."
+
+**Moral Weight:**
+- Clearly aging rapidly (visual metaphor for guilt)
+- "This race feels like it's aged me a lot"
+- Called Papy afterward: "I can't believe I had to go through with this"
+- Torn between family obligation and friendship
+
+**The Prophecy:**
+- Earlier joke: Scotty might die of old age during race
+- By end, genuinely seemed broken by betrayal
+- Daughter Win waiting to take his seat (legacy pressure)
+
+### Xugor: The Technical Conspirator
+
+**Strategic Saboteur:**
+- Sacrificed race victory to ensure frame job
+- Parked in red zone for optimal firing position
+- Pre-planned dwarf catapult trap
+- Slow spells controlled the field
+
+**Professional Approach:**
+- Quiet, methodical, effective
+- "I run for a nonprofit" (ironically, while sabotaging)
+- Called lawyer immediately after (prepared for consequences)
+- Daughter of ex-KGB equivalent (learned from the best)
+
+### Den Lin: Wile E. Coyote Personified
+
+**Cartoon Villain Energy:**
+- Painted tunnel with "ELSPETH" sign
+- Free treats catapult trap
+- Pineapple pizza scandal
+- "You meddling orphans!" while teleporting
+
+**Consistent Failure:**
+- Every pre-race scheme failed spectacularly
+- Constantly slowed by Xugor's spells
+- Still satisfied by overall conspiracy success
+- Walked out without regret: "f****** got her ass"
+
+### Verstap: The Golden Boy
+
+**Minimal Involvement:**
+- Focused on actually racing
+- High Wisdom saves avoided most debuffs
+- Benefited from system despite being framed too
+- Officials believed his sabotage was Elspeth's fault
+
+**Privilege in Action:**
+- Sponsorships: Infinity Internet, Sun Bills, Blue Ox
+- Team resources superior to others
+- "I'm the golden boy of the race"
+- Could afford to just race and let others do dirty work
+
+### Lancey Stroll: Christopher Walken Chaos
+
+**Rich Kid Problems:**
+- Father owns team (ultimate safety net)
+- Attempted to polymorph Scotty into sheep
+- Whiny throughout: "apparently not" (deadpan)
+- Banking info on post-it notes (projection of incompetence)
+
+**Minimal Competence:**
+- Movement solid but no tactical sense
+- Cloud of daggers prepared but never deployed
+- Called "daddy" after conspiracy success
+- Embodied entitled mediocrity
+
+## Racing Mechanics: Lessons Learned
+
+### What Worked Well
+
+**Action Economy Flexibility:**
+- Switching to normal action economy mid-race allowed for more tactical play
+- Bonus action spells (misty step, expeditious retreat) added depth
+- Players adapted quickly to new system
+
+**Red Zones & VVS:**
+- Created strategic decision points
+- Red zones justified magic use narratively
+- VVS zones would have mattered more in closer race
+- Secret map knowledge gave conspirators advantage
+
+**HP & Damage System:**
+- 100 HP prevented instant eliminations
+- Damage represented cosmetic/mechanical issues
+- Allowed aggressive tactics without ending race too quickly
+- Collision and attack rolls made sense
+
+### Areas for Improvement
+
+**VVS Zone Usage:**
+- Barely used because leaders never needed them
+- Only matter when cars are closely packed
+- Should be more frequent or provide bigger bonus
+- "If I'm next to somebody, I can use VVS?" confusion
+
+**Passing Mechanics:**
+- Contested rolls when adjacent worked well
+- Timing (end of round) sometimes unclear
+- "Do we contest every turn or just when trying to pass?"
+
+**Movement Variance:**
+- D8 movement created huge variance (1 vs 8 = 35 feet difference)
+- Some racers consistently rolled low (Scotty's decline)
+- Others rolled high (Verstap's dominance)
+- Luck determined outcomes more than strategy
+
+**Speed Separation:**
+- Leaders quickly separated from stragglers
+- Den Lin's teleport only way to stay competitive
+- Made interactions between front/back impossible
+- More catch-up mechanics needed
+
+## Comedy Highlights
+
+### The Running Gags
+
+**Scotty's Rapid Aging:**
+- Started 40-50 years old
+- Jokes about Benjamin Button in reverse
+- "Going to be dead at the end from old age"
+- "Might die during the race"
+- Perfect metaphor for moral decay
+
+**Munchkin Energy:**
+- "This is such a game of Munchkin in race form"
+- Everyone friends until someone near winning
+- Then everyone beats them down
+- "I f****** hate Munchkin" - Tyram
+
+**Christopher Walken Voice:**
+- Lancey Stroll's entire characterization
+- "I'm gonna turn him into a SHEEP"
+- "apparently NOT s***"
+- Players breaking character to laugh
+
+**Disney Copyright Fears:**
+- Discussion of streaming Disney movie
+- "Disney's very litigious"
+- "Black bag with Mickey Mouse ears"
+- "Dollywood has bear ears that look like Minnie Mouse ears"
+
+### The Best Moments
+
+**"Are You Guys Cheating?"**
+- Verstap asking after being slow-spelled by ally
+- Multiple conspirators affecting teammates
+- "All of us are within 60 feet of Den Lin. Just saying."
+- The irony of conspirators accusing each other
+
+**Xugor's Shooting Gallery:**
+- Parked car in red zone
+- Systematically firebombing Serge
+- "Post-it notes saying 'From Elspeth'"
+- "No one knows it's me"
+- Frame job in real time
+
+**The Insurance Scam:**
+- "Oh my neck! Oh my back!"
+- Serge's entire collision plan
+- "She hit me! They'll believe you!"
+- Classic fraud translated to fantasy racing
+
+**Wile E. Coyote Schemes:**
+- Painted tunnel
+- Dwarf treat catapult
+- Pineapple pizza scandal
+- "I need some more anvils in your plans, Tyram"
+
+**The Cat Toe Incident:**
+- Someone's cat sniffing toes during session
+- Confusion about whose toes
+- "Was it the police?!"
+- "Helicopter sounds" interruption
+
+## Meta & Player Dynamics
+
+### Ally's Experience as Elspeth
+
+**The Target:**
+- "I do feel like you kind of hate me"
+- "I didn't think you would break it quite this much"
+- "I'm like a kindergarten teacher that has lost control of the classroom"
+- Oscillated between fun and overwhelmed
+
+**The Rules Evolution:**
+- Started with structured rules
+- "Then the rules went away, and now it's just kind of a free-for-all"
+- Players consistently asking "Can we do this? Can we do this?"
+- Ally adapting on the fly
+
+**Genuine Question:**
+- "Ally, are you really not having a good time?"
+- Tyram: "I legit will feel terrible if you're just like miserable right now"
+- Response: "It was a great session and we did it"
+- Non-answer suggested mixed feelings
+
+### The Conspiracy Guilt
+
+**Recurring Theme:**
+- Most conspirators felt bad
+- "For someone who set this up where we're supposed to be trying to hurt you, you were getting offended a lot"
+- "You gave us one job and we're doing it"
+- Guilt despite following assignment
+
+**Scotty Mac's Burden:**
+- Most sympathetic conspirator
+- Best friend betraying best friend
+- "I feel terrible"
+- Called Papy in distress
+
+**Xugor's Calculation:**
+- "I run for a nonprofit" (while shooting fireballs)
+- Strategic rather than emotional
+- Still called lawyer afterward
+
+### DM's Vision vs. Reality
+
+**Christopher's Check-In:**
+- "Ally, what was your vision?"
+- "Well, it doesn't really matter. It's already happened."
+- "That was good. We ended up accusing her and it's good. We did it."
+- Resigned acceptance of chaos
+
+**The Success:**
+- Goal achieved: Elspeth disgraced
+- Crystal evidence ensured failure
+- Conspiracy successful despite shenanigans
+- Players had fun destroying PC's backstory
 
 ## Ongoing Plot Threads
 
-1. **Bru's Return:** Can Bru reunite with his family now that he has access to the island (if any survived)?
+1. **Elspeth's Transformation:** How does this disgraced racer become adventurer Elspeth? When does she switch identities?
 
-2. **The God Ear Wax:** Bru discovered a jar of god ear wax in present day—connection to EA's spa business?
+2. **Zachary's Betrayal:** Brother's conspiracy with Tito—what does he gain? Does he get Elspeth's seat?
 
-3. **Vanessa's Wraith:** Christopher noted to remind him "Vanessa might come back as a wraith to haunt them"—will this haunt Bru?
+3. **The Cooper Crystals:** Two family crystals exist—what happened to the registered one? Why does the family have two?
 
-4. **Tortuga's Current State:** The island rose recently (aligns with rifts, dragon migrations in campaign)—what's happening there now?
+4. **Scotty Mac's Redemption:** Does he ever tell Elspeth the truth? Seek forgiveness?
 
-5. **Family Reunion Possibility:** "Bru family reunion—oops, all bruises" discussed as future possibility
+5. **Tito's Endgame:** What was the "big money" vote Elspeth opposed? How does her removal benefit the circuit?
 
-6. **Drew's Recovery:** Successfully got clean—could appear as NPC helping others?
+6. **Granddaughter Olivia:** Retired detective mentioned in Interlude XIV—does she investigate the conspiracy? Learn the truth?
 
-7. **Uncle Belch's Bowling Alley:** If survived, might own the bowling alley now
+7. **The Other Conspirators:** Do any of them face consequences? Regret their actions?
 
-8. **The Sacred Disturbance Success:** Did other bowling leagues also succeed? What happened to competitors?
+8. **Current Timeline Connection:** Does the main party know about Elspeth's racing past?
 
-9. **Pakistani Clerk's Ban:** "You and your family and your bowling team are never allowed in my 7-Eleven again"—permanent ban enforced?
+9. **The Nuclear Option Rune:** Was Scotty's flying car rune ever discovered? Is it still under her car?
 
-10. **The 712 Alternative:** Bug's brother runs the 712 (better than 7-Eleven)—new family hangout?
+10. **Poppy Seed Drug Test:** Did Xugor's muffin plan actually work? Was there a positive test?
+
+11. **Team Cooper:** What happened to Elspeth's loyal pit crew after her ban? Her team ownership?
+
+12. **Racing Crystal Mechanics:** How do these magical racing engines work? Are they family heirlooms?
+
+## Session Mechanics & Next Steps
+
+### Interlude Success
+
+**Format Effectiveness:**
+- Players enjoyed playing villains
+- Backstory revealed through conspiracy POV
+- High comedy despite dark premise
+- Racing mechanics functional if not perfect
+
+**Ally's Experience:**
+- Challenging being targeted PC
+- Had to adapt rules constantly
+- Mixed feelings on chaos vs. structure
+- Ultimate success in achieving goal
+
+### Future Interludes Planned
+
+**Christopher's List:**
+- **Bru Backstory:** Justification mentioned
+- **Elspeth Backstory:** This interlude (racing conspiracy)
+- **Helisanna Backstory:** Origin story needed ("we'll know if we're really her friends")
+- **Olivia Backstory:** Unrelated adventure with detective work
+
+**Scheduling:**
+- Poll planned for next session choice
+- Holiday scheduling challenges (Dec 26, Jan 2 likely cancelled)
+- Potential in-person Saturday session discussed
+- Virtual as backup
+
+### Main Campaign Status
+
+**Current Break:**
+- Regular campaign paused for interludes
+- Party around 10th level
+- Mid-campaign position
+- Multiple backstories still to explore
+
+**Return Timeline:**
+- Dependent on holiday schedules
+- Several interludes planned before return
+- Helisanna backstory priority
+- Character development focus
 
 ## Key Revelations
 
-1. **Bru's Age:** Confirmed as 11-14 years old (adjusted from original 10 to account for backstory timeline)
+1. **Elspeth's Racing Career:** 20+ years as legendary racer, team owner, board member, and principled voice against corruption
 
-2. **Island Rising:** The rise of Tortuga on the Turtle God's back was directly caused by Bru's family's sacred disturbance
+2. **Brother's Ultimate Betrayal:** Zachary Cooper worked with Tito Bonito to switch racing crystals, ensuring sister's downfall regardless of other schemes
 
-3. **Recent Event:** This backstory occurred within the past few years, not ancient history—connects to current campaign events (rifts opening, dragons migrating)
+3. **Conspiracy Overkill:** Six racers' elaborate sabotage was unnecessary—Zachary's crystal switch alone would have ended her career
 
-4. **Family Separation:** Bru lost his entire extended family when the island rose, explaining his isolation
+4. **Moral Cost:** Every conspirator except Den Lin showed guilt, especially Scotty Mac who betrayed decades-long friendship
 
-5. **Explosives Origin:** Bru's expertise with explosives dates back to childhood, taught by EA
+5. **Systemic Corruption:** The racing circuit board, team owners, and officials all coordinated to remove Elspeth for opposing "big money" interests
 
-6. **Goblin Culture:** Extensive worldbuilding about goblin society, religion, and customs on Tortuga
+6. **The Frame Job's Scope:** Multiple accusations ensured no defense possible—crystal evidence, collision damage, witness testimony, planted evidence
 
-7. **Heart Attack Epidemic:** Hereditary condition killing goblins daily, not anyone's specific fault
+7. **Cooper Family Crystals:** Two family racing crystals exist with different registrations—suggests complex family history and inheritance
 
-8. **Bowling as Religion:** Bowling leagues serve as sacred organizations, not just recreational clubs
+8. **Identity Transformation Setup:** This disgrace likely triggers Elspeth's transition to Elspeth the adventurer—complete life change
 
-9. **Winter King Holiday:** Major goblin religious festival with costume competitions and wish-granting
+## Legacy & Impact
 
-10. **The 7-Eleven Laboratory:** Bru's creative use of unconventional spaces for his work started young
+**For Elspeth/Elspeth:**
+- Career destroyed by family betrayal
+- 20+ years of integrity weaponized against her
+- Forced reinvention as adventurer
+- Trust issues with party potential backstory
 
-## Session Mechanics & Conclusion
+**For the Conspirators:**
+- Moral stain on careers
+- Enabled by corrupt system
+- Some regret, some satisfaction
+- Living with consequences
 
-### Adventure Structure
+**For the Sport:**
+- Corruption normalized
+- "Big money" interests prevailed
+- Principled voices silenced
+- Safety and integrity abandoned
 
-The session followed a fairly linear quest structure:
-
-**Act 1:** Mission briefing from Taskmaster Grit, family dynamics established
-
-**Act 2:** Oracle quest through festival, found coordinates, traveled to 7-Eleven
-
-**Act 3:** Laboratory work, firework construction, family conflict (Bru vs EA)
-
-**Act 4:** Journey to Nerve Hub, discovered the Heart of Tortuga
-
-**Act 5:** Sacred disturbance ritual, explosive finale, island rises
-
-### Comedy Highlights
-
-**Running Gags:**
-- Drew's cocaine addiction and separate stashes for every occasion
-- Vanessa dying repeatedly from heart attacks
-- "Vanessa sucks" (family consensus)
-- Taskmaster Grit interrupting at inconvenient times
-- Backwards chair sitting for being "down and chill"
-- EA's impossible-to-pronounce Irish vowel name
-- Goblin death toll from heart attacks
-
-**Physical Comedy:**
-- Drew swimming in cocaine piles
-- Snowball fights with cocaine-mud-rocks
-- Children getting cocaine in their eyes
-- Drew doing jumping jacks until ghost died
-- Backwards everything (chairs, hats, shirts, pants)
-
-**Dark Comedy:**
-- Casual attitude toward Vanessa's deaths
-- "Did I finish my firework? Oh wait, she's dead"
-- Blaming Bru for bathroom-related death
-- No one attending Vanessa's funeral
-- Drew's inevitable cocaine crash
-
-### Meta Moments
-
-**Self-Aware Humor:**
-- Firework design includes "fireworks" (meta reference)
-- "Are we the baddies?" after killing everyone
-- Discussion of AI recap vs actual events
-- References to previous interlude (Elspeth's racing)
-- Christopher adapting adventure from D&D Beyond source
-
-**Player Creativity:**
-- 7-Eleven bathroom as laboratory (player suggestion)
-- Cocaine as Drew's character trait (improvised)
-- All character names and relationships player-created
-- Bru's Cousins bowling league concept
-- Family dynamics and conspiracy theories
-
-### Emotional Weight
-
-Despite the comedy, the session established genuine tragedy:
-
-**Bru's Loss:**
-- Forced to leave homeland
-- Lost entire extended family
-- Witnessed traumatic deaths
-- Blamed for things beyond his control
-- Only child survivor of the sacred disturbance
-
-**Family Love:**
-- Despite chaos, family worked together
-- Uncle Belch protective of younger members
-- EA improved Bru's work (harsh but caring)
-- Taskmaster Grit genuinely concerned about family
-- Strong sense of goblin community and belonging
-
-**Setting Destruction:**
-- Entire goblin city displaced
-- Lives lost in the chaos
-- Community separated
-- Home literally walked away
-- Success had catastrophic personal cost
-
-### Connection to Main Campaign
-
-The session explained several ongoing mysteries:
-
-**Recent Events:**
-- Tortuga rising connects to rift openings
-- Dragon migrations happening simultaneously
-- "All this is super recent" (within current campaign timeline)
-- Explains why Bru left his homeland
-
-**Bru's Character:**
-- Origin of explosives expertise
-- Source of conspiracy theory thinking (Uncle Belch)
-- Why he's alone without family
-- His relationship with chaos and destruction
-- Technical skills and attention to detail
-
-**Future Possibilities:**
-- Family reunion potential
-- Return to Tortuga
-- Confronting past trauma
-- Vanessa's wraith haunting
-- God ear wax mystery
+**For the Campaign:**
+- Rich backstory for Elspeth revealed
+- Potential future plot hooks (Zachary, conspirators, Olivia investigation)
+- Character motivation depth added
+- Tragedy underlying comic adventurer
 
 ---
 
-:::tip Future Sessions
-Several character backstories remain: Ma's origin, Liliana's past, and Olivia's first case possibly involving Caspian and previous campaign characters. The Tortuga island could become a visitable location for family reunion adventures.
+:::tip Session Highlights
+- Experimental D&D racing mechanics refined with action economy
+- Six-racer conspiracy succeeded despite chaotic execution
+- Serge's insurance scam collision perfectly executed
+- Xugor's shooting gallery frame job with post-it notes
+- Den Lin's Wile E. Coyote schemes (painted tunnel, catapult trap)
+- Scotty Mac's guilt over betraying decades-long friendship
+- Zachary Cooper's crystal switch ensured failure regardless
+- Elspeth Cooper disgraced and career ended after 20+ years
 :::
 
-:::note DM's Note
-Christopher confirmed this adventure was adapted from D&D Beyond source material, though players' improvisation (cocaine, 7-Eleven, character dynamics) added significant original content. The session successfully established Bru's tragic backstory while maintaining the campaign's comedic tone.
+:::info Next Session Preview
+Poll for next interlude: Bru backstory, Helisanna origin, or Olivia detective adventure. Holiday scheduling to be determined.
 :::

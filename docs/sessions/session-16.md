@@ -6,7 +6,7 @@ summary: "The party rescues George from the Shadowfell and witnesses a catastrop
 featureimage: "https://d2a9bkgsuxmqe2.cloudfront.net/staging/podcast_uploaded_episode400/41448639/41448639-1734019551808-50e5ccaf83ffd.jpg"
 image: "https://d2a9bkgsuxmqe2.cloudfront.net/staging/podcast_uploaded_episode400/41448639/41448639-1734019551808-50e5ccaf83ffd.jpg"
 podcastlink: "https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4-E16-Olivias-decision-e2s8ci2"
-sidebar_position: 36
+sidebar_position: 37
 ---
 
 **[🎧 Podcast Link](https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4-E16-[Olivia](/player-characters/olivia)s-decision-e2s8ci2)**

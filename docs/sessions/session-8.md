@@ -6,7 +6,7 @@ summary: "Tacocats take a moment to meet caravan folks."
 featureimage: "https://d2a9bkgsuxmqe2.cloudfront.net/staging/podcast_uploaded_episode400/41448639/41448639-1727985336183-69d761febf22c.jpg"
 image: "https://d2a9bkgsuxmqe2.cloudfront.net/staging/podcast_uploaded_episode400/41448639/41448639-1727985336183-69d761febf22c.jpg"
 podcastlink: "https://creators.spotify.com/pod/show/topher-hooper/episodes/C4-E8-Caravan-Nights-e2p6t38"
-sidebar_position: 44
+sidebar_position: 45
 ---
 
 **[🎧 Podcast Link](https://creators.spotify.com/pod/show/topher-hooper/episodes/C4-E8-Caravan-Nights-e2p6t38) • *October 2, 2024***

@@ -6,7 +6,7 @@ summary: "The party completes their bombing mission with unexpected complication
 featureimage: "C4E28.webp"
 image: "/img/C4E28.webp"
 podcastlink: "https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4E28-August-1st-e36c3c0"
-sidebar_position: 14
+sidebar_position: 15
 ---
 
 **[🎧 Podcast Link](https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4E28-August-1st-e36c3c0) • *July 31, 2025***

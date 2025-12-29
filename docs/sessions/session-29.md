@@ -6,7 +6,7 @@ summary: "The party takes on a special heist mission to steal a Ford F-150 while
 featureimage: "C4E29.webp"
 image: "/img/C4E29.webp"
 podcastlink: "https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4E29-Truckgust-150th-e36lb3o"
-sidebar_position: 13
+sidebar_position: 14
 ---
 
 **[🎧 Podcast Link](https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4E29-Truckgust-150th-e36lb3o) • *August 14, 2025***

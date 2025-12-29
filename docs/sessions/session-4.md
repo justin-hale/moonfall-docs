@@ -6,7 +6,7 @@ summary: "Our heroes get an assignment to sabotage some racecars."
 featureimage: "https://d2a9bkgsuxmqe2.cloudfront.net/staging/podcast_uploaded_episode400/41448639/41448639-1724609198550-a6f77d20d0c0a.jpg"
 image: "https://d2a9bkgsuxmqe2.cloudfront.net/staging/podcast_uploaded_episode400/41448639/41448639-1724609198550-a6f77d20d0c0a.jpg"
 podcastlink: "https://creators.spotify.com/pod/show/topher-hooper/episodes/C4-E4-Love-and-Betrayal-e2nji80"
-sidebar_position: 48
+sidebar_position: 49
 ---
 
 **[🎧 Podcast Link](https://creators.spotify.com/pod/show/topher-hooper/episodes/C4-E4-Love-and-Betrayal-e2nji80) • *August 24, 2024***
