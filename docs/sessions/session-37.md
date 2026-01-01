@@ -6,7 +6,6 @@ summary: "Taco Cat completes their battle with the Iron Claws, levels up, and be
 featureimage: "C4E37.webp"
 image: "/img/C4E37.webp"
 podcastlink: ""
-sidebar_position: 6
 ---
 **[🎧 Podcast Link](https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4E37-October-24-e3a9oua) • *October 24, 2025***
 

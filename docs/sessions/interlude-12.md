@@ -6,7 +6,6 @@ summary: "Taco Cat returns to the Lotus Casino to help Naomi deal with Helisanna
 featureimage: "C4I12.webp"
 image: "/img/C4I12.webp"
 podcastlink: ""
-sidebar_position: 5
 ---
 
 **[🎧 Podcast Link](https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4E38-November-7-e3amo02) • *November 7, 2025***

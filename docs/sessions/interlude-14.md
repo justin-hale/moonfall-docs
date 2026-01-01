@@ -6,7 +6,6 @@ summary: "In this racing-themed flashback episode, players took on the roles of 
 featureimage: '/img/C4I14.webp'
 image: '/img/C4I14.webp'
 podcastlink: ''
-sidebar_position: 3
 ---
 
 # Interlude XIV: The Greyport Speedway Conspiracy

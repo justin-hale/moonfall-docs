@@ -6,7 +6,6 @@ summary: "The party faces bounty hunters while preparing their return to High Fo
 featureimage: "C4E25.webp"
 image: "/img/C4E25.webp"
 podcastlink: "https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4E25-June-27th-e351oja"
-sidebar_position: 18
 ---
 
 **[🎧 Podcast Link](https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4E25-June-27th-e351oja) • *June 26, 2025***

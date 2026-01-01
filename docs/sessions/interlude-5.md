@@ -5,7 +5,6 @@ description: "The party navigates treacherous fog and spider-infested cliffs to 
 summary: "The party navigates treacherous fog and spider-infested cliffs to reach the Wichita Sisters' cave, only to face a massive guardian at the entrance."
 featureimage: "C4I5.webp"
 podcastlink: "https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4-interlude-April-4th--2025-DM-Taylor-e315l80"
-sidebar_position: 28
 ---
 
 **[🎧 Podcast Link](https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4-interlude-April-4th--2025-DM-Taylor-e315l80) • *April 3, 2025***

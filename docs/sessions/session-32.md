@@ -6,7 +6,6 @@ summary: "The party negotiates with powerful dragons and begins recruiting raver
 featureimage: "C4E32.webp"
 image: "/img/C4E32.webp"
 podcastlink: "https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4E32-September-5-e37skuu"
-sidebar_position: 11
 ---
 
 **[🎧 Podcast Link](https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4E32-September-5-e37skuu) • *September 4, 2025***

@@ -6,7 +6,6 @@ summary: "In this backstory session, players took on the roles of Bru's extended
 featureimage: '/img/C4I16.webp'
 image: '/img/C4I15.webp'
 podcastlink: ''
-sidebar_position: 1
 ---
 
 # Interlude XVI: The Sacred Disturbance of Tortuga

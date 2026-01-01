@@ -6,7 +6,6 @@ summary: "The party joins Victor's resistance operation to destroy V production 
 featureimage: "C4E27.webp"
 image: "/img/C4E27.webp"
 podcastlink: "https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4E27-July-18th-e35otea"
-sidebar_position: 16
 ---
 
 **[🎧 Podcast Link](https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4E27-July-18th-e35otea) • *July 17, 2025***

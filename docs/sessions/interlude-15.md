@@ -6,7 +6,6 @@ summary: "The six-racer conspiracy against Elspeth Cooper (Elspeth's past identi
 featureimage: '/img/C4I14.webp'
 image: '/img/C4I14.webp'
 podcastlink: ''
-sidebar_position: 2
 ---
 
 # Interlude XV: The Greyport Finale Race
