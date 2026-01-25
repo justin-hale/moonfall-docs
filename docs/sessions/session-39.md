@@ -12,7 +12,7 @@ podcastlink: ""
 
 ## A Reunion Interrupted
 
-The session begins with the party walking down the main thoroughfare of Greyport, approaching **Jasper's Bakery, Brewery, and Bakery** to cash in their VIP tickets. Through the shop window, they spot a familiar face: **[Theirsander](/npcs/theirsander)**, the former leader of the Sisyphus Circle, wearing a baker's apron and carrying a huge bag of bread as he restocks the shop.
+The session begins with the party walking down the main thoroughfare of Greyport, approaching **Jasper's Bakery, Brewery, and Bakery** to cash in their VIP tickets. Through the shop window, they spot a familiar face: **Theirsander**, the former leader of the Sisyphus Circle, wearing a baker's apron and carrying a huge bag of bread as he restocks the shop.
 
 The reunion is short-lived. The moment Theirsander makes eye contact with [Silas](/player-characters/silas) and [Bru](/player-characters/bru), the bakery explodes.
 
@@ -55,7 +55,7 @@ While stabilizing Theirsander, [Bru](/player-characters/bru) scans the chaos wit
 
 > **[Silas](/player-characters/silas):** "Hold on, Bru. We probably need to stick together. Ellith, Olivia—can you take Theirsander to the safe place while we chase the bad guys?"
 
-[Ellith](/npcs/ellith) and retired detective [Olivia](/player-characters/olivia) escort Theirsander while the rest of the party gives chase. [Silas](/player-characters/silas) uses his spider climb ability to scale a building, letting everyone out of the portable hole onto the rooftops.
+[Elspeth](/player-characters/elspeth) and retired detective [Olivia](/player-characters/olivia) escort Theirsander while the rest of the party gives chase. [Silas](/player-characters/silas) uses his spider climb ability to scale a building, letting everyone out of the portable hole onto the rooftops.
 
 ### Parkour Through Greyport
 
@@ -255,7 +255,7 @@ Edgar hands off the party to **Commander Tannondel**, who will debrief them prop
 
 ## Reunion in the Medical Bay
 
-Commander Tannondel leads the party to the Order's medical bay, where Theirsander lies recovering with a cleric attending to his wounds. [Ellith](/npcs/ellith) and [Olivia](/player-characters/olivia) have fallen asleep in chairs beside him.
+Commander Tannondel leads the party to the Order's medical bay, where Theirsander lies recovering with a cleric attending to his wounds. [Elspeth](/player-characters/elspeth) and [Olivia](/player-characters/olivia) have fallen asleep in chairs beside him.
 
 The cleric speaks quietly:
 
