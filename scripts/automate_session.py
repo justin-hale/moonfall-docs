@@ -202,9 +202,13 @@ TRANSCRIPT CONTENT:
         print("=" * 60)
         
         try:
-            # Run claude command with the prompt
+            # Run claude command with the prompt via stdin
+            # Adding /exit at the end to automatically close the session
+            prompt_with_exit = prompt + "\n\n/exit"
+            
             result = subprocess.run(
-                ["claude", prompt],
+                ["claude"],
+                input=prompt_with_exit,
                 cwd=str(self.project_root),
                 text=True
             )
