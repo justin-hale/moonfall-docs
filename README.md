@@ -21,6 +21,10 @@ npm run serve
 ## 📁 Project Structure
 
 ```
+.github/workflows/
+├── deploy.yml                  # Manual site deployment
+└── generate-session.yml        # Automated session generation + deploy
+
 docs/
 ├── intro.md                    # Homepage content
 ├── player-characters/          # Character profiles
@@ -28,12 +32,15 @@ docs/
 │   ├── bru.md
 │   ├── elspeth.md
 │   └── ...
-└── sessions/                   # Session summaries
-    ├── _category_.json
-    ├── session-1.md
-    ├── session-36.md
-    ├── interlude-1.md
-    └── interlude-11.md
+├── sessions/                   # Session summaries (generated or manual)
+│   ├── _category_.json
+│   ├── session-1.md
+│   ├── session-42.md
+│   ├── interlude-1.md
+│   └── ...
+└── transcripts/                # Cleaned transcripts (generated from SRT)
+
+transcripts_raw/                # Drop .srt files here to trigger automation
 
 src/
 ├── components/                 # React components
@@ -41,6 +48,7 @@ src/
 └── data/                      # Generated data files
 
 scripts/
+├── automate_session.py        # Session generation automation script
 ├── add-session-positions.js   # Updates sidebar positions
 └── generate-sessions-data.js  # Generates session lists
 
@@ -49,11 +57,69 @@ static/
 └── CNAME                      # Custom domain configuration
 ```
 
-## ✍️ Creating New Session Files
+## 🤖 Automated Session Generation
+
+The fastest way to create session notes is to let the automation handle everything. Just upload a transcript and push to `main`.
+
+### How to Generate a New Session
+
+1. **Get your `.srt` transcript file** from the recording
+2. **Add it to the `transcripts_raw/` directory**:
+   ```bash
+   cp ~/Downloads/my-session-recording.srt transcripts_raw/
+   ```
+3. **Commit and push to `main`** (or open a PR and merge it):
+   ```bash
+   git add transcripts_raw/
+   git commit -m "Add transcript for session 42"
+   git push origin main
+   ```
+4. **The GitHub Actions workflow will automatically**:
+   - Clean and process the transcript
+   - Invoke Claude to generate full session notes matching the style of previous sessions
+   - Commit the generated files back to the repo
+   - Build and deploy the updated site to GitHub Pages
+
+5. **Monitor progress** in the repository's **Actions** tab — you'll see real-time streaming output from Claude as it works
+
+### Manual Trigger
+
+You can also trigger session generation manually from the **Actions** tab:
+
+1. Go to **Actions** > **Generate Session Notes**
+2. Click **Run workflow**
+3. Optionally specify a session number or mark it as an interlude
+4. Click **Run workflow** to start
+
+### Running Locally
+
+```bash
+# Full automation (clean transcript + generate notes)
+python scripts/automate_session.py
+
+# Skip transcript cleaning (use existing transcript in docs/transcripts/)
+python scripts/automate_session.py --no-clean
+
+# Specify session number or create an interlude
+python scripts/automate_session.py --session-number 42
+python scripts/automate_session.py --interlude
+
+# Just prepare the prompt without invoking Claude
+python scripts/automate_session.py --no-claude
+```
+
+### Required Setup
+
+- **Repository secret**: `ANTHROPIC_API_KEY` must be set in **Settings > Secrets and variables > Actions** for the GitHub Actions workflow to work
+- **Locally**: Either set the `ANTHROPIC_API_KEY` environment variable or log in with `claude login`
+
+---
+
+## ✍️ Creating Session Files Manually
+
+If you prefer to write session notes by hand instead of using the automation:
 
 ### Session File Template
-
-Create new session files following this template structure:
 
 ```markdown
 ---
@@ -61,8 +127,6 @@ title: "36: Session Title Here"
 date: 2025-10-10
 description: "Brief description of what happens in this session."
 summary: "Same as description, used for metadata."
-featureimage: "C4E36.webp"
-image: "/img/C4E36.webp"
 podcastlink: "https://your-podcast-link-here"
 sidebar_position: 1
 ---
@@ -96,7 +160,6 @@ title: "Interlude XI: Interlude Title Here"
 date: 2025-05-30
 description: "Brief description of the interlude content."
 summary: "Same as description."
-featureimage: "C4I11.webp"
 podcastlink: "https://your-podcast-link-here"
 sidebar_position: 16
 ---
@@ -114,8 +177,6 @@ Write your interlude content here...
 | `date` | ✅ | Publication date (YYYY-MM-DD) - used for chronological sorting |
 | `description` | ✅ | Brief summary for SEO and previews |
 | `summary` | ✅ | Usually same as description |
-| `featureimage` | ⚠️ | Filename of feature image |
-| `image` | ⚠️ | Full path to image (`/img/filename.webp`) |
 | `podcastlink` | ✅ | URL to podcast episode |
 | `sidebar_position` | 🔄 | Auto-generated, don't set manually |
 
@@ -125,7 +186,6 @@ Write your interlude content here...
 
 - **Sessions**: `session-{number}.md` (e.g., `session-36.md`)
 - **Interludes**: `interlude-{number}.md` (e.g., `interlude-11.md`)
-- **Images**: `C4E{number}.webp` for sessions, `C4I{number}.webp` for interludes
 
 ## 🔄 Updating Sidebar Positions
 
@@ -191,36 +251,22 @@ npm run serve
 
 ## 🚀 Deployment to GitHub Pages
 
-The site automatically deploys to [moonfallsessions.com](https://moonfallsessions.com) via GitHub Actions.
+The site deploys to [moonfallsessions.com](https://moonfallsessions.com) via GitHub Actions.
 
-### Automatic Deployment
+### Automated (via Session Generation)
 
-Every push to the `main` branch triggers automatic deployment:
-
-1. **Commit and push your changes**:
-   ```bash
-   git add .
-   git commit -m "Add Session 37"
-   git push origin main
-   ```
-
-2. **GitHub Actions will**:
-   - Install dependencies
-   - Run the build process (including session data generation)
-   - Deploy to GitHub Pages
-   - Update your live site
-
-3. **Check deployment status**:
-   - Go to your repository → Actions tab
-   - Monitor the deployment progress
-   - Site updates in ~2-3 minutes
+When the **Generate Session Notes** workflow runs (triggered by pushing an `.srt` file or manually), it automatically builds and deploys the site after generating the session notes. No extra steps needed.
 
 ### Manual Deployment
 
-If needed, you can deploy manually:
+To deploy without generating session notes (e.g., after manual edits):
+
+1. Go to **Actions** > **Deploy to GitHub Pages**
+2. Click **Run workflow** > **Run workflow**
+
+Or deploy locally:
 
 ```bash
-# Build and deploy
 npm run build
 npm run deploy
 ```
@@ -233,16 +279,6 @@ The site is configured for `moonfallsessions.com`:
 - **HTTPS**: Automatically enabled by GitHub Pages
 
 ## 🎨 Customization
-
-### Adding Images
-
-1. **Place images** in `static/img/`
-2. **Reference in markdown**: `/img/filename.webp`
-3. **Use in frontmatter**: 
-   ```yaml
-   featureimage: "filename.webp"
-   image: "/img/filename.webp"
-   ```
 
 ### Styling
 
@@ -294,12 +330,6 @@ npm run update-positions
 - Include session dates in podcast links
 - Write engaging summaries for better SEO
 - Use consistent formatting for character names
-
-### Image Guidelines
-- **Format**: WebP preferred for smaller file sizes
-- **Naming**: Follow `C4E{number}.webp` or `C4I{number}.webp` pattern
-- **Size**: Optimize for web (aim for <500KB)
-- **Alt text**: Will be auto-generated from title
 
 ### SEO Best Practices
 - Include descriptive `description` fields
