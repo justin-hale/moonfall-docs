@@ -277,6 +277,7 @@ TRANSCRIPT CONTENT:
             cmd = [
                 "claude",
                 "-p",                                       # Non-interactive print mode
+                "--verbose",                                # Required for stream-json in print mode
                 "--output-format", "stream-json",           # Stream NDJSON events
                 "--allowedTools", "Read,Write,Edit,Glob,Grep",  # Auto-approve file tools
             ]
