@@ -236,13 +236,19 @@ TRANSCRIPT CONTENT:
             # Final result event from Claude Code
             cost = event.get("cost_usd")
             duration = event.get("duration_ms")
-            if cost is not None or duration is not None:
-                parts = []
-                if duration is not None:
-                    parts.append(f"{duration / 1000:.1f}s")
-                if cost is not None:
-                    parts.append(f"${cost:.4f}")
+            subtype = event.get("subtype")
+            parts = []
+            if duration is not None:
+                parts.append(f"{duration / 1000:.1f}s")
+            if cost is not None:
+                parts.append(f"${cost:.4f}")
+            if subtype:
+                parts.append(subtype)
+            if parts:
                 print(f"\n[result] {' | '.join(parts)}", flush=True)
+            # Print full event on error for debugging
+            if subtype == "error" or event.get("is_error"):
+                print(f"[result detail] {json.dumps(event, indent=2)}", flush=True)
 
         elif event_type == "tool":
             # Tool result event — show file paths when available
@@ -284,12 +290,13 @@ TRANSCRIPT CONTENT:
 
             # Launch process with stdin pipe so we can write the prompt and close it
             # (closing stdin makes Claude abort if it ever tries to ask a question)
+            # stderr goes directly to terminal so errors are immediately visible
             process = subprocess.Popen(
                 cmd,
                 cwd=str(self.project_root),
                 stdin=subprocess.PIPE,
                 stdout=subprocess.PIPE,
-                stderr=subprocess.PIPE,
+                stderr=None,
                 text=True,
             )
 
@@ -316,9 +323,6 @@ TRANSCRIPT CONTENT:
                 print("\n✓ Claude invocation completed")
                 return True
             else:
-                stderr_output = process.stderr.read()
-                if stderr_output:
-                    print(f"\nstderr: {stderr_output.strip()}")
                 print(f"\n⚠ Claude exited with code {process.returncode}")
                 return False
 
