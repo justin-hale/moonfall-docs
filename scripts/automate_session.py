@@ -23,6 +23,7 @@ import os
 import sys
 import subprocess
 import argparse
+import json
 from pathlib import Path
 from datetime import datetime
 import re
@@ -164,7 +165,9 @@ podcastlink: ""
             print(f"⚠ Error reading transcript: {e}")
             transcript_content = f"[Error loading transcript from {transcript_path}]"
         
-        prompt = f"""I need you to create a comprehensive {session_type} note for {session_type} {session_number} based on the transcript below.
+        prompt = f"""IMPORTANT: You are running in fully autonomous mode. Do NOT ask any questions or request clarification. If you encounter an issue you cannot resolve, output a clear error message explaining the problem and stop immediately. Make your best judgment for any ambiguous decisions.
+
+I need you to create a comprehensive {session_type} note for {session_type} {session_number} based on the transcript below.
 
 For context, here are the most recent session notes you should reference for style and format:
 """
@@ -195,31 +198,134 @@ TRANSCRIPT CONTENT:
         
         return prompt
     
-    def invoke_claude(self, prompt):
-        """Invoke Claude Code with the generated prompt"""
+    def _display_stream_event(self, event):
+        """Parse a stream-json event and print human-readable progress."""
+        event_type = event.get("type")
+
+        if event_type == "assistant":
+            # Start of a new assistant turn — nothing to print yet
+            pass
+
+        elif event_type == "content_block_start":
+            block = event.get("content_block", {})
+            if block.get("type") == "tool_use":
+                tool = block.get("name", "unknown")
+                print(f"\n[tool] {tool}", end="", flush=True)
+
+        elif event_type == "content_block_delta":
+            delta = event.get("delta", {})
+            if delta.get("type") == "text_delta":
+                print(delta.get("text", ""), end="", flush=True)
+            elif delta.get("type") == "input_json_delta":
+                # Accumulating tool input JSON — show a dot for progress
+                pass
+
+        elif event_type == "content_block_stop":
+            pass
+
+        elif event_type == "message_start":
+            pass
+
+        elif event_type == "message_delta":
+            pass
+
+        elif event_type == "message_stop":
+            pass
+
+        elif event_type == "result":
+            # Final result event from Claude Code
+            cost = event.get("cost_usd")
+            duration = event.get("duration_ms")
+            if cost is not None or duration is not None:
+                parts = []
+                if duration is not None:
+                    parts.append(f"{duration / 1000:.1f}s")
+                if cost is not None:
+                    parts.append(f"${cost:.4f}")
+                print(f"\n[result] {' | '.join(parts)}", flush=True)
+
+        elif event_type == "tool":
+            # Tool result event — show file paths when available
+            tool_name = event.get("tool", "")
+            tool_input = event.get("input", {})
+
+            if isinstance(tool_input, dict):
+                path = (tool_input.get("file_path")
+                        or tool_input.get("path")
+                        or tool_input.get("pattern")
+                        or tool_input.get("command", ""))
+                if tool_name in ("Read", "Glob", "Grep"):
+                    print(f" → {path}", flush=True)
+                elif tool_name in ("Write", "Edit"):
+                    print(f" → {path}", flush=True)
+                else:
+                    print(f" → {path}", flush=True)
+
+        elif event_type == "error":
+            error = event.get("error", {})
+            msg = error.get("message", str(error))
+            print(f"\n[error] {msg}", flush=True)
+
+    def invoke_claude(self, prompt, timeout_minutes=15):
+        """Invoke Claude Code with the generated prompt in fully autonomous mode,
+        streaming output in real-time via --output-format stream-json."""
         print("\n" + "=" * 60)
         print("INVOKING CLAUDE CODE")
         print("=" * 60)
-        
+
         try:
-            # Run claude command with the prompt via stdin
-            # Adding /exit at the end to automatically close the session
-            prompt_with_exit = prompt + "\n\n/exit"
-            
-            result = subprocess.run(
-                ["claude"],
-                input=prompt_with_exit,
+            cmd = [
+                "claude",
+                "-p",                                       # Non-interactive print mode
+                "--output-format", "stream-json",           # Stream NDJSON events
+                "--allowedTools", "Read,Write,Edit,Glob,Grep",  # Auto-approve file tools
+            ]
+
+            # Launch process with stdin pipe so we can write the prompt and close it
+            # (closing stdin makes Claude abort if it ever tries to ask a question)
+            process = subprocess.Popen(
+                cmd,
                 cwd=str(self.project_root),
-                text=True
+                stdin=subprocess.PIPE,
+                stdout=subprocess.PIPE,
+                stderr=subprocess.PIPE,
+                text=True,
             )
-            
-            if result.returncode == 0:
+
+            # Send prompt and close stdin
+            process.stdin.write(prompt)
+            process.stdin.close()
+
+            # Read stdout line-by-line as NDJSON events arrive
+            for line in process.stdout:
+                line = line.strip()
+                if not line:
+                    continue
+                try:
+                    event = json.loads(line)
+                    self._display_stream_event(event)
+                except json.JSONDecodeError:
+                    # Non-JSON output — print as-is
+                    print(line, flush=True)
+
+            # Wait for process to finish (with timeout)
+            process.wait(timeout=timeout_minutes * 60)
+
+            if process.returncode == 0:
                 print("\n✓ Claude invocation completed")
                 return True
             else:
-                print(f"\n⚠ Claude exited with code {result.returncode}")
+                stderr_output = process.stderr.read()
+                if stderr_output:
+                    print(f"\nstderr: {stderr_output.strip()}")
+                print(f"\n⚠ Claude exited with code {process.returncode}")
                 return False
-                
+
+        except subprocess.TimeoutExpired:
+            process.kill()
+            process.wait()
+            print(f"\n✗ Claude timed out after {timeout_minutes} minutes — aborting")
+            return False
         except FileNotFoundError:
             print("\n✗ Error: 'claude' command not found")
             print("Make sure Claude Code CLI is installed and in your PATH")
@@ -228,7 +334,7 @@ TRANSCRIPT CONTENT:
             print(f"\n✗ Error invoking Claude: {e}")
             return False
     
-    def run_automation(self, session_number=None, is_interlude=False, skip_cleaning=False, invoke_claude_auto=True):
+    def run_automation(self, session_number=None, is_interlude=False, skip_cleaning=False, invoke_claude_auto=True, timeout_minutes=15):
         """Run the full automation workflow"""
         print("=" * 60)
         print("Session Automation Workflow")
@@ -308,18 +414,20 @@ TRANSCRIPT CONTENT:
         
         # Invoke Claude automatically if requested
         if invoke_claude_auto:
-            if self.invoke_claude(claude_prompt):
+            if self.invoke_claude(claude_prompt, timeout_minutes=timeout_minutes):
                 # After session note is created, generate image prompt
                 print("\n" + "=" * 60)
                 print("GENERATING IMAGE PROMPT")
                 print("=" * 60)
-                
-                image_prompt = f"""Please read the session note you just created at docs/sessions/{filename} and generate a short, vivid description (2-3 sentences max) that could be used as a prompt for an AI image generator. The description should capture the most dramatic or iconic moment from the session.
+
+                image_prompt = f"""IMPORTANT: You are running in fully autonomous mode. Do NOT ask any questions. If you encounter an issue, output a clear error message and stop immediately.
+
+Please read the session note at docs/sessions/{filename} and generate a short, vivid description (2-3 sentences max) that could be used as a prompt for an AI image generator. The description should capture the most dramatic or iconic moment from the session.
 
 Format your response as just the image prompt description, nothing else."""
-                
+
                 print("\nAsking Claude to generate image prompt...")
-                self.invoke_claude(image_prompt)
+                self.invoke_claude(image_prompt, timeout_minutes=5)
                 
                 # Delete the original SRT file after successful processing
                 if srt_file and srt_file.exists():
@@ -361,6 +469,12 @@ def main():
         action="store_true",
         help="Don't automatically invoke Claude (just save prompt to file)"
     )
+    parser.add_argument(
+        "--timeout",
+        type=int,
+        default=15,
+        help="Timeout in minutes for each Claude invocation (default: 15)"
+    )
     
     args = parser.parse_args()
     
@@ -374,7 +488,8 @@ def main():
         session_number=args.session_number,
         is_interlude=args.interlude,
         skip_cleaning=args.no_clean,
-        invoke_claude_auto=not args.no_claude
+        invoke_claude_auto=not args.no_claude,
+        timeout_minutes=args.timeout
     )
     
     sys.exit(0 if success else 1)

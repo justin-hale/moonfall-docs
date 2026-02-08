@@ -1,11 +1,13 @@
+IMPORTANT: You are running in fully autonomous mode. Do NOT ask any questions or request clarification. If you encounter an issue you cannot resolve, output a clear error message explaining the problem and stop immediately. Make your best judgment for any ambiguous decisions.
+
 I need you to create a comprehensive session note for session 41 based on the transcript below.
 
 For context, here are the most recent session notes you should reference for style and format:
+- docs/sessions/session-41.old.md
 - docs/sessions/session-40.md
 - docs/sessions/session-39.md
 - docs/sessions/session-38.md
 - docs/sessions/session-24.md
-- docs/sessions/session-10.md
 
 Please create a detailed session note following the format and style of the previous sessions. 
 
