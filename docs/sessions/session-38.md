@@ -8,7 +8,7 @@ image: "/img/C4E38.webp"
 podcastlink: ""
 ---
 
-**[🎧 Podcast Link]() • *January 9, 2026***
+**🎧 Podcast coming soon • *January 9, 2026***
 
 ## Morning in High Forge
 

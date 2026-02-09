@@ -1,6 +1,36 @@
 {
   "sessions": [
     {
+      "number": 42,
+      "title": "Session 42",
+      "href": "/sessions/session-42",
+      "id": "session-42"
+    },
+    {
+      "number": 41,
+      "title": "Session 41",
+      "href": "/sessions/session-41",
+      "id": "session-41"
+    },
+    {
+      "number": 40,
+      "title": "Session 40",
+      "href": "/sessions/session-40",
+      "id": "session-40"
+    },
+    {
+      "number": 39,
+      "title": "Session 39",
+      "href": "/sessions/session-39",
+      "id": "session-39"
+    },
+    {
+      "number": 38,
+      "title": "Session 38",
+      "href": "/sessions/session-38",
+      "id": "session-38"
+    },
+    {
       "number": 37,
       "title": "Session 37",
       "href": "/sessions/session-37",

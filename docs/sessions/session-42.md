@@ -8,7 +8,7 @@ image: "/img/C4E42.webp"
 podcastlink: ""
 ---
 
-**[🎧 Podcast Link]() • *February 6, 2026***
+**🎧 Podcast coming soon • *February 6, 2026***
 
 ## Dragon Attack
 

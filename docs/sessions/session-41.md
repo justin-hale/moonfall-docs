@@ -8,7 +8,7 @@ image: "/img/C4E41.webp"
 podcastlink: ""
 ---
 
-**[🎧 Podcast Link]() • *January 30, 2026***
+**🎧 Podcast coming soon • *January 30, 2026***
 
 ## Arrival at the Crash Site
 

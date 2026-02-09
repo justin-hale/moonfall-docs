@@ -8,7 +8,7 @@ image: "/img/C4E39.webp"
 podcastlink: ""
 ---
 
-**[🎧 Podcast Link]() • *January 16, 2026***
+**🎧 Podcast coming soon • *January 16, 2026***
 
 ## A Reunion Interrupted
 

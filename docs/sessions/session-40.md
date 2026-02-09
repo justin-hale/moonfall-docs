@@ -8,7 +8,7 @@ image: "/img/C4E40.webp"
 podcastlink: ""
 ---
 
-**[🎧 Podcast Link]() • *January 23, 2026***
+**🎧 Podcast coming soon • *January 23, 2026***
 
 ## A Night at the Dragon's Hide
 
