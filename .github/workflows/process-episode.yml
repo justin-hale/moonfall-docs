@@ -120,8 +120,11 @@ jobs:
       # ── moonfall-docs PR ──
       - name: Open notes PR on moonfall-docs
         if: env.SKIP != 'true' && env.DRY_RUN != 'true'
+        # use a personal access token rather than the default GITHUB_TOKEN, because
+        # repository policy may forbid the built-in token from creating PRs.  the
+        # OMELAS_PAT already has repo scope and is available in this repository.
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.OMELAS_PAT }}
         run: python scripts/ci_process.py open-pr
 
       # ── Save registry (runs even on partial failure) ──
@@ -130,6 +133,10 @@ jobs:
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
+          # make sure we're back on the default branch; the open-pr step switches
+          # to an srt/* branch which then caused future pushes to fail with a
+          # missing upstream.  checking out main avoids that.
+          git checkout main || true
           git add data/episodes.json
           if git diff --cached --quiet; then
             echo "No registry changes to commit."

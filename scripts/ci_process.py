@@ -620,11 +620,13 @@ def cmd_open_pr():
 
     print(f"  Pushing branch {branch}...")
     result = subprocess.run(
-        ["git", "push", "origin", branch],
+        # push with upstream so subsequent git commands know about this branch
+        ["git", "push", "--set-upstream", "origin", branch],
         capture_output=True, text=True
     )
     if result.returncode != 0:
         print(f"ERROR: Push failed: {result.stderr}", file=sys.stderr)
+        # fall through so we still try to checkout main below
         sys.exit(1)
 
     # Open PR — gh uses GH_TOKEN from the environment automatically
@@ -634,20 +636,34 @@ def cmd_open_pr():
         f"merge triggers automated notes generation and site deploy."
     )
     print(f"  Opening PR: {pr_title}")
-    result = subprocess.run([
-        "gh", "pr", "create",
-        "--title", pr_title,
-        "--body", pr_body,
-        "--head", branch,
-        "--base", "main",
-    ], capture_output=True, text=True)
-    if result.returncode != 0:
-        print(f"ERROR: PR creation failed: {result.stderr}", file=sys.stderr)
-        sys.exit(1)
-
-    pr_url = result.stdout.strip()
-    print(f"  PR opened: {pr_url}")
-    mark_stage(episode_number, "open-pr")
+    try:
+        result = subprocess.run([
+            "gh", "pr", "create",
+            "--title", pr_title,
+            "--body", pr_body,
+            "--head", branch,
+            "--base", "main",
+        ], capture_output=True, text=True)
+        if result.returncode != 0:
+            # improve diagnostics for the common permission failure
+            stderr = result.stderr or ""
+            if "createPullRequest" in stderr or "not permitted" in stderr:
+                print(
+                    "ERROR: PR creation failed due to insufficient token permissions.\n"
+                    "Make sure the token provided in GH_TOKEN has rights to create pull requests\n"
+                    "or adjust the repository setting \"Allow GitHub Actions to create and approve \"\n"
+                    "pull requests. You can also provide a personal access token via a secret.\n",
+                    file=sys.stderr,
+                )
+            print(f"ERROR: PR creation failed: {stderr}", file=sys.stderr)
+            sys.exit(1)
+        pr_url = result.stdout.strip()
+        print(f"  PR opened: {pr_url}")
+        mark_stage(episode_number, "open-pr")
+    finally:
+        # always return to main branch so later steps (like registry commit) run on
+        # the expected branch; ignore failures since we're already in CI.
+        subprocess.run(["git", "checkout", "main"], capture_output=True)
 
 
 # ── Entry point ─────────────────────────────────────────────────────────────
