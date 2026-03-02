@@ -44,7 +44,10 @@
     "session_date": "2026-02-27",
     "stages": {
       "release": "2026-03-02T16:54:07Z",
-      "update-feed": "2026-03-02T16:54:08Z"
+      "update-feed": "2026-03-02T16:54:08Z",
+      "download": "2026-03-02T17:37:13Z",
+      "extract": "2026-03-02T17:39:13Z",
+      "release-deleted": "2026-03-02T17:39:15Z"
     }
   }
 }
