@@ -92,7 +92,7 @@ def stage_done(episode_number, stage):
 
 def extract_date_from_filename(filename):
     """Extract date from filename like 'DnD - 2026_01_23.mp4'."""
-    match = re.search(r"(\d{4})[_-](\d{2})[_-](\d{2})", filename)
+    match = re.search(r"(\d{4})[/_-](\d{2})[/_-](\d{2})", filename)
     if match:
         year, month, day = match.groups()
         return datetime(int(year), int(month), int(day))
