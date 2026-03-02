@@ -257,8 +257,15 @@ def cmd_download():
     session_date = env("SESSION_DATE")
 
     if stage_done(episode_number, "download"):
-        print(f"  Already done — skipping download.")
-        return
+        if METADATA_FILE.exists():
+            print(f"  Already done — skipping download.")
+            return
+        else:
+            print(
+                "  Warning: download stage already recorded but metadata.json is missing. "
+                "Re-running download to regenerate metadata.",
+                file=sys.stderr,
+            )
 
     WORKSPACE.mkdir(parents=True, exist_ok=True)
     service = get_drive_service()
@@ -308,6 +315,16 @@ def cmd_download():
 def cmd_extract():
     """Run ffmpeg to produce MP3 + SRT from workspace/source_video.*."""
     print("=== extract ===")
+
+    if not METADATA_FILE.exists():
+        print(
+            "ERROR: workspace/metadata.json not found. "
+            "This usually means the download step has not run or previously failed.\n"
+            "Make sure you run `ci_process.py download` (or allow the workflow to run the full sequence),\n"
+            "then try extract again.",
+            file=sys.stderr,
+        )
+        sys.exit(1)
 
     meta = json.loads(METADATA_FILE.read_text())
     source_path = Path(meta["source_path"])
