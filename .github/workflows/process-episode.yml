@@ -122,6 +122,20 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/ci_process.py open-pr
 
+      # ── Save registry (runs even on partial failure) ──
+      - name: Commit episode registry
+        if: always() && env.SKIP != 'true' && env.DRY_RUN != 'true'
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add data/episodes.json
+          if git diff --cached --quiet; then
+            echo "No registry changes to commit."
+          else
+            git commit -m "Update episode registry [automated]"
+            git push
+          fi
+
       - name: Summary
         if: env.SKIP != 'true' && env.DRY_RUN != 'true'
         run: |
