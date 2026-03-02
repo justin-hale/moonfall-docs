@@ -590,6 +590,13 @@ def cmd_open_pr():
     meta = json.loads(METADATA_FILE.read_text())
     episode_number = meta["episode_number"]
 
+    # GH CLI requires GH_TOKEN; if the workflow didn't set it copy from
+    # GITHUB_TOKEN (always available in Actions) so the first gh call works.
+    if not os.environ.get("GH_TOKEN"):
+        github_token = os.environ.get("GITHUB_TOKEN")
+        if github_token:
+            os.environ["GH_TOKEN"] = github_token
+
     if stage_done(episode_number, "open-pr"):
         print(f"  Already done — skipping PR.")
         return
