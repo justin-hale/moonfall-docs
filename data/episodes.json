@@ -39,15 +39,12 @@
       "update-feed": "2026-02-28T04:28:34Z"
     }
   },
-  "54": {
+  "49": {
     "drive_file_id": "1FTaBPcmB6ZA2uQR4cb_j2Lh1eELDE-ND",
     "session_date": "2026-02-27",
     "stages": {
-      "download": "2026-03-02T16:51:58Z",
-      "extract": "2026-03-02T16:53:58Z",
       "release": "2026-03-02T16:54:07Z",
-      "update-feed": "2026-03-02T16:54:08Z",
-      "open-pr": "2026-03-02T16:54:11Z"
+      "update-feed": "2026-03-02T16:54:08Z"
     }
   }
 }

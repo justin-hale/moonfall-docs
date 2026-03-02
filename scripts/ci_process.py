@@ -18,6 +18,7 @@ import os
 import re
 import subprocess
 import sys
+import shutil
 import tempfile  # used by cmd_update_feed
 import xml.etree.ElementTree as ET
 from datetime import datetime
@@ -134,12 +135,17 @@ def cmd_detect():
 
     # --- Get published releases from omelas-stories ---
     print("Fetching published releases from topherhooper/omelas-stories...")
+    # fetch tag names *and* release names (title includes the session
+    # date) so we can avoid creating a new release for a file whose date
+    # already exists downstream.  The `name` field looks like
+    # "Episode 12 - 2026-02-27".
     result = subprocess.run(
         ["gh", "release", "list", "--repo", "topherhooper/omelas-stories",
-         "--limit", "200", "--json", "tagName"],
+         "--limit", "200", "--json", "tagName,name"],
         capture_output=True, text=True
     )
     published_tags = set()
+    existing_dates = set()
     if result.returncode == 0 and result.stdout.strip():
         releases = json.loads(result.stdout)
         for r in releases:
@@ -149,15 +155,64 @@ def cmd_detect():
                     published_tags.add(int(tag[1:]))
                 except ValueError:
                     pass
+            name = r.get("name", "")
+            # extract date from title using same regex as filenames
+            d = extract_date_from_filename(name)
+            if d:
+                existing_dates.add(d.strftime("%Y-%m-%d"))
     print(f"  Published episodes: {sorted(published_tags)}")
+    if existing_dates:
+        print(f"  Existing session dates: {sorted(existing_dates)}")
 
-    # --- Determine episode number ---
+    # --- Determine episode to process ---
+    # If an episode override was provided, use it. Otherwise prefer the
+    # most recent published release that isn't fully processed yet. This
+    # allows repeated runs to catch up older unprocessed releases one by
+    # one. If no suitable published release is found, fall back to the
+    # auto-detect behavior (newest Drive file → next episode number).
+    episode_number = None
     if episode_override:
         episode_number = int(episode_override)
         print(f"  Episode override: {episode_number}")
     else:
-        episode_number = max(published_tags) + 1 if published_tags else 1
-        print(f"  Auto-detected episode: {episode_number}")
+        # Build a list of releases with parsed dates and tag numbers
+        releases_with_dates = []
+        if result.returncode == 0 and result.stdout.strip():
+            for r in json.loads(result.stdout):
+                tag = r.get("tagName", "")
+                name = r.get("name", "")
+                if not tag.startswith("v"):
+                    continue
+                try:
+                    tagnum = int(tag[1:])
+                except ValueError:
+                    continue
+                d = extract_date_from_filename(name)
+                date_str = d.strftime("%Y-%m-%d") if d else None
+                releases_with_dates.append({"tag": tagnum, "name": name, "date": date_str})
+
+        # Sort by release date ascending (oldest releases first). When date
+        # is missing, fall back to tag number so ordering is deterministic.
+        releases_with_dates.sort(key=lambda x: (x.get("date") or "", x["tag"]))
+
+        # Find the first release that isn't fully processed according to registry
+        registry = load_registry()
+        selected_release = None
+        for rel in releases_with_dates:
+            ep = str(rel["tag"])
+            stages = registry.get(ep, {}).get("stages", {})
+            if "open-pr" in stages:
+                continue
+            # choose this release to attempt processing
+            selected_release = rel
+            episode_number = rel["tag"]
+            print(f"  Selected published release to process: v{episode_number} ({rel['name']})")
+            break
+
+        if episode_number is None:
+            # No unprocessed published releases — default to next episode number
+            episode_number = max(published_tags) + 1 if published_tags else 1
+            print(f"  Auto-detected episode: {episode_number}")
 
     # --- Short-circuit if file_id override given ---
     if file_id_override:
@@ -231,6 +286,14 @@ def cmd_detect():
         return
 
     session_date = date_override if date_override else d.strftime("%Y-%m-%d")
+
+    # if we already have a release with this session date, mark that fact
+    # and continue so downstream steps (download/extract) can still run.
+    # The workflow will use `RELEASE_EXISTS` to avoid creating a duplicate
+    # release while still allowing the SRT to be produced and committed.
+    if session_date in existing_dates:
+        print(f"  Session date {session_date} already released.")
+        write_github_env("RELEASE_EXISTS", "true")
 
     # Register this episode
     ep_key = str(episode_number)
@@ -366,6 +429,34 @@ def cmd_extract():
     if not srt_ok:
         print("  Warning: No subtitles found in video.")
 
+    # If we extracted subtitles, decide whether to copy them into
+    # `transcripts_raw/`. Only copy if there is no existing cleaned
+    # transcript in `docs/transcripts/` that matches this session date.
+    if srt_ok:
+        transcripts_dir = Path("transcripts_raw")
+        transcripts_dir.mkdir(parents=True, exist_ok=True)
+        dest = transcripts_dir / srt_path.name
+
+        # Look for any file in docs/transcripts whose filename contains the
+        # session date (YYYY-MM-DD). If one exists, we assume the cleaned
+        # transcript is already present and skip copying into transcripts_raw.
+        docs_transcripts = Path("docs") / "transcripts"
+        should_copy = True
+        if docs_transcripts.exists():
+            pattern = session_date
+            for f in docs_transcripts.rglob("*"):
+                if f.is_file() and pattern in f.name:
+                    print(f"  Found existing transcript in docs/transcripts: {f.name}; skipping copy to transcripts_raw")
+                    should_copy = False
+                    break
+
+        if should_copy:
+            try:
+                shutil.copy2(srt_path, dest)
+                print(f"  Copied subtitles to {dest}")
+            except Exception as e:
+                print(f"  Warning: failed to copy srt to transcripts_raw: {e}")
+
     # Update metadata with output paths
     meta["mp3_path"] = str(mp3_path)
     meta["srt_path"] = str(srt_path) if srt_ok else None
@@ -381,11 +472,27 @@ def cmd_release():
 
     meta = json.loads(METADATA_FILE.read_text())
     episode_number = meta["episode_number"]
+    session_date = meta["session_date"]
+
+    # defensive check: if any existing release already uses this date in its
+    # title, skip creation to avoid duplicates (same logic as cmd_detect).
+    result = subprocess.run([
+        "gh", "release", "list", "--repo", "topherhooper/omelas-stories",
+        "--limit", "200", "--json", "name"
+    ], capture_output=True, text=True)
+    if result.returncode == 0 and result.stdout.strip():
+        releases = json.loads(result.stdout)
+        for r in releases:
+            name = r.get("name", "")
+            d = extract_date_from_filename(name)
+            if d and d.strftime("%Y-%m-%d") == session_date:
+                print(f"  Release for date {session_date} already exists ({name}) — skipping.")
+                mark_stage(episode_number, "release")
+                return
 
     if stage_done(episode_number, "release"):
         print(f"  Already done — skipping release.")
         return
-    session_date = meta["session_date"]
     mp3_path = Path(meta["mp3_path"])
     repo = "topherhooper/omelas-stories"
     tag = f"v{episode_number}"
@@ -423,6 +530,33 @@ def cmd_release():
     meta["audio_url"] = audio_url
     METADATA_FILE.write_text(json.dumps(meta, indent=2))
     mark_stage(episode_number, "release")
+
+
+def cmd_delete_release():
+    """Remove the GitHub release (and its tag) for the current episode.
+
+    This is intended to be called from the CI workflow if a later step fails
+    after we've already created the release, so the pipeline can roll back
+    the erroneous artifact.  We use `gh release delete` which handles both
+    the release and the associated git tag.
+    """
+    print("=== delete-release ===")
+    meta = json.loads(METADATA_FILE.read_text())
+    episode_number = meta["episode_number"]
+    repo = "topherhooper/omelas-stories"
+    tag = f"v{episode_number}"
+
+    print(f"  Deleting release {tag} on {repo}")
+    result = subprocess.run([
+        "gh", "release", "delete", tag,
+        "--repo", repo,
+        "--yes"
+    ], capture_output=True, text=True)
+    if result.returncode != 0:
+        print(f"WARNING: could not delete release: {result.stderr}", file=sys.stderr)
+    else:
+        print(f"  Release {tag} deleted")
+        mark_stage(episode_number, "release-deleted")
 
 
 # ── Helpers for RSS ─────────────────────────────────────────────────────────
@@ -732,6 +866,8 @@ SUBCOMMANDS = {
     "release": cmd_release,
     "update-feed": cmd_update_feed,
     "open-pr": cmd_open_pr,
+    # cleanup helper, invoked by workflow on failure
+    "delete-release": cmd_delete_release,
 }
 
 

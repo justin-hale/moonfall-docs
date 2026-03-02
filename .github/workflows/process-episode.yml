@@ -105,7 +105,7 @@ jobs:
 
       # ── GitHub release ──
       - name: Create GitHub release
-        if: env.SKIP != 'true' && env.DRY_RUN != 'true'
+        if: env.SKIP != 'true' && env.DRY_RUN != 'true' && env.RELEASE_EXISTS != 'true'
         env:
           GH_TOKEN: ${{ secrets.OMELAS_PAT }}
         run: python scripts/ci_process.py release
@@ -126,6 +126,13 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/ci_process.py open-pr
+
+      # ── Cleanup on failure ──
+      - name: Delete release if pipeline failed
+        if: failure() && env.SKIP != 'true' && env.DRY_RUN != 'true'
+        env:
+          GH_TOKEN: ${{ secrets.OMELAS_PAT }}
+        run: python scripts/ci_process.py delete-release
 
       # ── Save registry (runs even on partial failure) ──
       - name: Commit episode registry
