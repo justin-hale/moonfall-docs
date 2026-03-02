@@ -652,31 +652,64 @@ def cmd_open_pr():
         f"Session {episode_number} ({session_date_str}) — "
         f"merge triggers automated notes generation and site deploy."
     )
-    print(f"  Opening PR: {pr_title}")
+
+    def run_pr(env=None):
+        return subprocess.run(
+            [
+                "gh", "pr", "create",
+                "--title", pr_title,
+                "--body", pr_body,
+                "--head", branch,
+                "--base", "main",
+            ],
+            capture_output=True,
+            text=True,
+            env=env,
+        )
+
     try:
-        result = subprocess.run([
-            "gh", "pr", "create",
-            "--title", pr_title,
-            "--body", pr_body,
-            "--head", branch,
-            "--base", "main",
-        ], capture_output=True, text=True)
+        print(f"  Opening PR: {pr_title}")
+        result = run_pr()
         if result.returncode != 0:
-            # improve diagnostics for the common permission failure
             stderr = result.stderr or ""
-            if "createPullRequest" in stderr or "not permitted" in stderr:
+            if "Resource not accessible by personal access token" in stderr:
+                print(
+                    "ERROR: The token in GH_TOKEN cannot access this repository.\n"
+                    "If you've overridden GH_TOKEN with a PAT, make sure the token has full repo\n"
+                    "permissions for this repo. Otherwise the workflow's built-in GITHUB_TOKEN\n"
+                    "might work once the repository setting to allow Actions‑created PRs is\n"
+                    "enabled.\n",
+                    file=sys.stderr,
+                )
+                # attempt retry without GH_TOKEN so gh falls back to GITHUB_TOKEN
+                print("  Retrying PR creation without GH_TOKEN…")
+                env = os.environ.copy()
+                env.pop("GH_TOKEN", None)
+                retry = run_pr(env=env)
+                if retry.returncode == 0:
+                    pr_url = retry.stdout.strip()
+                    print(f"  PR opened: {pr_url}")
+                    mark_stage(episode_number, "open-pr")
+                    result = None
+                else:
+                    stderr = retry.stderr or ""
+                    print(f"ERROR: Retry also failed: {stderr}", file=sys.stderr)
+                    result = retry
+            elif "createPullRequest" in stderr or "not permitted" in stderr:
                 print(
                     "ERROR: PR creation failed due to insufficient token permissions.\n"
                     "Make sure the token provided in GH_TOKEN has rights to create pull requests\n"
                     "or adjust the repository setting \"Allow GitHub Actions to create and approve \"\n"
-                    "pull requests. You can also provide a personal access token via a secret.\n",
+                    "pull requests.\n",
                     file=sys.stderr,
                 )
-            print(f"ERROR: PR creation failed: {stderr}", file=sys.stderr)
-            sys.exit(1)
-        pr_url = result.stdout.strip()
-        print(f"  PR opened: {pr_url}")
-        mark_stage(episode_number, "open-pr")
+            if result:
+                print(f"ERROR: PR creation failed: {stderr}", file=sys.stderr)
+                sys.exit(1)
+        else:
+            pr_url = result.stdout.strip()
+            print(f"  PR opened: {pr_url}")
+            mark_stage(episode_number, "open-pr")
     finally:
         # always return to main branch so later steps (like registry commit) run on
         # the expected branch; ignore failures since we're already in CI.
