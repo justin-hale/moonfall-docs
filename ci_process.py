@@ -6,7 +6,6 @@ Subcommands:
   detect       - Find newest unprocessed Drive file; write env vars to $GITHUB_ENV
   download     - Download source video from Drive to workspace/
   extract      - ffmpeg: MP3 + SRT from workspace/source_video.*
-  upload       - Upload MP3 + SRT to Drive archive folder
   release      - Create GitHub release with MP3 on topherhooper/omelas-stories
   update-feed  - Clone omelas-stories, add episode to feed.xml, push
   open-pr      - Push branch + open PR on moonfall-docs with SRT in transcripts_raw/
@@ -76,7 +75,7 @@ def get_drive_service():
     key_json = env("GOOGLE_SERVICE_ACCOUNT_KEY")
     key_data = json.loads(key_json)
 
-    scopes = ["https://www.googleapis.com/auth/drive"]
+    scopes = ["https://www.googleapis.com/auth/drive.readonly"]
     creds = service_account.Credentials.from_service_account_info(key_data, scopes=scopes)
     return build("drive", "v3", credentials=creds)
 
@@ -289,41 +288,6 @@ def cmd_extract():
     meta["mp3_path"] = str(mp3_path)
     meta["srt_path"] = str(srt_path) if srt_ok else None
     METADATA_FILE.write_text(json.dumps(meta, indent=2))
-
-
-# ── Subcommand: upload ──────────────────────────────────────────────────────
-
-def cmd_upload():
-    """Upload MP3 + SRT to Drive archive folder."""
-    print("=== upload ===")
-    from googleapiclient.http import MediaFileUpload
-
-    output_folder_id = env("DRIVE_OUTPUT_FOLDER_ID")
-    meta = json.loads(METADATA_FILE.read_text())
-    service = get_drive_service()
-
-    files_to_upload = []
-    if meta.get("mp3_path"):
-        files_to_upload.append((Path(meta["mp3_path"]), "audio/mpeg"))
-    if meta.get("srt_path"):
-        files_to_upload.append((Path(meta["srt_path"]), "text/plain"))
-
-    for file_path, mime_type in files_to_upload:
-        if not file_path.exists():
-            print(f"  Skipping (not found): {file_path}")
-            continue
-        print(f"  Uploading {file_path.name} ({file_path.stat().st_size / (1024*1024):.1f} MB)...")
-        file_metadata = {
-            "name": file_path.name,
-            "parents": [output_folder_id],
-        }
-        media = MediaFileUpload(str(file_path), mimetype=mime_type, resumable=True)
-        uploaded = service.files().create(
-            body=file_metadata,
-            media_body=media,
-            fields="id,name"
-        ).execute()
-        print(f"  Uploaded: {uploaded['name']} (id={uploaded['id']})")
 
 
 # ── Subcommand: release ─────────────────────────────────────────────────────
@@ -611,7 +575,6 @@ SUBCOMMANDS = {
     "detect": cmd_detect,
     "download": cmd_download,
     "extract": cmd_extract,
-    "upload": cmd_upload,
     "release": cmd_release,
     "update-feed": cmd_update_feed,
     "open-pr": cmd_open_pr,

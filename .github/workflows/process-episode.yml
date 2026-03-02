@@ -42,7 +42,6 @@ jobs:
       SESSION_DATE: ${{ github.event.inputs.session_date || '' }}
       DRY_RUN: ${{ github.event.inputs.dry_run || 'false' }}
       DRIVE_FOLDER_ID: ${{ vars.DRIVE_FOLDER_ID || '14EVI64FlpZCwRy4UL4ZhGjlsjK55XL1h' }}
-      DRIVE_OUTPUT_FOLDER_ID: ${{ vars.DRIVE_OUTPUT_FOLDER_ID }}
       GOOGLE_SERVICE_ACCOUNT_KEY: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_KEY }}
       OMELAS_PAT: ${{ secrets.OMELAS_PAT }}
 
@@ -83,7 +82,7 @@ jobs:
           echo "EPISODE_NUMBER : $EPISODE_NUMBER"
           echo "DRIVE_FILE_ID  : $DRIVE_FILE_ID"
           echo "SESSION_DATE   : $SESSION_DATE"
-          echo "Would download, extract, upload, release, update-feed, open-pr"
+          echo "Would download, extract, release, update-feed, open-pr"
           echo "Exiting (dry run)."
           exit 0
 
@@ -96,11 +95,6 @@ jobs:
       - name: Extract MP3 + SRT
         if: env.SKIP != 'true' && env.DRY_RUN != 'true'
         run: python ci_process.py extract
-
-      # ── Upload to Drive archive ──
-      - name: Upload to Drive archive
-        if: env.SKIP != 'true' && env.DRY_RUN != 'true'
-        run: python ci_process.py upload
 
       # ── Free disk space ──
       - name: Delete source video
