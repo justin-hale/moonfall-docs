@@ -1,0 +1,140 @@
+name: Process Episode
+
+on:
+  schedule:
+    # Every Monday at 06:00 UTC
+    - cron: '0 6 * * 1'
+  workflow_dispatch:
+    inputs:
+      drive_file_id:
+        description: 'Override: Google Drive file ID (skip auto-detect)'
+        required: false
+        default: ''
+      episode_number:
+        description: 'Override: episode number (skip auto-detect)'
+        required: false
+        default: ''
+      session_date:
+        description: 'Override: session date YYYY-MM-DD (skip filename parse)'
+        required: false
+        default: ''
+      dry_run:
+        description: 'Dry run — log what would happen without executing'
+        required: false
+        default: 'false'
+        type: choice
+        options:
+          - 'false'
+          - 'true'
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  process:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    env:
+      DRIVE_FILE_ID: ${{ github.event.inputs.drive_file_id || '' }}
+      EPISODE_NUMBER: ${{ github.event.inputs.episode_number || '' }}
+      SESSION_DATE: ${{ github.event.inputs.session_date || '' }}
+      DRY_RUN: ${{ github.event.inputs.dry_run || 'false' }}
+      DRIVE_FOLDER_ID: ${{ vars.DRIVE_FOLDER_ID || '14EVI64FlpZCwRy4UL4ZhGjlsjK55XL1h' }}
+      DRIVE_OUTPUT_FOLDER_ID: ${{ vars.DRIVE_OUTPUT_FOLDER_ID }}
+      GOOGLE_SERVICE_ACCOUNT_KEY: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_KEY }}
+      OMELAS_PAT: ${{ secrets.OMELAS_PAT }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Python dependencies
+        run: pip install google-api-python-client google-auth
+
+      - name: Setup ffmpeg
+        uses: FedericoCarboni/setup-ffmpeg@v3
+
+      - name: Create workspace directory
+        run: mkdir -p workspace
+
+      # ── Auto-detect: find newest Drive file with no matching release ──
+      - name: Detect episode
+        id: detect
+        run: python ci_process.py detect
+
+      # ── Exit early if nothing new or dry run ──
+      - name: Check for skip
+        if: env.SKIP == 'true'
+        run: |
+          echo "No new episodes found. Exiting."
+          exit 0
+
+      - name: Dry run summary
+        if: env.DRY_RUN == 'true'
+        run: |
+          echo "=== DRY RUN ==="
+          echo "EPISODE_NUMBER : $EPISODE_NUMBER"
+          echo "DRIVE_FILE_ID  : $DRIVE_FILE_ID"
+          echo "SESSION_DATE   : $SESSION_DATE"
+          echo "Would download, extract, upload, release, update-feed, open-pr"
+          echo "Exiting (dry run)."
+          exit 0
+
+      # ── Download ──
+      - name: Download video from Drive
+        if: env.SKIP != 'true' && env.DRY_RUN != 'true'
+        run: python ci_process.py download
+
+      # ── Extract ──
+      - name: Extract MP3 + SRT
+        if: env.SKIP != 'true' && env.DRY_RUN != 'true'
+        run: python ci_process.py extract
+
+      # ── Upload to Drive archive ──
+      - name: Upload to Drive archive
+        if: env.SKIP != 'true' && env.DRY_RUN != 'true'
+        run: python ci_process.py upload
+
+      # ── Free disk space ──
+      - name: Delete source video
+        if: env.SKIP != 'true' && env.DRY_RUN != 'true'
+        run: rm -f workspace/source_video.*
+
+      # ── GitHub release ──
+      - name: Create GitHub release
+        if: env.SKIP != 'true' && env.DRY_RUN != 'true'
+        env:
+          GH_TOKEN: ${{ secrets.OMELAS_PAT }}
+        run: python ci_process.py release
+
+      # ── RSS feed ──
+      - name: Update RSS feed
+        if: env.SKIP != 'true' && env.DRY_RUN != 'true'
+        env:
+          GH_TOKEN: ${{ secrets.OMELAS_PAT }}
+        run: python ci_process.py update-feed
+
+      # ── moonfall-docs PR ──
+      - name: Open notes PR on moonfall-docs
+        if: env.SKIP != 'true' && env.DRY_RUN != 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python ci_process.py open-pr
+
+      - name: Summary
+        if: env.SKIP != 'true' && env.DRY_RUN != 'true'
+        run: |
+          echo "=== Pipeline complete ==="
+          echo "Episode  : $EPISODE_NUMBER"
+          echo "Date     : $SESSION_DATE"
+          echo "Release  : https://github.com/topherhooper/omelas-stories/releases/tag/v$EPISODE_NUMBER"
+          echo ""
+          echo "Next step: Merge the SRT PR on justin-hale/moonfall-docs to trigger notes generation."
+          echo "After merge: python aftershow.py generate $EPISODE_NUMBER --date $SESSION_DATE"
