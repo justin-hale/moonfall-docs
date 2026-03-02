@@ -30,6 +30,7 @@ from time import mktime
 
 WORKSPACE = Path("workspace")
 METADATA_FILE = WORKSPACE / "metadata.json"
+REGISTRY_FILE = Path("data/episodes.json")
 
 
 # ── Env helpers ────────────────────────────────────────────────────────────
@@ -52,6 +53,39 @@ def write_github_env(key, value):
     # Also export into the current process so later functions can read it.
     os.environ[key] = value
     print(f"  {key}={value}")
+
+
+# ── Episode registry ──────────────────────────────────────────────────────
+
+def load_registry():
+    """Load the episode registry, or return empty dict."""
+    if REGISTRY_FILE.exists():
+        return json.loads(REGISTRY_FILE.read_text())
+    return {}
+
+
+def save_registry(registry):
+    """Write the registry back to disk."""
+    REGISTRY_FILE.parent.mkdir(parents=True, exist_ok=True)
+    REGISTRY_FILE.write_text(json.dumps(registry, indent=2) + "\n")
+
+
+def mark_stage(episode_number, stage):
+    """Record that a stage completed for an episode."""
+    registry = load_registry()
+    ep = str(episode_number)
+    if ep not in registry:
+        registry[ep] = {"drive_file_id": None, "session_date": None, "stages": {}}
+    registry[ep]["stages"][stage] = datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+    save_registry(registry)
+    print(f"  Registry: marked {stage} complete for episode {episode_number}")
+
+
+def stage_done(episode_number, stage):
+    """Check if a stage is already recorded as complete."""
+    registry = load_registry()
+    ep = str(episode_number)
+    return ep in registry and stage in registry[ep].get("stages", {})
 
 
 # ── Date parsing ────────────────────────────────────────────────────────────
@@ -141,6 +175,13 @@ def cmd_detect():
         else:
             session_date = date_override
 
+        # Register override episode
+        registry = load_registry()
+        ep_key = str(episode_number)
+        if ep_key not in registry:
+            registry[ep_key] = {"drive_file_id": drive_file_id, "session_date": session_date, "stages": {}}
+        save_registry(registry)
+
         print("Writing env vars:")
         write_github_env("EPISODE_NUMBER", str(episode_number))
         write_github_env("DRIVE_FILE_ID", drive_file_id)
@@ -148,11 +189,6 @@ def cmd_detect():
         return
 
     # --- Auto-detect: grab most recent Drive file, assign next episode ---
-    if episode_number in published_tags:
-        print(f"  Episode {episode_number} already published — nothing to do.")
-        write_github_env("SKIP", "true")
-        return
-
     drive_folder_id = env("DRIVE_FOLDER_ID")
     print(f"Scanning Drive folder {drive_folder_id}...")
     service = get_drive_service()
@@ -173,6 +209,21 @@ def cmd_detect():
     newest = files[0]
     print(f"  Most recent file: {newest['name']}")
 
+    # Check if this file is already fully processed
+    registry = load_registry()
+    for ep, data in registry.items():
+        if data.get("drive_file_id") == newest["id"]:
+            stages = data.get("stages", {})
+            if "open-pr" in stages:
+                print(f"  File already fully processed as episode {ep} — nothing to do.")
+                write_github_env("SKIP", "true")
+                return
+            else:
+                # Partially processed — resume from where we left off
+                print(f"  File partially processed as episode {ep} — resuming.")
+                episode_number = int(ep)
+                break
+
     d = extract_date_from_filename(newest["name"])
     if d is None:
         print(f"  Could not parse date from filename — skipping.")
@@ -180,6 +231,12 @@ def cmd_detect():
         return
 
     session_date = date_override if date_override else d.strftime("%Y-%m-%d")
+
+    # Register this episode
+    ep_key = str(episode_number)
+    if ep_key not in registry:
+        registry[ep_key] = {"drive_file_id": newest["id"], "session_date": session_date, "stages": {}}
+    save_registry(registry)
 
     print(f"  Selected: {newest['name']} → episode {episode_number}, date {session_date}")
     print("Writing env vars:")
@@ -198,6 +255,10 @@ def cmd_download():
     drive_file_id = env("DRIVE_FILE_ID")
     episode_number = env("EPISODE_NUMBER")
     session_date = env("SESSION_DATE")
+
+    if stage_done(episode_number, "download"):
+        print(f"  Already done — skipping download.")
+        return
 
     WORKSPACE.mkdir(parents=True, exist_ok=True)
     service = get_drive_service()
@@ -239,6 +300,7 @@ def cmd_download():
     }
     METADATA_FILE.write_text(json.dumps(metadata, indent=2))
     print(f"  Metadata written: {METADATA_FILE}")
+    mark_stage(episode_number, "download")
 
 
 # ── Subcommand: extract ─────────────────────────────────────────────────────
@@ -250,6 +312,10 @@ def cmd_extract():
     meta = json.loads(METADATA_FILE.read_text())
     source_path = Path(meta["source_path"])
     episode_number = meta["episode_number"]
+
+    if stage_done(episode_number, "extract"):
+        print(f"  Already done — skipping extract.")
+        return
     session_date = meta["session_date"]
 
     base_name = f"C4E{episode_number}_{session_date}"
@@ -287,6 +353,7 @@ def cmd_extract():
     meta["mp3_path"] = str(mp3_path)
     meta["srt_path"] = str(srt_path) if srt_ok else None
     METADATA_FILE.write_text(json.dumps(meta, indent=2))
+    mark_stage(episode_number, "extract")
 
 
 # ── Subcommand: release ─────────────────────────────────────────────────────
@@ -297,6 +364,10 @@ def cmd_release():
 
     meta = json.loads(METADATA_FILE.read_text())
     episode_number = meta["episode_number"]
+
+    if stage_done(episode_number, "release"):
+        print(f"  Already done — skipping release.")
+        return
     session_date = meta["session_date"]
     mp3_path = Path(meta["mp3_path"])
     repo = "topherhooper/omelas-stories"
@@ -334,6 +405,7 @@ def cmd_release():
     print(f"  Release URL: {audio_url}")
     meta["audio_url"] = audio_url
     METADATA_FILE.write_text(json.dumps(meta, indent=2))
+    mark_stage(episode_number, "release")
 
 
 # ── Helpers for RSS ─────────────────────────────────────────────────────────
@@ -360,6 +432,10 @@ def cmd_update_feed():
 
     meta = json.loads(METADATA_FILE.read_text())
     episode_number = meta["episode_number"]
+
+    if stage_done(episode_number, "update-feed"):
+        print(f"  Already done — skipping feed update.")
+        return
     session_date_str = meta["session_date"]
     mp3_path = Path(meta["mp3_path"])
     audio_url = meta["audio_url"]
@@ -480,6 +556,7 @@ def cmd_update_feed():
             sys.exit(1)
 
     print(f"  RSS feed updated: https://topherhooper.github.io/omelas-stories/feed.xml")
+    mark_stage(episode_number, "update-feed")
 
 
 # ── Subcommand: open-pr ─────────────────────────────────────────────────────
@@ -495,6 +572,10 @@ def cmd_open_pr():
 
     meta = json.loads(METADATA_FILE.read_text())
     episode_number = meta["episode_number"]
+
+    if stage_done(episode_number, "open-pr"):
+        print(f"  Already done — skipping PR.")
+        return
     session_date_str = meta["session_date"]
     srt_path = meta.get("srt_path")
 
@@ -566,6 +647,7 @@ def cmd_open_pr():
 
     pr_url = result.stdout.strip()
     print(f"  PR opened: {pr_url}")
+    mark_stage(episode_number, "open-pr")
 
 
 # ── Entry point ─────────────────────────────────────────────────────────────
