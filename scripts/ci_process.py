@@ -84,7 +84,10 @@ def get_drive_service():
 
 def cmd_detect():
     """
-    Find the newest Drive file that doesn't have a matching GitHub release.
+    Default: grab the most recent Drive file and assign the next episode number.
+    Skips if that episode is already published.
+    With overrides (DRIVE_FILE_ID, EPISODE_NUMBER, SESSION_DATE): use those
+    exact values — this is how backfill works.
     Writes EPISODE_NUMBER, DRIVE_FILE_ID, SESSION_DATE to $GITHUB_ENV.
     Writes SKIP=true if nothing new.
     """
@@ -144,7 +147,12 @@ def cmd_detect():
         write_github_env("SESSION_DATE", session_date)
         return
 
-    # --- Auto-detect: scan Drive folder ---
+    # --- Auto-detect: grab most recent Drive file, assign next episode ---
+    if episode_number in published_tags:
+        print(f"  Episode {episode_number} already published — nothing to do.")
+        write_github_env("SKIP", "true")
+        return
+
     drive_folder_id = env("DRIVE_FOLDER_ID")
     print(f"Scanning Drive folder {drive_folder_id}...")
     service = get_drive_service()
@@ -152,40 +160,31 @@ def cmd_detect():
     result = service.files().list(
         q=f"'{drive_folder_id}' in parents and mimeType contains 'video/' and trashed = false",
         orderBy="modifiedTime desc",
-        pageSize=50,
+        pageSize=1,
         fields="files(id, name, modifiedTime)"
     ).execute()
 
     files = result.get("files", [])
-    print(f"  Found {len(files)} video files in Drive folder")
-
-    # Find newest that's not yet released
-    found_file = None
-    for f in files:
-        d = extract_date_from_filename(f["name"])
-        if d is None:
-            print(f"  Skipping (no date in name): {f['name']}")
-            continue
-        # Check if this episode is already published
-        if episode_number in published_tags:
-            print(f"  Episode {episode_number} already published — skipping {f['name']}")
-            continue
-        found_file = f
-        if date_override:
-            session_date = date_override
-        else:
-            session_date = d.strftime("%Y-%m-%d")
-        break
-
-    if found_file is None:
-        print("No new episodes found.")
+    if not files:
+        print("  No video files found in Drive folder.")
         write_github_env("SKIP", "true")
         return
 
-    print(f"  Selected: {found_file['name']} → episode {episode_number}, date {session_date}")
+    newest = files[0]
+    print(f"  Most recent file: {newest['name']}")
+
+    d = extract_date_from_filename(newest["name"])
+    if d is None:
+        print(f"  Could not parse date from filename — skipping.")
+        write_github_env("SKIP", "true")
+        return
+
+    session_date = date_override if date_override else d.strftime("%Y-%m-%d")
+
+    print(f"  Selected: {newest['name']} → episode {episode_number}, date {session_date}")
     print("Writing env vars:")
     write_github_env("EPISODE_NUMBER", str(episode_number))
-    write_github_env("DRIVE_FILE_ID", found_file["id"])
+    write_github_env("DRIVE_FILE_ID", newest["id"])
     write_github_env("SESSION_DATE", session_date)
 
 
