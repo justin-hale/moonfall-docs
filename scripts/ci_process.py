@@ -175,6 +175,20 @@ def cmd_detect():
         episode_number = int(episode_override)
         print(f"  Episode override: {episode_number}")
     else:
+        # Find the most recent date in docs/transcripts/
+        max_transcript_date = None
+        transcripts_dir = os.path.join(os.getcwd(), "docs", "transcripts")
+        if os.path.isdir(transcripts_dir):
+            for entry in os.listdir(transcripts_dir):
+                # Match folder names like "2026-02-06"
+                d = extract_date_from_filename(entry)
+                if d:
+                    date_str = d.strftime("%Y-%m-%d")
+                    if max_transcript_date is None or date_str > max_transcript_date:
+                        max_transcript_date = date_str
+        if max_transcript_date:
+            print(f"  Most recent transcript date: {max_transcript_date}")
+
         # Build a list of releases with parsed dates and tag numbers
         releases_with_dates = []
         if result.returncode == 0 and result.stdout.strip():
@@ -189,6 +203,9 @@ def cmd_detect():
                     continue
                 d = extract_date_from_filename(name)
                 date_str = d.strftime("%Y-%m-%d") if d else None
+                # Only include releases after the most recent transcript date
+                if max_transcript_date and date_str and date_str <= max_transcript_date:
+                    continue
                 releases_with_dates.append({"tag": tagnum, "name": name, "date": date_str})
 
         # Sort by release date ascending (oldest releases first). When date
@@ -210,9 +227,11 @@ def cmd_detect():
             break
 
         if episode_number is None:
-            # No unprocessed published releases — default to next episode number
-            episode_number = max(published_tags) + 1 if published_tags else 1
-            print(f"  Auto-detected episode: {episode_number}")
+            # No unprocessed published releases after the cutoff date
+            print(f"  All releases after {max_transcript_date} are already processes, or no new releases found.")
+            write_github_env("SKIP", "true")
+            return
+        selected_release = selected_release if 'selected_release' in locals() else None
 
     # --- Short-circuit if file_id override given ---
     if file_id_override:
@@ -251,7 +270,7 @@ def cmd_detect():
     result = service.files().list(
         q=f"'{drive_folder_id}' in parents and mimeType contains 'video/' and trashed = false",
         orderBy="modifiedTime desc",
-        pageSize=1,
+        pageSize=200,  # fetch more files so we can search for matches
         fields="files(id, name, modifiedTime)"
     ).execute()
 
@@ -261,12 +280,35 @@ def cmd_detect():
         write_github_env("SKIP", "true")
         return
 
-    newest = files[0]
-    print(f"  Most recent file: {newest['name']}")
+    # If we selected a specific published release, try to find a Drive file
+    # matching its date. If not found, skip this release and don't process anything.
+    newest = None
+    if 'selected_release' in locals() and selected_release and selected_release.get("date"):
+        target_date = selected_release.get("date")
+        print(f"  Looking for Drive file matching release date {target_date}...")
+        for f in files:
+            d = extract_date_from_filename(f.get("name", ""))
+            if d and d.strftime("%Y-%m-%d") == target_date:
+                newest = f
+                print(f"  Found matching file: {f['name']}")
+                break
+        if not newest:
+            print(f"  No Drive file found for release {selected_release.get('name')} — skipping.")
+            write_github_env("SKIP", "true")
+            return
+    else:
+        # No selected release; use the most recent file
+        newest = files[0]
+    
+    print(f"  Using file: {newest['name']}")
 
     # Check if this file is already fully processed
     registry = load_registry()
     for ep, data in registry.items():
+        # Only resume if the episode is actually in published_tags; skip stale
+        # entries like v49 from failed runs that were rolled back.
+        if int(ep) not in published_tags:
+            continue
         if data.get("drive_file_id") == newest["id"]:
             stages = data.get("stages", {})
             if "open-pr" in stages:
@@ -530,6 +572,9 @@ def cmd_release():
     meta["audio_url"] = audio_url
     METADATA_FILE.write_text(json.dumps(meta, indent=2))
     mark_stage(episode_number, "release")
+    # signal that we created a release in this run so cleanup knows to
+    # delete it if something fails later
+    write_github_env("RELEASE_CREATED_THIS_RUN", "true")
 
 
 def cmd_delete_release():

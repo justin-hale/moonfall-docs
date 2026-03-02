@@ -129,7 +129,9 @@ jobs:
 
       # ── Cleanup on failure ──
       - name: Delete release if pipeline failed
-        if: failure() && env.SKIP != 'true' && env.DRY_RUN != 'true'
+        # only delete if we ourselves created the release in this run, not if
+        # the release already existed (latter case has RELEASE_EXISTS='true')
+        if: failure() && env.SKIP != 'true' && env.DRY_RUN != 'true' && env.RELEASE_CREATED_THIS_RUN == 'true'
         env:
           GH_TOKEN: ${{ secrets.OMELAS_PAT }}
         run: python scripts/ci_process.py delete-release
