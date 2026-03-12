@@ -5,7 +5,7 @@ description: "The party returns to Greyport as heroes, levels up to 10, schemes 
 summary: "The party returns to Greyport as heroes, levels up to 10, schemes to revive Luna through concert worship, and follows a trail of hot dogs and 45-minute surveillance stakeouts straight into the secret Twilight Company headquarters hidden beneath the city zoo."
 featureimage: "C4E43.webp"
 image: "/img/C4E43.webp"
-podcastlink: ""
+podcastlink: "https://github.com/topherhooper/omelas-stories/releases/tag/v43"
 ---
 
 **🎧 Podcast coming soon • *February 13, 2026***
