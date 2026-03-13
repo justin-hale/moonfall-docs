@@ -31,7 +31,13 @@
     "drive_file_id": "1pficKrxe0CdtPWgF8Ono4I4-gGMwGO-s",
     "notes": "No GitHub release yet \u2014 recording not yet processed through pipeline",
     "session_date": "2026-01-23",
-    "stages": {}
+    "stages": {
+      "download": "1pficKrxe0CdtPWgF8Ono4I4-gGMwGO-s",
+      "extract": "DnD_2026-01-23.mp3",
+      "release": "https://github.com/topherhooper/omelas-stories/releases/download/v40/DnD_2026-01-23.mp3",
+      "update-feed": "https://github.com/topherhooper/omelas-stories/releases/download/v40/DnD_2026-01-23.mp3",
+      "open-pr": "https://github.com/justin-hale/moonfall-docs/pull/9"
+    }
   },
   "41": {
     "drive_file_id": "1QZteDZqxRX4TuB5VBuZwQSsc7iEwj9mM",
