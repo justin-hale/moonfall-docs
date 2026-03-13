@@ -5,7 +5,7 @@ description: "The party visits Fluke's Workshop on Brew's recommendation, meets 
 summary: "The party visits Fluke's Workshop on Brew's recommendation, meets Iro—the youngest son of a Steve Squad legend—and ends up defending the shop from a coordinated three-pronged assault: street thugs, Molotov-hurling boats, and a shark-commanding Saojun beneath the harbor."
 featureimage: "C4E44.webp"
 image: "/img/C4E44.webp"
-podcastlink: ""
+podcastlink: "https://github.com/topherhooper/omelas-stories/releases/tag/v44"
 ---
 
 **🎧 Podcast coming soon • *February 27, 2026***
