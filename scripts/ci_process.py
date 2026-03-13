@@ -251,9 +251,7 @@ def cmd_detect():
                     break
 
         if episode_number is None:
-            print(f"  No unprocessed episodes found.")
-            write_github_env("SKIP", "true")
-            return
+            print(f"  No unprocessed episodes in registry — will scan Drive for new recordings.")
         selected_release = selected_release if 'selected_release' in locals() else None
 
     # --- Short-circuit if file_id override given ---
@@ -325,17 +323,13 @@ def cmd_detect():
     
     print(f"  Using file: {newest['name']}")
 
-    # Check if this file is already fully processed
+    # Check if this file is already in the registry
     registry = load_registry()
     for ep, data in registry.items():
-        # Only resume if the episode is actually in published_tags; skip stale
-        # entries like v49 from failed runs that were rolled back.
-        if int(ep) not in published_tags:
-            continue
         if data.get("drive_file_id") == newest["id"]:
             stages = data.get("stages", {})
-            if "open-pr" in stages:
-                print(f"  File already fully processed as episode {ep} — nothing to do.")
+            if stages.get("release"):
+                print(f"  File already processed as episode {ep} — nothing to do.")
                 write_github_env("SKIP", "true")
                 return
             else:
@@ -351,6 +345,26 @@ def cmd_detect():
         return
 
     session_date = date_override if date_override else d.strftime("%Y-%m-%d")
+
+    # Check if this session date already exists in the registry
+    if episode_number is None:
+        for ep, data in registry.items():
+            if data.get("session_date") == session_date:
+                stages = data.get("stages", {})
+                if stages.get("release"):
+                    print(f"  Session date {session_date} already fully processed as episode {ep} — nothing to do.")
+                    write_github_env("SKIP", "true")
+                    return
+                else:
+                    print(f"  Session date {session_date} partially processed as episode {ep} — resuming.")
+                    episode_number = int(ep)
+                    break
+
+    # Assign next episode number for a brand new recording
+    if episode_number is None:
+        existing_nums = [int(k) for k in registry.keys()]
+        episode_number = max(existing_nums) + 1 if existing_nums else 1
+        print(f"  New episode detected: assigning episode {episode_number}")
 
     # if we already have a release with this session date, mark that fact
     # and continue so downstream steps (download/extract) can still run.
