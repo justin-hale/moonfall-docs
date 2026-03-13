@@ -3,16 +3,16 @@
     "drive_file_id": "1xHJD-EnU8FanKCs30o02sFnpRe29bzYy",
     "session_date": "2025-10-24",
     "stages": {
-      "release": "2026-02-10T03:18:21Z",
-      "update-feed": "2026-02-10T03:18:21Z"
+      "release": "https://github.com/topherhooper/omelas-stories/releases/download/v37/C4E38_2025-10-24.mp3",
+      "update-feed": "https://github.com/topherhooper/omelas-stories/releases/download/v37/C4E38_2025-10-24.mp3"
     }
   },
   "38": {
     "drive_file_id": "1oo1Bq-cLgfD6C0ge5B20WqPqBUTznpDG",
     "session_date": "2025-11-07",
     "stages": {
-      "release": "2026-02-10T03:40:04Z",
-      "update-feed": "2026-02-10T03:40:04Z"
+      "release": "https://github.com/topherhooper/omelas-stories/releases/download/v38/C4E39_2025-11-07.mp3",
+      "update-feed": "https://github.com/topherhooper/omelas-stories/releases/download/v38/C4E39_2025-11-07.mp3"
     }
   },
   "39": {
@@ -31,37 +31,37 @@
     "drive_file_id": "1QZteDZqxRX4TuB5VBuZwQSsc7iEwj9mM",
     "session_date": "2026-01-30",
     "stages": {
-      "release": "2026-02-01T22:17:45Z",
-      "update-feed": "2026-02-01T22:17:45Z"
+      "release": "https://github.com/topherhooper/omelas-stories/releases/download/v41/C4E46_2026-01-30.mp3",
+      "update-feed": "https://github.com/topherhooper/omelas-stories/releases/download/v41/C4E46_2026-01-30.mp3"
     }
   },
   "42": {
     "drive_file_id": "1yjHrTPs--pHGfN46drB50_xP6sJZd2fS",
     "session_date": "2026-02-06",
     "stages": {
-      "release": "2026-02-07T20:57:29Z",
-      "update-feed": "2026-02-07T20:57:29Z"
+      "release": "https://github.com/topherhooper/omelas-stories/releases/download/v42/C4E47_2026-02-06.mp3",
+      "update-feed": "https://github.com/topherhooper/omelas-stories/releases/download/v42/C4E47_2026-02-06.mp3"
     }
   },
   "43": {
     "drive_file_id": "1aL5zqBGt0oZuKQIMFe3YmWQEJVAEzGBL",
     "session_date": "2026-02-13",
     "stages": {
-      "download": "2026-03-02T18:00:02Z",
-      "extract": "2026-03-02T18:02:12Z",
-      "open-pr": "2026-03-02T18:02:15Z",
-      "release": "2026-02-28T04:28:34Z",
-      "update-feed": "2026-02-28T04:28:34Z"
+      "download": "1aL5zqBGt0oZuKQIMFe3YmWQEJVAEzGBL",
+      "extract": "C4E48_2026-02-13.mp3",
+      "open-pr": "https://github.com/justin-hale/moonfall-docs/pull/6",
+      "release": "https://github.com/topherhooper/omelas-stories/releases/download/v43/C4E48_2026-02-13.mp3",
+      "update-feed": "https://github.com/topherhooper/omelas-stories/releases/download/v43/C4E48_2026-02-13.mp3"
     }
   },
   "44": {
     "drive_file_id": "1FTaBPcmB6ZA2uQR4cb_j2Lh1eELDE-ND",
     "session_date": "2026-02-27",
     "stages": {
-      "download": "2026-03-02T17:37:13Z",
-      "extract": "2026-03-02T17:39:13Z",
-      "release": "2026-03-02T16:54:07Z",
-      "update-feed": "2026-03-02T16:54:08Z"
+      "download": "1FTaBPcmB6ZA2uQR4cb_j2Lh1eELDE-ND",
+      "extract": "C4E54_2026-02-27.mp3",
+      "release": "https://github.com/topherhooper/omelas-stories/releases/download/v44/C4E54_2026-02-27.mp3",
+      "update-feed": "https://github.com/topherhooper/omelas-stories/releases/download/v44/C4E54_2026-02-27.mp3"
     }
   }
 }

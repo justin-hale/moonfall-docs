@@ -71,13 +71,17 @@ def save_registry(registry):
     REGISTRY_FILE.write_text(json.dumps(registry, indent=2) + "\n")
 
 
-def mark_stage(episode_number, stage):
-    """Record that a stage completed for an episode."""
+def mark_stage(episode_number, stage, value=None):
+    """Record that a stage completed for an episode.
+
+    If *value* is given it is stored directly (e.g. a URL or file path).
+    Otherwise a UTC timestamp is used as a fallback.
+    """
     registry = load_registry()
     ep = str(episode_number)
     if ep not in registry:
         registry[ep] = {"drive_file_id": None, "session_date": None, "stages": {}}
-    registry[ep]["stages"][stage] = datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+    registry[ep]["stages"][stage] = value or datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
     save_registry(registry)
     print(f"  Registry: marked {stage} complete for episode {episode_number}")
 
@@ -227,8 +231,27 @@ def cmd_detect():
             break
 
         if episode_number is None:
-            # No unprocessed published releases after the cutoff date
-            print(f"  All releases after {max_transcript_date} are already processes, or no new releases found.")
+            # No unprocessed published releases — check registry for episodes
+            # that haven't been released yet (e.g. episodes with drive_file_id
+            # but empty stages).
+            registry = registry if 'registry' in locals() else load_registry()
+            for ep_key, ep_data in sorted(registry.items(), key=lambda x: x[0]):
+                stages = ep_data.get("stages", {})
+                if not stages.get("release"):
+                    episode_number = int(ep_key)
+                    print(f"  Found unprocessed episode in registry: {episode_number} ({ep_data.get('session_date')})")
+                    # If registry already has drive_file_id and session_date,
+                    # short-circuit directly — no need to scan Drive.
+                    if ep_data.get("drive_file_id") and ep_data.get("session_date"):
+                        print("Writing env vars:")
+                        write_github_env("EPISODE_NUMBER", str(episode_number))
+                        write_github_env("DRIVE_FILE_ID", ep_data["drive_file_id"])
+                        write_github_env("SESSION_DATE", ep_data["session_date"])
+                        return
+                    break
+
+        if episode_number is None:
+            print(f"  No unprocessed episodes found.")
             write_github_env("SKIP", "true")
             return
         selected_release = selected_release if 'selected_release' in locals() else None
@@ -412,7 +435,7 @@ def cmd_download():
     }
     METADATA_FILE.write_text(json.dumps(metadata, indent=2))
     print(f"  Metadata written: {METADATA_FILE}")
-    mark_stage(episode_number, "download")
+    mark_stage(episode_number, "download", drive_file_id)
 
 
 # ── Subcommand: extract ─────────────────────────────────────────────────────
@@ -440,7 +463,7 @@ def cmd_extract():
         return
     session_date = meta["session_date"]
 
-    base_name = f"C4E{episode_number}_{session_date}"
+    base_name = f"DnD_{session_date}"
     mp3_path = WORKSPACE / f"{base_name}.mp3"
     srt_path = WORKSPACE / f"{base_name}.srt"
 
@@ -503,7 +526,7 @@ def cmd_extract():
     meta["mp3_path"] = str(mp3_path)
     meta["srt_path"] = str(srt_path) if srt_ok else None
     METADATA_FILE.write_text(json.dumps(meta, indent=2))
-    mark_stage(episode_number, "extract")
+    mark_stage(episode_number, "extract", mp3_path.name)
 
 
 # ── Subcommand: release ─────────────────────────────────────────────────────
@@ -529,7 +552,7 @@ def cmd_release():
             d = extract_date_from_filename(name)
             if d and d.strftime("%Y-%m-%d") == session_date:
                 print(f"  Release for date {session_date} already exists ({name}) — skipping.")
-                mark_stage(episode_number, "release")
+                mark_stage(episode_number, "release", name)
                 return
 
     if stage_done(episode_number, "release"):
@@ -571,7 +594,7 @@ def cmd_release():
     print(f"  Release URL: {audio_url}")
     meta["audio_url"] = audio_url
     METADATA_FILE.write_text(json.dumps(meta, indent=2))
-    mark_stage(episode_number, "release")
+    mark_stage(episode_number, "release", audio_url)
     # signal that we created a release in this run so cleanup knows to
     # delete it if something fails later
     write_github_env("RELEASE_CREATED_THIS_RUN", "true")
@@ -601,7 +624,7 @@ def cmd_delete_release():
         print(f"WARNING: could not delete release: {result.stderr}", file=sys.stderr)
     else:
         print(f"  Release {tag} deleted")
-        mark_stage(episode_number, "release-deleted")
+        mark_stage(episode_number, "release-deleted", tag)
 
 
 # ── Helpers for RSS ─────────────────────────────────────────────────────────
@@ -643,7 +666,7 @@ def cmd_update_feed():
 
     session_date = datetime.strptime(session_date_str, "%Y-%m-%d")
     date_str = session_date.strftime("%B %d").replace(" 0", " ")
-    title = f"C4E{episode_number}: {date_str}"
+    title = f"Episode {episode_number}: {date_str}"
     pub_date = formatdate(timeval=mktime(session_date.timetuple()), localtime=True)
 
     file_size = mp3_path.stat().st_size
@@ -752,7 +775,7 @@ def cmd_update_feed():
             sys.exit(1)
 
     print(f"  RSS feed updated: https://topherhooper.github.io/omelas-stories/feed.xml")
-    mark_stage(episode_number, "update-feed")
+    mark_stage(episode_number, "update-feed", audio_url)
 
 
 # ── Subcommand: open-pr ─────────────────────────────────────────────────────
@@ -875,7 +898,7 @@ def cmd_open_pr():
                 if retry.returncode == 0:
                     pr_url = retry.stdout.strip()
                     print(f"  PR opened: {pr_url}")
-                    mark_stage(episode_number, "open-pr")
+                    mark_stage(episode_number, "open-pr", pr_url)
                     result = None
                 else:
                     stderr = retry.stderr or ""
@@ -895,7 +918,7 @@ def cmd_open_pr():
         else:
             pr_url = result.stdout.strip()
             print(f"  PR opened: {pr_url}")
-            mark_stage(episode_number, "open-pr")
+            mark_stage(episode_number, "open-pr", pr_url)
     finally:
         # always return to main branch so later steps (like registry commit) run on
         # the expected branch; ignore failures since we're already in CI.
