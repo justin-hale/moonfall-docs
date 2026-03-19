@@ -181,7 +181,8 @@ The session note should include:
 3. Well-organized sections with clear headings
 4. Key events, character moments, and story beats
 5. Important quotes where relevant
-6. Links to relevant NPCs, locations, and other entities (use the format [Name](/path/to/entity))
+
+Do NOT include links to any other file or entry.
 
 Create the session note file at: docs/sessions/{prefix}-{session_number}.md
 
