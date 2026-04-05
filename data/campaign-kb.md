@@ -29,7 +29,8 @@ Christopher "Topher" Hooper (Google Meet: Christopher Hooper). Sometimes players
 |-----|------|------|--------------------|
 | Victor | Explosives expert, resistance fighter, former Twilight Company | victor.md | |
 | Iro | Workshop keeper, son of legendary Fluke | iro.md | "Ero" |
-| Lady Viper | Twilight Company leader | — | "Lady Vyper" |
+| Lady Viper (Elizandra Legrand) | Twilight Company leader/founder | lady-viper.md | "Lady Vyper" |
+| Astro (Astroleinomininoirnoxus) | Dragon imprisoned in Raingoth orb | astro.md | "Astra" |
 | Naomi | Lotus Casino manager, Silas's girlfriend, mother to Julius | naomi.md | |
 | Roscoe | Twilight Company operative | roscoe.md | |
 | Lark | Former Iron Claws member, resistance insider | lark.md | |
@@ -69,9 +70,11 @@ These are systematic speech-to-text mistakes that appear in generated notes:
 | Scarlet | Scarlet | NPC — not a transcription error. Distinct character. |
 | Elderan | Eldoran | Empire name |
 | Grayport | Greyport | City name |
+| Astra | Astro | Dragon name — full name is Astroleinomininoirnoxus |
+| Alexandra Lrange | Elizandra Legrand | Lady Viper's real name |
 
 ## Active Plot Threads
-- **Astra**: Dragon imprisoned in Silas's orb. Silas attempting dialogue. Bru unknowingly carries the orb (dragon scent).
+- **Astro**: Dragon imprisoned in Raingoth (Silas's orb). Silas attempting dialogue. Bru unknowingly carries the orb (dragon scent). Others speaking to Astro through other orbs.
 - **Lady Viper / Twilight Company**: Planning strike against Eldoran Empire. Party meeting leadership.
 - **Iron Claws aftermath**: Unfinished business in Greyport after Helja's death (Session 36).
 - **Elspeth's impostor**: Someone racing under her name — unresolved.
@@ -88,3 +91,6 @@ Corrections applied via `/fix-notes` are logged here for pattern detection.
 - Fixed: "Ellsworth (Elizabeth)" → "Elspeth" throughout (10 instances) [known transcription error]
 - Fixed: "Liliana" → "Leliana" throughout (3 instances) [known transcription error]
 - Fixed: "Elderan" → "Eldoran" throughout (12 instances) [known transcription error]
+- Fixed: "Astra" → "Astro" throughout [incorrect dragon name]
+- Added: Elspeth/Lady Viper flirtation thread (4 scenes — insight, water, nicknames, departure)
+- Added: NPC pages for Astro and Lady Viper
