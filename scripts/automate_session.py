@@ -172,8 +172,30 @@ For context, here are the most recent session notes you should reference for sty
         for session_file in recent_sessions:
             prompt += f"- {session_file.relative_to(self.project_root)}\n"
         
+        # Inject campaign knowledge base if available
+        kb_path = self.project_root / "data" / "campaign-kb.md"
+        if kb_path.exists():
+            try:
+                with open(kb_path, 'r', encoding='utf-8') as f:
+                    kb_content = f.read()
+                print(f"✓ Campaign KB loaded ({len(kb_content)} characters)")
+                prompt += f"""
+The following campaign knowledge base contains canonical character names, known transcription
+errors, and important context. Use this as your PRIMARY reference for correct names and spellings.
+When the transcript uses a name listed in "Known Transcription Errors", ALWAYS use the corrected
+version. When the transcript uses player names, map them to character names using the Character
+Roster.
+
+CAMPAIGN KNOWLEDGE BASE:
+{kb_content}
+
+---
+"""
+            except Exception as e:
+                print(f"⚠ Could not load campaign KB: {e}")
+
         prompt += f"""
-Please create a detailed session note following the format and style of the previous sessions. 
+Please create a detailed session note following the format and style of the previous sessions.
 
 The session note should include:
 1. A descriptive title that captures the main event or theme
