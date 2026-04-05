@@ -4,15 +4,18 @@ Last updated: 2026-04-04
 
 ## Character Roster
 
+### DM
+Christopher "Topher" Hooper (Google Meet: Christopher Hooper). Sometimes players sub in as guest DMs. When playing as a PC, Topher has played Jasper Gaines and Scarlet.
+
 ### Player Characters (Active)
-| Character | Player (Transcript Name) | Transcript Aliases | File | Notes |
-|-----------|--------------------------|-------------------|------|-------|
-| Silas Fairbanks | [unknown] | "Silus", "Cyrus" | silas.md | Halfling rogue/sorcerer, band manager |
-| Bru (Felonias Bru) | [unknown] | "Brew", "Bruce" | bru.md | Goblin artificer. ALWAYS "Bru", NEVER "Brew" |
-| Elspeth Cooper | [unknown] | "Ellsworth", "Elizabeth", "Elspeth" | elspeth.md | Dwarf artificer/gunslinger. ALWAYS "Elspeth", NEVER "Ellsworth" or "Elizabeth" |
-| Leliana Goldspring | [unknown] | "Liliana", "Lily Anna", "Leanna" | leliana.md | Human bard. ALWAYS "Leliana", NEVER "Liliana". Emerged from Helisanna in Session 34 |
-| Olivia Cooper | [unknown] | "Olivia" | olivia.md | Dwarf paladin, retired detective |
-| Ohma Kapua | [unknown] | "Oma", "Ohm" | ohma.md | Tortle monk. Joined Session 26 |
+| Character | Player | Google Meet Name | Transcript Aliases | File | Notes |
+|-----------|--------|------------------|--------------------|------|-------|
+| Silas Fairbanks | Taylor Ramsey | Tyram | "Silus", "Cyrus" | silas.md | Halfling rogue/sorcerer, band manager |
+| Bru (Felonias Bru) | Justin Hale | Justin Hale | "Brew", "Bruce" | bru.md | Goblin artificer. ALWAYS "Bru", NEVER "Brew" |
+| Elspeth Cooper | Ali Leonard | Ali Leonard | "Ellsworth", "Elizabeth" | elspeth.md | Dwarf artificer/gunslinger. ALWAYS "Elspeth", NEVER "Ellsworth" or "Elizabeth" |
+| Leliana Goldspring | Luke Neverisky | Luke Neverisky | "Liliana", "Lily Anna", "Leanna" | leliana.md | Human bard. ALWAYS "Leliana", NEVER "Liliana". Emerged from Helisanna in Session 34 |
+| Olivia Cooper | Ellis Taylor | Ellis Taylor | "Olivia" | olivia.md | Dwarf paladin, retired detective |
+| Ohma Kapua | Zack | Walden Briarhelm | "Oma", "Ohm" | ohma.md | Tortle monk. Joined Session 26 |
 
 ### Player Characters (Departed/Inactive)
 | Character | Status | File | Notes |
@@ -80,4 +83,8 @@ These are systematic speech-to-text mistakes that appear in generated notes:
 
 Corrections applied via `/fix-notes` are logged here for pattern detection.
 
-*(No corrections logged yet)*
+### Session 47 (2026-03-27)
+- Fixed: "Brew" → "Bru" throughout (3 instances) [user-reported transcription error]
+- Fixed: "Ellsworth (Elizabeth)" → "Elspeth" throughout (10 instances) [known transcription error]
+- Fixed: "Liliana" → "Leliana" throughout (3 instances) [known transcription error]
+- Fixed: "Elderan" → "Eldoran" throughout (12 instances) [known transcription error]

@@ -15,10 +15,10 @@ Greyport, early morning. The party surfaces from their pocket village in Iro's w
 ## Party Members Present
 - **Silas** – Rogue/Sorcerer, holder of the dragon orb containing Astra
 - **Olivia Cooper** – Retired Detective, Devotion Paladin
-- **Ellsworth (Elizabeth)** – Artificer/Paladin racer, pocket village architect
-- **Liliana** – Bard, whose song forged the connection to Luna
+- **Elspeth** – Artificer/Paladin racer, pocket village architect
+- **Leliana** – Bard, whose song forged the connection to Luna
 - **Scarlet** – Keeper of the pocket village capsule
-- **Brew** – Artificer, unknowing carrier of the dragon orb
+- **Bru** – Artificer, unknowing carrier of the dragon orb
 - **Victor** – Twilight Company liaison, fumbler of passwords
 
 ---
@@ -33,18 +33,18 @@ Scarlet demonstrates the village's new form factor: she locks the door with a ke
 
 Iro rouses himself, delighted to have them back. A piece of lore surfaces naturally: Iro keeps a Polaroid scrapbook he calls his "horde," adding a photo whenever someone finishes a project in his workshop.
 
-**Brew's dragon scent**, a side effect of carrying the orb, has become notable enough that the void devils could smell it during their last battle. The smell lingers.
+**Bru's dragon scent**, a side effect of carrying the orb, has become notable enough that the void devils could smell it during their last battle. The smell lingers.
 
 ---
 
 ### Planning the Day
 
-The party draws up a short list of Greyport contacts to visit before their departure to Elderan in roughly a week:
-- **Lady Viper** – head of the Twilight Company, rumored to have a plan for striking the Elderan Empire
+The party draws up a short list of Greyport contacts to visit before their departure to Eldoran in roughly a week:
+- **Lady Viper** – head of the Twilight Company, rumored to have a plan for striking the Eldoran Empire
 - **Jasper** – old friend running the Gaines Bankery, Brewery, and Bakery
 - **Astra** – the dragon imprisoned in Silas's orb, due for a more civilized conversation
 
-Silas also notes that while they're in Greyport, they should address the Iron Claws, and that Ellsworth has unfinished business with a certain impostor racing under her name.
+Silas also notes that while they're in Greyport, they should address the Iron Claws, and that Elspeth has unfinished business with a certain impostor racing under her name.
 
 Victor accompanies them as liaison. The party takes a scenic gondola and then a tram toward the Twilight Company, which operates out of a building near the zoo under the cover name **Richard Jones Investments**.
 
@@ -86,7 +86,7 @@ A gaunt, impeccably dressed butler greets them at the door.
 
 > *"Welcome. I assume you are here to see Lady Viper. She has been looking forward to meeting you, Taco Cat. It is a shame that you've dressed so poorly and look so dreadful. Would you like to consider coming back another time when you look less ghastly?"*
 
-He produces a steaming iron from his pocket and begins pressing Silas's clothes on the spot. Silas submits to this. Olivia and Ellsworth have a different approach: Ellsworth opens the pocket village, sprints through to the Lotus Casino, and returns in a few minutes wearing her pinstripe suit and carrying a cane.
+He produces a steaming iron from his pocket and begins pressing Silas's clothes on the spot. Silas submits to this. Olivia and Elspeth have a different approach: Elspeth opens the pocket village, sprints through to the Lotus Casino, and returns in a few minutes wearing her pinstripe suit and carrying a cane.
 
 The butler approves. He presents them:
 
@@ -102,12 +102,12 @@ She pours water for the group and opens the conversation:
 
 > *"It is a pleasure to meet your acquaintance. I am Lady Viper, as I'm sure you know. I will allow you to introduce yourselves, though I know much about you."*
 
-She explains that she founded the Twilight Company roughly fifty years ago, after the Elderan Empire killed her entire family. She had been scheduled to attend a ball but fell ill; she stayed with her aunt. That night, after the guests retired, they were killed. She was left alone, young, with a clear road ahead of her and a family fortune to fund it.
+She explains that she founded the Twilight Company roughly fifty years ago, after the Eldoran Empire killed her entire family. She had been scheduled to attend a ball but fell ill; she stayed with her aunt. That night, after the guests retired, they were killed. She was left alone, young, with a clear road ahead of her and a family fortune to fund it.
 
-Her plan for Elderan:
-- Elderan's power rests on religion — belief creates power, and they manufactured themselves into a religion
+Her plan for Eldoran:
+- Eldoran's power rests on religion — belief creates power, and they manufactured themselves into a religion
 - Destroy their places of worship across the continent
-- Destroy the spaceport in Elderan's harbor
+- Destroy the spaceport in Eldoran's harbor
 - Target their violescence caches — a chain reaction could be catastrophic for the Empire
 - The space station is out of reach for now; she has no plan for it yet
 
@@ -119,15 +119,15 @@ The party takes stock of her privately, passing insight checks around the circle
 
 **Olivia (8):** Believes everything she's saying. Notes that Lady Viper is extremely put-together in a way that is quietly intimidating.
 
-**Ellsworth (16):** Finds her composure almost paralyzing to engage with, in a way that feels both professional and isolated — as if no one has ever quite managed to treat her like a person rather than a phenomenon.
+**Elspeth (16):** Finds her composure almost paralyzing to engage with, in a way that feels both professional and isolated — as if no one has ever quite managed to treat her like a person rather than a phenomenon.
 
-**Silas (28, with Flash of Genius and Bless):** Sees through the performance entirely. Lady Viper is not primarily a strategist — she is a person of charisma, working through her own powers of persuasion to gather anarchists, misfits, and people hurt by the Elderan Empire and steer them toward her personal goal of revenge. Her plan for Elderan is meticulous. Her plan for after the ashes: nonexistent. This is not a political revolution. It is a grief project at continental scale.
+**Silas (28, with Flash of Genius and Bless):** Sees through the performance entirely. Lady Viper is not primarily a strategist — she is a person of charisma, working through her own powers of persuasion to gather anarchists, misfits, and people hurt by the Eldoran Empire and steer them toward her personal goal of revenge. Her plan for Eldoran is meticulous. Her plan for after the ashes: nonexistent. This is not a political revolution. It is a grief project at continental scale.
 
 *Silas says nothing of this to Lady Viper.*
 
 The group confers via psychic link:
 
-> *"I don't think she's bluffing us. I think our goals align when it comes to striking Elderan, but she wants to burn that mother down. She doesn't care about who gets hurt in the process."*
+> *"I don't think she's bluffing us. I think our goals align when it comes to striking Eldoran, but she wants to burn that mother down. She doesn't care about who gets hurt in the process."*
 >
 > *"We can still work with her plan. We can add finesse. Try to save civilians."*
 >
@@ -135,7 +135,7 @@ The group confers via psychic link:
 
 They decide to work with her — and to ask directly about her stance on civilians and refugees.
 
-Her answer is measured: she wants to hold accountable those who killed her family. She does not believe that is every person in Elderan.
+Her answer is measured: she wants to hold accountable those who killed her family. She does not believe that is every person in Eldoran.
 
 ---
 
@@ -143,13 +143,13 @@ Her answer is measured: she wants to hold accountable those who killed her famil
 
 She has been watching Taco Cat for some time and is open to hearing their other plans. They outline:
 
-- **Luna's resurrection**: They have made direct contact with Luna, who manifested in the pocket village after Liliana's song during the void devil battle. They want to build a congregation in Greyport to restore her faith and her strength.
+- **Luna's resurrection**: They have made direct contact with Luna, who manifested in the pocket village after Leliana's song during the void devil battle. They want to build a congregation in Greyport to restore her faith and her strength.
 
 > *"Because everyone saw the moon explode, she gives a symbol of resistance. If you're somehow able to bring any of her essence into our world, that would be a huge sign that even with the most powerful weapon we've ever seen, we can fight back."*
 
 Lady Viper agrees to help with logistics — events, space, connections.
 
-To demonstrate the pocket village, Ellsworth opens it in the sitting room. The village unfolds chaotically around them: the garage, the beach with a cabana, the gold fountain, a rainbow sky, a glimpse of the Lotus through a second door. Goblets of ice water materialize as Ellsworth's attention wanders. Luna appears on a couch in a glade near the ocean.
+To demonstrate the pocket village, Elspeth opens it in the sitting room. The village unfolds chaotically around them: the garage, the beach with a cabana, the gold fountain, a rainbow sky, a glimpse of the Lotus through a second door. Goblets of ice water materialize as Elspeth's attention wanders. Luna appears on a couch in a glade near the ocean.
 
 Lady Viper stares.
 
@@ -157,13 +157,13 @@ Lady Viper stares.
 
 She is visibly moved. She agrees that a commune or congregation anchored in this space — with people who can move between the material world and the pocket village — could be a genuine asset.
 
-- **The rocket ship problem**: Getting to the space station that destroyed Luna requires a ship. The party floats options: build one (needs massive violescence and specialized materials), steal one from the Elderan spaceport, or steal components and build from parts. No solution is resolved, but stealing from Elderan during the planned infiltration is the leading candidate.
+- **The rocket ship problem**: Getting to the space station that destroyed Luna requires a ship. The party floats options: build one (needs massive violescence and specialized materials), steal one from the Eldoran spaceport, or steal components and build from parts. No solution is resolved, but stealing from Eldoran during the planned infiltration is the leading candidate.
 
 > *"We have the schematics. We just need the parts and a lot of violescence."*
 
 Lady Viper cannot offer a rocket in a week. She half-suggests they find the Colossus — then remembers they are gone.
 
-**The timeline**: Lady Viper expects to begin infiltrating Elderan in close to a week. In the meantime, the party is free to operate in Greyport.
+**The timeline**: Lady Viper expects to begin infiltrating Eldoran in close to a week. In the meantime, the party is free to operate in Greyport.
 
 ---
 
@@ -179,15 +179,15 @@ Olivia looks at Lady Viper. She says nothing. She tucks the name away.
 
 ### Departure
 
-Victor is sent to his lab. The butler bids them farewell and reminds them to dress better next time. Mr. Slithers coils affectionately around Ellsworth's leg on the way out.
+Victor is sent to his lab. The butler bids them farewell and reminds them to dress better next time. Mr. Slithers coils affectionately around Elspeth's leg on the way out.
 
 ---
 
 ### Communing with Astra
 
-Back at the brownstone, the party assembles. Brew has, unbeknownst to himself, been carrying the dragon orb this entire time — Silas slipped it into his bag during an earlier scheme.
+Back at the brownstone, the party assembles. Bru has, unbeknownst to himself, been carrying the dragon orb this entire time — Silas slipped it into his bag during an earlier scheme.
 
-The party forms a psychic circle. Olivia casts Bless. Liliana provides bardic inspiration. Ellsworth contributes warding bond. Silas grips the orb.
+The party forms a psychic circle. Olivia casts Bless. Leliana provides bardic inspiration. Elspeth contributes warding bond. Silas grips the orb.
 
 He rolls a 29 on his Wisdom save against a DC of 25.
 
@@ -237,7 +237,7 @@ They fill him in:
 
 > *"I think we could do that. And hey, we got a bunch of people in town for that race — probably could pull all those visitors in for something like this."*
 
-Jasper will make calls for contacts in Elderan for when the party arrives. He's relieved to hear they'll have at least a week before heading out. He hands over VIP tickets for tonight's event at the bakery — champagne, the solarium, a proper night out.
+Jasper will make calls for contacts in Eldoran for when the party arrives. He's relieved to hear they'll have at least a week before heading out. He hands over VIP tickets for tonight's event at the bakery — champagne, the solarium, a proper night out.
 
 > *"When you're ready to put up your boots, I think you'll always have a home here. I'll make sure of it."*
 
@@ -245,12 +245,12 @@ Jasper will make calls for contacts in Elderan for when the party arrives. He's 
 
 ### The Week Ahead
 
-The party tallies their immediate priorities before leaving for Elderan:
+The party tallies their immediate priorities before leaving for Eldoran:
 
 1. **Luna's congregation** — organize at least one concert, likely using the beer garden and church venue Jasper offered
-2. **Denlin** – the racist orphanage owner who has violescence and has been racing under Ellsworth's stolen identity as "Bellith Booper"; heist or race diversion under consideration
+2. **Denlin** – the racist orphanage owner who has violescence and has been racing under Elspeth's stolen identity as "Bellith Booper"; heist or race diversion under consideration
 3. **Iron Claws** – still active in Greyport, still a problem; the newspaper conveniently lists their locations
-4. **Rocket ship logistics** – needs violescence, materials, and a plan; likely involves the Elderan spaceport heist
+4. **Rocket ship logistics** – needs violescence, materials, and a plan; likely involves the Eldoran spaceport heist
 5. **Astro dialogue** – Silas will return to the orb before any major decisions about the other dragon orb sites
 
 The orb expeditions — Gnome Territory in Wyol, the Warsong Republic, and the Goblin Enclave on the turtle — are each at minimum a week of in-world travel. They will wait.
@@ -263,7 +263,7 @@ The orb expeditions — Gnome Territory in Wyol, the Warsong Republic, and the G
 
 - **Olivia's history check** gives her a private piece of information about Lady Viper's true identity (Alexandra Lrange) that she chooses not to reveal. The decision to hold that card reflects both her detective instincts and her genuine empathy toward someone whose loss she recognizes.
 
-- **Ellsworth's pocket village tour** goes entertainingly sideways — goblets of ice water materializing out of concentration, a cabana beach forming before the village is even finished — but lands exactly right. Lady Viper's reaction to seeing Luna is genuinely moved.
+- **Elspeth's pocket village tour** goes entertainingly sideways — goblets of ice water materializing out of concentration, a cabana beach forming before the village is even finished — but lands exactly right. Lady Viper's reaction to seeing Luna is genuinely moved.
 
 - **Jasper**, now running a brewery and caring for an orphanage, has found something grounding. He still carries the weight of his old life but it fits differently now. The scene with the kindergarteners is the warmest the session gets.
 
@@ -273,7 +273,7 @@ The orb expeditions — Gnome Territory in Wyol, the Warsong Republic, and the G
 
 ## Themes
 
-- **Revenge versus vision**: Lady Viper is capable and genuine in her hatred of Elderan — but Silas sees that she has planned the burning without planning what comes after. The party will need to supply the vision she lacks.
+- **Revenge versus vision**: Lady Viper is capable and genuine in her hatred of Eldoran — but Silas sees that she has planned the burning without planning what comes after. The party will need to supply the vision she lacks.
 - **Negotiating with power**: Both Lady Viper and Astra are beings who operate on their own terms. Silas and Olivia each find small footholds — through patience, honesty, and knowing when not to reveal what they know.
 - **Building something**: Concerts, congregations, rocket ships, a week in Greyport. For once, the work is not about surviving — it is about building toward something.
 
