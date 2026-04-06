@@ -64,6 +64,8 @@ These are systematic speech-to-text mistakes that appear in generated notes:
 | Transcript Says | Should Be | Context |
 |----------------|-----------|---------|
 | Brew | Bru | Character name — goblin artificer |
+| Bellith Booper | Belspeth Booper | Doppelganger name — Elspeth's impostor |
+| Bellith | Belspeth Booper | Doppelganger name — Elspeth's impostor (variant) |
 | Ellsworth | Elspeth | Character name — dwarf artificer |
 | Elizabeth | Elspeth | Player name leaking through for Elspeth |
 | Liliana | Leliana | Character name — human bard |
@@ -72,6 +74,8 @@ These are systematic speech-to-text mistakes that appear in generated notes:
 | Grayport | Greyport | City name |
 | Astra | Astro | Dragon name — full name is Astroleinomininoirnoxus |
 | Alexandra Lrange | Elizandra Legrand | Lady Viper's real name |
+| Alexandra Lrron | Elizandra Legrand | Lady Viper's real name (variant transcription) |
+| Lrange | Elizandra Legrand | Lady Viper's real name (variant transcription) |
 
 ## Active Plot Threads
 - **Astro**: Dragon imprisoned in Raingoth (Silas's orb). Silas attempting dialogue. Bru unknowingly carries the orb (dragon scent). Others speaking to Astro through other orbs.

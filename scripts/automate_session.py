@@ -153,15 +153,29 @@ podcastlink: ""
         prefix = "interlude" if is_interlude else "session"
         session_type = "interlude" if is_interlude else "session"
         
-        # Read the transcript content to include it directly in the prompt
+        # Read the transcript content to include it directly in the prompt.
+        # Prefer the structured JSON transcript blocks for more reliable grounding.
+        transcript_json_path = transcript_path.with_suffix(".json")
+        use_json = transcript_json_path.exists()
+
+        transcript_content = ""
+        transcript_content_json = ""
         print(f"Reading transcript content from {transcript_path}...")
         try:
-            with open(transcript_path, 'r', encoding='utf-8') as f:
-                transcript_content = f.read()
-            print(f"✓ Transcript loaded ({len(transcript_content)} characters)")
+            if use_json:
+                with open(transcript_json_path, "r", encoding="utf-8") as f:
+                    transcript_content_json = f.read()
+                print(f"✓ Transcript JSON loaded ({len(transcript_content_json)} characters)")
+            else:
+                with open(transcript_path, "r", encoding="utf-8") as f:
+                    transcript_content = f.read()
+                print(f"✓ Transcript loaded ({len(transcript_content)} characters)")
         except Exception as e:
             print(f"⚠ Error reading transcript: {e}")
-            transcript_content = f"[Error loading transcript from {transcript_path}]"
+            if use_json:
+                transcript_content_json = f"[Error loading JSON transcript from {transcript_json_path}]"
+            else:
+                transcript_content = f"[Error loading transcript from {transcript_path}]"
         
         prompt = f"""IMPORTANT: You are running in fully autonomous mode. Do NOT ask any questions or request clarification. If you encounter an issue you cannot resolve, output a clear error message explaining the problem and stop immediately. Make your best judgment for any ambiguous decisions.
 
@@ -197,6 +211,11 @@ CAMPAIGN KNOWLEDGE BASE:
         prompt += f"""
 Please create a detailed session note following the format and style of the previous sessions.
 
+FACTS & GROUNDING RULES (very important):
+- Only use concrete details that appear in the provided transcript blocks.
+- Do NOT invent events, characters, names, or locations that are not supported by the transcript.
+- When the JSON fields `speaker_canonical` / `speaker_normalized` are available, use them for names.
+
 The session note should include:
 1. A descriptive title that captures the main event or theme
 2. A compelling description and summary
@@ -212,9 +231,9 @@ Use the same markdown formatting style and level of detail as the previous sessi
 
 ---
 
-TRANSCRIPT CONTENT:
+{'TRANSCRIPT BLOCKS JSON:' if use_json else 'TRANSCRIPT CONTENT:'}
 
-{transcript_content}
+{transcript_content_json if use_json else transcript_content}
 """
         
         return prompt
