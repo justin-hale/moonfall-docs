@@ -836,9 +836,11 @@ def cmd_open_pr():
         capture_output=True
     )
 
-    # Create branch from current HEAD
+    # Create (or reset) branch from current HEAD.
+    # -B resets the branch if it already exists locally, which happens when a
+    # previous CI run created the branch but failed before marking the stage done.
     result = subprocess.run(
-        ["git", "checkout", "-b", branch],
+        ["git", "checkout", "-B", branch],
         capture_output=True, text=True
     )
     if result.returncode != 0:
@@ -860,8 +862,10 @@ def cmd_open_pr():
 
     print(f"  Pushing branch {branch}...")
     result = subprocess.run(
-        # push with upstream so subsequent git commands know about this branch
-        ["git", "push", "--set-upstream", "origin", branch],
+        # --force handles the case where a previous CI run already pushed this
+        # branch but failed before marking the stage done (would otherwise be
+        # rejected with "fetch first").
+        ["git", "push", "--force", "--set-upstream", "origin", branch],
         capture_output=True, text=True
     )
     if result.returncode != 0:
