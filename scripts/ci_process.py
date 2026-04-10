@@ -328,12 +328,13 @@ def cmd_detect():
     for ep, data in registry.items():
         if data.get("drive_file_id") == newest["id"]:
             stages = data.get("stages", {})
-            if stages.get("release"):
+            if stages.get("release") and not stages.get("release-deleted"):
                 print(f"  File already processed as episode {ep} — nothing to do.")
                 write_github_env("SKIP", "true")
                 return
             else:
-                # Partially processed — resume from where we left off
+                # Partially processed or release was deleted and needs recreation
+                # — resume from where we left off.
                 print(f"  File partially processed as episode {ep} — resuming.")
                 episode_number = int(ep)
                 break
