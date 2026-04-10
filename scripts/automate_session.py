@@ -24,9 +24,19 @@ import sys
 import subprocess
 import argparse
 import json
+import time
 from pathlib import Path
 from datetime import datetime
 import re
+
+
+# Transcript size thresholds.
+# Each chunk is sent as a separate Claude call; must be under ~55k chars
+# (~18k tokens) to stay within the 30k input-tokens-per-minute rate limit.
+CHUNK_SIZE = 55_000
+# Transcripts smaller than this are sent as-is; larger ones are summarised
+# chunk-by-chunk first, then the combined summaries are used in the main prompt.
+MAX_DIRECT_CHARS = 60_000
 
 
 class SessionAutomation:
@@ -147,35 +157,94 @@ podcastlink: ""
 *Note: This is a draft template. Use Claude to analyze the transcript and generate the full session notes.*
 """
         return filename, template
-    
+
+    def _invoke_claude_text(self, prompt, context="chunk summary"):
+        """Run claude -p in plain-text mode, retrying on 429 rate-limit errors."""
+        for attempt in range(5):
+            result = subprocess.run(
+                ["claude", "-p", "--output-format", "text"],
+                input=prompt,
+                capture_output=True,
+                text=True,
+                cwd=str(self.project_root),
+            )
+            if result.returncode == 0:
+                return result.stdout.strip()
+            stderr = result.stderr or ""
+            if "429" in stderr or "rate_limit" in stderr:
+                wait_secs = 65 * (attempt + 1)
+                print(f"  Rate limited on {context}, waiting {wait_secs}s before retry…")
+                time.sleep(wait_secs)
+            else:
+                print(f"  Warning: {context} failed (exit {result.returncode}): {stderr[:200]}")
+                return ""
+        print(f"  Warning: {context} gave up after 5 attempts — returning empty.")
+        return ""
+
+    def _summarize_long_transcript(self, text):
+        """Split a large transcript into chunks and summarise each via Claude.
+
+        Each chunk is kept under CHUNK_SIZE chars (~18k tokens) so it stays
+        within the 30k input-tokens-per-minute API rate limit.  The summaries
+        are much smaller and can be combined into a single generation prompt.
+        """
+        chunks = [text[i:i + CHUNK_SIZE] for i in range(0, len(text), CHUNK_SIZE)]
+        print(f"  Transcript is {len(text):,} chars — summarising {len(chunks)} chunks to fit rate limit…")
+        summaries = []
+        for i, chunk in enumerate(chunks, 1):
+            print(f"  Summarising chunk {i}/{len(chunks)} ({len(chunk):,} chars)…")
+            summary = self._invoke_claude_text(
+                f"""You are summarising chunk {i} of {len(chunks)} from a D&D session transcript.
+
+Extract and list in bullet-point form:
+- Key plot events and story developments
+- Important character actions and decisions
+- Significant dialogue and memorable quotes
+- New information, revelations, or lore
+- Combat encounters and their outcomes
+
+Be concise but thorough — every meaningful event should appear.
+Do NOT invent anything not present in the transcript.
+
+TRANSCRIPT CHUNK:
+{chunk}""",
+                context=f"chunk {i}/{len(chunks)}",
+            )
+            if summary:
+                summaries.append(f"--- CHUNK {i}/{len(chunks)} SUMMARY ---\n{summary}")
+            # Pause between chunks to respect the per-minute token budget.
+            if i < len(chunks):
+                print(f"  Waiting 65s before next chunk to respect rate limit…")
+                time.sleep(65)
+
+        combined = "\n\n".join(summaries)
+        print(f"  Combined summaries: {len(combined):,} chars (down from {len(text):,})")
+        return combined
+
     def generate_claude_prompt(self, transcript_path, recent_sessions, session_number, is_interlude):
         """Generate a prompt for Claude to create the session notes"""
         prefix = "interlude" if is_interlude else "session"
         session_type = "interlude" if is_interlude else "session"
         
-        # Read the transcript content to include it directly in the prompt.
-        # Prefer the structured JSON transcript blocks for more reliable grounding.
-        transcript_json_path = transcript_path.with_suffix(".json")
-        use_json = transcript_json_path.exists()
-
-        transcript_content = ""
-        transcript_content_json = ""
+        # Always use the markdown transcript.  The JSON sibling file is
+        # significantly larger (4–5×) due to per-block metadata fields and
+        # pretty-printing, and would exceed the API rate limit.
         print(f"Reading transcript content from {transcript_path}...")
         try:
-            if use_json:
-                with open(transcript_json_path, "r", encoding="utf-8") as f:
-                    transcript_content_json = f.read()
-                print(f"✓ Transcript JSON loaded ({len(transcript_content_json)} characters)")
-            else:
-                with open(transcript_path, "r", encoding="utf-8") as f:
-                    transcript_content = f.read()
-                print(f"✓ Transcript loaded ({len(transcript_content)} characters)")
+            with open(transcript_path, "r", encoding="utf-8") as f:
+                transcript_content = f.read()
+            print(f"✓ Transcript loaded ({len(transcript_content):,} chars)")
         except Exception as e:
             print(f"⚠ Error reading transcript: {e}")
-            if use_json:
-                transcript_content_json = f"[Error loading JSON transcript from {transcript_json_path}]"
-            else:
-                transcript_content = f"[Error loading transcript from {transcript_path}]"
+            transcript_content = f"[Error loading transcript from {transcript_path}]"
+
+        # If the transcript is too large to send in one request (would exceed
+        # the 30k input-tokens-per-minute rate limit), summarise it first.
+        if len(transcript_content) > MAX_DIRECT_CHARS:
+            transcript_content = self._summarize_long_transcript(transcript_content)
+            transcript_label = "TRANSCRIPT SUMMARY (condensed from full transcript):"
+        else:
+            transcript_label = "TRANSCRIPT CONTENT:"
         
         prompt = f"""IMPORTANT: You are running in fully autonomous mode. Do NOT ask any questions or request clarification. If you encounter an issue you cannot resolve, output a clear error message explaining the problem and stop immediately. Make your best judgment for any ambiguous decisions.
 
@@ -192,7 +261,7 @@ For context, here are the most recent session notes you should reference for sty
             try:
                 with open(kb_path, 'r', encoding='utf-8') as f:
                     kb_content = f.read()
-                print(f"✓ Campaign KB loaded ({len(kb_content)} characters)")
+                print(f"✓ Campaign KB loaded ({len(kb_content):,} chars)")
                 prompt += f"""
 The following campaign knowledge base contains canonical character names, known transcription
 errors, and important context. Use this as your PRIMARY reference for correct names and spellings.
@@ -212,9 +281,8 @@ CAMPAIGN KNOWLEDGE BASE:
 Please create a detailed session note following the format and style of the previous sessions.
 
 FACTS & GROUNDING RULES (very important):
-- Only use concrete details that appear in the provided transcript blocks.
+- Only use concrete details that appear in the provided transcript.
 - Do NOT invent events, characters, names, or locations that are not supported by the transcript.
-- When the JSON fields `speaker_canonical` / `speaker_normalized` are available, use them for names.
 
 The session note should include:
 1. A descriptive title that captures the main event or theme
@@ -231,9 +299,9 @@ Use the same markdown formatting style and level of detail as the previous sessi
 
 ---
 
-{'TRANSCRIPT BLOCKS JSON:' if use_json else 'TRANSCRIPT CONTENT:'}
+{transcript_label}
 
-{transcript_content_json if use_json else transcript_content}
+{transcript_content}
 """
         
         return prompt
@@ -243,7 +311,6 @@ Use the same markdown formatting style and level of detail as the previous sessi
         event_type = event.get("type")
 
         if event_type == "assistant":
-            # Start of a new assistant turn — nothing to print yet
             pass
 
         elif event_type == "content_block_start":
@@ -257,7 +324,6 @@ Use the same markdown formatting style and level of detail as the previous sessi
             if delta.get("type") == "text_delta":
                 print(delta.get("text", ""), end="", flush=True)
             elif delta.get("type") == "input_json_delta":
-                # Accumulating tool input JSON — show a dot for progress
                 pass
 
         elif event_type == "content_block_stop":
@@ -273,7 +339,6 @@ Use the same markdown formatting style and level of detail as the previous sessi
             pass
 
         elif event_type == "result":
-            # Final result event from Claude Code
             cost = event.get("cost_usd")
             duration = event.get("duration_ms")
             subtype = event.get("subtype")
@@ -286,12 +351,10 @@ Use the same markdown formatting style and level of detail as the previous sessi
                 parts.append(subtype)
             if parts:
                 print(f"\n[result] {' | '.join(parts)}", flush=True)
-            # Print full event on error for debugging
             if subtype == "error" or event.get("is_error"):
                 print(f"[result detail] {json.dumps(event, indent=2)}", flush=True)
 
         elif event_type == "tool":
-            # Tool result event — show file paths when available
             tool_name = event.get("tool", "")
             tool_input = event.get("input", {})
 
@@ -300,12 +363,7 @@ Use the same markdown formatting style and level of detail as the previous sessi
                         or tool_input.get("path")
                         or tool_input.get("pattern")
                         or tool_input.get("command", ""))
-                if tool_name in ("Read", "Glob", "Grep"):
-                    print(f" → {path}", flush=True)
-                elif tool_name in ("Write", "Edit"):
-                    print(f" → {path}", flush=True)
-                else:
-                    print(f" → {path}", flush=True)
+                print(f" → {path}", flush=True)
 
         elif event_type == "error":
             error = event.get("error", {})
@@ -322,15 +380,12 @@ Use the same markdown formatting style and level of detail as the previous sessi
         try:
             cmd = [
                 "claude",
-                "-p",                                       # Non-interactive print mode
-                "--verbose",                                # Required for stream-json in print mode
-                "--output-format", "stream-json",           # Stream NDJSON events
-                "--allowedTools", "Read,Write,Edit,Glob,Grep",  # Auto-approve file tools
+                "-p",
+                "--verbose",
+                "--output-format", "stream-json",
+                "--allowedTools", "Read,Write,Edit,Glob,Grep",
             ]
 
-            # Launch process with stdin pipe so we can write the prompt and close it
-            # (closing stdin makes Claude abort if it ever tries to ask a question)
-            # stderr goes directly to terminal so errors are immediately visible
             process = subprocess.Popen(
                 cmd,
                 cwd=str(self.project_root),
@@ -340,11 +395,9 @@ Use the same markdown formatting style and level of detail as the previous sessi
                 text=True,
             )
 
-            # Send prompt and close stdin
             process.stdin.write(prompt)
             process.stdin.close()
 
-            # Read stdout line-by-line as NDJSON events arrive
             for line in process.stdout:
                 line = line.strip()
                 if not line:
@@ -353,10 +406,8 @@ Use the same markdown formatting style and level of detail as the previous sessi
                     event = json.loads(line)
                     self._display_stream_event(event)
                 except json.JSONDecodeError:
-                    # Non-JSON output — print as-is
                     print(line, flush=True)
 
-            # Wait for process to finish (with timeout)
             process.wait(timeout=timeout_minutes * 60)
 
             if process.returncode == 0:
@@ -385,7 +436,6 @@ Use the same markdown formatting style and level of detail as the previous sessi
         print("Session Automation Workflow")
         print("=" * 60)
         
-        # Step 1: Find and clean transcript (if not skipping)
         latest_transcript = None
         srt_file = None
         if not skip_cleaning:
@@ -399,7 +449,6 @@ Use the same markdown formatting style and level of detail as the previous sessi
         else:
             print("\n[Step 1/3] Skipping transcript cleaning...")
         
-        # Step 2: Find the latest transcript
         print("\n[Step 2/3] Finding latest transcript...")
         latest_transcript = self.find_latest_transcript()
         if not latest_transcript:
@@ -407,7 +456,6 @@ Use the same markdown formatting style and level of detail as the previous sessi
         
         print(f"✓ Found transcript: {latest_transcript.name}")
         
-        # Extract date from transcript filename (format: YYYY-MM-DD.md)
         try:
             transcript_date = latest_transcript.stem
             datetime.strptime(transcript_date, "%Y-%m-%d")
@@ -415,20 +463,16 @@ Use the same markdown formatting style and level of detail as the previous sessi
             transcript_date = datetime.now().strftime("%Y-%m-%d")
             print(f"⚠ Could not parse date from transcript filename, using today: {transcript_date}")
         
-        # Step 3: Determine session number
         if session_number is None:
             session_number = self.get_next_session_number(is_interlude)
         
         print(f"\n[Step 3/3] Creating {'interlude' if is_interlude else 'session'} {session_number}...")
         
-        # Get recent sessions for context
         recent_sessions = self.get_recent_sessions()
         
-        # Create session template
         filename, template = self.create_session_template(session_number, is_interlude, transcript_date)
         session_path = self.sessions_dir / filename
         
-        # Generate Claude prompt
         claude_prompt = self.generate_claude_prompt(
             latest_transcript,
             recent_sessions,
@@ -446,16 +490,13 @@ Use the same markdown formatting style and level of detail as the previous sessi
         print(f"Date: {transcript_date}")
         print(f"Prompt size: {len(claude_prompt):,} characters")
         
-        # Save the prompt to a file for easy reference
         prompt_file = self.project_root / "scripts" / "last_claude_prompt.txt"
         with open(prompt_file, 'w') as f:
             f.write(claude_prompt)
         print(f"\nPrompt saved to: {prompt_file}")
         
-        # Invoke Claude automatically if requested
         if invoke_claude_auto:
             if self.invoke_claude(claude_prompt, timeout_minutes=timeout_minutes):
-                # Delete the original SRT file after successful processing
                 if srt_file and srt_file.exists():
                     print("\n" + "=" * 60)
                     print("CLEANING UP")
@@ -504,11 +545,9 @@ def main():
     
     args = parser.parse_args()
     
-    # Determine project root (parent of scripts directory)
     script_dir = Path(__file__).parent
     project_root = script_dir.parent
     
-    # Create automation instance and run
     automation = SessionAutomation(project_root)
     success = automation.run_automation(
         session_number=args.session_number,
