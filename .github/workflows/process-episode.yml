@@ -2,8 +2,8 @@ name: Process Episode
 
 on:
   schedule:
-    # Every Monday at 06:00 UTC
-    - cron: '0 6 * * 1'
+    # Saturday 10:00 EDT (14:00 UTC)
+    - cron: '0 14 * * 6'
   workflow_dispatch:
     inputs:
       drive_file_id:
