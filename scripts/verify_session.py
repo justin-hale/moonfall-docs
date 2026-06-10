@@ -51,6 +51,10 @@ base below lists canonical names, their transcript aliases, and known
 transcription errors. When the transcript uses an alias or error form, that
 COUNTS as confirmation of the canonical name.
 
+Work within a budget of roughly 40 tool calls: verify the riskiest claims first
+(quotes, names, headline events), batch independent greps in parallel, and stop
+searching once a claim is confirmed.
+
 Perform these checks on the note:
 1. Entities: every named character, NPC, and location in the note appears in
    the knowledge base or the transcript (alias forms count). If the NOTE uses
@@ -222,7 +226,7 @@ def main():
     parser.add_argument("--report", required=True)
     parser.add_argument("--lint-report", default=None)
     parser.add_argument("--model", default="claude-sonnet-4-6")
-    parser.add_argument("--timeout", type=int, default=600)
+    parser.add_argument("--timeout", type=int, default=900)
     parser.add_argument("--no-autofix", action="store_true")
     args = parser.parse_args()
 

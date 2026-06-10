@@ -17,11 +17,17 @@ on:
         required: false
         type: boolean
         default: false
+      force_fail:
+        description: "Force a FAIL verdict (exercise the review-PR path without publishing)"
+        required: false
+        type: boolean
+        default: false
 
 permissions:
   contents: write
   pages: write
   id-token: write
+  pull-requests: write
 
 concurrency:
   group: "pages"
@@ -31,12 +37,13 @@ env:
   NODE_OPTIONS: --max_old_space_size=6144
 
 jobs:
-  generate-and-deploy:
+  generate:
     runs-on: ubuntu-latest
     outputs:
-      has_changes: ${{ steps.commit.outputs.has_changes }}
-      session_title: ${{ steps.commit.outputs.session_title }}
-      session_slug: ${{ steps.commit.outputs.session_slug }}
+      verdict: ${{ steps.verdict.outputs.verdict }}
+      has_changes: ${{ steps.verdict.outputs.has_changes }}
+      session_title: ${{ steps.verdict.outputs.session_title }}
+      session_slug: ${{ steps.verdict.outputs.session_slug }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -61,7 +68,12 @@ jobs:
       - name: Install Claude Code CLI
         run: npm install -g @anthropic-ai/claude-code
 
-      - name: Generate session notes
+      # Generates the note single-pass on Opus, then lints, verifies (Sonnet,
+      # grep-grounded), and applies KB updates. Writes
+      # automation_output/session-meta.json — the contract the steps below
+      # gate on. Exit code is nonzero only for infrastructure failures;
+      # a FAIL verdict still exits 0 and is routed to a review PR.
+      - name: Generate and validate session notes
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
@@ -72,38 +84,99 @@ jobs:
           if [ "${{ inputs.interlude }}" = "true" ]; then
             ARGS="$ARGS --interlude"
           fi
+          if [ "${{ inputs.force_fail }}" = "true" ]; then
+            ARGS="$ARGS --force-fail-verdict"
+          fi
           python scripts/automate_session.py $ARGS
 
-      - name: Commit generated files
-        id: commit
+      - name: Read verdict
+        id: verdict
+        run: |
+          VERDICT=$(jq -r '.verdict // "NOOP"' automation_output/session-meta.json 2>/dev/null || echo "NOOP")
+          SLUG=$(jq -r '.slug // ""' automation_output/session-meta.json 2>/dev/null || echo "")
+          TITLE=$(jq -r '.title // ""' automation_output/session-meta.json 2>/dev/null || echo "")
+
+          if [ -n "$(git status --porcelain docs/sessions docs/transcripts transcripts_raw data)" ]; then
+            HAS_CHANGES=true
+          else
+            HAS_CHANGES=false
+          fi
+
+          # NOOP runs happen when there is no SRT to process — most notably
+          # when merging a review PR deletes the SRT and re-triggers this
+          # workflow. If that push added/changed a session note, treat it as
+          # MERGED so the site still deploys and Discord still fires.
+          if [ "$VERDICT" = "NOOP" ] && [ "${{ github.event_name }}" = "push" ]; then
+            MERGED_NOTE=$(git diff --name-only HEAD^ HEAD 2>/dev/null \
+              | grep -E '^docs/sessions/(session|interlude)-[0-9]+\.md$' | head -1 || true)
+            if [ -n "$MERGED_NOTE" ] && [ -f "$MERGED_NOTE" ]; then
+              VERDICT=MERGED
+              SLUG=$(basename "$MERGED_NOTE" .md)
+              TITLE=$(grep -m1 '^title:' "$MERGED_NOTE" | sed 's/^title: *"*//;s/"*$//')
+            fi
+          fi
+
+          echo "verdict=$VERDICT"
+          echo "verdict=$VERDICT" >> "$GITHUB_OUTPUT"
+          echo "has_changes=$HAS_CHANGES" >> "$GITHUB_OUTPUT"
+          echo "session_slug=$SLUG" >> "$GITHUB_OUTPUT"
+          echo "session_title=$TITLE" >> "$GITHUB_OUTPUT"
+
+      # ── Publish path: validation passed ──
+      - name: Commit to main
+        if: >-
+          (steps.verdict.outputs.verdict == 'PASS' ||
+           steps.verdict.outputs.verdict == 'PASS_WITH_FIXES') &&
+          steps.verdict.outputs.has_changes == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/sessions/ docs/transcripts/ transcripts_raw/
-          if git diff --cached --quiet; then
-            echo "No changes to commit"
-            echo "has_changes=false" >> "$GITHUB_OUTPUT"
-          else
-            # Extract the new session filename and title before committing
-            NEW_FILE=$(git diff --cached --name-only | grep -E '^docs/sessions/(session|interlude)-[0-9]+\.md$' | head -1)
-            if [ -n "$NEW_FILE" ]; then
-              TITLE=$(grep -m1 '^title:' "$NEW_FILE" | sed 's/^title: *"*//;s/"*$//')
-              SLUG=$(basename "$NEW_FILE" .md)
-              echo "session_title=$TITLE" >> "$GITHUB_OUTPUT"
-              echo "session_slug=$SLUG" >> "$GITHUB_OUTPUT"
-            fi
-            git commit -m "Generate session notes [automated]"
-            git push
-            echo "has_changes=true" >> "$GITHUB_OUTPUT"
-          fi
+          git add docs/sessions/ docs/transcripts/ transcripts_raw/ data/campaign-kb.md
+          git commit -m "Generate session notes [automated]"
+          git push
 
+      # ── Review path: validation failed (or verifier was unavailable) ──
+      - name: Open review PR
+        if: steps.verdict.outputs.verdict == 'FAIL' && steps.verdict.outputs.has_changes == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          SLUG="${{ steps.verdict.outputs.session_slug }}"
+          TITLE="${{ steps.verdict.outputs.session_title }}"
+          BRANCH="session-notes/${SLUG:-unknown}"
+
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          python scripts/render_pr_body.py \
+            automation_output/session-report.json \
+            automation_output/session-meta.json > /tmp/pr_body.md
+
+          git checkout -B "$BRANCH"
+          git add docs/sessions/ docs/transcripts/ transcripts_raw/ data/campaign-kb.md
+          git commit -m "Session notes for review: ${SLUG} [automated]"
+          git push --force --set-upstream origin "$BRANCH"
+
+          gh pr create \
+            --base main \
+            --head "$BRANCH" \
+            --title "Review: ${TITLE:-$SLUG}" \
+            --body-file /tmp/pr_body.md \
+            || gh pr edit "$BRANCH" --body-file /tmp/pr_body.md
+
+          git checkout main
+
+      # ── Site build: publish path and review-PR merges only ──
       - name: Build website
+        if: contains(fromJSON('["PASS","PASS_WITH_FIXES","MERGED"]'), steps.verdict.outputs.verdict)
         run: npm run build
 
       - name: Setup Pages
+        if: contains(fromJSON('["PASS","PASS_WITH_FIXES","MERGED"]'), steps.verdict.outputs.verdict)
         uses: actions/configure-pages@v4
 
       - name: Upload artifact
+        if: contains(fromJSON('["PASS","PASS_WITH_FIXES","MERGED"]'), steps.verdict.outputs.verdict)
         uses: actions/upload-pages-artifact@v3
         with:
           path: build
@@ -113,7 +186,8 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
-    needs: generate-and-deploy
+    needs: generate
+    if: contains(fromJSON('["PASS","PASS_WITH_FIXES","MERGED"]'), needs.generate.outputs.verdict)
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
@@ -121,15 +195,15 @@ jobs:
 
   notify:
     runs-on: ubuntu-latest
-    needs: [generate-and-deploy, deploy]
-    if: needs.generate-and-deploy.outputs.has_changes == 'true' && needs.generate-and-deploy.outputs.session_slug != ''
+    needs: [generate, deploy]
+    if: needs.deploy.result == 'success' && needs.generate.outputs.session_slug != ''
     steps:
       - name: Post to Discord
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: |
-          TITLE="${{ needs.generate-and-deploy.outputs.session_title }}"
-          SLUG="${{ needs.generate-and-deploy.outputs.session_slug }}"
+          TITLE="${{ needs.generate.outputs.session_title }}"
+          SLUG="${{ needs.generate.outputs.session_slug }}"
           URL="https://moonfallsessions.com/sessions/$SLUG"
           curl -s -H "Content-Type: application/json" \
             -d "{\"content\": \"New session posted: **$TITLE** - $URL\"}" \
