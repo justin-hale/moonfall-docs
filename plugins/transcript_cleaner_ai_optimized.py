@@ -22,6 +22,13 @@ import json
 from pathlib import Path
 from datetime import datetime, timedelta
 
+sys.path.insert(0, str(Path(__file__).parent))
+from campaign_kb import (  # noqa: E402
+    apply_replacements,
+    load_campaign_kb_mappings,
+    parse_aliases_field,
+)
+
 
 JSON_SCHEMA_VERSION = "1.0"
 
@@ -42,142 +49,6 @@ def format_time(seconds):
     minutes = (seconds % 3600) // 60
     secs = seconds % 60
     return f"{hours:02d}:{minutes:02d}:{secs:02d}"
-
-
-def parse_aliases_field(aliases_field: str):
-    """
-    Parse a markdown table "Transcript Aliases" cell like:
-    - "Silus", "Cyrus"
-    into: ["Silus", "Cyrus"]
-    """
-    aliases_field = (aliases_field or "").strip()
-    if not aliases_field:
-        return []
-    # Remove surrounding quotes for easier splitting.
-    aliases_field = aliases_field.replace('"', '')
-    return [a.strip() for a in aliases_field.split(',') if a.strip()]
-
-
-def load_campaign_kb_mappings(kb_path: Path):
-    """
-    Returns:
-      alias_to_canonical: maps transcript speaker/name aliases -> canonical character/NPC name
-      known_transcription_replacements: maps common mis-transcriptions -> canonical spelling
-    """
-    if not kb_path.exists():
-        return {}, {}
-
-    kb_text = kb_path.read_text(encoding="utf-8")
-    lines = kb_text.splitlines()
-
-    alias_to_canonical = {}
-    known_transcription_replacements = {}
-
-    def parse_table_rows(start_heading: str, end_heading_prefix: str):
-        """
-        Parse a simple markdown table after a heading, until another heading starts.
-        Returns the raw table row lines (starting with '|').
-        """
-        start_idx = None
-        for i, line in enumerate(lines):
-            if line.strip() == start_heading:
-                start_idx = i
-                break
-        if start_idx is None:
-            return []
-
-        end_idx = len(lines)
-        for j in range(start_idx + 1, len(lines)):
-            if lines[j].startswith(end_heading_prefix):
-                end_idx = j
-                break
-
-        return [ln for ln in lines[start_idx:end_idx] if ln.strip().startswith("|")]
-
-    # --- DM mapping (e.g. "Christopher "Topher" Hooper" + Google Meet name) ---
-    dm_start = None
-    dm_end = len(lines)
-    for i, line in enumerate(lines):
-        if line.strip() == "### DM":
-            dm_start = i
-            break
-    if dm_start is not None:
-        for j in range(dm_start + 1, len(lines)):
-            if lines[j].startswith("### Player Characters"):
-                dm_end = j
-                break
-        dm_block = "\n".join(lines[dm_start:dm_end])
-        dm_short = None
-        dm_google_meet = None
-        m_short = re.search(r'"([^"]+)"', dm_block)
-        if m_short:
-            dm_short = m_short.group(1).strip()
-        m_meet = re.search(r"Google Meet:\s*([^)]+)\)", dm_block)
-        if m_meet:
-            dm_google_meet = m_meet.group(1).strip()
-
-        if dm_short and dm_google_meet:
-            alias_to_canonical[dm_google_meet] = dm_short
-            # Also accept the plain short name.
-            alias_to_canonical[dm_short] = dm_short
-
-    # --- Player roster mapping (Active players) ---
-    roster_rows = parse_table_rows(
-        start_heading="### Player Characters (Active)",
-        end_heading_prefix="### Player Characters (Departed/Inactive)",
-    )
-    for row in roster_rows:
-        # Skip header + separator rows.
-        if "---" in row:
-            continue
-        parts = [p.strip() for p in row.strip().strip("|").split("|")]
-        if len(parts) < 6:
-            continue
-        character = parts[0]
-        player_name = parts[1]
-        google_meet_name = parts[2]
-        transcript_aliases_field = parts[3]
-
-        # Map Google Meet name + player name + transcript aliases.
-        if google_meet_name:
-            alias_to_canonical[google_meet_name] = character
-        if player_name:
-            alias_to_canonical[player_name] = character
-        for alias in parse_aliases_field(transcript_aliases_field):
-            alias_to_canonical[alias] = character
-
-    # --- Known transcription errors mapping ---
-    errors_rows = parse_table_rows(
-        start_heading="## Known Transcription Errors",
-        end_heading_prefix="## Active Plot Threads",
-    )
-    for row in errors_rows:
-        if "---" in row:
-            continue
-        parts = [p.strip() for p in row.strip().strip("|").split("|")]
-        if len(parts) < 3:
-            continue
-        transcript_says = parts[0]
-        should_be = parts[1]
-        if transcript_says and should_be:
-            known_transcription_replacements[transcript_says] = should_be
-
-    return alias_to_canonical, known_transcription_replacements
-
-
-def apply_replacements(text: str, replacements: dict):
-    """Apply robust (case-insensitive, whole-token) replacements."""
-    if not replacements:
-        return text
-    out = text
-    for says, should_be in replacements.items():
-        if not says or says == should_be:
-            continue
-        # Replace whole word occurrences to avoid turning parts of longer strings.
-        # This is intentionally conservative for names/aliases.
-        pattern = r"(?<![A-Za-z0-9_])" + re.escape(says) + r"(?![A-Za-z0-9_])"
-        out = re.sub(pattern, should_be, out, flags=re.IGNORECASE)
-    return out
 
 
 def clean_transcript_ai_optimized(input_text, return_blocks: bool = False):
@@ -376,7 +247,15 @@ def process_file(input_file, output_file=None):
         alias_to_canonical, known_transcription_replacements = load_campaign_kb_mappings(kb_path)
 
         cleaned_text, blocks = clean_transcript_ai_optimized(input_text, return_blocks=True)
-        
+
+        # Canonicalize known transcription errors in the markdown itself —
+        # this is the text the note generator reads, so corrections must land
+        # here, not only in the JSON. Case-sensitive: the KB maps "Brew"->"Bru"
+        # and a case-insensitive pass would corrupt prose like "brew some coffee".
+        cleaned_text = apply_replacements(
+            cleaned_text, known_transcription_replacements, case_sensitive=True
+        )
+
         # Write output file
         with open(output_path, 'w', encoding='utf-8') as f:
             f.write(cleaned_text)
@@ -386,11 +265,15 @@ def process_file(input_file, output_file=None):
         json_blocks = []
         for b in blocks:
             speaker_raw = b.get("speaker_raw", "")
-            speaker_normalized = apply_replacements(speaker_raw, known_transcription_replacements)
+            speaker_normalized = apply_replacements(
+                speaker_raw, known_transcription_replacements, case_sensitive=True
+            )
             speaker_canonical = alias_to_canonical.get(speaker_normalized) or alias_to_canonical.get(speaker_raw)
 
             text_raw = b.get("text_raw", "")
-            text_canonical = apply_replacements(text_raw, known_transcription_replacements)
+            text_canonical = apply_replacements(
+                text_raw, known_transcription_replacements, case_sensitive=True
+            )
 
             json_blocks.append({
                 "start_seconds": b.get("start_seconds", 0),

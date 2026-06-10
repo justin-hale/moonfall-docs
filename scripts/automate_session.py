@@ -29,6 +29,9 @@ from pathlib import Path
 from datetime import datetime
 import re
 
+sys.path.insert(0, str(Path(__file__).parent.parent / "plugins"))
+from transcript_cleaner_ai_optimized import extract_normalized_date  # noqa: E402
+
 
 # Transcript size thresholds.
 # Each chunk is sent as a separate Claude call; must be under ~55k chars
@@ -58,9 +61,13 @@ class SessionAutomation:
         if not srt_files:
             print(f"Error: No .srt files found in {self.raw_dir}")
             return None
-            
-        # Sort by modification time, most recent first
-        srt_files.sort(key=lambda x: x.stat().st_mtime, reverse=True)
+
+        # Sort by the session date embedded in the filename — file mtimes are
+        # meaningless in CI (fresh checkout). Fall back to mtime for undated names.
+        srt_files.sort(
+            key=lambda x: (extract_normalized_date(x.name), x.stat().st_mtime),
+            reverse=True,
+        )
         return srt_files[0]
     
     def run_transcript_cleaner(self, srt_file):
@@ -93,9 +100,10 @@ class SessionAutomation:
         if not transcript_files:
             print(f"Error: No transcript files found in {self.transcripts_dir}")
             return None
-            
-        # Sort by modification time, most recent first
-        transcript_files.sort(key=lambda x: x.stat().st_mtime, reverse=True)
+
+        # Filenames are YYYY-MM-DD.md, so a lexical sort is chronological.
+        # File mtimes are meaningless in CI (fresh checkout).
+        transcript_files.sort(key=lambda x: x.name, reverse=True)
         return transcript_files[0]
     
     def get_next_session_number(self, is_interlude=False):
@@ -123,13 +131,30 @@ class SessionAutomation:
         """Get the most recent session files for context"""
         if not self.sessions_dir.exists():
             return []
-            
+
         session_files = list(self.sessions_dir.glob("session-*.md"))
         session_files.extend(list(self.sessions_dir.glob("interlude-*.md")))
-        
-        # Sort by modification time, most recent first
-        session_files.sort(key=lambda x: x.stat().st_mtime, reverse=True)
-        
+
+        # Sort by frontmatter date, then file number — file mtimes are
+        # meaningless in CI (fresh checkout gives every file the same mtime).
+        def sort_key(path):
+            date = ""
+            try:
+                with open(path, "r", encoding="utf-8") as f:
+                    for _ in range(10):
+                        line = f.readline()
+                        m = re.match(r"^date:\s*(\d{4}-\d{2}-\d{2})", line)
+                        if m:
+                            date = m.group(1)
+                            break
+            except OSError:
+                pass
+            num_match = re.search(r"-(\d+)\.md$", path.name)
+            number = int(num_match.group(1)) if num_match else 0
+            return (date, number)
+
+        session_files.sort(key=sort_key, reverse=True)
+
         return session_files[:count]
     
     def create_session_template(self, session_number, is_interlude, transcript_date):
