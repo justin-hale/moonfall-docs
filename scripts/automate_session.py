@@ -24,19 +24,36 @@ import sys
 import subprocess
 import argparse
 import json
+import threading
 import time
 from pathlib import Path
 from datetime import datetime
 import re
 
+sys.path.insert(0, str(Path(__file__).parent.parent / "plugins"))
+from transcript_cleaner_ai_optimized import extract_normalized_date  # noqa: E402
 
-# Transcript size thresholds.
-# Each chunk is sent as a separate Claude call; must be under ~55k chars
-# (~18k tokens) to stay within the 30k input-tokens-per-minute rate limit.
+
+# Note generation runs single-pass against the full transcript on Opus —
+# the Opus rate pool (500k input tokens/min at tier 1) comfortably fits a
+# whole session transcript (~45-80k tokens) in one request.
+GENERATION_MODEL = "claude-opus-4-8"
+# Chunk summaries (rate-limit fallback only) and validation passes use Sonnet.
+CHUNK_MODEL = "claude-sonnet-4-6"
+
+# Fallback-path chunking: each chunk is sent as a separate Claude call; must be
+# under ~55k chars (~18k tokens) to stay within the Sonnet 30k
+# input-tokens-per-minute rate limit.
 CHUNK_SIZE = 55_000
-# Transcripts smaller than this are sent as-is; larger ones are summarised
-# chunk-by-chunk first, then the combined summaries are used in the main prompt.
-MAX_DIRECT_CHARS = 60_000
+
+# Placeholder strings from the session template; their presence in a "generated"
+# note means generation did not actually complete.
+TEMPLATE_PLACEHOLDERS = (
+    "[Title To Be Generated]",
+    "[Description to be generated",
+    "[Summary to be generated",
+    "[Content to be generated",
+)
 
 
 class SessionAutomation:
@@ -58,9 +75,13 @@ class SessionAutomation:
         if not srt_files:
             print(f"Error: No .srt files found in {self.raw_dir}")
             return None
-            
-        # Sort by modification time, most recent first
-        srt_files.sort(key=lambda x: x.stat().st_mtime, reverse=True)
+
+        # Sort by the session date embedded in the filename — file mtimes are
+        # meaningless in CI (fresh checkout). Fall back to mtime for undated names.
+        srt_files.sort(
+            key=lambda x: (extract_normalized_date(x.name), x.stat().st_mtime),
+            reverse=True,
+        )
         return srt_files[0]
     
     def run_transcript_cleaner(self, srt_file):
@@ -93,9 +114,10 @@ class SessionAutomation:
         if not transcript_files:
             print(f"Error: No transcript files found in {self.transcripts_dir}")
             return None
-            
-        # Sort by modification time, most recent first
-        transcript_files.sort(key=lambda x: x.stat().st_mtime, reverse=True)
+
+        # Filenames are YYYY-MM-DD.md, so a lexical sort is chronological.
+        # File mtimes are meaningless in CI (fresh checkout).
+        transcript_files.sort(key=lambda x: x.name, reverse=True)
         return transcript_files[0]
     
     def get_next_session_number(self, is_interlude=False):
@@ -123,13 +145,30 @@ class SessionAutomation:
         """Get the most recent session files for context"""
         if not self.sessions_dir.exists():
             return []
-            
+
         session_files = list(self.sessions_dir.glob("session-*.md"))
         session_files.extend(list(self.sessions_dir.glob("interlude-*.md")))
-        
-        # Sort by modification time, most recent first
-        session_files.sort(key=lambda x: x.stat().st_mtime, reverse=True)
-        
+
+        # Sort by frontmatter date, then file number — file mtimes are
+        # meaningless in CI (fresh checkout gives every file the same mtime).
+        def sort_key(path):
+            date = ""
+            try:
+                with open(path, "r", encoding="utf-8") as f:
+                    for _ in range(10):
+                        line = f.readline()
+                        m = re.match(r"^date:\s*(\d{4}-\d{2}-\d{2})", line)
+                        if m:
+                            date = m.group(1)
+                            break
+            except OSError:
+                pass
+            num_match = re.search(r"-(\d+)\.md$", path.name)
+            number = int(num_match.group(1)) if num_match else 0
+            return (date, number)
+
+        session_files.sort(key=sort_key, reverse=True)
+
         return session_files[:count]
     
     def create_session_template(self, session_number, is_interlude, transcript_date):
@@ -162,7 +201,7 @@ podcastlink: ""
         """Run claude -p in plain-text mode, retrying on 429 rate-limit errors."""
         for attempt in range(5):
             result = subprocess.run(
-                ["claude", "-p", "--output-format", "text"],
+                ["claude", "-p", "--output-format", "text", "--model", CHUNK_MODEL],
                 input=prompt,
                 capture_output=True,
                 text=True,
@@ -221,31 +260,31 @@ TRANSCRIPT CHUNK:
         print(f"  Combined summaries: {len(combined):,} chars (down from {len(text):,})")
         return combined
 
-    def generate_claude_prompt(self, transcript_path, recent_sessions, session_number, is_interlude):
-        """Generate a prompt for Claude to create the session notes"""
+    def generate_claude_prompt(self, transcript_path, recent_sessions, session_number,
+                               is_interlude, transcript_content=None,
+                               transcript_label="TRANSCRIPT CONTENT:"):
+        """Generate a prompt for Claude to create the session notes.
+
+        By default the FULL markdown transcript is embedded — generation runs
+        single-pass on Opus, whose rate pool fits a whole session. The
+        ``transcript_content``/``transcript_label`` overrides exist for the
+        rate-limit fallback path, which substitutes chunk summaries.
+        (The JSON sibling transcript is not used here: it is 4-5x larger due
+        to per-block metadata and pretty-printing.)
+        """
         prefix = "interlude" if is_interlude else "session"
         session_type = "interlude" if is_interlude else "session"
-        
-        # Always use the markdown transcript.  The JSON sibling file is
-        # significantly larger (4–5×) due to per-block metadata fields and
-        # pretty-printing, and would exceed the API rate limit.
-        print(f"Reading transcript content from {transcript_path}...")
-        try:
-            with open(transcript_path, "r", encoding="utf-8") as f:
-                transcript_content = f.read()
-            print(f"✓ Transcript loaded ({len(transcript_content):,} chars)")
-        except Exception as e:
-            print(f"⚠ Error reading transcript: {e}")
-            transcript_content = f"[Error loading transcript from {transcript_path}]"
 
-        # If the transcript is too large to send in one request (would exceed
-        # the 30k input-tokens-per-minute rate limit), summarise it first.
-        if len(transcript_content) > MAX_DIRECT_CHARS:
-            transcript_content = self._summarize_long_transcript(transcript_content)
-            transcript_label = "TRANSCRIPT SUMMARY (condensed from full transcript):"
-        else:
-            transcript_label = "TRANSCRIPT CONTENT:"
-        
+        if transcript_content is None:
+            print(f"Reading transcript content from {transcript_path}...")
+            try:
+                with open(transcript_path, "r", encoding="utf-8") as f:
+                    transcript_content = f.read()
+                print(f"✓ Transcript loaded ({len(transcript_content):,} chars)")
+            except Exception as e:
+                print(f"⚠ Error reading transcript: {e}")
+                transcript_content = f"[Error loading transcript from {transcript_path}]"
+
         prompt = f"""IMPORTANT: You are running in fully autonomous mode. Do NOT ask any questions or request clarification. If you encounter an issue you cannot resolve, output a clear error message explaining the problem and stop immediately. Make your best judgment for any ambiguous decisions.
 
 I need you to create a comprehensive {session_type} note for {session_type} {session_number} based on the transcript below.
@@ -283,6 +322,17 @@ Please create a detailed session note following the format and style of the prev
 FACTS & GROUNDING RULES (very important):
 - Only use concrete details that appear in the provided transcript.
 - Do NOT invent events, characters, names, or locations that are not supported by the transcript.
+- Every blockquote must be a near-verbatim line from the transcript — light cleanup of
+  filler words ("um", "uh", repeated words) only. Never paraphrase, splice, or invent
+  quotes. Attribute each quote to the canonical character name.
+
+TIMESTAMP ANCHORS (required):
+- Immediately after each `## ` section heading that narrates events, emit an HTML
+  comment of the form `<!-- transcript: HH:MM:SS -->` giving the timestamp where that
+  section's events begin in the transcript. Use the nearest preceding `### [HH:MM:SS]`
+  marker in the transcript. Anchors must increase through the note. These comments are
+  invisible on the published site and are used by automated verification.
+- Synthesis sections (e.g. Themes, Session MVP, Players Present) do not need anchors.
 
 The session note should include:
 1. A descriptive title that captures the main event or theme
@@ -370,12 +420,19 @@ Use the same markdown formatting style and level of detail as the previous sessi
             msg = error.get("message", str(error))
             print(f"\n[error] {msg}", flush=True)
 
-    def invoke_claude(self, prompt, timeout_minutes=15):
+    def invoke_claude(self, prompt, model=GENERATION_MODEL, timeout_minutes=15):
         """Invoke Claude Code with the generated prompt in fully autonomous mode,
-        streaming output in real-time via --output-format stream-json."""
+        streaming output in real-time via --output-format stream-json.
+
+        Returns "ok", "rate_limited", or "failed" so the caller can decide
+        whether to retry or fall back to chunked summarization.
+        """
         print("\n" + "=" * 60)
-        print("INVOKING CLAUDE CODE")
+        print(f"INVOKING CLAUDE CODE ({model})")
         print("=" * 60)
+
+        error_blobs = []
+        stderr_chunks = []
 
         try:
             cmd = [
@@ -383,6 +440,7 @@ Use the same markdown formatting style and level of detail as the previous sessi
                 "-p",
                 "--verbose",
                 "--output-format", "stream-json",
+                "--model", model,
                 "--allowedTools", "Read,Write,Edit,Glob,Grep",
             ]
 
@@ -391,9 +449,16 @@ Use the same markdown formatting style and level of detail as the previous sessi
                 cwd=str(self.project_root),
                 stdin=subprocess.PIPE,
                 stdout=subprocess.PIPE,
-                stderr=None,
+                stderr=subprocess.PIPE,
                 text=True,
             )
+
+            def _drain_stderr():
+                for chunk in process.stderr:
+                    stderr_chunks.append(chunk)
+
+            stderr_thread = threading.Thread(target=_drain_stderr, daemon=True)
+            stderr_thread.start()
 
             process.stdin.write(prompt)
             process.stdin.close()
@@ -405,81 +470,231 @@ Use the same markdown formatting style and level of detail as the previous sessi
                 try:
                     event = json.loads(line)
                     self._display_stream_event(event)
+                    if event.get("type") == "error" or event.get("is_error") \
+                            or event.get("subtype") == "error":
+                        error_blobs.append(json.dumps(event))
                 except json.JSONDecodeError:
                     print(line, flush=True)
 
             process.wait(timeout=timeout_minutes * 60)
+            stderr_thread.join(timeout=5)
 
             if process.returncode == 0:
                 print("\n✓ Claude invocation completed")
-                return True
-            else:
-                print(f"\n⚠ Claude exited with code {process.returncode}")
-                return False
+                return "ok"
+
+            error_text = "".join(stderr_chunks) + " ".join(error_blobs)
+            print(f"\n⚠ Claude exited with code {process.returncode}")
+            if error_text.strip():
+                print(error_text[:500])
+            if any(marker in error_text for marker in
+                   ("429", "rate_limit", "rate limit", "overloaded")):
+                return "rate_limited"
+            return "failed"
 
         except subprocess.TimeoutExpired:
             process.kill()
             process.wait()
             print(f"\n✗ Claude timed out after {timeout_minutes} minutes — aborting")
-            return False
+            return "failed"
         except FileNotFoundError:
             print("\n✗ Error: 'claude' command not found")
             print("Make sure Claude Code CLI is installed and in your PATH")
-            return False
+            return "failed"
         except Exception as e:
             print(f"\n✗ Error invoking Claude: {e}")
+            return "failed"
+
+    def _note_was_generated(self, session_path):
+        """True only if the note file exists and is not a leftover template."""
+        if not session_path.exists():
+            print(f"✗ Expected note {session_path} was not created")
             return False
+        content = session_path.read_text(encoding="utf-8")
+        if len(content) < 500:
+            print(f"✗ Note {session_path} is suspiciously short ({len(content)} chars)")
+            return False
+        for placeholder in TEMPLATE_PLACEHOLDERS:
+            if placeholder in content:
+                print(f"✗ Note {session_path} still contains template placeholder "
+                      f"{placeholder!r}")
+                return False
+        return True
+
+    def _save_prompt(self, prompt):
+        prompt_file = self.project_root / "scripts" / "last_claude_prompt.txt"
+        with open(prompt_file, "w") as f:
+            f.write(prompt)
+        print(f"Prompt saved to: {prompt_file} ({len(prompt):,} chars)")
+
+    def generate_with_fallback(self, transcript_path, recent_sessions, session_number,
+                               is_interlude, session_path, timeout_minutes=15):
+        """Single-pass Opus generation, with chunked summarization as a
+        rate-limit fallback only.
+
+        Returns (status, generation_mode) where status is "ok"/"failed" and
+        generation_mode is "single_pass" or "chunked_fallback".
+        """
+        prompt = self.generate_claude_prompt(
+            transcript_path, recent_sessions, session_number, is_interlude
+        )
+        self._save_prompt(prompt)
+
+        generation_mode = "single_pass"
+        status = self.invoke_claude(prompt, timeout_minutes=timeout_minutes)
+
+        if status == "rate_limited":
+            print("\nRate limited — waiting 65s and retrying single-pass once…")
+            time.sleep(65)
+            status = self.invoke_claude(prompt, timeout_minutes=timeout_minutes)
+
+        if status == "rate_limited":
+            print("\nStill rate limited — falling back to chunked summarization.")
+            generation_mode = "chunked_fallback"
+            with open(transcript_path, "r", encoding="utf-8") as f:
+                full_transcript = f.read()
+            summaries = self._summarize_long_transcript(full_transcript)
+            fallback_prompt = self.generate_claude_prompt(
+                transcript_path, recent_sessions, session_number, is_interlude,
+                transcript_content=summaries,
+                transcript_label="TRANSCRIPT SUMMARY (condensed from full transcript):",
+            )
+            self._save_prompt(fallback_prompt)
+            status = self.invoke_claude(fallback_prompt, timeout_minutes=timeout_minutes)
+
+        if status == "rate_limited":
+            status = "failed"
+        if status == "ok" and not self._note_was_generated(session_path):
+            status = "failed"
+        return status, generation_mode
     
-    def run_automation(self, session_number=None, is_interlude=False, skip_cleaning=False, invoke_claude_auto=True, timeout_minutes=15):
+    def _write_meta(self, **fields):
+        """Write automation_output/session-meta.json — the contract the CI
+        workflow gates on (it reads this file, not the exit code)."""
+        out_dir = self.project_root / "automation_output"
+        out_dir.mkdir(parents=True, exist_ok=True)
+        meta_path = out_dir / "session-meta.json"
+        meta_path.write_text(json.dumps(fields, indent=2) + "\n", encoding="utf-8")
+        print(f"Meta written: {meta_path} -> {fields.get('status')}/{fields.get('verdict')}")
+        return meta_path
+
+    def _note_frontmatter_title(self, session_path):
+        try:
+            head = session_path.read_text(encoding="utf-8")[:1000]
+            m = re.search(r'^title:\s*"?(.*?)"?\s*$', head, re.M)
+            return m.group(1) if m else session_path.stem
+        except OSError:
+            return session_path.stem
+
+    def run_validation(self, session_path, transcript_path, skip_kb_update=False):
+        """Run lint -> verify -> kb-update against a note/transcript pair.
+
+        Returns (verdict, verifier_status). Lint and verify failures surface in
+        the verdict; a KB-update failure is logged but never blocks.
+        """
+        out_dir = self.project_root / "automation_output"
+        out_dir.mkdir(parents=True, exist_ok=True)
+        lint_report = out_dir / "lint-report.json"
+        session_report = out_dir / "session-report.json"
+        kb_path = self.project_root / "data" / "campaign-kb.md"
+        scripts_dir = self.project_root / "scripts"
+
+        print("\n" + "=" * 60)
+        print("VALIDATING NOTE")
+        print("=" * 60)
+
+        subprocess.run(
+            [sys.executable, str(scripts_dir / "lint_session.py"),
+             "--note", str(session_path), "--transcript", str(transcript_path),
+             "--kb", str(kb_path), "--json-out", str(lint_report)],
+            cwd=str(self.project_root),
+        )
+
+        verify = subprocess.run(
+            [sys.executable, str(scripts_dir / "verify_session.py"),
+             "--note", str(session_path), "--transcript", str(transcript_path),
+             "--kb", str(kb_path), "--report", str(session_report),
+             "--lint-report", str(lint_report)],
+            cwd=str(self.project_root),
+        )
+
+        verdict = "FAIL"
+        verifier_status = "error"
+        if session_report.exists():
+            try:
+                report = json.loads(session_report.read_text(encoding="utf-8"))
+                verdict = report.get("verdict", "FAIL")
+                verifier_status = report.get("verifier_status", "error")
+            except json.JSONDecodeError:
+                pass
+        if verify.returncode == 2:
+            # Verifier infrastructure failure — fail closed, never publish
+            # an unverified note.
+            verdict = "FAIL"
+
+        if not skip_kb_update:
+            kb_update = subprocess.run(
+                [sys.executable, str(scripts_dir / "update_kb.py"),
+                 "--note", str(session_path), "--transcript", str(transcript_path),
+                 "--kb", str(kb_path), "--report", str(session_report)],
+                cwd=str(self.project_root),
+            )
+            if kb_update.returncode != 0:
+                print("⚠ KB update failed — continuing (non-blocking)")
+
+        return verdict, verifier_status
+
+    def run_automation(self, session_number=None, is_interlude=False, skip_cleaning=False,
+                       invoke_claude_auto=True, timeout_minutes=15,
+                       skip_validation=False, force_fail_verdict=False):
         """Run the full automation workflow"""
         print("=" * 60)
         print("Session Automation Workflow")
         print("=" * 60)
-        
+
         latest_transcript = None
         srt_file = None
         if not skip_cleaning:
             print("\n[Step 1/3] Finding and cleaning transcript...")
             srt_file = self.find_latest_srt()
             if not srt_file:
-                return False
-            
+                # Not an error: the workflow also triggers on SRT *deletions*
+                # (e.g. merging a review PR). Nothing to do.
+                print("No SRT to process — NOOP.")
+                self._write_meta(status="noop", verdict="NOOP")
+                return True
+
             if not self.run_transcript_cleaner(srt_file):
+                self._write_meta(status="clean_failed", verdict="FAIL")
                 return False
         else:
             print("\n[Step 1/3] Skipping transcript cleaning...")
-        
+
         print("\n[Step 2/3] Finding latest transcript...")
         latest_transcript = self.find_latest_transcript()
         if not latest_transcript:
+            self._write_meta(status="no_transcript", verdict="FAIL")
             return False
-        
+
         print(f"✓ Found transcript: {latest_transcript.name}")
-        
+
         try:
             transcript_date = latest_transcript.stem
             datetime.strptime(transcript_date, "%Y-%m-%d")
         except ValueError:
             transcript_date = datetime.now().strftime("%Y-%m-%d")
             print(f"⚠ Could not parse date from transcript filename, using today: {transcript_date}")
-        
+
         if session_number is None:
             session_number = self.get_next_session_number(is_interlude)
-        
+
         print(f"\n[Step 3/3] Creating {'interlude' if is_interlude else 'session'} {session_number}...")
-        
+
         recent_sessions = self.get_recent_sessions()
-        
+
         filename, template = self.create_session_template(session_number, is_interlude, transcript_date)
         session_path = self.sessions_dir / filename
-        
-        claude_prompt = self.generate_claude_prompt(
-            latest_transcript,
-            recent_sessions,
-            session_number,
-            is_interlude
-        )
-        
+
         print("\n" + "=" * 60)
         print("READY FOR CLAUDE")
         print("=" * 60)
@@ -488,27 +703,55 @@ Use the same markdown formatting style and level of detail as the previous sessi
         print(f"Session Number: {session_number}")
         print(f"Type: {'Interlude' if is_interlude else 'Session'}")
         print(f"Date: {transcript_date}")
-        print(f"Prompt size: {len(claude_prompt):,} characters")
-        
-        prompt_file = self.project_root / "scripts" / "last_claude_prompt.txt"
-        with open(prompt_file, 'w') as f:
-            f.write(claude_prompt)
-        print(f"\nPrompt saved to: {prompt_file}")
-        
-        if invoke_claude_auto:
-            if self.invoke_claude(claude_prompt, timeout_minutes=timeout_minutes):
-                if srt_file and srt_file.exists():
-                    print("\n" + "=" * 60)
-                    print("CLEANING UP")
-                    print("=" * 60)
-                    try:
-                        srt_file.unlink()
-                        print(f"✓ Deleted original transcript: {srt_file.name}")
-                    except Exception as e:
-                        print(f"⚠ Could not delete {srt_file.name}: {e}")
-        else:
+
+        if not invoke_claude_auto:
+            prompt = self.generate_claude_prompt(
+                latest_transcript, recent_sessions, session_number, is_interlude
+            )
+            self._save_prompt(prompt)
             print("\n⚠ Skipping Claude invocation (use without --no-claude to auto-invoke)")
-        
+            self._write_meta(status="prompt_only", verdict="NOOP")
+            return True
+
+        status, generation_mode = self.generate_with_fallback(
+            latest_transcript, recent_sessions, session_number, is_interlude,
+            session_path, timeout_minutes=timeout_minutes,
+        )
+        if status != "ok":
+            self._write_meta(status="generation_failed", verdict="FAIL",
+                             generation_mode=generation_mode)
+            return False
+
+        if skip_validation:
+            verdict, verifier_status = "PASS", "skipped"
+            print("\n⚠ Skipping validation (--skip-validation)")
+        else:
+            verdict, verifier_status = self.run_validation(session_path, latest_transcript)
+
+        if force_fail_verdict:
+            print("\n⚠ --force-fail-verdict: overriding verdict to FAIL")
+            verdict = "FAIL"
+
+        if srt_file and srt_file.exists():
+            print("\n" + "=" * 60)
+            print("CLEANING UP")
+            print("=" * 60)
+            try:
+                srt_file.unlink()
+                print(f"✓ Deleted original transcript: {srt_file.name}")
+            except Exception as e:
+                print(f"⚠ Could not delete {srt_file.name}: {e}")
+
+        self._write_meta(
+            status="ok",
+            verdict=verdict,
+            verifier_status=verifier_status,
+            note_path=str(session_path.relative_to(self.project_root)),
+            slug=session_path.stem,
+            title=self._note_frontmatter_title(session_path),
+            date=transcript_date,
+            generation_mode=generation_mode,
+        )
         return True
 
 
@@ -542,21 +785,54 @@ def main():
         default=15,
         help="Timeout in minutes for each Claude invocation (default: 15)"
     )
-    
+    parser.add_argument(
+        "--skip-validation",
+        action="store_true",
+        help="Skip lint/verify/KB-update after generation (local debugging)"
+    )
+    parser.add_argument(
+        "--force-fail-verdict",
+        action="store_true",
+        help="Force the final verdict to FAIL (CI escape hatch to exercise the review-PR path)"
+    )
+    parser.add_argument(
+        "--validate-only",
+        action="store_true",
+        help="Only run lint/verify/KB-update against --note/--transcript; no generation"
+    )
+    parser.add_argument("--note", help="Note path for --validate-only")
+    parser.add_argument("--transcript", help="Transcript path for --validate-only")
+
     args = parser.parse_args()
-    
+
     script_dir = Path(__file__).parent
     project_root = script_dir.parent
-    
+
     automation = SessionAutomation(project_root)
+
+    if args.validate_only:
+        if not args.note or not args.transcript:
+            parser.error("--validate-only requires --note and --transcript")
+        verdict, verifier_status = automation.run_validation(
+            Path(args.note).resolve(), Path(args.transcript).resolve()
+        )
+        automation._write_meta(
+            status="ok", verdict=verdict, verifier_status=verifier_status,
+            note_path=args.note, slug=Path(args.note).stem,
+            title=automation._note_frontmatter_title(Path(args.note)),
+        )
+        sys.exit(0)
+
     success = automation.run_automation(
         session_number=args.session_number,
         is_interlude=args.interlude,
         skip_cleaning=args.no_clean,
         invoke_claude_auto=not args.no_claude,
-        timeout_minutes=args.timeout
+        timeout_minutes=args.timeout,
+        skip_validation=args.skip_validation,
+        force_fail_verdict=args.force_fail_verdict,
     )
-    
+
     sys.exit(0 if success else 1)
 
 

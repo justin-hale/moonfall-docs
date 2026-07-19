@@ -8,11 +8,12 @@ A comprehensive Python script that automates the workflow of creating session no
 
 ### What It Does
 
-1. **Finds the latest SRT file** in `transcripts_raw/` directory
-2. **Runs the transcript cleaner** (`plugins/transcript_cleaner_ai_optimized.py`) to convert SRT to markdown
+1. **Finds the latest SRT file** in `transcripts_raw/` (by embedded date) — exits as a NOOP if none
+2. **Runs the transcript cleaner** (`plugins/transcript_cleaner_ai_optimized.py`) to convert SRT to markdown, applying the campaign KB's known-transcription-error corrections
 3. **Determines the next session number** by analyzing existing session files
-4. **Generates a Claude prompt** with context from recent sessions
-5. **Prepares everything** for Claude Code to create the full session notes
+4. **Generates the session note single-pass** — the FULL transcript is sent to Claude (Opus) in one request; chunked summarization is only a rate-limit fallback
+5. **Validates the note**: deterministic lint (`lint_session.py`) + LLM verification against the transcript (`verify_session.py`) + KB updates (`update_kb.py`)
+6. **Writes `automation_output/session-meta.json`** with the verdict (`PASS` / `PASS_WITH_FIXES` / `FAIL` / `NOOP`) that CI uses to decide between publishing and opening a review PR
 
 ### Usage
 
@@ -101,6 +102,10 @@ The script generates:
 | `--interlude` | Create an interlude instead of regular session |
 | `--no-clean` | Skip transcript cleaning (use existing transcript) |
 | `--no-claude` | Don't invoke Claude automatically (just save prompt) |
+| `--skip-validation` | Skip lint/verify/KB-update after generation (debugging) |
+| `--validate-only --note N --transcript T` | Run only the validation chain against an existing note |
+| `--force-fail-verdict` | Force a FAIL verdict (CI escape hatch to exercise the review-PR path) |
+| `--timeout N` | Timeout in minutes per Claude invocation (default: 15) |
 | `-h, --help` | Show help message |
 
 ### Requirements
@@ -146,6 +151,41 @@ docusaurus/
 - The script looks at existing files in `docs/sessions/` to auto-detect
 
 ## Other Scripts
+
+### lint_session.py
+
+Deterministic, zero-cost lint for a generated note: scans for known
+transcription errors from the campaign KB (autofixable), checks frontmatter
+completeness and date, fuzzy-matches every blockquote against the transcript,
+flags repeated proper nouns absent from both KB and transcript, and validates
+`<!-- transcript: HH:MM:SS -->` section anchors.
+
+```bash
+python3 scripts/lint_session.py --note docs/sessions/session-55.md \
+  --transcript docs/transcripts/2026-06-05.md \
+  --kb data/campaign-kb.md --json-out automation_output/lint-report.json
+```
+
+### verify_session.py
+
+LLM verification pass (Sonnet, Read+Grep only). The note and KB are inlined;
+the transcript is referenced by path so the verifier greps for evidence
+instead of reading ~50k tokens. Merges lint findings, applies conservative
+canonical-name autofixes, and writes a report with verdict `PASS` /
+`PASS_WITH_FIXES` / `FAIL`. Exit 2 = verifier infrastructure failure —
+callers must fail closed (never publish unverified).
+
+### update_kb.py
+
+Proposes campaign-KB updates after a session (new NPCs, locations, plot-thread
+updates, observed transcription errors) as structured JSON via a Sonnet pass,
+then applies them deterministically with dedupe. Never removes existing plot
+threads. Use `--dry-run` to preview. Failures are non-blocking.
+
+### render_pr_body.py
+
+Renders `automation_output/session-report.json` as a markdown PR body
+(findings table + raw report) for the review-PR path in CI.
 
 ### generate-sessions-data.js
 
