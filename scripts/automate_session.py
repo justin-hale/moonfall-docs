@@ -129,12 +129,21 @@ class SessionAutomation:
                 numbers.append(int(match.group(1)))
         return max(numbers) + 1 if numbers else 1
 
-    def get_recent_sessions(self, count=5):
-        """Get the most recent session files for context"""
+    def get_recent_sessions(self, count=5, exclude_filename=None):
+        """Get the most recent session files for context.
+
+        *exclude_filename* should be the filename of the session currently
+        being generated. run_automation() writes a placeholder template for
+        it before generation runs, which makes it the newest file by mtime —
+        without excluding it here, it would displace a real prior session as
+        a "recent session" style reference with its own empty scaffold.
+        """
         if not self.sessions_dir.exists():
             return []
         session_files = list(self.sessions_dir.glob("session-*.md"))
         session_files.extend(list(self.sessions_dir.glob("interlude-*.md")))
+        if exclude_filename:
+            session_files = [f for f in session_files if f.name != exclude_filename]
         session_files.sort(key=lambda x: x.stat().st_mtime, reverse=True)
         return session_files[:count]
 
@@ -315,13 +324,13 @@ TRANSCRIPT CHUNK:
             print(f"  Warning: could not read {path}: {e}")
             return ""
 
-    def build_system_prompt(self):
-        """Build the system prompt (cached across calls)."""
+    def build_system_prompt(self, exclude_filename=None):
+        """Build the system prompt."""
         kb_content = self._load_file(self.project_root / "data" / "campaign-kb.md")
         state_content = self._load_file(self.project_root / "data" / "campaign-state.md")
 
         # Load 1-2 recent sessions as style reference (full text).
-        recent = self.get_recent_sessions(2)
+        recent = self.get_recent_sessions(2, exclude_filename=exclude_filename)
         style_refs = []
         for s in recent:
             content = self._load_file(s)
@@ -553,8 +562,10 @@ Respond in this EXACT format (no other text):
             return False
         print(f"  Transcript loaded ({len(transcript_content):,} chars)")
 
-        # Build prompts.
-        system_prompt = self.build_system_prompt()
+        # Build prompts. Exclude this session's own (still-placeholder) file
+        # from the style-reference lookup — see get_recent_sessions().
+        own_filename = f"{'interlude' if is_interlude else 'session'}-{session_number}.md"
+        system_prompt = self.build_system_prompt(exclude_filename=own_filename)
         user_prompt = self.build_generation_prompt(transcript_content, session_number, is_interlude)
 
         print(f"  System prompt: {len(system_prompt):,} chars")
@@ -586,8 +597,7 @@ Respond in this EXACT format (no other text):
             return False
 
         # Write the recap file.
-        prefix = "interlude" if is_interlude else "session"
-        filename = f"{prefix}-{session_number}.md"
+        filename = own_filename
         session_path = self.sessions_dir / filename
         session_path.write_text(recap_text, encoding="utf-8")
         print(f"  Recap written to {session_path}")
@@ -657,7 +667,7 @@ Respond in this EXACT format (no other text):
             # Just save the prompt without calling API.
             transcript_content = self._load_file(latest_transcript)
             user_prompt = self.build_generation_prompt(transcript_content, session_number, is_interlude, dry_run=True)
-            system_prompt = self.build_system_prompt()
+            system_prompt = self.build_system_prompt(exclude_filename=filename)
             prompt_file = self.project_root / "scripts" / "last_claude_prompt.txt"
             prompt_file.write_text(f"SYSTEM:\n{system_prompt}\n\nUSER:\n{user_prompt}", encoding="utf-8")
             print(f"\n  Prompt saved to {prompt_file}")
