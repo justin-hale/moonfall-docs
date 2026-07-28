@@ -1,0 +1,135 @@
+.sheet {
+  border: 2px solid var(--ifm-color-emphasis-400);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  background: var(--ifm-background-surface-color);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+  position: relative;
+}
+
+.sheet::before,
+.sheet::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    var(--ifm-color-primary),
+    transparent
+  );
+}
+
+.sheet::before {
+  top: -2px;
+}
+
+.sheet::after {
+  bottom: -2px;
+}
+
+.nameplate {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.5rem;
+  border-bottom: 1px solid var(--ifm-color-emphasis-300);
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.name {
+  font-size: 1.3rem;
+  font-weight: 700;
+  font-variant: small-caps;
+  letter-spacing: 0.03em;
+  color: var(--ifm-color-primary-darker);
+}
+
+[data-theme='dark'] .name {
+  color: var(--ifm-color-primary-lighter);
+}
+
+.subtitle {
+  font-style: italic;
+  color: var(--ifm-color-emphasis-600);
+  font-size: 0.85rem;
+}
+
+.abilities {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 0.4rem;
+}
+
+.ability {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid var(--ifm-color-emphasis-400);
+  border-radius: 6px;
+  padding: 0.35rem 0.1rem;
+  background: var(--ifm-color-emphasis-100);
+}
+
+.abilityLabel {
+  font-size: 0.6rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: var(--ifm-color-emphasis-600);
+}
+
+.abilityScore {
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.abilityMod {
+  font-size: 0.7rem;
+  color: var(--ifm-color-emphasis-600);
+}
+
+.quote {
+  margin: 0.75rem 0 0;
+  padding: 0.4rem 0.8rem;
+  border-left: 3px solid var(--ifm-color-primary);
+  font-style: italic;
+  font-size: 0.85rem;
+  color: var(--ifm-color-emphasis-800);
+}
+
+.quoteAttribution {
+  display: block;
+  font-style: normal;
+  font-size: 0.75rem;
+  color: var(--ifm-color-emphasis-600);
+  margin-top: 0.2rem;
+}
+
+.honors {
+  margin-top: 0.6rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--ifm-color-primary-darker);
+}
+
+[data-theme='dark'] .honors {
+  color: var(--ifm-color-primary-lighter);
+}
+
+.footer {
+  margin-top: 0.5rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid var(--ifm-color-emphasis-300);
+  font-size: 0.75rem;
+  color: var(--ifm-color-emphasis-600);
+}
+
+@media (max-width: 400px) {
+  .abilities {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

@@ -95,6 +95,11 @@ const config: Config = {
       },
       items: [
         {
+          to: '/stats',
+          label: 'Stats',
+          position: 'right',
+        },
+        {
           href: 'https://creators.spotify.com/pod/profile/topher-hooper/episodes/',
           label: 'Podcasts',
           position: 'right',

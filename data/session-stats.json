@@ -1,0 +1,4235 @@
+{
+  "schema_version": "1.0",
+  "generated_by": "scripts/extract_session_stats.py",
+  "sessions": [
+    {
+      "id": "session-1",
+      "type": "session",
+      "number": 1,
+      "title": "1: Dinner and Nightcap",
+      "date": "2024-08-05",
+      "href": "/sessions/session-1/",
+      "has_transcript": false,
+      "transcript_format": null,
+      "timing_quality": "none",
+      "duration_seconds": null,
+      "block_count": null,
+      "word_count": null,
+      "speakers": [],
+      "players_present": [
+        "Helisanna",
+        "Silas",
+        "Bru",
+        "Red",
+        "Olivia",
+        "Elspeth"
+      ],
+      "attendance_source": "recap",
+      "mentions": {
+        "npcs": {},
+        "locations": {},
+        "pcs": {}
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "personality": null
+    },
+    {
+      "id": "session-2",
+      "type": "session",
+      "number": 2,
+      "title": "2: A Rock Show And A Briefcase",
+      "date": "2024-08-09",
+      "href": "/sessions/session-2/",
+      "has_transcript": false,
+      "transcript_format": null,
+      "timing_quality": "none",
+      "duration_seconds": null,
+      "block_count": null,
+      "word_count": null,
+      "speakers": [],
+      "players_present": null,
+      "attendance_source": "none",
+      "mentions": {
+        "npcs": {},
+        "locations": {},
+        "pcs": {}
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "personality": null
+    },
+    {
+      "id": "session-3",
+      "type": "session",
+      "number": 3,
+      "title": "3: Unraveling Twilight",
+      "date": "2024-08-16",
+      "href": "/sessions/session-3/",
+      "has_transcript": false,
+      "transcript_format": null,
+      "timing_quality": "none",
+      "duration_seconds": null,
+      "block_count": null,
+      "word_count": null,
+      "speakers": [],
+      "players_present": null,
+      "attendance_source": "none",
+      "mentions": {
+        "npcs": {},
+        "locations": {},
+        "pcs": {}
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "personality": null
+    },
+    {
+      "id": "session-4",
+      "type": "session",
+      "number": 4,
+      "title": "4: Love and Betrayal",
+      "date": "2024-08-25",
+      "href": "/sessions/session-4/",
+      "has_transcript": false,
+      "transcript_format": null,
+      "timing_quality": "none",
+      "duration_seconds": null,
+      "block_count": null,
+      "word_count": null,
+      "speakers": [],
+      "players_present": [
+        "Silas",
+        "Red",
+        "Helisanna",
+        "Bru",
+        "Olivia",
+        "Philbin"
+      ],
+      "attendance_source": "recap",
+      "mentions": {
+        "npcs": {},
+        "locations": {},
+        "pcs": {}
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "personality": null
+    },
+    {
+      "id": "session-5",
+      "type": "session",
+      "number": 5,
+      "title": "5: A Pretty Good Concert",
+      "date": "2024-09-01",
+      "href": "/sessions/session-5/",
+      "has_transcript": false,
+      "transcript_format": null,
+      "timing_quality": "none",
+      "duration_seconds": null,
+      "block_count": null,
+      "word_count": null,
+      "speakers": [],
+      "players_present": null,
+      "attendance_source": "none",
+      "mentions": {
+        "npcs": {},
+        "locations": {},
+        "pcs": {}
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "personality": null
+    },
+    {
+      "id": "session-6",
+      "type": "session",
+      "number": 6,
+      "title": "6: Highforge Sprint",
+      "date": "2024-09-07",
+      "href": "/sessions/session-6/",
+      "has_transcript": false,
+      "transcript_format": null,
+      "timing_quality": "none",
+      "duration_seconds": null,
+      "block_count": null,
+      "word_count": null,
+      "speakers": [],
+      "players_present": null,
+      "attendance_source": "none",
+      "mentions": {
+        "npcs": {},
+        "locations": {},
+        "pcs": {}
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "personality": null
+    },
+    {
+      "id": "session-7",
+      "type": "session",
+      "number": 7,
+      "title": "7: Escape Highforge",
+      "date": "2024-09-14",
+      "href": "/sessions/session-7/",
+      "has_transcript": false,
+      "transcript_format": null,
+      "timing_quality": "none",
+      "duration_seconds": null,
+      "block_count": null,
+      "word_count": null,
+      "speakers": [],
+      "players_present": null,
+      "attendance_source": "none",
+      "mentions": {
+        "npcs": {},
+        "locations": {},
+        "pcs": {}
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "personality": null
+    },
+    {
+      "id": "session-8",
+      "type": "session",
+      "number": 8,
+      "title": "8: Caravan Nights",
+      "date": "2024-10-03",
+      "href": "/sessions/session-8/",
+      "has_transcript": false,
+      "transcript_format": null,
+      "timing_quality": "none",
+      "duration_seconds": null,
+      "block_count": null,
+      "word_count": null,
+      "speakers": [],
+      "players_present": null,
+      "attendance_source": "none",
+      "mentions": {
+        "npcs": {},
+        "locations": {},
+        "pcs": {}
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "personality": null
+    },
+    {
+      "id": "session-9",
+      "type": "session",
+      "number": 9,
+      "title": "9: A Stranger at the Crossroads",
+      "date": "2024-10-05",
+      "href": "/sessions/session-9/",
+      "has_transcript": false,
+      "transcript_format": null,
+      "timing_quality": "none",
+      "duration_seconds": null,
+      "block_count": null,
+      "word_count": null,
+      "speakers": [],
+      "players_present": [
+        "Helisanna",
+        "Elspeth",
+        "Bru",
+        "Olivia",
+        "Red",
+        "Silas"
+      ],
+      "attendance_source": "recap",
+      "mentions": {
+        "npcs": {},
+        "locations": {},
+        "pcs": {}
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "personality": null
+    },
+    {
+      "id": "session-10",
+      "type": "session",
+      "number": 10,
+      "title": "10: The Red Scare",
+      "date": "2024-10-12",
+      "href": "/sessions/session-10/",
+      "has_transcript": false,
+      "transcript_format": null,
+      "timing_quality": "none",
+      "duration_seconds": null,
+      "block_count": null,
+      "word_count": null,
+      "speakers": [],
+      "players_present": null,
+      "attendance_source": "none",
+      "mentions": {
+        "npcs": {},
+        "locations": {},
+        "pcs": {}
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "personality": null
+    },
+    {
+      "id": "session-11",
+      "type": "session",
+      "number": 11,
+      "title": "11: You Only Live Once",
+      "date": "2024-10-19",
+      "href": "/sessions/session-11/",
+      "has_transcript": false,
+      "transcript_format": null,
+      "timing_quality": "none",
+      "duration_seconds": null,
+      "block_count": null,
+      "word_count": null,
+      "speakers": [],
+      "players_present": null,
+      "attendance_source": "none",
+      "mentions": {
+        "npcs": {},
+        "locations": {},
+        "pcs": {}
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "personality": null
+    },
+    {
+      "id": "session-12",
+      "type": "session",
+      "number": 12,
+      "title": "12: Out of the frying pan, into the Fire",
+      "date": "2024-10-26",
+      "href": "/sessions/session-12/",
+      "has_transcript": false,
+      "transcript_format": null,
+      "timing_quality": "none",
+      "duration_seconds": null,
+      "block_count": null,
+      "word_count": null,
+      "speakers": [],
+      "players_present": null,
+      "attendance_source": "none",
+      "mentions": {
+        "npcs": {},
+        "locations": {},
+        "pcs": {}
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "personality": null
+    },
+    {
+      "id": "session-13",
+      "type": "session",
+      "number": 13,
+      "title": "13: Burning down the house",
+      "date": "2024-11-11",
+      "href": "/sessions/session-13/",
+      "has_transcript": false,
+      "transcript_format": null,
+      "timing_quality": "none",
+      "duration_seconds": null,
+      "block_count": null,
+      "word_count": null,
+      "speakers": [],
+      "players_present": null,
+      "attendance_source": "none",
+      "mentions": {
+        "npcs": {},
+        "locations": {},
+        "pcs": {}
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "personality": null
+    },
+    {
+      "id": "session-14",
+      "type": "session",
+      "number": 14,
+      "title": "14: Ascending Grimvar's Spine",
+      "date": "2024-11-17",
+      "href": "/sessions/session-14/",
+      "has_transcript": false,
+      "transcript_format": null,
+      "timing_quality": "none",
+      "duration_seconds": null,
+      "block_count": null,
+      "word_count": null,
+      "speakers": [],
+      "players_present": null,
+      "attendance_source": "none",
+      "mentions": {
+        "npcs": {},
+        "locations": {},
+        "pcs": {}
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "personality": null
+    },
+    {
+      "id": "session-15",
+      "type": "session",
+      "number": 15,
+      "title": "15: On George's Heels",
+      "date": "2024-11-23",
+      "href": "/sessions/session-15/",
+      "has_transcript": false,
+      "transcript_format": null,
+      "timing_quality": "none",
+      "duration_seconds": null,
+      "block_count": null,
+      "word_count": null,
+      "speakers": [],
+      "players_present": null,
+      "attendance_source": "none",
+      "mentions": {
+        "npcs": {},
+        "locations": {},
+        "pcs": {}
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "personality": null
+    },
+    {
+      "id": "session-16",
+      "type": "session",
+      "number": 16,
+      "title": "16: Olivia's Decision",
+      "date": "2024-12-12",
+      "href": "/sessions/session-16/",
+      "has_transcript": false,
+      "transcript_format": null,
+      "timing_quality": "none",
+      "duration_seconds": null,
+      "block_count": null,
+      "word_count": null,
+      "speakers": [],
+      "players_present": null,
+      "attendance_source": "none",
+      "mentions": {
+        "npcs": {},
+        "locations": {},
+        "pcs": {}
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "personality": null
+    },
+    {
+      "id": "session-17",
+      "type": "session",
+      "number": 17,
+      "title": "17: The Skyhammers",
+      "date": "2024-12-14",
+      "href": "/sessions/session-17/",
+      "has_transcript": false,
+      "transcript_format": null,
+      "timing_quality": "none",
+      "duration_seconds": null,
+      "block_count": null,
+      "word_count": null,
+      "speakers": [],
+      "players_present": null,
+      "attendance_source": "none",
+      "mentions": {
+        "npcs": {},
+        "locations": {},
+        "pcs": {}
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "personality": null
+    },
+    {
+      "id": "session-18",
+      "type": "session",
+      "number": 18,
+      "title": "Winter Solstice Special",
+      "date": "2024-12-21",
+      "href": "/sessions/session-18/",
+      "has_transcript": false,
+      "transcript_format": null,
+      "timing_quality": "none",
+      "duration_seconds": null,
+      "block_count": null,
+      "word_count": null,
+      "speakers": [],
+      "players_present": null,
+      "attendance_source": "none",
+      "mentions": {
+        "npcs": {},
+        "locations": {},
+        "pcs": {}
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "personality": null
+    },
+    {
+      "id": "session-20",
+      "type": "session",
+      "number": 20,
+      "title": "20: Trials of the W****M Hole",
+      "date": "2025-01-11",
+      "href": "/sessions/session-20/",
+      "has_transcript": false,
+      "transcript_format": null,
+      "timing_quality": "none",
+      "duration_seconds": null,
+      "block_count": null,
+      "word_count": null,
+      "speakers": [],
+      "players_present": null,
+      "attendance_source": "none",
+      "mentions": {
+        "npcs": {},
+        "locations": {},
+        "pcs": {}
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "personality": null
+    },
+    {
+      "id": "session-21",
+      "type": "session",
+      "number": 21,
+      "title": "21: Trapped In Tree Land",
+      "date": "2025-01-28",
+      "href": "/sessions/session-21/",
+      "has_transcript": false,
+      "transcript_format": null,
+      "timing_quality": "none",
+      "duration_seconds": null,
+      "block_count": null,
+      "word_count": null,
+      "speakers": [],
+      "players_present": null,
+      "attendance_source": "none",
+      "mentions": {
+        "npcs": {},
+        "locations": {},
+        "pcs": {}
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "personality": null
+    },
+    {
+      "id": "interlude-1",
+      "type": "interlude",
+      "number": 1,
+      "title": "Interlude I: The Convent of Bloody Orchids",
+      "date": "2025-02-28",
+      "href": "/sessions/interlude-1/",
+      "has_transcript": false,
+      "transcript_format": null,
+      "timing_quality": "none",
+      "duration_seconds": null,
+      "block_count": null,
+      "word_count": null,
+      "speakers": [],
+      "players_present": null,
+      "attendance_source": "none",
+      "mentions": {
+        "npcs": {},
+        "locations": {},
+        "pcs": {}
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "personality": null
+    },
+    {
+      "id": "interlude-2",
+      "type": "interlude",
+      "number": 2,
+      "title": "Interlude II: Murder at the Manor",
+      "date": "2025-03-07",
+      "href": "/sessions/interlude-2/",
+      "has_transcript": false,
+      "transcript_format": null,
+      "timing_quality": "none",
+      "duration_seconds": null,
+      "block_count": null,
+      "word_count": null,
+      "speakers": [],
+      "players_present": null,
+      "attendance_source": "none",
+      "mentions": {
+        "npcs": {},
+        "locations": {},
+        "pcs": {}
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "personality": null
+    },
+    {
+      "id": "interlude-3",
+      "type": "interlude",
+      "number": 3,
+      "title": "Interlude III: The Corrupted Sanctuary",
+      "date": "2025-03-14",
+      "href": "/sessions/interlude-3/",
+      "has_transcript": false,
+      "transcript_format": null,
+      "timing_quality": "none",
+      "duration_seconds": null,
+      "block_count": null,
+      "word_count": null,
+      "speakers": [],
+      "players_present": null,
+      "attendance_source": "none",
+      "mentions": {
+        "npcs": {},
+        "locations": {},
+        "pcs": {}
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "personality": null
+    },
+    {
+      "id": "interlude-4",
+      "type": "interlude",
+      "number": 4,
+      "title": "Interlude IV: Into the Hollow",
+      "date": "2025-03-28",
+      "href": "/sessions/interlude-4/",
+      "has_transcript": false,
+      "transcript_format": null,
+      "timing_quality": "none",
+      "duration_seconds": null,
+      "block_count": null,
+      "word_count": null,
+      "speakers": [],
+      "players_present": null,
+      "attendance_source": "none",
+      "mentions": {
+        "npcs": {},
+        "locations": {},
+        "pcs": {}
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "personality": null
+    },
+    {
+      "id": "interlude-5",
+      "type": "interlude",
+      "number": 5,
+      "title": "Interlude V: The Wichita Sisters' Guardian",
+      "date": "2025-04-04",
+      "href": "/sessions/interlude-5/",
+      "has_transcript": false,
+      "transcript_format": null,
+      "timing_quality": "none",
+      "duration_seconds": null,
+      "block_count": null,
+      "word_count": null,
+      "speakers": [],
+      "players_present": null,
+      "attendance_source": "none",
+      "mentions": {
+        "npcs": {},
+        "locations": {},
+        "pcs": {}
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "personality": null
+    },
+    {
+      "id": "interlude-6",
+      "type": "interlude",
+      "number": 6,
+      "title": "Interlude VI: The Final Ritual",
+      "date": "2025-04-18",
+      "href": "/sessions/interlude-6/",
+      "has_transcript": false,
+      "transcript_format": null,
+      "timing_quality": "none",
+      "duration_seconds": null,
+      "block_count": null,
+      "word_count": null,
+      "speakers": [],
+      "players_present": null,
+      "attendance_source": "none",
+      "mentions": {
+        "npcs": {},
+        "locations": {},
+        "pcs": {}
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "personality": null
+    },
+    {
+      "id": "interlude-7",
+      "type": "interlude",
+      "number": 7,
+      "title": "Interlude VII: The Lotus Hotel Hangover",
+      "date": "2025-04-25",
+      "href": "/sessions/interlude-7/",
+      "has_transcript": false,
+      "transcript_format": null,
+      "timing_quality": "none",
+      "duration_seconds": null,
+      "block_count": null,
+      "word_count": null,
+      "speakers": [],
+      "players_present": null,
+      "attendance_source": "none",
+      "mentions": {
+        "npcs": {},
+        "locations": {},
+        "pcs": {}
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "personality": null
+    },
+    {
+      "id": "interlude-8",
+      "type": "interlude",
+      "number": 8,
+      "title": "Interlude VIII: Cooking Combat Chaos",
+      "date": "2025-05-02",
+      "href": "/sessions/interlude-8/",
+      "has_transcript": false,
+      "transcript_format": null,
+      "timing_quality": "none",
+      "duration_seconds": null,
+      "block_count": null,
+      "word_count": null,
+      "speakers": [],
+      "players_present": null,
+      "attendance_source": "none",
+      "mentions": {
+        "npcs": {},
+        "locations": {},
+        "pcs": {}
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "personality": null
+    },
+    {
+      "id": "interlude-9",
+      "type": "interlude",
+      "number": 9,
+      "title": "Interlude IX: Recipe for Disaster",
+      "date": "2025-05-09",
+      "href": "/sessions/interlude-9/",
+      "has_transcript": false,
+      "transcript_format": null,
+      "timing_quality": "none",
+      "duration_seconds": null,
+      "block_count": null,
+      "word_count": null,
+      "speakers": [],
+      "players_present": null,
+      "attendance_source": "none",
+      "mentions": {
+        "npcs": {},
+        "locations": {},
+        "pcs": {}
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "personality": null
+    },
+    {
+      "id": "interlude-10",
+      "type": "interlude",
+      "number": 10,
+      "title": "Interlude X: The Chaos God's Gift",
+      "date": "2025-05-16",
+      "href": "/sessions/interlude-10/",
+      "has_transcript": false,
+      "transcript_format": null,
+      "timing_quality": "none",
+      "duration_seconds": null,
+      "block_count": null,
+      "word_count": null,
+      "speakers": [],
+      "players_present": null,
+      "attendance_source": "none",
+      "mentions": {
+        "npcs": {},
+        "locations": {},
+        "pcs": {}
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "personality": null
+    },
+    {
+      "id": "interlude-11",
+      "type": "interlude",
+      "number": 11,
+      "title": "Interlude XI: The Wrecked World of the Quizzites",
+      "date": "2025-05-30",
+      "href": "/sessions/interlude-11/",
+      "has_transcript": false,
+      "transcript_format": null,
+      "timing_quality": "none",
+      "duration_seconds": null,
+      "block_count": null,
+      "word_count": null,
+      "speakers": [],
+      "players_present": null,
+      "attendance_source": "none",
+      "mentions": {
+        "npcs": {},
+        "locations": {},
+        "pcs": {}
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "personality": null
+    },
+    {
+      "id": "session-22",
+      "type": "session",
+      "number": 22,
+      "title": "22: Red's Last Flight",
+      "date": "2025-06-06",
+      "href": "/sessions/session-22/",
+      "has_transcript": false,
+      "transcript_format": null,
+      "timing_quality": "none",
+      "duration_seconds": null,
+      "block_count": null,
+      "word_count": null,
+      "speakers": [],
+      "players_present": null,
+      "attendance_source": "none",
+      "mentions": {
+        "npcs": {},
+        "locations": {},
+        "pcs": {}
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "personality": null
+    },
+    {
+      "id": "session-23",
+      "type": "session",
+      "number": 23,
+      "title": "23: Purple-Eyed Ravers and Racing Contracts",
+      "date": "2025-06-13",
+      "href": "/sessions/session-23/",
+      "has_transcript": false,
+      "transcript_format": null,
+      "timing_quality": "none",
+      "duration_seconds": null,
+      "block_count": null,
+      "word_count": null,
+      "speakers": [],
+      "players_present": null,
+      "attendance_source": "none",
+      "mentions": {
+        "npcs": {},
+        "locations": {},
+        "pcs": {}
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "personality": null
+    },
+    {
+      "id": "session-24",
+      "type": "session",
+      "number": 24,
+      "title": "24: Voices from High Forge",
+      "date": "2025-06-20",
+      "href": "/sessions/session-24/",
+      "has_transcript": false,
+      "transcript_format": null,
+      "timing_quality": "none",
+      "duration_seconds": null,
+      "block_count": null,
+      "word_count": null,
+      "speakers": [],
+      "players_present": null,
+      "attendance_source": "none",
+      "mentions": {
+        "npcs": {},
+        "locations": {},
+        "pcs": {}
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "personality": null
+    },
+    {
+      "id": "session-25",
+      "type": "session",
+      "number": 25,
+      "title": "25: Wanted Dead or Alive",
+      "date": "2025-06-27",
+      "href": "/sessions/session-25/",
+      "has_transcript": false,
+      "transcript_format": null,
+      "timing_quality": "none",
+      "duration_seconds": null,
+      "block_count": null,
+      "word_count": null,
+      "speakers": [],
+      "players_present": null,
+      "attendance_source": "none",
+      "mentions": {
+        "npcs": {},
+        "locations": {},
+        "pcs": {}
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "personality": null
+    },
+    {
+      "id": "session-26",
+      "type": "session",
+      "number": 26,
+      "title": "26: Underground Connections",
+      "date": "2025-07-11",
+      "href": "/sessions/session-26/",
+      "has_transcript": false,
+      "transcript_format": null,
+      "timing_quality": "none",
+      "duration_seconds": null,
+      "block_count": null,
+      "word_count": null,
+      "speakers": [],
+      "players_present": null,
+      "attendance_source": "none",
+      "mentions": {
+        "npcs": {},
+        "locations": {},
+        "pcs": {}
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "personality": null
+    },
+    {
+      "id": "session-27",
+      "type": "session",
+      "number": 27,
+      "title": "27: Bombing for the Resistance",
+      "date": "2025-07-18",
+      "href": "/sessions/session-27/",
+      "has_transcript": false,
+      "transcript_format": null,
+      "timing_quality": "none",
+      "duration_seconds": null,
+      "block_count": null,
+      "word_count": null,
+      "speakers": [],
+      "players_present": null,
+      "attendance_source": "none",
+      "mentions": {
+        "npcs": {},
+        "locations": {},
+        "pcs": {}
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "personality": null
+    },
+    {
+      "id": "session-28",
+      "type": "session",
+      "number": 28,
+      "title": "28: The Third Explosion and the Royal Vault Heist",
+      "date": "2025-08-01",
+      "href": "/sessions/session-28/",
+      "has_transcript": false,
+      "transcript_format": null,
+      "timing_quality": "none",
+      "duration_seconds": null,
+      "block_count": null,
+      "word_count": null,
+      "speakers": [],
+      "players_present": null,
+      "attendance_source": "none",
+      "mentions": {
+        "npcs": {},
+        "locations": {},
+        "pcs": {}
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "personality": null
+    },
+    {
+      "id": "session-29",
+      "type": "session",
+      "number": 29,
+      "title": "29: Truckgust F-150th",
+      "date": "2025-08-15",
+      "href": "/sessions/session-29/",
+      "has_transcript": false,
+      "transcript_format": null,
+      "timing_quality": "none",
+      "duration_seconds": null,
+      "block_count": null,
+      "word_count": null,
+      "speakers": [],
+      "players_present": null,
+      "attendance_source": "none",
+      "mentions": {
+        "npcs": {},
+        "locations": {},
+        "pcs": {}
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "personality": null
+    },
+    {
+      "id": "session-30",
+      "type": "session",
+      "number": 30,
+      "title": "30: The Vault Heist Conclusion",
+      "date": "2025-08-22",
+      "href": "/sessions/session-30/",
+      "has_transcript": false,
+      "transcript_format": null,
+      "timing_quality": "none",
+      "duration_seconds": null,
+      "block_count": null,
+      "word_count": null,
+      "speakers": [],
+      "players_present": null,
+      "attendance_source": "none",
+      "mentions": {
+        "npcs": {},
+        "locations": {},
+        "pcs": {}
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "personality": null
+    },
+    {
+      "id": "session-31",
+      "type": "session",
+      "number": 31,
+      "title": "31: Into the Blackstone Manor",
+      "date": "2025-08-29",
+      "href": "/sessions/session-31/",
+      "has_transcript": false,
+      "transcript_format": null,
+      "timing_quality": "none",
+      "duration_seconds": null,
+      "block_count": null,
+      "word_count": null,
+      "speakers": [],
+      "players_present": null,
+      "attendance_source": "none",
+      "mentions": {
+        "npcs": {},
+        "locations": {},
+        "pcs": {}
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "personality": null
+    },
+    {
+      "id": "session-32",
+      "type": "session",
+      "number": 32,
+      "title": "32: Dragon's Bargain and Raver Recruitment",
+      "date": "2025-09-05",
+      "href": "/sessions/session-32/",
+      "has_transcript": false,
+      "transcript_format": null,
+      "timing_quality": "none",
+      "duration_seconds": null,
+      "block_count": null,
+      "word_count": null,
+      "speakers": [],
+      "players_present": null,
+      "attendance_source": "none",
+      "mentions": {
+        "npcs": {},
+        "locations": {},
+        "pcs": {}
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "personality": null
+    },
+    {
+      "id": "session-33",
+      "type": "session",
+      "number": 33,
+      "title": "33: The Pizza Wars Begin",
+      "date": "2025-09-12",
+      "href": "/sessions/session-33/",
+      "has_transcript": true,
+      "transcript_format": "md",
+      "timing_quality": "approx",
+      "duration_seconds": 13500,
+      "block_count": 5641,
+      "word_count": 34729,
+      "speakers": [
+        {
+          "name": "Topher",
+          "canonical": "Topher",
+          "role": "dm",
+          "player": "Topher",
+          "blocks": 1491,
+          "words": 10651,
+          "talk_seconds_est": null,
+          "word_share": 0.3067
+        },
+        {
+          "name": "Silas",
+          "canonical": "Silas Fairbanks",
+          "role": "pc",
+          "player": "Taylor Ramsey",
+          "blocks": 863,
+          "words": 6368,
+          "talk_seconds_est": null,
+          "word_share": 0.1834
+        },
+        {
+          "name": "Ohma",
+          "canonical": "Ohma Kapua",
+          "role": "pc",
+          "player": "Zack",
+          "blocks": 646,
+          "words": 4355,
+          "talk_seconds_est": null,
+          "word_share": 0.1254
+        },
+        {
+          "name": "Helisanna",
+          "canonical": "Helisanna Doomfall",
+          "role": "pc",
+          "player": null,
+          "blocks": 660,
+          "words": 3889,
+          "talk_seconds_est": null,
+          "word_share": 0.112
+        },
+        {
+          "name": "Bru",
+          "canonical": "Bru (Felonias Bru)",
+          "role": "pc",
+          "player": "Justin Hale",
+          "blocks": 669,
+          "words": 3610,
+          "talk_seconds_est": null,
+          "word_share": 0.1039
+        },
+        {
+          "name": "Elspeth",
+          "canonical": "Elspeth Cooper",
+          "role": "pc",
+          "player": "Ali Leonard",
+          "blocks": 691,
+          "words": 2957,
+          "talk_seconds_est": null,
+          "word_share": 0.0851
+        },
+        {
+          "name": "Olivia",
+          "canonical": "Olivia Cooper",
+          "role": "pc",
+          "player": "Ellis Taylor",
+          "blocks": 621,
+          "words": 2899,
+          "talk_seconds_est": null,
+          "word_share": 0.0835
+        }
+      ],
+      "players_present": [
+        "Silas",
+        "Ohma",
+        "Helisanna",
+        "Bru",
+        "Elspeth",
+        "Olivia"
+      ],
+      "attendance_source": "transcript",
+      "mentions": {
+        "npcs": {
+          "Chalk Rock": 7,
+          "Victor": 5,
+          "Astro": 3,
+          "April Bonal": 2,
+          "Bafael": 1
+        },
+        "locations": {
+          "Greyport": 1,
+          "High Forge": 1
+        },
+        "pcs": {
+          "Bru": 36,
+          "Olivia": 4,
+          "Red": 2
+        }
+      },
+      "fun": {
+        "nat20_mentions": 2,
+        "nat1_mentions": 0
+      },
+      "personality": null
+    },
+    {
+      "id": "session-34",
+      "type": "session",
+      "number": 34,
+      "title": "34: The Fractured Soul",
+      "date": "2025-09-26",
+      "href": "/sessions/session-34/",
+      "has_transcript": true,
+      "transcript_format": "md",
+      "timing_quality": "approx",
+      "duration_seconds": 12300,
+      "block_count": 5023,
+      "word_count": 28288,
+      "speakers": [
+        {
+          "name": "Topher",
+          "canonical": "Topher",
+          "role": "dm",
+          "player": "Topher",
+          "blocks": 1180,
+          "words": 7728,
+          "talk_seconds_est": null,
+          "word_share": 0.2732
+        },
+        {
+          "name": "Silas",
+          "canonical": "Silas Fairbanks",
+          "role": "pc",
+          "player": "Taylor Ramsey",
+          "blocks": 800,
+          "words": 5407,
+          "talk_seconds_est": null,
+          "word_share": 0.1911
+        },
+        {
+          "name": "Leliana",
+          "canonical": "Leliana Goldspring",
+          "role": "pc",
+          "player": "Luke Neverisky",
+          "blocks": 768,
+          "words": 4149,
+          "talk_seconds_est": null,
+          "word_share": 0.1467
+        },
+        {
+          "name": "Olivia",
+          "canonical": "Olivia Cooper",
+          "role": "pc",
+          "player": "Ellis Taylor",
+          "blocks": 786,
+          "words": 4018,
+          "talk_seconds_est": null,
+          "word_share": 0.142
+        },
+        {
+          "name": "Bru",
+          "canonical": "Bru (Felonias Bru)",
+          "role": "pc",
+          "player": "Justin Hale",
+          "blocks": 883,
+          "words": 3889,
+          "talk_seconds_est": null,
+          "word_share": 0.1375
+        },
+        {
+          "name": "Elspeth",
+          "canonical": "Elspeth Cooper",
+          "role": "pc",
+          "player": "Ali Leonard",
+          "blocks": 606,
+          "words": 3097,
+          "talk_seconds_est": null,
+          "word_share": 0.1095
+        }
+      ],
+      "players_present": [
+        "Silas",
+        "Leliana",
+        "Olivia",
+        "Bru",
+        "Elspeth"
+      ],
+      "attendance_source": "transcript",
+      "mentions": {
+        "npcs": {
+          "Victor": 6,
+          "Scarlet": 2,
+          "Chalk Rock": 1,
+          "George": 1
+        },
+        "locations": {},
+        "pcs": {
+          "Bru": 22,
+          "Olivia": 4,
+          "Leliana": 1
+        }
+      },
+      "fun": {
+        "nat20_mentions": 1,
+        "nat1_mentions": 0
+      },
+      "personality": null
+    },
+    {
+      "id": "session-35",
+      "type": "session",
+      "number": 35,
+      "title": "35: The Calm Before the Storm",
+      "date": "2025-10-03",
+      "href": "/sessions/session-35/",
+      "has_transcript": true,
+      "transcript_format": "md",
+      "timing_quality": "approx",
+      "duration_seconds": 12304,
+      "block_count": 4257,
+      "word_count": 28388,
+      "speakers": [
+        {
+          "name": "Topher",
+          "canonical": "Topher",
+          "role": "dm",
+          "player": "Topher",
+          "blocks": 1196,
+          "words": 9777,
+          "talk_seconds_est": null,
+          "word_share": 0.3444
+        },
+        {
+          "name": "Silas",
+          "canonical": "Silas Fairbanks",
+          "role": "pc",
+          "player": "Taylor Ramsey",
+          "blocks": 771,
+          "words": 5584,
+          "talk_seconds_est": null,
+          "word_share": 0.1967
+        },
+        {
+          "name": "Bru",
+          "canonical": "Bru (Felonias Bru)",
+          "role": "pc",
+          "player": "Justin Hale",
+          "blocks": 639,
+          "words": 3737,
+          "talk_seconds_est": null,
+          "word_share": 0.1316
+        },
+        {
+          "name": "Ohma",
+          "canonical": "Ohma Kapua",
+          "role": "pc",
+          "player": "Zack",
+          "blocks": 531,
+          "words": 3358,
+          "talk_seconds_est": null,
+          "word_share": 0.1183
+        },
+        {
+          "name": "Leliana",
+          "canonical": "Leliana Goldspring",
+          "role": "pc",
+          "player": "Luke Neverisky",
+          "blocks": 582,
+          "words": 3280,
+          "talk_seconds_est": null,
+          "word_share": 0.1155
+        },
+        {
+          "name": "Olivia",
+          "canonical": "Olivia Cooper",
+          "role": "pc",
+          "player": "Ellis Taylor",
+          "blocks": 538,
+          "words": 2652,
+          "talk_seconds_est": null,
+          "word_share": 0.0934
+        }
+      ],
+      "players_present": [
+        "Silas",
+        "Bru",
+        "Ohma",
+        "Leliana",
+        "Olivia"
+      ],
+      "attendance_source": "transcript",
+      "mentions": {
+        "npcs": {
+          "George": 7,
+          "Scarlet": 7,
+          "Chalk Rock": 6,
+          "Naomi": 3,
+          "April Bonal": 1,
+          "Lady Corwin": 1
+        },
+        "locations": {
+          "Greyport": 4,
+          "High Forge": 2
+        },
+        "pcs": {
+          "Bru": 49,
+          "Olivia": 1,
+          "Red": 1
+        }
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "personality": null
+    },
+    {
+      "id": "session-36",
+      "type": "session",
+      "number": 36,
+      "title": "36: Betrayal and Explosions",
+      "date": "2025-10-10",
+      "href": "/sessions/session-36/",
+      "has_transcript": false,
+      "transcript_format": null,
+      "timing_quality": "none",
+      "duration_seconds": null,
+      "block_count": null,
+      "word_count": null,
+      "speakers": [],
+      "players_present": null,
+      "attendance_source": "none",
+      "mentions": {
+        "npcs": {},
+        "locations": {},
+        "pcs": {}
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "personality": null
+    },
+    {
+      "id": "session-37",
+      "type": "session",
+      "number": 37,
+      "title": "37: End of Arc 2",
+      "date": "2025-10-24",
+      "href": "/sessions/session-37/",
+      "has_transcript": true,
+      "transcript_format": "md",
+      "timing_quality": "approx",
+      "duration_seconds": null,
+      "block_count": 4462,
+      "word_count": 30832,
+      "speakers": [
+        {
+          "name": "Topher",
+          "canonical": "Topher",
+          "role": "dm",
+          "player": "Topher",
+          "blocks": 1199,
+          "words": 10525,
+          "talk_seconds_est": null,
+          "word_share": 0.3414
+        },
+        {
+          "name": "Silas",
+          "canonical": "Silas Fairbanks",
+          "role": "pc",
+          "player": "Taylor Ramsey",
+          "blocks": 840,
+          "words": 5950,
+          "talk_seconds_est": null,
+          "word_share": 0.193
+        },
+        {
+          "name": "Ohma",
+          "canonical": "Ohma Kapua",
+          "role": "pc",
+          "player": "Zack",
+          "blocks": 527,
+          "words": 4547,
+          "talk_seconds_est": null,
+          "word_share": 0.1475
+        },
+        {
+          "name": "Olivia",
+          "canonical": "Olivia Cooper",
+          "role": "pc",
+          "player": "Ellis Taylor",
+          "blocks": 615,
+          "words": 3483,
+          "talk_seconds_est": null,
+          "word_share": 0.113
+        },
+        {
+          "name": "Elspeth",
+          "canonical": "Elspeth Cooper",
+          "role": "pc",
+          "player": "Ali Leonard",
+          "blocks": 508,
+          "words": 2886,
+          "talk_seconds_est": null,
+          "word_share": 0.0936
+        },
+        {
+          "name": "Leliana",
+          "canonical": "Leliana Goldspring",
+          "role": "pc",
+          "player": "Luke Neverisky",
+          "blocks": 470,
+          "words": 1922,
+          "talk_seconds_est": null,
+          "word_share": 0.0623
+        },
+        {
+          "name": "Bru",
+          "canonical": "Bru (Felonias Bru)",
+          "role": "pc",
+          "player": "Justin Hale",
+          "blocks": 303,
+          "words": 1519,
+          "talk_seconds_est": null,
+          "word_share": 0.0493
+        }
+      ],
+      "players_present": [
+        "Silas",
+        "Ohma",
+        "Olivia",
+        "Elspeth",
+        "Leliana",
+        "Bru"
+      ],
+      "attendance_source": "transcript",
+      "mentions": {
+        "npcs": {
+          "Chalk Rock": 10,
+          "Naomi": 8,
+          "George": 6,
+          "Victor": 6,
+          "Lady Corwin": 2,
+          "Scarlet": 2,
+          "Astro": 1
+        },
+        "locations": {
+          "High Forge": 11,
+          "Greyport": 7
+        },
+        "pcs": {
+          "Bru": 60,
+          "Red": 2,
+          "Olivia": 1
+        }
+      },
+      "fun": {
+        "nat20_mentions": 1,
+        "nat1_mentions": 0
+      },
+      "personality": null
+    },
+    {
+      "id": "interlude-12",
+      "type": "interlude",
+      "number": 12,
+      "title": "Interlude XII: Return to the Lotus Casino",
+      "date": "2025-11-07",
+      "href": "/sessions/interlude-12/",
+      "has_transcript": true,
+      "transcript_format": "md",
+      "timing_quality": "approx",
+      "duration_seconds": 8100,
+      "block_count": 3714,
+      "word_count": 22948,
+      "speakers": [
+        {
+          "name": "Olivia",
+          "canonical": "Olivia Cooper",
+          "role": "pc",
+          "player": "Ellis Taylor",
+          "blocks": 900,
+          "words": 7034,
+          "talk_seconds_est": null,
+          "word_share": 0.3065
+        },
+        {
+          "name": "Silas",
+          "canonical": "Silas Fairbanks",
+          "role": "pc",
+          "player": "Taylor Ramsey",
+          "blocks": 830,
+          "words": 6239,
+          "talk_seconds_est": null,
+          "word_share": 0.2719
+        },
+        {
+          "name": "Bru",
+          "canonical": "Bru (Felonias Bru)",
+          "role": "pc",
+          "player": "Justin Hale",
+          "blocks": 523,
+          "words": 3121,
+          "talk_seconds_est": null,
+          "word_share": 0.136
+        },
+        {
+          "name": "Topher",
+          "canonical": "Topher",
+          "role": "dm",
+          "player": "Topher",
+          "blocks": 591,
+          "words": 2822,
+          "talk_seconds_est": null,
+          "word_share": 0.123
+        },
+        {
+          "name": "Elspeth",
+          "canonical": "Elspeth Cooper",
+          "role": "pc",
+          "player": "Ali Leonard",
+          "blocks": 321,
+          "words": 1394,
+          "talk_seconds_est": null,
+          "word_share": 0.0607
+        },
+        {
+          "name": "Ohma",
+          "canonical": "Ohma Kapua",
+          "role": "pc",
+          "player": "Zack",
+          "blocks": 216,
+          "words": 1237,
+          "talk_seconds_est": null,
+          "word_share": 0.0539
+        },
+        {
+          "name": "Leliana",
+          "canonical": "Leliana Goldspring",
+          "role": "pc",
+          "player": "Luke Neverisky",
+          "blocks": 333,
+          "words": 1101,
+          "talk_seconds_est": null,
+          "word_share": 0.048
+        }
+      ],
+      "players_present": [
+        "Olivia",
+        "Silas",
+        "Bru",
+        "Elspeth",
+        "Ohma",
+        "Leliana"
+      ],
+      "attendance_source": "transcript",
+      "mentions": {
+        "npcs": {
+          "Scarlet": 46,
+          "Naomi": 11,
+          "George": 2,
+          "Chalk Rock": 1
+        },
+        "locations": {
+          "High Forge": 4
+        },
+        "pcs": {
+          "Bru": 30,
+          "Red": 1
+        }
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "personality": null
+    },
+    {
+      "id": "interlude-13",
+      "type": "interlude",
+      "number": 13,
+      "title": "Interlude XIII: The Sisyphus Circle",
+      "date": "2025-11-14",
+      "href": "/sessions/interlude-13/",
+      "has_transcript": true,
+      "transcript_format": "md",
+      "timing_quality": "approx",
+      "duration_seconds": 11700,
+      "block_count": 4373,
+      "word_count": 32679,
+      "speakers": [
+        {
+          "name": "Silas",
+          "canonical": "Silas Fairbanks",
+          "role": "pc",
+          "player": "Taylor Ramsey",
+          "blocks": 1220,
+          "words": 13721,
+          "talk_seconds_est": null,
+          "word_share": 0.4199
+        },
+        {
+          "name": "Ohma",
+          "canonical": "Ohma Kapua",
+          "role": "pc",
+          "player": "Zack",
+          "blocks": 503,
+          "words": 4505,
+          "talk_seconds_est": null,
+          "word_share": 0.1379
+        },
+        {
+          "name": "Topher",
+          "canonical": "Topher",
+          "role": "dm",
+          "player": "Topher",
+          "blocks": 713,
+          "words": 4119,
+          "talk_seconds_est": null,
+          "word_share": 0.126
+        },
+        {
+          "name": "Bru",
+          "canonical": "Bru (Felonias Bru)",
+          "role": "pc",
+          "player": "Justin Hale",
+          "blocks": 673,
+          "words": 4015,
+          "talk_seconds_est": null,
+          "word_share": 0.1229
+        },
+        {
+          "name": "Elspeth",
+          "canonical": "Elspeth Cooper",
+          "role": "pc",
+          "player": "Ali Leonard",
+          "blocks": 675,
+          "words": 3404,
+          "talk_seconds_est": null,
+          "word_share": 0.1042
+        },
+        {
+          "name": "Olivia",
+          "canonical": "Olivia Cooper",
+          "role": "pc",
+          "player": "Ellis Taylor",
+          "blocks": 589,
+          "words": 2915,
+          "talk_seconds_est": null,
+          "word_share": 0.0892
+        }
+      ],
+      "players_present": [
+        "Silas",
+        "Ohma",
+        "Bru",
+        "Elspeth",
+        "Olivia"
+      ],
+      "attendance_source": "transcript",
+      "mentions": {
+        "npcs": {
+          "George": 2,
+          "Iro": 2,
+          "Scarlet": 1
+        },
+        "locations": {
+          "Greyport": 1
+        },
+        "pcs": {
+          "Bru": 80
+        }
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "personality": null
+    },
+    {
+      "id": "interlude-14",
+      "type": "interlude",
+      "number": 14,
+      "title": "Interlude XIV: The Greyport Speedway Conspiracy",
+      "date": "2025-12-05",
+      "href": "/sessions/interlude-14/",
+      "has_transcript": true,
+      "transcript_format": "md",
+      "timing_quality": "approx",
+      "duration_seconds": 12900,
+      "block_count": 5329,
+      "word_count": 30304,
+      "speakers": [
+        {
+          "name": "Elspeth",
+          "canonical": "Elspeth Cooper",
+          "role": "pc",
+          "player": "Ali Leonard",
+          "blocks": 1295,
+          "words": 8456,
+          "talk_seconds_est": null,
+          "word_share": 0.279
+        },
+        {
+          "name": "Silas",
+          "canonical": "Silas Fairbanks",
+          "role": "pc",
+          "player": "Taylor Ramsey",
+          "blocks": 761,
+          "words": 4865,
+          "talk_seconds_est": null,
+          "word_share": 0.1605
+        },
+        {
+          "name": "Bru",
+          "canonical": "Bru (Felonias Bru)",
+          "role": "pc",
+          "player": "Justin Hale",
+          "blocks": 808,
+          "words": 3904,
+          "talk_seconds_est": null,
+          "word_share": 0.1288
+        },
+        {
+          "name": "Topher",
+          "canonical": "Topher",
+          "role": "dm",
+          "player": "Topher",
+          "blocks": 733,
+          "words": 3882,
+          "talk_seconds_est": null,
+          "word_share": 0.1281
+        },
+        {
+          "name": "Ohma",
+          "canonical": "Ohma Kapua",
+          "role": "pc",
+          "player": "Zack",
+          "blocks": 611,
+          "words": 3828,
+          "talk_seconds_est": null,
+          "word_share": 0.1263
+        },
+        {
+          "name": "Olivia",
+          "canonical": "Olivia Cooper",
+          "role": "pc",
+          "player": "Ellis Taylor",
+          "blocks": 703,
+          "words": 3498,
+          "talk_seconds_est": null,
+          "word_share": 0.1154
+        },
+        {
+          "name": "Leliana",
+          "canonical": "Leliana Goldspring",
+          "role": "pc",
+          "player": "Luke Neverisky",
+          "blocks": 418,
+          "words": 1871,
+          "talk_seconds_est": null,
+          "word_share": 0.0617
+        }
+      ],
+      "players_present": [
+        "Elspeth",
+        "Silas",
+        "Bru",
+        "Ohma",
+        "Olivia",
+        "Leliana"
+      ],
+      "attendance_source": "transcript",
+      "mentions": {
+        "npcs": {
+          "George": 5
+        },
+        "locations": {
+          "Greyport": 1
+        },
+        "pcs": {
+          "Red": 1
+        }
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 1
+      },
+      "personality": null
+    },
+    {
+      "id": "interlude-15",
+      "type": "interlude",
+      "number": 15,
+      "title": "Interlude XV: The Greyport Finale Race",
+      "date": "2025-12-12",
+      "href": "/sessions/interlude-15/",
+      "has_transcript": true,
+      "transcript_format": "md",
+      "timing_quality": "approx",
+      "duration_seconds": 11100,
+      "block_count": 5036,
+      "word_count": 26772,
+      "speakers": [
+        {
+          "name": "Elspeth",
+          "canonical": "Elspeth Cooper",
+          "role": "pc",
+          "player": "Ali Leonard",
+          "blocks": 1082,
+          "words": 5945,
+          "talk_seconds_est": null,
+          "word_share": 0.2221
+        },
+        {
+          "name": "Silas",
+          "canonical": "Silas Fairbanks",
+          "role": "pc",
+          "player": "Taylor Ramsey",
+          "blocks": 829,
+          "words": 5024,
+          "talk_seconds_est": null,
+          "word_share": 0.1877
+        },
+        {
+          "name": "Bru",
+          "canonical": "Bru (Felonias Bru)",
+          "role": "pc",
+          "player": "Justin Hale",
+          "blocks": 848,
+          "words": 4620,
+          "talk_seconds_est": null,
+          "word_share": 0.1726
+        },
+        {
+          "name": "Olivia",
+          "canonical": "Olivia Cooper",
+          "role": "pc",
+          "player": "Ellis Taylor",
+          "blocks": 722,
+          "words": 3611,
+          "talk_seconds_est": null,
+          "word_share": 0.1349
+        },
+        {
+          "name": "Topher",
+          "canonical": "Topher",
+          "role": "dm",
+          "player": "Topher",
+          "blocks": 678,
+          "words": 3372,
+          "talk_seconds_est": null,
+          "word_share": 0.126
+        },
+        {
+          "name": "Ohma",
+          "canonical": "Ohma Kapua",
+          "role": "pc",
+          "player": "Zack",
+          "blocks": 482,
+          "words": 2782,
+          "talk_seconds_est": null,
+          "word_share": 0.1039
+        },
+        {
+          "name": "Leliana",
+          "canonical": "Leliana Goldspring",
+          "role": "pc",
+          "player": "Luke Neverisky",
+          "blocks": 395,
+          "words": 1418,
+          "talk_seconds_est": null,
+          "word_share": 0.053
+        }
+      ],
+      "players_present": [
+        "Elspeth",
+        "Silas",
+        "Bru",
+        "Olivia",
+        "Ohma",
+        "Leliana"
+      ],
+      "attendance_source": "transcript",
+      "mentions": {
+        "npcs": {},
+        "locations": {
+          "Greyport": 1
+        },
+        "pcs": {
+          "Bru": 8
+        }
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "personality": null
+    },
+    {
+      "id": "interlude-16",
+      "type": "interlude",
+      "number": 16,
+      "title": "Interlude XVI: The Sacred Disturbance of Tortuga",
+      "date": "2025-12-19",
+      "href": "/sessions/interlude-16/",
+      "has_transcript": true,
+      "transcript_format": "md",
+      "timing_quality": "approx",
+      "duration_seconds": 12900,
+      "block_count": 5793,
+      "word_count": 34186,
+      "speakers": [
+        {
+          "name": "Topher",
+          "canonical": "Topher",
+          "role": "dm",
+          "player": "Topher",
+          "blocks": 1467,
+          "words": 10436,
+          "talk_seconds_est": null,
+          "word_share": 0.3053
+        },
+        {
+          "name": "Silas",
+          "canonical": "Silas Fairbanks",
+          "role": "pc",
+          "player": "Taylor Ramsey",
+          "blocks": 1133,
+          "words": 7485,
+          "talk_seconds_est": null,
+          "word_share": 0.2189
+        },
+        {
+          "name": "Elspeth",
+          "canonical": "Elspeth Cooper",
+          "role": "pc",
+          "player": "Ali Leonard",
+          "blocks": 1332,
+          "words": 7278,
+          "talk_seconds_est": null,
+          "word_share": 0.2129
+        },
+        {
+          "name": "Bru",
+          "canonical": "Bru (Felonias Bru)",
+          "role": "pc",
+          "player": "Justin Hale",
+          "blocks": 896,
+          "words": 4691,
+          "talk_seconds_est": null,
+          "word_share": 0.1372
+        },
+        {
+          "name": "Leliana",
+          "canonical": "Leliana Goldspring",
+          "role": "pc",
+          "player": "Luke Neverisky",
+          "blocks": 572,
+          "words": 2266,
+          "talk_seconds_est": null,
+          "word_share": 0.0663
+        },
+        {
+          "name": "Olivia",
+          "canonical": "Olivia Cooper",
+          "role": "pc",
+          "player": "Ellis Taylor",
+          "blocks": 393,
+          "words": 2030,
+          "talk_seconds_est": null,
+          "word_share": 0.0594
+        }
+      ],
+      "players_present": [
+        "Silas",
+        "Elspeth",
+        "Bru",
+        "Leliana",
+        "Olivia"
+      ],
+      "attendance_source": "transcript",
+      "mentions": {
+        "npcs": {},
+        "locations": {
+          "Greyport": 2
+        },
+        "pcs": {
+          "Bru": 117,
+          "Olivia": 1,
+          "Red": 1
+        }
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "personality": null
+    },
+    {
+      "id": "session-38",
+      "type": "session",
+      "number": 38,
+      "title": "38: The Road to Greyport",
+      "date": "2026-01-09",
+      "href": "/sessions/session-38/",
+      "has_transcript": true,
+      "transcript_format": "md",
+      "timing_quality": "approx",
+      "duration_seconds": 11700,
+      "block_count": 3795,
+      "word_count": 29050,
+      "speakers": [
+        {
+          "name": "Topher",
+          "canonical": "Topher",
+          "role": "dm",
+          "player": "Topher",
+          "blocks": 846,
+          "words": 9892,
+          "talk_seconds_est": null,
+          "word_share": 0.3405
+        },
+        {
+          "name": "Silas",
+          "canonical": "Silas Fairbanks",
+          "role": "pc",
+          "player": "Taylor Ramsey",
+          "blocks": 983,
+          "words": 8238,
+          "talk_seconds_est": null,
+          "word_share": 0.2836
+        },
+        {
+          "name": "Elspeth",
+          "canonical": "Elspeth Cooper",
+          "role": "pc",
+          "player": "Ali Leonard",
+          "blocks": 740,
+          "words": 3881,
+          "talk_seconds_est": null,
+          "word_share": 0.1336
+        },
+        {
+          "name": "Bru",
+          "canonical": "Bru (Felonias Bru)",
+          "role": "pc",
+          "player": "Justin Hale",
+          "blocks": 502,
+          "words": 3734,
+          "talk_seconds_est": null,
+          "word_share": 0.1285
+        },
+        {
+          "name": "Ohma",
+          "canonical": "Ohma Kapua",
+          "role": "pc",
+          "player": "Zack",
+          "blocks": 309,
+          "words": 1736,
+          "talk_seconds_est": null,
+          "word_share": 0.0598
+        },
+        {
+          "name": "Leliana",
+          "canonical": "Leliana Goldspring",
+          "role": "pc",
+          "player": "Luke Neverisky",
+          "blocks": 415,
+          "words": 1569,
+          "talk_seconds_est": null,
+          "word_share": 0.054
+        }
+      ],
+      "players_present": [
+        "Silas",
+        "Elspeth",
+        "Bru",
+        "Ohma",
+        "Leliana"
+      ],
+      "attendance_source": "transcript",
+      "mentions": {
+        "npcs": {
+          "Scarlet": 13,
+          "Chalk Rock": 5,
+          "George": 1,
+          "Lady Corwin": 1
+        },
+        "locations": {
+          "Greyport": 16,
+          "High Forge": 5,
+          "Milstrom": 3,
+          "Gold Road": 2
+        },
+        "pcs": {
+          "Bru": 33,
+          "Red": 1
+        }
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "personality": null
+    },
+    {
+      "id": "session-39",
+      "type": "session",
+      "number": 39,
+      "title": "39: The Dragon's Hide",
+      "date": "2026-01-16",
+      "href": "/sessions/session-39/",
+      "has_transcript": true,
+      "transcript_format": "md",
+      "timing_quality": "approx",
+      "duration_seconds": 9900,
+      "block_count": 2915,
+      "word_count": 24059,
+      "speakers": [
+        {
+          "name": "Topher",
+          "canonical": "Topher",
+          "role": "dm",
+          "player": "Topher",
+          "blocks": 935,
+          "words": 9773,
+          "talk_seconds_est": null,
+          "word_share": 0.4062
+        },
+        {
+          "name": "Silas",
+          "canonical": "Silas Fairbanks",
+          "role": "pc",
+          "player": "Taylor Ramsey",
+          "blocks": 637,
+          "words": 5686,
+          "talk_seconds_est": null,
+          "word_share": 0.2363
+        },
+        {
+          "name": "Ohma",
+          "canonical": "Ohma Kapua",
+          "role": "pc",
+          "player": "Zack",
+          "blocks": 442,
+          "words": 4074,
+          "talk_seconds_est": null,
+          "word_share": 0.1693
+        },
+        {
+          "name": "Bru",
+          "canonical": "Bru (Felonias Bru)",
+          "role": "pc",
+          "player": "Justin Hale",
+          "blocks": 452,
+          "words": 2277,
+          "talk_seconds_est": null,
+          "word_share": 0.0946
+        },
+        {
+          "name": "Leliana",
+          "canonical": "Leliana Goldspring",
+          "role": "pc",
+          "player": "Luke Neverisky",
+          "blocks": 449,
+          "words": 2249,
+          "talk_seconds_est": null,
+          "word_share": 0.0935
+        }
+      ],
+      "players_present": [
+        "Silas",
+        "Ohma",
+        "Bru",
+        "Leliana"
+      ],
+      "attendance_source": "transcript",
+      "mentions": {
+        "npcs": {
+          "George": 6,
+          "Astro": 1,
+          "Chalk Rock": 1,
+          "Iro": 1,
+          "Scarlet": 1
+        },
+        "locations": {
+          "Greyport": 9,
+          "High Forge": 3,
+          "Grimvar's Spine": 1
+        },
+        "pcs": {
+          "Bru": 40,
+          "Red": 2,
+          "Olivia": 1
+        }
+      },
+      "fun": {
+        "nat20_mentions": 2,
+        "nat1_mentions": 0
+      },
+      "personality": null
+    },
+    {
+      "id": "session-40",
+      "type": "session",
+      "number": 40,
+      "title": "40: Uneasy Alliances",
+      "date": "2026-01-23",
+      "href": "/sessions/session-40/",
+      "has_transcript": true,
+      "transcript_format": "md",
+      "timing_quality": "approx",
+      "duration_seconds": 11100,
+      "block_count": 3282,
+      "word_count": 25706,
+      "speakers": [
+        {
+          "name": "Topher",
+          "canonical": "Topher",
+          "role": "dm",
+          "player": "Topher",
+          "blocks": 875,
+          "words": 9060,
+          "talk_seconds_est": null,
+          "word_share": 0.3524
+        },
+        {
+          "name": "Silas",
+          "canonical": "Silas Fairbanks",
+          "role": "pc",
+          "player": "Taylor Ramsey",
+          "blocks": 698,
+          "words": 6264,
+          "talk_seconds_est": null,
+          "word_share": 0.2437
+        },
+        {
+          "name": "Ohma",
+          "canonical": "Ohma Kapua",
+          "role": "pc",
+          "player": "Zack",
+          "blocks": 470,
+          "words": 4054,
+          "talk_seconds_est": null,
+          "word_share": 0.1577
+        },
+        {
+          "name": "Bru",
+          "canonical": "Bru (Felonias Bru)",
+          "role": "pc",
+          "player": "Justin Hale",
+          "blocks": 471,
+          "words": 2580,
+          "talk_seconds_est": null,
+          "word_share": 0.1004
+        },
+        {
+          "name": "Olivia",
+          "canonical": "Olivia Cooper",
+          "role": "pc",
+          "player": "Ellis Taylor",
+          "blocks": 471,
+          "words": 2496,
+          "talk_seconds_est": null,
+          "word_share": 0.0971
+        },
+        {
+          "name": "Leliana",
+          "canonical": "Leliana Goldspring",
+          "role": "pc",
+          "player": "Luke Neverisky",
+          "blocks": 297,
+          "words": 1252,
+          "talk_seconds_est": null,
+          "word_share": 0.0487
+        }
+      ],
+      "players_present": [
+        "Silas",
+        "Ohma",
+        "Bru",
+        "Olivia",
+        "Leliana"
+      ],
+      "attendance_source": "transcript",
+      "mentions": {
+        "npcs": {
+          "George": 23,
+          "Victor": 10,
+          "Naomi": 6,
+          "Bafael": 5,
+          "Astro": 4,
+          "Scarlet": 4,
+          "Chalk Rock": 1
+        },
+        "locations": {
+          "Greyport": 8,
+          "High Forge": 3
+        },
+        "pcs": {
+          "Bru": 33,
+          "Red": 2
+        }
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "personality": null
+    },
+    {
+      "id": "session-41",
+      "type": "session",
+      "number": 41,
+      "title": "41: The Rebinding Ritual",
+      "date": "2026-01-30",
+      "href": "/sessions/session-41/",
+      "has_transcript": true,
+      "transcript_format": "md",
+      "timing_quality": "approx",
+      "duration_seconds": 11100,
+      "block_count": 3353,
+      "word_count": 26167,
+      "speakers": [
+        {
+          "name": "Topher",
+          "canonical": "Topher",
+          "role": "dm",
+          "player": "Topher",
+          "blocks": 801,
+          "words": 7797,
+          "talk_seconds_est": null,
+          "word_share": 0.298
+        },
+        {
+          "name": "Silas",
+          "canonical": "Silas Fairbanks",
+          "role": "pc",
+          "player": "Taylor Ramsey",
+          "blocks": 780,
+          "words": 7264,
+          "talk_seconds_est": null,
+          "word_share": 0.2776
+        },
+        {
+          "name": "Olivia",
+          "canonical": "Olivia Cooper",
+          "role": "pc",
+          "player": "Ellis Taylor",
+          "blocks": 661,
+          "words": 4246,
+          "talk_seconds_est": null,
+          "word_share": 0.1623
+        },
+        {
+          "name": "Ohma",
+          "canonical": "Ohma Kapua",
+          "role": "pc",
+          "player": "Zack",
+          "blocks": 422,
+          "words": 3732,
+          "talk_seconds_est": null,
+          "word_share": 0.1426
+        },
+        {
+          "name": "Bru",
+          "canonical": "Bru (Felonias Bru)",
+          "role": "pc",
+          "player": "Justin Hale",
+          "blocks": 401,
+          "words": 2022,
+          "talk_seconds_est": null,
+          "word_share": 0.0773
+        },
+        {
+          "name": "Elspeth",
+          "canonical": "Elspeth Cooper",
+          "role": "pc",
+          "player": "Ali Leonard",
+          "blocks": 288,
+          "words": 1106,
+          "talk_seconds_est": null,
+          "word_share": 0.0423
+        }
+      ],
+      "players_present": [
+        "Silas",
+        "Olivia",
+        "Ohma",
+        "Bru",
+        "Elspeth"
+      ],
+      "attendance_source": "transcript",
+      "mentions": {
+        "npcs": {
+          "George": 23,
+          "Astro": 21,
+          "Bafael": 8,
+          "Iro": 3,
+          "Naomi": 1,
+          "Victor": 1
+        },
+        "locations": {
+          "High Forge": 4,
+          "Greyport": 3
+        },
+        "pcs": {
+          "Bru": 31,
+          "Olivia": 1
+        }
+      },
+      "fun": {
+        "nat20_mentions": 1,
+        "nat1_mentions": 0
+      },
+      "personality": null
+    },
+    {
+      "id": "session-42",
+      "type": "session",
+      "number": 42,
+      "title": "42: Dragon in the Deep",
+      "date": "2026-02-06",
+      "href": "/sessions/session-42/",
+      "has_transcript": true,
+      "transcript_format": "md",
+      "timing_quality": "approx",
+      "duration_seconds": 12300,
+      "block_count": 4127,
+      "word_count": 27606,
+      "speakers": [
+        {
+          "name": "Topher",
+          "canonical": "Topher",
+          "role": "dm",
+          "player": "Topher",
+          "blocks": 1348,
+          "words": 10994,
+          "talk_seconds_est": null,
+          "word_share": 0.3982
+        },
+        {
+          "name": "Silas",
+          "canonical": "Silas Fairbanks",
+          "role": "pc",
+          "player": "Taylor Ramsey",
+          "blocks": 723,
+          "words": 5298,
+          "talk_seconds_est": null,
+          "word_share": 0.1919
+        },
+        {
+          "name": "Bru",
+          "canonical": "Bru (Felonias Bru)",
+          "role": "pc",
+          "player": "Justin Hale",
+          "blocks": 553,
+          "words": 3385,
+          "talk_seconds_est": null,
+          "word_share": 0.1226
+        },
+        {
+          "name": "Olivia",
+          "canonical": "Olivia Cooper",
+          "role": "pc",
+          "player": "Ellis Taylor",
+          "blocks": 647,
+          "words": 3200,
+          "talk_seconds_est": null,
+          "word_share": 0.1159
+        },
+        {
+          "name": "Leliana",
+          "canonical": "Leliana Goldspring",
+          "role": "pc",
+          "player": "Luke Neverisky",
+          "blocks": 499,
+          "words": 2372,
+          "talk_seconds_est": null,
+          "word_share": 0.0859
+        },
+        {
+          "name": "Elspeth",
+          "canonical": "Elspeth Cooper",
+          "role": "pc",
+          "player": "Ali Leonard",
+          "blocks": 357,
+          "words": 2357,
+          "talk_seconds_est": null,
+          "word_share": 0.0854
+        }
+      ],
+      "players_present": [
+        "Silas",
+        "Bru",
+        "Olivia",
+        "Leliana",
+        "Elspeth"
+      ],
+      "attendance_source": "transcript",
+      "mentions": {
+        "npcs": {
+          "Victor": 10,
+          "George": 6,
+          "Astro": 1,
+          "Bafael": 1
+        },
+        "locations": {
+          "Greyport": 2
+        },
+        "pcs": {
+          "Bru": 32
+        }
+      },
+      "fun": {
+        "nat20_mentions": 1,
+        "nat1_mentions": 0
+      },
+      "personality": null
+    },
+    {
+      "id": "session-43",
+      "type": "session",
+      "number": 43,
+      "title": "43: The Greyport Zoo Gambit",
+      "date": "2026-02-13",
+      "href": "/sessions/session-43/",
+      "has_transcript": true,
+      "transcript_format": "md",
+      "timing_quality": "approx",
+      "duration_seconds": 10500,
+      "block_count": 3292,
+      "word_count": 23696,
+      "speakers": [
+        {
+          "name": "Topher",
+          "canonical": "Topher",
+          "role": "dm",
+          "player": "Topher",
+          "blocks": 925,
+          "words": 9144,
+          "talk_seconds_est": null,
+          "word_share": 0.3859
+        },
+        {
+          "name": "Silas",
+          "canonical": "Silas Fairbanks",
+          "role": "pc",
+          "player": "Taylor Ramsey",
+          "blocks": 654,
+          "words": 4790,
+          "talk_seconds_est": null,
+          "word_share": 0.2021
+        },
+        {
+          "name": "Bru",
+          "canonical": "Bru (Felonias Bru)",
+          "role": "pc",
+          "player": "Justin Hale",
+          "blocks": 476,
+          "words": 2880,
+          "talk_seconds_est": null,
+          "word_share": 0.1215
+        },
+        {
+          "name": "Olivia",
+          "canonical": "Olivia Cooper",
+          "role": "pc",
+          "player": "Ellis Taylor",
+          "blocks": 478,
+          "words": 2641,
+          "talk_seconds_est": null,
+          "word_share": 0.1115
+        },
+        {
+          "name": "Ohma",
+          "canonical": "Ohma Kapua",
+          "role": "pc",
+          "player": "Zack",
+          "blocks": 294,
+          "words": 2280,
+          "talk_seconds_est": null,
+          "word_share": 0.0962
+        },
+        {
+          "name": "Leliana",
+          "canonical": "Leliana Goldspring",
+          "role": "pc",
+          "player": "Luke Neverisky",
+          "blocks": 465,
+          "words": 1961,
+          "talk_seconds_est": null,
+          "word_share": 0.0828
+        }
+      ],
+      "players_present": [
+        "Silas",
+        "Bru",
+        "Olivia",
+        "Ohma",
+        "Leliana"
+      ],
+      "attendance_source": "transcript",
+      "mentions": {
+        "npcs": {
+          "Victor": 61,
+          "George": 3,
+          "Astro": 1,
+          "Bafael": 1,
+          "Chalk Rock": 1,
+          "Lady Viper": 1,
+          "Scarlet": 1
+        },
+        "locations": {
+          "Greyport": 2,
+          "High Forge": 1
+        },
+        "pcs": {
+          "Bru": 21,
+          "Olivia": 1
+        }
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "personality": null
+    },
+    {
+      "id": "session-44",
+      "type": "session",
+      "number": 44,
+      "title": "44: The Son of Fluke",
+      "date": "2026-02-27",
+      "href": "/sessions/session-44/",
+      "has_transcript": true,
+      "transcript_format": "md",
+      "timing_quality": "approx",
+      "duration_seconds": 10704,
+      "block_count": 3897,
+      "word_count": 26728,
+      "speakers": [
+        {
+          "name": "Silas",
+          "canonical": "Silas Fairbanks",
+          "role": "pc",
+          "player": "Taylor Ramsey",
+          "blocks": 1187,
+          "words": 13516,
+          "talk_seconds_est": null,
+          "word_share": 0.5057
+        },
+        {
+          "name": "Elspeth",
+          "canonical": "Elspeth Cooper",
+          "role": "pc",
+          "player": "Ali Leonard",
+          "blocks": 850,
+          "words": 4402,
+          "talk_seconds_est": null,
+          "word_share": 0.1647
+        },
+        {
+          "name": "Olivia",
+          "canonical": "Olivia Cooper",
+          "role": "pc",
+          "player": "Ellis Taylor",
+          "blocks": 814,
+          "words": 4235,
+          "talk_seconds_est": null,
+          "word_share": 0.1584
+        },
+        {
+          "name": "Topher",
+          "canonical": "Topher",
+          "role": "dm",
+          "player": "Topher",
+          "blocks": 633,
+          "words": 2943,
+          "talk_seconds_est": null,
+          "word_share": 0.1101
+        },
+        {
+          "name": "Leliana",
+          "canonical": "Leliana Goldspring",
+          "role": "pc",
+          "player": "Luke Neverisky",
+          "blocks": 413,
+          "words": 1632,
+          "talk_seconds_est": null,
+          "word_share": 0.0611
+        }
+      ],
+      "players_present": [
+        "Silas",
+        "Elspeth",
+        "Olivia",
+        "Leliana"
+      ],
+      "attendance_source": "transcript",
+      "mentions": {
+        "npcs": {
+          "Iro": 33,
+          "Scarlet": 22,
+          "Victor": 1
+        },
+        "locations": {
+          "Greyport": 2
+        },
+        "pcs": {
+          "Bru": 51
+        }
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "personality": null
+    },
+    {
+      "id": "session-45",
+      "type": "session",
+      "number": 45,
+      "title": "45: A Village in the Void",
+      "date": "2026-03-06",
+      "href": "/sessions/session-45/",
+      "has_transcript": true,
+      "transcript_format": "md",
+      "timing_quality": "approx",
+      "duration_seconds": 7536,
+      "block_count": 2420,
+      "word_count": 17254,
+      "speakers": [
+        {
+          "name": "Topher",
+          "canonical": "Topher",
+          "role": "dm",
+          "player": "Topher",
+          "blocks": 640,
+          "words": 7403,
+          "talk_seconds_est": null,
+          "word_share": 0.4291
+        },
+        {
+          "name": "Silas",
+          "canonical": "Silas Fairbanks",
+          "role": "pc",
+          "player": "Taylor Ramsey",
+          "blocks": 556,
+          "words": 3825,
+          "talk_seconds_est": null,
+          "word_share": 0.2217
+        },
+        {
+          "name": "Elspeth",
+          "canonical": "Elspeth Cooper",
+          "role": "pc",
+          "player": "Ali Leonard",
+          "blocks": 355,
+          "words": 1920,
+          "talk_seconds_est": null,
+          "word_share": 0.1113
+        },
+        {
+          "name": "Olivia",
+          "canonical": "Olivia Cooper",
+          "role": "pc",
+          "player": "Ellis Taylor",
+          "blocks": 347,
+          "words": 1565,
+          "talk_seconds_est": null,
+          "word_share": 0.0907
+        },
+        {
+          "name": "Leliana",
+          "canonical": "Leliana Goldspring",
+          "role": "pc",
+          "player": "Luke Neverisky",
+          "blocks": 312,
+          "words": 1547,
+          "talk_seconds_est": null,
+          "word_share": 0.0897
+        },
+        {
+          "name": "Bru",
+          "canonical": "Bru (Felonias Bru)",
+          "role": "pc",
+          "player": "Justin Hale",
+          "blocks": 210,
+          "words": 994,
+          "talk_seconds_est": null,
+          "word_share": 0.0576
+        }
+      ],
+      "players_present": [
+        "Silas",
+        "Elspeth",
+        "Olivia",
+        "Leliana",
+        "Bru"
+      ],
+      "attendance_source": "transcript",
+      "mentions": {
+        "npcs": {
+          "Victor": 53,
+          "Iro": 16,
+          "Scarlet": 13,
+          "Naomi": 3
+        },
+        "locations": {},
+        "pcs": {
+          "Bru": 15,
+          "Elspeth": 1
+        }
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "personality": null
+    },
+    {
+      "id": "session-46",
+      "type": "session",
+      "number": 46,
+      "title": "46: Not Dead Yet",
+      "date": "2026-03-20",
+      "href": "/sessions/session-46/",
+      "has_transcript": true,
+      "transcript_format": "md",
+      "timing_quality": "approx",
+      "duration_seconds": 8100,
+      "block_count": 2064,
+      "word_count": 16039,
+      "speakers": [
+        {
+          "name": "Topher",
+          "canonical": "Topher",
+          "role": "dm",
+          "player": "Topher",
+          "blocks": 758,
+          "words": 7399,
+          "talk_seconds_est": null,
+          "word_share": 0.4613
+        },
+        {
+          "name": "Silas",
+          "canonical": "Silas Fairbanks",
+          "role": "pc",
+          "player": "Taylor Ramsey",
+          "blocks": 448,
+          "words": 3103,
+          "talk_seconds_est": null,
+          "word_share": 0.1935
+        },
+        {
+          "name": "Olivia",
+          "canonical": "Olivia Cooper",
+          "role": "pc",
+          "player": "Ellis Taylor",
+          "blocks": 484,
+          "words": 2933,
+          "talk_seconds_est": null,
+          "word_share": 0.1829
+        },
+        {
+          "name": "Bru",
+          "canonical": "Bru (Felonias Bru)",
+          "role": "pc",
+          "player": "Justin Hale",
+          "blocks": 374,
+          "words": 2604,
+          "talk_seconds_est": null,
+          "word_share": 0.1624
+        }
+      ],
+      "players_present": [
+        "Silas",
+        "Olivia",
+        "Bru"
+      ],
+      "attendance_source": "transcript",
+      "mentions": {
+        "npcs": {
+          "Victor": 17,
+          "Naomi": 16,
+          "Astro": 10,
+          "Scarlet": 10,
+          "Lady Viper": 6
+        },
+        "locations": {
+          "Greyport": 1,
+          "High Forge": 1
+        },
+        "pcs": {
+          "Bru": 28,
+          "Olivia": 1
+        }
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "personality": null
+    },
+    {
+      "id": "session-47",
+      "type": "session",
+      "number": 47,
+      "title": "47: The Viper's Den",
+      "date": "2026-03-27",
+      "href": "/sessions/session-47/",
+      "has_transcript": true,
+      "transcript_format": "md",
+      "timing_quality": "approx",
+      "duration_seconds": 9900,
+      "block_count": 3475,
+      "word_count": 24622,
+      "speakers": [
+        {
+          "name": "Topher",
+          "canonical": "Topher",
+          "role": "dm",
+          "player": "Topher",
+          "blocks": 1046,
+          "words": 9364,
+          "talk_seconds_est": null,
+          "word_share": 0.3803
+        },
+        {
+          "name": "Silas",
+          "canonical": "Silas Fairbanks",
+          "role": "pc",
+          "player": "Taylor Ramsey",
+          "blocks": 823,
+          "words": 6634,
+          "talk_seconds_est": null,
+          "word_share": 0.2694
+        },
+        {
+          "name": "Elspeth",
+          "canonical": "Elspeth Cooper",
+          "role": "pc",
+          "player": "Ali Leonard",
+          "blocks": 871,
+          "words": 4781,
+          "talk_seconds_est": null,
+          "word_share": 0.1942
+        },
+        {
+          "name": "Olivia",
+          "canonical": "Olivia Cooper",
+          "role": "pc",
+          "player": "Ellis Taylor",
+          "blocks": 735,
+          "words": 3843,
+          "talk_seconds_est": null,
+          "word_share": 0.1561
+        }
+      ],
+      "players_present": [
+        "Silas",
+        "Elspeth",
+        "Olivia"
+      ],
+      "attendance_source": "transcript",
+      "mentions": {
+        "npcs": {
+          "Victor": 23,
+          "Iro": 20,
+          "Lady Viper": 18,
+          "Scarlet": 18,
+          "Astro": 8,
+          "Naomi": 4
+        },
+        "locations": {
+          "Greyport": 6,
+          "High Forge": 3
+        },
+        "pcs": {
+          "Bru": 25,
+          "Olivia": 1
+        }
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "personality": null
+    },
+    {
+      "id": "session-48",
+      "type": "session",
+      "number": 48,
+      "title": "48: The Other Cooper",
+      "date": "2026-04-03",
+      "href": "/sessions/session-48/",
+      "has_transcript": true,
+      "transcript_format": "json",
+      "timing_quality": "exact",
+      "duration_seconds": 10264,
+      "block_count": 3148,
+      "word_count": 24494,
+      "speakers": [
+        {
+          "name": "Silas",
+          "canonical": "Silas Fairbanks",
+          "role": "pc",
+          "player": "Taylor Ramsey",
+          "blocks": 957,
+          "words": 8669,
+          "talk_seconds_est": 1100,
+          "word_share": 0.3539
+        },
+        {
+          "name": "Topher",
+          "canonical": "Topher",
+          "role": "dm",
+          "player": "Topher",
+          "blocks": 889,
+          "words": 8199,
+          "talk_seconds_est": 3439,
+          "word_share": 0.3347
+        },
+        {
+          "name": "Elspeth",
+          "canonical": "Elspeth Cooper",
+          "role": "pc",
+          "player": "Ali Leonard",
+          "blocks": 921,
+          "words": 6065,
+          "talk_seconds_est": 4452,
+          "word_share": 0.2476
+        },
+        {
+          "name": "Bru",
+          "canonical": "Bru (Felonias Bru)",
+          "role": "pc",
+          "player": "Justin Hale",
+          "blocks": 381,
+          "words": 1561,
+          "talk_seconds_est": 516,
+          "word_share": 0.0637
+        }
+      ],
+      "players_present": [
+        "Silas",
+        "Elspeth",
+        "Bru"
+      ],
+      "attendance_source": "transcript",
+      "mentions": {
+        "npcs": {
+          "Astro": 10,
+          "Lady Viper": 10,
+          "Victor": 4,
+          "Iro": 1,
+          "Scarlet": 1
+        },
+        "locations": {},
+        "pcs": {
+          "Bru": 44,
+          "Red": 2
+        }
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "personality": null
+    },
+    {
+      "id": "session-49",
+      "type": "session",
+      "number": 49,
+      "title": "49: Leave Those Kids Alone",
+      "date": "2026-04-10",
+      "href": "/sessions/session-49/",
+      "has_transcript": true,
+      "transcript_format": "json",
+      "timing_quality": "exact",
+      "duration_seconds": 9144,
+      "block_count": 3212,
+      "word_count": 21811,
+      "speakers": [
+        {
+          "name": "Topher",
+          "canonical": "Topher",
+          "role": "dm",
+          "player": "Topher",
+          "blocks": 803,
+          "words": 7920,
+          "talk_seconds_est": 5335,
+          "word_share": 0.3631
+        },
+        {
+          "name": "Silas",
+          "canonical": "Silas Fairbanks",
+          "role": "pc",
+          "player": "Taylor Ramsey",
+          "blocks": 642,
+          "words": 4584,
+          "talk_seconds_est": 996,
+          "word_share": 0.2102
+        },
+        {
+          "name": "Elspeth",
+          "canonical": "Elspeth Cooper",
+          "role": "pc",
+          "player": "Ali Leonard",
+          "blocks": 595,
+          "words": 3127,
+          "talk_seconds_est": 1152,
+          "word_share": 0.1434
+        },
+        {
+          "name": "Olivia",
+          "canonical": "Olivia Cooper",
+          "role": "pc",
+          "player": "Ellis Taylor",
+          "blocks": 515,
+          "words": 3032,
+          "talk_seconds_est": 260,
+          "word_share": 0.139
+        },
+        {
+          "name": "Bru",
+          "canonical": "Bru (Felonias Bru)",
+          "role": "pc",
+          "player": "Justin Hale",
+          "blocks": 294,
+          "words": 1795,
+          "talk_seconds_est": 312,
+          "word_share": 0.0823
+        },
+        {
+          "name": "Leliana",
+          "canonical": "Leliana Goldspring",
+          "role": "pc",
+          "player": "Luke Neverisky",
+          "blocks": 363,
+          "words": 1353,
+          "talk_seconds_est": 920,
+          "word_share": 0.062
+        }
+      ],
+      "players_present": [
+        "Silas",
+        "Elspeth",
+        "Olivia",
+        "Bru",
+        "Leliana"
+      ],
+      "attendance_source": "transcript",
+      "mentions": {
+        "npcs": {
+          "Scarlet": 2,
+          "Iro": 1,
+          "Victor": 1
+        },
+        "locations": {},
+        "pcs": {
+          "Bru": 30
+        }
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "personality": null
+    },
+    {
+      "id": "session-50",
+      "type": "session",
+      "number": 50,
+      "title": "50: The Wall Comes Down",
+      "date": "2026-04-17",
+      "href": "/sessions/session-50/",
+      "has_transcript": true,
+      "transcript_format": "json",
+      "timing_quality": "exact",
+      "duration_seconds": 9204,
+      "block_count": 2953,
+      "word_count": 20997,
+      "speakers": [
+        {
+          "name": "Topher",
+          "canonical": "Topher",
+          "role": "dm",
+          "player": "Topher",
+          "blocks": 955,
+          "words": 8675,
+          "talk_seconds_est": 2172,
+          "word_share": 0.4132
+        },
+        {
+          "name": "Silas",
+          "canonical": "Silas Fairbanks",
+          "role": "pc",
+          "player": "Taylor Ramsey",
+          "blocks": 567,
+          "words": 4332,
+          "talk_seconds_est": 1867,
+          "word_share": 0.2063
+        },
+        {
+          "name": "Elspeth",
+          "canonical": "Elspeth Cooper",
+          "role": "pc",
+          "player": "Ali Leonard",
+          "blocks": 703,
+          "words": 4248,
+          "talk_seconds_est": 1652,
+          "word_share": 0.2023
+        },
+        {
+          "name": "Bru",
+          "canonical": "Bru (Felonias Bru)",
+          "role": "pc",
+          "player": "Justin Hale",
+          "blocks": 403,
+          "words": 2164,
+          "talk_seconds_est": 1496,
+          "word_share": 0.1031
+        },
+        {
+          "name": "Leliana",
+          "canonical": "Leliana Goldspring",
+          "role": "pc",
+          "player": "Luke Neverisky",
+          "blocks": 325,
+          "words": 1578,
+          "talk_seconds_est": 1604,
+          "word_share": 0.0752
+        }
+      ],
+      "players_present": [
+        "Silas",
+        "Elspeth",
+        "Bru",
+        "Leliana"
+      ],
+      "attendance_source": "transcript",
+      "mentions": {
+        "npcs": {},
+        "locations": {},
+        "pcs": {
+          "Bru": 35,
+          "Elspeth": 3,
+          "Olivia": 1
+        }
+      },
+      "fun": {
+        "nat20_mentions": 1,
+        "nat1_mentions": 0
+      },
+      "personality": null
+    },
+    {
+      "id": "session-51",
+      "type": "session",
+      "number": 51,
+      "title": "51: Thank You, Gary",
+      "date": "2026-04-24",
+      "href": "/sessions/session-51/",
+      "has_transcript": true,
+      "transcript_format": "json",
+      "timing_quality": "exact",
+      "duration_seconds": 10520,
+      "block_count": 3200,
+      "word_count": 27317,
+      "speakers": [
+        {
+          "name": "Silas",
+          "canonical": "Silas Fairbanks",
+          "role": "pc",
+          "player": "Taylor Ramsey",
+          "blocks": 1214,
+          "words": 16077,
+          "talk_seconds_est": 4208,
+          "word_share": 0.5885
+        },
+        {
+          "name": "Elspeth",
+          "canonical": "Elspeth Cooper",
+          "role": "pc",
+          "player": "Ali Leonard",
+          "blocks": 694,
+          "words": 4473,
+          "talk_seconds_est": 2807,
+          "word_share": 0.1637
+        },
+        {
+          "name": "Olivia",
+          "canonical": "Olivia Cooper",
+          "role": "pc",
+          "player": "Ellis Taylor",
+          "blocks": 597,
+          "words": 3172,
+          "talk_seconds_est": 376,
+          "word_share": 0.1161
+        },
+        {
+          "name": "Bru",
+          "canonical": "Bru (Felonias Bru)",
+          "role": "pc",
+          "player": "Justin Hale",
+          "blocks": 387,
+          "words": 2232,
+          "talk_seconds_est": 1572,
+          "word_share": 0.0817
+        },
+        {
+          "name": "Leliana",
+          "canonical": "Leliana Goldspring",
+          "role": "pc",
+          "player": "Luke Neverisky",
+          "blocks": 307,
+          "words": 1361,
+          "talk_seconds_est": 1296,
+          "word_share": 0.0498
+        },
+        {
+          "name": "Topher",
+          "canonical": "Topher",
+          "role": "dm",
+          "player": "Topher",
+          "blocks": 1,
+          "words": 2,
+          "talk_seconds_est": 4,
+          "word_share": 0.0001
+        }
+      ],
+      "players_present": [
+        "Silas",
+        "Elspeth",
+        "Olivia",
+        "Bru",
+        "Leliana"
+      ],
+      "attendance_source": "transcript",
+      "mentions": {
+        "npcs": {
+          "Iro": 19,
+          "Naomi": 1
+        },
+        "locations": {
+          "Greyport": 1,
+          "High Forge": 1
+        },
+        "pcs": {
+          "Bru": 34,
+          "Red": 1
+        }
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "personality": null
+    },
+    {
+      "id": "session-52",
+      "type": "session",
+      "number": 52,
+      "title": "52: Wakey Wakey, Violescence and Bakey",
+      "date": "2026-05-08",
+      "href": "/sessions/session-52/",
+      "has_transcript": true,
+      "transcript_format": "json",
+      "timing_quality": "exact",
+      "duration_seconds": 11016,
+      "block_count": 3964,
+      "word_count": 24593,
+      "speakers": [
+        {
+          "name": "Topher",
+          "canonical": "Topher",
+          "role": "dm",
+          "player": "Topher",
+          "blocks": 1292,
+          "words": 9868,
+          "talk_seconds_est": 7468,
+          "word_share": 0.4013
+        },
+        {
+          "name": "Silas",
+          "canonical": "Silas Fairbanks",
+          "role": "pc",
+          "player": "Taylor Ramsey",
+          "blocks": 817,
+          "words": 5775,
+          "talk_seconds_est": 899,
+          "word_share": 0.2348
+        },
+        {
+          "name": "Elspeth",
+          "canonical": "Elspeth Cooper",
+          "role": "pc",
+          "player": "Ali Leonard",
+          "blocks": 850,
+          "words": 4376,
+          "talk_seconds_est": 1184,
+          "word_share": 0.1779
+        },
+        {
+          "name": "Bru",
+          "canonical": "Bru (Felonias Bru)",
+          "role": "pc",
+          "player": "Justin Hale",
+          "blocks": 581,
+          "words": 2514,
+          "talk_seconds_est": 956,
+          "word_share": 0.1022
+        },
+        {
+          "name": "Leliana",
+          "canonical": "Leliana Goldspring",
+          "role": "pc",
+          "player": "Luke Neverisky",
+          "blocks": 424,
+          "words": 2060,
+          "talk_seconds_est": 464,
+          "word_share": 0.0838
+        }
+      ],
+      "players_present": [
+        "Silas",
+        "Elspeth",
+        "Bru",
+        "Leliana"
+      ],
+      "attendance_source": "transcript",
+      "mentions": {
+        "npcs": {
+          "Iro": 24,
+          "Scarlet": 15,
+          "George": 12,
+          "Victor": 2
+        },
+        "locations": {
+          "Greyport": 1
+        },
+        "pcs": {
+          "Bru": 41,
+          "Olivia": 1
+        }
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "personality": null
+    },
+    {
+      "id": "session-53",
+      "type": "session",
+      "number": 53,
+      "title": "53: How the Moon Was Made",
+      "date": "2026-05-15",
+      "href": "/sessions/session-53/",
+      "has_transcript": true,
+      "transcript_format": "json",
+      "timing_quality": "exact",
+      "duration_seconds": 7044,
+      "block_count": 2679,
+      "word_count": 16647,
+      "speakers": [
+        {
+          "name": "Topher",
+          "canonical": "Topher",
+          "role": "dm",
+          "player": "Topher",
+          "blocks": 788,
+          "words": 6329,
+          "talk_seconds_est": 1548,
+          "word_share": 0.3802
+        },
+        {
+          "name": "Silas",
+          "canonical": "Silas Fairbanks",
+          "role": "pc",
+          "player": "Taylor Ramsey",
+          "blocks": 592,
+          "words": 4274,
+          "talk_seconds_est": 1292,
+          "word_share": 0.2567
+        },
+        {
+          "name": "Elspeth",
+          "canonical": "Elspeth Cooper",
+          "role": "pc",
+          "player": "Ali Leonard",
+          "blocks": 624,
+          "words": 3271,
+          "talk_seconds_est": 2711,
+          "word_share": 0.1965
+        },
+        {
+          "name": "Bru",
+          "canonical": "Bru (Felonias Bru)",
+          "role": "pc",
+          "player": "Justin Hale",
+          "blocks": 313,
+          "words": 1421,
+          "talk_seconds_est": 932,
+          "word_share": 0.0854
+        },
+        {
+          "name": "Leliana",
+          "canonical": "Leliana Goldspring",
+          "role": "pc",
+          "player": "Luke Neverisky",
+          "blocks": 362,
+          "words": 1352,
+          "talk_seconds_est": 436,
+          "word_share": 0.0812
+        }
+      ],
+      "players_present": [
+        "Silas",
+        "Elspeth",
+        "Bru",
+        "Leliana"
+      ],
+      "attendance_source": "transcript",
+      "mentions": {
+        "npcs": {
+          "Scarlet": 25,
+          "Iro": 21,
+          "George": 5,
+          "Lady Viper": 3
+        },
+        "locations": {
+          "Greyport": 4
+        },
+        "pcs": {
+          "Bru": 43
+        }
+      },
+      "fun": {
+        "nat20_mentions": 1,
+        "nat1_mentions": 0
+      },
+      "personality": null
+    },
+    {
+      "id": "session-54",
+      "type": "session",
+      "number": 54,
+      "title": "54: Into the Mouth of the Beast",
+      "date": "2026-05-29",
+      "href": "/sessions/session-54/",
+      "has_transcript": true,
+      "transcript_format": "json",
+      "timing_quality": "exact",
+      "duration_seconds": 10672,
+      "block_count": 4563,
+      "word_count": 29511,
+      "speakers": [
+        {
+          "name": "Topher",
+          "canonical": "Topher",
+          "role": "dm",
+          "player": "Topher",
+          "blocks": 1352,
+          "words": 12088,
+          "talk_seconds_est": 4368,
+          "word_share": 0.4096
+        },
+        {
+          "name": "Silas",
+          "canonical": "Silas Fairbanks",
+          "role": "pc",
+          "player": "Taylor Ramsey",
+          "blocks": 839,
+          "words": 5817,
+          "talk_seconds_est": 712,
+          "word_share": 0.1971
+        },
+        {
+          "name": "Elspeth",
+          "canonical": "Elspeth Cooper",
+          "role": "pc",
+          "player": "Ali Leonard",
+          "blocks": 900,
+          "words": 4430,
+          "talk_seconds_est": 964,
+          "word_share": 0.1501
+        },
+        {
+          "name": "Olivia",
+          "canonical": "Olivia Cooper",
+          "role": "pc",
+          "player": "Ellis Taylor",
+          "blocks": 646,
+          "words": 3497,
+          "talk_seconds_est": 1828,
+          "word_share": 0.1185
+        },
+        {
+          "name": "Bru",
+          "canonical": "Bru (Felonias Bru)",
+          "role": "pc",
+          "player": "Justin Hale",
+          "blocks": 483,
+          "words": 2584,
+          "talk_seconds_est": 2047,
+          "word_share": 0.0876
+        },
+        {
+          "name": "Leliana",
+          "canonical": "Leliana Goldspring",
+          "role": "pc",
+          "player": "Luke Neverisky",
+          "blocks": 343,
+          "words": 1095,
+          "talk_seconds_est": 748,
+          "word_share": 0.0371
+        }
+      ],
+      "players_present": [
+        "Silas",
+        "Elspeth",
+        "Olivia",
+        "Bru",
+        "Leliana"
+      ],
+      "attendance_source": "transcript",
+      "mentions": {
+        "npcs": {
+          "Lady Viper": 16,
+          "Scarlet": 15,
+          "George": 13,
+          "Victor": 8,
+          "Iro": 4,
+          "Naomi": 1
+        },
+        "locations": {
+          "Greyport": 2,
+          "High Forge": 2
+        },
+        "pcs": {
+          "Bru": 28,
+          "Olivia": 1
+        }
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "personality": null
+    },
+    {
+      "id": "session-55",
+      "type": "session",
+      "number": 55,
+      "title": "55: Faces and Heels",
+      "date": "2026-06-05",
+      "href": "/sessions/session-55/",
+      "has_transcript": true,
+      "transcript_format": "json",
+      "timing_quality": "exact",
+      "duration_seconds": 10196,
+      "block_count": 2588,
+      "word_count": 21947,
+      "speakers": [
+        {
+          "name": "Topher",
+          "canonical": "Topher",
+          "role": "dm",
+          "player": "Topher",
+          "blocks": 849,
+          "words": 10202,
+          "talk_seconds_est": 2895,
+          "word_share": 0.4648
+        },
+        {
+          "name": "Silas",
+          "canonical": "Silas Fairbanks",
+          "role": "pc",
+          "player": "Taylor Ramsey",
+          "blocks": 701,
+          "words": 5905,
+          "talk_seconds_est": 2080,
+          "word_share": 0.2691
+        },
+        {
+          "name": "Olivia",
+          "canonical": "Olivia Cooper",
+          "role": "pc",
+          "player": "Ellis Taylor",
+          "blocks": 610,
+          "words": 3588,
+          "talk_seconds_est": 2376,
+          "word_share": 0.1635
+        },
+        {
+          "name": "Leliana",
+          "canonical": "Leliana Goldspring",
+          "role": "pc",
+          "player": "Luke Neverisky",
+          "blocks": 428,
+          "words": 2252,
+          "talk_seconds_est": 1804,
+          "word_share": 0.1026
+        }
+      ],
+      "players_present": [
+        "Silas",
+        "Olivia",
+        "Leliana"
+      ],
+      "attendance_source": "transcript",
+      "mentions": {
+        "npcs": {
+          "Scarlet": 9,
+          "Naomi": 5,
+          "George": 3,
+          "Lady Viper": 2,
+          "Astro": 1
+        },
+        "locations": {
+          "Eldoran": 3,
+          "High Forge": 1
+        },
+        "pcs": {
+          "Bru": 22
+        }
+      },
+      "fun": {
+        "nat20_mentions": 2,
+        "nat1_mentions": 0
+      },
+      "personality": null
+    },
+    {
+      "id": "session-56",
+      "type": "session",
+      "number": 56,
+      "title": "56: No Good Comes From Reading",
+      "date": "2026-06-26",
+      "href": "/sessions/session-56/",
+      "has_transcript": true,
+      "transcript_format": "json",
+      "timing_quality": "exact",
+      "duration_seconds": 12768,
+      "block_count": 4506,
+      "word_count": 29749,
+      "speakers": [
+        {
+          "name": "Topher",
+          "canonical": "Topher",
+          "role": "dm",
+          "player": "Topher",
+          "blocks": 1197,
+          "words": 10054,
+          "talk_seconds_est": 2840,
+          "word_share": 0.338
+        },
+        {
+          "name": "Silas",
+          "canonical": "Silas Fairbanks",
+          "role": "pc",
+          "player": "Taylor Ramsey",
+          "blocks": 747,
+          "words": 5232,
+          "talk_seconds_est": 1272,
+          "word_share": 0.1759
+        },
+        {
+          "name": "Olivia",
+          "canonical": "Olivia Cooper",
+          "role": "pc",
+          "player": "Ellis Taylor",
+          "blocks": 743,
+          "words": 4448,
+          "talk_seconds_est": 3347,
+          "word_share": 0.1495
+        },
+        {
+          "name": "Leliana",
+          "canonical": "Leliana Goldspring",
+          "role": "pc",
+          "player": "Luke Neverisky",
+          "blocks": 672,
+          "words": 3790,
+          "talk_seconds_est": 2584,
+          "word_share": 0.1274
+        },
+        {
+          "name": "Elspeth",
+          "canonical": "Elspeth Cooper",
+          "role": "pc",
+          "player": "Ali Leonard",
+          "blocks": 659,
+          "words": 3542,
+          "talk_seconds_est": 1444,
+          "word_share": 0.1191
+        },
+        {
+          "name": "Bru",
+          "canonical": "Bru (Felonias Bru)",
+          "role": "pc",
+          "player": "Justin Hale",
+          "blocks": 488,
+          "words": 2683,
+          "talk_seconds_est": 1156,
+          "word_share": 0.0902
+        }
+      ],
+      "players_present": [
+        "Silas",
+        "Olivia",
+        "Leliana",
+        "Elspeth",
+        "Bru"
+      ],
+      "attendance_source": "transcript",
+      "mentions": {
+        "npcs": {
+          "Scarlet": 8,
+          "George": 5,
+          "Iro": 2
+        },
+        "locations": {},
+        "pcs": {
+          "Bru": 41,
+          "Red": 2,
+          "Olivia": 1
+        }
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "personality": null
+    },
+    {
+      "id": "session-57",
+      "type": "session",
+      "number": 57,
+      "title": "57: Two Sides of the Same Coin",
+      "date": "2026-07-17",
+      "href": "/sessions/session-57/",
+      "has_transcript": true,
+      "transcript_format": "json",
+      "timing_quality": "exact",
+      "duration_seconds": 9356,
+      "block_count": 3004,
+      "word_count": 22055,
+      "speakers": [
+        {
+          "name": "Topher",
+          "canonical": "Topher",
+          "role": "dm",
+          "player": "Topher",
+          "blocks": 864,
+          "words": 9726,
+          "talk_seconds_est": 3568,
+          "word_share": 0.441
+        },
+        {
+          "name": "Silas",
+          "canonical": "Silas Fairbanks",
+          "role": "pc",
+          "player": "Taylor Ramsey",
+          "blocks": 504,
+          "words": 3647,
+          "talk_seconds_est": 1211,
+          "word_share": 0.1654
+        },
+        {
+          "name": "Bru",
+          "canonical": "Bru (Felonias Bru)",
+          "role": "pc",
+          "player": "Justin Hale",
+          "blocks": 468,
+          "words": 2836,
+          "talk_seconds_est": 2116,
+          "word_share": 0.1286
+        },
+        {
+          "name": "Leliana",
+          "canonical": "Leliana Goldspring",
+          "role": "pc",
+          "player": "Luke Neverisky",
+          "blocks": 561,
+          "words": 2680,
+          "talk_seconds_est": 464,
+          "word_share": 0.1215
+        },
+        {
+          "name": "Olivia",
+          "canonical": "Olivia Cooper",
+          "role": "pc",
+          "player": "Ellis Taylor",
+          "blocks": 473,
+          "words": 2573,
+          "talk_seconds_est": 1532,
+          "word_share": 0.1167
+        },
+        {
+          "name": "Elspeth",
+          "canonical": "Elspeth Cooper",
+          "role": "pc",
+          "player": "Ali Leonard",
+          "blocks": 134,
+          "words": 593,
+          "talk_seconds_est": 52,
+          "word_share": 0.0269
+        }
+      ],
+      "players_present": [
+        "Silas",
+        "Bru",
+        "Leliana",
+        "Olivia",
+        "Elspeth"
+      ],
+      "attendance_source": "transcript",
+      "mentions": {
+        "npcs": {
+          "George": 11,
+          "Scarlet": 3,
+          "Astro": 1,
+          "Chalk Rock": 1
+        },
+        "locations": {},
+        "pcs": {
+          "Bru": 8
+        }
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "personality": null
+    }
+  ],
+  "aggregate": {
+    "total_sessions": 72,
+    "sessions_with_transcripts": 29,
+    "total_words": 749174,
+    "total_blocks": 110065,
+    "total_duration_seconds": 297828,
+    "speaker_totals": [
+      {
+        "name": "Topher",
+        "canonical": "Topher",
+        "role": "dm",
+        "player": "Topher",
+        "sessions": 29,
+        "blocks": 27045,
+        "words": 230144,
+        "talk_seconds_est": 33637
+      },
+      {
+        "name": "Silas",
+        "canonical": "Silas Fairbanks",
+        "role": "pc",
+        "player": "Taylor Ramsey",
+        "sessions": 29,
+        "blocks": 23116,
+        "words": 189573,
+        "talk_seconds_est": 15637
+      },
+      {
+        "name": "Elspeth",
+        "canonical": "Elspeth Cooper",
+        "role": "pc",
+        "player": "Ali Leonard",
+        "sessions": 23,
+        "blocks": 16051,
+        "words": 87989,
+        "talk_seconds_est": 16418
+      },
+      {
+        "name": "Olivia",
+        "canonical": "Olivia Cooper",
+        "role": "pc",
+        "player": "Ellis Taylor",
+        "sessions": 23,
+        "blocks": 14088,
+        "words": 77609,
+        "talk_seconds_est": 9719
+      },
+      {
+        "name": "Bru",
+        "canonical": "Bru (Felonias Bru)",
+        "role": "pc",
+        "player": "Justin Hale",
+        "sessions": 26,
+        "blocks": 13479,
+        "words": 73372,
+        "talk_seconds_est": 11103
+      },
+      {
+        "name": "Leliana",
+        "canonical": "Leliana Goldspring",
+        "role": "pc",
+        "player": "Luke Neverisky",
+        "sessions": 23,
+        "blocks": 10173,
+        "words": 46110,
+        "talk_seconds_est": 10320
+      },
+      {
+        "name": "Ohma",
+        "canonical": "Ohma Kapua",
+        "role": "pc",
+        "player": "Zack",
+        "sessions": 12,
+        "blocks": 5453,
+        "words": 40488,
+        "talk_seconds_est": 0
+      },
+      {
+        "name": "Helisanna",
+        "canonical": "Helisanna Doomfall",
+        "role": "pc",
+        "player": null,
+        "sessions": 1,
+        "blocks": 660,
+        "words": 3889,
+        "talk_seconds_est": 0
+      }
+    ],
+    "top_npcs": {
+      "Scarlet": 218,
+      "Victor": 208,
+      "Iro": 147,
+      "George": 134,
+      "Astro": 62,
+      "Naomi": 59,
+      "Lady Viper": 56,
+      "Chalk Rock": 34,
+      "Bafael": 16,
+      "Lady Corwin": 4,
+      "April Bonal": 3
+    },
+    "top_locations": {
+      "Greyport": 74,
+      "High Forge": 42,
+      "Eldoran": 3,
+      "Milstrom": 3,
+      "Gold Road": 2,
+      "Grimvar's Spine": 1
+    },
+    "top_pcs_mentioned": {
+      "Bru": 1037,
+      "Olivia": 20,
+      "Red": 18,
+      "Elspeth": 4,
+      "Leliana": 1
+    },
+    "nat20_mentions": 12,
+    "nat1_mentions": 1,
+    "personality_by_player": {}
+  }
+}

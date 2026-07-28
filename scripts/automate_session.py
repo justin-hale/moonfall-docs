@@ -7,6 +7,7 @@ This script automates the workflow of creating session notes from transcript fil
 2. Summarises long transcripts chunk-by-chunk (using Claude Haiku)
 3. Creates a comprehensive session note using Claude Sonnet
 4. Merges the new session's updates into the campaign-state.md running memory
+5. Updates the session-stats dataset (personality analysis + stats extraction)
 
 Usage:
     python automate_session.py [--session-number N] [--interlude] [--no-clean] [--no-generate] [--timeout MIN] [--local]
@@ -100,6 +101,37 @@ class SessionAutomation:
             print(f"Error running transcript cleaner: {e}")
             print(e.stderr)
             return False
+
+    def run_stats_extractor(self, transcript_date, include_llm=True):
+        """Update the session-stats dataset for this session (non-fatal).
+
+        Runs the LLM personality analyzer for the new session's date, then
+        rebuilds data/session-stats.json + static/data/session-stats.csv.
+        Failures are warnings only — stats should never block recap creation.
+        Pass include_llm=False to skip the model call (e.g. --no-generate runs).
+        """
+        print("\nUpdating session stats dataset...")
+        scripts_dir = self.project_root / "scripts"
+        steps = []
+        if include_llm:
+            analyzer_cmd = ["python3", str(scripts_dir / "analyze_session_personality.py"),
+                            "--date", transcript_date]
+            if self.use_local_cli:
+                analyzer_cmd.append("--local")
+            steps.append(("personality analysis", analyzer_cmd))
+        steps.append(
+            ("stats extraction", ["python3", str(scripts_dir / "extract_session_stats.py"),
+                                  "--date", transcript_date]))
+        for name, cmd in steps:
+            try:
+                result = subprocess.run(cmd, capture_output=True, text=True, timeout=900)
+                if result.returncode != 0:
+                    print(f"  Warning: {name} failed (non-fatal):")
+                    print((result.stderr or result.stdout or "").strip()[:500])
+                else:
+                    print(f"  {name} complete")
+            except (subprocess.TimeoutExpired, OSError) as e:
+                print(f"  Warning: {name} failed (non-fatal): {e}")
 
     def find_latest_transcript(self):
         """Find the most recently created transcript in docs/transcripts/"""
@@ -662,6 +694,8 @@ Respond in this EXACT format (no other text):
                     print(f"\n  Deleted original SRT: {srt_file.name}")
                 except Exception as e:
                     print(f"  Could not delete {srt_file.name}: {e}")
+            if success:
+                self.run_stats_extractor(transcript_date)
             return success
         else:
             # Just save the prompt without calling API.
@@ -672,6 +706,7 @@ Respond in this EXACT format (no other text):
             prompt_file.write_text(f"SYSTEM:\n{system_prompt}\n\nUSER:\n{user_prompt}", encoding="utf-8")
             print(f"\n  Prompt saved to {prompt_file}")
             print("  Skipping API call (use without --no-generate to auto-generate)")
+            self.run_stats_extractor(transcript_date, include_llm=False)
             return True
 
 

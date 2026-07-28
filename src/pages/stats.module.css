@@ -1,0 +1,130 @@
+.intro {
+  max-width: 48rem;
+  color: var(--ifm-color-emphasis-700);
+}
+
+.tiles {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  gap: 0.75rem;
+  margin: 1.5rem 0 2rem;
+}
+
+.tile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 8px;
+  background: var(--ifm-background-surface-color);
+}
+
+.tileValue {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--ifm-color-primary);
+}
+
+.tileLabel {
+  font-size: 0.8rem;
+  color: var(--ifm-color-emphasis-600);
+  text-align: center;
+}
+
+.sectionNote {
+  color: var(--ifm-color-emphasis-600);
+  font-size: 0.9rem;
+}
+
+.sheetGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+  gap: 1.25rem;
+  margin-bottom: 2.5rem;
+}
+
+.toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.85rem;
+  margin-bottom: 0.75rem;
+  cursor: pointer;
+}
+
+.barRow {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-bottom: 0.3rem;
+}
+
+.barName {
+  flex: 0 0 7.5rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 0.85rem;
+}
+
+.barTrack {
+  flex: 1;
+  height: 0.8rem;
+  background: var(--ifm-color-emphasis-200);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.barFill {
+  height: 100%;
+  background: var(--ifm-color-primary);
+  border-radius: 4px;
+}
+
+.barValue {
+  flex: 0 0 6rem;
+  text-align: right;
+  font-size: 0.8rem;
+  color: var(--ifm-color-emphasis-600);
+}
+
+.columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.timeline {
+  display: flex;
+  align-items: flex-end;
+  gap: 3px;
+  height: 8rem;
+  padding: 0.5rem 0 0;
+  margin-bottom: 1rem;
+}
+
+.timelineBar {
+  flex: 1;
+  min-width: 4px;
+  background: var(--ifm-color-primary);
+  border-radius: 2px 2px 0 0;
+  opacity: 0.75;
+  transition: opacity 0.15s;
+}
+
+.timelineBar:hover {
+  opacity: 1;
+}
+
+.footnote {
+  margin-top: 2rem;
+  font-size: 0.8rem;
+  color: var(--ifm-color-emphasis-600);
+}
+
+@media (max-width: 768px) {
+  .columns {
+    grid-template-columns: 1fr;
+  }
+}

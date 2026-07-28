@@ -1,0 +1,148 @@
+{
+  "schema_version": "1.0",
+  "date": "2025-09-12",
+  "model": "claude-haiku-4-5",
+  "players": {
+    "Helisanna": {
+      "scores": {
+        "chaos": 13,
+        "heroism": 9,
+        "comedy": 8,
+        "immersion": 14,
+        "strategy": 10,
+        "curiosity": 7
+      },
+      "evidence": {
+        "chaos": "I'm going say during the long rest I dream of various ways of murdering crying one.",
+        "heroism": "Helisana managed to keep her cool though and instead is directing all of our uh our headbangers to build us a kick-ass stage",
+        "comedy": "I don't know. All I know is like there's like a white and green. Not",
+        "immersion": "I'm going to uh reach into my bag and pull out a a small little purple vial and uh drop it into my eyes. Yeah. f*** yeah. That's the good s***.",
+        "strategy": "I'm going vote left side personally for no real reason",
+        "curiosity": "Um, does Helan know of any drugs commonly referred to as cheese?"
+      }
+    },
+    "Topher": {
+      "scores": {
+        "chaos": 10,
+        "heroism": 10,
+        "comedy": 12,
+        "immersion": 14,
+        "strategy": 13,
+        "curiosity": 10
+      },
+      "evidence": {
+        "chaos": "The dragons are going to wait for you. Uh, and if you don't give them a magical hole straight to where they need to go, then they're going to destroy the whole city.",
+        "heroism": "As DM, neutral position",
+        "comedy": "It came in like a bento box and everything it was gross.",
+        "immersion": "You see uh ravers begin to break from the mosh and uh they they kind of freeze up. They they um they stop moving.",
+        "strategy": "So y'all are y'all are going through the sewers and it opens up to this nightclub and you see uh at the top you see uh that there's this big ass baby playing um like metal EDM",
+        "curiosity": "Let me let me uh lay down some of the key facts that you're missing."
+      }
+    },
+    "Silas": {
+      "scores": {
+        "chaos": 6,
+        "heroism": 10,
+        "comedy": 14,
+        "immersion": 12,
+        "strategy": 15,
+        "curiosity": 16
+      },
+      "evidence": {
+        "chaos": "I feel like I feel like I'm going to follow Olivia's lead on like investigating a crime.",
+        "heroism": "I guess I'll uh use my reaction to uncanny dodge and half that",
+        "comedy": "I did once single-handedly win a comic book trivia contest at Adventure Science Center by myself. I did say single-handedly, so I was a little redundant",
+        "immersion": "I'm assuming that like uh I was picturing like Silus in like the like the biker chick position behind Olivia",
+        "strategy": "I can move through my allies. That is a specific thing that a halfling can do.",
+        "curiosity": "If they're both connected to this place, is there a good chance that there's a connection? between the missing"
+      }
+    },
+    "Bru": {
+      "scores": {
+        "chaos": 8,
+        "heroism": 11,
+        "comedy": 8,
+        "immersion": 11,
+        "strategy": 13,
+        "curiosity": 7
+      },
+      "evidence": {
+        "chaos": "Um, is this is this the only place you've ever had pizza?",
+        "heroism": "I'm going to fashion together a combination of ratchet straps and chain uh to fashion a harness",
+        "comedy": "Are they the Costco like Chick-fil-A nugget uh imitation ones?",
+        "immersion": "Bru, you better calm down. If you want pizza, you better calm down. Know you want pizza.",
+        "strategy": "I'm going to use hex on Kang. And then I'm going to uh So that does stuff for me",
+        "curiosity": "Uh hey. Um this place is dead, but uh there's there's someone that went into the sewer over here"
+      }
+    },
+    "Olivia": {
+      "scores": {
+        "chaos": 6,
+        "heroism": 18,
+        "comedy": 6,
+        "immersion": 11,
+        "strategy": 16,
+        "curiosity": 8
+      },
+      "evidence": {
+        "chaos": "Um, honestly, I'm not sure I've used anything",
+        "heroism": "I need you all to stay within ten feet of me",
+        "comedy": "Yeah, honey. There is no active police force right now.",
+        "immersion": "Yeah, it's Bob. I'm on Bob. Yeah, because I have that uh feet where I have advantage while I'm mounted.",
+        "strategy": "I'm going to use my reaction to impose disadvantage on that attack",
+        "curiosity": "Did we notice any change after the first of the discs was destroyed?"
+      }
+    },
+    "Ohma": {
+      "scores": {
+        "chaos": 11,
+        "heroism": 13,
+        "comedy": 10,
+        "immersion": 15,
+        "strategy": 10,
+        "curiosity": 12
+      },
+      "evidence": {
+        "chaos": "All right. Well, uh, I'm gonna go ahead and try to attack. Do the thing for me. Here we go.",
+        "heroism": "I could not leave Helisana behind. I will use my first action to dash.",
+        "comedy": "I have never exper this just plain three cheese pizza. Perfect. is it it is like something ancestral.",
+        "immersion": "Um yes, you are all my guides in this way of the pizza. I want to watch you crush crang one.",
+        "strategy": "I'm going to use my step of the wind uh as like a bonus action to just continue to dash.",
+        "curiosity": "What is going on here? Nobody seems to know anything. I cannot stand the amount of How is it that Silas doesn't know?"
+      }
+    },
+    "Elspeth": {
+      "scores": {
+        "chaos": 8,
+        "heroism": 15,
+        "comedy": 8,
+        "immersion": 12,
+        "strategy": 12,
+        "curiosity": 7
+      },
+      "evidence": {
+        "chaos": "Do Olivia and I have our own opinions on the better pizza in the city?",
+        "heroism": "I run over to Helisana number one and then I put my hands on her face and I heal her.",
+        "comedy": "Just I'll execute him. Yeah, it's fine. Yeah. No, that's a given.",
+        "immersion": "I move up to her just so I'm standing with her. And then I'm going to shoot my gun at one of the speakers",
+        "strategy": "I'm going to shoot my gun at one of the speakers, I think. Can I point. Did that do anything?",
+        "curiosity": "There's a pizza on the menu with apples and blueberries and lettuce. You're garbage and you're stupid."
+      }
+    }
+  },
+  "superlatives": {
+    "mvp": {
+      "player": "Olivia",
+      "quote": "I need you all to stay within ten feet of me"
+    },
+    "best_joke": {
+      "player": "Silas",
+      "quote": "I did once single-handedly win a comic book trivia contest at Adventure Science Center by myself. I did say single-handedly, so I was a little redundant"
+    },
+    "most_chaotic": {
+      "player": "Helisanna",
+      "quote": "I'm going say during the long rest I dream of various ways of murdering crying one."
+    },
+    "decision_driver": "Helisanna"
+  }
+}
