@@ -1,0 +1,130 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-02-13",
+  "model": "claude-haiku-4-5",
+  "players": {
+    "Bru": {
+      "scores": {
+        "chaos": 9,
+        "heroism": 8,
+        "comedy": 10,
+        "immersion": 9,
+        "strategy": 8,
+        "curiosity": 9
+      },
+      "evidence": {
+        "chaos": "I'm going to lunge up at the person and like grab their face and try and like pull their face like as a mask.",
+        "heroism": "I'm going to toss out the cannon and I'm going to get a couple of my little magic uh ball bearings with flashy lights in them.",
+        "comedy": "I'm going to hit the keep reading option in the JRPG list.",
+        "immersion": "This does not sound very metal and that makes me very sad.",
+        "strategy": "Can I dig further into the Violescence orbs to see if I can just grab them or if I need to do like an Indiana Jones thing",
+        "curiosity": "Can I compare these two letters? Is the most recent one like uh does it look different like the handwriting and everything?"
+      }
+    },
+    "Topher": {
+      "scores": {
+        "chaos": 12,
+        "heroism": 10,
+        "comedy": 14,
+        "immersion": 14,
+        "strategy": 11,
+        "curiosity": 12
+      },
+      "evidence": {
+        "chaos": "Yes, I sit across from him as he eats his hot dog.",
+        "heroism": "Congratulations team. you really um you know partial success but we'll take the success is where we get them.",
+        "comedy": "I sit across from him as he eats his hot dog. Well, these are my last reports.",
+        "immersion": "Um, there's a huge crowd circled around and um you see um there is a family of Albert there.",
+        "strategy": "And you come into port, there's a huge celebration. Um, all the folks from St. George are heroes welcome at the harbor.",
+        "curiosity": "Um, I'm not going to describe any element of the zoo. Um, so, so what do you see as you approach the zoo?"
+      }
+    },
+    "Ohma": {
+      "scores": {
+        "chaos": 6,
+        "heroism": 15,
+        "comedy": 8,
+        "immersion": 9,
+        "strategy": 8,
+        "curiosity": 9
+      },
+      "evidence": {
+        "chaos": "I assume you guys are targeting me because I wasn't on or wasn't at my computer.",
+        "heroism": "I grabbed arm guard's arm and like what do you think that you are doing? You do not grab Leliana",
+        "comedy": "I imagine a paladin with ski goggles now. And it's kind of awesome.",
+        "immersion": "As as Silas walks away. Oh my has to indulge. How how many times did this hot dog eating action happen?",
+        "strategy": "I'm going to say would want to like rush over there because he can see one of the party members is now dealing with adversaries.",
+        "curiosity": "Is is the zoo covering? That sounds wrong. Is the zoo above the Twilight Company headquarters?"
+      }
+    },
+    "Leliana": {
+      "scores": {
+        "chaos": 8,
+        "heroism": 7,
+        "comedy": 6,
+        "immersion": 11,
+        "strategy": 10,
+        "curiosity": 10
+      },
+      "evidence": {
+        "chaos": "Um, I'm going to upcast charm person to target four of them.",
+        "heroism": "I didn't consent. I do not consent.",
+        "comedy": "That's not the vibe. That's never my vibe.",
+        "immersion": "I didn't consent. I do not consent.",
+        "strategy": "Um, I'm going to upcast charm person to target four of them.",
+        "curiosity": "Is the um is the aquafer like is there actually liquid flowing through it?"
+      }
+    },
+    "Silas": {
+      "scores": {
+        "chaos": 7,
+        "heroism": 6,
+        "comedy": 11,
+        "immersion": 10,
+        "strategy": 11,
+        "curiosity": 12
+      },
+      "evidence": {
+        "chaos": "I'm going to try to look like a little kid and be like, 'But they don't want to get in free, right?'",
+        "heroism": "Well, I mean, as long as I'm making money, you know, that's all that really matters here.",
+        "comedy": "I think you're confusing your own emotions, Trevor. I think that you've connected with Victor in a way that you've never connected with anyone before and you don't know how to deal with it.",
+        "immersion": "Well, I mean, as long as I'm making money, you know, that's all that really matters here.",
+        "strategy": "I would like to uh look around and see um if we have any uh signs of like Victor being here like well actually if he's here right now I guess",
+        "curiosity": "Um I'd like to uh look around and see um if we have any uh signs of like Victor being here like well actually if he's here right now I guess but like um like anyway we could follow him"
+      }
+    },
+    "Olivia": {
+      "scores": {
+        "chaos": 6,
+        "heroism": 7,
+        "comedy": 7,
+        "immersion": 10,
+        "strategy": 11,
+        "curiosity": 12
+      },
+      "evidence": {
+        "chaos": "No, we'll pay full price.",
+        "heroism": "I'm definitely going to hand Bru some of these letters.",
+        "comedy": "Jesus.",
+        "immersion": "Yes, honey. I know. She like puts his hands on his face and just kind of like pushes him out of her space.",
+        "strategy": "I'm going to do an investigation check around the bench because we know that he hangs out on this bench",
+        "curiosity": "I'm going to go back to his journals and just look at the most recent journal entry and the date."
+      }
+    }
+  },
+  "superlatives": {
+    "mvp": {
+      "player": "Olivia",
+      "quote": "I'm going to do an investigation check around the bench because we know that he hangs out on this bench"
+    },
+    "best_joke": {
+      "player": "Silas",
+      "quote": "I think you're confusing your own emotions, Trevor. I think that you've connected with Victor in a way that you've never connected with anyone before and you don't know how to deal with it."
+    },
+    "most_chaotic": {
+      "player": "Bru",
+      "quote": "I'm going to lunge up at the person and like grab their face and try and like pull their face like as a mask."
+    },
+    "decision_driver": "Silas"
+  }
+}

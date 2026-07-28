@@ -1,0 +1,112 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-05-08",
+  "model": "claude-haiku-4-5",
+  "players": {
+    "Elspeth": {
+      "scores": {
+        "chaos": 9,
+        "heroism": 13,
+        "comedy": 11,
+        "immersion": 12,
+        "strategy": 13,
+        "curiosity": 12
+      },
+      "evidence": {
+        "chaos": "Dice are important and I got them.",
+        "heroism": "I'm going to put a warning bond on Bru that lasts for an hour.",
+        "comedy": "free. Is it great?",
+        "immersion": "If you could figure that out, you know those crystals on the Aldorans.",
+        "strategy": "Can I make the boat bigger to make it go faster? I think it worked last time.",
+        "curiosity": "She probably has plenty of sending stones. She has a lot of burners. I bet."
+      }
+    },
+    "Bru": {
+      "scores": {
+        "chaos": 17,
+        "heroism": 8,
+        "comedy": 11,
+        "immersion": 9,
+        "strategy": 12,
+        "curiosity": 7
+      },
+      "evidence": {
+        "chaos": "So anyways, I started blasting.",
+        "heroism": "I'm gonna I'm gonna double bonus action and toss the grenade launcher to Elf.",
+        "comedy": "Every day of the week.",
+        "immersion": "I got to refill all the bomb all the explosives materials that I used up.",
+        "strategy": "I had a plan of while we were on our way, I was going to hook up the grenade launcher or rocket launcher to also shoot biolescence.",
+        "curiosity": "What are you even reading, Scarlet?"
+      }
+    },
+    "Topher": {
+      "scores": {
+        "chaos": 14,
+        "heroism": 12,
+        "comedy": 13,
+        "immersion": 16,
+        "strategy": 13,
+        "curiosity": 12
+      },
+      "evidence": {
+        "chaos": "a bunch of f****** demons showed up and like crashed the whole thing, they like captured all the wrestlers, including Iro.",
+        "heroism": "Um there is one of the arms sweep into the ocean and pull a huge wave of water that has about 20 sharks in some of the best finery you could imagine.",
+        "comedy": "the captain is s******* the bed. They are bad at their job.",
+        "immersion": "you um like uh you um basically dive out um you're able to like run off the like peak of the boat out and you um arc your way over the edge of the water and then like weave your way in and out of the water.",
+        "strategy": "Let's make you roll about it. Roll uh slide of hand. Um, it's actually about the black hole.",
+        "curiosity": "I wonder if her um if her like what did y'all call it? Lunar Luna Bay. Luna Trench."
+      }
+    },
+    "Leliana": {
+      "scores": {
+        "chaos": 8,
+        "heroism": 13,
+        "comedy": 10,
+        "immersion": 12,
+        "strategy": 12,
+        "curiosity": 10
+      },
+      "evidence": {
+        "chaos": "I'm going to I think I'll drive the boat just for a second so I can storm a little BIC inspiration to uh to Bru.",
+        "heroism": "I'm going to pick one of them uh and cast enemies of bound on one of them.",
+        "comedy": "Turn taco cat.",
+        "immersion": "I think I'll drive the boat. Love it.",
+        "strategy": "I'll get within 120 ft, which I should with my 90 ft of movement. Um, and then do I see a particular individual like is it just one person manning the gun.",
+        "curiosity": "How are we doing on juice levels? Who needs juice?"
+      }
+    },
+    "Silas": {
+      "scores": {
+        "chaos": 13,
+        "heroism": 15,
+        "comedy": 11,
+        "immersion": 13,
+        "strategy": 13,
+        "curiosity": 11
+      },
+      "evidence": {
+        "chaos": "what if we disguised ourselves as members of the Order of St. George and we show up and like, yo, Eldorans, we're betraying you. And we cause a rift between those two groups.",
+        "heroism": "I'm going to use my telekinetic shove to try to spin to try to push the gun on its swivel so that it's pointing at their own deck.",
+        "comedy": "Wakey wakey. Violescence and bakey. Man, we are f****** Frankensteining a dead god.",
+        "immersion": "I'm going to try to teleport myself as close as I can to the boat, even if I end up like being in the water for a second.",
+        "strategy": "what if we disguised ourselves as members of the Order of St. George and we show up and like, yo, Eldorans, we're betraying you. And we cause a rift between those two groups while we're at this.",
+        "curiosity": "Um, okay. Um, how close am I to the edge of the trench?"
+      }
+    }
+  },
+  "superlatives": {
+    "mvp": {
+      "player": "Silas",
+      "quote": "I'm going to use my telekinetic shove to try to spin to try to push the gun on its swivel so that it's pointing at their own deck."
+    },
+    "best_joke": {
+      "player": "Silas",
+      "quote": "Wakey wakey. Violescence and bakey. Man, we are f****** Frankensteining a dead god."
+    },
+    "most_chaotic": {
+      "player": "Bru",
+      "quote": "So anyways, I started blasting."
+    },
+    "decision_driver": "Silas"
+  }
+}

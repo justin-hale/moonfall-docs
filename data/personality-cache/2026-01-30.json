@@ -1,0 +1,130 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-01-30",
+  "model": "claude-haiku-4-5",
+  "players": {
+    "Silas": {
+      "scores": {
+        "chaos": 8,
+        "heroism": 5,
+        "comedy": 12,
+        "immersion": 10,
+        "strategy": 16,
+        "curiosity": 12
+      },
+      "evidence": {
+        "chaos": "Well, okay, but like people would probably buy like filings from a goddess bone, right?",
+        "heroism": "Look, we're No, I'm I'm I'm personally not super invested in the whole fighting against empires thing",
+        "comedy": "I feel like you shouldn't be rubbing suntan lotion in your hair, but yeah",
+        "immersion": "Ow ow ow ow. What the hell?",
+        "strategy": "So, listen for a sec. They are going to try to during we this ritual... What if we just sabotage their equipment?",
+        "curiosity": "I'd also be curious they know about all like the genociding that Elder Rand does"
+      }
+    },
+    "Topher": {
+      "scores": {
+        "chaos": 11,
+        "heroism": 13,
+        "comedy": 11,
+        "immersion": 17,
+        "strategy": 14,
+        "curiosity": 15
+      },
+      "evidence": {
+        "chaos": "And at that point you see three grappling hooks spring from the ship and pierce a huge blue dragon flying above",
+        "heroism": "Not every destructive force is evil. It is in itself an aspect, an agent of chaos, an element of our universe moving forward",
+        "comedy": "Well, tough s***.",
+        "immersion": "You see the skeleton uh of a glowing winged figure. Uh, she appears to be about 400 uh feet long",
+        "strategy": "Many histories describe a dragon species that mutated over thousands of years, eventually becoming a chicken",
+        "curiosity": "It seems like this point is probably a what you kind of are evaluating is that maybe this point is some sort of like teeter totter in a way"
+      }
+    },
+    "Bru": {
+      "scores": {
+        "chaos": 7,
+        "heroism": 8,
+        "comedy": 9,
+        "immersion": 9,
+        "strategy": 14,
+        "curiosity": 13
+      },
+      "evidence": {
+        "chaos": "I have enough bombs to blow up a piece of that headdress. And I'm going to get me a piece.",
+        "heroism": "Bruce quite literally flips a coin uh and it lands on heads and he goes, All right, I guess it's fine. And just pours it in",
+        "comedy": "Nerd. Nerds.",
+        "immersion": "It doesn't smell like old anymore... It smells like new pee",
+        "strategy": "Can we like check the orb? Like is it resonating the closer we are to this this moon god or like is it doing anything that we can gleam from",
+        "curiosity": "Does it does that uh was it noticeable if that like pulse towards the goddess was stronger the closer we got to it"
+      }
+    },
+    "Elspeth": {
+      "scores": {
+        "chaos": 4,
+        "heroism": 8,
+        "comedy": 9,
+        "immersion": 8,
+        "strategy": 9,
+        "curiosity": 8
+      },
+      "evidence": {
+        "chaos": "Yeah. So, either sneak or buy",
+        "heroism": "Anytime.",
+        "comedy": "I'll call Tony",
+        "immersion": "I just feel like I'd be like, Get it together. Come on",
+        "strategy": "Can I roll for smarts to see if I can figure something out on how to sabotage it",
+        "curiosity": "See, that's the thing. Our expertise is really in cars and bomb"
+      }
+    },
+    "Olivia": {
+      "scores": {
+        "chaos": 7,
+        "heroism": 14,
+        "comedy": 13,
+        "immersion": 14,
+        "strategy": 11,
+        "curiosity": 11
+      },
+      "evidence": {
+        "chaos": "I want the trickster god just to like pop up in like you think you don't think I'm around",
+        "heroism": "Well, I did until my city got destroyed... I want them down and the f****** moon",
+        "comedy": "Muscle grandmommy. Grandommy. Yeah, muscle grandmommy.",
+        "immersion": "I think they hear a lot of people just like chanting like go go go go and we're just like like full on like both trying to like trying to beat each other",
+        "strategy": "We'll get we'll sneeze and we'll get a virus and I'll sneeze it and I'll put it on a piece of paper on a little disc",
+        "curiosity": "Yeah. Do I have like anything where I can talk to my God?"
+      }
+    },
+    "Ohma": {
+      "scores": {
+        "chaos": 5,
+        "heroism": 12,
+        "comedy": 9,
+        "immersion": 15,
+        "strategy": 12,
+        "curiosity": 13
+      },
+      "evidence": {
+        "chaos": "I I have a whole like lorish RPG thing. Is giving blood typical of a not like dark ritual?",
+        "heroism": "I I believe that perhaps we should just move forward. I cannot I cannot move past my own feelings",
+        "comedy": "You are wrong. It is a very bad omen for what? One scorpion, three scorpion, five scorpion, but two never",
+        "immersion": "I I have a whole like lorish RPG thing. Is giving blood typical of a not like dark ritual? I feel like anytime you do blood magic, blood donation, it kind of has a a negative twist to it",
+        "strategy": "What if we the sides might be maybe we're not looking out far enough. Maybe the sides aren't between what we've looked at. Maybe it's Elderon and by extension the St. George versus the dragons",
+        "curiosity": "Would there be speedboats that are crystal powered in this world? That's f****** sick"
+      }
+    }
+  },
+  "superlatives": {
+    "mvp": {
+      "player": "Elspeth",
+      "quote": "I have one more flash of genius if you want it"
+    },
+    "best_joke": {
+      "player": "Ohma",
+      "quote": "You are wrong. It is a very bad omen for what? One scorpion, three scorpion, five scorpion, but two never"
+    },
+    "most_chaotic": {
+      "player": "Bru",
+      "quote": "I have enough bombs to blow up a piece of that headdress. And I'm going to get me a piece"
+    },
+    "decision_driver": "Silas"
+  }
+}

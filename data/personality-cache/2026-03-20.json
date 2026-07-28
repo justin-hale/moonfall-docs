@@ -1,0 +1,94 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-03-20",
+  "model": "claude-haiku-4-5",
+  "players": {
+    "Bru": {
+      "scores": {
+        "chaos": 9,
+        "heroism": 15,
+        "comedy": 12,
+        "immersion": 10,
+        "strategy": 18,
+        "curiosity": 11
+      },
+      "evidence": {
+        "chaos": "I'm really just ignoring it. I'm just ignoring that you thing.",
+        "heroism": "I didn't use my action on my turn. Can I just cast Levitate on Olivia?",
+        "comedy": "I I could drink brown while I bathe in brown.",
+        "immersion": "I'm perceptive. Not only that, my passive perception is 25. I do be like that, my friend.",
+        "strategy": "I'm going to hex that one because then if it dies, I'll just bounce the hex.",
+        "curiosity": "Did my move to the one in the sky instead then?"
+      }
+    },
+    "Silas": {
+      "scores": {
+        "chaos": 10,
+        "heroism": 12,
+        "comedy": 14,
+        "immersion": 14,
+        "strategy": 14,
+        "curiosity": 17
+      },
+      "evidence": {
+        "chaos": "I strategically hid myself. I'm like right underneath you guys. Whatever.",
+        "heroism": "I come up to Bru and I hand him like a pint of ice cream and like a box of tissues.",
+        "comedy": "Horse blister sounds like it'd be a really nasty spell.",
+        "immersion": "I've been talking out my ass at people way more powerful than me, literally my whole life. This is just another the same thing on a different scale.",
+        "strategy": "If we were to maybe uh acquire some of uh her holy relics, would that diminish her? And especially if we brought them to you and you like, you know, absorbed its mojo or whatever.",
+        "curiosity": "Can you give us a little bit better understanding of your relationship with these dragons? And why did the dwarves seal away Astro? Was was she just going to eat everything?"
+      }
+    },
+    "Olivia": {
+      "scores": {
+        "chaos": 11,
+        "heroism": 13,
+        "comedy": 12,
+        "immersion": 10,
+        "strategy": 12,
+        "curiosity": 11
+      },
+      "evidence": {
+        "chaos": "We're going to start blowing up a lot of outdoor stuff.",
+        "heroism": "I'm going to misty step up there into space and whack at them.",
+        "comedy": "I'm writing it down and underlining it. Space bowls. Fascinating.",
+        "immersion": "She is going to attack. Smash them with a battle axe. The 19 hit.",
+        "strategy": "I think we need to talk to Viper and get a better understanding of what's happening because we only know so much.",
+        "curiosity": "So, the space bowl is not the space station, correct? They're two different things."
+      }
+    },
+    "Topher": {
+      "scores": {
+        "chaos": 9,
+        "heroism": 11,
+        "comedy": 12,
+        "immersion": 15,
+        "strategy": 14,
+        "curiosity": 13
+      },
+      "evidence": {
+        "chaos": "Jesus Christ. If I could roll above a 10, that would be really, really cool.",
+        "heroism": "Everybody behind me now.",
+        "comedy": "Victor Victor pops out of a bush uh um and says, Wait, do y'all want to blow up an Eldoran capital?",
+        "immersion": "You see uh what looks like tears opening. um across like wet black paper. And you see these void figures, human-shaped um edged with what looks like, uh starlight.",
+        "strategy": "Um, the um one of these uh void figures is going to go first, the larger one.",
+        "curiosity": "Anyone who wants to give me an insight arcana religion."
+      }
+    }
+  },
+  "superlatives": {
+    "mvp": {
+      "player": "Bru",
+      "quote": "I didn't use my action on my turn. Can I just cast Levitate on Olivia?"
+    },
+    "best_joke": {
+      "player": "Silas",
+      "quote": "Horse blister sounds like it'd be a really nasty spell."
+    },
+    "most_chaotic": {
+      "player": "Bru",
+      "quote": "we're going to blow up a whole bunch of stuff."
+    },
+    "decision_driver": "Silas"
+  }
+}

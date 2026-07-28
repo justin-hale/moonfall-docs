@@ -1,0 +1,112 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-04-17",
+  "model": "claude-haiku-4-5",
+  "players": {
+    "Bru": {
+      "scores": {
+        "chaos": 9,
+        "heroism": 13,
+        "comedy": 9,
+        "immersion": 7,
+        "strategy": 15,
+        "curiosity": 11
+      },
+      "evidence": {
+        "chaos": "Could somebody roll for me? I'm in the middle of the yard at the moment.",
+        "heroism": "They're all frightened of the head mistress, right? Or headmaster. Okay. Can I can I minor illusion the head mistress rounding the corner in front of her?",
+        "comedy": "And we know you won't carry me. Can't. Won't",
+        "immersion": "Uh, probably not. I probably just didn't reset it from",
+        "strategy": "I will say that psychically. Hey guys, we only have probably a couple of minutes before the police show up here, so we got to make whatever we're doing snappy.",
+        "curiosity": "Does Crimson see anybody coming like reinforcements or anything?"
+      }
+    },
+    "Topher": {
+      "scores": {
+        "chaos": 13,
+        "heroism": 10,
+        "comedy": 15,
+        "immersion": 14,
+        "strategy": 13,
+        "curiosity": 12
+      },
+      "evidence": {
+        "chaos": "Um, okay, the very last thing we left off was Leliana giving the game away as and uh several um several faces of Elsp look directly at you.",
+        "heroism": "Um, okay. Um, okay. Do you want to do you want to roll a check?",
+        "comedy": "We don't need no education and she begins to walk towards you.",
+        "immersion": "Um, uh, the doctor now, um, she says, You won't get away with us. And she pulls out her gun and um and shoots a fireball.",
+        "strategy": "Um, so you go a couple blocks, you find an alley, uh, you start setting up the pocket village.",
+        "curiosity": "remind me who is in uh this scene right now. It's Leliana and Silas."
+      }
+    },
+    "Leliana": {
+      "scores": {
+        "chaos": 9,
+        "heroism": 15,
+        "comedy": 9,
+        "immersion": 11,
+        "strategy": 13,
+        "curiosity": 11
+      },
+      "evidence": {
+        "chaos": "I'm going to try to be out of reach of all these elizabeths. So, I'm gonna try to I'll try to misty set my way up to the ceiling of this room",
+        "heroism": "relax, relax, relax if you get it. Um, wisdom 17 for each of them.",
+        "comedy": "I was trying to come up with a Pink Floyd reference to album Animals, but I couldn't think fast enough.",
+        "immersion": "I'll try to I guess in character I'll say something like, Hey, you in the hallway. Um, don't you want to be amongst your friends",
+        "strategy": "I'm going to upcast commands um on all three of them to basically I guess halt.",
+        "curiosity": "So, they've been So, they've been in these simulators practicing racing basically."
+      }
+    },
+    "Elspeth": {
+      "scores": {
+        "chaos": 14,
+        "heroism": 17,
+        "comedy": 10,
+        "immersion": 16,
+        "strategy": 14,
+        "curiosity": 12
+      },
+      "evidence": {
+        "chaos": "I could probably just kick my brother out of the car, you know what I mean? Kind of steal my brother's car and then I can see what Belspeth Booper really's got up her sleeve",
+        "heroism": "Teens, we're here to rescue you. I don't know any of your names except Meera, but we're here to help.",
+        "comedy": "Can you put a cap on me backwards? Bru, can you put a cap on me backwards?",
+        "immersion": "I'm a bad kid now. I'm not nice El Smith anymore.",
+        "strategy": "Maybe I'll just go in without a lawyer and then if you need to bail me out, then you can be a lawyer. Okay.",
+        "curiosity": "What is your name? We'll figure it out."
+      }
+    },
+    "Silas": {
+      "scores": {
+        "chaos": 11,
+        "heroism": 13,
+        "comedy": 12,
+        "immersion": 13,
+        "strategy": 15,
+        "curiosity": 13
+      },
+      "evidence": {
+        "chaos": "So, I'm going to try to throw my dagger at her again. I want to see if it was just a low roll or if uh she has some sort of like b******* I can't overcome.",
+        "heroism": "Yeah. I'm about to ask are we with you? Oh, if you do that, I guess the rest of us could do like the the like hype squad thing",
+        "comedy": "Teens only respect muscles, so it's got to be con,",
+        "immersion": "I yell dark side of the moon and um goes like straight down into her head.",
+        "strategy": "Um, I want to use my uh my spiderweb thing to try to stick the two that are uh not part of the hug so they don't go anywhere.",
+        "curiosity": "they're like using some sort of weird fungus s*** to transform these kids."
+      }
+    }
+  },
+  "superlatives": {
+    "mvp": {
+      "player": "Elspeth",
+      "quote": "Teens, we're here to rescue you. I don't know any of your names except Meera, but we're here to help."
+    },
+    "best_joke": {
+      "player": "Silas",
+      "quote": "No car in the world will compensate for your lack of skill."
+    },
+    "most_chaotic": {
+      "player": "Elspeth",
+      "quote": "I could probably just kick my brother out of the car, you know what I mean? Kind of steal my brother's car"
+    },
+    "decision_driver": "Elspeth"
+  }
+}

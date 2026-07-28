@@ -1,0 +1,112 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-02-27",
+  "model": "claude-haiku-4-5",
+  "players": {
+    "Elspeth": {
+      "scores": {
+        "chaos": 12,
+        "heroism": 16,
+        "comedy": 12,
+        "immersion": 14,
+        "strategy": 15,
+        "curiosity": 12
+      },
+      "evidence": {
+        "chaos": "I shoot the ground in front of it and I'm like, 'Yeah, yeah, yeah, yeah.' It wasn't the gun that did it.",
+        "heroism": "Elspeth just keep her closer to him like off the roof.",
+        "comedy": "Like you don't even have to say anything else. Yeah, that's kind of the least you can do, bro.",
+        "immersion": "Can I use the fire escape and get to the roof?",
+        "strategy": "I'm gonna try and cast web on them.",
+        "curiosity": "What's he doing over there?"
+      }
+    },
+    "Silas": {
+      "scores": {
+        "chaos": 13,
+        "heroism": 10,
+        "comedy": 16,
+        "immersion": 16,
+        "strategy": 15,
+        "curiosity": 12
+      },
+      "evidence": {
+        "chaos": "I'm going to roll a d20. And if they roll higher than 10, then they're just going to f****** try to book it.",
+        "heroism": "This is a development I was not expecting for uh the adventure.",
+        "comedy": "Keep the change, you filthy animal.",
+        "immersion": "On the wall there's a a portrait of the Steve Squad, the one that uh Luke's sister did, and a portrait of him and his sister when they were young.",
+        "strategy": "Um, okay. So, uh, Bru is going to keep setting up traps unless somebody wants to roll for him.",
+        "curiosity": "What do you guys want to do? And yeah, you do have the power to like coordinate with the psychic phone here."
+      }
+    },
+    "Topher": {
+      "scores": {
+        "chaos": 15,
+        "heroism": 13,
+        "comedy": 12,
+        "immersion": 13,
+        "strategy": 14,
+        "curiosity": 12
+      },
+      "evidence": {
+        "chaos": "I'm going to cast fireball at fifth level.",
+        "heroism": "Well, um I'll uh hop out, meet the purveyor, and uh get my stuff going.",
+        "comedy": "I think I think Bru and I work on like a Home Alone style booby traps.",
+        "immersion": "Um, so we definitely set up a can of brown above the door.",
+        "strategy": "Um, yeah, like if Olivia wanted to close the distance, uh slow would also make them like particularly susceptible to getting absolutely wrecked.",
+        "curiosity": "Um, so it's an area. So yeah, like I was kind of thinking uh wisdom 17."
+      }
+    },
+    "Leliana": {
+      "scores": {
+        "chaos": 12,
+        "heroism": 14,
+        "comedy": 13,
+        "immersion": 14,
+        "strategy": 15,
+        "curiosity": 13
+      },
+      "evidence": {
+        "chaos": "Uh, I want to target one of the um one of the things that has not had a psychic dagger stuck in them.",
+        "heroism": "Um I'm going to have Bru kind of go off in the corner and start to construct something, a uh a makeshift weapon to neutralize these folks.",
+        "comedy": "Oh, it's a plastic. There's just, oh, we got kittied. Oh, yeah. We making biscuits.",
+        "immersion": "Um, I'm going to have a little flexibility with the mirror image still. Um in that um we're going to do like a what the f***** the guy uh Benny Hall kind of thing.",
+        "strategy": "Um, I think today has been long enough. I need you to go back home and go to bed.",
+        "curiosity": "What are the uh patients?"
+      }
+    },
+    "Olivia": {
+      "scores": {
+        "chaos": 12,
+        "heroism": 17,
+        "comedy": 13,
+        "immersion": 15,
+        "strategy": 14,
+        "curiosity": 13
+      },
+      "evidence": {
+        "chaos": "I might jump in the water if you want me to jump in the water.",
+        "heroism": "As a retired detective, people's problems are always my problems. It is part of it's what we do.",
+        "comedy": "Ninja Crowd Surfed and I was holding his foot and a little bit of his ball sack was like sticking out of his shorts.",
+        "immersion": "Um, I'm going to jump in the water. I'm going to charge at them.",
+        "strategy": "I'm just going to misty step underwater and just go right up next to him and splash at him.",
+        "curiosity": "What is it? A nature check. Do I think he's using magic to control the sharks?"
+      }
+    }
+  },
+  "superlatives": {
+    "mvp": {
+      "player": "Olivia",
+      "quote": "23 and then 24 to hit. The second would only be 16. So, 22 for the first attack."
+    },
+    "best_joke": {
+      "player": "Topher",
+      "quote": "Keep the change, you filthy animal."
+    },
+    "most_chaotic": {
+      "player": "Topher",
+      "quote": "I'm going to cast fireball at fifth level."
+    },
+    "decision_driver": "Olivia"
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "schema_version": "1.0",
+  "date": "2025-11-14",
+  "model": "claude-haiku-4-5",
+  "players": {
+    "Bru": {
+      "scores": {
+        "chaos": 17,
+        "heroism": 4,
+        "comedy": 8,
+        "immersion": 9,
+        "strategy": 11,
+        "curiosity": 8
+      },
+      "evidence": {
+        "chaos": "I'm gonna I'm gonna throw an M80 in the toilet.",
+        "heroism": "Well, now you definitely know. Yeah. Well, now you definitely know.",
+        "comedy": "Goblins only poop like once a week. is fine. It's normal for goblins.",
+        "immersion": "I'd assume all of us like in front well from her perspective like gathered in front of Bartleby",
+        "strategy": "I put on the slippers. I uh I walk down the uh the side of the building. I get down to the sewer. I put some remote detonate charge um uh C4.",
+        "curiosity": "Is there is there windows from one of the adjacent buildings facing the windows of the building we're trying to get into?"
+      }
+    },
+    "Silas": {
+      "scores": {
+        "chaos": 11,
+        "heroism": 9,
+        "comedy": 14,
+        "immersion": 16,
+        "strategy": 14,
+        "curiosity": 13
+      },
+      "evidence": {
+        "chaos": "Um, okay. Um, Bru, you actually hear a crashing noise coming from downstairs and a lot of yelling. Simultaneously, an alarm starts sounding throughout the building.",
+        "heroism": "Yeah, this is kind of a plot driven moment, unfortunately.",
+        "comedy": "Apparently, they're taking up a residency at some casino somewhere. If I ever meet the person who booked them over there, I'm going to be really cross with them.",
+        "immersion": "Yeah. So, there's like a there's like magic weave like going all through us, all throughout this room. It's like kind of crazy.",
+        "strategy": "Each one of these hallways has a button that opens the door and disarms the traps in the other hallway.",
+        "curiosity": "Um, I want to make sure that the Order of St. George showed up at some point, right? If you guys had gone in and started fighting, they probably would have shown up a lot sooner"
+      }
+    },
+    "Ohma": {
+      "scores": {
+        "chaos": 6,
+        "heroism": 10,
+        "comedy": 9,
+        "immersion": 11,
+        "strategy": 11,
+        "curiosity": 9
+      },
+      "evidence": {
+        "chaos": "I'm going to stay by my button.",
+        "heroism": "Yeah. Are you sure? I'll meet you. All right. I'll meet you in the car.",
+        "comedy": "Oh, I got me a real powerhouse. I get it started for you. Kind of loud. The V8.",
+        "immersion": "Hey, uh, hey, uh Andy, are you ready for this? You you got me a little worried. You seem a little nervous.",
+        "strategy": "I'm gonna make it, um, back to the zip line and do like the the zip to the other side if I can.",
+        "curiosity": "Did they say how many floors that are total?"
+      }
+    },
+    "Olivia": {
+      "scores": {
+        "chaos": 5,
+        "heroism": 18,
+        "comedy": 7,
+        "immersion": 12,
+        "strategy": 10,
+        "curiosity": 9
+      },
+      "evidence": {
+        "chaos": "I mean, I feel like a covert operation might be best.",
+        "heroism": "No, no. Peaches is carrying cream. I'm trying to...",
+        "comedy": "That's so cute.",
+        "immersion": "Peaches. Peaches just looks poor for Laurenly back at the other side. Like, man, I wish I could go again.",
+        "strategy": "Like, do we have a bag of holding? Maybe we do have a hole. That is true.",
+        "curiosity": "What the f***? I don't know what to do. Okay. Can I get a small recap?"
+      }
+    },
+    "Topher": {
+      "scores": {
+        "chaos": 11,
+        "heroism": 7,
+        "comedy": 13,
+        "immersion": 11,
+        "strategy": 8,
+        "curiosity": 8
+      },
+      "evidence": {
+        "chaos": "360 nocope. Okay, so that was a 19 plus eight. So 27 to hit.",
+        "heroism": "I don't think that's the part you need to focus on the no scope part. The part the lack of scope skill.",
+        "comedy": "No, it's where you don't even look down your sights. You just spin around in a circle and then you shoot him in the head.",
+        "immersion": "I look great in this dress. Don't I spoons? That's what you told them.",
+        "strategy": "Alma will take the the slippers of spider climbing. Take one a pair.",
+        "curiosity": "Um, so like the uh I mean you already got a map with a secret door. I mean you already got a map with a secret door."
+      }
+    },
+    "Elspeth": {
+      "scores": {
+        "chaos": 6,
+        "heroism": 18,
+        "comedy": 8,
+        "immersion": 13,
+        "strategy": 11,
+        "curiosity": 10
+      },
+      "evidence": {
+        "chaos": "Let's be careful, guys. You've gotten to blow something up. Let's let somebody else do something.",
+        "heroism": "And their sander immediately jumps in front of Alma that we know. She takes the bullets.",
+        "comedy": "I don't spread germs. That's not how I do it. I don't love it.",
+        "immersion": "Yeah. Got to process. Let's see. Let's see. I'm gonna squint real hard. You know how that helps.",
+        "strategy": "Yeah. The blue one. Oh Beautiful. my goodness. And she's going to go around and touch more of the the colors",
+        "curiosity": "Okay. So, I was thinking there Sander just has just like a bunch of papers around him and he's like constantly scribbling and there's like all these codes."
+      }
+    }
+  },
+  "superlatives": {
+    "mvp": {
+      "player": "Olivia",
+      "quote": "No, no. Peaches is carrying cream. I'm trying to..."
+    },
+    "best_joke": {
+      "player": "Topher",
+      "quote": "No, it's where you don't even look down your sights. You just spin around in a circle and then you shoot him in the head."
+    },
+    "most_chaotic": {
+      "player": "Bru",
+      "quote": "I'm gonna I'm gonna throw an M80 in the toilet."
+    },
+    "decision_driver": "Elspeth"
+  }
+}

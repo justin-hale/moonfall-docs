@@ -1273,7 +1273,139 @@
         "nat20_mentions": 2,
         "nat1_mentions": 0
       },
-      "personality": null
+      "personality": {
+        "scores": {
+          "Helisanna": {
+            "chaos": 13,
+            "heroism": 9,
+            "comedy": 8,
+            "immersion": 14,
+            "strategy": 10,
+            "curiosity": 7
+          },
+          "Topher": {
+            "chaos": 10,
+            "heroism": 10,
+            "comedy": 12,
+            "immersion": 14,
+            "strategy": 13,
+            "curiosity": 10
+          },
+          "Silas": {
+            "chaos": 6,
+            "heroism": 10,
+            "comedy": 14,
+            "immersion": 12,
+            "strategy": 15,
+            "curiosity": 16
+          },
+          "Bru": {
+            "chaos": 8,
+            "heroism": 11,
+            "comedy": 8,
+            "immersion": 11,
+            "strategy": 13,
+            "curiosity": 7
+          },
+          "Olivia": {
+            "chaos": 6,
+            "heroism": 18,
+            "comedy": 6,
+            "immersion": 11,
+            "strategy": 16,
+            "curiosity": 8
+          },
+          "Ohma": {
+            "chaos": 11,
+            "heroism": 13,
+            "comedy": 10,
+            "immersion": 15,
+            "strategy": 10,
+            "curiosity": 12
+          },
+          "Elspeth": {
+            "chaos": 8,
+            "heroism": 15,
+            "comedy": 8,
+            "immersion": 12,
+            "strategy": 12,
+            "curiosity": 7
+          }
+        },
+        "evidence": {
+          "Helisanna": {
+            "chaos": "I'm going say during the long rest I dream of various ways of murdering crying one.",
+            "heroism": "Helisana managed to keep her cool though and instead is directing all of our uh our headbangers to build us a kick-ass stage",
+            "comedy": "I don't know. All I know is like there's like a white and green. Not",
+            "immersion": "I'm going to uh reach into my bag and pull out a a small little purple vial and uh drop it into my eyes. Yeah. f*** yeah. That's the good s***.",
+            "strategy": "I'm going vote left side personally for no real reason",
+            "curiosity": "Um, does Helan know of any drugs commonly referred to as cheese?"
+          },
+          "Topher": {
+            "chaos": "The dragons are going to wait for you. Uh, and if you don't give them a magical hole straight to where they need to go, then they're going to destroy the whole city.",
+            "heroism": "As DM, neutral position",
+            "comedy": "It came in like a bento box and everything it was gross.",
+            "immersion": "You see uh ravers begin to break from the mosh and uh they they kind of freeze up. They they um they stop moving.",
+            "strategy": "So y'all are y'all are going through the sewers and it opens up to this nightclub and you see uh at the top you see uh that there's this big ass baby playing um like metal EDM",
+            "curiosity": "Let me let me uh lay down some of the key facts that you're missing."
+          },
+          "Silas": {
+            "chaos": "I feel like I feel like I'm going to follow Olivia's lead on like investigating a crime.",
+            "heroism": "I guess I'll uh use my reaction to uncanny dodge and half that",
+            "comedy": "I did once single-handedly win a comic book trivia contest at Adventure Science Center by myself. I did say single-handedly, so I was a little redundant",
+            "immersion": "I'm assuming that like uh I was picturing like Silus in like the like the biker chick position behind Olivia",
+            "strategy": "I can move through my allies. That is a specific thing that a halfling can do.",
+            "curiosity": "If they're both connected to this place, is there a good chance that there's a connection? between the missing"
+          },
+          "Bru": {
+            "chaos": "Um, is this is this the only place you've ever had pizza?",
+            "heroism": "I'm going to fashion together a combination of ratchet straps and chain uh to fashion a harness",
+            "comedy": "Are they the Costco like Chick-fil-A nugget uh imitation ones?",
+            "immersion": "Bru, you better calm down. If you want pizza, you better calm down. Know you want pizza.",
+            "strategy": "I'm going to use hex on Kang. And then I'm going to uh So that does stuff for me",
+            "curiosity": "Uh hey. Um this place is dead, but uh there's there's someone that went into the sewer over here"
+          },
+          "Olivia": {
+            "chaos": "Um, honestly, I'm not sure I've used anything",
+            "heroism": "I need you all to stay within ten feet of me",
+            "comedy": "Yeah, honey. There is no active police force right now.",
+            "immersion": "Yeah, it's Bob. I'm on Bob. Yeah, because I have that uh feet where I have advantage while I'm mounted.",
+            "strategy": "I'm going to use my reaction to impose disadvantage on that attack",
+            "curiosity": "Did we notice any change after the first of the discs was destroyed?"
+          },
+          "Ohma": {
+            "chaos": "All right. Well, uh, I'm gonna go ahead and try to attack. Do the thing for me. Here we go.",
+            "heroism": "I could not leave Helisana behind. I will use my first action to dash.",
+            "comedy": "I have never exper this just plain three cheese pizza. Perfect. is it it is like something ancestral.",
+            "immersion": "Um yes, you are all my guides in this way of the pizza. I want to watch you crush crang one.",
+            "strategy": "I'm going to use my step of the wind uh as like a bonus action to just continue to dash.",
+            "curiosity": "What is going on here? Nobody seems to know anything. I cannot stand the amount of How is it that Silas doesn't know?"
+          },
+          "Elspeth": {
+            "chaos": "Do Olivia and I have our own opinions on the better pizza in the city?",
+            "heroism": "I run over to Helisana number one and then I put my hands on her face and I heal her.",
+            "comedy": "Just I'll execute him. Yeah, it's fine. Yeah. No, that's a given.",
+            "immersion": "I move up to her just so I'm standing with her. And then I'm going to shoot my gun at one of the speakers",
+            "strategy": "I'm going to shoot my gun at one of the speakers, I think. Can I point. Did that do anything?",
+            "curiosity": "There's a pizza on the menu with apples and blueberries and lettuce. You're garbage and you're stupid."
+          }
+        },
+        "superlatives": {
+          "mvp": {
+            "player": "Olivia",
+            "quote": "I need you all to stay within ten feet of me"
+          },
+          "best_joke": {
+            "player": "Silas",
+            "quote": "I did once single-handedly win a comic book trivia contest at Adventure Science Center by myself. I did say single-handedly, so I was a little redundant"
+          },
+          "most_chaotic": {
+            "player": "Helisanna",
+            "quote": "I'm going say during the long rest I dream of various ways of murdering crying one."
+          },
+          "decision_driver": "Helisanna"
+        }
+      }
     },
     {
       "id": "session-34",
@@ -1376,7 +1508,123 @@
         "nat20_mentions": 1,
         "nat1_mentions": 0
       },
-      "personality": null
+      "personality": {
+        "scores": {
+          "Topher": {
+            "chaos": 15,
+            "heroism": 10,
+            "comedy": 9,
+            "immersion": 18,
+            "strategy": 16,
+            "curiosity": 15
+          },
+          "Bru": {
+            "chaos": 8,
+            "heroism": 12,
+            "comedy": 10,
+            "immersion": 9,
+            "strategy": 17,
+            "curiosity": 12
+          },
+          "Silas": {
+            "chaos": 7,
+            "heroism": 14,
+            "comedy": 12,
+            "immersion": 14,
+            "strategy": 15,
+            "curiosity": 14
+          },
+          "Leliana": {
+            "chaos": 6,
+            "heroism": 13,
+            "comedy": 11,
+            "immersion": 17,
+            "strategy": 10,
+            "curiosity": 12
+          },
+          "Elspeth": {
+            "chaos": 8,
+            "heroism": 15,
+            "comedy": 11,
+            "immersion": 14,
+            "strategy": 12,
+            "curiosity": 13
+          },
+          "Olivia": {
+            "chaos": 7,
+            "heroism": 16,
+            "comedy": 10,
+            "immersion": 12,
+            "strategy": 16,
+            "curiosity": 14
+          }
+        },
+        "evidence": {
+          "Topher": {
+            "chaos": "I glitch all the digital dice in my favor",
+            "heroism": "I'll say, you know, I would say like at this level, you do have flight or fight instincts and and you're surrounded and everyone has left you",
+            "comedy": "Yeah, that's you with the wizard hat. You're a wizard, Francis",
+            "immersion": "My rockar, my doomfall, why do you turn away from me?",
+            "strategy": "I have two weeks to think about it",
+            "curiosity": "Um uh I feel like dwarves probably have a pretty common like oral story culture of passing down stories through lineage"
+          },
+          "Bru": {
+            "chaos": "I'm going to cast shatter",
+            "heroism": "I'm going to use my reaction for shield",
+            "comedy": "Do you want to boop the nose? Do you want to boop the nose?",
+            "immersion": "I'm pointing my uh my crossbow with all the thingies in it and firing in the like equidistant between the two",
+            "strategy": "calling a timeout. What are we doing? All right. So, so calling a timeout",
+            "curiosity": "How how does saving throws work against the speakers?"
+          },
+          "Silas": {
+            "chaos": "I'm going to try to staby stab um the mob that just hit me",
+            "heroism": "Well, s***. I guess we're betting everything on that. Great",
+            "comedy": "How many different ways can I say go f*** yourself tonight?",
+            "immersion": "I'm just picturing Silus is like basically just like full-on Frankenstein's monster like running away",
+            "strategy": "I'm going to try to stab the one that was the weakest",
+            "curiosity": "Can a speaker take psychic damage?"
+          },
+          "Leliana": {
+            "chaos": "Um, I want to punch some things",
+            "heroism": "I mean, I just don't want to be trapped in there again, though",
+            "comedy": "Well, you kind of look I don't know. You don't look well. Have you Are you getting sun? You need to get out in nature, honey, and just, you know, go pick some flowers or something",
+            "immersion": "I remember I was playing I was just the usual open mic rotation. Um and uh some some stranger like told me about this",
+            "strategy": "I want to punch some things. Uh, and uh",
+            "curiosity": "Do I get to pick or is it a I should just do a rice dice roll"
+          },
+          "Elspeth": {
+            "chaos": "I'm gonna focus still. Else is determined to kill these speakers. She thinks something good will happen when they're all dead",
+            "heroism": "I'll try my best",
+            "comedy": "Living that f****** best life. man knows what he likes",
+            "immersion": "Um, I am curious about where box went. I know he was a corpse. I just don't see it on the screen",
+            "strategy": "So is Helisana doing saving throws",
+            "curiosity": "What's your vibe of music? Like I'm assuming you play like kind of folk music like Kobe?"
+          },
+          "Olivia": {
+            "chaos": "I'm going to use Bob's faceep to face step to Helisana and use protect from good and evil on her",
+            "heroism": "I'm going to reach down and touch Silus's face and use um protect and shield him and impose disadvantage on that attack roll that hit",
+            "comedy": "I tried googling this while I was waiting for my turn",
+            "immersion": "I don't think she's real",
+            "strategy": "We should go I wanted to go for the speakers. They're the two gold orbs next to Silus",
+            "curiosity": "Are they considered like celestials or fiends or specifically Helisana's god? I was trying to figure this out while we were talking"
+          }
+        },
+        "superlatives": {
+          "mvp": {
+            "player": "Silas",
+            "quote": "Um 28 damage"
+          },
+          "best_joke": {
+            "player": "Silas",
+            "quote": "How many different ways can I say go f*** yourself tonight?"
+          },
+          "most_chaotic": {
+            "player": "Bru",
+            "quote": "So maybe maybe we sit at the concert and at the end of the concert I point the fireworks at her face. No, it's not kill. It's just knockout"
+          },
+          "decision_driver": "Silas"
+        }
+      }
     },
     {
       "id": "session-35",
@@ -1484,7 +1732,123 @@
         "nat20_mentions": 0,
         "nat1_mentions": 0
       },
-      "personality": null
+      "personality": {
+        "scores": {
+          "Ohma": {
+            "chaos": 6,
+            "heroism": 9,
+            "comedy": 8,
+            "immersion": 9,
+            "strategy": 10,
+            "curiosity": 7
+          },
+          "Leliana": {
+            "chaos": 4,
+            "heroism": 14,
+            "comedy": 9,
+            "immersion": 12,
+            "strategy": 8,
+            "curiosity": 10
+          },
+          "Topher": {
+            "chaos": 12,
+            "heroism": 10,
+            "comedy": 13,
+            "immersion": 14,
+            "strategy": 10,
+            "curiosity": 9
+          },
+          "Silas": {
+            "chaos": 9,
+            "heroism": 12,
+            "comedy": 9,
+            "immersion": 12,
+            "strategy": 15,
+            "curiosity": 12
+          },
+          "Olivia": {
+            "chaos": 5,
+            "heroism": 11,
+            "comedy": 6,
+            "immersion": 11,
+            "strategy": 10,
+            "curiosity": 8
+          },
+          "Bru": {
+            "chaos": 13,
+            "heroism": 6,
+            "comedy": 11,
+            "immersion": 9,
+            "strategy": 10,
+            "curiosity": 8
+          }
+        },
+        "evidence": {
+          "Ohma": {
+            "chaos": "I am the ninja turtle. Yes.",
+            "heroism": "I would much rather use my gold to help pay for the others things I need. I also would love to see Kevin with a multitude of ammunitions.",
+            "comedy": "I am the ninja turtle. Yes.",
+            "immersion": "I give him a little nudge and a grin and say I am the ninja turtle. Yes.",
+            "strategy": "Would it make any sense if we just poisoned Kang one and avoided all the other casualties? Uh, he is a big baby.",
+            "curiosity": "Is this only on PC or can I play this on a console?"
+          },
+          "Leliana": {
+            "chaos": "Uh, I'm going to definitely drink it with a pinky up. I'm definitely going to drink it. Pinkies up for sure.",
+            "heroism": "Please don't die. You're just can't happen.",
+            "comedy": "I'm going to definitely drink it with a pinky up.",
+            "immersion": "I think that she will have seen and noticed that Alisana does indeed or has some shredder does care about the park and so therefore she is worth attempting to save.",
+            "strategy": "I mean, she's been trying to get famous and recognized ever since this whole deal with her patron. Now that she's finally getting it, I don't think she's going to want to give it up.",
+            "curiosity": "Um, are Helisana and Leliana incomplete parts of the same person or are they like they're each their own full actualized person at this point?"
+          },
+          "Topher": {
+            "chaos": "Um, Jonathan, please, please. I don't want to die. Look at him. He's got psychic daggers.",
+            "heroism": "uh, well, if that didn't bother you, then I guess you can do this this eating contest with Crang One.",
+            "comedy": "I am Mr. triple bottom. And I am the proprietor of this weapons and armor store.",
+            "immersion": "Um, there's a bar. Um well, so what you actually see is um there are gathered like food stuffs that were originally like stores for the aqua farms that used to be down here um that they've repurposed into like an ery.",
+            "strategy": "Um cool. Yeah. You head back um to the system uh head back into the sewers.",
+            "curiosity": "Um, so are y'all doing anything specific as as you kind of like walk through here in the public?"
+          },
+          "Silas": {
+            "chaos": "Psychic dagger's out. Okay. Actually, we probably should go. They apparently know the iron claws and we shouldn't uh reveal that it's us here.",
+            "heroism": "I saved you from the synthesis lab. Seriously though, I saved you and like all the like dozen other people. Like that's that's heroic.",
+            "comedy": "Well, I don't honestly don't know if we meant anything to Helisana, but Helisana meant something to us, I think.",
+            "immersion": "I will actually like open the closet door for Bru and be like, Well, we've been stuck with each other for long enough now, Bru, I don't doubt it.",
+            "strategy": "Do we have a map of High Forge that is uh detailed enough for us to use our magic paint to create a vertical route from the top of the city to the forge heart? That is a crucial part of our plan to get the dragons in.",
+            "curiosity": "Um, is Helisana and Leliana incomplete parts of the same person or are they like they're each their own full actualized person at this point?"
+          },
+          "Olivia": {
+            "chaos": "Um, she is just going to like kick down the door and be like, What the f*** are you doing in my apartment?",
+            "heroism": "Well, we'll discuss that one maybe, but definitely not the ravers. They're just children in a thrral.",
+            "comedy": "Where did you do my family photos?",
+            "immersion": "I mean I wouldn't have Yeah, I thought she was trying to run to us.",
+            "strategy": "Um, is Olivia Cooper so well loved amongst the population that she could like stabilize the the populace for the short term?",
+            "curiosity": "Um, oh yeah, by the way, is it an 18 and under nightclub?"
+          },
+          "Bru": {
+            "chaos": "I I drank that poison. Am I gonna die in two hours?",
+            "heroism": "I mean, I'm not advertising that. I'm not either.",
+            "comedy": "You're a weak person. I I know this. I'm not advertising that.",
+            "immersion": "Bru's already got a a mobile pot cooking full of stew in preparation for the alcohol.",
+            "strategy": "Um, flasks of oil, flammable oil preferably.",
+            "curiosity": "Um, there would be like 10 of them. Uh one gold would be 10 flasks of oil."
+          }
+        },
+        "superlatives": {
+          "mvp": {
+            "player": "Leliana",
+            "quote": "um and I'll cast wounds on you or a f*** ton of health. 49"
+          },
+          "best_joke": {
+            "player": "Leliana",
+            "quote": "I'm going to definitely drink it with a pinky up."
+          },
+          "most_chaotic": {
+            "player": "Bru",
+            "quote": "I I drank that poison. Am I gonna die in two hours?"
+          },
+          "decision_driver": "Silas"
+        }
+      }
     },
     {
       "id": "session-36",
@@ -1631,7 +1995,139 @@
         "nat20_mentions": 1,
         "nat1_mentions": 0
       },
-      "personality": null
+      "personality": {
+        "scores": {
+          "Topher": {
+            "chaos": 15,
+            "heroism": 10,
+            "comedy": 14,
+            "immersion": 18,
+            "strategy": 14,
+            "curiosity": 14
+          },
+          "Leliana": {
+            "chaos": 10,
+            "heroism": 15,
+            "comedy": 10,
+            "immersion": 12,
+            "strategy": 11,
+            "curiosity": 8
+          },
+          "Silas": {
+            "chaos": 13,
+            "heroism": 12,
+            "comedy": 11,
+            "immersion": 15,
+            "strategy": 17,
+            "curiosity": 10
+          },
+          "Elspeth": {
+            "chaos": 7,
+            "heroism": 14,
+            "comedy": 8,
+            "immersion": 11,
+            "strategy": 11,
+            "curiosity": 10
+          },
+          "Ohma": {
+            "chaos": 6,
+            "heroism": 14,
+            "comedy": 9,
+            "immersion": 11,
+            "strategy": 11,
+            "curiosity": 12
+          },
+          "Bru": {
+            "chaos": 16,
+            "heroism": 10,
+            "comedy": 13,
+            "immersion": 10,
+            "strategy": 11,
+            "curiosity": 11
+          },
+          "Olivia": {
+            "chaos": 6,
+            "heroism": 17,
+            "comedy": 7,
+            "immersion": 11,
+            "strategy": 16,
+            "curiosity": 8
+          }
+        },
+        "evidence": {
+          "Topher": {
+            "chaos": "you see flames uh pummel the door. Um, and you're able to to you're all able to just jump out of the way, sidestep it",
+            "heroism": "Yeah, pretty cool. Pretty cool.",
+            "comedy": "Yeah. Yeah. He's all sewn together. He like he like uh there's like a flap of skin coming off his head that he just like pats back on",
+            "immersion": "uh you see immediately on the other side of this door, uh, Betty the Red Dragon is like clashing with, um, two, uh, of the, um, of the, uh, constructs",
+            "strategy": "Um, I would say the amount of fear you use in an encounter like calculates to like how deadly that encounter is",
+            "curiosity": "Um, cool. Yeah. Uh, where So, we're we're a little in in in epilog mode. How what are y'all doing next?"
+          },
+          "Leliana": {
+            "chaos": "Um, I think I would try to um um help out with any like um yeah, I'm a good person now",
+            "heroism": "I'm a good person now. So, help out with any like um um I don't know impacted families or things like that",
+            "comedy": "Apparently, apparently winter or some s***. I know I'm complaining. It's like 65 degrees, but that's basically winter",
+            "immersion": "I'll draw an opening basically. Um, so the I'm having a tough time visualizing the map here",
+            "strategy": "um are the pieces of the map moving slow enough that I can actually like comprehend things or are they shifting so rapidly",
+            "curiosity": "um are the pieces of the map moving slow enough that I can actually like comprehend things or are they shifting"
+          },
+          "Silas": {
+            "chaos": "Yeah, push the these assholes that are with us outside",
+            "heroism": "it's not who I want to be now. like it's not who I want to be, but it's not who I want to be now",
+            "comedy": "Yeah, flossing is like extremely old and out of touch at this point",
+            "immersion": "I mean I Okay, so me and Bru, we killed your boss. Are you Are we cool now? Are you going to try to kill us again?",
+            "strategy": "I need you guys on this one. Um I'm going to try to command the dragons to f*** off, but I need to like kind of share the psychic workload with you guys",
+            "curiosity": "Um, how does it look like Helisana's dragon is the only one that hasn't been affected or is it all black dragons?"
+          },
+          "Elspeth": {
+            "chaos": "I'm going to pick up Kevin and cuddle him. I'm just petting cuddling Kevin and petting Kevin",
+            "heroism": "I'm going to pick up Kevin and cuddle him",
+            "comedy": "Can I shorten the quote? There you go",
+            "immersion": "She looks like a sneaky baby. Either that or she's just over it",
+            "strategy": "Like if if his hand falls off, is it still sentient? Like does it come crawling back to him?",
+            "curiosity": "Um, are you distributing the gold or is it great"
+          },
+          "Ohma": {
+            "chaos": "I I uh I think that would spend time working with Litu to figure out as much as they can",
+            "heroism": "I I think that would spend time working with Litu to figure out as much as they can about where the moon goddess fell",
+            "comedy": "I I want to be angry, but I'm also very happy with how they are handling this situation",
+            "immersion": "I believe that is just a bruise corner. That is where he likes to nap",
+            "strategy": "What would be the ruling there? I go out there and party",
+            "curiosity": "Uh, I think that would spend time working with Litu to figure out as much as they can about where the moon goddess fell"
+          },
+          "Bru": {
+            "chaos": "Can we shove Grim Draw and Triple C outside?",
+            "heroism": "I would like to tie up the loose end of the pocket village that we've been working on",
+            "comedy": "You can throw people in it. Yeah. Okay. Okay.",
+            "immersion": "Pepsi, I'll totally make a cool mount for you to stand on top of the Bugatti so you can you can go at super fast speeds",
+            "strategy": "Uh, the only other thing personally that Bru would be working on is his uh, relationship with Pepsi. How to Train Your Dragon style",
+            "curiosity": "I'd like to tie up the loose end of the pocket village that we've been working on"
+          },
+          "Olivia": {
+            "chaos": "No, we're not just killing people now",
+            "heroism": "I'm going to do everything I can to set up a set of rules for chalk rock so this doesn't become another bad situation while we're gone",
+            "comedy": "Okay. I'm just going to like tear up a bit a little bit. She's very proud of you",
+            "immersion": "Olivia is going to like tear up a bit a little bit. She's very proud of you",
+            "strategy": "I'm suggesting a nonprofit is what we're going for. No. I'm saying I don't want the money to the money's not going to stay in high gorge. It's a centralized way to get it to all the refugee camps",
+            "curiosity": "We're working on a river arts district. We've got a whole plan"
+          }
+        },
+        "superlatives": {
+          "mvp": {
+            "player": "Silas",
+            "quote": "Yes. f*** yeah."
+          },
+          "best_joke": {
+            "player": "Bru",
+            "quote": "You can throw people in it."
+          },
+          "most_chaotic": {
+            "player": "Bru",
+            "quote": "Can we shove Grim Draw and Triple C outside?"
+          },
+          "decision_driver": "Silas"
+        }
+      }
     },
     {
       "id": "interlude-12",
@@ -1746,7 +2242,139 @@
         "nat20_mentions": 0,
         "nat1_mentions": 0
       },
-      "personality": null
+      "personality": {
+        "scores": {
+          "Leliana": {
+            "chaos": 6,
+            "heroism": 9,
+            "comedy": 8,
+            "immersion": 10,
+            "strategy": 9,
+            "curiosity": 7
+          },
+          "Olivia": {
+            "chaos": 8,
+            "heroism": 10,
+            "comedy": 11,
+            "immersion": 15,
+            "strategy": 12,
+            "curiosity": 12
+          },
+          "Bru": {
+            "chaos": 7,
+            "heroism": 9,
+            "comedy": 10,
+            "immersion": 9,
+            "strategy": 9,
+            "curiosity": 7
+          },
+          "Silas": {
+            "chaos": 8,
+            "heroism": 11,
+            "comedy": 11,
+            "immersion": 14,
+            "strategy": 15,
+            "curiosity": 12
+          },
+          "Topher": {
+            "chaos": 10,
+            "heroism": 8,
+            "comedy": 13,
+            "immersion": 11,
+            "strategy": 7,
+            "curiosity": 8
+          },
+          "Ohma": {
+            "chaos": 5,
+            "heroism": 9,
+            "comedy": 9,
+            "immersion": 9,
+            "strategy": 8,
+            "curiosity": 10
+          },
+          "Elspeth": {
+            "chaos": 6,
+            "heroism": 10,
+            "comedy": 7,
+            "immersion": 11,
+            "strategy": 11,
+            "curiosity": 10
+          }
+        },
+        "evidence": {
+          "Leliana": {
+            "chaos": "Yeah, maybe we can try to like maybe we try to like lock her down underneath High Forge or something like that",
+            "heroism": "I'm going to cast invisibility on myself and sneak on",
+            "comedy": "She's her own wild self, you know",
+            "immersion": "I'm going to cast invisibility on myself and sneak on",
+            "strategy": "I'm going to uh once my cover is over, I'm going to cast invisibility on",
+            "curiosity": "Can I attempt to emulate uh some rock music to like try to maybe help us blend in"
+          },
+          "Olivia": {
+            "chaos": "I was actually planning on like dropping a puzzle because I thought you guys were going to take so long",
+            "heroism": "I mean, it's the thought that counts, honey",
+            "comedy": "there was an entire class that dressed as minions and they were running in circles together and I was like, that is amazing",
+            "immersion": "you can like feel it into your molecules. It's like your entire body starts resonating",
+            "strategy": "It's a series of pictures of a lady using her hands to communicate an idea",
+            "curiosity": "Um, I'm going to get the resistance together. I'm going to take you guys to our mean spot"
+          },
+          "Bru": {
+            "chaos": "I just I just need to like sleep very cautiously every night because it's like straining into the dragon",
+            "heroism": "Yeah, that's about right",
+            "comedy": "All right, I've left I've left 40 fishes in this freezer over here. You can't eat them all at once",
+            "immersion": "Oh, we're in my garage",
+            "strategy": "the first time you knock it punches you. The second time you knock it may be different",
+            "curiosity": "What? The lotus"
+          },
+          "Silas": {
+            "chaos": "Whatever. Yeah, let's go",
+            "heroism": "we are going to go there and handle this right the f*** now",
+            "comedy": "There's always got to be at least one smut reader in the party, I guess",
+            "immersion": "you are the finest door I have ever seen in my short time here on this earth",
+            "strategy": "Okay. So, knock can mean insult or presumably it's not like knock on a door because that's the obvious thing",
+            "curiosity": "there's really fine print on here that I have a hard time reading"
+          },
+          "Topher": {
+            "chaos": "Oh, I have a book for this",
+            "heroism": "I'm going to lay down the conversation pit",
+            "comedy": "I have many books on goblin love is one of my favorites",
+            "immersion": "Nothing to see here. I work here and I love rock music",
+            "strategy": "I'm going to pull the lever again",
+            "curiosity": "I use not only my senses but my mind to interpret what I sense"
+          },
+          "Ohma": {
+            "chaos": "If we do this wrong, won't we all be smashed by the ceiling?",
+            "heroism": "Yes, I would even be willing to run after hitting the switch",
+            "comedy": "One boob. ET is off. f****** ET. That's I I feel you completely, man",
+            "immersion": "Let me see. Yeah, it's a language I know",
+            "strategy": "Perhaps we don't do it how we are suggesting first",
+            "curiosity": "I think we are supposed to maybe ask the door or the bowl of water if we may proceed"
+          },
+          "Elspeth": {
+            "chaos": "I think that's very specist of you to say that because obviously",
+            "heroism": "I'm going to attach the baby Bru that I've created to put Kevin in",
+            "comedy": "Hell yeah",
+            "immersion": "I'll walk up to Fufu since I'm being ignored now",
+            "strategy": "Okay. 21",
+            "curiosity": "Can I take it off?"
+          }
+        },
+        "superlatives": {
+          "mvp": {
+            "player": "Silas",
+            "quote": "you are the finest door I have ever seen in my short time here on this earth"
+          },
+          "best_joke": {
+            "player": "Topher",
+            "quote": "I have many books on goblin love is one of my favorites"
+          },
+          "most_chaotic": {
+            "player": "Topher",
+            "quote": "Oh, I have a book for this"
+          },
+          "decision_driver": "Silas"
+        }
+      }
     },
     {
       "id": "interlude-13",
@@ -1848,7 +2476,123 @@
         "nat20_mentions": 0,
         "nat1_mentions": 0
       },
-      "personality": null
+      "personality": {
+        "scores": {
+          "Bru": {
+            "chaos": 17,
+            "heroism": 4,
+            "comedy": 8,
+            "immersion": 9,
+            "strategy": 11,
+            "curiosity": 8
+          },
+          "Silas": {
+            "chaos": 11,
+            "heroism": 9,
+            "comedy": 14,
+            "immersion": 16,
+            "strategy": 14,
+            "curiosity": 13
+          },
+          "Ohma": {
+            "chaos": 6,
+            "heroism": 10,
+            "comedy": 9,
+            "immersion": 11,
+            "strategy": 11,
+            "curiosity": 9
+          },
+          "Olivia": {
+            "chaos": 5,
+            "heroism": 18,
+            "comedy": 7,
+            "immersion": 12,
+            "strategy": 10,
+            "curiosity": 9
+          },
+          "Topher": {
+            "chaos": 11,
+            "heroism": 7,
+            "comedy": 13,
+            "immersion": 11,
+            "strategy": 8,
+            "curiosity": 8
+          },
+          "Elspeth": {
+            "chaos": 6,
+            "heroism": 18,
+            "comedy": 8,
+            "immersion": 13,
+            "strategy": 11,
+            "curiosity": 10
+          }
+        },
+        "evidence": {
+          "Bru": {
+            "chaos": "I'm gonna I'm gonna throw an M80 in the toilet.",
+            "heroism": "Well, now you definitely know. Yeah. Well, now you definitely know.",
+            "comedy": "Goblins only poop like once a week. is fine. It's normal for goblins.",
+            "immersion": "I'd assume all of us like in front well from her perspective like gathered in front of Bartleby",
+            "strategy": "I put on the slippers. I uh I walk down the uh the side of the building. I get down to the sewer. I put some remote detonate charge um uh C4.",
+            "curiosity": "Is there is there windows from one of the adjacent buildings facing the windows of the building we're trying to get into?"
+          },
+          "Silas": {
+            "chaos": "Um, okay. Um, Bru, you actually hear a crashing noise coming from downstairs and a lot of yelling. Simultaneously, an alarm starts sounding throughout the building.",
+            "heroism": "Yeah, this is kind of a plot driven moment, unfortunately.",
+            "comedy": "Apparently, they're taking up a residency at some casino somewhere. If I ever meet the person who booked them over there, I'm going to be really cross with them.",
+            "immersion": "Yeah. So, there's like a there's like magic weave like going all through us, all throughout this room. It's like kind of crazy.",
+            "strategy": "Each one of these hallways has a button that opens the door and disarms the traps in the other hallway.",
+            "curiosity": "Um, I want to make sure that the Order of St. George showed up at some point, right? If you guys had gone in and started fighting, they probably would have shown up a lot sooner"
+          },
+          "Ohma": {
+            "chaos": "I'm going to stay by my button.",
+            "heroism": "Yeah. Are you sure? I'll meet you. All right. I'll meet you in the car.",
+            "comedy": "Oh, I got me a real powerhouse. I get it started for you. Kind of loud. The V8.",
+            "immersion": "Hey, uh, hey, uh Andy, are you ready for this? You you got me a little worried. You seem a little nervous.",
+            "strategy": "I'm gonna make it, um, back to the zip line and do like the the zip to the other side if I can.",
+            "curiosity": "Did they say how many floors that are total?"
+          },
+          "Olivia": {
+            "chaos": "I mean, I feel like a covert operation might be best.",
+            "heroism": "No, no. Peaches is carrying cream. I'm trying to...",
+            "comedy": "That's so cute.",
+            "immersion": "Peaches. Peaches just looks poor for Laurenly back at the other side. Like, man, I wish I could go again.",
+            "strategy": "Like, do we have a bag of holding? Maybe we do have a hole. That is true.",
+            "curiosity": "What the f***? I don't know what to do. Okay. Can I get a small recap?"
+          },
+          "Topher": {
+            "chaos": "360 nocope. Okay, so that was a 19 plus eight. So 27 to hit.",
+            "heroism": "I don't think that's the part you need to focus on the no scope part. The part the lack of scope skill.",
+            "comedy": "No, it's where you don't even look down your sights. You just spin around in a circle and then you shoot him in the head.",
+            "immersion": "I look great in this dress. Don't I spoons? That's what you told them.",
+            "strategy": "Alma will take the the slippers of spider climbing. Take one a pair.",
+            "curiosity": "Um, so like the uh I mean you already got a map with a secret door. I mean you already got a map with a secret door."
+          },
+          "Elspeth": {
+            "chaos": "Let's be careful, guys. You've gotten to blow something up. Let's let somebody else do something.",
+            "heroism": "And their sander immediately jumps in front of Alma that we know. She takes the bullets.",
+            "comedy": "I don't spread germs. That's not how I do it. I don't love it.",
+            "immersion": "Yeah. Got to process. Let's see. Let's see. I'm gonna squint real hard. You know how that helps.",
+            "strategy": "Yeah. The blue one. Oh Beautiful. my goodness. And she's going to go around and touch more of the the colors",
+            "curiosity": "Okay. So, I was thinking there Sander just has just like a bunch of papers around him and he's like constantly scribbling and there's like all these codes."
+          }
+        },
+        "superlatives": {
+          "mvp": {
+            "player": "Olivia",
+            "quote": "No, no. Peaches is carrying cream. I'm trying to..."
+          },
+          "best_joke": {
+            "player": "Topher",
+            "quote": "No, it's where you don't even look down your sights. You just spin around in a circle and then you shoot him in the head."
+          },
+          "most_chaotic": {
+            "player": "Bru",
+            "quote": "I'm gonna I'm gonna throw an M80 in the toilet."
+          },
+          "decision_driver": "Elspeth"
+        }
+      }
     },
     {
       "id": "interlude-14",
@@ -1959,7 +2703,139 @@
         "nat20_mentions": 0,
         "nat1_mentions": 1
       },
-      "personality": null
+      "personality": {
+        "scores": {
+          "Topher": {
+            "chaos": 12,
+            "heroism": 9,
+            "comedy": 14,
+            "immersion": 13,
+            "strategy": 11,
+            "curiosity": 12
+          },
+          "Leliana": {
+            "chaos": 16,
+            "heroism": 4,
+            "comedy": 10,
+            "immersion": 15,
+            "strategy": 13,
+            "curiosity": 7
+          },
+          "Silas": {
+            "chaos": 19,
+            "heroism": 3,
+            "comedy": 17,
+            "immersion": 12,
+            "strategy": 9,
+            "curiosity": 9
+          },
+          "Ohma": {
+            "chaos": 11,
+            "heroism": 8,
+            "comedy": 11,
+            "immersion": 14,
+            "strategy": 12,
+            "curiosity": 13
+          },
+          "Bru": {
+            "chaos": 9,
+            "heroism": 10,
+            "comedy": 12,
+            "immersion": 12,
+            "strategy": 11,
+            "curiosity": 10
+          },
+          "Elspeth": {
+            "chaos": 13,
+            "heroism": 10,
+            "comedy": 12,
+            "immersion": 12,
+            "strategy": 12,
+            "curiosity": 13
+          },
+          "Olivia": {
+            "chaos": 13,
+            "heroism": 5,
+            "comedy": 11,
+            "immersion": 12,
+            "strategy": 13,
+            "curiosity": 11
+          }
+        },
+        "evidence": {
+          "Topher": {
+            "chaos": "Topher: Okay, all right. Um, double eights. Here we go. Oh s***. Sorry. Uh, okay. What? This is This is b*******.",
+            "heroism": "Topher: I would like to roll higher. Can I start rolling like d10s or something?",
+            "comedy": "Topher: Um, Zubor is going to spend the next two hours making uh, lemon poppy seed muffins.",
+            "immersion": "Topher: Okay. So, this is this meeting adjourned then Zor is going to go to the handicap parking space where her dad is parked",
+            "strategy": "Topher: So, so our our mission is to get Ellswith convicted of cheating. Okay. And win. You still want to win.",
+            "curiosity": "Topher: Um, how do people how do they feel about using magic during races?"
+          },
+          "Leliana": {
+            "chaos": "Leliana: I need I need you to go into else and get her routing and bank number and if you get caught just shove the engine up your",
+            "heroism": "Leliana: Um no, I'm quite sure he told you I would be first. My father will be hearing about this.",
+            "comedy": "Leliana: And then I shoved the watch up my ass. You know, now he's Christopher Walkin.",
+            "immersion": "Leliana: Um yes. Well, uh, Zugo here wants to speak with you. she said.",
+            "strategy": "Leliana: I have a plan and she's never going to know what hit her.",
+            "curiosity": "Leliana: Um he's also an ascending stone."
+          },
+          "Silas": {
+            "chaos": "Silas: Um, Denlin would walk up to uh, wherever Ellswith is supposed to be and like knock on the door. He has like a big like Groutto Mark style mustache and like some glasses on",
+            "heroism": "Silas: Even in a Toyota Tacoma can outra you.",
+            "comedy": "Silas: And I'm going to walk up and be like, 'Oh, hello there, young madam. I'm a purveyor of illegal drugs. Would you happen to want to purchase some illegal drugs from me?'",
+            "immersion": "Silas: I just I thought of a silly voice and a personality gimmick from my guy.",
+            "strategy": "Silas: I'm going to use my bonus action to teleport.",
+            "curiosity": "Silas: Um, okay. So, does a bonus action count as one of my actions?"
+          },
+          "Ohma": {
+            "chaos": "Ohma: He has this concept where maybe if he put like a rune under the car that he could activate, it would make the car fly for a short period of time.",
+            "heroism": "Ohma: I I can't believe it, but Papy said we got to do what we got to do for us. I feel like I can't cross El Smith.",
+            "comedy": "Ohma: I recently become very aware of the fact that I don't know s*** about dogs, especially compared to my cat knowledge because I've only had cats for my life.",
+            "immersion": "Ohma: he's kind of gripping the wheel of the truck and just lost in thought",
+            "strategy": "Ohma: What are all the various ways you can cheat in race car driving typically, but specifically in this world?",
+            "curiosity": "Ohma: What are all the various ways you can cheat in race car driving typically"
+          },
+          "Bru": {
+            "chaos": "Bru: Um, I got to figure out what the sponsors of this world are going to be.",
+            "heroism": "Bru: Because I only operate with the most integrity. And then I chug a blue ox.",
+            "comedy": "Bru: and then I chug a blue ox.",
+            "immersion": "Bru: I'm going back to my garage and I'm going to talk to all of my uh sponsor appointed nerds and get them to do the work for me.",
+            "strategy": "Bru: I'm definitely going back to my garage and I'm going to talk to all of my sponsor appointed nerds and get them to do the work for me.",
+            "curiosity": "Bru: Um, did I tell you my Gen Con fiasco with my outfit?"
+          },
+          "Elspeth": {
+            "chaos": "Elspeth: Oh, are they like actively stripping in public? What are they doing?",
+            "heroism": "Elspeth: I mean, if it's not good then we can figure it out because I kind of this in a dream and if not then it was just a dream.",
+            "comedy": "Elspeth: What kind of stripper do you need? Is it for wood? Cuz like he's stripping paint.",
+            "immersion": "Elspeth: You're at This is the finale race weekend for this season, which I guess would have been a few months ago in the campaign",
+            "strategy": "Elspeth: The only way that wouldn't work is if somebody's in the red zone and they don't want to just do double movements.",
+            "curiosity": "Elspeth: I only had so so many tokens as cars. So hopefully I did it right."
+          },
+          "Olivia": {
+            "chaos": "Olivia: I'm gonna get into the engine and mess with the connections on the crystals and essentially like sabotage it so that like it's gonna be like disconnected",
+            "heroism": "Olivia: My career's on the line.",
+            "comedy": "Olivia: Yeah, this is the reality of being a boy mom. He's about to drop me.",
+            "immersion": "Olivia: Serge is off next to a window being very moody and staring out. His emo bangs across his face",
+            "strategy": "Olivia: I'm gonna tear like a chunk of the t-shirt that I got and like wedge it in to the engine so it's like clearly like part of the team Cooper logo.",
+            "curiosity": "Olivia: Question. Did you make it look like she tampered with somebody else's crystal?"
+          }
+        },
+        "superlatives": {
+          "mvp": {
+            "player": "Olivia",
+            "quote": "Olivia: I'm sabotaging my my teammate's car and framing you at the same time."
+          },
+          "best_joke": {
+            "player": "Silas",
+            "quote": "Silas: I'm going to walk up and be like, 'Oh, hello there, young madam. I'm a purveyor of illegal drugs. Would you happen to want to purchase some illegal drugs from me?'"
+          },
+          "most_chaotic": {
+            "player": "Silas",
+            "quote": "Silas: Um, Denlin would walk up to uh, wherever Ellswith is supposed to be and like knock on the door. He has like a big like Groutto Mark style mustache and like some glasses on and like I'm going to wait for to come and answer the door."
+          },
+          "decision_driver": "Elspeth"
+        }
+      }
     },
     {
       "id": "interlude-15",
@@ -2068,7 +2944,139 @@
         "nat20_mentions": 0,
         "nat1_mentions": 0
       },
-      "personality": null
+      "personality": {
+        "scores": {
+          "Bru": {
+            "chaos": 8,
+            "heroism": 5,
+            "comedy": 12,
+            "immersion": 10,
+            "strategy": 11,
+            "curiosity": 9
+          },
+          "Leliana": {
+            "chaos": 14,
+            "heroism": 6,
+            "comedy": 9,
+            "immersion": 10,
+            "strategy": 10,
+            "curiosity": 6
+          },
+          "Ohma": {
+            "chaos": 9,
+            "heroism": 3,
+            "comedy": 15,
+            "immersion": 13,
+            "strategy": 7,
+            "curiosity": 5
+          },
+          "Olivia": {
+            "chaos": 12,
+            "heroism": 4,
+            "comedy": 9,
+            "immersion": 10,
+            "strategy": 12,
+            "curiosity": 9
+          },
+          "Silas": {
+            "chaos": 16,
+            "heroism": 3,
+            "comedy": 14,
+            "immersion": 14,
+            "strategy": 15,
+            "curiosity": 6
+          },
+          "Topher": {
+            "chaos": 14,
+            "heroism": 10,
+            "comedy": 13,
+            "immersion": 11,
+            "strategy": 10,
+            "curiosity": 10
+          },
+          "Elspeth": {
+            "chaos": 4,
+            "heroism": 5,
+            "comedy": 8,
+            "immersion": 9,
+            "strategy": 10,
+            "curiosity": 5
+          }
+        },
+        "evidence": {
+          "Bru": {
+            "chaos": "I'm going to heat metal on uh Ellswith's car.",
+            "heroism": "I'm going to go right there. That's perfect.",
+            "comedy": "Chicago. Deaf, blind, heart problems, thyroid issues, incontinent, got a diaper on. Yeah. He's still cute.",
+            "immersion": "Um, can I did I miss these steps?",
+            "strategy": "Misty step, bro. Burn another spell slot for that.",
+            "curiosity": "Just as a future asking for a friend, how heavy are our cars?"
+          },
+          "Leliana": {
+            "chaos": "I'm gonna cast Polymorph on Scotty Mac. I'm gonna turn him into a sheep.",
+            "heroism": "Lancing. Lance is driving.",
+            "comedy": "Um, well, I guess I gota be honest here.",
+            "immersion": "So, did we go to normal action economy? Is that Did I get that right?",
+            "strategy": "I'm gonna cast Polymorph on Scotty Mac. I'm gonna turn him into a sheep.",
+            "curiosity": "Yeah. Lancy's turn."
+          },
+          "Ohma": {
+            "chaos": "Just an honest an honest move.",
+            "heroism": "Scotty Max has never done anything wrong. Why would you want to attack me?",
+            "comedy": "My grandpa's deck has no bad cards. Roll with that.",
+            "immersion": "Yeah, that's what he's been known for this whole time in the series.",
+            "strategy": "Well, old Scotty here only rolled six. Not not my best I've ever had.",
+            "curiosity": "How old is he? I have no children."
+          },
+          "Olivia": {
+            "chaos": "I'm gonna do uh Denlin in vers. You guys need to do a wisdom save.",
+            "heroism": "I was thinking like maybe I can make it look like you ram me off the road or hurt me.",
+            "comedy": "Oh my back. Oh my back.",
+            "immersion": "Okay, I'm going to hang here and then I'm going to break check you whenever you pass me.",
+            "strategy": "I was debating. Who's Scotty Mac and Berstop again? I was definitely going to do Ellsmith.",
+            "curiosity": "I have a question for next round because I can't do it this round. My mounted combat. I am my car, but I'm also like in my car like a mount. Does mounted combat count?"
+          },
+          "Silas": {
+            "chaos": "Um, I'll try to work on that, but for now we're doing a painted tunnel.",
+            "heroism": "I'm going to give my si a signal to my uh my minions over in the pits, and they're going to set um another sign out.",
+            "comedy": "I threw a turtle at you last time, too, if I remember.",
+            "immersion": "Okay, so for my first action, um, Denlin is going to uh activate one of his schemes that he set up uh in the night last night.",
+            "strategy": "And uh this one says uh free treats for dwarves, and it's like a sign next to like a keg of booze, a bunch of like beef jerky, you know, things dwarves like.",
+            "curiosity": "Okay. Um, uh, let's see."
+          },
+          "Topher": {
+            "chaos": "I just want to get in the red. I'm going to cast expeditious retreat. And you know what that means, Justin?",
+            "heroism": "Um, I have started a mix if anyone would like to contribute.",
+            "comedy": "I don't eat with my mouth.",
+            "immersion": "As you all are sitting in your car, you see the flags around you because there's no lights.",
+            "strategy": "That means you can have a bonus action separate from your action, right?",
+            "curiosity": "Okay, everyone's uh roughly one mile ahead of me."
+          },
+          "Elspeth": {
+            "chaos": "If you cheat outside the zone, the officials will see it.",
+            "heroism": "Well, that's a good point.",
+            "comedy": "It's a piece of cardboard. And it's peeling at the corner.",
+            "immersion": "As you all are sitting in the pit, you see your teams all come out and your team captains.",
+            "strategy": "Yeah. You're a big sheep inside a little sheep. Are you in the zone or out of the zone?",
+            "curiosity": "I don't know. I don't know. I don't know if I can do that."
+          }
+        },
+        "superlatives": {
+          "mvp": {
+            "player": "Leliana",
+            "quote": "I'm gonna turn him into a sheep."
+          },
+          "best_joke": {
+            "player": "Ohma",
+            "quote": "My grandpa's deck has no bad cards. Roll with that."
+          },
+          "most_chaotic": {
+            "player": "Leliana",
+            "quote": "I'm gonna cast Polymorph on Scotty Mac. I'm gonna turn him into a sheep."
+          },
+          "decision_driver": "Silas"
+        }
+      }
     },
     {
       "id": "interlude-16",
@@ -2168,7 +3176,123 @@
         "nat20_mentions": 0,
         "nat1_mentions": 0
       },
-      "personality": null
+      "personality": {
+        "scores": {
+          "Topher": {
+            "chaos": 11,
+            "heroism": 12,
+            "comedy": 14,
+            "immersion": 13,
+            "strategy": 13,
+            "curiosity": 11
+          },
+          "Leliana": {
+            "chaos": 16,
+            "heroism": 5,
+            "comedy": 15,
+            "immersion": 14,
+            "strategy": 4,
+            "curiosity": 6
+          },
+          "Bru": {
+            "chaos": 11,
+            "heroism": 12,
+            "comedy": 10,
+            "immersion": 12,
+            "strategy": 12,
+            "curiosity": 11
+          },
+          "Silas": {
+            "chaos": 10,
+            "heroism": 12,
+            "comedy": 10,
+            "immersion": 12,
+            "strategy": 13,
+            "curiosity": 13
+          },
+          "Elspeth": {
+            "chaos": 16,
+            "heroism": 7,
+            "comedy": 16,
+            "immersion": 13,
+            "strategy": 11,
+            "curiosity": 8
+          },
+          "Olivia": {
+            "chaos": 11,
+            "heroism": 12,
+            "comedy": 11,
+            "immersion": 10,
+            "strategy": 11,
+            "curiosity": 11
+          }
+        },
+        "evidence": {
+          "Topher": {
+            "chaos": "Um yeah, so you head to the 7-Eleven. Um um that'll take you to uh you know the place you need to put explosives.",
+            "heroism": "You're doing great, kid. I'm going to go back to the bowling alley.",
+            "comedy": "Oh, thank you, Auntie Poopy. Thank you. Thank you. Can Can you release the rest of me?",
+            "immersion": "She has those like glassy blue eyes of a blind woman and she has um a cowl around her.",
+            "strategy": "I would like Eva to give me uh a dexterity saving throw.",
+            "curiosity": "Um, what type of organization is this? Like uh who are each of you? Um yeah, how do you know each other?"
+          },
+          "Leliana": {
+            "chaos": "I'm going to dive head first into a near pile and start just kind of trying to do breast jerk while the",
+            "heroism": "All of them. All of it. All of it.",
+            "comedy": "Yeah. On it. On it. I love pants. I'm going to start I'm going to do like Spongebob like uh run with my arms fling above my head.",
+            "immersion": "Yeah. On it. On it. I love pants.",
+            "strategy": "Okay.",
+            "curiosity": "What?"
+          },
+          "Bru": {
+            "chaos": "All right. Well, I was going to say take the Matt approach, but he only uses two.",
+            "heroism": "Come on. All right. So, we put all of the gunpowder in here next to the blasting cap.",
+            "comedy": "Um yeah, the middle finger obviously very recent. I'm working on a poop.",
+            "immersion": "I think it's time for me to my own signature firework pattern. I have a I have an idea for for it to be like a diamond shape with a G in the middle or a B in the middle rather for brute.",
+            "strategy": "Okay. Well, nine and 10. Uh, so it's going to be a circle.",
+            "curiosity": "Is it Is it like a canal maybe?"
+          },
+          "Silas": {
+            "chaos": "I like the idea of us being the Bruce Cousins bowling league.",
+            "heroism": "Okay. I'm going to go ahead and say that I am Bru's uncle.",
+            "comedy": "I mean, it's just like some sort of like like local community center type thing.",
+            "immersion": "Um, and I do like the idea of us being the Bruce Cousins bowling league. We got to represent the honor of the bowling league.",
+            "strategy": "All right. Um, I see where Drew is, right? Okay. Um, are there like attendants or like um any like people who like work for the Oracle who are like walking around?",
+            "curiosity": "Hey, what are we doing once we capture this oracle lady again, fellas?"
+          },
+          "Elspeth": {
+            "chaos": "Okay, I'm going to look for ham sandwich like the prepared sandwich area.",
+            "heroism": "I don't think she said that because she's a loser. So was Vanessa.",
+            "comedy": "It's just a like a little micro dose of cocaine, like a little upkeep, and then you have to take your sleepy time cocaine, and then that kind of brings you down",
+            "immersion": "I don't know what accent I'm doing. It's gonna be a lot. It's gonna be like 12 different accents, just so you know.",
+            "strategy": "Um yeah, the middle finger obviously very recent. I'm working on a poop. No, I mean I'm always working on one",
+            "curiosity": "What's the prank? Like, is it smell bad?"
+          },
+          "Olivia": {
+            "chaos": "I'll put all of my clothes on backwards and sit on the skateboard.",
+            "heroism": "I'm going to take my hot axe and like cut my way over to them and just like rip it off their faces so they can breathe.",
+            "comedy": "she opened a spa with god ear wax and is rejuvenating all of the goblins and doing life extensions.",
+            "immersion": "Mhm. We exploded a turtle.",
+            "strategy": "I'm going to give myself a lucky point and do it again.",
+            "curiosity": "Why are we blowing up the turtle's heart? Why are we blowing up the eardrums?"
+          }
+        },
+        "superlatives": {
+          "mvp": {
+            "player": "Silas",
+            "quote": "I'm ready to listen and I'm ready to talk."
+          },
+          "best_joke": {
+            "player": "Elspeth",
+            "quote": "It's just a like a little micro dose of cocaine, like a little upkeep, and then you have to take your sleepy time cocaine, and then that kind of brings you down"
+          },
+          "most_chaotic": {
+            "player": "Elspeth",
+            "quote": "I feel like I'm going to be leaving this island, so maybe we should just kind of blow up the island."
+          },
+          "decision_driver": "Silas"
+        }
+      }
     },
     {
       "id": "session-38",
@@ -2275,7 +3399,123 @@
         "nat20_mentions": 0,
         "nat1_mentions": 0
       },
-      "personality": null
+      "personality": {
+        "scores": {
+          "Silas": {
+            "chaos": 16,
+            "heroism": 12,
+            "comedy": 16,
+            "immersion": 15,
+            "strategy": 17,
+            "curiosity": 15
+          },
+          "Elspeth": {
+            "chaos": 15,
+            "heroism": 11,
+            "comedy": 14,
+            "immersion": 13,
+            "strategy": 9,
+            "curiosity": 11
+          },
+          "Leliana": {
+            "chaos": 9,
+            "heroism": 12,
+            "comedy": 8,
+            "immersion": 12,
+            "strategy": 10,
+            "curiosity": 10
+          },
+          "Ohma": {
+            "chaos": 7,
+            "heroism": 13,
+            "comedy": 10,
+            "immersion": 11,
+            "strategy": 9,
+            "curiosity": 12
+          },
+          "Bru": {
+            "chaos": 12,
+            "heroism": 11,
+            "comedy": 10,
+            "immersion": 11,
+            "strategy": 10,
+            "curiosity": 9
+          },
+          "Topher": {
+            "chaos": 13,
+            "heroism": 11,
+            "comedy": 12,
+            "immersion": 14,
+            "strategy": 13,
+            "curiosity": 12
+          }
+        },
+        "evidence": {
+          "Silas": {
+            "chaos": "I'm if I can, I'm going to just like poke them at the end of my daggers and just like smear it that way. I don't want to touch it with my hands.",
+            "heroism": "I'm going to go in try to like just gum up their machinery. You know, they're like, 'Oh no, it it's broken.'",
+            "comedy": "Sometimes this feels like Chicago does things just out of spite, you know, like we're gonna f*** you. I'm from Chicago.",
+            "immersion": "I mean, he's like he's he just I f****** hate it to be honest. That's true, but I also hate the change.",
+            "strategy": "Alright, here's a plan. What if I go in try to like just gum up their machinery? You know, they're like, 'Oh no, it it's broken.' And and then then when they come out to try to fix it, we jump them.",
+            "curiosity": "Can I also see what materials they're feeding into it? Like what are they uh what are they transporting here?"
+          },
+          "Elspeth": {
+            "chaos": "I want to shove somebody in it, but they need to be in front of the oven.",
+            "heroism": "Absolutely. Can I bring anything?",
+            "comedy": "I just want to make sure it's really broken. Pass.",
+            "immersion": "Is this like a cosmic shredder or is it like a scan? I don't know. They're like putting something in something and it disappears. I don't love it.",
+            "strategy": "Can someone throw a rock in front of it? I'm not going in that thing until it's cleaned.",
+            "curiosity": "I just I'm not I'll squint from over here. I know it. I know it."
+          },
+          "Leliana": {
+            "chaos": "I can just make you invisible. Would that help?",
+            "heroism": "I can just make you invisible. Would that help?",
+            "comedy": "Turns out we didn't need to sneak up on him, I guess.",
+            "immersion": "I'm just happy we're vibing together. I mean, the good thing is we're working together and having fun.",
+            "strategy": "You said there's a hike. I love a good hike.",
+            "curiosity": "What's the music scene like?"
+          },
+          "Ohma": {
+            "chaos": "Okay. On standby.",
+            "heroism": "Okay, here we go.",
+            "comedy": "I I have a vegetarian pizza that I am fond of.",
+            "immersion": "My my worries begin to to surface. As I look around, I I I I keep trying to see if there's any gathering of people around.",
+            "strategy": "I've been traveling classic. But riding along with the group, I've uh almost grown a slight sweat on my brow looking around.",
+            "curiosity": "I would very much like to see her. Yes. I I had heard rumors that she may be had personified into a humanlike character."
+          },
+          "Bru": {
+            "chaos": "I'm just gonna keep stealing his ingredients as he as he walks away.",
+            "heroism": "I'm going to grab like the next couple years of the journals just to be safe.",
+            "comedy": "I'm just gonna keep stealing his ingredients as he walks away.",
+            "immersion": "I'm going to grab like the next couple years of the journals just to be safe. Oh yeah, throw them in the pee hole.",
+            "strategy": "Um, I mean, obviously, yeah, I'm just looking for any journals, um, because who knows what's going to have specific information that we need.",
+            "curiosity": "What about uh what about the park that Dane hung out in?"
+          },
+          "Topher": {
+            "chaos": "Um, at that point Kevin yells Kevin and he throws a dynamite at the exhaust and it the machine explodes.",
+            "heroism": "Um yeah, you see an explosion happen and it almost reverses and then happens again over and over again.",
+            "comedy": "Um, it takes him a while to notice, but the uh the gale winds of the the mountain peak um begin to shrivel up his testicles and he quickly realizes, 'Oh, I've got no pants on.'",
+            "immersion": "Um uh you um you don't know I wouldn't say that you are like super proficient with like poisons and stuff but you know through your times and schemes and work honestly that there are poisons that um can leave a a traceability um in you.",
+            "strategy": "Um, like what are you trying to do with this scouting party here.",
+            "curiosity": "Um, like what are you trying to do with this scouting party? Um, I want to get close enough to listen to them talk to each other to see if they'll like say anything that is worth listening to."
+          }
+        },
+        "superlatives": {
+          "mvp": {
+            "player": "Elspeth",
+            "quote": "I shove him into the cube mentally."
+          },
+          "best_joke": {
+            "player": "Silas",
+            "quote": "Well, man. I just would love to go to a restaurant. The waiter's like, 'Okay, we're going to f****** try, but we cannot make any promises.' You know, we got to wait for the particle to accelerator to stop running before we're allowed to like move stuff between parts of the kitchen."
+          },
+          "most_chaotic": {
+            "player": "Silas",
+            "quote": "I'm if I can, I'm going to just like poke them at the end of my daggers and just like smear it that way. I don't want to touch it with my hands."
+          },
+          "decision_driver": "Silas"
+        }
+      }
     },
     {
       "id": "session-39",
@@ -2372,7 +3612,107 @@
         "nat20_mentions": 2,
         "nat1_mentions": 0
       },
-      "personality": null
+      "personality": {
+        "scores": {
+          "Bru": {
+            "chaos": 12,
+            "heroism": 10,
+            "comedy": 13,
+            "immersion": 12,
+            "strategy": 14,
+            "curiosity": 9
+          },
+          "Topher": {
+            "chaos": 15,
+            "heroism": 13,
+            "comedy": 15,
+            "immersion": 17,
+            "strategy": 14,
+            "curiosity": 14
+          },
+          "Ohma": {
+            "chaos": 13,
+            "heroism": 16,
+            "comedy": 11,
+            "immersion": 14,
+            "strategy": 12,
+            "curiosity": 12
+          },
+          "Leliana": {
+            "chaos": 8,
+            "heroism": 16,
+            "comedy": 11,
+            "immersion": 14,
+            "strategy": 14,
+            "curiosity": 11
+          },
+          "Silas": {
+            "chaos": 8,
+            "heroism": 18,
+            "comedy": 12,
+            "immersion": 17,
+            "strategy": 17,
+            "curiosity": 13
+          }
+        },
+        "evidence": {
+          "Bru": {
+            "chaos": "Um, I may just be able to do a spell. I guess I have pyrochnics, which is essentially what I'm going for here.",
+            "heroism": "I'll do my best and like keep him around all the time.",
+            "comedy": "Just name all of our vehicles after me.",
+            "immersion": "Um, can I tail them with crimson and see through crimson's eyes? Because crimsons is is fine, familiar, and I just keep him around all the time.",
+            "strategy": "Hold on, Bru. We probably need to stick together. Um I uh say over I I think of the others I say first of Sander Bruce Taylor the ones who are who did this we need to we need to back him up.",
+            "curiosity": "Mostly reacts to events as they unfold rather than asking probing questions about the world."
+          },
+          "Topher": {
+            "chaos": "And then the bakery explodes. Um, I would like you all to make a dexterity saving throw.",
+            "heroism": "Creates scenarios and opportunities for players to be heroic and save the day.",
+            "comedy": "It doesn't fit inside. It would take so much space inside to store it. What? This is valuable stuff. You want me to just get rid of it?",
+            "immersion": "Um um so there's the obvious stuff. People are like running away screaming. It's but like you can't hear the scream so you just hear like Yeah. Yeah. covered in ash.",
+            "strategy": "Designs encounter difficulty with multiple scaling tiers and excellent pacing.",
+            "curiosity": "Brings the world to life with details about locations, NPCs, and lore that players can engage with."
+          },
+          "Ohma": {
+            "chaos": "I'm going to try to burst ahead. I would want to start by just accelerating and possibly just jumping building to building.",
+            "heroism": "I think this is where Elmo would step in and while the paddles like lifted up be like I think that I am the necessary help you need and like I don't I don't even know I have the gloves of all strength so like I'm going to try to just burst ahead.",
+            "comedy": "I am a little rowdy when I put on the mask. I apologize for my obnoxiousness.",
+            "immersion": "He leans over and you see him maybe kind of rumaging and out comes a black mask and he ties on and says, 'Are you ready, brother?'",
+            "strategy": "I need a moment to get up. Bru, let's see what you've got.",
+            "curiosity": "What is the reputation of the order of St. George? Do we know that yet? Maybe is the better question."
+          },
+          "Leliana": {
+            "chaos": "Mostly acts responsibly and tries to help others rather than creating chaos.",
+            "heroism": "I'll give the sander a a cure wounds as well. Um, when I get to Oman to Sander, um, I'll give the sander a a cure wounds.",
+            "comedy": "I'm bleeding from my face from a thorn. That's so funny.",
+            "immersion": "Um, all my So, I'll um I'll try to like meet up with Ma and Sander on the way there. Are there any like uh from the explosion? Are there like fires and s***?",
+            "strategy": "In that case, I will Yeah, you know what? I'll try to upcast it. Um, so I'll try to target all three.",
+            "curiosity": "Um um let's see. Can I see Bru from where I am? I want to give him the juice."
+          },
+          "Silas": {
+            "chaos": "Makes strategic decisions and works within the group's framework rather than derailing plans.",
+            "heroism": "I'm going to take that out, pull out the cork, and I'm going to try to like uh likeh hold his mouth open, pour it in.",
+            "comedy": "I suppose. But you know what, bro? I got to say, like, I always thought detective work was really hard, but we have found everything we've been looking for in the city on our first try. I think we might be the world's greatest detectives.",
+            "immersion": "I'm going to turn around and throw Sander and be like, 'Not how I pictured our reunion going, but it's good to see you again.'",
+            "strategy": "I guess I'll think at the group. Bru, you're the only one who really needs to be tailing them. You're the one with the lookout, right?",
+            "curiosity": "Um, they seem very narrowly focused on like all these dragon related issues. So, I don't know if they actually have too much of a crossover with like the average Citizens of Greyport."
+          }
+        },
+        "superlatives": {
+          "mvp": {
+            "player": "Silas",
+            "quote": "I'm going to take that out, pull out the cork, and I'm going to try to like uh likeh hold his mouth open, pour it in."
+          },
+          "best_joke": {
+            "player": "Silas",
+            "quote": "I always thought detective work was really hard, but we have found everything we've been looking for in the city on our first try. I think we might be the world's greatest detectives."
+          },
+          "most_chaotic": {
+            "player": "Bru",
+            "quote": "I think the people that did this are going to the university to decide. I'm going to chase them around."
+          },
+          "decision_driver": "Silas"
+        }
+      }
     },
     {
       "id": "session-40",
@@ -2480,7 +3820,123 @@
         "nat20_mentions": 0,
         "nat1_mentions": 0
       },
-      "personality": null
+      "personality": {
+        "scores": {
+          "Olivia": {
+            "chaos": 8,
+            "heroism": 11,
+            "comedy": 8,
+            "immersion": 7,
+            "strategy": 10,
+            "curiosity": 11
+          },
+          "Ohma": {
+            "chaos": 7,
+            "heroism": 15,
+            "comedy": 9,
+            "immersion": 16,
+            "strategy": 16,
+            "curiosity": 15
+          },
+          "Silas": {
+            "chaos": 10,
+            "heroism": 6,
+            "comedy": 14,
+            "immersion": 16,
+            "strategy": 17,
+            "curiosity": 14
+          },
+          "Topher": {
+            "chaos": 11,
+            "heroism": 10,
+            "comedy": 12,
+            "immersion": 17,
+            "strategy": 13,
+            "curiosity": 11
+          },
+          "Leliana": {
+            "chaos": 5,
+            "heroism": 11,
+            "comedy": 8,
+            "immersion": 13,
+            "strategy": 10,
+            "curiosity": 11
+          },
+          "Bru": {
+            "chaos": 11,
+            "heroism": 12,
+            "comedy": 11,
+            "immersion": 12,
+            "strategy": 10,
+            "curiosity": 10
+          }
+        },
+        "evidence": {
+          "Olivia": {
+            "chaos": "Um, is there a reason Papel can't know what we're doing?",
+            "heroism": "As long as you had consent, that's okay.",
+            "comedy": "I think the word you're looking for is pigheaded, but we get to go with strong.",
+            "immersion": "I'm going to wake up in the middle of the night, be like, Jasper? Is everything okay?",
+            "strategy": "Do I get a wish at the end of this?",
+            "curiosity": "So wait, Raphael knows that. Rafael knows that."
+          },
+          "Ohma": {
+            "chaos": "I believe we should probably focus on the impending doom of the dragon we know and wait on a new mission.",
+            "heroism": "I find that I must make a choice between saving everything or sticking to my own principles.",
+            "comedy": "Oh my goodness. It's a mild three today.",
+            "immersion": "Hey, Rap Sheet, is that you? And, uh, I'm imagining there's already a glimmer in his eye because uh he only so few people would know to call him that.",
+            "strategy": "What happens when you have a group of people whose commander being Raphael, he uh he turns his back and now there's magic stuff happening.",
+            "curiosity": "Do you know their entire plan or is this only what you know the details of so far?"
+          },
+          "Silas": {
+            "chaos": "I mean, just once, I want us to find a group of people who like are ostensively trying to help us and for them to not end up being a bunch of assholes.",
+            "heroism": "hero work is a mugs game. It doesn't pay well enough at all.",
+            "comedy": "You don't even know what the f****** stern is. No, I'm talking to you, George assholes.",
+            "immersion": "Well, I mean, I meant what I said. I mean, it's a good exit ramp, you know, when like everything falls apart around you.",
+            "strategy": "I mean, no, I mean, it's we just got to thread the needle, you know, it's more interesting this way.",
+            "curiosity": "how exactly are you guys going to be able to like deal with the dragons"
+          },
+          "Topher": {
+            "chaos": "Eventually you see um a horde of goblins coming into the infirmary room and they're all just yakking away.",
+            "heroism": "We were really had no idea where it went.",
+            "comedy": "Row out until you hit beyond the reef and then you can turn on the motor.",
+            "immersion": "Um, you hear what sounds like two goblins yelling at each other. Uh, and one uh is sounds like an elderly elderly uh old man old goblin man uh weeping.",
+            "strategy": "there is no way we are ever siding with the Iron Claws on f****** anything.",
+            "curiosity": "Um, anyone who wants to um give me an insight check, but only if you want to."
+          },
+          "Leliana": {
+            "chaos": "I will say that Leliana's bedtime prep is getting her clothes out ready, folding them very neatly, putting them on the dresser.",
+            "heroism": "Did um did their set know he was being a decoy? Do you know he's being bait?",
+            "comedy": "Okay. Well, that's good at least.",
+            "immersion": "I'm standing on my tippy toes like giving some overenthusiastic wave.",
+            "strategy": "Do you know if Sander consent to being bait? Okay. Well, that's good at least.",
+            "curiosity": "Um, you wouldn't happen to have like a a short bow back there, would you? Like a short plus one or something?"
+          },
+          "Bru": {
+            "chaos": "I immediately jump and start strangling him. I didn't I left you in bed this whole time. Never do this to me again.",
+            "heroism": "I thought y'all were dead. I thought y'all were dead, too.",
+            "comedy": "This is how he always talks to me. This isn't how he.",
+            "immersion": "Yeah, I'll see him at the family barbecue. Hey, you guys can come.",
+            "strategy": "We should probably focus on the impending doom of the dragon we know and wait on a new mission.",
+            "curiosity": "What bombs we talking about? The uncommon kind of bombs."
+          }
+        },
+        "superlatives": {
+          "mvp": {
+            "player": "Ohma",
+            "quote": "I find that I must make a choice between saving everything or sticking to my own principles. What What am I if everything were to fall to darkness?"
+          },
+          "best_joke": {
+            "player": "Silas",
+            "quote": "You don't even know what the f****** stern is. No, I'm talking to you, George assholes."
+          },
+          "most_chaotic": {
+            "player": "Bru",
+            "quote": "I immediately jump and start strangling him. I didn't I left you in bed this whole time. Never do this to me again."
+          },
+          "decision_driver": "Silas"
+        }
+      }
     },
     {
       "id": "session-41",
@@ -2587,7 +4043,123 @@
         "nat20_mentions": 1,
         "nat1_mentions": 0
       },
-      "personality": null
+      "personality": {
+        "scores": {
+          "Silas": {
+            "chaos": 8,
+            "heroism": 5,
+            "comedy": 12,
+            "immersion": 10,
+            "strategy": 16,
+            "curiosity": 12
+          },
+          "Topher": {
+            "chaos": 11,
+            "heroism": 13,
+            "comedy": 11,
+            "immersion": 17,
+            "strategy": 14,
+            "curiosity": 15
+          },
+          "Bru": {
+            "chaos": 7,
+            "heroism": 8,
+            "comedy": 9,
+            "immersion": 9,
+            "strategy": 14,
+            "curiosity": 13
+          },
+          "Elspeth": {
+            "chaos": 4,
+            "heroism": 8,
+            "comedy": 9,
+            "immersion": 8,
+            "strategy": 9,
+            "curiosity": 8
+          },
+          "Olivia": {
+            "chaos": 7,
+            "heroism": 14,
+            "comedy": 13,
+            "immersion": 14,
+            "strategy": 11,
+            "curiosity": 11
+          },
+          "Ohma": {
+            "chaos": 5,
+            "heroism": 12,
+            "comedy": 9,
+            "immersion": 15,
+            "strategy": 12,
+            "curiosity": 13
+          }
+        },
+        "evidence": {
+          "Silas": {
+            "chaos": "Well, okay, but like people would probably buy like filings from a goddess bone, right?",
+            "heroism": "Look, we're No, I'm I'm I'm personally not super invested in the whole fighting against empires thing",
+            "comedy": "I feel like you shouldn't be rubbing suntan lotion in your hair, but yeah",
+            "immersion": "Ow ow ow ow. What the hell?",
+            "strategy": "So, listen for a sec. They are going to try to during we this ritual... What if we just sabotage their equipment?",
+            "curiosity": "I'd also be curious they know about all like the genociding that Elder Rand does"
+          },
+          "Topher": {
+            "chaos": "And at that point you see three grappling hooks spring from the ship and pierce a huge blue dragon flying above",
+            "heroism": "Not every destructive force is evil. It is in itself an aspect, an agent of chaos, an element of our universe moving forward",
+            "comedy": "Well, tough s***.",
+            "immersion": "You see the skeleton uh of a glowing winged figure. Uh, she appears to be about 400 uh feet long",
+            "strategy": "Many histories describe a dragon species that mutated over thousands of years, eventually becoming a chicken",
+            "curiosity": "It seems like this point is probably a what you kind of are evaluating is that maybe this point is some sort of like teeter totter in a way"
+          },
+          "Bru": {
+            "chaos": "I have enough bombs to blow up a piece of that headdress. And I'm going to get me a piece.",
+            "heroism": "Bruce quite literally flips a coin uh and it lands on heads and he goes, All right, I guess it's fine. And just pours it in",
+            "comedy": "Nerd. Nerds.",
+            "immersion": "It doesn't smell like old anymore... It smells like new pee",
+            "strategy": "Can we like check the orb? Like is it resonating the closer we are to this this moon god or like is it doing anything that we can gleam from",
+            "curiosity": "Does it does that uh was it noticeable if that like pulse towards the goddess was stronger the closer we got to it"
+          },
+          "Elspeth": {
+            "chaos": "Yeah. So, either sneak or buy",
+            "heroism": "Anytime.",
+            "comedy": "I'll call Tony",
+            "immersion": "I just feel like I'd be like, Get it together. Come on",
+            "strategy": "Can I roll for smarts to see if I can figure something out on how to sabotage it",
+            "curiosity": "See, that's the thing. Our expertise is really in cars and bomb"
+          },
+          "Olivia": {
+            "chaos": "I want the trickster god just to like pop up in like you think you don't think I'm around",
+            "heroism": "Well, I did until my city got destroyed... I want them down and the f****** moon",
+            "comedy": "Muscle grandmommy. Grandommy. Yeah, muscle grandmommy.",
+            "immersion": "I think they hear a lot of people just like chanting like go go go go and we're just like like full on like both trying to like trying to beat each other",
+            "strategy": "We'll get we'll sneeze and we'll get a virus and I'll sneeze it and I'll put it on a piece of paper on a little disc",
+            "curiosity": "Yeah. Do I have like anything where I can talk to my God?"
+          },
+          "Ohma": {
+            "chaos": "I I have a whole like lorish RPG thing. Is giving blood typical of a not like dark ritual?",
+            "heroism": "I I believe that perhaps we should just move forward. I cannot I cannot move past my own feelings",
+            "comedy": "You are wrong. It is a very bad omen for what? One scorpion, three scorpion, five scorpion, but two never",
+            "immersion": "I I have a whole like lorish RPG thing. Is giving blood typical of a not like dark ritual? I feel like anytime you do blood magic, blood donation, it kind of has a a negative twist to it",
+            "strategy": "What if we the sides might be maybe we're not looking out far enough. Maybe the sides aren't between what we've looked at. Maybe it's Elderon and by extension the St. George versus the dragons",
+            "curiosity": "Would there be speedboats that are crystal powered in this world? That's f****** sick"
+          }
+        },
+        "superlatives": {
+          "mvp": {
+            "player": "Elspeth",
+            "quote": "I have one more flash of genius if you want it"
+          },
+          "best_joke": {
+            "player": "Ohma",
+            "quote": "You are wrong. It is a very bad omen for what? One scorpion, three scorpion, five scorpion, but two never"
+          },
+          "most_chaotic": {
+            "player": "Bru",
+            "quote": "I have enough bombs to blow up a piece of that headdress. And I'm going to get me a piece"
+          },
+          "decision_driver": "Silas"
+        }
+      }
     },
     {
       "id": "session-42",
@@ -2690,7 +4262,123 @@
         "nat20_mentions": 1,
         "nat1_mentions": 0
       },
-      "personality": null
+      "personality": {
+        "scores": {
+          "Bru": {
+            "chaos": 11,
+            "heroism": 13,
+            "comedy": 11,
+            "immersion": 8,
+            "strategy": 14,
+            "curiosity": 10
+          },
+          "Topher": {
+            "chaos": 13,
+            "heroism": 12,
+            "comedy": 14,
+            "immersion": 14,
+            "strategy": 12,
+            "curiosity": 12
+          },
+          "Silas": {
+            "chaos": 9,
+            "heroism": 11,
+            "comedy": 11,
+            "immersion": 12,
+            "strategy": 16,
+            "curiosity": 14
+          },
+          "Leliana": {
+            "chaos": 9,
+            "heroism": 15,
+            "comedy": 10,
+            "immersion": 10,
+            "strategy": 12,
+            "curiosity": 11
+          },
+          "Olivia": {
+            "chaos": 8,
+            "heroism": 16,
+            "comedy": 10,
+            "immersion": 14,
+            "strategy": 13,
+            "curiosity": 11
+          },
+          "Elspeth": {
+            "chaos": 10,
+            "heroism": 13,
+            "comedy": 13,
+            "immersion": 15,
+            "strategy": 12,
+            "curiosity": 11
+          }
+        },
+        "evidence": {
+          "Bru": {
+            "chaos": "I'm gonna throw out the um the cannon and I am going to use the cannon's force ballista to propel me up the wall of water.",
+            "heroism": "I got back up, man.",
+            "comedy": "I am the captain now.",
+            "immersion": "Well, uh, I showed up to work Monday morning to, uh, my manager's account being deactivated and I was like, Oh, that's weird. What happened?",
+            "strategy": "I think we said incorrect signals, right? We were purposely luring them.",
+            "curiosity": "Can I use the momentum of my cannon to to catapult me onto the boat?"
+          },
+          "Topher": {
+            "chaos": "Well, uh, I really thought I was going to drown two of you. Um, especially Silus, who I didn't realize had a con mod of zero.",
+            "heroism": "I am an agent of tier but we don't need to do a bunch of ceremony around it.",
+            "comedy": "Um, it's my favorite hat. It's a funny one cuz it's a well, there's a a a veneerial disease you can get called Joe's and uh they named the shack after it",
+            "immersion": "And you see um uh ropes uh firing up into the air, catching hold of an adult blue dragon flying above you.",
+            "strategy": "Um, so I'm going to set the DC here. Um, baseline to get to the skeleton 15.",
+            "curiosity": "I love that y'all tied Victor into this. I didn't even have to. It's great."
+          },
+          "Silas": {
+            "chaos": "Mostly making tactical decisions rather than chaotic ones throughout the session.",
+            "heroism": "I'm going to jump over the railings and straight down if that that's what I need to do.",
+            "comedy": "Don't you ever forget. (Rose and Jack Titanic pose reference)",
+            "immersion": "I mean, I feel like I am uh raring for a nap here. So, I'm going to go I'm going to go dex and sleep here.",
+            "strategy": "Um, okay. Well, um, am I holding on to Bob's hoof? Okay. Yeah, I wasn't able to pull Bob and Olivia with me.",
+            "curiosity": "I feel like we should try to talk to Luna. It should be something on the uh something on the agenda today for sure."
+          },
+          "Leliana": {
+            "chaos": "Conservative spellcasting and tactical positioning, no chaotic decisions.",
+            "heroism": "I'm going to risk it for a biscuit here. Um All right. Can I'm gonna try to cast Polymorph from the dragon.",
+            "comedy": "Well, I'm just got here. I got to, you know",
+            "immersion": "Late arrival mid-session and needed catch-up on the situation.",
+            "strategy": "I want to think I want to use Mantle of Inspiration. I'm just trying to see if I can It is a Bic Inspiration die",
+            "curiosity": "So um how big is our boat? What is that huge class?"
+          },
+          "Olivia": {
+            "chaos": "I'm gonna immediately summon Bob just and try to figure out how we can get up in the air to attack the dragons.",
+            "heroism": "I'm going to cast aid um at third level on Leliana and Bru and you guys get 10 hit points.",
+            "comedy": "She's talking. We learned that much.",
+            "immersion": "I'm hopping on him and trying to figure out how we can get up in the air to attack the dragons.",
+            "strategy": "I'll just keep I'll be staring down the water watching this dark thing coming at us ready to attack.",
+            "curiosity": "Is the water going up or down? Is the water flowing up?"
+          },
+          "Elspeth": {
+            "chaos": "I'm going to put in the second phone. I'm going to turn on the engines.",
+            "heroism": "I'm gonna misty step up and then I'll lay on hands.",
+            "comedy": "I'm just like offering cigarettes to everyone.",
+            "immersion": "Yeah. Um, the dragon is below us. I will figure that out and then let you know. But maybe a minute because of dragon. Yeah, the dragon does swim and goes beneath the boat",
+            "strategy": "Is there a steering... where you actually turn on the boat up on top of deck? Like a is it like a boat with like a key where you actually turn it on up deck",
+            "curiosity": "So there's an engine room. Is there a ste like like the room where you steer and you actually turn on the boat up on top of deck?"
+          }
+        },
+        "superlatives": {
+          "mvp": {
+            "player": "Olivia",
+            "quote": "I'm going to cast aid um at third level on Leliana and Bru and you guys get 10 hit points."
+          },
+          "best_joke": {
+            "player": "Topher",
+            "quote": "Um, it's my favorite hat. It's a funny one cuz it's a well, there's a a a veneerial disease you can get called Joe's and uh they named the shack after it"
+          },
+          "most_chaotic": {
+            "player": "Bru",
+            "quote": "I want to make it bigger. Reducing seems to make everything worse. I'm going to make it bigger."
+          },
+          "decision_driver": "Silas"
+        }
+      }
     },
     {
       "id": "session-43",
@@ -2798,7 +4486,123 @@
         "nat20_mentions": 0,
         "nat1_mentions": 0
       },
-      "personality": null
+      "personality": {
+        "scores": {
+          "Bru": {
+            "chaos": 9,
+            "heroism": 8,
+            "comedy": 10,
+            "immersion": 9,
+            "strategy": 8,
+            "curiosity": 9
+          },
+          "Topher": {
+            "chaos": 12,
+            "heroism": 10,
+            "comedy": 14,
+            "immersion": 14,
+            "strategy": 11,
+            "curiosity": 12
+          },
+          "Ohma": {
+            "chaos": 6,
+            "heroism": 15,
+            "comedy": 8,
+            "immersion": 9,
+            "strategy": 8,
+            "curiosity": 9
+          },
+          "Leliana": {
+            "chaos": 8,
+            "heroism": 7,
+            "comedy": 6,
+            "immersion": 11,
+            "strategy": 10,
+            "curiosity": 10
+          },
+          "Silas": {
+            "chaos": 7,
+            "heroism": 6,
+            "comedy": 11,
+            "immersion": 10,
+            "strategy": 11,
+            "curiosity": 12
+          },
+          "Olivia": {
+            "chaos": 6,
+            "heroism": 7,
+            "comedy": 7,
+            "immersion": 10,
+            "strategy": 11,
+            "curiosity": 12
+          }
+        },
+        "evidence": {
+          "Bru": {
+            "chaos": "I'm going to lunge up at the person and like grab their face and try and like pull their face like as a mask.",
+            "heroism": "I'm going to toss out the cannon and I'm going to get a couple of my little magic uh ball bearings with flashy lights in them.",
+            "comedy": "I'm going to hit the keep reading option in the JRPG list.",
+            "immersion": "This does not sound very metal and that makes me very sad.",
+            "strategy": "Can I dig further into the Violescence orbs to see if I can just grab them or if I need to do like an Indiana Jones thing",
+            "curiosity": "Can I compare these two letters? Is the most recent one like uh does it look different like the handwriting and everything?"
+          },
+          "Topher": {
+            "chaos": "Yes, I sit across from him as he eats his hot dog.",
+            "heroism": "Congratulations team. you really um you know partial success but we'll take the success is where we get them.",
+            "comedy": "I sit across from him as he eats his hot dog. Well, these are my last reports.",
+            "immersion": "Um, there's a huge crowd circled around and um you see um there is a family of Albert there.",
+            "strategy": "And you come into port, there's a huge celebration. Um, all the folks from St. George are heroes welcome at the harbor.",
+            "curiosity": "Um, I'm not going to describe any element of the zoo. Um, so, so what do you see as you approach the zoo?"
+          },
+          "Ohma": {
+            "chaos": "I assume you guys are targeting me because I wasn't on or wasn't at my computer.",
+            "heroism": "I grabbed arm guard's arm and like what do you think that you are doing? You do not grab Leliana",
+            "comedy": "I imagine a paladin with ski goggles now. And it's kind of awesome.",
+            "immersion": "As as Silas walks away. Oh my has to indulge. How how many times did this hot dog eating action happen?",
+            "strategy": "I'm going to say would want to like rush over there because he can see one of the party members is now dealing with adversaries.",
+            "curiosity": "Is is the zoo covering? That sounds wrong. Is the zoo above the Twilight Company headquarters?"
+          },
+          "Leliana": {
+            "chaos": "Um, I'm going to upcast charm person to target four of them.",
+            "heroism": "I didn't consent. I do not consent.",
+            "comedy": "That's not the vibe. That's never my vibe.",
+            "immersion": "I didn't consent. I do not consent.",
+            "strategy": "Um, I'm going to upcast charm person to target four of them.",
+            "curiosity": "Is the um is the aquafer like is there actually liquid flowing through it?"
+          },
+          "Silas": {
+            "chaos": "I'm going to try to look like a little kid and be like, 'But they don't want to get in free, right?'",
+            "heroism": "Well, I mean, as long as I'm making money, you know, that's all that really matters here.",
+            "comedy": "I think you're confusing your own emotions, Trevor. I think that you've connected with Victor in a way that you've never connected with anyone before and you don't know how to deal with it.",
+            "immersion": "Well, I mean, as long as I'm making money, you know, that's all that really matters here.",
+            "strategy": "I would like to uh look around and see um if we have any uh signs of like Victor being here like well actually if he's here right now I guess",
+            "curiosity": "Um I'd like to uh look around and see um if we have any uh signs of like Victor being here like well actually if he's here right now I guess but like um like anyway we could follow him"
+          },
+          "Olivia": {
+            "chaos": "No, we'll pay full price.",
+            "heroism": "I'm definitely going to hand Bru some of these letters.",
+            "comedy": "Jesus.",
+            "immersion": "Yes, honey. I know. She like puts his hands on his face and just kind of like pushes him out of her space.",
+            "strategy": "I'm going to do an investigation check around the bench because we know that he hangs out on this bench",
+            "curiosity": "I'm going to go back to his journals and just look at the most recent journal entry and the date."
+          }
+        },
+        "superlatives": {
+          "mvp": {
+            "player": "Olivia",
+            "quote": "I'm going to do an investigation check around the bench because we know that he hangs out on this bench"
+          },
+          "best_joke": {
+            "player": "Silas",
+            "quote": "I think you're confusing your own emotions, Trevor. I think that you've connected with Victor in a way that you've never connected with anyone before and you don't know how to deal with it."
+          },
+          "most_chaotic": {
+            "player": "Bru",
+            "quote": "I'm going to lunge up at the person and like grab their face and try and like pull their face like as a mask."
+          },
+          "decision_driver": "Silas"
+        }
+      }
     },
     {
       "id": "session-44",
@@ -2889,7 +4693,107 @@
         "nat20_mentions": 0,
         "nat1_mentions": 0
       },
-      "personality": null
+      "personality": {
+        "scores": {
+          "Elspeth": {
+            "chaos": 12,
+            "heroism": 16,
+            "comedy": 12,
+            "immersion": 14,
+            "strategy": 15,
+            "curiosity": 12
+          },
+          "Silas": {
+            "chaos": 13,
+            "heroism": 10,
+            "comedy": 16,
+            "immersion": 16,
+            "strategy": 15,
+            "curiosity": 12
+          },
+          "Topher": {
+            "chaos": 15,
+            "heroism": 13,
+            "comedy": 12,
+            "immersion": 13,
+            "strategy": 14,
+            "curiosity": 12
+          },
+          "Leliana": {
+            "chaos": 12,
+            "heroism": 14,
+            "comedy": 13,
+            "immersion": 14,
+            "strategy": 15,
+            "curiosity": 13
+          },
+          "Olivia": {
+            "chaos": 12,
+            "heroism": 17,
+            "comedy": 13,
+            "immersion": 15,
+            "strategy": 14,
+            "curiosity": 13
+          }
+        },
+        "evidence": {
+          "Elspeth": {
+            "chaos": "I shoot the ground in front of it and I'm like, 'Yeah, yeah, yeah, yeah.' It wasn't the gun that did it.",
+            "heroism": "Elspeth just keep her closer to him like off the roof.",
+            "comedy": "Like you don't even have to say anything else. Yeah, that's kind of the least you can do, bro.",
+            "immersion": "Can I use the fire escape and get to the roof?",
+            "strategy": "I'm gonna try and cast web on them.",
+            "curiosity": "What's he doing over there?"
+          },
+          "Silas": {
+            "chaos": "I'm going to roll a d20. And if they roll higher than 10, then they're just going to f****** try to book it.",
+            "heroism": "This is a development I was not expecting for uh the adventure.",
+            "comedy": "Keep the change, you filthy animal.",
+            "immersion": "On the wall there's a a portrait of the Steve Squad, the one that uh Luke's sister did, and a portrait of him and his sister when they were young.",
+            "strategy": "Um, okay. So, uh, Bru is going to keep setting up traps unless somebody wants to roll for him.",
+            "curiosity": "What do you guys want to do? And yeah, you do have the power to like coordinate with the psychic phone here."
+          },
+          "Topher": {
+            "chaos": "I'm going to cast fireball at fifth level.",
+            "heroism": "Well, um I'll uh hop out, meet the purveyor, and uh get my stuff going.",
+            "comedy": "I think I think Bru and I work on like a Home Alone style booby traps.",
+            "immersion": "Um, so we definitely set up a can of brown above the door.",
+            "strategy": "Um, yeah, like if Olivia wanted to close the distance, uh slow would also make them like particularly susceptible to getting absolutely wrecked.",
+            "curiosity": "Um, so it's an area. So yeah, like I was kind of thinking uh wisdom 17."
+          },
+          "Leliana": {
+            "chaos": "Uh, I want to target one of the um one of the things that has not had a psychic dagger stuck in them.",
+            "heroism": "Um I'm going to have Bru kind of go off in the corner and start to construct something, a uh a makeshift weapon to neutralize these folks.",
+            "comedy": "Oh, it's a plastic. There's just, oh, we got kittied. Oh, yeah. We making biscuits.",
+            "immersion": "Um, I'm going to have a little flexibility with the mirror image still. Um in that um we're going to do like a what the f***** the guy uh Benny Hall kind of thing.",
+            "strategy": "Um, I think today has been long enough. I need you to go back home and go to bed.",
+            "curiosity": "What are the uh patients?"
+          },
+          "Olivia": {
+            "chaos": "I might jump in the water if you want me to jump in the water.",
+            "heroism": "As a retired detective, people's problems are always my problems. It is part of it's what we do.",
+            "comedy": "Ninja Crowd Surfed and I was holding his foot and a little bit of his ball sack was like sticking out of his shorts.",
+            "immersion": "Um, I'm going to jump in the water. I'm going to charge at them.",
+            "strategy": "I'm just going to misty step underwater and just go right up next to him and splash at him.",
+            "curiosity": "What is it? A nature check. Do I think he's using magic to control the sharks?"
+          }
+        },
+        "superlatives": {
+          "mvp": {
+            "player": "Olivia",
+            "quote": "23 and then 24 to hit. The second would only be 16. So, 22 for the first attack."
+          },
+          "best_joke": {
+            "player": "Topher",
+            "quote": "Keep the change, you filthy animal."
+          },
+          "most_chaotic": {
+            "player": "Topher",
+            "quote": "I'm going to cast fireball at fifth level."
+          },
+          "decision_driver": "Olivia"
+        }
+      }
     },
     {
       "id": "session-45",
@@ -2991,7 +4895,123 @@
         "nat20_mentions": 0,
         "nat1_mentions": 0
       },
-      "personality": null
+      "personality": {
+        "scores": {
+          "Silas": {
+            "chaos": 9,
+            "heroism": 10,
+            "comedy": 14,
+            "immersion": 9,
+            "strategy": 15,
+            "curiosity": 8
+          },
+          "Bru": {
+            "chaos": 15,
+            "heroism": 11,
+            "comedy": 11,
+            "immersion": 9,
+            "strategy": 8,
+            "curiosity": 9
+          },
+          "Topher": {
+            "chaos": 12,
+            "heroism": 11,
+            "comedy": 12,
+            "immersion": 13,
+            "strategy": 13,
+            "curiosity": 11
+          },
+          "Leliana": {
+            "chaos": 6,
+            "heroism": 14,
+            "comedy": 10,
+            "immersion": 11,
+            "strategy": 10,
+            "curiosity": 10
+          },
+          "Elspeth": {
+            "chaos": 13,
+            "heroism": 10,
+            "comedy": 13,
+            "immersion": 12,
+            "strategy": 8,
+            "curiosity": 11
+          },
+          "Olivia": {
+            "chaos": 7,
+            "heroism": 12,
+            "comedy": 10,
+            "immersion": 11,
+            "strategy": 8,
+            "curiosity": 13
+          }
+        },
+        "evidence": {
+          "Silas": {
+            "chaos": "This is how you ended up becoming the world's second greatest detective. You let your need for you let their love of interpersonal drama get in the way of the job.",
+            "heroism": "I mean, you know what? Real talk, we're buds now. So, like I feel like we help each other out with our revenge driven motivations.",
+            "comedy": "That sounds pretty foolproof. Like people be like, 'Hey, isn't that Elspeth Cooper?' There's no way. She wasn't British.",
+            "immersion": "Okay, guys. We need to get on his tail here. Should I stay here and like Should I stay here and keep my eyes on him?",
+            "strategy": "Okay, guys. We need to get on his tail here... I can get into the zoo basically anytime I want. So yeah, I'll just catch up to you guys if you need me to.",
+            "curiosity": "I'm not invested in Victor's ongoing drama or not. I'm not. So, we got what we needed."
+          },
+          "Bru": {
+            "chaos": "Upturn maneuver is uh anything that can be flipped. Tables, chairs, whatever... Hi, I'm Kevin.",
+            "heroism": "I'm gonna take off with um with Kevin and um anybody else who wants to come with me and set up the fireworks.",
+            "comedy": "I feel like this trip has off rails before it even started. I feel like this trip has gone off the rails before it even started. We have a British accent.",
+            "immersion": "I need I need to buy some supplies at some point.",
+            "strategy": "I feel like this trip has off rails before it even started. We have a British accent. We're supposed to be like cosplaying as all girls.",
+            "curiosity": "What time is it? I need I need to buy some supplies at some point."
+          },
+          "Topher": {
+            "chaos": "And just when it seems like they're about to be within reach, we end the session. And you see these Um, it's like black holes moving closer to you and they grow bigger and bigger.",
+            "heroism": "The children have been loved. The bathroom has been filled and so have the drinks. Ready to go.",
+            "comedy": "You can find a classified ad for local racists in your area.",
+            "immersion": "you see coming out of this this like spinning blue like deep void these wooden roots emerging from them and they kind of wrap around um the portal space and start to miraculously form a door.",
+            "strategy": "Um and you're eating breakfast and at one point Scarlet bursts into breakfast wideeyed holding a clipboard covered in equations.",
+            "curiosity": "Um something about when you came to the workshop. Um something I had never seen and I uh have written in my notes and tracked uh when it happens and it seems to be Silus when you're nearby."
+          },
+          "Leliana": {
+            "chaos": "Let's tail him, but be careful.",
+            "heroism": "I would like to cast conjure animals with a bunch of like puppies around the kid and see if I can console and distract the kid with a bunch of puppies.",
+            "comedy": "You're just so magnetic. It's your personality.",
+            "immersion": "Well, I was going to give Silus a hug and then present him with a um a hand drum with a uh that has some like little engraving of like daggers and an S on it.",
+            "strategy": "I'm going to psychic phone to the other group. Are you guys here yet? We found Victor.",
+            "curiosity": "Hey Victor, how's your hot dog? No, no, thank you. I don't really go for hot dogs too much, but how's your day?"
+          },
+          "Elspeth": {
+            "chaos": "If I don't have a British accent, then I'm going to get attacked. I just thought of it. I'm also not changing my appearance. It's just the voice.",
+            "heroism": "I give you like it's super crudely wrapped because we've been busy, but I give you a gift and it's from all of us and it's um a wand of webs.",
+            "comedy": "I pull my hat down even further over my face somehow. I make it into a bucket.",
+            "immersion": "I give you like it's super crudely wrapped because we've been busy, but I give you a gift and it's from all of us.",
+            "strategy": "I just thought of it. I'm also not changing my appearance. It's just the voice.",
+            "curiosity": "I should go look for that sign. Or if it's on like a bulletin board, check the handwriting or something."
+          },
+          "Olivia": {
+            "chaos": "Silus, if you teleport in here, we're donating a gold each.",
+            "heroism": "Olivia's going to walk over and help him and then just kind of like talk to Victor.",
+            "comedy": "Booper is an action you do to a tiny child's nose.",
+            "immersion": "I think Olivia's just hanging out having a nice casual breakfast with everybody.",
+            "strategy": "What? Silus. This is a nonprofit. You better I better put two in that donation box.",
+            "curiosity": "Guys, he is not human. He is something not just special but like extra special like more than he's older than me."
+          }
+        },
+        "superlatives": {
+          "mvp": {
+            "player": "Leliana",
+            "quote": "I would like to cast conjure animals with a bunch of like puppies around the kid and see if I can console and distract the kid with a bunch of puppies."
+          },
+          "best_joke": {
+            "player": "Elspeth",
+            "quote": "I pull my hat down even further over my face somehow. I make it into a bucket."
+          },
+          "most_chaotic": {
+            "player": "Bru",
+            "quote": "Upturn maneuver is uh anything that can be flipped. Tables, chairs, whatever... Hi, I'm Kevin."
+          },
+          "decision_driver": "Silas"
+        }
+      }
     },
     {
       "id": "session-46",
@@ -3075,7 +5095,91 @@
         "nat20_mentions": 0,
         "nat1_mentions": 0
       },
-      "personality": null
+      "personality": {
+        "scores": {
+          "Bru": {
+            "chaos": 9,
+            "heroism": 15,
+            "comedy": 12,
+            "immersion": 10,
+            "strategy": 18,
+            "curiosity": 11
+          },
+          "Silas": {
+            "chaos": 10,
+            "heroism": 12,
+            "comedy": 14,
+            "immersion": 14,
+            "strategy": 14,
+            "curiosity": 17
+          },
+          "Olivia": {
+            "chaos": 11,
+            "heroism": 13,
+            "comedy": 12,
+            "immersion": 10,
+            "strategy": 12,
+            "curiosity": 11
+          },
+          "Topher": {
+            "chaos": 9,
+            "heroism": 11,
+            "comedy": 12,
+            "immersion": 15,
+            "strategy": 14,
+            "curiosity": 13
+          }
+        },
+        "evidence": {
+          "Bru": {
+            "chaos": "I'm really just ignoring it. I'm just ignoring that you thing.",
+            "heroism": "I didn't use my action on my turn. Can I just cast Levitate on Olivia?",
+            "comedy": "I I could drink brown while I bathe in brown.",
+            "immersion": "I'm perceptive. Not only that, my passive perception is 25. I do be like that, my friend.",
+            "strategy": "I'm going to hex that one because then if it dies, I'll just bounce the hex.",
+            "curiosity": "Did my move to the one in the sky instead then?"
+          },
+          "Silas": {
+            "chaos": "I strategically hid myself. I'm like right underneath you guys. Whatever.",
+            "heroism": "I come up to Bru and I hand him like a pint of ice cream and like a box of tissues.",
+            "comedy": "Horse blister sounds like it'd be a really nasty spell.",
+            "immersion": "I've been talking out my ass at people way more powerful than me, literally my whole life. This is just another the same thing on a different scale.",
+            "strategy": "If we were to maybe uh acquire some of uh her holy relics, would that diminish her? And especially if we brought them to you and you like, you know, absorbed its mojo or whatever.",
+            "curiosity": "Can you give us a little bit better understanding of your relationship with these dragons? And why did the dwarves seal away Astro? Was was she just going to eat everything?"
+          },
+          "Olivia": {
+            "chaos": "We're going to start blowing up a lot of outdoor stuff.",
+            "heroism": "I'm going to misty step up there into space and whack at them.",
+            "comedy": "I'm writing it down and underlining it. Space bowls. Fascinating.",
+            "immersion": "She is going to attack. Smash them with a battle axe. The 19 hit.",
+            "strategy": "I think we need to talk to Viper and get a better understanding of what's happening because we only know so much.",
+            "curiosity": "So, the space bowl is not the space station, correct? They're two different things."
+          },
+          "Topher": {
+            "chaos": "Jesus Christ. If I could roll above a 10, that would be really, really cool.",
+            "heroism": "Everybody behind me now.",
+            "comedy": "Victor Victor pops out of a bush uh um and says, Wait, do y'all want to blow up an Eldoran capital?",
+            "immersion": "You see uh what looks like tears opening. um across like wet black paper. And you see these void figures, human-shaped um edged with what looks like, uh starlight.",
+            "strategy": "Um, the um one of these uh void figures is going to go first, the larger one.",
+            "curiosity": "Anyone who wants to give me an insight arcana religion."
+          }
+        },
+        "superlatives": {
+          "mvp": {
+            "player": "Bru",
+            "quote": "I didn't use my action on my turn. Can I just cast Levitate on Olivia?"
+          },
+          "best_joke": {
+            "player": "Silas",
+            "quote": "Horse blister sounds like it'd be a really nasty spell."
+          },
+          "most_chaotic": {
+            "player": "Bru",
+            "quote": "we're going to blow up a whole bunch of stuff."
+          },
+          "decision_driver": "Silas"
+        }
+      }
     },
     {
       "id": "session-47",
@@ -3160,7 +5264,91 @@
         "nat20_mentions": 0,
         "nat1_mentions": 0
       },
-      "personality": null
+      "personality": {
+        "scores": {
+          "Elspeth": {
+            "chaos": 9,
+            "heroism": 10,
+            "comedy": 12,
+            "immersion": 13,
+            "strategy": 11,
+            "curiosity": 9
+          },
+          "Olivia": {
+            "chaos": 5,
+            "heroism": 15,
+            "comedy": 8,
+            "immersion": 12,
+            "strategy": 16,
+            "curiosity": 15
+          },
+          "Silas": {
+            "chaos": 8,
+            "heroism": 16,
+            "comedy": 9,
+            "immersion": 14,
+            "strategy": 16,
+            "curiosity": 12
+          },
+          "Topher": {
+            "chaos": 12,
+            "heroism": 11,
+            "comedy": 14,
+            "immersion": 16,
+            "strategy": 15,
+            "curiosity": 13
+          }
+        },
+        "evidence": {
+          "Elspeth": {
+            "chaos": "I'm still going to imagine Dante. I'm just going to go with that.",
+            "heroism": "Are you targeting civilians? We did mean to ask that in this situation.",
+            "comedy": "I told you she liked my flight suit. I told you.",
+            "immersion": "she's going to imagine some ice water so she can have some glitching.",
+            "strategy": "Do we have a place we could build a rocket ship?",
+            "curiosity": "Is she cool? Is she cool?"
+          },
+          "Olivia": {
+            "chaos": "Yeah. So, we have some goals... we're always kind of like adapting the plan as we go.",
+            "heroism": "is it all Alderans must die or just like they leave then it's cool. Do you have names?",
+            "comedy": "I have a feeling she doesn't give a s***.",
+            "immersion": "I'm a retired detective Olivia Cooper.",
+            "strategy": "I think we should talk to Lady Viper because it'll help us decide if we want to do that immediately or if we want to go do the Dragon Balls and then come back",
+            "curiosity": "Can I do a history check to see if I remember anything about this?"
+          },
+          "Silas": {
+            "chaos": "I'm against mass murder. So yeah. Um weird. Not willing to cross.",
+            "heroism": "I'm against mass murder. So yeah. Not willing to cross.",
+            "comedy": "I can't say it fits a dragon because that doesn't keep with the gag. Damn it.",
+            "immersion": "So why are you binding me if not working for them? I'm not a fan of the world being eaten.",
+            "strategy": "I think we need several insight checks going on. You've got a 20. I got a 20.",
+            "curiosity": "Do you have any trusted contacts in the city? anyone we might be able to meet up with once we're there?"
+          },
+          "Topher": {
+            "chaos": "She whispers to her snake and it coils down here and then seems to go off in a direction.",
+            "heroism": "All you have to do is tell him what to do and he'll do it. I think you'll always have a home here.",
+            "comedy": "A hot iron, my dear. A hot iron... It's ghastly. It's close.",
+            "immersion": "Um, it's a doorway into a sitting room uh with a fireplace um candalabra along the side lighting it. Um, very moody.",
+            "strategy": "I don't think we can do three orbs and then do that cuz timewise I mean maybe we could sabotage the and do the heist in Eldoran",
+            "curiosity": "Well, it's not just a balcony, it's more like a catwalk almost up there. Um so you're able to wind your way through."
+          }
+        },
+        "superlatives": {
+          "mvp": {
+            "player": "Olivia",
+            "quote": "Can I do a history check to see if I remember anything about this? You um something in your memory about this. you um you remember some targeted um some very covert targeted killings happening in Grapefruit around this time... Elizandra Legrand."
+          },
+          "best_joke": {
+            "player": "Elspeth",
+            "quote": "I told you she liked my flight suit. I told you."
+          },
+          "most_chaotic": {
+            "player": "Silas",
+            "quote": "I just put it in his bag without telling him."
+          },
+          "decision_driver": "Olivia"
+        }
+      }
     },
     {
       "id": "session-48",
@@ -3241,7 +5429,91 @@
         "nat20_mentions": 0,
         "nat1_mentions": 0
       },
-      "personality": null
+      "personality": {
+        "scores": {
+          "Silas": {
+            "chaos": 11,
+            "heroism": 14,
+            "comedy": 12,
+            "immersion": 12,
+            "strategy": 16,
+            "curiosity": 15
+          },
+          "Elspeth": {
+            "chaos": 10,
+            "heroism": 15,
+            "comedy": 11,
+            "immersion": 13,
+            "strategy": 12,
+            "curiosity": 14
+          },
+          "Bru": {
+            "chaos": 16,
+            "heroism": 9,
+            "comedy": 12,
+            "immersion": 11,
+            "strategy": 11,
+            "curiosity": 9
+          },
+          "Topher": {
+            "chaos": 13,
+            "heroism": 13,
+            "comedy": 12,
+            "immersion": 13,
+            "strategy": 14,
+            "curiosity": 13
+          }
+        },
+        "evidence": {
+          "Silas": {
+            "chaos": "I just want to see what happens. You know, the hamburger is very on brand for me.",
+            "heroism": "I mean, I feel like getting her to win the race would actually be kind of a cool thing to do.",
+            "comedy": "Does champagne normally come in buckets? I was worried you were giving us like that bucket that people like spit into at wine tastings.",
+            "immersion": "I come up and I I act like I'm like walking by her table when I like I see her out of the corner of my eye. Like a double take.",
+            "strategy": "I want to see if I can find a spot on the wall that most that's kind of like out of the way. No one's really watching and then like make my way up the wall across the ceiling and then like right above them.",
+            "curiosity": "I want to look around at the ceiling above them. Is there like a like a light fixture or anything that's like hanging kind of like above the the table that they're sitting at?"
+          },
+          "Elspeth": {
+            "chaos": "s***. f***. Damn it.",
+            "heroism": "But now I want to help you and I want to help all the other orphans to actually live a good life and to not have to eat bread soup, go to this other orphanage and get hot dogs.",
+            "comedy": "I'm just sneezing the whole time.",
+            "immersion": "I'm assuming Bru puts ice on his shirt.",
+            "strategy": "Maybe we should probably just like figure like figure out what they're saying.",
+            "curiosity": "What is he doing with those council people? That can't be good, right?"
+          },
+          "Bru": {
+            "chaos": "I'm going to walk across the bar, like just on top of the bar and just walk across it to get over to him because that seems like the least resistance to me.",
+            "heroism": "Yeah, that sounds good.",
+            "comedy": "I pull out a stack of papers that you have to sign a waiver and he can crash the car any second cuz you can't reach the pedals.",
+            "immersion": "I want them to be almost exact but slightly different just just because I want the decals to have like our names in them instead of like castor oil or whatever.",
+            "strategy": "I want them to be almost exact but slightly different just just because I want the decals to have like our names in them instead of like castor oil.",
+            "curiosity": "I'm going to look around, see if I very nonchalantly like I'm kind of scanning the crowd, just like taking the party in. But as I'm doing so, I'm clocking anybody that's looking at me."
+          },
+          "Topher": {
+            "chaos": "Um, all right. I guess so. Do not you you're pretty unique looking, would you say?",
+            "heroism": "Yeah. Yeah. You get evidence that they're working on violence for sure. It's got to be gang related.",
+            "comedy": "the uh the angry video game nerd did a video one time about how like a checks mix made a uh basically just a reskin of Doom.",
+            "immersion": "Um, you uh you arrive um into the salarium um which at night is is fairly cool because above they have um hanging lights just below the glass. And so it reflects off the glass and kind of has like a a constellation effect on the glass as it reflects.",
+            "strategy": "Um, yeah, we will jump right to um y'all arriving at the Gaines Bakery um in the nice part of town.",
+            "curiosity": "Um, Elspeth, um, you uh, as you're moving through the room, you actually hear uh, is Denlin a woman or a man?"
+          }
+        },
+        "superlatives": {
+          "mvp": {
+            "player": "Silas",
+            "quote": "Can I throw some cauldrons in its path? Yeah, I think it's part of my kit. What should I roll?"
+          },
+          "best_joke": {
+            "player": "Silas",
+            "quote": "Does champagne normally come in buckets? I was worried you were giving us like that bucket that people like spit into at wine tastings."
+          },
+          "most_chaotic": {
+            "player": "Bru",
+            "quote": "I'm going to walk across the bar, like just on top of the bar and just walk across it to get over to him because that seems like the least resistance to me."
+          },
+          "decision_driver": "Silas"
+        }
+      }
     },
     {
       "id": "session-49",
@@ -3341,7 +5613,123 @@
         "nat20_mentions": 0,
         "nat1_mentions": 0
       },
-      "personality": null
+      "personality": {
+        "scores": {
+          "Olivia": {
+            "chaos": 11,
+            "heroism": 13,
+            "comedy": 8,
+            "immersion": 14,
+            "strategy": 14,
+            "curiosity": 16
+          },
+          "Bru": {
+            "chaos": 16,
+            "heroism": 8,
+            "comedy": 13,
+            "immersion": 12,
+            "strategy": 9,
+            "curiosity": 8
+          },
+          "Silas": {
+            "chaos": 8,
+            "heroism": 17,
+            "comedy": 11,
+            "immersion": 16,
+            "strategy": 18,
+            "curiosity": 17
+          },
+          "Leliana": {
+            "chaos": 7,
+            "heroism": 12,
+            "comedy": 12,
+            "immersion": 13,
+            "strategy": 9,
+            "curiosity": 11
+          },
+          "Elspeth": {
+            "chaos": 7,
+            "heroism": 18,
+            "comedy": 11,
+            "immersion": 16,
+            "strategy": 9,
+            "curiosity": 12
+          },
+          "Topher": {
+            "chaos": 14,
+            "heroism": 11,
+            "comedy": 13,
+            "immersion": 18,
+            "strategy": 16,
+            "curiosity": 15
+          }
+        },
+        "evidence": {
+          "Olivia": {
+            "chaos": "And this one's a goblin. You can abuse the s*** out of this one.",
+            "heroism": "I'm just going to try and knock her out then.",
+            "comedy": "I'm going to use real dice for this.",
+            "immersion": "I'm going to put mine on and make myself look like this like haggarded old like wash woman that's just like overwhelmed",
+            "strategy": "Okay, all right. Fine. f*** it. Just give two copper each and I'll just get out of here.",
+            "curiosity": "I'm going to do a history check and see if the word if the name Sable sparks anything."
+          },
+          "Bru": {
+            "chaos": "I'm going to reactionary uh firebolt.",
+            "heroism": "They're circling the spaceship like sharks at the moment. Get them out of there.",
+            "comedy": "I just have 2x4s strapped to my feet pushing the pedals. Like, not even like really really on there tight, just kind of loose, just like more with friction than anything.",
+            "immersion": "I will be white smoke and silus you can be gray smoke.",
+            "strategy": "Maybe we could just re-engineer this whole infrastructure to make the orphans give us the violence.",
+            "curiosity": "Does she stop anywhere that seems important?"
+          },
+          "Silas": {
+            "chaos": "That could be a good way for us to incite a revolution.",
+            "heroism": "I believe in you, Liv. And like, I'm going to trust that Olivia is going to win this fight, and we can like just leave her in the hole.",
+            "comedy": "I just look like an Oliver Twist character basically.",
+            "immersion": "Someone invited Bellsmith to an afterparty and she's she wants the whole crew to hang out. She's dancing on the table, right? Bells, get down from there.",
+            "strategy": "I want to like reach to my pocket and turn on our uh our audio recorder that we have for the concerts.",
+            "curiosity": "I'll head into this office real quick. I'll try to be uh careful not to disturb anything. But I would like to see if there's like a name plate on the front of the desk."
+          },
+          "Leliana": {
+            "chaos": "I'm going to try to do like a purposely pathetic little dance to show off like how premium we are.",
+            "heroism": "If you break line of sight, I can give you a quick tap to take your invisible result.",
+            "comedy": "Hey, teacher, leave those kids alone.",
+            "immersion": "I do nothing. But I stand really stealthily.",
+            "strategy": "I'm going to check out of bed just to like look at it and see if there's anything if I can like nonchalantly like look around.",
+            "curiosity": "On the underside of the mattress you see written in like a red paint or something. Um it says escape before 15."
+          },
+          "Elspeth": {
+            "chaos": "I want to look for a bed that either is empty or above somebody that's like scared looking like maybe they're like shaking in bed or crying.",
+            "heroism": "Maybe if we attack the doctor, they'll be like, 'Oh, you're saving us.'",
+            "comedy": "My name's Oh, also a flower name. My name's Pansy.",
+            "immersion": "I'm going to go to the bunk above. I'll like whisper real quiet like I am going to take the bunk above you. Are you okay?",
+            "strategy": "Should we wait until the police are here and take the children to the bank bakery? But if we need to evacuate them then that's definitely option B.",
+            "curiosity": "Thomas, why aren't there any older kids here?"
+          },
+          "Topher": {
+            "chaos": "She's got this black mask covering her face and she turns to you and says, 'Excellent. More more children to add to the school.'",
+            "heroism": "You're able to pop them all systematically.",
+            "comedy": "If you don't eat your meat, you can't have any pudding.",
+            "immersion": "You see this long very sterile hallway with these bay doors that are large that seem to open up into bays that seem to be dormitories.",
+            "strategy": "So, team Snoop, um, you head down the hallway with Birdie Crimson and you're heading to the doctor's office, right?",
+            "curiosity": "You pick the door very carefully and begin to ease it open. You can kind of feel the pressure change and it almost feels like wind like getting sucked in."
+          }
+        },
+        "superlatives": {
+          "mvp": {
+            "player": "Silas",
+            "quote": "I believe in you, Liv. And like, I'm going to trust that Olivia is going to win this fight, and we can like just leave her in the hole."
+          },
+          "best_joke": {
+            "player": "Leliana",
+            "quote": "Hey, teacher, leave those kids alone."
+          },
+          "most_chaotic": {
+            "player": "Bru",
+            "quote": "I'm going to reactionary uh firebolt."
+          },
+          "decision_driver": "Silas"
+        }
+      }
     },
     {
       "id": "session-50",
@@ -3428,7 +5816,107 @@
         "nat20_mentions": 1,
         "nat1_mentions": 0
       },
-      "personality": null
+      "personality": {
+        "scores": {
+          "Bru": {
+            "chaos": 9,
+            "heroism": 13,
+            "comedy": 9,
+            "immersion": 7,
+            "strategy": 15,
+            "curiosity": 11
+          },
+          "Topher": {
+            "chaos": 13,
+            "heroism": 10,
+            "comedy": 15,
+            "immersion": 14,
+            "strategy": 13,
+            "curiosity": 12
+          },
+          "Leliana": {
+            "chaos": 9,
+            "heroism": 15,
+            "comedy": 9,
+            "immersion": 11,
+            "strategy": 13,
+            "curiosity": 11
+          },
+          "Elspeth": {
+            "chaos": 14,
+            "heroism": 17,
+            "comedy": 10,
+            "immersion": 16,
+            "strategy": 14,
+            "curiosity": 12
+          },
+          "Silas": {
+            "chaos": 11,
+            "heroism": 13,
+            "comedy": 12,
+            "immersion": 13,
+            "strategy": 15,
+            "curiosity": 13
+          }
+        },
+        "evidence": {
+          "Bru": {
+            "chaos": "Could somebody roll for me? I'm in the middle of the yard at the moment.",
+            "heroism": "They're all frightened of the head mistress, right? Or headmaster. Okay. Can I can I minor illusion the head mistress rounding the corner in front of her?",
+            "comedy": "And we know you won't carry me. Can't. Won't",
+            "immersion": "Uh, probably not. I probably just didn't reset it from",
+            "strategy": "I will say that psychically. Hey guys, we only have probably a couple of minutes before the police show up here, so we got to make whatever we're doing snappy.",
+            "curiosity": "Does Crimson see anybody coming like reinforcements or anything?"
+          },
+          "Topher": {
+            "chaos": "Um, okay, the very last thing we left off was Leliana giving the game away as and uh several um several faces of Elsp look directly at you.",
+            "heroism": "Um, okay. Um, okay. Do you want to do you want to roll a check?",
+            "comedy": "We don't need no education and she begins to walk towards you.",
+            "immersion": "Um, uh, the doctor now, um, she says, You won't get away with us. And she pulls out her gun and um and shoots a fireball.",
+            "strategy": "Um, so you go a couple blocks, you find an alley, uh, you start setting up the pocket village.",
+            "curiosity": "remind me who is in uh this scene right now. It's Leliana and Silas."
+          },
+          "Leliana": {
+            "chaos": "I'm going to try to be out of reach of all these elizabeths. So, I'm gonna try to I'll try to misty set my way up to the ceiling of this room",
+            "heroism": "relax, relax, relax if you get it. Um, wisdom 17 for each of them.",
+            "comedy": "I was trying to come up with a Pink Floyd reference to album Animals, but I couldn't think fast enough.",
+            "immersion": "I'll try to I guess in character I'll say something like, Hey, you in the hallway. Um, don't you want to be amongst your friends",
+            "strategy": "I'm going to upcast commands um on all three of them to basically I guess halt.",
+            "curiosity": "So, they've been So, they've been in these simulators practicing racing basically."
+          },
+          "Elspeth": {
+            "chaos": "I could probably just kick my brother out of the car, you know what I mean? Kind of steal my brother's car and then I can see what Belspeth Booper really's got up her sleeve",
+            "heroism": "Teens, we're here to rescue you. I don't know any of your names except Meera, but we're here to help.",
+            "comedy": "Can you put a cap on me backwards? Bru, can you put a cap on me backwards?",
+            "immersion": "I'm a bad kid now. I'm not nice El Smith anymore.",
+            "strategy": "Maybe I'll just go in without a lawyer and then if you need to bail me out, then you can be a lawyer. Okay.",
+            "curiosity": "What is your name? We'll figure it out."
+          },
+          "Silas": {
+            "chaos": "So, I'm going to try to throw my dagger at her again. I want to see if it was just a low roll or if uh she has some sort of like b******* I can't overcome.",
+            "heroism": "Yeah. I'm about to ask are we with you? Oh, if you do that, I guess the rest of us could do like the the like hype squad thing",
+            "comedy": "Teens only respect muscles, so it's got to be con,",
+            "immersion": "I yell dark side of the moon and um goes like straight down into her head.",
+            "strategy": "Um, I want to use my uh my spiderweb thing to try to stick the two that are uh not part of the hug so they don't go anywhere.",
+            "curiosity": "they're like using some sort of weird fungus s*** to transform these kids."
+          }
+        },
+        "superlatives": {
+          "mvp": {
+            "player": "Elspeth",
+            "quote": "Teens, we're here to rescue you. I don't know any of your names except Meera, but we're here to help."
+          },
+          "best_joke": {
+            "player": "Silas",
+            "quote": "No car in the world will compensate for your lack of skill."
+          },
+          "most_chaotic": {
+            "player": "Elspeth",
+            "quote": "I could probably just kick my brother out of the car, you know what I mean? Kind of steal my brother's car"
+          },
+          "decision_driver": "Elspeth"
+        }
+      }
     },
     {
       "id": "session-51",
@@ -3531,7 +6019,123 @@
         "nat20_mentions": 0,
         "nat1_mentions": 0
       },
-      "personality": null
+      "personality": {
+        "scores": {
+          "Elspeth": {
+            "chaos": 14,
+            "heroism": 12,
+            "comedy": 14,
+            "immersion": 15,
+            "strategy": 13,
+            "curiosity": 11
+          },
+          "Silas": {
+            "chaos": 13,
+            "heroism": 10,
+            "comedy": 11,
+            "immersion": 14,
+            "strategy": 16,
+            "curiosity": 9
+          },
+          "Leliana": {
+            "chaos": 10,
+            "heroism": 13,
+            "comedy": 11,
+            "immersion": 12,
+            "strategy": 10,
+            "curiosity": 13
+          },
+          "Topher": {
+            "chaos": 18,
+            "heroism": 10,
+            "comedy": 16,
+            "immersion": 18,
+            "strategy": 14,
+            "curiosity": 11
+          },
+          "Bru": {
+            "chaos": 16,
+            "heroism": 11,
+            "comedy": 13,
+            "immersion": 14,
+            "strategy": 17,
+            "curiosity": 8
+          },
+          "Olivia": {
+            "chaos": 11,
+            "heroism": 17,
+            "comedy": 13,
+            "immersion": 14,
+            "strategy": 15,
+            "curiosity": 10
+          }
+        },
+        "evidence": {
+          "Elspeth": {
+            "chaos": "I will talk to Silus and I'll be like should we steal their violence?",
+            "heroism": "That's a good reason. That's a good reason to rrestle? You've done some rrestling.",
+            "comedy": "Oh, two heal groups. Am I right? This is so strange.",
+            "immersion": "She's probably looking to see what the new merch drop is, like if there is any Sydney TE's, if any of her wrestler friends are around.",
+            "strategy": "After the match starts, I do bring Leliana down and I'm like, 'Okay, so like for the next entrance, we really need to hype up the crowd.'",
+            "curiosity": "Do you think he'd be cool if we wrote a book about him? You think Iro'd be cool with that?"
+          },
+          "Silas": {
+            "chaos": "I'm gonna try to hit both because it's a 15 foot cone.",
+            "heroism": "I'll say that she gets wrapped up in chains as well and drugged off to the side and Gary's uh throne actually launches into the sky.",
+            "comedy": "Um, Silas is gonna keep his momentum going, go over to the opposite rope, and uh he's going to hit one of his signatures, the um he calls it Apollo's arrow.",
+            "immersion": "I'll say the ref is like, uh, just like an old like, uh, elf, like they look like they're like a thousand years old.",
+            "strategy": "Well, I guess it doesn't. So, when Silus is in the ring, I'm gonna cheat. So, it's probably more climactic if if I go first in.",
+            "curiosity": "Okay, so, um, I'm gonna try and pin and I'm gonna send Kevin uh at the other one's"
+          },
+          "Leliana": {
+            "chaos": "I know it's only... I know I'm not really a fighter.",
+            "heroism": "I know it's only... I know I'm not really a fighter. But she knows she has to do this. I'll just work the crowd.",
+            "comedy": "I hear I hear hell is and a single tear drops down Lana's eyes as she throws the insult of I hear your gods are only uh lame.",
+            "immersion": "Um, all right. Um, gonna tap microphone. Is this on? Okay. Uh in we have uh team taco cat here.",
+            "strategy": "Uh, I would turn him into a little... maybe uh maybe a tiger shark. How about that?",
+            "curiosity": "Um, okay. Basically redneck anime. Okay. Interesting. That all sounds very uh very brutal. I mean, people are fighting each other for fun."
+          },
+          "Topher": {
+            "chaos": "And then suddenly, emerging from the entrance, a band of demons arrives... Geysers of fire start shooting around the entrance ramp. Pentagrams start appearing all around the ring.",
+            "heroism": "If you guys let this go, then either demons ruin my brother's retirement celebration, probably kill him, or the Knights of Eldora basically bury any chance you have of reviving Luna's name.",
+            "comedy": "He's got like a bow tie and big sunglasses... There's two women rather scantily clad, wearing like Caspianesque like outfits... standing in the back there's this massive m*** wearing like basically like SNM leather rocker.",
+            "immersion": "There is like a lot of his clothes are being like burned away as he goes, but there's a look of sheer cold hard determination on his face as he comes careening towards the arena.",
+            "strategy": "For tag team, um you have to win by pinning your opponent... the first team to secure a pin will win the match.",
+            "curiosity": "Okay. Um, all right. So, yeah, if you're in the merch area, you'll probably bump into Silus a few times."
+          },
+          "Bru": {
+            "chaos": "I'm going to blow up the ring.",
+            "heroism": "If they do, then it's your ass on the line. All right. Go away. You got to get away from here. If it blows up in here, then I want to be the only one that gets hurt here.",
+            "comedy": "And then uh Bru, you're the Bruchador. We also have Kevin in a puppet costume flapping his little puppet face and spraying the crowd with fart spray.",
+            "immersion": "So the uh Brit costume is just like my working apron and that's pretty much it. So you just see like my butt whenever I'm from behind.",
+            "strategy": "My idea with the explosives is basically as a reaction if um if Silus ever gets pinned, I'm going to blow up the ring.",
+            "curiosity": "Uh, depending on how much time it takes, uh, my plan is to rig and then have a remote detonation and, uh, by the time I'm done, I'm going to reappear next to Silus."
+          },
+          "Olivia": {
+            "chaos": "She's like the baby and spirited away.",
+            "heroism": "Olivia's going to walk into the center of the ring, take my axe out, and slam it into the center. Just slam it into the ground like Thor style.",
+            "comedy": "It's been around my whole life. I know more than I want to know about it, but I could not care less.",
+            "immersion": "Imagine her. She's in like um a suit, but it's leather. And then she has like a sheep skin draped over her shoulders. And then she's painted her face from her nose up black, but then has like a gold circle around her head.",
+            "strategy": "I'm going to use my channel divinity for Abjure Foe. So I can use it as a spell attack and they have to make a wisdom saving throw or they're frightened.",
+            "curiosity": "Can you explain to me what penfall means? Is that just pinning?"
+          }
+        },
+        "superlatives": {
+          "mvp": {
+            "player": "Olivia",
+            "quote": "Olivia's going to walk into the center of the ring, take my axe out, and slam it into the center. Just slam it into the ground like Thor style... she managed to uh sneak off from Olivia's uh narcing gaze... you managed to pinned this a****** in like the first minute of the match."
+          },
+          "best_joke": {
+            "player": "Olivia",
+            "quote": "Fake moon. Fake moon. Fake moon."
+          },
+          "most_chaotic": {
+            "player": "Bru",
+            "quote": "I'm going to blow up the ring."
+          },
+          "decision_driver": "Elspeth"
+        }
+      }
     },
     {
       "id": "session-52",
@@ -3624,7 +6228,107 @@
         "nat20_mentions": 0,
         "nat1_mentions": 0
       },
-      "personality": null
+      "personality": {
+        "scores": {
+          "Elspeth": {
+            "chaos": 9,
+            "heroism": 13,
+            "comedy": 11,
+            "immersion": 12,
+            "strategy": 13,
+            "curiosity": 12
+          },
+          "Bru": {
+            "chaos": 17,
+            "heroism": 8,
+            "comedy": 11,
+            "immersion": 9,
+            "strategy": 12,
+            "curiosity": 7
+          },
+          "Topher": {
+            "chaos": 14,
+            "heroism": 12,
+            "comedy": 13,
+            "immersion": 16,
+            "strategy": 13,
+            "curiosity": 12
+          },
+          "Leliana": {
+            "chaos": 8,
+            "heroism": 13,
+            "comedy": 10,
+            "immersion": 12,
+            "strategy": 12,
+            "curiosity": 10
+          },
+          "Silas": {
+            "chaos": 13,
+            "heroism": 15,
+            "comedy": 11,
+            "immersion": 13,
+            "strategy": 13,
+            "curiosity": 11
+          }
+        },
+        "evidence": {
+          "Elspeth": {
+            "chaos": "Dice are important and I got them.",
+            "heroism": "I'm going to put a warning bond on Bru that lasts for an hour.",
+            "comedy": "free. Is it great?",
+            "immersion": "If you could figure that out, you know those crystals on the Aldorans.",
+            "strategy": "Can I make the boat bigger to make it go faster? I think it worked last time.",
+            "curiosity": "She probably has plenty of sending stones. She has a lot of burners. I bet."
+          },
+          "Bru": {
+            "chaos": "So anyways, I started blasting.",
+            "heroism": "I'm gonna I'm gonna double bonus action and toss the grenade launcher to Elf.",
+            "comedy": "Every day of the week.",
+            "immersion": "I got to refill all the bomb all the explosives materials that I used up.",
+            "strategy": "I had a plan of while we were on our way, I was going to hook up the grenade launcher or rocket launcher to also shoot biolescence.",
+            "curiosity": "What are you even reading, Scarlet?"
+          },
+          "Topher": {
+            "chaos": "a bunch of f****** demons showed up and like crashed the whole thing, they like captured all the wrestlers, including Iro.",
+            "heroism": "Um there is one of the arms sweep into the ocean and pull a huge wave of water that has about 20 sharks in some of the best finery you could imagine.",
+            "comedy": "the captain is s******* the bed. They are bad at their job.",
+            "immersion": "you um like uh you um basically dive out um you're able to like run off the like peak of the boat out and you um arc your way over the edge of the water and then like weave your way in and out of the water.",
+            "strategy": "Let's make you roll about it. Roll uh slide of hand. Um, it's actually about the black hole.",
+            "curiosity": "I wonder if her um if her like what did y'all call it? Lunar Luna Bay. Luna Trench."
+          },
+          "Leliana": {
+            "chaos": "I'm going to I think I'll drive the boat just for a second so I can storm a little BIC inspiration to uh to Bru.",
+            "heroism": "I'm going to pick one of them uh and cast enemies of bound on one of them.",
+            "comedy": "Turn taco cat.",
+            "immersion": "I think I'll drive the boat. Love it.",
+            "strategy": "I'll get within 120 ft, which I should with my 90 ft of movement. Um, and then do I see a particular individual like is it just one person manning the gun.",
+            "curiosity": "How are we doing on juice levels? Who needs juice?"
+          },
+          "Silas": {
+            "chaos": "what if we disguised ourselves as members of the Order of St. George and we show up and like, yo, Eldorans, we're betraying you. And we cause a rift between those two groups.",
+            "heroism": "I'm going to use my telekinetic shove to try to spin to try to push the gun on its swivel so that it's pointing at their own deck.",
+            "comedy": "Wakey wakey. Violescence and bakey. Man, we are f****** Frankensteining a dead god.",
+            "immersion": "I'm going to try to teleport myself as close as I can to the boat, even if I end up like being in the water for a second.",
+            "strategy": "what if we disguised ourselves as members of the Order of St. George and we show up and like, yo, Eldorans, we're betraying you. And we cause a rift between those two groups while we're at this.",
+            "curiosity": "Um, okay. Um, how close am I to the edge of the trench?"
+          }
+        },
+        "superlatives": {
+          "mvp": {
+            "player": "Silas",
+            "quote": "I'm going to use my telekinetic shove to try to spin to try to push the gun on its swivel so that it's pointing at their own deck."
+          },
+          "best_joke": {
+            "player": "Silas",
+            "quote": "Wakey wakey. Violescence and bakey. Man, we are f****** Frankensteining a dead god."
+          },
+          "most_chaotic": {
+            "player": "Bru",
+            "quote": "So anyways, I started blasting."
+          },
+          "decision_driver": "Silas"
+        }
+      }
     },
     {
       "id": "session-53",
@@ -3716,7 +6420,107 @@
         "nat20_mentions": 1,
         "nat1_mentions": 0
       },
-      "personality": null
+      "personality": {
+        "scores": {
+          "Topher": {
+            "chaos": 11,
+            "heroism": 10,
+            "comedy": 12,
+            "immersion": 12,
+            "strategy": 11,
+            "curiosity": 10
+          },
+          "Leliana": {
+            "chaos": 6,
+            "heroism": 13,
+            "comedy": 9,
+            "immersion": 13,
+            "strategy": 9,
+            "curiosity": 9
+          },
+          "Silas": {
+            "chaos": 9,
+            "heroism": 12,
+            "comedy": 11,
+            "immersion": 14,
+            "strategy": 16,
+            "curiosity": 12
+          },
+          "Elspeth": {
+            "chaos": 10,
+            "heroism": 11,
+            "comedy": 12,
+            "immersion": 12,
+            "strategy": 9,
+            "curiosity": 10
+          },
+          "Bru": {
+            "chaos": 13,
+            "heroism": 10,
+            "comedy": 9,
+            "immersion": 10,
+            "strategy": 8,
+            "curiosity": 7
+          }
+        },
+        "evidence": {
+          "Topher": {
+            "chaos": "Um, inside is quite the ruckus. It's just bedum. There's like fist fights, uh, like people just like shooting off their guns.",
+            "heroism": "Yeah. All right. I think that you should put a pin in that.",
+            "comedy": "The great El Smith. You ready to report your your location in the paper?",
+            "immersion": "There is an aura on aura on Iro that um is a frightening presence. Uh you are afraid of him and literally cannot approach him.",
+            "strategy": "Um so with that 17 left check, you're able to spew this fire and you catch one dude on fire.",
+            "curiosity": "Um, can y'all tell me like what kind of concert you're trying to put together here?"
+          },
+          "Leliana": {
+            "chaos": "They tried to kill you and Bru. I can't have that. So,",
+            "heroism": "They tried to kill you and Bru. I can't have that. So,",
+            "comedy": "Couldn't have said it better myself. Honestly, this guy's pretty good.",
+            "immersion": "Um, yeah, it's I think so, I like to envision it as, uh, Leon just on a single kind of small stage. I got candles. Light comes from somewhere. Black mist recedes.",
+            "strategy": "Okay. So, we'll avoid that.",
+            "curiosity": "Okay. So, we'll avoid that."
+          },
+          "Silas": {
+            "chaos": "Um, mutation, Scarlet. We need to we need you to stay hot for just a moment longer. No, we're getting contacts that should exist in this setting, right?",
+            "heroism": "I mean, honestly, yes. We are spoiled with like baddies that we can contact to do this.",
+            "comedy": "You say that as though I was being facitious in some way. I wasn't. Elspeth is out there just like taking names and kicking ass all the time.",
+            "immersion": "Um, this is where uh our old gang used to uses basically our unofficial headquarters, the Kogan Steam. Um, they were all murdered uh by Helga and the Ironclaws except for Bru and uh me and uh apparently Thander, who uh is like a f****** baker now.",
+            "strategy": "Okay. So, the main goal is to try to see if we can figure out where their main base of operations is. So, maybe we should kind of spread out and just see if anyone happens to be talking about it, you know?",
+            "curiosity": "Um, you know, that makes sense. I guess it's just it seems like a weird amount of twins to all be in the same spot."
+          },
+          "Elspeth": {
+            "chaos": "Well, I mean I was going to declare my location in the newspaper as a racist and put Leliana's concert at this location just to kind of get people here.",
+            "heroism": "Well, they tried to kill me and Bru. I can't have that. So yes.",
+            "comedy": "I was going to declare my location in the newspaper as a racist and put Leliana's concert at this location just to kind of get people here.",
+            "immersion": "It's like if I'm tinkering, bracelet caught, hand gone. Yeah. So, I'm just I'm just always sassy. It's a defense mechanism.",
+            "strategy": "Well, they're going to be fit. Well, they're here now.",
+            "curiosity": "How many people are here? What time is it?"
+          },
+          "Bru": {
+            "chaos": "I pull out the cannon. And I'm gonna slam the cannon on a table. I'm gonna do like, you know, that obnoxious like finger whistle that people can do. Uh, I'm going to do that and if it quiets down at all, I'm going to say, \"If anyone has information that we need, you better speak up now and stop attacking us.\" And then I'm going to set off the fire part of the cannon.",
+            "heroism": "I mean, I'm sure I'm only a little hurt. That's fine.",
+            "comedy": "It's that the attention span is still not awesome.",
+            "immersion": "After that, Bru does that like um that slow dance pose like middle school slow dance pose where it's All right, that's enough.",
+            "strategy": "Yeah. Well, should I do I need to roll or can I just know how to do it?",
+            "curiosity": "What? It's not a shirt?"
+          }
+        },
+        "superlatives": {
+          "mvp": {
+            "player": "Leliana",
+            "quote": "Um, yeah, it's I think so, I like to envision it as, uh, Leon just on a single kind of small stage. I got candles. Light comes from somewhere. Black mist recedes."
+          },
+          "best_joke": {
+            "player": "Elspeth",
+            "quote": "I was going to declare my location in the newspaper as a racist and put Leliana's concert at this location just to kind of get people here."
+          },
+          "most_chaotic": {
+            "player": "Bru",
+            "quote": "I pull out the cannon. And I'm gonna slam the cannon on a table. I'm gonna do like, you know, that obnoxious like finger whistle that people can do... And then I'm going to set off the fire part of the cannon."
+          },
+          "decision_driver": "Silas"
+        }
+      }
     },
     {
       "id": "session-54",
@@ -3823,7 +6627,123 @@
         "nat20_mentions": 0,
         "nat1_mentions": 0
       },
-      "personality": null
+      "personality": {
+        "scores": {
+          "Elspeth": {
+            "chaos": 9,
+            "heroism": 7,
+            "comedy": 11,
+            "immersion": 13,
+            "strategy": 11,
+            "curiosity": 10
+          },
+          "Bru": {
+            "chaos": 15,
+            "heroism": 4,
+            "comedy": 13,
+            "immersion": 9,
+            "strategy": 5,
+            "curiosity": 6
+          },
+          "Topher": {
+            "chaos": 8,
+            "heroism": 10,
+            "comedy": 14,
+            "immersion": 17,
+            "strategy": 13,
+            "curiosity": 10
+          },
+          "Olivia": {
+            "chaos": 5,
+            "heroism": 10,
+            "comedy": 10,
+            "immersion": 8,
+            "strategy": 14,
+            "curiosity": 11
+          },
+          "Silas": {
+            "chaos": 6,
+            "heroism": 10,
+            "comedy": 10,
+            "immersion": 12,
+            "strategy": 16,
+            "curiosity": 11
+          },
+          "Leliana": {
+            "chaos": 5,
+            "heroism": 10,
+            "comedy": 9,
+            "immersion": 11,
+            "strategy": 9,
+            "curiosity": 10
+          }
+        },
+        "evidence": {
+          "Elspeth": {
+            "chaos": "I'm going to murder you. It's not a date.",
+            "heroism": "I need you to know that if I'm falling, my first instinct is to protect this snake.",
+            "comedy": "Yeah. Oh, good. I'm really good at this sarcasm.",
+            "immersion": "No, my face is just naturally this red. Um, you make me nervous.",
+            "strategy": "We need to downplay the mercenary bit. That's the only thing I could think they would flag us.",
+            "curiosity": "Have we left the dinner? And I still have the snake?"
+          },
+          "Bru": {
+            "chaos": "And if I can speak up successfully, I want to shove Elspeth's chair so that she falls into Lady Viper's.",
+            "heroism": "I don't appreciate you all picking on the shortest person in here.",
+            "comedy": "Do you know the uh the mini me from the third movie where he like crawls across the table?",
+            "immersion": "I slowly start pulling out my knife.",
+            "strategy": "I can't because I'm too short.",
+            "curiosity": "I have two air fryers."
+          },
+          "Topher": {
+            "chaos": "She withdraws it from like a thigh holster. Stabs through the cork and then pulls it out.",
+            "heroism": "Well, um, do you need a driver?",
+            "comedy": "Oh, Mr. Slithers, you really are enjoying the house but quite remarkable.",
+            "immersion": "Um, and you head into this uh into this bar in Irish pub type place. And um there's quite a commotion. There's a lot of different groups all over.",
+            "strategy": "Lord Bradicus, he loves the show and he is quite frankly hoping that many of us die.",
+            "curiosity": "Do you have any questions for me?"
+          },
+          "Olivia": {
+            "chaos": "I think we'll be fine. I think we balance the line of overpowered and barely competent very well.",
+            "heroism": "There's one draonus at least finally learn how to use his f****** sword.",
+            "comedy": "I tried to show my theater high school theater uh husband a high school musical cuz I remember loving it.",
+            "immersion": "I think I need to use the powder room. Um, I'm just gonna",
+            "strategy": "I feel like maybe this thing might be a little bit better and we just hold on to our cars, have them fueled up, ready to go.",
+            "curiosity": "Is anything beyond like the magic weapons we have?"
+          },
+          "Silas": {
+            "chaos": "I don't think we're actually carrying anything contraband.",
+            "heroism": "Well, if you have any contacts here in the city, we um we did have a guy who used to be part of Elder Ran's army.",
+            "comedy": "My bad.",
+            "immersion": "I just want it to look like it's like a mercenary guild registration basically.",
+            "strategy": "I psychic phone with everyone. I don't think we're actually carrying anything contraband.",
+            "curiosity": "Did Jasper ever uh get back to us with the name of anybody that he trusted in Eldoran?"
+          },
+          "Leliana": {
+            "chaos": "I'm mostly just trying to like uh get out of way here, but like I bet Lady Viper has some pretty good liquor.",
+            "heroism": "I could be. We are under a false identity.",
+            "comedy": "I'll play I kiss the girl and I like it.",
+            "immersion": "Uh, you know what? Yeah, I think it's familiar.",
+            "strategy": "I'll take it. I can ask the bartender.",
+            "curiosity": "Is there besides the bartender, are there is there anybody else of seeming like authority?"
+          }
+        },
+        "superlatives": {
+          "mvp": {
+            "player": "Silas",
+            "quote": "Well, you know, hey, you need work. If you do, um, they're always hiring, um, military. My Paul, my friend Paul, he's a recruiter."
+          },
+          "best_joke": {
+            "player": "Bru",
+            "quote": "Do you know the uh the mini me from the third movie where he like crawls across the table?"
+          },
+          "most_chaotic": {
+            "player": "Bru",
+            "quote": "And if I can speak up successfully, I want to shove Elspeth's chair so that she falls into Lady Viper's."
+          },
+          "decision_driver": "Silas"
+        }
+      }
     },
     {
       "id": "session-55",
@@ -3906,7 +6826,91 @@
         "nat20_mentions": 2,
         "nat1_mentions": 0
       },
-      "personality": null
+      "personality": {
+        "scores": {
+          "Topher": {
+            "chaos": 12,
+            "heroism": 11,
+            "comedy": 12,
+            "immersion": 16,
+            "strategy": 13,
+            "curiosity": 13
+          },
+          "Silas": {
+            "chaos": 16,
+            "heroism": 8,
+            "comedy": 14,
+            "immersion": 12,
+            "strategy": 15,
+            "curiosity": 11
+          },
+          "Leliana": {
+            "chaos": 11,
+            "heroism": 11,
+            "comedy": 9,
+            "immersion": 15,
+            "strategy": 13,
+            "curiosity": 13
+          },
+          "Olivia": {
+            "chaos": 13,
+            "heroism": 12,
+            "comedy": 11,
+            "immersion": 14,
+            "strategy": 12,
+            "curiosity": 11
+          }
+        },
+        "evidence": {
+          "Topher": {
+            "chaos": "Um, I can make a bomb out of anything. Or you can drink it or whatever. Make people drink soup.",
+            "heroism": "So you're all have been thinking like, oh, we'll poison them with this roof drink, right? But what if you also make this a beautiful story for somebody, right?",
+            "comedy": "Oh my god, you're crushing me. You're so heavy.",
+            "immersion": "Um and then you see you can just see these dim little like specks that clear that clarify into a gorgeous like open atrium of a huge candalabra... huge massive glittering chandelier",
+            "strategy": "Um, so like probably can't fly in there.",
+            "curiosity": "Um you uh from what you've seen in the court of law um they usually have like if there are crimes that happen um to an Eldorian citizen inside uh like property of Bradicus court."
+          },
+          "Silas": {
+            "chaos": "Uh well, we know from firsthand experience that it's ultimately harmless. It's just very debilitating, but for a short window, which is all we need.",
+            "heroism": "I'll use some of it and then I'll bring back the rest.",
+            "comedy": "Have you ever met a possum who takes s***? I think not.",
+            "immersion": "Well, business before pleasure. Um, you know that uh that liquor that you uh shared with us on the first night we came here? Can I borrow it?",
+            "strategy": "Maybe we could try to precision strike this. Maybe we could try to go after the most talented people on every team.",
+            "curiosity": "I remember last time it came up that uh you are from this area. Is that something that the players know or something that the party knows as well?"
+          },
+          "Leliana": {
+            "chaos": "Um all right, then. I'm going to um sure what to do here, but all right. Uh I'll do something here. Um all right, the cast. I'm try to get them all with a color spray or as much as I can with a color spray.",
+            "heroism": "I'm going to slump to the side and like kind of really laz like put a head on somebody's shoulder, whoever's next to me",
+            "comedy": "Isn't that pretty? Look at these lights.",
+            "immersion": "I'm going to really try to play up the repeat aspect and like you stumble a little bit.",
+            "strategy": "I'm going to try to find out a little more about because we know that uh what's his name? Uh Bradus wants uh we need to give him a show basically.",
+            "curiosity": "Um, so I'm going to try to find out a little about him and what he's into and then maybe we can lead into that angle, right?"
+          },
+          "Olivia": {
+            "chaos": "Um, I'm assuming there's a continental breakfast here. So, Silus, what if you sneaky sneaked and just kind of like ruby their breakfast in the morning",
+            "heroism": "Yeah, honey. It seems like it's going to be a really weird day we've got ahead of us today with the cameras and the contest. I just want to make sure everyone makes it out alive.",
+            "comedy": "I super want to be him for Halloween. Actually, I want to be So, what I want to do is I want like Ted to be Rock Lee.",
+            "immersion": "Um, oh, you know, I'm just I'm retired. Retired, you know, picked up this adventuring. It's a long very long long story.",
+            "strategy": "Okay, question. Is Bru is brown something Bru specific or is brown something that everyone in this universe knows about already?",
+            "curiosity": "Can I do a little bit of an insight check on him? One second, bud."
+          }
+        },
+        "superlatives": {
+          "mvp": {
+            "player": "Silas",
+            "quote": "Um, for slight of hand, um I got a uh a 19. And for a stealth, I got um a 28."
+          },
+          "best_joke": {
+            "player": "Silas",
+            "quote": "Have you ever met a possum who takes s***? I think not."
+          },
+          "most_chaotic": {
+            "player": "Silas",
+            "quote": "I'm going to sneak around and literally roofy them. Bru."
+          },
+          "decision_driver": "Silas"
+        }
+      }
     },
     {
       "id": "session-56",
@@ -4008,7 +7012,123 @@
         "nat20_mentions": 0,
         "nat1_mentions": 0
       },
-      "personality": null
+      "personality": {
+        "scores": {
+          "Topher": {
+            "chaos": 13,
+            "heroism": 10,
+            "comedy": 14,
+            "immersion": 14,
+            "strategy": 15,
+            "curiosity": 12
+          },
+          "Silas": {
+            "chaos": 11,
+            "heroism": 14,
+            "comedy": 14,
+            "immersion": 13,
+            "strategy": 16,
+            "curiosity": 12
+          },
+          "Olivia": {
+            "chaos": 13,
+            "heroism": 15,
+            "comedy": 11,
+            "immersion": 14,
+            "strategy": 12,
+            "curiosity": 13
+          },
+          "Leliana": {
+            "chaos": 9,
+            "heroism": 15,
+            "comedy": 8,
+            "immersion": 18,
+            "strategy": 9,
+            "curiosity": 15
+          },
+          "Elspeth": {
+            "chaos": 13,
+            "heroism": 14,
+            "comedy": 11,
+            "immersion": 13,
+            "strategy": 14,
+            "curiosity": 11
+          },
+          "Bru": {
+            "chaos": 17,
+            "heroism": 12,
+            "comedy": 16,
+            "immersion": 12,
+            "strategy": 11,
+            "curiosity": 9
+          }
+        },
+        "evidence": {
+          "Topher": {
+            "chaos": "Um, you see uh absolute pandemonium uh from a bunch of drunk people. Um there's like uh people dancing.",
+            "heroism": "Justin, you may think that I want to kill Brute. I was looking out for you big time last session.",
+            "comedy": "Oh, you pee on every single person that calls you an idiot. Is that what you do?",
+            "immersion": "Um, there's like a fort you're going to pass by at one point. Um, but otherwise pretty open if you wanted to off-road or they're going to be parts that uh you're going to pass by a forest just before the library.",
+            "strategy": "Um, I am tempted uh to give y'all the option of just trying to book it out of there or trying to fight these bikers. It's up to y'all uh how y'all want to approach that.",
+            "curiosity": "Um Luke, do you have a good birthday?"
+          },
+          "Silas": {
+            "chaos": "Um, I know that the bikers, we didn't get uh any we didn't give them any of the the liquor. Um, do I see where their bikes are parked? I would like to use my uh my web wand to uh stick all their bikes on the ground.",
+            "heroism": "Um uh I'm gonna try to like Yeah. pull Leliana off of El Smith because I don't want the car that I'm in to crash.",
+            "comedy": "I'm just imagining like uh Elspeth is constantly doing like the Fast and the Furious like gear shifting stuff that I don't think does anything in real life.",
+            "immersion": "Silus is getting dumber. Wow. Uh uncalled for, but okay.",
+            "strategy": "Well, I mean we could like completely knock them out maybe.",
+            "curiosity": "Um, would I need to roll uh like perception to see if I like uh like notice the problem area or"
+          },
+          "Olivia": {
+            "chaos": "As I'm like running through all the parked cars, I wanted her to get her ax just start like slitting tires.",
+            "heroism": "Well, honey, we're not going to make you do anything you don't want to do. Okay? If you're not ready to face this, that is perfectly okay.",
+            "comedy": "Well, you guys could use that money to come visit me and we can go to the rodeo together. The rodeo's happening this weekend.",
+            "immersion": "She's just going to jump up and shout like, A library is a public space. Stop gatekeeping. And just slice through them all while she's hopping through the air.",
+            "strategy": "I'm going to get on top of Bob and I'm like, everybody grab a handful of fur. We're just going to go together kindergarten style.",
+            "curiosity": "Can I before we go too far, can I do a little bit of insight on the dead frog?"
+          },
+          "Leliana": {
+            "chaos": "Um, I'm gonna I'm gonna cast reduce on Kevin and I'm going to send him up to the ceiling.",
+            "heroism": "I can't let you guys go in there alone. So, I'll go. But I'll go save for it.",
+            "comedy": "Well, then get your butt over here. Now I've got some old ass books in my pee hole.",
+            "immersion": "Yeah. Um, I just wanted to be a musician so bad. You know, it's it really stinks just playing empty bars and things like that.",
+            "strategy": "I'm going to upcast um I'm upcast intellect for intellect fortress and put it on Bru.",
+            "curiosity": "Have I been to this library before?"
+          },
+          "Elspeth": {
+            "chaos": "I want to heat metal on it so that they can't touch or when they touch it they go ah like it's really hot outside.",
+            "heroism": "And I'm holding Leliana's hand. I'm also walking a little bit in front of Leliana.",
+            "comedy": "Can you hurt someone if they try and hurt the car? Great. I think I can do it while I drive.",
+            "immersion": "Yeah, for sure. I'm excited. And I don't really give a s*** what the job is. A job is a job.",
+            "strategy": "And I cast warding bond on her. Okay, so you have plus one to AC and plus one to saving throws and you have resistance to all damage.",
+            "curiosity": "Okay, so, does that make you a Doran?"
+          },
+          "Bru": {
+            "chaos": "Okay. I'm going to yell at Kevin or I think to Kevin. Um, Kevin, Kevin, firecrackers. Uh, firecracker maneuver C.",
+            "heroism": "All right, if you if anyone tries to come up and mess with the van, you light one of these, you count three seconds, and you throw it at their face.",
+            "comedy": "I think you forget in goblin culture in goblin culture when we're in goblin culture when we're trying to hit on each other we pee on each other. You didn't know that? It's like so obvious.",
+            "immersion": "I'm gonna I'm gonna scurry into the back of the van and make a bunch of ruckus and then come out with like a large like arms full of like explosives",
+            "strategy": "I'm going to force ballista the shade closest to it by the I think those are the frogs.",
+            "curiosity": "Do I know if Silus is good with Constitution?"
+          }
+        },
+        "superlatives": {
+          "mvp": {
+            "player": "Leliana",
+            "quote": "I can't let you guys go in there alone. So, I'll go. But I'll go save for it."
+          },
+          "best_joke": {
+            "player": "Bru",
+            "quote": "I think you forget in goblin culture in goblin culture when we're in goblin culture when we're trying to hit on each other we pee on each other. You didn't know that? It's like so obvious."
+          },
+          "most_chaotic": {
+            "player": "Bru",
+            "quote": "Okay. I'm going to yell at Kevin or I think to Kevin. Um, Kevin, Kevin, firecrackers. Uh, firecracker maneuver C."
+          },
+          "decision_driver": "Silas"
+        }
+      }
     },
     {
       "id": "session-57",
@@ -4109,7 +7229,123 @@
         "nat20_mentions": 0,
         "nat1_mentions": 0
       },
-      "personality": null
+      "personality": {
+        "scores": {
+          "Silas": {
+            "chaos": 6,
+            "heroism": 3,
+            "comedy": 8,
+            "immersion": 9,
+            "strategy": 13,
+            "curiosity": 9
+          },
+          "Bru": {
+            "chaos": 8,
+            "heroism": 8,
+            "comedy": 7,
+            "immersion": 10,
+            "strategy": 10,
+            "curiosity": 12
+          },
+          "Olivia": {
+            "chaos": 3,
+            "heroism": 17,
+            "comedy": 10,
+            "immersion": 11,
+            "strategy": 10,
+            "curiosity": 9
+          },
+          "Leliana": {
+            "chaos": 14,
+            "heroism": 12,
+            "comedy": 9,
+            "immersion": 16,
+            "strategy": 9,
+            "curiosity": 10
+          },
+          "Elspeth": {
+            "chaos": 5,
+            "heroism": 5,
+            "comedy": 9,
+            "immersion": 10,
+            "strategy": 11,
+            "curiosity": 8
+          },
+          "Topher": {
+            "chaos": 12,
+            "heroism": 10,
+            "comedy": 13,
+            "immersion": 16,
+            "strategy": 14,
+            "curiosity": 10
+          }
+        },
+        "evidence": {
+          "Silas": {
+            "chaos": "No, don't leave the path. Don't go into the tree line at all.",
+            "heroism": "I think it made it very clear last time that I don't give a flipping s*** about the other people who are around us right now.",
+            "comedy": "I'm just imagining there's like a rich lady over like a property like I want you to put more white and gold s*** all over my property.",
+            "immersion": "Are you sure that's your family? Why would they be here?",
+            "strategy": "Mental note of that.",
+            "curiosity": "I'm going to call Finn again and let him know that uh we're not in the library anymore."
+          },
+          "Bru": {
+            "chaos": "Can I try and at least like catch up to get a glimpse of them? without like going off too far.",
+            "heroism": "A person is going to die. Come on.",
+            "comedy": "I'm just going to rush up really quickly and like get very close to his personal space and smell his face.",
+            "immersion": "I'm the last one to go in. I want to see if like s*** changes out of here.",
+            "strategy": "If I remember correctly, we were told to plant it since the world's tree was dying.",
+            "curiosity": "Can I do a perception check too of like I does this feel real or does this feel like put on by the show or something?"
+          },
+          "Olivia": {
+            "chaos": "Well, I feel like it'd be weird for us to wear their shimmery human garb in our regular outfits.",
+            "heroism": "I'm going to pat Leliana on the shoulder and say we're with you. And I'm also going to give her some some lay on hands healing.",
+            "comedy": "I like to imagine the brothers like looks the exact same but still playing like this over in the corner like deadeyed like playing the song",
+            "immersion": "honey, can you have you has she told us what happened to her family?",
+            "strategy": "Maybe just Lily or someone else. Two people and then we just follow them.",
+            "curiosity": "Did anyone do like a religion check on the deity she mentioned?"
+          },
+          "Leliana": {
+            "chaos": "And Leliana is like, 'f*** that.' And hit the portal button.",
+            "heroism": "Um rather than trying to study the schematics, I'm going to try I'm going to cast frostbite on steel if possible.",
+            "comedy": "I'm going to like hit my or I'm going to tap my uh dad. That was the guy that was the guy that killed him.",
+            "immersion": "I guess I'll like kick some of the dirt with my foot kind of to the hole and then drop them in and cover it.",
+            "strategy": "Um, I kind of want to go towards my my house. Um, is it easily like is that doable from where I am to start heading that direction?",
+            "curiosity": "Um, so who is this guy if he if he is indeed approaching"
+          },
+          "Elspeth": {
+            "chaos": "I hacked it for good.",
+            "heroism": "I hacked the system. Hacked the main frame.",
+            "comedy": "Well, yeah. You going to if you going to keep this up, you're going to get a little slap. We're going to slap you in the face if you do that again.",
+            "immersion": "Yeah. I hacked it.",
+            "strategy": "I hacked the system by navigating to his folder.",
+            "curiosity": "Does it look like a dead language? Is that what we're seeing here."
+          },
+          "Topher": {
+            "chaos": "Um, as you're tumbling, you uh it feels like falling down a well, uh, as it gets darker, but instead of, um, at some point halfway through you feel like a weird flip and um you end up landing on your feet.",
+            "heroism": "Dad, dad, I have to. I love playing music, but I want to make a difference in the world.",
+            "comedy": "I'm uh from everywhere.",
+            "immersion": "Um, it's like a and you uh pop into a park and uh the top of this like thing tree you're riding just looks like a normalsized tree in this park.",
+            "strategy": "Um, yeah. Give me an insight check.",
+            "curiosity": "Um, all right. Well, uh, I'll I'll go with you."
+          }
+        },
+        "superlatives": {
+          "mvp": {
+            "player": "Leliana",
+            "quote": "I guess I'll like kick some of the dirt with my foot kind of to the hole and then drop them in and cover it."
+          },
+          "best_joke": {
+            "player": "Silas",
+            "quote": "I'm just imagining there's like a rich lady over like a property like I want you to put more white and gold s*** all over my property."
+          },
+          "most_chaotic": {
+            "player": "Leliana",
+            "quote": "And Leliana is like, 'f*** that.' And hit the portal button."
+          },
+          "decision_driver": "Leliana"
+        }
+      }
     }
   ],
   "aggregate": {
@@ -4230,6 +7466,399 @@
     },
     "nat20_mentions": 12,
     "nat1_mentions": 1,
-    "personality_by_player": {}
+    "personality_by_player": {
+      "Bru": {
+        "sessions_scored": 26,
+        "mean_scores": {
+          "chaos": 11.9,
+          "heroism": 9.6,
+          "comedy": 10.9,
+          "immersion": 10.2,
+          "strategy": 11.5,
+          "curiosity": 9.2
+        },
+        "signature_evidence": {
+          "chaos": {
+            "quote": "I'm gonna I'm gonna throw an M80 in the toilet.",
+            "session": "interlude-13",
+            "score": 17
+          },
+          "heroism": {
+            "quote": "I didn't use my action on my turn. Can I just cast Levitate on Olivia?",
+            "session": "session-46",
+            "score": 15
+          },
+          "comedy": {
+            "quote": "I think you forget in goblin culture in goblin culture when we're in goblin culture when we're trying to hit on each other we pee on each other. You didn't know that? It's like so obvious.",
+            "session": "session-56",
+            "score": 16
+          },
+          "immersion": {
+            "quote": "So the uh Brit costume is just like my working apron and that's pretty much it. So you just see like my butt whenever I'm from behind.",
+            "session": "session-51",
+            "score": 14
+          },
+          "strategy": {
+            "quote": "I'm going to hex that one because then if it dies, I'll just bounce the hex.",
+            "session": "session-46",
+            "score": 18
+          },
+          "curiosity": {
+            "quote": "Does it does that uh was it noticeable if that like pulse towards the goddess was stronger the closer we got to it",
+            "session": "session-41",
+            "score": 13
+          }
+        },
+        "superlative_counts": {
+          "mvp": 1,
+          "best_joke": 3,
+          "most_chaotic": 18,
+          "decision_driver": 0
+        }
+      },
+      "Elspeth": {
+        "sessions_scored": 23,
+        "mean_scores": {
+          "chaos": 9.7,
+          "heroism": 11.9,
+          "comedy": 10.9,
+          "immersion": 12.6,
+          "strategy": 11.3,
+          "curiosity": 10.3
+        },
+        "signature_evidence": {
+          "chaos": {
+            "quote": "Okay, I'm going to look for ham sandwich like the prepared sandwich area.",
+            "session": "interlude-16",
+            "score": 16
+          },
+          "heroism": {
+            "quote": "And their sander immediately jumps in front of Alma that we know. She takes the bullets.",
+            "session": "interlude-13",
+            "score": 18
+          },
+          "comedy": {
+            "quote": "It's just a like a little micro dose of cocaine, like a little upkeep, and then you have to take your sleepy time cocaine, and then that kind of brings you down",
+            "session": "interlude-16",
+            "score": 16
+          },
+          "immersion": {
+            "quote": "I'm going to go to the bunk above. I'll like whisper real quiet like I am going to take the bunk above you. Are you okay?",
+            "session": "session-49",
+            "score": 16
+          },
+          "strategy": {
+            "quote": "I'm gonna try and cast web on them.",
+            "session": "session-44",
+            "score": 15
+          },
+          "curiosity": {
+            "quote": "What is he doing with those council people? That can't be good, right?",
+            "session": "session-48",
+            "score": 14
+          }
+        },
+        "superlative_counts": {
+          "mvp": 3,
+          "best_joke": 4,
+          "most_chaotic": 2,
+          "decision_driver": 4
+        }
+      },
+      "Helisanna": {
+        "sessions_scored": 1,
+        "mean_scores": {
+          "chaos": 13.0,
+          "heroism": 9.0,
+          "comedy": 8.0,
+          "immersion": 14.0,
+          "strategy": 10.0,
+          "curiosity": 7.0
+        },
+        "signature_evidence": {
+          "chaos": {
+            "quote": "I'm going say during the long rest I dream of various ways of murdering crying one.",
+            "session": "session-33",
+            "score": 13
+          },
+          "heroism": {
+            "quote": "Helisana managed to keep her cool though and instead is directing all of our uh our headbangers to build us a kick-ass stage",
+            "session": "session-33",
+            "score": 9
+          },
+          "comedy": {
+            "quote": "I don't know. All I know is like there's like a white and green. Not",
+            "session": "session-33",
+            "score": 8
+          },
+          "immersion": {
+            "quote": "I'm going to uh reach into my bag and pull out a a small little purple vial and uh drop it into my eyes. Yeah. f*** yeah. That's the good s***.",
+            "session": "session-33",
+            "score": 14
+          },
+          "strategy": {
+            "quote": "I'm going vote left side personally for no real reason",
+            "session": "session-33",
+            "score": 10
+          },
+          "curiosity": {
+            "quote": "Um, does Helan know of any drugs commonly referred to as cheese?",
+            "session": "session-33",
+            "score": 7
+          }
+        },
+        "superlative_counts": {
+          "mvp": 0,
+          "best_joke": 0,
+          "most_chaotic": 1,
+          "decision_driver": 1
+        }
+      },
+      "Leliana": {
+        "sessions_scored": 23,
+        "mean_scores": {
+          "chaos": 9.0,
+          "heroism": 11.7,
+          "comedy": 9.7,
+          "immersion": 12.9,
+          "strategy": 10.4,
+          "curiosity": 10.2
+        },
+        "signature_evidence": {
+          "chaos": {
+            "quote": "Leliana: I need I need you to go into else and get her routing and bank number and if you get caught just shove the engine up your",
+            "session": "interlude-14",
+            "score": 16
+          },
+          "heroism": {
+            "quote": "I'll give the sander a a cure wounds as well. Um, when I get to Oman to Sander, um, I'll give the sander a a cure wounds.",
+            "session": "session-39",
+            "score": 16
+          },
+          "comedy": {
+            "quote": "Yeah. On it. On it. I love pants. I'm going to start I'm going to do like Spongebob like uh run with my arms fling above my head.",
+            "session": "interlude-16",
+            "score": 15
+          },
+          "immersion": {
+            "quote": "Yeah. Um, I just wanted to be a musician so bad. You know, it's it really stinks just playing empty bars and things like that.",
+            "session": "session-56",
+            "score": 18
+          },
+          "strategy": {
+            "quote": "Um, I think today has been long enough. I need you to go back home and go to bed.",
+            "session": "session-44",
+            "score": 15
+          },
+          "curiosity": {
+            "quote": "Have I been to this library before?",
+            "session": "session-56",
+            "score": 15
+          }
+        },
+        "superlative_counts": {
+          "mvp": 6,
+          "best_joke": 2,
+          "most_chaotic": 2,
+          "decision_driver": 1
+        }
+      },
+      "Ohma": {
+        "sessions_scored": 12,
+        "mean_scores": {
+          "chaos": 7.7,
+          "heroism": 11.4,
+          "comedy": 9.8,
+          "immersion": 12.2,
+          "strategy": 10.5,
+          "curiosity": 10.8
+        },
+        "signature_evidence": {
+          "chaos": {
+            "quote": "I'm going to try to burst ahead. I would want to start by just accelerating and possibly just jumping building to building.",
+            "session": "session-39",
+            "score": 13
+          },
+          "heroism": {
+            "quote": "I think this is where Elmo would step in and while the paddles like lifted up be like I think that I am the necessary help you need and like I don't I don't even know I have the gloves of all strength so like I'm going to try to just burst ahead.",
+            "session": "session-39",
+            "score": 16
+          },
+          "comedy": {
+            "quote": "My grandpa's deck has no bad cards. Roll with that.",
+            "session": "interlude-15",
+            "score": 15
+          },
+          "immersion": {
+            "quote": "Hey, Rap Sheet, is that you? And, uh, I'm imagining there's already a glimmer in his eye because uh he only so few people would know to call him that.",
+            "session": "session-40",
+            "score": 16
+          },
+          "strategy": {
+            "quote": "What happens when you have a group of people whose commander being Raphael, he uh he turns his back and now there's magic stuff happening.",
+            "session": "session-40",
+            "score": 16
+          },
+          "curiosity": {
+            "quote": "Do you know their entire plan or is this only what you know the details of so far?",
+            "session": "session-40",
+            "score": 15
+          }
+        },
+        "superlative_counts": {
+          "mvp": 1,
+          "best_joke": 2,
+          "most_chaotic": 0,
+          "decision_driver": 0
+        }
+      },
+      "Olivia": {
+        "sessions_scored": 23,
+        "mean_scores": {
+          "chaos": 8.4,
+          "heroism": 13.0,
+          "comedy": 9.7,
+          "immersion": 11.8,
+          "strategy": 12.5,
+          "curiosity": 11.2
+        },
+        "signature_evidence": {
+          "chaos": {
+            "quote": "Olivia: I'm gonna get into the engine and mess with the connections on the crystals and essentially like sabotage it so that like it's gonna be like disconnected",
+            "session": "interlude-14",
+            "score": 13
+          },
+          "heroism": {
+            "quote": "I need you all to stay within ten feet of me",
+            "session": "session-33",
+            "score": 18
+          },
+          "comedy": {
+            "quote": "Muscle grandmommy. Grandommy. Yeah, muscle grandmommy.",
+            "session": "session-41",
+            "score": 13
+          },
+          "immersion": {
+            "quote": "you can like feel it into your molecules. It's like your entire body starts resonating",
+            "session": "interlude-12",
+            "score": 15
+          },
+          "strategy": {
+            "quote": "I'm going to use my reaction to impose disadvantage on that attack",
+            "session": "session-33",
+            "score": 16
+          },
+          "curiosity": {
+            "quote": "I'm going to do a history check and see if the word if the name Sable sparks anything.",
+            "session": "session-49",
+            "score": 16
+          }
+        },
+        "superlative_counts": {
+          "mvp": 8,
+          "best_joke": 1,
+          "most_chaotic": 0,
+          "decision_driver": 2
+        }
+      },
+      "Silas": {
+        "sessions_scored": 29,
+        "mean_scores": {
+          "chaos": 10.4,
+          "heroism": 10.6,
+          "comedy": 12.2,
+          "immersion": 13.2,
+          "strategy": 15.0,
+          "curiosity": 12.2
+        },
+        "signature_evidence": {
+          "chaos": {
+            "quote": "Silas: Um, Denlin would walk up to uh, wherever Ellswith is supposed to be and like knock on the door. He has like a big like Groutto Mark style mustache and like some glasses on",
+            "session": "interlude-14",
+            "score": 19
+          },
+          "heroism": {
+            "quote": "I'm going to take that out, pull out the cork, and I'm going to try to like uh likeh hold his mouth open, pour it in.",
+            "session": "session-39",
+            "score": 18
+          },
+          "comedy": {
+            "quote": "Silas: And I'm going to walk up and be like, 'Oh, hello there, young madam. I'm a purveyor of illegal drugs. Would you happen to want to purchase some illegal drugs from me?'",
+            "session": "interlude-14",
+            "score": 17
+          },
+          "immersion": {
+            "quote": "I'm going to turn around and throw Sander and be like, 'Not how I pictured our reunion going, but it's good to see you again.'",
+            "session": "session-39",
+            "score": 17
+          },
+          "strategy": {
+            "quote": "I want to like reach to my pocket and turn on our uh our audio recorder that we have for the concerts.",
+            "session": "session-49",
+            "score": 18
+          },
+          "curiosity": {
+            "quote": "Can you give us a little bit better understanding of your relationship with these dragons? And why did the dwarves seal away Astro? Was was she just going to eat everything?",
+            "session": "session-46",
+            "score": 17
+          }
+        },
+        "superlative_counts": {
+          "mvp": 10,
+          "best_joke": 13,
+          "most_chaotic": 4,
+          "decision_driver": 21
+        }
+      },
+      "Topher": {
+        "sessions_scored": 29,
+        "mean_scores": {
+          "chaos": 12.4,
+          "heroism": 10.6,
+          "comedy": 13.0,
+          "immersion": 14.7,
+          "strategy": 12.8,
+          "curiosity": 11.7
+        },
+        "signature_evidence": {
+          "chaos": {
+            "quote": "And then suddenly, emerging from the entrance, a band of demons arrives... Geysers of fire start shooting around the entrance ramp. Pentagrams start appearing all around the ring.",
+            "session": "session-51",
+            "score": 18
+          },
+          "heroism": {
+            "quote": "Creates scenarios and opportunities for players to be heroic and save the day.",
+            "session": "session-39",
+            "score": 13
+          },
+          "comedy": {
+            "quote": "He's got like a bow tie and big sunglasses... There's two women rather scantily clad, wearing like Caspianesque like outfits... standing in the back there's this massive m*** wearing like basically like SNM leather rocker.",
+            "session": "session-51",
+            "score": 16
+          },
+          "immersion": {
+            "quote": "My rockar, my doomfall, why do you turn away from me?",
+            "session": "session-34",
+            "score": 18
+          },
+          "strategy": {
+            "quote": "I have two weeks to think about it",
+            "session": "session-34",
+            "score": 16
+          },
+          "curiosity": {
+            "quote": "Um uh I feel like dwarves probably have a pretty common like oral story culture of passing down stories through lineage",
+            "session": "session-34",
+            "score": 15
+          }
+        },
+        "superlative_counts": {
+          "mvp": 0,
+          "best_joke": 4,
+          "most_chaotic": 2,
+          "decision_driver": 0
+        }
+      }
+    }
   }
 }
