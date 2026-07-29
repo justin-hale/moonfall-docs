@@ -358,11 +358,16 @@ def parse_players_present(text, alias_to_canonical, roster):
             names.append(earliest[1])
             continue
         # "- **Player** as **Character** — Class" -> take the character;
-        # otherwise the first bold name is the best candidate.
+        # otherwise the first bold name is the best candidate. Only roster
+        # characters count as attendance — some recaps list NPCs alongside
+        # the party (session-4's captured gnome "Philbin", for example).
         candidate = bolds[1] if (len(bolds) >= 2 and " as " in cleaned) else bolds[0]
         canonical = alias_to_canonical.get(candidate, candidate)
         info = roster.get(canonical)
-        names.append(info["display"] if info else display_name(candidate))
+        if info:
+            names.append(info["display"])
+        else:
+            print(f"  Note: skipping non-roster attendance entry {candidate!r}")
     return [n for i, n in enumerate(names) if n not in names[:i]] or None
 
 

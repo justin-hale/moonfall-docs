@@ -133,6 +133,18 @@ def test_players_present_linked_prose_format(kb, roster):
     assert players == ["Helisanna", "Bru", "Olivia"]
 
 
+def test_players_present_excludes_non_roster_npcs(kb, roster):
+    """NPCs listed alongside the party (session-4's Philbin) must not count."""
+    alias_to_canonical, _ = kb
+    text = (
+        "## Party Members Present\n"
+        "- **[Silas](/player-characters/silas)**\n"
+        "- **Philbin** (gnome NPC, captured and interrogated)\n"
+    )
+    players = ess.parse_players_present(text, alias_to_canonical, roster)
+    assert players == ["Silas"]
+
+
 def test_players_present_absent_returns_none(kb, roster):
     alias_to_canonical, _ = kb
     assert ess.parse_players_present("## Plot Events\n- stuff\n",

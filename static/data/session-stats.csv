@@ -2,7 +2,7 @@ id,type,number,title,date,timing_quality,duration_minutes,block_count,word_count
 session-1,session,1,1: Dinner and Nightcap,2024-08-05,none,,,,Helisanna; Silas; Bru; Red; Olivia; Elspeth,recap,0,0,,,,,,,,,,,,
 session-2,session,2,2: A Rock Show And A Briefcase,2024-08-09,none,,,,,none,0,0,,,,,,,,,,,,
 session-3,session,3,3: Unraveling Twilight,2024-08-16,none,,,,,none,0,0,,,,,,,,,,,,
-session-4,session,4,4: Love and Betrayal,2024-08-25,none,,,,Silas; Red; Helisanna; Bru; Olivia; Philbin,recap,0,0,,,,,,,,,,,,
+session-4,session,4,4: Love and Betrayal,2024-08-25,none,,,,Silas; Red; Helisanna; Bru; Olivia,recap,0,0,,,,,,,,,,,,
 session-5,session,5,5: A Pretty Good Concert,2024-09-01,none,,,,,none,0,0,,,,,,,,,,,,
 session-6,session,6,6: Highforge Sprint,2024-09-07,none,,,,,none,0,0,,,,,,,,,,,,
 session-7,session,7,7: Escape Highforge,2024-09-14,none,,,,,none,0,0,,,,,,,,,,,,
