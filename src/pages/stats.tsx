@@ -264,6 +264,12 @@ export default function StatsPage(): React.ReactElement {
     s.name,
     s.words,
   ]);
+  // Normalized by attendance: totals favor whoever has been at the most
+  // recorded sessions, so also show words per session attended.
+  const talkPerSession: [string, number][] = agg.speaker_totals
+    .filter((s) => s.sessions > 0)
+    .map((s): [string, number] => [s.name, Math.round(s.words / s.sessions)])
+    .sort((a, b) => b[1] - a[1]);
 
   const withTranscripts = data.sessions.filter((s) => s.has_transcript);
   const longest = [...withTranscripts].sort(
@@ -364,7 +370,20 @@ export default function StatsPage(): React.ReactElement {
         <DriftChart />
 
         <h2>Who Does the Talking?</h2>
-        <BarList entries={talkEntries} suffix=" words" />
+        <div className={styles.columns}>
+          <div>
+            <h3>Total words</h3>
+            <BarList entries={talkEntries} suffix=" words" />
+          </div>
+          <div>
+            <h3>Average per session attended</h3>
+            <p className={styles.sectionNote}>
+              Normalized by recorded sessions each person was at — fairer to
+              late joiners and departed characters.
+            </p>
+            <BarList entries={talkPerSession} suffix=" words" />
+          </div>
+        </div>
 
         <div className={styles.columns}>
           <div>
