@@ -258,13 +258,9 @@ function BarList({
 }
 
 export default function StatsPage(): React.ReactElement {
-  const [includeDm, setIncludeDm] = useState(true);
   const agg = data.aggregate;
 
-  const speakerTotals = agg.speaker_totals.filter(
-    (s) => includeDm || s.role !== 'dm',
-  );
-  const talkEntries: [string, number][] = speakerTotals.map((s) => [
+  const talkEntries: [string, number][] = agg.speaker_totals.map((s) => [
     s.name,
     s.words,
   ]);
@@ -368,14 +364,6 @@ export default function StatsPage(): React.ReactElement {
         <DriftChart />
 
         <h2>Who Does the Talking?</h2>
-        <label className={styles.toggle}>
-          <input
-            type="checkbox"
-            checked={includeDm}
-            onChange={(e) => setIncludeDm(e.target.checked)}
-          />{' '}
-          Include the DM
-        </label>
         <BarList entries={talkEntries} suffix=" words" />
 
         <div className={styles.columns}>

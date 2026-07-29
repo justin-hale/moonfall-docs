@@ -44,15 +44,6 @@
   margin-bottom: 2.5rem;
 }
 
-.toggle {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.3rem;
-  font-size: 0.85rem;
-  margin-bottom: 0.75rem;
-  cursor: pointer;
-}
-
 .barRow {
   display: flex;
   align-items: center;
