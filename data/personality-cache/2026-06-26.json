@@ -1,0 +1,130 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-06-26",
+  "model": "claude-haiku-4-5",
+  "players": {
+    "Topher": {
+      "scores": {
+        "chaos": 13,
+        "heroism": 10,
+        "comedy": 14,
+        "immersion": 14,
+        "strategy": 15,
+        "curiosity": 12
+      },
+      "evidence": {
+        "chaos": "Um, you see uh absolute pandemonium uh from a bunch of drunk people. Um there's like uh people dancing.",
+        "heroism": "Justin, you may think that I want to kill Brute. I was looking out for you big time last session.",
+        "comedy": "Oh, you pee on every single person that calls you an idiot. Is that what you do?",
+        "immersion": "Um, there's like a fort you're going to pass by at one point. Um, but otherwise pretty open if you wanted to off-road or they're going to be parts that uh you're going to pass by a forest just before the library.",
+        "strategy": "Um, I am tempted uh to give y'all the option of just trying to book it out of there or trying to fight these bikers. It's up to y'all uh how y'all want to approach that.",
+        "curiosity": "Um Luke, do you have a good birthday?"
+      }
+    },
+    "Silas": {
+      "scores": {
+        "chaos": 11,
+        "heroism": 14,
+        "comedy": 14,
+        "immersion": 13,
+        "strategy": 16,
+        "curiosity": 12
+      },
+      "evidence": {
+        "chaos": "Um, I know that the bikers, we didn't get uh any we didn't give them any of the the liquor. Um, do I see where their bikes are parked? I would like to use my uh my web wand to uh stick all their bikes on the ground.",
+        "heroism": "Um uh I'm gonna try to like Yeah. pull Leliana off of El Smith because I don't want the car that I'm in to crash.",
+        "comedy": "I'm just imagining like uh Elspeth is constantly doing like the Fast and the Furious like gear shifting stuff that I don't think does anything in real life.",
+        "immersion": "Silus is getting dumber. Wow. Uh uncalled for, but okay.",
+        "strategy": "Well, I mean we could like completely knock them out maybe.",
+        "curiosity": "Um, would I need to roll uh like perception to see if I like uh like notice the problem area or"
+      }
+    },
+    "Olivia": {
+      "scores": {
+        "chaos": 13,
+        "heroism": 15,
+        "comedy": 11,
+        "immersion": 14,
+        "strategy": 12,
+        "curiosity": 13
+      },
+      "evidence": {
+        "chaos": "As I'm like running through all the parked cars, I wanted her to get her ax just start like slitting tires.",
+        "heroism": "Well, honey, we're not going to make you do anything you don't want to do. Okay? If you're not ready to face this, that is perfectly okay.",
+        "comedy": "Well, you guys could use that money to come visit me and we can go to the rodeo together. The rodeo's happening this weekend.",
+        "immersion": "She's just going to jump up and shout like, A library is a public space. Stop gatekeeping. And just slice through them all while she's hopping through the air.",
+        "strategy": "I'm going to get on top of Bob and I'm like, everybody grab a handful of fur. We're just going to go together kindergarten style.",
+        "curiosity": "Can I before we go too far, can I do a little bit of insight on the dead frog?"
+      }
+    },
+    "Leliana": {
+      "scores": {
+        "chaos": 9,
+        "heroism": 15,
+        "comedy": 8,
+        "immersion": 18,
+        "strategy": 9,
+        "curiosity": 15
+      },
+      "evidence": {
+        "chaos": "Um, I'm gonna I'm gonna cast reduce on Kevin and I'm going to send him up to the ceiling.",
+        "heroism": "I can't let you guys go in there alone. So, I'll go. But I'll go save for it.",
+        "comedy": "Well, then get your butt over here. Now I've got some old ass books in my pee hole.",
+        "immersion": "Yeah. Um, I just wanted to be a musician so bad. You know, it's it really stinks just playing empty bars and things like that.",
+        "strategy": "I'm going to upcast um I'm upcast intellect for intellect fortress and put it on Bru.",
+        "curiosity": "Have I been to this library before?"
+      }
+    },
+    "Elspeth": {
+      "scores": {
+        "chaos": 13,
+        "heroism": 14,
+        "comedy": 11,
+        "immersion": 13,
+        "strategy": 14,
+        "curiosity": 11
+      },
+      "evidence": {
+        "chaos": "I want to heat metal on it so that they can't touch or when they touch it they go ah like it's really hot outside.",
+        "heroism": "And I'm holding Leliana's hand. I'm also walking a little bit in front of Leliana.",
+        "comedy": "Can you hurt someone if they try and hurt the car? Great. I think I can do it while I drive.",
+        "immersion": "Yeah, for sure. I'm excited. And I don't really give a s*** what the job is. A job is a job.",
+        "strategy": "And I cast warding bond on her. Okay, so you have plus one to AC and plus one to saving throws and you have resistance to all damage.",
+        "curiosity": "Okay, so, does that make you a Doran?"
+      }
+    },
+    "Bru": {
+      "scores": {
+        "chaos": 17,
+        "heroism": 12,
+        "comedy": 16,
+        "immersion": 12,
+        "strategy": 11,
+        "curiosity": 9
+      },
+      "evidence": {
+        "chaos": "Okay. I'm going to yell at Kevin or I think to Kevin. Um, Kevin, Kevin, firecrackers. Uh, firecracker maneuver C.",
+        "heroism": "All right, if you if anyone tries to come up and mess with the van, you light one of these, you count three seconds, and you throw it at their face.",
+        "comedy": "I think you forget in goblin culture in goblin culture when we're in goblin culture when we're trying to hit on each other we pee on each other. You didn't know that? It's like so obvious.",
+        "immersion": "I'm gonna I'm gonna scurry into the back of the van and make a bunch of ruckus and then come out with like a large like arms full of like explosives",
+        "strategy": "I'm going to force ballista the shade closest to it by the I think those are the frogs.",
+        "curiosity": "Do I know if Silus is good with Constitution?"
+      }
+    }
+  },
+  "superlatives": {
+    "mvp": {
+      "player": "Leliana",
+      "quote": "I can't let you guys go in there alone. So, I'll go. But I'll go save for it."
+    },
+    "best_joke": {
+      "player": "Bru",
+      "quote": "I think you forget in goblin culture in goblin culture when we're in goblin culture when we're trying to hit on each other we pee on each other. You didn't know that? It's like so obvious."
+    },
+    "most_chaotic": {
+      "player": "Bru",
+      "quote": "Okay. I'm going to yell at Kevin or I think to Kevin. Um, Kevin, Kevin, firecrackers. Uh, firecracker maneuver C."
+    },
+    "decision_driver": "Silas"
+  }
+}

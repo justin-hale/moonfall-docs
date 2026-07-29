@@ -1,0 +1,112 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-01-16",
+  "model": "claude-haiku-4-5",
+  "players": {
+    "Bru": {
+      "scores": {
+        "chaos": 12,
+        "heroism": 10,
+        "comedy": 13,
+        "immersion": 12,
+        "strategy": 14,
+        "curiosity": 9
+      },
+      "evidence": {
+        "chaos": "Um, I may just be able to do a spell. I guess I have pyrochnics, which is essentially what I'm going for here.",
+        "heroism": "I'll do my best and like keep him around all the time.",
+        "comedy": "Just name all of our vehicles after me.",
+        "immersion": "Um, can I tail them with crimson and see through crimson's eyes? Because crimsons is is fine, familiar, and I just keep him around all the time.",
+        "strategy": "Hold on, Bru. We probably need to stick together. Um I uh say over I I think of the others I say first of Sander Bruce Taylor the ones who are who did this we need to we need to back him up.",
+        "curiosity": "Mostly reacts to events as they unfold rather than asking probing questions about the world."
+      }
+    },
+    "Topher": {
+      "scores": {
+        "chaos": 15,
+        "heroism": 13,
+        "comedy": 15,
+        "immersion": 17,
+        "strategy": 14,
+        "curiosity": 14
+      },
+      "evidence": {
+        "chaos": "And then the bakery explodes. Um, I would like you all to make a dexterity saving throw.",
+        "heroism": "Creates scenarios and opportunities for players to be heroic and save the day.",
+        "comedy": "It doesn't fit inside. It would take so much space inside to store it. What? This is valuable stuff. You want me to just get rid of it?",
+        "immersion": "Um um so there's the obvious stuff. People are like running away screaming. It's but like you can't hear the scream so you just hear like Yeah. Yeah. covered in ash.",
+        "strategy": "Designs encounter difficulty with multiple scaling tiers and excellent pacing.",
+        "curiosity": "Brings the world to life with details about locations, NPCs, and lore that players can engage with."
+      }
+    },
+    "Ohma": {
+      "scores": {
+        "chaos": 13,
+        "heroism": 16,
+        "comedy": 11,
+        "immersion": 14,
+        "strategy": 12,
+        "curiosity": 12
+      },
+      "evidence": {
+        "chaos": "I'm going to try to burst ahead. I would want to start by just accelerating and possibly just jumping building to building.",
+        "heroism": "I think this is where Elmo would step in and while the paddles like lifted up be like I think that I am the necessary help you need and like I don't I don't even know I have the gloves of all strength so like I'm going to try to just burst ahead.",
+        "comedy": "I am a little rowdy when I put on the mask. I apologize for my obnoxiousness.",
+        "immersion": "He leans over and you see him maybe kind of rumaging and out comes a black mask and he ties on and says, 'Are you ready, brother?'",
+        "strategy": "I need a moment to get up. Bru, let's see what you've got.",
+        "curiosity": "What is the reputation of the order of St. George? Do we know that yet? Maybe is the better question."
+      }
+    },
+    "Leliana": {
+      "scores": {
+        "chaos": 8,
+        "heroism": 16,
+        "comedy": 11,
+        "immersion": 14,
+        "strategy": 14,
+        "curiosity": 11
+      },
+      "evidence": {
+        "chaos": "Mostly acts responsibly and tries to help others rather than creating chaos.",
+        "heroism": "I'll give the sander a a cure wounds as well. Um, when I get to Oman to Sander, um, I'll give the sander a a cure wounds.",
+        "comedy": "I'm bleeding from my face from a thorn. That's so funny.",
+        "immersion": "Um, all my So, I'll um I'll try to like meet up with Ma and Sander on the way there. Are there any like uh from the explosion? Are there like fires and s***?",
+        "strategy": "In that case, I will Yeah, you know what? I'll try to upcast it. Um, so I'll try to target all three.",
+        "curiosity": "Um um let's see. Can I see Bru from where I am? I want to give him the juice."
+      }
+    },
+    "Silas": {
+      "scores": {
+        "chaos": 8,
+        "heroism": 18,
+        "comedy": 12,
+        "immersion": 17,
+        "strategy": 17,
+        "curiosity": 13
+      },
+      "evidence": {
+        "chaos": "Makes strategic decisions and works within the group's framework rather than derailing plans.",
+        "heroism": "I'm going to take that out, pull out the cork, and I'm going to try to like uh likeh hold his mouth open, pour it in.",
+        "comedy": "I suppose. But you know what, bro? I got to say, like, I always thought detective work was really hard, but we have found everything we've been looking for in the city on our first try. I think we might be the world's greatest detectives.",
+        "immersion": "I'm going to turn around and throw Sander and be like, 'Not how I pictured our reunion going, but it's good to see you again.'",
+        "strategy": "I guess I'll think at the group. Bru, you're the only one who really needs to be tailing them. You're the one with the lookout, right?",
+        "curiosity": "Um, they seem very narrowly focused on like all these dragon related issues. So, I don't know if they actually have too much of a crossover with like the average Citizens of Greyport."
+      }
+    }
+  },
+  "superlatives": {
+    "mvp": {
+      "player": "Silas",
+      "quote": "I'm going to take that out, pull out the cork, and I'm going to try to like uh likeh hold his mouth open, pour it in."
+    },
+    "best_joke": {
+      "player": "Silas",
+      "quote": "I always thought detective work was really hard, but we have found everything we've been looking for in the city on our first try. I think we might be the world's greatest detectives."
+    },
+    "most_chaotic": {
+      "player": "Bru",
+      "quote": "I think the people that did this are going to the university to decide. I'm going to chase them around."
+    },
+    "decision_driver": "Silas"
+  }
+}

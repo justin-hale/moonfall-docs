@@ -1,0 +1,130 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-03-06",
+  "model": "claude-haiku-4-5",
+  "players": {
+    "Silas": {
+      "scores": {
+        "chaos": 9,
+        "heroism": 10,
+        "comedy": 14,
+        "immersion": 9,
+        "strategy": 15,
+        "curiosity": 8
+      },
+      "evidence": {
+        "chaos": "This is how you ended up becoming the world's second greatest detective. You let your need for you let their love of interpersonal drama get in the way of the job.",
+        "heroism": "I mean, you know what? Real talk, we're buds now. So, like I feel like we help each other out with our revenge driven motivations.",
+        "comedy": "That sounds pretty foolproof. Like people be like, 'Hey, isn't that Elspeth Cooper?' There's no way. She wasn't British.",
+        "immersion": "Okay, guys. We need to get on his tail here. Should I stay here and like Should I stay here and keep my eyes on him?",
+        "strategy": "Okay, guys. We need to get on his tail here... I can get into the zoo basically anytime I want. So yeah, I'll just catch up to you guys if you need me to.",
+        "curiosity": "I'm not invested in Victor's ongoing drama or not. I'm not. So, we got what we needed."
+      }
+    },
+    "Bru": {
+      "scores": {
+        "chaos": 15,
+        "heroism": 11,
+        "comedy": 11,
+        "immersion": 9,
+        "strategy": 8,
+        "curiosity": 9
+      },
+      "evidence": {
+        "chaos": "Upturn maneuver is uh anything that can be flipped. Tables, chairs, whatever... Hi, I'm Kevin.",
+        "heroism": "I'm gonna take off with um with Kevin and um anybody else who wants to come with me and set up the fireworks.",
+        "comedy": "I feel like this trip has off rails before it even started. I feel like this trip has gone off the rails before it even started. We have a British accent.",
+        "immersion": "I need I need to buy some supplies at some point.",
+        "strategy": "I feel like this trip has off rails before it even started. We have a British accent. We're supposed to be like cosplaying as all girls.",
+        "curiosity": "What time is it? I need I need to buy some supplies at some point."
+      }
+    },
+    "Topher": {
+      "scores": {
+        "chaos": 12,
+        "heroism": 11,
+        "comedy": 12,
+        "immersion": 13,
+        "strategy": 13,
+        "curiosity": 11
+      },
+      "evidence": {
+        "chaos": "And just when it seems like they're about to be within reach, we end the session. And you see these Um, it's like black holes moving closer to you and they grow bigger and bigger.",
+        "heroism": "The children have been loved. The bathroom has been filled and so have the drinks. Ready to go.",
+        "comedy": "You can find a classified ad for local racists in your area.",
+        "immersion": "you see coming out of this this like spinning blue like deep void these wooden roots emerging from them and they kind of wrap around um the portal space and start to miraculously form a door.",
+        "strategy": "Um and you're eating breakfast and at one point Scarlet bursts into breakfast wideeyed holding a clipboard covered in equations.",
+        "curiosity": "Um something about when you came to the workshop. Um something I had never seen and I uh have written in my notes and tracked uh when it happens and it seems to be Silus when you're nearby."
+      }
+    },
+    "Leliana": {
+      "scores": {
+        "chaos": 6,
+        "heroism": 14,
+        "comedy": 10,
+        "immersion": 11,
+        "strategy": 10,
+        "curiosity": 10
+      },
+      "evidence": {
+        "chaos": "Let's tail him, but be careful.",
+        "heroism": "I would like to cast conjure animals with a bunch of like puppies around the kid and see if I can console and distract the kid with a bunch of puppies.",
+        "comedy": "You're just so magnetic. It's your personality.",
+        "immersion": "Well, I was going to give Silus a hug and then present him with a um a hand drum with a uh that has some like little engraving of like daggers and an S on it.",
+        "strategy": "I'm going to psychic phone to the other group. Are you guys here yet? We found Victor.",
+        "curiosity": "Hey Victor, how's your hot dog? No, no, thank you. I don't really go for hot dogs too much, but how's your day?"
+      }
+    },
+    "Elspeth": {
+      "scores": {
+        "chaos": 13,
+        "heroism": 10,
+        "comedy": 13,
+        "immersion": 12,
+        "strategy": 8,
+        "curiosity": 11
+      },
+      "evidence": {
+        "chaos": "If I don't have a British accent, then I'm going to get attacked. I just thought of it. I'm also not changing my appearance. It's just the voice.",
+        "heroism": "I give you like it's super crudely wrapped because we've been busy, but I give you a gift and it's from all of us and it's um a wand of webs.",
+        "comedy": "I pull my hat down even further over my face somehow. I make it into a bucket.",
+        "immersion": "I give you like it's super crudely wrapped because we've been busy, but I give you a gift and it's from all of us.",
+        "strategy": "I just thought of it. I'm also not changing my appearance. It's just the voice.",
+        "curiosity": "I should go look for that sign. Or if it's on like a bulletin board, check the handwriting or something."
+      }
+    },
+    "Olivia": {
+      "scores": {
+        "chaos": 7,
+        "heroism": 12,
+        "comedy": 10,
+        "immersion": 11,
+        "strategy": 8,
+        "curiosity": 13
+      },
+      "evidence": {
+        "chaos": "Silus, if you teleport in here, we're donating a gold each.",
+        "heroism": "Olivia's going to walk over and help him and then just kind of like talk to Victor.",
+        "comedy": "Booper is an action you do to a tiny child's nose.",
+        "immersion": "I think Olivia's just hanging out having a nice casual breakfast with everybody.",
+        "strategy": "What? Silus. This is a nonprofit. You better I better put two in that donation box.",
+        "curiosity": "Guys, he is not human. He is something not just special but like extra special like more than he's older than me."
+      }
+    }
+  },
+  "superlatives": {
+    "mvp": {
+      "player": "Leliana",
+      "quote": "I would like to cast conjure animals with a bunch of like puppies around the kid and see if I can console and distract the kid with a bunch of puppies."
+    },
+    "best_joke": {
+      "player": "Elspeth",
+      "quote": "I pull my hat down even further over my face somehow. I make it into a bucket."
+    },
+    "most_chaotic": {
+      "player": "Bru",
+      "quote": "Upturn maneuver is uh anything that can be flipped. Tables, chairs, whatever... Hi, I'm Kevin."
+    },
+    "decision_driver": "Silas"
+  }
+}

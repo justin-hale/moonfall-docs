@@ -1,0 +1,130 @@
+{
+  "schema_version": "1.0",
+  "date": "2025-10-03",
+  "model": "claude-haiku-4-5",
+  "players": {
+    "Ohma": {
+      "scores": {
+        "chaos": 6,
+        "heroism": 9,
+        "comedy": 8,
+        "immersion": 9,
+        "strategy": 10,
+        "curiosity": 7
+      },
+      "evidence": {
+        "chaos": "I am the ninja turtle. Yes.",
+        "heroism": "I would much rather use my gold to help pay for the others things I need. I also would love to see Kevin with a multitude of ammunitions.",
+        "comedy": "I am the ninja turtle. Yes.",
+        "immersion": "I give him a little nudge and a grin and say I am the ninja turtle. Yes.",
+        "strategy": "Would it make any sense if we just poisoned Kang one and avoided all the other casualties? Uh, he is a big baby.",
+        "curiosity": "Is this only on PC or can I play this on a console?"
+      }
+    },
+    "Leliana": {
+      "scores": {
+        "chaos": 4,
+        "heroism": 14,
+        "comedy": 9,
+        "immersion": 12,
+        "strategy": 8,
+        "curiosity": 10
+      },
+      "evidence": {
+        "chaos": "Uh, I'm going to definitely drink it with a pinky up. I'm definitely going to drink it. Pinkies up for sure.",
+        "heroism": "Please don't die. You're just can't happen.",
+        "comedy": "I'm going to definitely drink it with a pinky up.",
+        "immersion": "I think that she will have seen and noticed that Alisana does indeed or has some shredder does care about the park and so therefore she is worth attempting to save.",
+        "strategy": "I mean, she's been trying to get famous and recognized ever since this whole deal with her patron. Now that she's finally getting it, I don't think she's going to want to give it up.",
+        "curiosity": "Um, are Helisana and Leliana incomplete parts of the same person or are they like they're each their own full actualized person at this point?"
+      }
+    },
+    "Topher": {
+      "scores": {
+        "chaos": 12,
+        "heroism": 10,
+        "comedy": 13,
+        "immersion": 14,
+        "strategy": 10,
+        "curiosity": 9
+      },
+      "evidence": {
+        "chaos": "Um, Jonathan, please, please. I don't want to die. Look at him. He's got psychic daggers.",
+        "heroism": "uh, well, if that didn't bother you, then I guess you can do this this eating contest with Crang One.",
+        "comedy": "I am Mr. triple bottom. And I am the proprietor of this weapons and armor store.",
+        "immersion": "Um, there's a bar. Um well, so what you actually see is um there are gathered like food stuffs that were originally like stores for the aqua farms that used to be down here um that they've repurposed into like an ery.",
+        "strategy": "Um cool. Yeah. You head back um to the system uh head back into the sewers.",
+        "curiosity": "Um, so are y'all doing anything specific as as you kind of like walk through here in the public?"
+      }
+    },
+    "Silas": {
+      "scores": {
+        "chaos": 9,
+        "heroism": 12,
+        "comedy": 9,
+        "immersion": 12,
+        "strategy": 15,
+        "curiosity": 12
+      },
+      "evidence": {
+        "chaos": "Psychic dagger's out. Okay. Actually, we probably should go. They apparently know the iron claws and we shouldn't uh reveal that it's us here.",
+        "heroism": "I saved you from the synthesis lab. Seriously though, I saved you and like all the like dozen other people. Like that's that's heroic.",
+        "comedy": "Well, I don't honestly don't know if we meant anything to Helisana, but Helisana meant something to us, I think.",
+        "immersion": "I will actually like open the closet door for Bru and be like, Well, we've been stuck with each other for long enough now, Bru, I don't doubt it.",
+        "strategy": "Do we have a map of High Forge that is uh detailed enough for us to use our magic paint to create a vertical route from the top of the city to the forge heart? That is a crucial part of our plan to get the dragons in.",
+        "curiosity": "Um, is Helisana and Leliana incomplete parts of the same person or are they like they're each their own full actualized person at this point?"
+      }
+    },
+    "Olivia": {
+      "scores": {
+        "chaos": 5,
+        "heroism": 11,
+        "comedy": 6,
+        "immersion": 11,
+        "strategy": 10,
+        "curiosity": 8
+      },
+      "evidence": {
+        "chaos": "Um, she is just going to like kick down the door and be like, What the f*** are you doing in my apartment?",
+        "heroism": "Well, we'll discuss that one maybe, but definitely not the ravers. They're just children in a thrral.",
+        "comedy": "Where did you do my family photos?",
+        "immersion": "I mean I wouldn't have Yeah, I thought she was trying to run to us.",
+        "strategy": "Um, is Olivia Cooper so well loved amongst the population that she could like stabilize the the populace for the short term?",
+        "curiosity": "Um, oh yeah, by the way, is it an 18 and under nightclub?"
+      }
+    },
+    "Bru": {
+      "scores": {
+        "chaos": 13,
+        "heroism": 6,
+        "comedy": 11,
+        "immersion": 9,
+        "strategy": 10,
+        "curiosity": 8
+      },
+      "evidence": {
+        "chaos": "I I drank that poison. Am I gonna die in two hours?",
+        "heroism": "I mean, I'm not advertising that. I'm not either.",
+        "comedy": "You're a weak person. I I know this. I'm not advertising that.",
+        "immersion": "Bru's already got a a mobile pot cooking full of stew in preparation for the alcohol.",
+        "strategy": "Um, flasks of oil, flammable oil preferably.",
+        "curiosity": "Um, there would be like 10 of them. Uh one gold would be 10 flasks of oil."
+      }
+    }
+  },
+  "superlatives": {
+    "mvp": {
+      "player": "Leliana",
+      "quote": "um and I'll cast wounds on you or a f*** ton of health. 49"
+    },
+    "best_joke": {
+      "player": "Leliana",
+      "quote": "I'm going to definitely drink it with a pinky up."
+    },
+    "most_chaotic": {
+      "player": "Bru",
+      "quote": "I I drank that poison. Am I gonna die in two hours?"
+    },
+    "decision_driver": "Silas"
+  }
+}

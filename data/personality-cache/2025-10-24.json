@@ -1,0 +1,148 @@
+{
+  "schema_version": "1.0",
+  "date": "2025-10-24",
+  "model": "claude-haiku-4-5",
+  "players": {
+    "Topher": {
+      "scores": {
+        "chaos": 15,
+        "heroism": 10,
+        "comedy": 14,
+        "immersion": 18,
+        "strategy": 14,
+        "curiosity": 14
+      },
+      "evidence": {
+        "chaos": "you see flames uh pummel the door. Um, and you're able to to you're all able to just jump out of the way, sidestep it",
+        "heroism": "Yeah, pretty cool. Pretty cool.",
+        "comedy": "Yeah. Yeah. He's all sewn together. He like he like uh there's like a flap of skin coming off his head that he just like pats back on",
+        "immersion": "uh you see immediately on the other side of this door, uh, Betty the Red Dragon is like clashing with, um, two, uh, of the, um, of the, uh, constructs",
+        "strategy": "Um, I would say the amount of fear you use in an encounter like calculates to like how deadly that encounter is",
+        "curiosity": "Um, cool. Yeah. Uh, where So, we're we're a little in in in epilog mode. How what are y'all doing next?"
+      }
+    },
+    "Leliana": {
+      "scores": {
+        "chaos": 10,
+        "heroism": 15,
+        "comedy": 10,
+        "immersion": 12,
+        "strategy": 11,
+        "curiosity": 8
+      },
+      "evidence": {
+        "chaos": "Um, I think I would try to um um help out with any like um yeah, I'm a good person now",
+        "heroism": "I'm a good person now. So, help out with any like um um I don't know impacted families or things like that",
+        "comedy": "Apparently, apparently winter or some s***. I know I'm complaining. It's like 65 degrees, but that's basically winter",
+        "immersion": "I'll draw an opening basically. Um, so the I'm having a tough time visualizing the map here",
+        "strategy": "um are the pieces of the map moving slow enough that I can actually like comprehend things or are they shifting so rapidly",
+        "curiosity": "um are the pieces of the map moving slow enough that I can actually like comprehend things or are they shifting"
+      }
+    },
+    "Silas": {
+      "scores": {
+        "chaos": 13,
+        "heroism": 12,
+        "comedy": 11,
+        "immersion": 15,
+        "strategy": 17,
+        "curiosity": 10
+      },
+      "evidence": {
+        "chaos": "Yeah, push the these assholes that are with us outside",
+        "heroism": "it's not who I want to be now. like it's not who I want to be, but it's not who I want to be now",
+        "comedy": "Yeah, flossing is like extremely old and out of touch at this point",
+        "immersion": "I mean I Okay, so me and Bru, we killed your boss. Are you Are we cool now? Are you going to try to kill us again?",
+        "strategy": "I need you guys on this one. Um I'm going to try to command the dragons to f*** off, but I need to like kind of share the psychic workload with you guys",
+        "curiosity": "Um, how does it look like Helisana's dragon is the only one that hasn't been affected or is it all black dragons?"
+      }
+    },
+    "Elspeth": {
+      "scores": {
+        "chaos": 7,
+        "heroism": 14,
+        "comedy": 8,
+        "immersion": 11,
+        "strategy": 11,
+        "curiosity": 10
+      },
+      "evidence": {
+        "chaos": "I'm going to pick up Kevin and cuddle him. I'm just petting cuddling Kevin and petting Kevin",
+        "heroism": "I'm going to pick up Kevin and cuddle him",
+        "comedy": "Can I shorten the quote? There you go",
+        "immersion": "She looks like a sneaky baby. Either that or she's just over it",
+        "strategy": "Like if if his hand falls off, is it still sentient? Like does it come crawling back to him?",
+        "curiosity": "Um, are you distributing the gold or is it great"
+      }
+    },
+    "Ohma": {
+      "scores": {
+        "chaos": 6,
+        "heroism": 14,
+        "comedy": 9,
+        "immersion": 11,
+        "strategy": 11,
+        "curiosity": 12
+      },
+      "evidence": {
+        "chaos": "I I uh I think that would spend time working with Litu to figure out as much as they can",
+        "heroism": "I I think that would spend time working with Litu to figure out as much as they can about where the moon goddess fell",
+        "comedy": "I I want to be angry, but I'm also very happy with how they are handling this situation",
+        "immersion": "I believe that is just a bruise corner. That is where he likes to nap",
+        "strategy": "What would be the ruling there? I go out there and party",
+        "curiosity": "Uh, I think that would spend time working with Litu to figure out as much as they can about where the moon goddess fell"
+      }
+    },
+    "Bru": {
+      "scores": {
+        "chaos": 16,
+        "heroism": 10,
+        "comedy": 13,
+        "immersion": 10,
+        "strategy": 11,
+        "curiosity": 11
+      },
+      "evidence": {
+        "chaos": "Can we shove Grim Draw and Triple C outside?",
+        "heroism": "I would like to tie up the loose end of the pocket village that we've been working on",
+        "comedy": "You can throw people in it. Yeah. Okay. Okay.",
+        "immersion": "Pepsi, I'll totally make a cool mount for you to stand on top of the Bugatti so you can you can go at super fast speeds",
+        "strategy": "Uh, the only other thing personally that Bru would be working on is his uh, relationship with Pepsi. How to Train Your Dragon style",
+        "curiosity": "I'd like to tie up the loose end of the pocket village that we've been working on"
+      }
+    },
+    "Olivia": {
+      "scores": {
+        "chaos": 6,
+        "heroism": 17,
+        "comedy": 7,
+        "immersion": 11,
+        "strategy": 16,
+        "curiosity": 8
+      },
+      "evidence": {
+        "chaos": "No, we're not just killing people now",
+        "heroism": "I'm going to do everything I can to set up a set of rules for chalk rock so this doesn't become another bad situation while we're gone",
+        "comedy": "Okay. I'm just going to like tear up a bit a little bit. She's very proud of you",
+        "immersion": "Olivia is going to like tear up a bit a little bit. She's very proud of you",
+        "strategy": "I'm suggesting a nonprofit is what we're going for. No. I'm saying I don't want the money to the money's not going to stay in high gorge. It's a centralized way to get it to all the refugee camps",
+        "curiosity": "We're working on a river arts district. We've got a whole plan"
+      }
+    }
+  },
+  "superlatives": {
+    "mvp": {
+      "player": "Silas",
+      "quote": "Yes. f*** yeah."
+    },
+    "best_joke": {
+      "player": "Bru",
+      "quote": "You can throw people in it."
+    },
+    "most_chaotic": {
+      "player": "Bru",
+      "quote": "Can we shove Grim Draw and Triple C outside?"
+    },
+    "decision_driver": "Silas"
+  }
+}

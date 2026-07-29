@@ -1,0 +1,94 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-06-05",
+  "model": "claude-haiku-4-5",
+  "players": {
+    "Topher": {
+      "scores": {
+        "chaos": 12,
+        "heroism": 11,
+        "comedy": 12,
+        "immersion": 16,
+        "strategy": 13,
+        "curiosity": 13
+      },
+      "evidence": {
+        "chaos": "Um, I can make a bomb out of anything. Or you can drink it or whatever. Make people drink soup.",
+        "heroism": "So you're all have been thinking like, oh, we'll poison them with this roof drink, right? But what if you also make this a beautiful story for somebody, right?",
+        "comedy": "Oh my god, you're crushing me. You're so heavy.",
+        "immersion": "Um and then you see you can just see these dim little like specks that clear that clarify into a gorgeous like open atrium of a huge candalabra... huge massive glittering chandelier",
+        "strategy": "Um, so like probably can't fly in there.",
+        "curiosity": "Um you uh from what you've seen in the court of law um they usually have like if there are crimes that happen um to an Eldorian citizen inside uh like property of Bradicus court."
+      }
+    },
+    "Silas": {
+      "scores": {
+        "chaos": 16,
+        "heroism": 8,
+        "comedy": 14,
+        "immersion": 12,
+        "strategy": 15,
+        "curiosity": 11
+      },
+      "evidence": {
+        "chaos": "Uh well, we know from firsthand experience that it's ultimately harmless. It's just very debilitating, but for a short window, which is all we need.",
+        "heroism": "I'll use some of it and then I'll bring back the rest.",
+        "comedy": "Have you ever met a possum who takes s***? I think not.",
+        "immersion": "Well, business before pleasure. Um, you know that uh that liquor that you uh shared with us on the first night we came here? Can I borrow it?",
+        "strategy": "Maybe we could try to precision strike this. Maybe we could try to go after the most talented people on every team.",
+        "curiosity": "I remember last time it came up that uh you are from this area. Is that something that the players know or something that the party knows as well?"
+      }
+    },
+    "Leliana": {
+      "scores": {
+        "chaos": 11,
+        "heroism": 11,
+        "comedy": 9,
+        "immersion": 15,
+        "strategy": 13,
+        "curiosity": 13
+      },
+      "evidence": {
+        "chaos": "Um all right, then. I'm going to um sure what to do here, but all right. Uh I'll do something here. Um all right, the cast. I'm try to get them all with a color spray or as much as I can with a color spray.",
+        "heroism": "I'm going to slump to the side and like kind of really laz like put a head on somebody's shoulder, whoever's next to me",
+        "comedy": "Isn't that pretty? Look at these lights.",
+        "immersion": "I'm going to really try to play up the repeat aspect and like you stumble a little bit.",
+        "strategy": "I'm going to try to find out a little more about because we know that uh what's his name? Uh Bradus wants uh we need to give him a show basically.",
+        "curiosity": "Um, so I'm going to try to find out a little about him and what he's into and then maybe we can lead into that angle, right?"
+      }
+    },
+    "Olivia": {
+      "scores": {
+        "chaos": 13,
+        "heroism": 12,
+        "comedy": 11,
+        "immersion": 14,
+        "strategy": 12,
+        "curiosity": 11
+      },
+      "evidence": {
+        "chaos": "Um, I'm assuming there's a continental breakfast here. So, Silus, what if you sneaky sneaked and just kind of like ruby their breakfast in the morning",
+        "heroism": "Yeah, honey. It seems like it's going to be a really weird day we've got ahead of us today with the cameras and the contest. I just want to make sure everyone makes it out alive.",
+        "comedy": "I super want to be him for Halloween. Actually, I want to be So, what I want to do is I want like Ted to be Rock Lee.",
+        "immersion": "Um, oh, you know, I'm just I'm retired. Retired, you know, picked up this adventuring. It's a long very long long story.",
+        "strategy": "Okay, question. Is Bru is brown something Bru specific or is brown something that everyone in this universe knows about already?",
+        "curiosity": "Can I do a little bit of an insight check on him? One second, bud."
+      }
+    }
+  },
+  "superlatives": {
+    "mvp": {
+      "player": "Silas",
+      "quote": "Um, for slight of hand, um I got a uh a 19. And for a stealth, I got um a 28."
+    },
+    "best_joke": {
+      "player": "Silas",
+      "quote": "Have you ever met a possum who takes s***? I think not."
+    },
+    "most_chaotic": {
+      "player": "Silas",
+      "quote": "I'm going to sneak around and literally roofy them. Bru."
+    },
+    "decision_driver": "Silas"
+  }
+}

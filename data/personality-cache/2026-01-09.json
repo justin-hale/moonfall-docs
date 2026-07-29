@@ -1,0 +1,130 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-01-09",
+  "model": "claude-haiku-4-5",
+  "players": {
+    "Silas": {
+      "scores": {
+        "chaos": 16,
+        "heroism": 12,
+        "comedy": 16,
+        "immersion": 15,
+        "strategy": 17,
+        "curiosity": 15
+      },
+      "evidence": {
+        "chaos": "I'm if I can, I'm going to just like poke them at the end of my daggers and just like smear it that way. I don't want to touch it with my hands.",
+        "heroism": "I'm going to go in try to like just gum up their machinery. You know, they're like, 'Oh no, it it's broken.'",
+        "comedy": "Sometimes this feels like Chicago does things just out of spite, you know, like we're gonna f*** you. I'm from Chicago.",
+        "immersion": "I mean, he's like he's he just I f****** hate it to be honest. That's true, but I also hate the change.",
+        "strategy": "Alright, here's a plan. What if I go in try to like just gum up their machinery? You know, they're like, 'Oh no, it it's broken.' And and then then when they come out to try to fix it, we jump them.",
+        "curiosity": "Can I also see what materials they're feeding into it? Like what are they uh what are they transporting here?"
+      }
+    },
+    "Elspeth": {
+      "scores": {
+        "chaos": 15,
+        "heroism": 11,
+        "comedy": 14,
+        "immersion": 13,
+        "strategy": 9,
+        "curiosity": 11
+      },
+      "evidence": {
+        "chaos": "I want to shove somebody in it, but they need to be in front of the oven.",
+        "heroism": "Absolutely. Can I bring anything?",
+        "comedy": "I just want to make sure it's really broken. Pass.",
+        "immersion": "Is this like a cosmic shredder or is it like a scan? I don't know. They're like putting something in something and it disappears. I don't love it.",
+        "strategy": "Can someone throw a rock in front of it? I'm not going in that thing until it's cleaned.",
+        "curiosity": "I just I'm not I'll squint from over here. I know it. I know it."
+      }
+    },
+    "Leliana": {
+      "scores": {
+        "chaos": 9,
+        "heroism": 12,
+        "comedy": 8,
+        "immersion": 12,
+        "strategy": 10,
+        "curiosity": 10
+      },
+      "evidence": {
+        "chaos": "I can just make you invisible. Would that help?",
+        "heroism": "I can just make you invisible. Would that help?",
+        "comedy": "Turns out we didn't need to sneak up on him, I guess.",
+        "immersion": "I'm just happy we're vibing together. I mean, the good thing is we're working together and having fun.",
+        "strategy": "You said there's a hike. I love a good hike.",
+        "curiosity": "What's the music scene like?"
+      }
+    },
+    "Ohma": {
+      "scores": {
+        "chaos": 7,
+        "heroism": 13,
+        "comedy": 10,
+        "immersion": 11,
+        "strategy": 9,
+        "curiosity": 12
+      },
+      "evidence": {
+        "chaos": "Okay. On standby.",
+        "heroism": "Okay, here we go.",
+        "comedy": "I I have a vegetarian pizza that I am fond of.",
+        "immersion": "My my worries begin to to surface. As I look around, I I I I keep trying to see if there's any gathering of people around.",
+        "strategy": "I've been traveling classic. But riding along with the group, I've uh almost grown a slight sweat on my brow looking around.",
+        "curiosity": "I would very much like to see her. Yes. I I had heard rumors that she may be had personified into a humanlike character."
+      }
+    },
+    "Bru": {
+      "scores": {
+        "chaos": 12,
+        "heroism": 11,
+        "comedy": 10,
+        "immersion": 11,
+        "strategy": 10,
+        "curiosity": 9
+      },
+      "evidence": {
+        "chaos": "I'm just gonna keep stealing his ingredients as he as he walks away.",
+        "heroism": "I'm going to grab like the next couple years of the journals just to be safe.",
+        "comedy": "I'm just gonna keep stealing his ingredients as he walks away.",
+        "immersion": "I'm going to grab like the next couple years of the journals just to be safe. Oh yeah, throw them in the pee hole.",
+        "strategy": "Um, I mean, obviously, yeah, I'm just looking for any journals, um, because who knows what's going to have specific information that we need.",
+        "curiosity": "What about uh what about the park that Dane hung out in?"
+      }
+    },
+    "Topher": {
+      "scores": {
+        "chaos": 13,
+        "heroism": 11,
+        "comedy": 12,
+        "immersion": 14,
+        "strategy": 13,
+        "curiosity": 12
+      },
+      "evidence": {
+        "chaos": "Um, at that point Kevin yells Kevin and he throws a dynamite at the exhaust and it the machine explodes.",
+        "heroism": "Um yeah, you see an explosion happen and it almost reverses and then happens again over and over again.",
+        "comedy": "Um, it takes him a while to notice, but the uh the gale winds of the the mountain peak um begin to shrivel up his testicles and he quickly realizes, 'Oh, I've got no pants on.'",
+        "immersion": "Um uh you um you don't know I wouldn't say that you are like super proficient with like poisons and stuff but you know through your times and schemes and work honestly that there are poisons that um can leave a a traceability um in you.",
+        "strategy": "Um, like what are you trying to do with this scouting party here.",
+        "curiosity": "Um, like what are you trying to do with this scouting party? Um, I want to get close enough to listen to them talk to each other to see if they'll like say anything that is worth listening to."
+      }
+    }
+  },
+  "superlatives": {
+    "mvp": {
+      "player": "Elspeth",
+      "quote": "I shove him into the cube mentally."
+    },
+    "best_joke": {
+      "player": "Silas",
+      "quote": "Well, man. I just would love to go to a restaurant. The waiter's like, 'Okay, we're going to f****** try, but we cannot make any promises.' You know, we got to wait for the particle to accelerator to stop running before we're allowed to like move stuff between parts of the kitchen."
+    },
+    "most_chaotic": {
+      "player": "Silas",
+      "quote": "I'm if I can, I'm going to just like poke them at the end of my daggers and just like smear it that way. I don't want to touch it with my hands."
+    },
+    "decision_driver": "Silas"
+  }
+}

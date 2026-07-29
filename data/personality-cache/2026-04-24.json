@@ -1,0 +1,130 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-04-24",
+  "model": "claude-haiku-4-5",
+  "players": {
+    "Elspeth": {
+      "scores": {
+        "chaos": 14,
+        "heroism": 12,
+        "comedy": 14,
+        "immersion": 15,
+        "strategy": 13,
+        "curiosity": 11
+      },
+      "evidence": {
+        "chaos": "I will talk to Silus and I'll be like should we steal their violence?",
+        "heroism": "That's a good reason. That's a good reason to rrestle? You've done some rrestling.",
+        "comedy": "Oh, two heal groups. Am I right? This is so strange.",
+        "immersion": "She's probably looking to see what the new merch drop is, like if there is any Sydney TE's, if any of her wrestler friends are around.",
+        "strategy": "After the match starts, I do bring Leliana down and I'm like, 'Okay, so like for the next entrance, we really need to hype up the crowd.'",
+        "curiosity": "Do you think he'd be cool if we wrote a book about him? You think Iro'd be cool with that?"
+      }
+    },
+    "Silas": {
+      "scores": {
+        "chaos": 13,
+        "heroism": 10,
+        "comedy": 11,
+        "immersion": 14,
+        "strategy": 16,
+        "curiosity": 9
+      },
+      "evidence": {
+        "chaos": "I'm gonna try to hit both because it's a 15 foot cone.",
+        "heroism": "I'll say that she gets wrapped up in chains as well and drugged off to the side and Gary's uh throne actually launches into the sky.",
+        "comedy": "Um, Silas is gonna keep his momentum going, go over to the opposite rope, and uh he's going to hit one of his signatures, the um he calls it Apollo's arrow.",
+        "immersion": "I'll say the ref is like, uh, just like an old like, uh, elf, like they look like they're like a thousand years old.",
+        "strategy": "Well, I guess it doesn't. So, when Silus is in the ring, I'm gonna cheat. So, it's probably more climactic if if I go first in.",
+        "curiosity": "Okay, so, um, I'm gonna try and pin and I'm gonna send Kevin uh at the other one's"
+      }
+    },
+    "Leliana": {
+      "scores": {
+        "chaos": 10,
+        "heroism": 13,
+        "comedy": 11,
+        "immersion": 12,
+        "strategy": 10,
+        "curiosity": 13
+      },
+      "evidence": {
+        "chaos": "I know it's only... I know I'm not really a fighter.",
+        "heroism": "I know it's only... I know I'm not really a fighter. But she knows she has to do this. I'll just work the crowd.",
+        "comedy": "I hear I hear hell is and a single tear drops down Lana's eyes as she throws the insult of I hear your gods are only uh lame.",
+        "immersion": "Um, all right. Um, gonna tap microphone. Is this on? Okay. Uh in we have uh team taco cat here.",
+        "strategy": "Uh, I would turn him into a little... maybe uh maybe a tiger shark. How about that?",
+        "curiosity": "Um, okay. Basically redneck anime. Okay. Interesting. That all sounds very uh very brutal. I mean, people are fighting each other for fun."
+      }
+    },
+    "Topher": {
+      "scores": {
+        "chaos": 18,
+        "heroism": 10,
+        "comedy": 16,
+        "immersion": 18,
+        "strategy": 14,
+        "curiosity": 11
+      },
+      "evidence": {
+        "chaos": "And then suddenly, emerging from the entrance, a band of demons arrives... Geysers of fire start shooting around the entrance ramp. Pentagrams start appearing all around the ring.",
+        "heroism": "If you guys let this go, then either demons ruin my brother's retirement celebration, probably kill him, or the Knights of Eldora basically bury any chance you have of reviving Luna's name.",
+        "comedy": "He's got like a bow tie and big sunglasses... There's two women rather scantily clad, wearing like Caspianesque like outfits... standing in the back there's this massive m*** wearing like basically like SNM leather rocker.",
+        "immersion": "There is like a lot of his clothes are being like burned away as he goes, but there's a look of sheer cold hard determination on his face as he comes careening towards the arena.",
+        "strategy": "For tag team, um you have to win by pinning your opponent... the first team to secure a pin will win the match.",
+        "curiosity": "Okay. Um, all right. So, yeah, if you're in the merch area, you'll probably bump into Silus a few times."
+      }
+    },
+    "Bru": {
+      "scores": {
+        "chaos": 16,
+        "heroism": 11,
+        "comedy": 13,
+        "immersion": 14,
+        "strategy": 17,
+        "curiosity": 8
+      },
+      "evidence": {
+        "chaos": "I'm going to blow up the ring.",
+        "heroism": "If they do, then it's your ass on the line. All right. Go away. You got to get away from here. If it blows up in here, then I want to be the only one that gets hurt here.",
+        "comedy": "And then uh Bru, you're the Bruchador. We also have Kevin in a puppet costume flapping his little puppet face and spraying the crowd with fart spray.",
+        "immersion": "So the uh Brit costume is just like my working apron and that's pretty much it. So you just see like my butt whenever I'm from behind.",
+        "strategy": "My idea with the explosives is basically as a reaction if um if Silus ever gets pinned, I'm going to blow up the ring.",
+        "curiosity": "Uh, depending on how much time it takes, uh, my plan is to rig and then have a remote detonation and, uh, by the time I'm done, I'm going to reappear next to Silus."
+      }
+    },
+    "Olivia": {
+      "scores": {
+        "chaos": 11,
+        "heroism": 17,
+        "comedy": 13,
+        "immersion": 14,
+        "strategy": 15,
+        "curiosity": 10
+      },
+      "evidence": {
+        "chaos": "She's like the baby and spirited away.",
+        "heroism": "Olivia's going to walk into the center of the ring, take my axe out, and slam it into the center. Just slam it into the ground like Thor style.",
+        "comedy": "It's been around my whole life. I know more than I want to know about it, but I could not care less.",
+        "immersion": "Imagine her. She's in like um a suit, but it's leather. And then she has like a sheep skin draped over her shoulders. And then she's painted her face from her nose up black, but then has like a gold circle around her head.",
+        "strategy": "I'm going to use my channel divinity for Abjure Foe. So I can use it as a spell attack and they have to make a wisdom saving throw or they're frightened.",
+        "curiosity": "Can you explain to me what penfall means? Is that just pinning?"
+      }
+    }
+  },
+  "superlatives": {
+    "mvp": {
+      "player": "Olivia",
+      "quote": "Olivia's going to walk into the center of the ring, take my axe out, and slam it into the center. Just slam it into the ground like Thor style... she managed to uh sneak off from Olivia's uh narcing gaze... you managed to pinned this a****** in like the first minute of the match."
+    },
+    "best_joke": {
+      "player": "Olivia",
+      "quote": "Fake moon. Fake moon. Fake moon."
+    },
+    "most_chaotic": {
+      "player": "Bru",
+      "quote": "I'm going to blow up the ring."
+    },
+    "decision_driver": "Elspeth"
+  }
+}

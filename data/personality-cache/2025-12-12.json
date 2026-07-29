@@ -1,0 +1,148 @@
+{
+  "schema_version": "1.0",
+  "date": "2025-12-12",
+  "model": "claude-haiku-4-5",
+  "players": {
+    "Bru": {
+      "scores": {
+        "chaos": 8,
+        "heroism": 5,
+        "comedy": 12,
+        "immersion": 10,
+        "strategy": 11,
+        "curiosity": 9
+      },
+      "evidence": {
+        "chaos": "I'm going to heat metal on uh Ellswith's car.",
+        "heroism": "I'm going to go right there. That's perfect.",
+        "comedy": "Chicago. Deaf, blind, heart problems, thyroid issues, incontinent, got a diaper on. Yeah. He's still cute.",
+        "immersion": "Um, can I did I miss these steps?",
+        "strategy": "Misty step, bro. Burn another spell slot for that.",
+        "curiosity": "Just as a future asking for a friend, how heavy are our cars?"
+      }
+    },
+    "Leliana": {
+      "scores": {
+        "chaos": 14,
+        "heroism": 6,
+        "comedy": 9,
+        "immersion": 10,
+        "strategy": 10,
+        "curiosity": 6
+      },
+      "evidence": {
+        "chaos": "I'm gonna cast Polymorph on Scotty Mac. I'm gonna turn him into a sheep.",
+        "heroism": "Lancing. Lance is driving.",
+        "comedy": "Um, well, I guess I gota be honest here.",
+        "immersion": "So, did we go to normal action economy? Is that Did I get that right?",
+        "strategy": "I'm gonna cast Polymorph on Scotty Mac. I'm gonna turn him into a sheep.",
+        "curiosity": "Yeah. Lancy's turn."
+      }
+    },
+    "Ohma": {
+      "scores": {
+        "chaos": 9,
+        "heroism": 3,
+        "comedy": 15,
+        "immersion": 13,
+        "strategy": 7,
+        "curiosity": 5
+      },
+      "evidence": {
+        "chaos": "Just an honest an honest move.",
+        "heroism": "Scotty Max has never done anything wrong. Why would you want to attack me?",
+        "comedy": "My grandpa's deck has no bad cards. Roll with that.",
+        "immersion": "Yeah, that's what he's been known for this whole time in the series.",
+        "strategy": "Well, old Scotty here only rolled six. Not not my best I've ever had.",
+        "curiosity": "How old is he? I have no children."
+      }
+    },
+    "Olivia": {
+      "scores": {
+        "chaos": 12,
+        "heroism": 4,
+        "comedy": 9,
+        "immersion": 10,
+        "strategy": 12,
+        "curiosity": 9
+      },
+      "evidence": {
+        "chaos": "I'm gonna do uh Denlin in vers. You guys need to do a wisdom save.",
+        "heroism": "I was thinking like maybe I can make it look like you ram me off the road or hurt me.",
+        "comedy": "Oh my back. Oh my back.",
+        "immersion": "Okay, I'm going to hang here and then I'm going to break check you whenever you pass me.",
+        "strategy": "I was debating. Who's Scotty Mac and Berstop again? I was definitely going to do Ellsmith.",
+        "curiosity": "I have a question for next round because I can't do it this round. My mounted combat. I am my car, but I'm also like in my car like a mount. Does mounted combat count?"
+      }
+    },
+    "Silas": {
+      "scores": {
+        "chaos": 16,
+        "heroism": 3,
+        "comedy": 14,
+        "immersion": 14,
+        "strategy": 15,
+        "curiosity": 6
+      },
+      "evidence": {
+        "chaos": "Um, I'll try to work on that, but for now we're doing a painted tunnel.",
+        "heroism": "I'm going to give my si a signal to my uh my minions over in the pits, and they're going to set um another sign out.",
+        "comedy": "I threw a turtle at you last time, too, if I remember.",
+        "immersion": "Okay, so for my first action, um, Denlin is going to uh activate one of his schemes that he set up uh in the night last night.",
+        "strategy": "And uh this one says uh free treats for dwarves, and it's like a sign next to like a keg of booze, a bunch of like beef jerky, you know, things dwarves like.",
+        "curiosity": "Okay. Um, uh, let's see."
+      }
+    },
+    "Topher": {
+      "scores": {
+        "chaos": 14,
+        "heroism": 10,
+        "comedy": 13,
+        "immersion": 11,
+        "strategy": 10,
+        "curiosity": 10
+      },
+      "evidence": {
+        "chaos": "I just want to get in the red. I'm going to cast expeditious retreat. And you know what that means, Justin?",
+        "heroism": "Um, I have started a mix if anyone would like to contribute.",
+        "comedy": "I don't eat with my mouth.",
+        "immersion": "As you all are sitting in your car, you see the flags around you because there's no lights.",
+        "strategy": "That means you can have a bonus action separate from your action, right?",
+        "curiosity": "Okay, everyone's uh roughly one mile ahead of me."
+      }
+    },
+    "Elspeth": {
+      "scores": {
+        "chaos": 4,
+        "heroism": 5,
+        "comedy": 8,
+        "immersion": 9,
+        "strategy": 10,
+        "curiosity": 5
+      },
+      "evidence": {
+        "chaos": "If you cheat outside the zone, the officials will see it.",
+        "heroism": "Well, that's a good point.",
+        "comedy": "It's a piece of cardboard. And it's peeling at the corner.",
+        "immersion": "As you all are sitting in the pit, you see your teams all come out and your team captains.",
+        "strategy": "Yeah. You're a big sheep inside a little sheep. Are you in the zone or out of the zone?",
+        "curiosity": "I don't know. I don't know. I don't know if I can do that."
+      }
+    }
+  },
+  "superlatives": {
+    "mvp": {
+      "player": "Leliana",
+      "quote": "I'm gonna turn him into a sheep."
+    },
+    "best_joke": {
+      "player": "Ohma",
+      "quote": "My grandpa's deck has no bad cards. Roll with that."
+    },
+    "most_chaotic": {
+      "player": "Leliana",
+      "quote": "I'm gonna cast Polymorph on Scotty Mac. I'm gonna turn him into a sheep."
+    },
+    "decision_driver": "Silas"
+  }
+}

@@ -1,0 +1,1977 @@
+{
+  "schema_version": "1.0",
+  "generated_by": "scripts/extract_session_stats.py",
+  "blocks": {
+    "session-1": {
+      "timing_quality": "none",
+      "duration_seconds": null,
+      "word_count": null,
+      "players_present": [
+        "Helisanna",
+        "Silas",
+        "Bru",
+        "Red",
+        "Olivia",
+        "Elspeth"
+      ],
+      "attendance_source": "recap",
+      "speakers": [],
+      "top_npcs": {},
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "superlatives": null
+    },
+    "session-4": {
+      "timing_quality": "none",
+      "duration_seconds": null,
+      "word_count": null,
+      "players_present": [
+        "Silas",
+        "Red",
+        "Helisanna",
+        "Bru",
+        "Olivia"
+      ],
+      "attendance_source": "recap",
+      "speakers": [],
+      "top_npcs": {},
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "superlatives": null
+    },
+    "session-9": {
+      "timing_quality": "none",
+      "duration_seconds": null,
+      "word_count": null,
+      "players_present": [
+        "Helisanna",
+        "Elspeth",
+        "Bru",
+        "Olivia",
+        "Red",
+        "Silas"
+      ],
+      "attendance_source": "recap",
+      "speakers": [],
+      "top_npcs": {},
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "superlatives": null
+    },
+    "session-33": {
+      "timing_quality": "approx",
+      "duration_seconds": 13500,
+      "word_count": 34729,
+      "players_present": [
+        "Silas",
+        "Ohma",
+        "Helisanna",
+        "Bru",
+        "Elspeth",
+        "Olivia"
+      ],
+      "attendance_source": "transcript",
+      "speakers": [
+        {
+          "name": "Topher",
+          "role": "dm",
+          "word_share": 0.3067
+        },
+        {
+          "name": "Silas",
+          "role": "pc",
+          "word_share": 0.1834
+        },
+        {
+          "name": "Ohma",
+          "role": "pc",
+          "word_share": 0.1254
+        },
+        {
+          "name": "Helisanna",
+          "role": "pc",
+          "word_share": 0.112
+        },
+        {
+          "name": "Bru",
+          "role": "pc",
+          "word_share": 0.1039
+        },
+        {
+          "name": "Elspeth",
+          "role": "pc",
+          "word_share": 0.0851
+        },
+        {
+          "name": "Olivia",
+          "role": "pc",
+          "word_share": 0.0835
+        }
+      ],
+      "top_npcs": {
+        "Chalk Rock": 7,
+        "Victor": 5,
+        "Astro": 3
+      },
+      "fun": {
+        "nat20_mentions": 2,
+        "nat1_mentions": 0
+      },
+      "superlatives": {
+        "mvp": {
+          "player": "Olivia",
+          "quote": "I need you all to stay within ten feet of me"
+        },
+        "best_joke": {
+          "player": "Silas",
+          "quote": "I did once single-handedly win a comic book trivia contest at Adventure Science Center by myself. I did say single-handedly, so I was a little redundant"
+        },
+        "most_chaotic": {
+          "player": "Helisanna",
+          "quote": "I'm going say during the long rest I dream of various ways of murdering crying one."
+        }
+      }
+    },
+    "session-34": {
+      "timing_quality": "approx",
+      "duration_seconds": 12300,
+      "word_count": 28288,
+      "players_present": [
+        "Silas",
+        "Leliana",
+        "Olivia",
+        "Bru",
+        "Elspeth"
+      ],
+      "attendance_source": "transcript",
+      "speakers": [
+        {
+          "name": "Topher",
+          "role": "dm",
+          "word_share": 0.2732
+        },
+        {
+          "name": "Silas",
+          "role": "pc",
+          "word_share": 0.1911
+        },
+        {
+          "name": "Leliana",
+          "role": "pc",
+          "word_share": 0.1467
+        },
+        {
+          "name": "Olivia",
+          "role": "pc",
+          "word_share": 0.142
+        },
+        {
+          "name": "Bru",
+          "role": "pc",
+          "word_share": 0.1375
+        },
+        {
+          "name": "Elspeth",
+          "role": "pc",
+          "word_share": 0.1095
+        }
+      ],
+      "top_npcs": {
+        "Victor": 6,
+        "Scarlet": 2,
+        "Chalk Rock": 1
+      },
+      "fun": {
+        "nat20_mentions": 1,
+        "nat1_mentions": 0
+      },
+      "superlatives": {
+        "mvp": {
+          "player": "Silas",
+          "quote": "Um 28 damage"
+        },
+        "best_joke": {
+          "player": "Silas",
+          "quote": "How many different ways can I say go f*** yourself tonight?"
+        },
+        "most_chaotic": {
+          "player": "Bru",
+          "quote": "So maybe maybe we sit at the concert and at the end of the concert I point the fireworks at her face. No, it's not kill. It's just knockout"
+        }
+      }
+    },
+    "session-35": {
+      "timing_quality": "approx",
+      "duration_seconds": 12304,
+      "word_count": 28388,
+      "players_present": [
+        "Silas",
+        "Bru",
+        "Ohma",
+        "Leliana",
+        "Olivia"
+      ],
+      "attendance_source": "transcript",
+      "speakers": [
+        {
+          "name": "Topher",
+          "role": "dm",
+          "word_share": 0.3444
+        },
+        {
+          "name": "Silas",
+          "role": "pc",
+          "word_share": 0.1967
+        },
+        {
+          "name": "Bru",
+          "role": "pc",
+          "word_share": 0.1316
+        },
+        {
+          "name": "Ohma",
+          "role": "pc",
+          "word_share": 0.1183
+        },
+        {
+          "name": "Leliana",
+          "role": "pc",
+          "word_share": 0.1155
+        },
+        {
+          "name": "Olivia",
+          "role": "pc",
+          "word_share": 0.0934
+        }
+      ],
+      "top_npcs": {
+        "George": 7,
+        "Scarlet": 7,
+        "Chalk Rock": 6
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "superlatives": {
+        "mvp": {
+          "player": "Leliana",
+          "quote": "um and I'll cast wounds on you or a f*** ton of health. 49"
+        },
+        "best_joke": {
+          "player": "Leliana",
+          "quote": "I'm going to definitely drink it with a pinky up."
+        },
+        "most_chaotic": {
+          "player": "Bru",
+          "quote": "I I drank that poison. Am I gonna die in two hours?"
+        }
+      }
+    },
+    "session-37": {
+      "timing_quality": "approx",
+      "duration_seconds": null,
+      "word_count": 30832,
+      "players_present": [
+        "Silas",
+        "Ohma",
+        "Olivia",
+        "Elspeth",
+        "Leliana",
+        "Bru"
+      ],
+      "attendance_source": "transcript",
+      "speakers": [
+        {
+          "name": "Topher",
+          "role": "dm",
+          "word_share": 0.3414
+        },
+        {
+          "name": "Silas",
+          "role": "pc",
+          "word_share": 0.193
+        },
+        {
+          "name": "Ohma",
+          "role": "pc",
+          "word_share": 0.1475
+        },
+        {
+          "name": "Olivia",
+          "role": "pc",
+          "word_share": 0.113
+        },
+        {
+          "name": "Elspeth",
+          "role": "pc",
+          "word_share": 0.0936
+        },
+        {
+          "name": "Leliana",
+          "role": "pc",
+          "word_share": 0.0623
+        },
+        {
+          "name": "Bru",
+          "role": "pc",
+          "word_share": 0.0493
+        }
+      ],
+      "top_npcs": {
+        "Chalk Rock": 10,
+        "Naomi": 8,
+        "George": 6
+      },
+      "fun": {
+        "nat20_mentions": 1,
+        "nat1_mentions": 0
+      },
+      "superlatives": {
+        "mvp": {
+          "player": "Silas",
+          "quote": "Yes. f*** yeah."
+        },
+        "best_joke": {
+          "player": "Bru",
+          "quote": "You can throw people in it."
+        },
+        "most_chaotic": {
+          "player": "Bru",
+          "quote": "Can we shove Grim Draw and Triple C outside?"
+        }
+      }
+    },
+    "interlude-12": {
+      "timing_quality": "approx",
+      "duration_seconds": 8100,
+      "word_count": 22948,
+      "players_present": [
+        "Olivia",
+        "Silas",
+        "Bru",
+        "Elspeth",
+        "Ohma",
+        "Leliana"
+      ],
+      "attendance_source": "transcript",
+      "speakers": [
+        {
+          "name": "Olivia",
+          "role": "pc",
+          "word_share": 0.3065
+        },
+        {
+          "name": "Silas",
+          "role": "pc",
+          "word_share": 0.2719
+        },
+        {
+          "name": "Bru",
+          "role": "pc",
+          "word_share": 0.136
+        },
+        {
+          "name": "Topher",
+          "role": "dm",
+          "word_share": 0.123
+        },
+        {
+          "name": "Elspeth",
+          "role": "pc",
+          "word_share": 0.0607
+        },
+        {
+          "name": "Ohma",
+          "role": "pc",
+          "word_share": 0.0539
+        },
+        {
+          "name": "Leliana",
+          "role": "pc",
+          "word_share": 0.048
+        }
+      ],
+      "top_npcs": {
+        "Scarlet": 46,
+        "Naomi": 11,
+        "George": 2
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "superlatives": {
+        "mvp": {
+          "player": "Silas",
+          "quote": "you are the finest door I have ever seen in my short time here on this earth"
+        },
+        "best_joke": {
+          "player": "Topher",
+          "quote": "I have many books on goblin love is one of my favorites"
+        },
+        "most_chaotic": {
+          "player": "Topher",
+          "quote": "Oh, I have a book for this"
+        }
+      }
+    },
+    "interlude-13": {
+      "timing_quality": "approx",
+      "duration_seconds": 11700,
+      "word_count": 32679,
+      "players_present": [
+        "Silas",
+        "Ohma",
+        "Bru",
+        "Elspeth",
+        "Olivia"
+      ],
+      "attendance_source": "transcript",
+      "speakers": [
+        {
+          "name": "Silas",
+          "role": "pc",
+          "word_share": 0.4199
+        },
+        {
+          "name": "Ohma",
+          "role": "pc",
+          "word_share": 0.1379
+        },
+        {
+          "name": "Topher",
+          "role": "dm",
+          "word_share": 0.126
+        },
+        {
+          "name": "Bru",
+          "role": "pc",
+          "word_share": 0.1229
+        },
+        {
+          "name": "Elspeth",
+          "role": "pc",
+          "word_share": 0.1042
+        },
+        {
+          "name": "Olivia",
+          "role": "pc",
+          "word_share": 0.0892
+        }
+      ],
+      "top_npcs": {
+        "George": 2,
+        "Iro": 2,
+        "Scarlet": 1
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "superlatives": {
+        "mvp": {
+          "player": "Olivia",
+          "quote": "No, no. Peaches is carrying cream. I'm trying to..."
+        },
+        "best_joke": {
+          "player": "Topher",
+          "quote": "No, it's where you don't even look down your sights. You just spin around in a circle and then you shoot him in the head."
+        },
+        "most_chaotic": {
+          "player": "Bru",
+          "quote": "I'm gonna I'm gonna throw an M80 in the toilet."
+        }
+      }
+    },
+    "interlude-14": {
+      "timing_quality": "approx",
+      "duration_seconds": 12900,
+      "word_count": 30304,
+      "players_present": [
+        "Elspeth",
+        "Silas",
+        "Bru",
+        "Ohma",
+        "Olivia",
+        "Leliana"
+      ],
+      "attendance_source": "transcript",
+      "speakers": [
+        {
+          "name": "Elspeth",
+          "role": "pc",
+          "word_share": 0.279
+        },
+        {
+          "name": "Silas",
+          "role": "pc",
+          "word_share": 0.1605
+        },
+        {
+          "name": "Bru",
+          "role": "pc",
+          "word_share": 0.1288
+        },
+        {
+          "name": "Topher",
+          "role": "dm",
+          "word_share": 0.1281
+        },
+        {
+          "name": "Ohma",
+          "role": "pc",
+          "word_share": 0.1263
+        },
+        {
+          "name": "Olivia",
+          "role": "pc",
+          "word_share": 0.1154
+        },
+        {
+          "name": "Leliana",
+          "role": "pc",
+          "word_share": 0.0617
+        }
+      ],
+      "top_npcs": {
+        "George": 5
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 1
+      },
+      "superlatives": {
+        "mvp": {
+          "player": "Olivia",
+          "quote": "Olivia: I'm sabotaging my my teammate's car and framing you at the same time."
+        },
+        "best_joke": {
+          "player": "Silas",
+          "quote": "Silas: I'm going to walk up and be like, 'Oh, hello there, young madam. I'm a purveyor of illegal drugs. Would you happen to want to purchase some illegal drugs from me?'"
+        },
+        "most_chaotic": {
+          "player": "Silas",
+          "quote": "Silas: Um, Denlin would walk up to uh, wherever Ellswith is supposed to be and like knock on the door. He has like a big like Groutto Mark style mustache and like some glasses on and like I'm going to wait for to come and answer the door."
+        }
+      }
+    },
+    "interlude-15": {
+      "timing_quality": "approx",
+      "duration_seconds": 11100,
+      "word_count": 26772,
+      "players_present": [
+        "Elspeth",
+        "Silas",
+        "Bru",
+        "Olivia",
+        "Ohma",
+        "Leliana"
+      ],
+      "attendance_source": "transcript",
+      "speakers": [
+        {
+          "name": "Elspeth",
+          "role": "pc",
+          "word_share": 0.2221
+        },
+        {
+          "name": "Silas",
+          "role": "pc",
+          "word_share": 0.1877
+        },
+        {
+          "name": "Bru",
+          "role": "pc",
+          "word_share": 0.1726
+        },
+        {
+          "name": "Olivia",
+          "role": "pc",
+          "word_share": 0.1349
+        },
+        {
+          "name": "Topher",
+          "role": "dm",
+          "word_share": 0.126
+        },
+        {
+          "name": "Ohma",
+          "role": "pc",
+          "word_share": 0.1039
+        },
+        {
+          "name": "Leliana",
+          "role": "pc",
+          "word_share": 0.053
+        }
+      ],
+      "top_npcs": {},
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "superlatives": {
+        "mvp": {
+          "player": "Leliana",
+          "quote": "I'm gonna turn him into a sheep."
+        },
+        "best_joke": {
+          "player": "Ohma",
+          "quote": "My grandpa's deck has no bad cards. Roll with that."
+        },
+        "most_chaotic": {
+          "player": "Leliana",
+          "quote": "I'm gonna cast Polymorph on Scotty Mac. I'm gonna turn him into a sheep."
+        }
+      }
+    },
+    "interlude-16": {
+      "timing_quality": "approx",
+      "duration_seconds": 12900,
+      "word_count": 34186,
+      "players_present": [
+        "Silas",
+        "Elspeth",
+        "Bru",
+        "Leliana",
+        "Olivia"
+      ],
+      "attendance_source": "transcript",
+      "speakers": [
+        {
+          "name": "Topher",
+          "role": "dm",
+          "word_share": 0.3053
+        },
+        {
+          "name": "Silas",
+          "role": "pc",
+          "word_share": 0.2189
+        },
+        {
+          "name": "Elspeth",
+          "role": "pc",
+          "word_share": 0.2129
+        },
+        {
+          "name": "Bru",
+          "role": "pc",
+          "word_share": 0.1372
+        },
+        {
+          "name": "Leliana",
+          "role": "pc",
+          "word_share": 0.0663
+        },
+        {
+          "name": "Olivia",
+          "role": "pc",
+          "word_share": 0.0594
+        }
+      ],
+      "top_npcs": {},
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "superlatives": {
+        "mvp": {
+          "player": "Silas",
+          "quote": "I'm ready to listen and I'm ready to talk."
+        },
+        "best_joke": {
+          "player": "Elspeth",
+          "quote": "It's just a like a little micro dose of cocaine, like a little upkeep, and then you have to take your sleepy time cocaine, and then that kind of brings you down"
+        },
+        "most_chaotic": {
+          "player": "Elspeth",
+          "quote": "I feel like I'm going to be leaving this island, so maybe we should just kind of blow up the island."
+        }
+      }
+    },
+    "session-38": {
+      "timing_quality": "approx",
+      "duration_seconds": 11700,
+      "word_count": 29050,
+      "players_present": [
+        "Silas",
+        "Elspeth",
+        "Bru",
+        "Ohma",
+        "Leliana"
+      ],
+      "attendance_source": "transcript",
+      "speakers": [
+        {
+          "name": "Topher",
+          "role": "dm",
+          "word_share": 0.3405
+        },
+        {
+          "name": "Silas",
+          "role": "pc",
+          "word_share": 0.2836
+        },
+        {
+          "name": "Elspeth",
+          "role": "pc",
+          "word_share": 0.1336
+        },
+        {
+          "name": "Bru",
+          "role": "pc",
+          "word_share": 0.1285
+        },
+        {
+          "name": "Ohma",
+          "role": "pc",
+          "word_share": 0.0598
+        },
+        {
+          "name": "Leliana",
+          "role": "pc",
+          "word_share": 0.054
+        }
+      ],
+      "top_npcs": {
+        "Scarlet": 13,
+        "Chalk Rock": 5,
+        "George": 1
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "superlatives": {
+        "mvp": {
+          "player": "Elspeth",
+          "quote": "I shove him into the cube mentally."
+        },
+        "best_joke": {
+          "player": "Silas",
+          "quote": "Well, man. I just would love to go to a restaurant. The waiter's like, 'Okay, we're going to f****** try, but we cannot make any promises.' You know, we got to wait for the particle to accelerator to stop running before we're allowed to like move stuff between parts of the kitchen."
+        },
+        "most_chaotic": {
+          "player": "Silas",
+          "quote": "I'm if I can, I'm going to just like poke them at the end of my daggers and just like smear it that way. I don't want to touch it with my hands."
+        }
+      }
+    },
+    "session-39": {
+      "timing_quality": "approx",
+      "duration_seconds": 9900,
+      "word_count": 24059,
+      "players_present": [
+        "Silas",
+        "Ohma",
+        "Bru",
+        "Leliana"
+      ],
+      "attendance_source": "transcript",
+      "speakers": [
+        {
+          "name": "Topher",
+          "role": "dm",
+          "word_share": 0.4062
+        },
+        {
+          "name": "Silas",
+          "role": "pc",
+          "word_share": 0.2363
+        },
+        {
+          "name": "Ohma",
+          "role": "pc",
+          "word_share": 0.1693
+        },
+        {
+          "name": "Bru",
+          "role": "pc",
+          "word_share": 0.0946
+        },
+        {
+          "name": "Leliana",
+          "role": "pc",
+          "word_share": 0.0935
+        }
+      ],
+      "top_npcs": {
+        "George": 6,
+        "Astro": 1,
+        "Chalk Rock": 1
+      },
+      "fun": {
+        "nat20_mentions": 2,
+        "nat1_mentions": 0
+      },
+      "superlatives": {
+        "mvp": {
+          "player": "Silas",
+          "quote": "I'm going to take that out, pull out the cork, and I'm going to try to like uh likeh hold his mouth open, pour it in."
+        },
+        "best_joke": {
+          "player": "Silas",
+          "quote": "I always thought detective work was really hard, but we have found everything we've been looking for in the city on our first try. I think we might be the world's greatest detectives."
+        },
+        "most_chaotic": {
+          "player": "Bru",
+          "quote": "I think the people that did this are going to the university to decide. I'm going to chase them around."
+        }
+      }
+    },
+    "session-40": {
+      "timing_quality": "approx",
+      "duration_seconds": 11100,
+      "word_count": 25706,
+      "players_present": [
+        "Silas",
+        "Ohma",
+        "Bru",
+        "Olivia",
+        "Leliana"
+      ],
+      "attendance_source": "transcript",
+      "speakers": [
+        {
+          "name": "Topher",
+          "role": "dm",
+          "word_share": 0.3524
+        },
+        {
+          "name": "Silas",
+          "role": "pc",
+          "word_share": 0.2437
+        },
+        {
+          "name": "Ohma",
+          "role": "pc",
+          "word_share": 0.1577
+        },
+        {
+          "name": "Bru",
+          "role": "pc",
+          "word_share": 0.1004
+        },
+        {
+          "name": "Olivia",
+          "role": "pc",
+          "word_share": 0.0971
+        },
+        {
+          "name": "Leliana",
+          "role": "pc",
+          "word_share": 0.0487
+        }
+      ],
+      "top_npcs": {
+        "George": 23,
+        "Victor": 10,
+        "Naomi": 6
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "superlatives": {
+        "mvp": {
+          "player": "Ohma",
+          "quote": "I find that I must make a choice between saving everything or sticking to my own principles. What What am I if everything were to fall to darkness?"
+        },
+        "best_joke": {
+          "player": "Silas",
+          "quote": "You don't even know what the f****** stern is. No, I'm talking to you, George assholes."
+        },
+        "most_chaotic": {
+          "player": "Bru",
+          "quote": "I immediately jump and start strangling him. I didn't I left you in bed this whole time. Never do this to me again."
+        }
+      }
+    },
+    "session-41": {
+      "timing_quality": "approx",
+      "duration_seconds": 11100,
+      "word_count": 26167,
+      "players_present": [
+        "Silas",
+        "Olivia",
+        "Ohma",
+        "Bru",
+        "Elspeth"
+      ],
+      "attendance_source": "transcript",
+      "speakers": [
+        {
+          "name": "Topher",
+          "role": "dm",
+          "word_share": 0.298
+        },
+        {
+          "name": "Silas",
+          "role": "pc",
+          "word_share": 0.2776
+        },
+        {
+          "name": "Olivia",
+          "role": "pc",
+          "word_share": 0.1623
+        },
+        {
+          "name": "Ohma",
+          "role": "pc",
+          "word_share": 0.1426
+        },
+        {
+          "name": "Bru",
+          "role": "pc",
+          "word_share": 0.0773
+        },
+        {
+          "name": "Elspeth",
+          "role": "pc",
+          "word_share": 0.0423
+        }
+      ],
+      "top_npcs": {
+        "George": 23,
+        "Astro": 21,
+        "Bafael": 8
+      },
+      "fun": {
+        "nat20_mentions": 1,
+        "nat1_mentions": 0
+      },
+      "superlatives": {
+        "mvp": {
+          "player": "Elspeth",
+          "quote": "I have one more flash of genius if you want it"
+        },
+        "best_joke": {
+          "player": "Ohma",
+          "quote": "You are wrong. It is a very bad omen for what? One scorpion, three scorpion, five scorpion, but two never"
+        },
+        "most_chaotic": {
+          "player": "Bru",
+          "quote": "I have enough bombs to blow up a piece of that headdress. And I'm going to get me a piece"
+        }
+      }
+    },
+    "session-42": {
+      "timing_quality": "approx",
+      "duration_seconds": 12300,
+      "word_count": 27606,
+      "players_present": [
+        "Silas",
+        "Bru",
+        "Olivia",
+        "Leliana",
+        "Elspeth"
+      ],
+      "attendance_source": "transcript",
+      "speakers": [
+        {
+          "name": "Topher",
+          "role": "dm",
+          "word_share": 0.3982
+        },
+        {
+          "name": "Silas",
+          "role": "pc",
+          "word_share": 0.1919
+        },
+        {
+          "name": "Bru",
+          "role": "pc",
+          "word_share": 0.1226
+        },
+        {
+          "name": "Olivia",
+          "role": "pc",
+          "word_share": 0.1159
+        },
+        {
+          "name": "Leliana",
+          "role": "pc",
+          "word_share": 0.0859
+        },
+        {
+          "name": "Elspeth",
+          "role": "pc",
+          "word_share": 0.0854
+        }
+      ],
+      "top_npcs": {
+        "Victor": 10,
+        "George": 6,
+        "Astro": 1
+      },
+      "fun": {
+        "nat20_mentions": 1,
+        "nat1_mentions": 0
+      },
+      "superlatives": {
+        "mvp": {
+          "player": "Olivia",
+          "quote": "I'm going to cast aid um at third level on Leliana and Bru and you guys get 10 hit points."
+        },
+        "best_joke": {
+          "player": "Topher",
+          "quote": "Um, it's my favorite hat. It's a funny one cuz it's a well, there's a a a veneerial disease you can get called Joe's and uh they named the shack after it"
+        },
+        "most_chaotic": {
+          "player": "Bru",
+          "quote": "I want to make it bigger. Reducing seems to make everything worse. I'm going to make it bigger."
+        }
+      }
+    },
+    "session-43": {
+      "timing_quality": "approx",
+      "duration_seconds": 10500,
+      "word_count": 23696,
+      "players_present": [
+        "Silas",
+        "Bru",
+        "Olivia",
+        "Ohma",
+        "Leliana"
+      ],
+      "attendance_source": "transcript",
+      "speakers": [
+        {
+          "name": "Topher",
+          "role": "dm",
+          "word_share": 0.3859
+        },
+        {
+          "name": "Silas",
+          "role": "pc",
+          "word_share": 0.2021
+        },
+        {
+          "name": "Bru",
+          "role": "pc",
+          "word_share": 0.1215
+        },
+        {
+          "name": "Olivia",
+          "role": "pc",
+          "word_share": 0.1115
+        },
+        {
+          "name": "Ohma",
+          "role": "pc",
+          "word_share": 0.0962
+        },
+        {
+          "name": "Leliana",
+          "role": "pc",
+          "word_share": 0.0828
+        }
+      ],
+      "top_npcs": {
+        "Victor": 61,
+        "George": 3,
+        "Astro": 1
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "superlatives": {
+        "mvp": {
+          "player": "Olivia",
+          "quote": "I'm going to do an investigation check around the bench because we know that he hangs out on this bench"
+        },
+        "best_joke": {
+          "player": "Silas",
+          "quote": "I think you're confusing your own emotions, Trevor. I think that you've connected with Victor in a way that you've never connected with anyone before and you don't know how to deal with it."
+        },
+        "most_chaotic": {
+          "player": "Bru",
+          "quote": "I'm going to lunge up at the person and like grab their face and try and like pull their face like as a mask."
+        }
+      }
+    },
+    "session-44": {
+      "timing_quality": "approx",
+      "duration_seconds": 10704,
+      "word_count": 26728,
+      "players_present": [
+        "Silas",
+        "Elspeth",
+        "Olivia",
+        "Leliana"
+      ],
+      "attendance_source": "transcript",
+      "speakers": [
+        {
+          "name": "Silas",
+          "role": "pc",
+          "word_share": 0.5057
+        },
+        {
+          "name": "Elspeth",
+          "role": "pc",
+          "word_share": 0.1647
+        },
+        {
+          "name": "Olivia",
+          "role": "pc",
+          "word_share": 0.1584
+        },
+        {
+          "name": "Topher",
+          "role": "dm",
+          "word_share": 0.1101
+        },
+        {
+          "name": "Leliana",
+          "role": "pc",
+          "word_share": 0.0611
+        }
+      ],
+      "top_npcs": {
+        "Iro": 33,
+        "Scarlet": 22,
+        "Victor": 1
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "superlatives": {
+        "mvp": {
+          "player": "Olivia",
+          "quote": "23 and then 24 to hit. The second would only be 16. So, 22 for the first attack."
+        },
+        "best_joke": {
+          "player": "Topher",
+          "quote": "Keep the change, you filthy animal."
+        },
+        "most_chaotic": {
+          "player": "Topher",
+          "quote": "I'm going to cast fireball at fifth level."
+        }
+      }
+    },
+    "session-45": {
+      "timing_quality": "approx",
+      "duration_seconds": 7536,
+      "word_count": 17254,
+      "players_present": [
+        "Silas",
+        "Elspeth",
+        "Olivia",
+        "Leliana",
+        "Bru"
+      ],
+      "attendance_source": "transcript",
+      "speakers": [
+        {
+          "name": "Topher",
+          "role": "dm",
+          "word_share": 0.4291
+        },
+        {
+          "name": "Silas",
+          "role": "pc",
+          "word_share": 0.2217
+        },
+        {
+          "name": "Elspeth",
+          "role": "pc",
+          "word_share": 0.1113
+        },
+        {
+          "name": "Olivia",
+          "role": "pc",
+          "word_share": 0.0907
+        },
+        {
+          "name": "Leliana",
+          "role": "pc",
+          "word_share": 0.0897
+        },
+        {
+          "name": "Bru",
+          "role": "pc",
+          "word_share": 0.0576
+        }
+      ],
+      "top_npcs": {
+        "Victor": 53,
+        "Iro": 16,
+        "Scarlet": 13
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "superlatives": {
+        "mvp": {
+          "player": "Leliana",
+          "quote": "I would like to cast conjure animals with a bunch of like puppies around the kid and see if I can console and distract the kid with a bunch of puppies."
+        },
+        "best_joke": {
+          "player": "Elspeth",
+          "quote": "I pull my hat down even further over my face somehow. I make it into a bucket."
+        },
+        "most_chaotic": {
+          "player": "Bru",
+          "quote": "Upturn maneuver is uh anything that can be flipped. Tables, chairs, whatever... Hi, I'm Kevin."
+        }
+      }
+    },
+    "session-46": {
+      "timing_quality": "approx",
+      "duration_seconds": 8100,
+      "word_count": 16039,
+      "players_present": [
+        "Silas",
+        "Olivia",
+        "Bru"
+      ],
+      "attendance_source": "transcript",
+      "speakers": [
+        {
+          "name": "Topher",
+          "role": "dm",
+          "word_share": 0.4613
+        },
+        {
+          "name": "Silas",
+          "role": "pc",
+          "word_share": 0.1935
+        },
+        {
+          "name": "Olivia",
+          "role": "pc",
+          "word_share": 0.1829
+        },
+        {
+          "name": "Bru",
+          "role": "pc",
+          "word_share": 0.1624
+        }
+      ],
+      "top_npcs": {
+        "Victor": 17,
+        "Naomi": 16,
+        "Astro": 10
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "superlatives": {
+        "mvp": {
+          "player": "Bru",
+          "quote": "I didn't use my action on my turn. Can I just cast Levitate on Olivia?"
+        },
+        "best_joke": {
+          "player": "Silas",
+          "quote": "Horse blister sounds like it'd be a really nasty spell."
+        },
+        "most_chaotic": {
+          "player": "Bru",
+          "quote": "we're going to blow up a whole bunch of stuff."
+        }
+      }
+    },
+    "session-47": {
+      "timing_quality": "approx",
+      "duration_seconds": 9900,
+      "word_count": 24622,
+      "players_present": [
+        "Silas",
+        "Elspeth",
+        "Olivia"
+      ],
+      "attendance_source": "transcript",
+      "speakers": [
+        {
+          "name": "Topher",
+          "role": "dm",
+          "word_share": 0.3803
+        },
+        {
+          "name": "Silas",
+          "role": "pc",
+          "word_share": 0.2694
+        },
+        {
+          "name": "Elspeth",
+          "role": "pc",
+          "word_share": 0.1942
+        },
+        {
+          "name": "Olivia",
+          "role": "pc",
+          "word_share": 0.1561
+        }
+      ],
+      "top_npcs": {
+        "Victor": 23,
+        "Iro": 20,
+        "Lady Viper": 18
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "superlatives": {
+        "mvp": {
+          "player": "Olivia",
+          "quote": "Can I do a history check to see if I remember anything about this? You um something in your memory about this. you um you remember some targeted um some very covert targeted killings happening in Grapefruit around this time... Elizandra Legrand."
+        },
+        "best_joke": {
+          "player": "Elspeth",
+          "quote": "I told you she liked my flight suit. I told you."
+        },
+        "most_chaotic": {
+          "player": "Silas",
+          "quote": "I just put it in his bag without telling him."
+        }
+      }
+    },
+    "session-48": {
+      "timing_quality": "exact",
+      "duration_seconds": 10264,
+      "word_count": 24494,
+      "players_present": [
+        "Silas",
+        "Elspeth",
+        "Bru"
+      ],
+      "attendance_source": "transcript",
+      "speakers": [
+        {
+          "name": "Silas",
+          "role": "pc",
+          "word_share": 0.3539
+        },
+        {
+          "name": "Topher",
+          "role": "dm",
+          "word_share": 0.3347
+        },
+        {
+          "name": "Elspeth",
+          "role": "pc",
+          "word_share": 0.2476
+        },
+        {
+          "name": "Bru",
+          "role": "pc",
+          "word_share": 0.0637
+        }
+      ],
+      "top_npcs": {
+        "Astro": 10,
+        "Lady Viper": 10,
+        "Victor": 4
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "superlatives": {
+        "mvp": {
+          "player": "Silas",
+          "quote": "Can I throw some cauldrons in its path? Yeah, I think it's part of my kit. What should I roll?"
+        },
+        "best_joke": {
+          "player": "Silas",
+          "quote": "Does champagne normally come in buckets? I was worried you were giving us like that bucket that people like spit into at wine tastings."
+        },
+        "most_chaotic": {
+          "player": "Bru",
+          "quote": "I'm going to walk across the bar, like just on top of the bar and just walk across it to get over to him because that seems like the least resistance to me."
+        }
+      }
+    },
+    "session-49": {
+      "timing_quality": "exact",
+      "duration_seconds": 9144,
+      "word_count": 21811,
+      "players_present": [
+        "Silas",
+        "Elspeth",
+        "Olivia",
+        "Bru",
+        "Leliana"
+      ],
+      "attendance_source": "transcript",
+      "speakers": [
+        {
+          "name": "Topher",
+          "role": "dm",
+          "word_share": 0.3631
+        },
+        {
+          "name": "Silas",
+          "role": "pc",
+          "word_share": 0.2102
+        },
+        {
+          "name": "Elspeth",
+          "role": "pc",
+          "word_share": 0.1434
+        },
+        {
+          "name": "Olivia",
+          "role": "pc",
+          "word_share": 0.139
+        },
+        {
+          "name": "Bru",
+          "role": "pc",
+          "word_share": 0.0823
+        },
+        {
+          "name": "Leliana",
+          "role": "pc",
+          "word_share": 0.062
+        }
+      ],
+      "top_npcs": {
+        "Scarlet": 2,
+        "Iro": 1,
+        "Victor": 1
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "superlatives": {
+        "mvp": {
+          "player": "Silas",
+          "quote": "I believe in you, Liv. And like, I'm going to trust that Olivia is going to win this fight, and we can like just leave her in the hole."
+        },
+        "best_joke": {
+          "player": "Leliana",
+          "quote": "Hey, teacher, leave those kids alone."
+        },
+        "most_chaotic": {
+          "player": "Bru",
+          "quote": "I'm going to reactionary uh firebolt."
+        }
+      }
+    },
+    "session-50": {
+      "timing_quality": "exact",
+      "duration_seconds": 9204,
+      "word_count": 20997,
+      "players_present": [
+        "Silas",
+        "Elspeth",
+        "Bru",
+        "Leliana"
+      ],
+      "attendance_source": "transcript",
+      "speakers": [
+        {
+          "name": "Topher",
+          "role": "dm",
+          "word_share": 0.4132
+        },
+        {
+          "name": "Silas",
+          "role": "pc",
+          "word_share": 0.2063
+        },
+        {
+          "name": "Elspeth",
+          "role": "pc",
+          "word_share": 0.2023
+        },
+        {
+          "name": "Bru",
+          "role": "pc",
+          "word_share": 0.1031
+        },
+        {
+          "name": "Leliana",
+          "role": "pc",
+          "word_share": 0.0752
+        }
+      ],
+      "top_npcs": {},
+      "fun": {
+        "nat20_mentions": 1,
+        "nat1_mentions": 0
+      },
+      "superlatives": {
+        "mvp": {
+          "player": "Elspeth",
+          "quote": "Teens, we're here to rescue you. I don't know any of your names except Meera, but we're here to help."
+        },
+        "best_joke": {
+          "player": "Silas",
+          "quote": "No car in the world will compensate for your lack of skill."
+        },
+        "most_chaotic": {
+          "player": "Elspeth",
+          "quote": "I could probably just kick my brother out of the car, you know what I mean? Kind of steal my brother's car"
+        }
+      }
+    },
+    "session-51": {
+      "timing_quality": "exact",
+      "duration_seconds": 10520,
+      "word_count": 27317,
+      "players_present": [
+        "Silas",
+        "Elspeth",
+        "Olivia",
+        "Bru",
+        "Leliana"
+      ],
+      "attendance_source": "transcript",
+      "speakers": [
+        {
+          "name": "Silas",
+          "role": "pc",
+          "word_share": 0.5885
+        },
+        {
+          "name": "Elspeth",
+          "role": "pc",
+          "word_share": 0.1637
+        },
+        {
+          "name": "Olivia",
+          "role": "pc",
+          "word_share": 0.1161
+        },
+        {
+          "name": "Bru",
+          "role": "pc",
+          "word_share": 0.0817
+        },
+        {
+          "name": "Leliana",
+          "role": "pc",
+          "word_share": 0.0498
+        },
+        {
+          "name": "Topher",
+          "role": "dm",
+          "word_share": 0.0001
+        }
+      ],
+      "top_npcs": {
+        "Iro": 19,
+        "Naomi": 1
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "superlatives": {
+        "mvp": {
+          "player": "Olivia",
+          "quote": "Olivia's going to walk into the center of the ring, take my axe out, and slam it into the center. Just slam it into the ground like Thor style... she managed to uh sneak off from Olivia's uh narcing gaze... you managed to pinned this a****** in like the first minute of the match."
+        },
+        "best_joke": {
+          "player": "Olivia",
+          "quote": "Fake moon. Fake moon. Fake moon."
+        },
+        "most_chaotic": {
+          "player": "Bru",
+          "quote": "I'm going to blow up the ring."
+        }
+      }
+    },
+    "session-52": {
+      "timing_quality": "exact",
+      "duration_seconds": 11016,
+      "word_count": 24593,
+      "players_present": [
+        "Silas",
+        "Elspeth",
+        "Bru",
+        "Leliana"
+      ],
+      "attendance_source": "transcript",
+      "speakers": [
+        {
+          "name": "Topher",
+          "role": "dm",
+          "word_share": 0.4013
+        },
+        {
+          "name": "Silas",
+          "role": "pc",
+          "word_share": 0.2348
+        },
+        {
+          "name": "Elspeth",
+          "role": "pc",
+          "word_share": 0.1779
+        },
+        {
+          "name": "Bru",
+          "role": "pc",
+          "word_share": 0.1022
+        },
+        {
+          "name": "Leliana",
+          "role": "pc",
+          "word_share": 0.0838
+        }
+      ],
+      "top_npcs": {
+        "Iro": 24,
+        "Scarlet": 15,
+        "George": 12
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "superlatives": {
+        "mvp": {
+          "player": "Silas",
+          "quote": "I'm going to use my telekinetic shove to try to spin to try to push the gun on its swivel so that it's pointing at their own deck."
+        },
+        "best_joke": {
+          "player": "Silas",
+          "quote": "Wakey wakey. Violescence and bakey. Man, we are f****** Frankensteining a dead god."
+        },
+        "most_chaotic": {
+          "player": "Bru",
+          "quote": "So anyways, I started blasting."
+        }
+      }
+    },
+    "session-53": {
+      "timing_quality": "exact",
+      "duration_seconds": 7044,
+      "word_count": 16647,
+      "players_present": [
+        "Silas",
+        "Elspeth",
+        "Bru",
+        "Leliana"
+      ],
+      "attendance_source": "transcript",
+      "speakers": [
+        {
+          "name": "Topher",
+          "role": "dm",
+          "word_share": 0.3802
+        },
+        {
+          "name": "Silas",
+          "role": "pc",
+          "word_share": 0.2567
+        },
+        {
+          "name": "Elspeth",
+          "role": "pc",
+          "word_share": 0.1965
+        },
+        {
+          "name": "Bru",
+          "role": "pc",
+          "word_share": 0.0854
+        },
+        {
+          "name": "Leliana",
+          "role": "pc",
+          "word_share": 0.0812
+        }
+      ],
+      "top_npcs": {
+        "Scarlet": 25,
+        "Iro": 21,
+        "George": 5
+      },
+      "fun": {
+        "nat20_mentions": 1,
+        "nat1_mentions": 0
+      },
+      "superlatives": {
+        "mvp": {
+          "player": "Leliana",
+          "quote": "Um, yeah, it's I think so, I like to envision it as, uh, Leon just on a single kind of small stage. I got candles. Light comes from somewhere. Black mist recedes."
+        },
+        "best_joke": {
+          "player": "Elspeth",
+          "quote": "I was going to declare my location in the newspaper as a racist and put Leliana's concert at this location just to kind of get people here."
+        },
+        "most_chaotic": {
+          "player": "Bru",
+          "quote": "I pull out the cannon. And I'm gonna slam the cannon on a table. I'm gonna do like, you know, that obnoxious like finger whistle that people can do... And then I'm going to set off the fire part of the cannon."
+        }
+      }
+    },
+    "session-54": {
+      "timing_quality": "exact",
+      "duration_seconds": 10672,
+      "word_count": 29511,
+      "players_present": [
+        "Silas",
+        "Elspeth",
+        "Olivia",
+        "Bru",
+        "Leliana"
+      ],
+      "attendance_source": "transcript",
+      "speakers": [
+        {
+          "name": "Topher",
+          "role": "dm",
+          "word_share": 0.4096
+        },
+        {
+          "name": "Silas",
+          "role": "pc",
+          "word_share": 0.1971
+        },
+        {
+          "name": "Elspeth",
+          "role": "pc",
+          "word_share": 0.1501
+        },
+        {
+          "name": "Olivia",
+          "role": "pc",
+          "word_share": 0.1185
+        },
+        {
+          "name": "Bru",
+          "role": "pc",
+          "word_share": 0.0876
+        },
+        {
+          "name": "Leliana",
+          "role": "pc",
+          "word_share": 0.0371
+        }
+      ],
+      "top_npcs": {
+        "Lady Viper": 16,
+        "Scarlet": 15,
+        "George": 13
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "superlatives": {
+        "mvp": {
+          "player": "Silas",
+          "quote": "Well, you know, hey, you need work. If you do, um, they're always hiring, um, military. My Paul, my friend Paul, he's a recruiter."
+        },
+        "best_joke": {
+          "player": "Bru",
+          "quote": "Do you know the uh the mini me from the third movie where he like crawls across the table?"
+        },
+        "most_chaotic": {
+          "player": "Bru",
+          "quote": "And if I can speak up successfully, I want to shove Elspeth's chair so that she falls into Lady Viper's."
+        }
+      }
+    },
+    "session-55": {
+      "timing_quality": "exact",
+      "duration_seconds": 10196,
+      "word_count": 21947,
+      "players_present": [
+        "Silas",
+        "Olivia",
+        "Leliana"
+      ],
+      "attendance_source": "transcript",
+      "speakers": [
+        {
+          "name": "Topher",
+          "role": "dm",
+          "word_share": 0.4648
+        },
+        {
+          "name": "Silas",
+          "role": "pc",
+          "word_share": 0.2691
+        },
+        {
+          "name": "Olivia",
+          "role": "pc",
+          "word_share": 0.1635
+        },
+        {
+          "name": "Leliana",
+          "role": "pc",
+          "word_share": 0.1026
+        }
+      ],
+      "top_npcs": {
+        "Scarlet": 9,
+        "Naomi": 5,
+        "George": 3
+      },
+      "fun": {
+        "nat20_mentions": 2,
+        "nat1_mentions": 0
+      },
+      "superlatives": {
+        "mvp": {
+          "player": "Silas",
+          "quote": "Um, for slight of hand, um I got a uh a 19. And for a stealth, I got um a 28."
+        },
+        "best_joke": {
+          "player": "Silas",
+          "quote": "Have you ever met a possum who takes s***? I think not."
+        },
+        "most_chaotic": {
+          "player": "Silas",
+          "quote": "I'm going to sneak around and literally roofy them. Bru."
+        }
+      }
+    },
+    "session-56": {
+      "timing_quality": "exact",
+      "duration_seconds": 12768,
+      "word_count": 29749,
+      "players_present": [
+        "Silas",
+        "Olivia",
+        "Leliana",
+        "Elspeth",
+        "Bru"
+      ],
+      "attendance_source": "transcript",
+      "speakers": [
+        {
+          "name": "Topher",
+          "role": "dm",
+          "word_share": 0.338
+        },
+        {
+          "name": "Silas",
+          "role": "pc",
+          "word_share": 0.1759
+        },
+        {
+          "name": "Olivia",
+          "role": "pc",
+          "word_share": 0.1495
+        },
+        {
+          "name": "Leliana",
+          "role": "pc",
+          "word_share": 0.1274
+        },
+        {
+          "name": "Elspeth",
+          "role": "pc",
+          "word_share": 0.1191
+        },
+        {
+          "name": "Bru",
+          "role": "pc",
+          "word_share": 0.0902
+        }
+      ],
+      "top_npcs": {
+        "Scarlet": 8,
+        "George": 5,
+        "Iro": 2
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "superlatives": {
+        "mvp": {
+          "player": "Leliana",
+          "quote": "I can't let you guys go in there alone. So, I'll go. But I'll go save for it."
+        },
+        "best_joke": {
+          "player": "Bru",
+          "quote": "I think you forget in goblin culture in goblin culture when we're in goblin culture when we're trying to hit on each other we pee on each other. You didn't know that? It's like so obvious."
+        },
+        "most_chaotic": {
+          "player": "Bru",
+          "quote": "Okay. I'm going to yell at Kevin or I think to Kevin. Um, Kevin, Kevin, firecrackers. Uh, firecracker maneuver C."
+        }
+      }
+    },
+    "session-57": {
+      "timing_quality": "exact",
+      "duration_seconds": 9356,
+      "word_count": 22055,
+      "players_present": [
+        "Silas",
+        "Bru",
+        "Leliana",
+        "Olivia",
+        "Elspeth"
+      ],
+      "attendance_source": "transcript",
+      "speakers": [
+        {
+          "name": "Topher",
+          "role": "dm",
+          "word_share": 0.441
+        },
+        {
+          "name": "Silas",
+          "role": "pc",
+          "word_share": 0.1654
+        },
+        {
+          "name": "Bru",
+          "role": "pc",
+          "word_share": 0.1286
+        },
+        {
+          "name": "Leliana",
+          "role": "pc",
+          "word_share": 0.1215
+        },
+        {
+          "name": "Olivia",
+          "role": "pc",
+          "word_share": 0.1167
+        },
+        {
+          "name": "Elspeth",
+          "role": "pc",
+          "word_share": 0.0269
+        }
+      ],
+      "top_npcs": {
+        "George": 11,
+        "Scarlet": 3,
+        "Astro": 1
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "superlatives": {
+        "mvp": {
+          "player": "Leliana",
+          "quote": "I guess I'll like kick some of the dirt with my foot kind of to the hole and then drop them in and cover it."
+        },
+        "best_joke": {
+          "player": "Silas",
+          "quote": "I'm just imagining there's like a rich lady over like a property like I want you to put more white and gold s*** all over my property."
+        },
+        "most_chaotic": {
+          "player": "Leliana",
+          "quote": "And Leliana is like, 'f*** that.' And hit the portal button."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "schema_version": "1.0",
+  "date": "2025-09-26",
+  "model": "claude-haiku-4-5",
+  "players": {
+    "Topher": {
+      "scores": {
+        "chaos": 15,
+        "heroism": 10,
+        "comedy": 9,
+        "immersion": 18,
+        "strategy": 16,
+        "curiosity": 15
+      },
+      "evidence": {
+        "chaos": "I glitch all the digital dice in my favor",
+        "heroism": "I'll say, you know, I would say like at this level, you do have flight or fight instincts and and you're surrounded and everyone has left you",
+        "comedy": "Yeah, that's you with the wizard hat. You're a wizard, Francis",
+        "immersion": "My rockar, my doomfall, why do you turn away from me?",
+        "strategy": "I have two weeks to think about it",
+        "curiosity": "Um uh I feel like dwarves probably have a pretty common like oral story culture of passing down stories through lineage"
+      }
+    },
+    "Bru": {
+      "scores": {
+        "chaos": 8,
+        "heroism": 12,
+        "comedy": 10,
+        "immersion": 9,
+        "strategy": 17,
+        "curiosity": 12
+      },
+      "evidence": {
+        "chaos": "I'm going to cast shatter",
+        "heroism": "I'm going to use my reaction for shield",
+        "comedy": "Do you want to boop the nose? Do you want to boop the nose?",
+        "immersion": "I'm pointing my uh my crossbow with all the thingies in it and firing in the like equidistant between the two",
+        "strategy": "calling a timeout. What are we doing? All right. So, so calling a timeout",
+        "curiosity": "How how does saving throws work against the speakers?"
+      }
+    },
+    "Silas": {
+      "scores": {
+        "chaos": 7,
+        "heroism": 14,
+        "comedy": 12,
+        "immersion": 14,
+        "strategy": 15,
+        "curiosity": 14
+      },
+      "evidence": {
+        "chaos": "I'm going to try to staby stab um the mob that just hit me",
+        "heroism": "Well, s***. I guess we're betting everything on that. Great",
+        "comedy": "How many different ways can I say go f*** yourself tonight?",
+        "immersion": "I'm just picturing Silus is like basically just like full-on Frankenstein's monster like running away",
+        "strategy": "I'm going to try to stab the one that was the weakest",
+        "curiosity": "Can a speaker take psychic damage?"
+      }
+    },
+    "Leliana": {
+      "scores": {
+        "chaos": 6,
+        "heroism": 13,
+        "comedy": 11,
+        "immersion": 17,
+        "strategy": 10,
+        "curiosity": 12
+      },
+      "evidence": {
+        "chaos": "Um, I want to punch some things",
+        "heroism": "I mean, I just don't want to be trapped in there again, though",
+        "comedy": "Well, you kind of look I don't know. You don't look well. Have you Are you getting sun? You need to get out in nature, honey, and just, you know, go pick some flowers or something",
+        "immersion": "I remember I was playing I was just the usual open mic rotation. Um and uh some some stranger like told me about this",
+        "strategy": "I want to punch some things. Uh, and uh",
+        "curiosity": "Do I get to pick or is it a I should just do a rice dice roll"
+      }
+    },
+    "Elspeth": {
+      "scores": {
+        "chaos": 8,
+        "heroism": 15,
+        "comedy": 11,
+        "immersion": 14,
+        "strategy": 12,
+        "curiosity": 13
+      },
+      "evidence": {
+        "chaos": "I'm gonna focus still. Else is determined to kill these speakers. She thinks something good will happen when they're all dead",
+        "heroism": "I'll try my best",
+        "comedy": "Living that f****** best life. man knows what he likes",
+        "immersion": "Um, I am curious about where box went. I know he was a corpse. I just don't see it on the screen",
+        "strategy": "So is Helisana doing saving throws",
+        "curiosity": "What's your vibe of music? Like I'm assuming you play like kind of folk music like Kobe?"
+      }
+    },
+    "Olivia": {
+      "scores": {
+        "chaos": 7,
+        "heroism": 16,
+        "comedy": 10,
+        "immersion": 12,
+        "strategy": 16,
+        "curiosity": 14
+      },
+      "evidence": {
+        "chaos": "I'm going to use Bob's faceep to face step to Helisana and use protect from good and evil on her",
+        "heroism": "I'm going to reach down and touch Silus's face and use um protect and shield him and impose disadvantage on that attack roll that hit",
+        "comedy": "I tried googling this while I was waiting for my turn",
+        "immersion": "I don't think she's real",
+        "strategy": "We should go I wanted to go for the speakers. They're the two gold orbs next to Silus",
+        "curiosity": "Are they considered like celestials or fiends or specifically Helisana's god? I was trying to figure this out while we were talking"
+      }
+    }
+  },
+  "superlatives": {
+    "mvp": {
+      "player": "Silas",
+      "quote": "Um 28 damage"
+    },
+    "best_joke": {
+      "player": "Silas",
+      "quote": "How many different ways can I say go f*** yourself tonight?"
+    },
+    "most_chaotic": {
+      "player": "Bru",
+      "quote": "So maybe maybe we sit at the concert and at the end of the concert I point the fireworks at her face. No, it's not kill. It's just knockout"
+    },
+    "decision_driver": "Silas"
+  }
+}
