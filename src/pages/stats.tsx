@@ -33,17 +33,54 @@ const PLAYER_COLORS: Record<string, string> = {
 };
 const FALLBACK_COLOR = '#d16ba5';
 
+// Centered rolling average over the surrounding scored sessions. Raw
+// per-session scores are noisy (a different 4-hour conversation every week);
+// smoothing makes the trend readable while tooltips keep the raw value.
+const SMOOTH_WINDOW = 1; // sessions on each side
+
+function smoothSeries(raw: (number | null)[]): (number | null)[] {
+  return raw.map((value, i) => {
+    if (value == null) {
+      return null;
+    }
+    const neighborhood: number[] = [];
+    for (let j = i - SMOOTH_WINDOW; j <= i + SMOOTH_WINDOW; j++) {
+      const v = raw[j];
+      if (v != null) {
+        neighborhood.push(v);
+      }
+    }
+    return neighborhood.reduce((a, b) => a + b, 0) / neighborhood.length;
+  });
+}
+
 function DriftChart() {
   const [axis, setAxis] = useState<PersonalityAxis>('chaos');
   const scored = data.sessions.filter((s) => s.personality);
+
+  const allPlayers = Object.entries(data.aggregate.personality_by_player)
+    .filter(([, p]) => p.sessions_scored >= 3)
+    .map(([name]) => name)
+    .sort();
+  // Default to the PCs — the DM's line is one tap away but off by default.
+  const [active, setActive] = useState<Set<string>>(
+    () => new Set(allPlayers.filter((name) => name !== 'Topher')),
+  );
+
   if (scored.length < 2) {
     return null;
   }
 
-  // Only chart players with enough scored sessions for a meaningful line.
-  const players = Object.entries(data.aggregate.personality_by_player)
-    .filter(([, p]) => p.sessions_scored >= 3)
-    .map(([name]) => name);
+  const togglePlayer = (name: string) =>
+    setActive((prev) => {
+      const next = new Set(prev);
+      if (next.has(name)) {
+        next.delete(name);
+      } else {
+        next.add(name);
+      }
+      return next;
+    });
 
   const width = 800;
   const height = 260;
@@ -68,23 +105,35 @@ function DriftChart() {
           </button>
         ))}
       </div>
-      <div className={styles.driftLegend}>
-        {players.map((name) => (
-          <span key={name} className={styles.legendItem}>
-            <span
-              className={styles.legendDot}
-              style={{background: PLAYER_COLORS[name] ?? FALLBACK_COLOR}}
-            />
-            {name}
-          </span>
-        ))}
+      <div className={styles.driftLegend} role="group" aria-label="Players shown">
+        {allPlayers.map((name) => {
+          const isActive = active.has(name);
+          const color = PLAYER_COLORS[name] ?? FALLBACK_COLOR;
+          return (
+            <button
+              key={name}
+              type="button"
+              aria-pressed={isActive}
+              className={
+                isActive ? styles.legendChipActive : styles.legendChip
+              }
+              onClick={() => togglePlayer(name)}>
+              <span
+                className={styles.legendDot}
+                style={{background: isActive ? color : 'transparent',
+                        borderColor: color}}
+              />
+              {name}
+            </button>
+          );
+        })}
       </div>
       <div className={styles.driftChartWrap}>
         <svg
           viewBox={`0 0 ${width} ${height}`}
           className={styles.driftChart}
           role="img"
-          aria-label={`${axis} score per player across sessions`}>
+          aria-label={`${axis} score per player across sessions (3-session rolling average)`}>
           {[5, 10, 15, 20].map((tick) => (
             <g key={tick}>
               <line
@@ -99,13 +148,23 @@ function DriftChart() {
               </text>
             </g>
           ))}
-          {players.map((name) => {
-            const points = scored
-              .map((s, i) => {
-                const score = s.personality!.scores[name]?.[axis];
-                return score != null ? {i, score, session: s} : null;
-              })
-              .filter(Boolean) as {i: number; score: number; session: SessionRecord}[];
+          {allPlayers.filter((name) => active.has(name)).map((name) => {
+            const raw = scored.map(
+              (s) => s.personality!.scores[name]?.[axis] ?? null,
+            );
+            const smooth = smoothSeries(raw);
+            const points = smooth
+              .map((value, i) =>
+                value != null
+                  ? {i, value, raw: raw[i]!, session: scored[i]}
+                  : null,
+              )
+              .filter(Boolean) as {
+              i: number;
+              value: number;
+              raw: number;
+              session: SessionRecord;
+            }[];
             if (points.length < 2) {
               return null;
             }
@@ -115,19 +174,22 @@ function DriftChart() {
                 <polyline
                   fill="none"
                   stroke={color}
-                  strokeWidth={2}
+                  strokeWidth={2.5}
                   strokeLinejoin="round"
-                  points={points.map((p) => `${x(p.i)},${y(p.score)}`).join(' ')}
+                  points={points
+                    .map((p) => `${x(p.i)},${y(p.value)}`)
+                    .join(' ')}
                 />
                 {points.map((p) => (
                   <circle
                     key={p.session.id}
                     cx={x(p.i)}
-                    cy={y(p.score)}
-                    r={3}
+                    cy={y(p.value)}
+                    r={2.5}
                     fill={color}>
                     <title>
-                      {`${name} — ${p.session.title} (${p.session.date}): ${p.score}`}
+                      {`${name} — ${p.session.title} (${p.session.date}): ` +
+                        `${p.raw} raw, ${p.value.toFixed(1)} smoothed`}
                     </title>
                   </circle>
                 ))}
@@ -299,8 +361,9 @@ export default function StatsPage(): React.ReactElement {
 
         <h2>Personality Drift</h2>
         <p className={styles.sectionNote}>
-          How each score has moved session to session — hover a point for the
-          session and exact value.
+          Trend lines are a 3-session rolling average (raw per-session scores
+          are in the point tooltips). Click a player to show or hide their
+          line.
         </p>
         <DriftChart />
 
