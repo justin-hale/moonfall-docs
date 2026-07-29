@@ -48,6 +48,9 @@ KB_PATH = PROJECT_ROOT / "data" / "campaign-kb.md"
 PERSONALITY_CACHE_DIR = PROJECT_ROOT / "data" / "personality-cache"
 OUTPUT_JSON = PROJECT_ROOT / "data" / "session-stats.json"
 OUTPUT_CSV = PROJECT_ROOT / "static" / "data" / "session-stats.csv"
+# Slim per-session slice consumed by the recap-page stat blocks, so doc pages
+# don't have to bundle the full dataset (quotes, aggregates, etc.).
+OUTPUT_SLIM_JSON = PROJECT_ROOT / "data" / "session-stat-blocks.json"
 
 # Names that are also ordinary English words must match case-sensitively,
 # otherwise "the red door" counts as a mention of Red.
@@ -635,6 +638,41 @@ def validate(dataset):
         raise SystemExit(1)
 
 
+def build_slim_blocks(dataset):
+    """Per-session slice with only what SessionStatBlock renders."""
+    blocks = {}
+    for s in dataset["sessions"]:
+        if not s["has_transcript"] and not s["players_present"]:
+            continue
+        superlatives = None
+        if s["personality"]:
+            raw = s["personality"].get("superlatives") or {}
+            superlatives = {
+                key: raw[key]
+                for key in ("mvp", "best_joke", "most_chaotic")
+                if isinstance(raw.get(key), dict) and raw[key].get("player")
+            } or None
+        blocks[s["id"]] = {
+            "timing_quality": s["timing_quality"],
+            "duration_seconds": s["duration_seconds"],
+            "word_count": s["word_count"],
+            "players_present": s["players_present"],
+            "attendance_source": s["attendance_source"],
+            "speakers": [
+                {"name": sp["name"], "role": sp["role"], "word_share": sp["word_share"]}
+                for sp in s["speakers"]
+            ],
+            "top_npcs": dict(list(s["mentions"]["npcs"].items())[:3]),
+            "fun": s["fun"],
+            "superlatives": superlatives,
+        }
+    return {
+        "schema_version": SCHEMA_VERSION,
+        "generated_by": "scripts/extract_session_stats.py",
+        "blocks": blocks,
+    }
+
+
 def write_csv(dataset, csv_path):
     roster_names = ["Topher", "Silas", "Bru", "Elspeth", "Leliana", "Olivia",
                     "Ohma", "Helisanna", "Red", "Jasper"]
@@ -692,6 +730,9 @@ def main():
     with open(OUTPUT_JSON, "w", encoding="utf-8") as f:
         json.dump(dataset, f, ensure_ascii=False, indent=2)
         f.write("\n")
+    with open(OUTPUT_SLIM_JSON, "w", encoding="utf-8") as f:
+        json.dump(build_slim_blocks(dataset), f, ensure_ascii=False, indent=2)
+        f.write("\n")
     write_csv(dataset, OUTPUT_CSV)
 
     agg = dataset["aggregate"]
@@ -700,6 +741,7 @@ def main():
           f"{scored} with personality scores)")
     print(f"  {agg['total_words']:,} words across {agg['total_duration_seconds'] / 3600:.1f} hours")
     print(f"  Wrote {OUTPUT_JSON.relative_to(PROJECT_ROOT)}")
+    print(f"  Wrote {OUTPUT_SLIM_JSON.relative_to(PROJECT_ROOT)}")
     print(f"  Wrote {OUTPUT_CSV.relative_to(PROJECT_ROOT)}")
 
 

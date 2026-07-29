@@ -110,6 +110,24 @@
   color: var(--ifm-color-emphasis-600);
 }
 
+.superlatives {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.superlative {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.superlativeQuote {
+  font-style: italic;
+  color: var(--ifm-color-emphasis-700);
+}
+
 @media (max-width: 576px) {
   .row {
     flex-direction: column;

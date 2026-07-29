@@ -1,9 +1,9 @@
 import React from 'react';
-import statsData from '@site/data/session-stats.json';
-import type {SessionRecord, SessionStatsData} from '@site/src/types/sessionStats';
+import statBlocksData from '@site/data/session-stat-blocks.json';
+import type {StatBlockRecord, StatBlocksData} from '@site/src/types/sessionStats';
 import styles from './styles.module.css';
 
-const data = statsData as unknown as SessionStatsData;
+const data = statBlocksData as unknown as StatBlocksData;
 
 function formatDuration(seconds: number): string {
   const hours = Math.floor(seconds / 3600);
@@ -16,25 +16,32 @@ interface Props {
   docId: string;
 }
 
+const SUPERLATIVE_LABELS: {key: 'mvp' | 'best_joke' | 'most_chaotic'; label: string}[] = [
+  {key: 'mvp', label: 'MVP'},
+  {key: 'best_joke', label: 'Best joke'},
+  {key: 'most_chaotic', label: 'Most chaotic'},
+];
+
 const SessionStatBlock: React.FC<Props> = ({docId}) => {
-  const sessionId = docId.split('/').pop();
-  const session: SessionRecord | undefined = data.sessions.find(
-    (s) => s.id === sessionId,
-  );
+  const sessionId = docId.split('/').pop() ?? '';
+  const session: StatBlockRecord | undefined = data.blocks[sessionId];
 
   if (!session) {
     return null;
   }
 
-  const hasStats = session.has_transcript;
+  const hasStats = session.speakers.length > 0;
   const hasAttendance = !!session.players_present?.length;
   if (!hasStats && !hasAttendance) {
     return null;
   }
 
   const pcs = session.speakers.filter((s) => s.role !== 'guest');
-  const topNpcs = Object.entries(session.mentions.npcs).slice(0, 3);
+  const topNpcs = Object.entries(session.top_npcs);
   const maxShare = Math.max(...pcs.map((s) => s.word_share), 0.01);
+  const superlatives = SUPERLATIVE_LABELS.filter(
+    ({key}) => session.superlatives?.[key]?.player,
+  );
 
   return (
     <div className={styles.statBlock}>
@@ -99,6 +106,28 @@ const SessionStatBlock: React.FC<Props> = ({docId}) => {
               </span>
             ))}
           </span>
+        </div>
+      )}
+
+      {superlatives.length > 0 && (
+        <div className={styles.row}>
+          <span className={styles.label}>Superlatives</span>
+          <div className={styles.superlatives}>
+            {superlatives.map(({key, label}) => {
+              const entry = session.superlatives![key]!;
+              return (
+                <div key={key} className={styles.superlative}>
+                  <strong>{label}:</strong> {entry.player}
+                  {entry.quote && (
+                    <span className={styles.superlativeQuote}>
+                      {' '}
+                      — “{entry.quote}”
+                    </span>
+                  )}
+                </div>
+              );
+            })}
+          </div>
         </div>
       )}
     </div>

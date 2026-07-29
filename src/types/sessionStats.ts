@@ -111,3 +111,33 @@ export interface SessionStatsData {
   sessions: SessionRecord[];
   aggregate: Aggregate;
 }
+
+// Slim per-session slice (data/session-stat-blocks.json) consumed by the
+// recap-page stat blocks, so doc pages don't bundle the full dataset.
+export interface StatBlockSpeaker {
+  name: string;
+  role: 'dm' | 'pc' | 'guest';
+  word_share: number;
+}
+
+export interface StatBlockRecord {
+  timing_quality: 'exact' | 'approx' | 'none';
+  duration_seconds: number | null;
+  word_count: number | null;
+  players_present: string[] | null;
+  attendance_source: 'transcript' | 'recap' | 'none';
+  speakers: StatBlockSpeaker[];
+  top_npcs: Record<string, number>;
+  fun: {nat20_mentions: number; nat1_mentions: number};
+  superlatives: {
+    mvp?: SessionSuperlative;
+    best_joke?: SessionSuperlative;
+    most_chaotic?: SessionSuperlative;
+  } | null;
+}
+
+export interface StatBlocksData {
+  schema_version: string;
+  generated_by: string;
+  blocks: Record<string, StatBlockRecord>;
+}

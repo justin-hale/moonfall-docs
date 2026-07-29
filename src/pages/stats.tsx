@@ -3,6 +3,7 @@ import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import statsData from '@site/data/session-stats.json';
 import type {
+  PersonalityAxis,
   SessionRecord,
   SessionStatsData,
 } from '@site/src/types/sessionStats';
@@ -10,6 +11,147 @@ import PlayerCharacterSheet from '@site/src/components/PlayerCharacterSheet';
 import styles from './stats.module.css';
 
 const data = statsData as unknown as SessionStatsData;
+
+const DRIFT_AXES: {key: PersonalityAxis; label: string}[] = [
+  {key: 'chaos', label: 'Chaos'},
+  {key: 'heroism', label: 'Heroism'},
+  {key: 'comedy', label: 'Comedy'},
+  {key: 'immersion', label: 'Immersion'},
+  {key: 'strategy', label: 'Strategy'},
+  {key: 'curiosity', label: 'Curiosity'},
+];
+
+// Fixed player palette, readable on light and dark grounds.
+const PLAYER_COLORS: Record<string, string> = {
+  Topher: '#8a8a8a',
+  Silas: '#c0392b',
+  Bru: '#27a06a',
+  Elspeth: '#b7791f',
+  Leliana: '#8e5bb5',
+  Olivia: '#2f7fb8',
+  Ohma: '#1f9e9e',
+};
+const FALLBACK_COLOR = '#d16ba5';
+
+function DriftChart() {
+  const [axis, setAxis] = useState<PersonalityAxis>('chaos');
+  const scored = data.sessions.filter((s) => s.personality);
+  if (scored.length < 2) {
+    return null;
+  }
+
+  // Only chart players with enough scored sessions for a meaningful line.
+  const players = Object.entries(data.aggregate.personality_by_player)
+    .filter(([, p]) => p.sessions_scored >= 3)
+    .map(([name]) => name);
+
+  const width = 800;
+  const height = 260;
+  const pad = {top: 12, right: 12, bottom: 24, left: 28};
+  const x = (i: number) =>
+    pad.left + (i / (scored.length - 1)) * (width - pad.left - pad.right);
+  const y = (score: number) =>
+    pad.top + ((20 - score) / 19) * (height - pad.top - pad.bottom);
+
+  return (
+    <>
+      <div className={styles.axisButtons} role="group" aria-label="Personality axis">
+        {DRIFT_AXES.map((a) => (
+          <button
+            key={a.key}
+            type="button"
+            className={
+              a.key === axis ? styles.axisButtonActive : styles.axisButton
+            }
+            onClick={() => setAxis(a.key)}>
+            {a.label}
+          </button>
+        ))}
+      </div>
+      <div className={styles.driftLegend}>
+        {players.map((name) => (
+          <span key={name} className={styles.legendItem}>
+            <span
+              className={styles.legendDot}
+              style={{background: PLAYER_COLORS[name] ?? FALLBACK_COLOR}}
+            />
+            {name}
+          </span>
+        ))}
+      </div>
+      <div className={styles.driftChartWrap}>
+        <svg
+          viewBox={`0 0 ${width} ${height}`}
+          className={styles.driftChart}
+          role="img"
+          aria-label={`${axis} score per player across sessions`}>
+          {[5, 10, 15, 20].map((tick) => (
+            <g key={tick}>
+              <line
+                x1={pad.left}
+                x2={width - pad.right}
+                y1={y(tick)}
+                y2={y(tick)}
+                className={styles.gridLine}
+              />
+              <text x={4} y={y(tick) + 4} className={styles.gridLabel}>
+                {tick}
+              </text>
+            </g>
+          ))}
+          {players.map((name) => {
+            const points = scored
+              .map((s, i) => {
+                const score = s.personality!.scores[name]?.[axis];
+                return score != null ? {i, score, session: s} : null;
+              })
+              .filter(Boolean) as {i: number; score: number; session: SessionRecord}[];
+            if (points.length < 2) {
+              return null;
+            }
+            const color = PLAYER_COLORS[name] ?? FALLBACK_COLOR;
+            return (
+              <g key={name}>
+                <polyline
+                  fill="none"
+                  stroke={color}
+                  strokeWidth={2}
+                  strokeLinejoin="round"
+                  points={points.map((p) => `${x(p.i)},${y(p.score)}`).join(' ')}
+                />
+                {points.map((p) => (
+                  <circle
+                    key={p.session.id}
+                    cx={x(p.i)}
+                    cy={y(p.score)}
+                    r={3}
+                    fill={color}>
+                    <title>
+                      {`${name} — ${p.session.title} (${p.session.date}): ${p.score}`}
+                    </title>
+                  </circle>
+                ))}
+              </g>
+            );
+          })}
+          <text
+            x={pad.left}
+            y={height - 6}
+            className={styles.gridLabel}>
+            {scored[0].date}
+          </text>
+          <text
+            x={width - pad.right}
+            y={height - 6}
+            textAnchor="end"
+            className={styles.gridLabel}>
+            {scored[scored.length - 1].date}
+          </text>
+        </svg>
+      </div>
+    </>
+  );
+}
 
 function formatHours(seconds: number): string {
   return `${(seconds / 3600).toFixed(1)}h`;
@@ -154,6 +296,13 @@ export default function StatsPage(): React.ReactElement {
             </div>
           </>
         )}
+
+        <h2>Personality Drift</h2>
+        <p className={styles.sectionNote}>
+          How each score has moved session to session — hover a point for the
+          session and exact value.
+        </p>
+        <DriftChart />
 
         <h2>Who Does the Talking?</h2>
         <label className={styles.toggle}>

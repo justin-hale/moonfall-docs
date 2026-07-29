@@ -58,6 +58,6 @@ Narrative content...
 - `python scripts/analyze_session_personality.py --all [--local]` - Score player personalities per session via Claude Haiku (cached in `data/personality-cache/`)
 
 ## Session Stats
-- `data/session-stats.json` and `static/data/session-stats.csv` are GENERATED - never hand-edit; rerun the extractor instead
+- `data/session-stats.json`, `data/session-stat-blocks.json` (slim slice for recap-page stat blocks), and `static/data/session-stats.csv` are GENERATED - never hand-edit; rerun the extractor instead
 - The stats dashboard lives at `/stats` (`src/pages/stats.tsx`); per-session stat blocks are auto-injected on recap pages via `src/theme/DocItem/Content`
 - The personality rubric in `analyze_session_personality.py` is frozen - changing it requires rescoring all sessions with `--force`

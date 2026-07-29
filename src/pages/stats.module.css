@@ -117,6 +117,77 @@
   opacity: 1;
 }
 
+.axisButtons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 0.6rem;
+}
+
+.axisButton,
+.axisButtonActive {
+  border: 1px solid var(--ifm-color-emphasis-400);
+  border-radius: 999px;
+  padding: 0.2rem 0.85rem;
+  font-size: 0.85rem;
+  background: var(--ifm-background-surface-color);
+  color: var(--ifm-font-color-base);
+  cursor: pointer;
+}
+
+.axisButtonActive {
+  background: var(--ifm-color-primary);
+  border-color: var(--ifm-color-primary);
+  color: #fff;
+  font-weight: 600;
+}
+
+.axisButton:hover {
+  border-color: var(--ifm-color-primary);
+}
+
+.driftLegend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  font-size: 0.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.legendItem {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.legendDot {
+  width: 0.65rem;
+  height: 0.65rem;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.driftChartWrap {
+  overflow-x: auto;
+  margin-bottom: 2rem;
+}
+
+.driftChart {
+  width: 100%;
+  min-width: 540px;
+  height: auto;
+}
+
+.gridLine {
+  stroke: var(--ifm-color-emphasis-300);
+  stroke-width: 1;
+}
+
+.gridLabel {
+  fill: var(--ifm-color-emphasis-600);
+  font-size: 11px;
+}
+
 .footnote {
   margin-top: 2rem;
   font-size: 0.8rem;
