@@ -60,7 +60,7 @@
 
 .abilities {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 0.4rem;
 }
 
@@ -75,9 +75,10 @@
 }
 
 .abilityLabel {
-  font-size: 0.6rem;
+  font-size: 0.65rem;
   font-weight: 700;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
   color: var(--ifm-color-emphasis-600);
 }
 
@@ -130,6 +131,6 @@
 
 @media (max-width: 400px) {
   .abilities {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 }

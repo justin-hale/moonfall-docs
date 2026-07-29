@@ -6,13 +6,13 @@ import type {
 } from '@site/src/types/sessionStats';
 import styles from './styles.module.css';
 
-const AXES: {key: PersonalityAxis; label: string; abbr: string}[] = [
-  {key: 'chaos', label: 'Chaos', abbr: 'CHA'},
-  {key: 'heroism', label: 'Heroism', abbr: 'HER'},
-  {key: 'comedy', label: 'Comedy', abbr: 'COM'},
-  {key: 'immersion', label: 'Immersion', abbr: 'IMM'},
-  {key: 'strategy', label: 'Strategy', abbr: 'STR'},
-  {key: 'curiosity', label: 'Curiosity', abbr: 'CUR'},
+const AXES: {key: PersonalityAxis; label: string}[] = [
+  {key: 'chaos', label: 'Chaos'},
+  {key: 'heroism', label: 'Heroism'},
+  {key: 'comedy', label: 'Comedy'},
+  {key: 'immersion', label: 'Immersion'},
+  {key: 'strategy', label: 'Strategy'},
+  {key: 'curiosity', label: 'Curiosity'},
 ];
 
 function modifier(score: number): string {
@@ -64,8 +64,8 @@ const PlayerCharacterSheet: React.FC<Props> = ({
         {AXES.map((axis) => {
           const score = personality.mean_scores[axis.key];
           return (
-            <div key={axis.key} className={styles.ability} title={axis.label}>
-              <span className={styles.abilityLabel}>{axis.abbr}</span>
+            <div key={axis.key} className={styles.ability}>
+              <span className={styles.abilityLabel}>{axis.label}</span>
               <span className={styles.abilityScore}>
                 {score != null ? Math.round(score) : '—'}
               </span>
