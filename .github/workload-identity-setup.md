@@ -7,7 +7,27 @@ short-lived OIDC token from GitHub, and the `anthropic` Python SDK exchanges it
 for a Claude API access token that expires within minutes. No long-lived
 credential is stored anywhere.
 
+For a smooth handoff, the workflow also supports a **fallback API key**
+(`ANTHROPIC_FALLBACK_API_KEY` secret). Auth mode is selected per run:
+
+1. If the three federation repository variables are set → **federation** (the
+   fallback key is not exposed to the script at all).
+2. Otherwise, if `ANTHROPIC_FALLBACK_API_KEY` is set → **API key**, with a
+   warning in the run log.
+3. Neither configured → the run fails fast with instructions.
+
+This means the pipeline keeps working before the console-side setup is done,
+and rolling back from federation is just deleting the three repo variables.
+
 ## One-time setup
+
+### 0. Create the fallback key (handoff safety net)
+
+In the Claude console under **Settings → API keys**, create a **new** key
+(don't reuse the old CI key) and store it as a repository secret named
+`ANTHROPIC_FALLBACK_API_KEY` (**Settings → Secrets and variables → Actions →
+Secrets**). Then delete the old `ANTHROPIC_API_KEY` secret and revoke that old
+key in the console — the workflow no longer references it.
 
 ### 1. Create the federation rule in the Claude console
 
@@ -46,20 +66,28 @@ These are identifiers, not secrets, so they go in **Variables** (not Secrets):
 (If the federation rule covers multiple workspaces, also add
 `ANTHROPIC_WORKSPACE_ID` and pass it through in the workflow.)
 
-### 3. Verify, then retire the old key
+### 3. Verify federation, then retire the fallback
 
-1. Trigger **Generate Session Notes** via *Run workflow* (workflow_dispatch).
-   The "Check workload identity configuration" step fails fast with a clear
-   message if a variable is missing.
-2. Once a run succeeds, delete the `ANTHROPIC_API_KEY` repository secret and
-   revoke the key in the Claude console under **Settings → API keys**.
+1. Trigger **Generate Session Notes** via *Run workflow* (workflow_dispatch)
+   and confirm the "Select Claude API auth mode" step logs
+   `Auth mode: workload identity federation`.
+2. Once federation runs are proven out, delete the
+   `ANTHROPIC_FALLBACK_API_KEY` secret and revoke that key in the console —
+   or keep it around as a break-glass fallback; it is only used when the
+   federation variables are absent.
+
+To **roll back** to the fallback key at any point, delete (or blank) the three
+federation repository variables — the next run automatically uses the key.
 
 ## How the workflow uses it
 
+- The "Select Claude API auth mode" step picks federation when the three repo
+  variables are set, otherwise the fallback key, and fails fast if neither is
+  configured.
 - The workflow's `permissions` include `id-token: write`, which lets the job
   request an OIDC token from GitHub.
-- A step fetches that token with audience `https://api.anthropic.com` and
-  writes it to `$RUNNER_TEMP/claude-oidc-token`.
+- In federation mode, a step fetches that token with audience
+  `https://api.anthropic.com` and writes it to `$RUNNER_TEMP/claude-oidc-token`.
 - The `anthropic` Python SDK reads `ANTHROPIC_FEDERATION_RULE_ID`,
   `ANTHROPIC_ORGANIZATION_ID`, `ANTHROPIC_SERVICE_ACCOUNT_ID`, and
   `ANTHROPIC_IDENTITY_TOKEN_FILE` from the environment and performs the
@@ -67,8 +95,10 @@ These are identifiers, not secrets, so they go in **Variables** (not Secrets):
   `anthropic.Anthropic()` is constructed without an API key — no code changes
   were needed in `scripts/automate_session.py`.
 
-Note: if `ANTHROPIC_API_KEY` is set it takes precedence over federation, so
-don't set both in the workflow.
+Note: an `ANTHROPIC_API_KEY` env var takes precedence over federation in the
+SDK, so the generate step exposes exactly one mechanism to the script: in
+federation mode the fallback key is never exported; in fallback mode the
+federation variables are unset.
 
 ## Local development
 
