@@ -42,7 +42,11 @@ except ImportError:
     sys.exit(1)
 
 
-class CLIError(Exception):
+class GenerationError(Exception):
+    """Raised when a generation backend returns an unusable result."""
+
+
+class CLIError(GenerationError):
     """Raised when the local `claude` CLI backend (--local) fails."""
 
 
@@ -201,7 +205,22 @@ podcastlink: ""
             messages=messages,
             **kwargs,
         )
-        return response.content[0].text
+        if response.stop_reason == "refusal":
+            raise GenerationError("API declined the request (stop_reason: refusal)")
+        # Models with adaptive thinking (e.g. Sonnet 5) return a ThinkingBlock
+        # before the text, so pick out text blocks rather than assuming
+        # content[0] is one.
+        text = "".join(block.text for block in response.content if block.type == "text")
+        if not text:
+            raise GenerationError(
+                f"API response contained no text (stop_reason: {response.stop_reason})"
+            )
+        if response.stop_reason == "max_tokens":
+            raise GenerationError(
+                f"API response was truncated at max_tokens={max_tokens} — "
+                "increase the limit and retry"
+            )
+        return text
 
     def _call_cli(self, model, system, messages, timeout=None):
         """Run the prompt through the local `claude` CLI instead of the
@@ -300,7 +319,7 @@ TRANSCRIPT CHUNK:
             print(f"  Summarising chunk {i}/{len(chunks)} ({len(chunk):,} chars)...")
             try:
                 summary = self._summarize_chunk(chunk, i, len(chunks))
-            except (anthropic.APIError, CLIError) as e:
+            except (anthropic.APIError, GenerationError) as e:
                 print(f"  Warning: chunk {i} summarisation failed ({e}); using a placeholder so later chunks aren't lost")
                 summary = f"[Chunk {i} summarisation failed: {e}]"
             if summary:
@@ -519,7 +538,7 @@ Respond in this EXACT format (no other text):
                 max_tokens=2048,
                 timeout=180,
             )
-        except (anthropic.APIError, CLIError) as e:
+        except (anthropic.APIError, GenerationError) as e:
             print(f"  Warning: campaign state update call failed ({e}); state left unchanged")
             return
 
@@ -584,7 +603,7 @@ Respond in this EXACT format (no other text):
                 model=GENERATION_MODEL,
                 system=system_prompt,
                 messages=[{"role": "user", "content": user_prompt}],
-                max_tokens=8192,
+                max_tokens=16000,
                 timeout=timeout_minutes * 60,
             )
             elapsed = time.time() - start_time
@@ -592,7 +611,7 @@ Respond in this EXACT format (no other text):
         except anthropic.APITimeoutError:
             print(f"  Error: API call timed out after {timeout_minutes} minutes")
             return False
-        except (anthropic.APIError, CLIError) as e:
+        except (anthropic.APIError, GenerationError) as e:
             print(f"  Error: generation call failed: {e}")
             return False
 
