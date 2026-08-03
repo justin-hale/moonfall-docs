@@ -62,9 +62,38 @@ jobs:
         run: |
           pip install -r requirements.txt
 
+      # Workload identity federation: exchange a short-lived GitHub OIDC token
+      # for Claude API access instead of storing a static ANTHROPIC_API_KEY.
+      # The three ANTHROPIC_* IDs are non-secret identifiers configured as
+      # repository variables — see .github/workload-identity-setup.md
+      - name: Check workload identity configuration
+        env:
+          FEDERATION_RULE_ID: ${{ vars.ANTHROPIC_FEDERATION_RULE_ID }}
+          ORGANIZATION_ID: ${{ vars.ANTHROPIC_ORGANIZATION_ID }}
+          SERVICE_ACCOUNT_ID: ${{ vars.ANTHROPIC_SERVICE_ACCOUNT_ID }}
+        run: |
+          missing=""
+          [ -z "$FEDERATION_RULE_ID" ] && missing="$missing ANTHROPIC_FEDERATION_RULE_ID"
+          [ -z "$ORGANIZATION_ID" ] && missing="$missing ANTHROPIC_ORGANIZATION_ID"
+          [ -z "$SERVICE_ACCOUNT_ID" ] && missing="$missing ANTHROPIC_SERVICE_ACCOUNT_ID"
+          if [ -n "$missing" ]; then
+            echo "::error::Missing repository variable(s):$missing"
+            echo "::error::Configure workload identity federation at https://platform.claude.com/settings/workload-identity-federation, then set these under Settings > Secrets and variables > Actions > Variables. See .github/workload-identity-setup.md"
+            exit 1
+          fi
+
+      - name: Fetch GitHub OIDC token
+        run: |
+          curl -sS -H "Authorization: Bearer $ACTIONS_ID_TOKEN_REQUEST_TOKEN" \
+            "$ACTIONS_ID_TOKEN_REQUEST_URL&audience=https://api.anthropic.com" \
+            | jq -r .value > "$RUNNER_TEMP/claude-oidc-token"
+
       - name: Generate session notes
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          ANTHROPIC_FEDERATION_RULE_ID: ${{ vars.ANTHROPIC_FEDERATION_RULE_ID }}
+          ANTHROPIC_ORGANIZATION_ID: ${{ vars.ANTHROPIC_ORGANIZATION_ID }}
+          ANTHROPIC_SERVICE_ACCOUNT_ID: ${{ vars.ANTHROPIC_SERVICE_ACCOUNT_ID }}
+          ANTHROPIC_IDENTITY_TOKEN_FILE: ${{ runner.temp }}/claude-oidc-token
         run: |
           ARGS=""
           if [ -n "${{ inputs.session_number }}" ]; then
