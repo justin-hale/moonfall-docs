@@ -710,6 +710,17 @@ Respond in this EXACT format (no other text):
     #  Main generation flow                                                #
     # ------------------------------------------------------------------ #
 
+    @staticmethod
+    def _strip_code_fence(text):
+        """Unwrap model output enclosed in a markdown code fence.
+
+        The local `claude` CLI backend sometimes wraps the entire recap in
+        ```markdown ... ```, which would ship a broken page and defeats
+        frontmatter detection in _apply_publication_metadata().
+        """
+        m = re.match(r"^\s*```[\w-]*\n(.*?)\n?```\s*$", text, re.S)
+        return m.group(1) + "\n" if m else text
+
     def _apply_publication_metadata(self, recap_text, persona_ctx):
         """Deterministically stamp persona metadata onto a generated recap.
 
@@ -801,7 +812,9 @@ Respond in this EXACT format (no other text):
             print(f"  Error: generation call failed: {e}")
             return False
 
-        # Stamp persona metadata (author/beat frontmatter, byline fallback).
+        # Unwrap any code fence, then stamp persona metadata
+        # (author/beat frontmatter, byline fallback).
+        recap_text = self._strip_code_fence(recap_text)
         recap_text = self._apply_publication_metadata(recap_text, persona_ctx)
 
         # Write the recap file.
