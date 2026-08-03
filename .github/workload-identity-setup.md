@@ -21,12 +21,20 @@ and rolling back from federation is just deleting the three repo variables.
 
 ## One-time setup
 
-### 0. Create the fallback key (handoff safety net)
+### 0. Create the prod and dev keys (handoff safety net)
 
-In the Claude console under **Settings → API keys**, create a **new** key
-(don't reuse the old CI key) and store it as a repository secret named
-`ANTHROPIC_FALLBACK_API_KEY` (**Settings → Secrets and variables → Actions →
-Secrets**). Then delete the old `ANTHROPIC_API_KEY` secret and revoke that old
+In the Claude console under **Settings → API keys**, create two **new** keys
+(don't reuse the old CI key):
+
+| Console key name | Purpose | Where it lives |
+|---|---|---|
+| `topherhooper-moonfall-prod` | CI fallback for the Generate Session Notes workflow | GitHub repository secret `ANTHROPIC_FALLBACK_API_KEY` (**Settings → Secrets and variables → Actions → Secrets**) |
+| `topherhooper-moonfall-dev` | Local development / testing scripts by hand | Your shell only (`export ANTHROPIC_API_KEY=...`) — never added to GitHub |
+
+Separate keys mean CI and local usage are distinguishable in console usage
+reports, and either can be revoked without affecting the other.
+
+Then delete the old `ANTHROPIC_API_KEY` repository secret and revoke that old
 key in the console — the workflow no longer references it.
 
 ### 1. Create the federation rule in the Claude console
@@ -72,9 +80,10 @@ These are identifiers, not secrets, so they go in **Variables** (not Secrets):
    and confirm the "Select Claude API auth mode" step logs
    `Auth mode: workload identity federation`.
 2. Once federation runs are proven out, delete the
-   `ANTHROPIC_FALLBACK_API_KEY` secret and revoke that key in the console —
-   or keep it around as a break-glass fallback; it is only used when the
-   federation variables are absent.
+   `ANTHROPIC_FALLBACK_API_KEY` secret and revoke the
+   `topherhooper-moonfall-prod` key in the console — or keep them around as a
+   break-glass fallback; the key is only used when the federation variables
+   are absent. The `topherhooper-moonfall-dev` key is unaffected either way.
 
 To **roll back** to the fallback key at any point, delete (or blank) the three
 federation repository variables — the next run automatically uses the key.
@@ -103,8 +112,8 @@ federation variables are unset.
 ## Local development
 
 Nothing changes locally — `scripts/automate_session.py` still works with an
-`ANTHROPIC_API_KEY` exported in your shell (use a personal key, separate from
-the revoked CI key), or with `--local` for subscription billing.
+`ANTHROPIC_API_KEY` exported in your shell. Use the `topherhooper-moonfall-dev`
+key for this (never the prod/CI key), or `--local` for subscription billing.
 
 ## References
 
