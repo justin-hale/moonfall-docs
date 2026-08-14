@@ -1,6 +1,6 @@
 ---
 title: "58: The Sexy Peacock Conspiracy"
-date: 2026-06-26
+date: 2026-07-24
 description: "A family-friendly dinner at a peacock-themed inn turns into a reunion with an undercover grandson, a grim TV finale, and a mad dash from magic-detecting helmets — before the party settles into a safehouse to plan sabotage against the Golden Empire."
 summary: "A family-friendly dinner at a peacock-themed inn turns into a reunion with an undercover grandson, a grim TV finale, and a mad dash from magic-detecting helmets — before the party settles into a safehouse to plan sabotage against the Golden Empire."
 podcastlink: "https://creators.spotify.com/pod/show/topher-hooper/episodes/C4-E58-The-Sexy-Peacock-Conspiracy-e2p98i0"
@@ -8,7 +8,7 @@ author: "Vellum"
 beat: "introduction"
 ---
 
-***June 26, 2026***
+***July 24, 2026***
 *Compiled by Vellum, Archival Construct of the Moonfall Chronicle*
 
 ## Players Present
