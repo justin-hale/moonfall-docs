@@ -46,6 +46,11 @@ class CLIError(Exception):
     """Raised when the local `claude` CLI backend (--local) fails."""
 
 
+class EmptyResponseError(Exception):
+    """Raised when a model returns no usable text (e.g. a refusal, or a
+    response that is thinking blocks only)."""
+
+
 # Both the direct-API and local-CLI backends accept these same model strings.
 # --- Model configuration ---
 # Haiku for cheap summarisation; Sonnet for creative recap generation.
@@ -201,7 +206,27 @@ podcastlink: ""
             messages=messages,
             **kwargs,
         )
-        return response.content[0].text
+        return self._extract_text(response, model)
+
+    @staticmethod
+    def _extract_text(response, model):
+        """Pull the assistant's text out of a Messages API response.
+
+        `response.content` is a list of blocks, and text is not guaranteed to
+        be first: models with adaptive thinking on by default (Sonnet 5 and
+        the rest of the 5 family) put a thinking block at index 0, so
+        `content[0].text` raises AttributeError. Concatenate every text block
+        instead and ignore the rest.
+        """
+        text = "".join(block.text for block in response.content if block.type == "text")
+        if not text.strip():
+            raise EmptyResponseError(
+                f"{model} returned no text (stop_reason={response.stop_reason}, "
+                f"blocks={[b.type for b in response.content]})"
+            )
+        if response.stop_reason == "max_tokens":
+            print(f"  Warning: {model} hit max_tokens — output is truncated")
+        return text
 
     def _call_cli(self, model, system, messages, timeout=None):
         """Run the prompt through the local `claude` CLI instead of the
@@ -300,7 +325,7 @@ TRANSCRIPT CHUNK:
             print(f"  Summarising chunk {i}/{len(chunks)} ({len(chunk):,} chars)...")
             try:
                 summary = self._summarize_chunk(chunk, i, len(chunks))
-            except (anthropic.APIError, CLIError) as e:
+            except (anthropic.APIError, CLIError, EmptyResponseError) as e:
                 print(f"  Warning: chunk {i} summarisation failed ({e}); using a placeholder so later chunks aren't lost")
                 summary = f"[Chunk {i} summarisation failed: {e}]"
             if summary:
@@ -681,7 +706,7 @@ Respond in this EXACT format (no other text):
                 max_tokens=2048,
                 timeout=180,
             )
-        except (anthropic.APIError, CLIError) as e:
+        except (anthropic.APIError, CLIError, EmptyResponseError) as e:
             print(f"  Warning: campaign state update call failed ({e}); state left unchanged")
             return
 
@@ -800,7 +825,10 @@ Respond in this EXACT format (no other text):
                 model=GENERATION_MODEL,
                 system=system_prompt,
                 messages=[{"role": "user", "content": user_prompt}],
-                max_tokens=8192,
+                # Headroom: max_tokens caps thinking + response text together,
+                # and Sonnet 5 thinks by default, so the old 8192 left the
+                # recap itself at risk of truncation.
+                max_tokens=16000,
                 timeout=timeout_minutes * 60,
             )
             elapsed = time.time() - start_time
@@ -808,7 +836,7 @@ Respond in this EXACT format (no other text):
         except anthropic.APITimeoutError:
             print(f"  Error: API call timed out after {timeout_minutes} minutes")
             return False
-        except (anthropic.APIError, CLIError) as e:
+        except (anthropic.APIError, CLIError, EmptyResponseError) as e:
             print(f"  Error: generation call failed: {e}")
             return False
 
