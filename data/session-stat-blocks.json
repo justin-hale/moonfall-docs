@@ -1972,6 +1972,61 @@
           "quote": "And Leliana is like, 'f*** that.' And hit the portal button."
         }
       }
+    },
+    "session-58": {
+      "timing_quality": "exact",
+      "duration_seconds": 9648,
+      "word_count": 23533,
+      "players_present": [
+        "Silas",
+        "Olivia",
+        "Elspeth",
+        "Bru",
+        "Leliana"
+      ],
+      "attendance_source": "transcript",
+      "speakers": [
+        {
+          "name": "Topher",
+          "role": "dm",
+          "word_share": 0.3822
+        },
+        {
+          "name": "Silas",
+          "role": "pc",
+          "word_share": 0.2037
+        },
+        {
+          "name": "Olivia",
+          "role": "pc",
+          "word_share": 0.1508
+        },
+        {
+          "name": "Elspeth",
+          "role": "pc",
+          "word_share": 0.108
+        },
+        {
+          "name": "Bru",
+          "role": "pc",
+          "word_share": 0.1025
+        },
+        {
+          "name": "Leliana",
+          "role": "pc",
+          "word_share": 0.0529
+        }
+      ],
+      "top_npcs": {
+        "George": 47,
+        "Victor": 15,
+        "Lady Viper": 4
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "superlatives": null
     }
   }
 }
