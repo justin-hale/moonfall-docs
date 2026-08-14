@@ -178,6 +178,10 @@ The party navigates the death-game, playing both "faces" (heroes) and "heels" (v
 **Session 57 – Two Sides of the Same Coin**
 Leliana learns the truth about her identity: she and Helisanna were never two people. She walked through a gateway as a girl, and the patron merged with her. The revelation shakes her to her core.
 
+
+**Session 58** – The Sexy Peacock Conspiracy
+The party reunites with George, Olivia's grandson, who reveals months of undercover infiltration within the city guard on behalf of the Twilight Company. Magic-detecting helmets force a rooftop escape from the Sexy Peacock inn, after which the group establishes itself in Toothy's safehouse to plan three simultaneous sabotage operations against the Golden Empire: a factory, a research facility, and the barracks.
+
 ## Active Plot Threads
 
 ### 1. The Death-Game in the Eldoran Empire
@@ -211,6 +215,14 @@ Luna has been fully restored through violescence. She's pledged her support to t
 ### 8. Silas's Past
 **Status:** Partially Resolved
 Silas's connection to the Sisyphus Circle is known, but his full backstory remains mysterious. His relationship with Bru and Theirsander is complex.
+
+
+#### Session 58 Updates
+- **Resistance Operations**: Escalated to active sabotage phase with three confirmed targets (spaceport factory, university research facility, barracks). Twilight Company providing direct support and intelligence.
+- **George's Double Agent Status**: Now revealed and active; embedded in city guard for months; providing tactical briefings and mission objectives.
+- **Commander Steel**: Located at university research facility; confirmed as Leliana's brother's killer; now a primary mission target alongside facility sabotage.
+- **Leliana Identity**: Formally adopts "Anna" as compromise name honoring both Helisanna and Leliana halves of her identity.
+- **The Bradicus Death-Games**: Finale broadcast aired during session; noted as propaganda entertainment; reinforces regime's public control mechanisms.
 
 ## Character Status
 
@@ -389,6 +401,14 @@ Silas's connection to the Sisyphus Circle is known, but his full backstory remai
 - **Status:** Active
 - **Key Traits:** Charismatic cruelty, public executioner
 
+
+#### Session 58 Updates
+- **George Fairbanks**: Revealed as Olivia's half-elf grandson; confirmed months-long Twilight Company infiltration; now primary briefing contact and guard liaison; navigating dual loyalty to grandmother and resistance.
+- **Bru**: Formally assigned role of explosives expert for sabotage operations; evaluating Victor's bomb-making notes with professional skepticism.
+- **Elspeth Cooper**: Inherited "getaway driver" role; her attuned firearm narrowly escaped magic-detection helmet confiscation; now primary escape vehicle operator.
+- **Olivia Cooper**: Emotional tension between maternal fear for George's safety and pride in his resistance work; remains steadfast support for operation planning.
+- **Leliana/Anna**: Settled on unified identity name; maintains focus on Commander Steel as personal vengeance target merged with operational objectives.
+
 ## Key Callbacks & Unresolved Hooks
 
 ### Unresolved Plot Threads
@@ -425,3 +445,11 @@ Silas's connection to the Sisyphus Circle is known, but his full backstory remai
 - **Gary's Retirement (Session 50)**: Reference saying goodbye to friends
 - **Luna's Awakening (Session 51-52)**: Reference the moon goddess's restoration when the party needs divine help
 - **The Death-Game (Session 55-57)**: Reference Bradicus's cruelty when the party faces public spectacle
+
+
+#### Session 58 Updates
+- **Victor's Bomb-Making Legacy**: Victor previously stayed at Toothy's safehouse and "ruined his room"; his margin-scrawled design notes now inform current explosive operations—potential for Victor contact or reevaluation of his methods.
+- **Magic-Detection Helmets**: New surveillance technology deployed by Golden Empire; represents escalated threat to magic users and attuned item carriers; implications for future infiltration operations.
+- **Toothy's Safehouse**: Church-converted community safe house at 238 on western hill overlooking barracks, spaceport, and Guilded Esplanade; scheduled meal times (7:00 a.m. wake-up, 7:30 breakfast) suggest ongoing resistance infrastructure.
+- **Three Sabotage Targets**: Party committed to scouting, gathering intelligence, and designing entry/exit strategies with civilian evacuation plans—unresolved operational details for coming sessions.
+- **Additional Resistance Support**: Party promised additional help arriving after breakfast at safehouse; identity and capabilities unknown.
