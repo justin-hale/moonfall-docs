@@ -1,0 +1,130 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-04-10",
+  "model": "claude-haiku-4-5",
+  "players": {
+    "Olivia": {
+      "scores": {
+        "chaos": 11,
+        "heroism": 13,
+        "comedy": 8,
+        "immersion": 14,
+        "strategy": 14,
+        "curiosity": 16
+      },
+      "evidence": {
+        "chaos": "And this one's a goblin. You can abuse the s*** out of this one.",
+        "heroism": "I'm just going to try and knock her out then.",
+        "comedy": "I'm going to use real dice for this.",
+        "immersion": "I'm going to put mine on and make myself look like this like haggarded old like wash woman that's just like overwhelmed",
+        "strategy": "Okay, all right. Fine. f*** it. Just give two copper each and I'll just get out of here.",
+        "curiosity": "I'm going to do a history check and see if the word if the name Sable sparks anything."
+      }
+    },
+    "Bru": {
+      "scores": {
+        "chaos": 16,
+        "heroism": 8,
+        "comedy": 13,
+        "immersion": 12,
+        "strategy": 9,
+        "curiosity": 8
+      },
+      "evidence": {
+        "chaos": "I'm going to reactionary uh firebolt.",
+        "heroism": "They're circling the spaceship like sharks at the moment. Get them out of there.",
+        "comedy": "I just have 2x4s strapped to my feet pushing the pedals. Like, not even like really really on there tight, just kind of loose, just like more with friction than anything.",
+        "immersion": "I will be white smoke and silus you can be gray smoke.",
+        "strategy": "Maybe we could just re-engineer this whole infrastructure to make the orphans give us the violence.",
+        "curiosity": "Does she stop anywhere that seems important?"
+      }
+    },
+    "Silas": {
+      "scores": {
+        "chaos": 8,
+        "heroism": 17,
+        "comedy": 11,
+        "immersion": 16,
+        "strategy": 18,
+        "curiosity": 17
+      },
+      "evidence": {
+        "chaos": "That could be a good way for us to incite a revolution.",
+        "heroism": "I believe in you, Liv. And like, I'm going to trust that Olivia is going to win this fight, and we can like just leave her in the hole.",
+        "comedy": "I just look like an Oliver Twist character basically.",
+        "immersion": "Someone invited Bellsmith to an afterparty and she's she wants the whole crew to hang out. She's dancing on the table, right? Bells, get down from there.",
+        "strategy": "I want to like reach to my pocket and turn on our uh our audio recorder that we have for the concerts.",
+        "curiosity": "I'll head into this office real quick. I'll try to be uh careful not to disturb anything. But I would like to see if there's like a name plate on the front of the desk."
+      }
+    },
+    "Leliana": {
+      "scores": {
+        "chaos": 7,
+        "heroism": 12,
+        "comedy": 12,
+        "immersion": 13,
+        "strategy": 9,
+        "curiosity": 11
+      },
+      "evidence": {
+        "chaos": "I'm going to try to do like a purposely pathetic little dance to show off like how premium we are.",
+        "heroism": "If you break line of sight, I can give you a quick tap to take your invisible result.",
+        "comedy": "Hey, teacher, leave those kids alone.",
+        "immersion": "I do nothing. But I stand really stealthily.",
+        "strategy": "I'm going to check out of bed just to like look at it and see if there's anything if I can like nonchalantly like look around.",
+        "curiosity": "On the underside of the mattress you see written in like a red paint or something. Um it says escape before 15."
+      }
+    },
+    "Elspeth": {
+      "scores": {
+        "chaos": 7,
+        "heroism": 18,
+        "comedy": 11,
+        "immersion": 16,
+        "strategy": 9,
+        "curiosity": 12
+      },
+      "evidence": {
+        "chaos": "I want to look for a bed that either is empty or above somebody that's like scared looking like maybe they're like shaking in bed or crying.",
+        "heroism": "Maybe if we attack the doctor, they'll be like, 'Oh, you're saving us.'",
+        "comedy": "My name's Oh, also a flower name. My name's Pansy.",
+        "immersion": "I'm going to go to the bunk above. I'll like whisper real quiet like I am going to take the bunk above you. Are you okay?",
+        "strategy": "Should we wait until the police are here and take the children to the bank bakery? But if we need to evacuate them then that's definitely option B.",
+        "curiosity": "Thomas, why aren't there any older kids here?"
+      }
+    },
+    "Topher": {
+      "scores": {
+        "chaos": 14,
+        "heroism": 11,
+        "comedy": 13,
+        "immersion": 18,
+        "strategy": 16,
+        "curiosity": 15
+      },
+      "evidence": {
+        "chaos": "She's got this black mask covering her face and she turns to you and says, 'Excellent. More more children to add to the school.'",
+        "heroism": "You're able to pop them all systematically.",
+        "comedy": "If you don't eat your meat, you can't have any pudding.",
+        "immersion": "You see this long very sterile hallway with these bay doors that are large that seem to open up into bays that seem to be dormitories.",
+        "strategy": "So, team Snoop, um, you head down the hallway with Birdie Crimson and you're heading to the doctor's office, right?",
+        "curiosity": "You pick the door very carefully and begin to ease it open. You can kind of feel the pressure change and it almost feels like wind like getting sucked in."
+      }
+    }
+  },
+  "superlatives": {
+    "mvp": {
+      "player": "Silas",
+      "quote": "I believe in you, Liv. And like, I'm going to trust that Olivia is going to win this fight, and we can like just leave her in the hole."
+    },
+    "best_joke": {
+      "player": "Leliana",
+      "quote": "Hey, teacher, leave those kids alone."
+    },
+    "most_chaotic": {
+      "player": "Bru",
+      "quote": "I'm going to reactionary uh firebolt."
+    },
+    "decision_driver": "Silas"
+  }
+}

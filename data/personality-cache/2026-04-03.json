@@ -1,0 +1,94 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-04-03",
+  "model": "claude-haiku-4-5",
+  "players": {
+    "Silas": {
+      "scores": {
+        "chaos": 11,
+        "heroism": 14,
+        "comedy": 12,
+        "immersion": 12,
+        "strategy": 16,
+        "curiosity": 15
+      },
+      "evidence": {
+        "chaos": "I just want to see what happens. You know, the hamburger is very on brand for me.",
+        "heroism": "I mean, I feel like getting her to win the race would actually be kind of a cool thing to do.",
+        "comedy": "Does champagne normally come in buckets? I was worried you were giving us like that bucket that people like spit into at wine tastings.",
+        "immersion": "I come up and I I act like I'm like walking by her table when I like I see her out of the corner of my eye. Like a double take.",
+        "strategy": "I want to see if I can find a spot on the wall that most that's kind of like out of the way. No one's really watching and then like make my way up the wall across the ceiling and then like right above them.",
+        "curiosity": "I want to look around at the ceiling above them. Is there like a like a light fixture or anything that's like hanging kind of like above the the table that they're sitting at?"
+      }
+    },
+    "Elspeth": {
+      "scores": {
+        "chaos": 10,
+        "heroism": 15,
+        "comedy": 11,
+        "immersion": 13,
+        "strategy": 12,
+        "curiosity": 14
+      },
+      "evidence": {
+        "chaos": "s***. f***. Damn it.",
+        "heroism": "But now I want to help you and I want to help all the other orphans to actually live a good life and to not have to eat bread soup, go to this other orphanage and get hot dogs.",
+        "comedy": "I'm just sneezing the whole time.",
+        "immersion": "I'm assuming Bru puts ice on his shirt.",
+        "strategy": "Maybe we should probably just like figure like figure out what they're saying.",
+        "curiosity": "What is he doing with those council people? That can't be good, right?"
+      }
+    },
+    "Bru": {
+      "scores": {
+        "chaos": 16,
+        "heroism": 9,
+        "comedy": 12,
+        "immersion": 11,
+        "strategy": 11,
+        "curiosity": 9
+      },
+      "evidence": {
+        "chaos": "I'm going to walk across the bar, like just on top of the bar and just walk across it to get over to him because that seems like the least resistance to me.",
+        "heroism": "Yeah, that sounds good.",
+        "comedy": "I pull out a stack of papers that you have to sign a waiver and he can crash the car any second cuz you can't reach the pedals.",
+        "immersion": "I want them to be almost exact but slightly different just just because I want the decals to have like our names in them instead of like castor oil or whatever.",
+        "strategy": "I want them to be almost exact but slightly different just just because I want the decals to have like our names in them instead of like castor oil.",
+        "curiosity": "I'm going to look around, see if I very nonchalantly like I'm kind of scanning the crowd, just like taking the party in. But as I'm doing so, I'm clocking anybody that's looking at me."
+      }
+    },
+    "Topher": {
+      "scores": {
+        "chaos": 13,
+        "heroism": 13,
+        "comedy": 12,
+        "immersion": 13,
+        "strategy": 14,
+        "curiosity": 13
+      },
+      "evidence": {
+        "chaos": "Um, all right. I guess so. Do not you you're pretty unique looking, would you say?",
+        "heroism": "Yeah. Yeah. You get evidence that they're working on violence for sure. It's got to be gang related.",
+        "comedy": "the uh the angry video game nerd did a video one time about how like a checks mix made a uh basically just a reskin of Doom.",
+        "immersion": "Um, you uh you arrive um into the salarium um which at night is is fairly cool because above they have um hanging lights just below the glass. And so it reflects off the glass and kind of has like a a constellation effect on the glass as it reflects.",
+        "strategy": "Um, yeah, we will jump right to um y'all arriving at the Gaines Bakery um in the nice part of town.",
+        "curiosity": "Um, Elspeth, um, you uh, as you're moving through the room, you actually hear uh, is Denlin a woman or a man?"
+      }
+    }
+  },
+  "superlatives": {
+    "mvp": {
+      "player": "Silas",
+      "quote": "Can I throw some cauldrons in its path? Yeah, I think it's part of my kit. What should I roll?"
+    },
+    "best_joke": {
+      "player": "Silas",
+      "quote": "Does champagne normally come in buckets? I was worried you were giving us like that bucket that people like spit into at wine tastings."
+    },
+    "most_chaotic": {
+      "player": "Bru",
+      "quote": "I'm going to walk across the bar, like just on top of the bar and just walk across it to get over to him because that seems like the least resistance to me."
+    },
+    "decision_driver": "Silas"
+  }
+}

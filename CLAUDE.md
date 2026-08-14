@@ -66,4 +66,11 @@ The session notes are framed as an in-world publication, *The Moonfall Chronicle
 ## Commands
 - `npm run build` - Build the Docusaurus site
 - `npm run start` - Start dev server
-- `python scripts/automate_session.py` - Generate session notes from transcript
+- `python scripts/automate_session.py` - Generate session notes from transcript (also updates session stats)
+- `python scripts/extract_session_stats.py --all` - Rebuild `data/session-stats.json` + `static/data/session-stats.csv` (deterministic, no API)
+- `python scripts/analyze_session_personality.py --all [--local]` - Score player personalities per session via Claude Haiku (cached in `data/personality-cache/`)
+
+## Session Stats
+- `data/session-stats.json`, `data/session-stat-blocks.json` (slim slice for recap-page stat blocks), and `static/data/session-stats.csv` are GENERATED - never hand-edit; rerun the extractor instead
+- The stats dashboard lives at `/stats` (`src/pages/stats.tsx`); per-session stat blocks are auto-injected on recap pages via `src/theme/DocItem/Content`
+- The personality rubric in `analyze_session_personality.py` is frozen - changing it requires rescoring all sessions with `--force`

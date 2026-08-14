@@ -1,0 +1,148 @@
+{
+  "schema_version": "1.0",
+  "date": "2025-11-07",
+  "model": "claude-haiku-4-5",
+  "players": {
+    "Leliana": {
+      "scores": {
+        "chaos": 6,
+        "heroism": 9,
+        "comedy": 8,
+        "immersion": 10,
+        "strategy": 9,
+        "curiosity": 7
+      },
+      "evidence": {
+        "chaos": "Yeah, maybe we can try to like maybe we try to like lock her down underneath High Forge or something like that",
+        "heroism": "I'm going to cast invisibility on myself and sneak on",
+        "comedy": "She's her own wild self, you know",
+        "immersion": "I'm going to cast invisibility on myself and sneak on",
+        "strategy": "I'm going to uh once my cover is over, I'm going to cast invisibility on",
+        "curiosity": "Can I attempt to emulate uh some rock music to like try to maybe help us blend in"
+      }
+    },
+    "Olivia": {
+      "scores": {
+        "chaos": 8,
+        "heroism": 10,
+        "comedy": 11,
+        "immersion": 15,
+        "strategy": 12,
+        "curiosity": 12
+      },
+      "evidence": {
+        "chaos": "I was actually planning on like dropping a puzzle because I thought you guys were going to take so long",
+        "heroism": "I mean, it's the thought that counts, honey",
+        "comedy": "there was an entire class that dressed as minions and they were running in circles together and I was like, that is amazing",
+        "immersion": "you can like feel it into your molecules. It's like your entire body starts resonating",
+        "strategy": "It's a series of pictures of a lady using her hands to communicate an idea",
+        "curiosity": "Um, I'm going to get the resistance together. I'm going to take you guys to our mean spot"
+      }
+    },
+    "Bru": {
+      "scores": {
+        "chaos": 7,
+        "heroism": 9,
+        "comedy": 10,
+        "immersion": 9,
+        "strategy": 9,
+        "curiosity": 7
+      },
+      "evidence": {
+        "chaos": "I just I just need to like sleep very cautiously every night because it's like straining into the dragon",
+        "heroism": "Yeah, that's about right",
+        "comedy": "All right, I've left I've left 40 fishes in this freezer over here. You can't eat them all at once",
+        "immersion": "Oh, we're in my garage",
+        "strategy": "the first time you knock it punches you. The second time you knock it may be different",
+        "curiosity": "What? The lotus"
+      }
+    },
+    "Silas": {
+      "scores": {
+        "chaos": 8,
+        "heroism": 11,
+        "comedy": 11,
+        "immersion": 14,
+        "strategy": 15,
+        "curiosity": 12
+      },
+      "evidence": {
+        "chaos": "Whatever. Yeah, let's go",
+        "heroism": "we are going to go there and handle this right the f*** now",
+        "comedy": "There's always got to be at least one smut reader in the party, I guess",
+        "immersion": "you are the finest door I have ever seen in my short time here on this earth",
+        "strategy": "Okay. So, knock can mean insult or presumably it's not like knock on a door because that's the obvious thing",
+        "curiosity": "there's really fine print on here that I have a hard time reading"
+      }
+    },
+    "Topher": {
+      "scores": {
+        "chaos": 10,
+        "heroism": 8,
+        "comedy": 13,
+        "immersion": 11,
+        "strategy": 7,
+        "curiosity": 8
+      },
+      "evidence": {
+        "chaos": "Oh, I have a book for this",
+        "heroism": "I'm going to lay down the conversation pit",
+        "comedy": "I have many books on goblin love is one of my favorites",
+        "immersion": "Nothing to see here. I work here and I love rock music",
+        "strategy": "I'm going to pull the lever again",
+        "curiosity": "I use not only my senses but my mind to interpret what I sense"
+      }
+    },
+    "Ohma": {
+      "scores": {
+        "chaos": 5,
+        "heroism": 9,
+        "comedy": 9,
+        "immersion": 9,
+        "strategy": 8,
+        "curiosity": 10
+      },
+      "evidence": {
+        "chaos": "If we do this wrong, won't we all be smashed by the ceiling?",
+        "heroism": "Yes, I would even be willing to run after hitting the switch",
+        "comedy": "One boob. ET is off. f****** ET. That's I I feel you completely, man",
+        "immersion": "Let me see. Yeah, it's a language I know",
+        "strategy": "Perhaps we don't do it how we are suggesting first",
+        "curiosity": "I think we are supposed to maybe ask the door or the bowl of water if we may proceed"
+      }
+    },
+    "Elspeth": {
+      "scores": {
+        "chaos": 6,
+        "heroism": 10,
+        "comedy": 7,
+        "immersion": 11,
+        "strategy": 11,
+        "curiosity": 10
+      },
+      "evidence": {
+        "chaos": "I think that's very specist of you to say that because obviously",
+        "heroism": "I'm going to attach the baby Bru that I've created to put Kevin in",
+        "comedy": "Hell yeah",
+        "immersion": "I'll walk up to Fufu since I'm being ignored now",
+        "strategy": "Okay. 21",
+        "curiosity": "Can I take it off?"
+      }
+    }
+  },
+  "superlatives": {
+    "mvp": {
+      "player": "Silas",
+      "quote": "you are the finest door I have ever seen in my short time here on this earth"
+    },
+    "best_joke": {
+      "player": "Topher",
+      "quote": "I have many books on goblin love is one of my favorites"
+    },
+    "most_chaotic": {
+      "player": "Topher",
+      "quote": "Oh, I have a book for this"
+    },
+    "decision_driver": "Silas"
+  }
+}

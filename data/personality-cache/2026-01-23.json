@@ -1,0 +1,130 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-01-23",
+  "model": "claude-haiku-4-5",
+  "players": {
+    "Olivia": {
+      "scores": {
+        "chaos": 8,
+        "heroism": 11,
+        "comedy": 8,
+        "immersion": 7,
+        "strategy": 10,
+        "curiosity": 11
+      },
+      "evidence": {
+        "chaos": "Um, is there a reason Papel can't know what we're doing?",
+        "heroism": "As long as you had consent, that's okay.",
+        "comedy": "I think the word you're looking for is pigheaded, but we get to go with strong.",
+        "immersion": "I'm going to wake up in the middle of the night, be like, Jasper? Is everything okay?",
+        "strategy": "Do I get a wish at the end of this?",
+        "curiosity": "So wait, Raphael knows that. Rafael knows that."
+      }
+    },
+    "Ohma": {
+      "scores": {
+        "chaos": 7,
+        "heroism": 15,
+        "comedy": 9,
+        "immersion": 16,
+        "strategy": 16,
+        "curiosity": 15
+      },
+      "evidence": {
+        "chaos": "I believe we should probably focus on the impending doom of the dragon we know and wait on a new mission.",
+        "heroism": "I find that I must make a choice between saving everything or sticking to my own principles.",
+        "comedy": "Oh my goodness. It's a mild three today.",
+        "immersion": "Hey, Rap Sheet, is that you? And, uh, I'm imagining there's already a glimmer in his eye because uh he only so few people would know to call him that.",
+        "strategy": "What happens when you have a group of people whose commander being Raphael, he uh he turns his back and now there's magic stuff happening.",
+        "curiosity": "Do you know their entire plan or is this only what you know the details of so far?"
+      }
+    },
+    "Silas": {
+      "scores": {
+        "chaos": 10,
+        "heroism": 6,
+        "comedy": 14,
+        "immersion": 16,
+        "strategy": 17,
+        "curiosity": 14
+      },
+      "evidence": {
+        "chaos": "I mean, just once, I want us to find a group of people who like are ostensively trying to help us and for them to not end up being a bunch of assholes.",
+        "heroism": "hero work is a mugs game. It doesn't pay well enough at all.",
+        "comedy": "You don't even know what the f****** stern is. No, I'm talking to you, George assholes.",
+        "immersion": "Well, I mean, I meant what I said. I mean, it's a good exit ramp, you know, when like everything falls apart around you.",
+        "strategy": "I mean, no, I mean, it's we just got to thread the needle, you know, it's more interesting this way.",
+        "curiosity": "how exactly are you guys going to be able to like deal with the dragons"
+      }
+    },
+    "Topher": {
+      "scores": {
+        "chaos": 11,
+        "heroism": 10,
+        "comedy": 12,
+        "immersion": 17,
+        "strategy": 13,
+        "curiosity": 11
+      },
+      "evidence": {
+        "chaos": "Eventually you see um a horde of goblins coming into the infirmary room and they're all just yakking away.",
+        "heroism": "We were really had no idea where it went.",
+        "comedy": "Row out until you hit beyond the reef and then you can turn on the motor.",
+        "immersion": "Um, you hear what sounds like two goblins yelling at each other. Uh, and one uh is sounds like an elderly elderly uh old man old goblin man uh weeping.",
+        "strategy": "there is no way we are ever siding with the Iron Claws on f****** anything.",
+        "curiosity": "Um, anyone who wants to um give me an insight check, but only if you want to."
+      }
+    },
+    "Leliana": {
+      "scores": {
+        "chaos": 5,
+        "heroism": 11,
+        "comedy": 8,
+        "immersion": 13,
+        "strategy": 10,
+        "curiosity": 11
+      },
+      "evidence": {
+        "chaos": "I will say that Leliana's bedtime prep is getting her clothes out ready, folding them very neatly, putting them on the dresser.",
+        "heroism": "Did um did their set know he was being a decoy? Do you know he's being bait?",
+        "comedy": "Okay. Well, that's good at least.",
+        "immersion": "I'm standing on my tippy toes like giving some overenthusiastic wave.",
+        "strategy": "Do you know if Sander consent to being bait? Okay. Well, that's good at least.",
+        "curiosity": "Um, you wouldn't happen to have like a a short bow back there, would you? Like a short plus one or something?"
+      }
+    },
+    "Bru": {
+      "scores": {
+        "chaos": 11,
+        "heroism": 12,
+        "comedy": 11,
+        "immersion": 12,
+        "strategy": 10,
+        "curiosity": 10
+      },
+      "evidence": {
+        "chaos": "I immediately jump and start strangling him. I didn't I left you in bed this whole time. Never do this to me again.",
+        "heroism": "I thought y'all were dead. I thought y'all were dead, too.",
+        "comedy": "This is how he always talks to me. This isn't how he.",
+        "immersion": "Yeah, I'll see him at the family barbecue. Hey, you guys can come.",
+        "strategy": "We should probably focus on the impending doom of the dragon we know and wait on a new mission.",
+        "curiosity": "What bombs we talking about? The uncommon kind of bombs."
+      }
+    }
+  },
+  "superlatives": {
+    "mvp": {
+      "player": "Ohma",
+      "quote": "I find that I must make a choice between saving everything or sticking to my own principles. What What am I if everything were to fall to darkness?"
+    },
+    "best_joke": {
+      "player": "Silas",
+      "quote": "You don't even know what the f****** stern is. No, I'm talking to you, George assholes."
+    },
+    "most_chaotic": {
+      "player": "Bru",
+      "quote": "I immediately jump and start strangling him. I didn't I left you in bed this whole time. Never do this to me again."
+    },
+    "decision_driver": "Silas"
+  }
+}

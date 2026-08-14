@@ -1,0 +1,52 @@
+name: Stats & Build Check
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+env:
+  # Match deploy.yml: hosted runners have 7 GB of RAM, use 6 GB for the build
+  NODE_OPTIONS: --max_old_space_size=6144
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install test dependencies
+        run: pip install pytest
+
+      - name: Run extractor unit tests
+        run: python -m pytest scripts/tests/ -q
+
+      - name: Regenerate session stats (deterministic, no API)
+        run: python scripts/extract_session_stats.py --all
+
+      - name: Fail if generated stats are stale
+        run: |
+          git diff --exit-code -- data/session-stats.json data/session-stat-blocks.json static/data/session-stats.csv || {
+            echo "::error::Generated stats files are out of date. Run 'python scripts/extract_session_stats.py --all' and commit the result."
+            exit 1
+          }
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install site dependencies
+        run: npm ci
+
+      - name: Typecheck
+        run: npm run typecheck
+
+      - name: Build site
+        run: npm run build

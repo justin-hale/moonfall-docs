@@ -1,0 +1,94 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-03-27",
+  "model": "claude-haiku-4-5",
+  "players": {
+    "Elspeth": {
+      "scores": {
+        "chaos": 9,
+        "heroism": 10,
+        "comedy": 12,
+        "immersion": 13,
+        "strategy": 11,
+        "curiosity": 9
+      },
+      "evidence": {
+        "chaos": "I'm still going to imagine Dante. I'm just going to go with that.",
+        "heroism": "Are you targeting civilians? We did mean to ask that in this situation.",
+        "comedy": "I told you she liked my flight suit. I told you.",
+        "immersion": "she's going to imagine some ice water so she can have some glitching.",
+        "strategy": "Do we have a place we could build a rocket ship?",
+        "curiosity": "Is she cool? Is she cool?"
+      }
+    },
+    "Olivia": {
+      "scores": {
+        "chaos": 5,
+        "heroism": 15,
+        "comedy": 8,
+        "immersion": 12,
+        "strategy": 16,
+        "curiosity": 15
+      },
+      "evidence": {
+        "chaos": "Yeah. So, we have some goals... we're always kind of like adapting the plan as we go.",
+        "heroism": "is it all Alderans must die or just like they leave then it's cool. Do you have names?",
+        "comedy": "I have a feeling she doesn't give a s***.",
+        "immersion": "I'm a retired detective Olivia Cooper.",
+        "strategy": "I think we should talk to Lady Viper because it'll help us decide if we want to do that immediately or if we want to go do the Dragon Balls and then come back",
+        "curiosity": "Can I do a history check to see if I remember anything about this?"
+      }
+    },
+    "Silas": {
+      "scores": {
+        "chaos": 8,
+        "heroism": 16,
+        "comedy": 9,
+        "immersion": 14,
+        "strategy": 16,
+        "curiosity": 12
+      },
+      "evidence": {
+        "chaos": "I'm against mass murder. So yeah. Um weird. Not willing to cross.",
+        "heroism": "I'm against mass murder. So yeah. Not willing to cross.",
+        "comedy": "I can't say it fits a dragon because that doesn't keep with the gag. Damn it.",
+        "immersion": "So why are you binding me if not working for them? I'm not a fan of the world being eaten.",
+        "strategy": "I think we need several insight checks going on. You've got a 20. I got a 20.",
+        "curiosity": "Do you have any trusted contacts in the city? anyone we might be able to meet up with once we're there?"
+      }
+    },
+    "Topher": {
+      "scores": {
+        "chaos": 12,
+        "heroism": 11,
+        "comedy": 14,
+        "immersion": 16,
+        "strategy": 15,
+        "curiosity": 13
+      },
+      "evidence": {
+        "chaos": "She whispers to her snake and it coils down here and then seems to go off in a direction.",
+        "heroism": "All you have to do is tell him what to do and he'll do it. I think you'll always have a home here.",
+        "comedy": "A hot iron, my dear. A hot iron... It's ghastly. It's close.",
+        "immersion": "Um, it's a doorway into a sitting room uh with a fireplace um candalabra along the side lighting it. Um, very moody.",
+        "strategy": "I don't think we can do three orbs and then do that cuz timewise I mean maybe we could sabotage the and do the heist in Eldoran",
+        "curiosity": "Well, it's not just a balcony, it's more like a catwalk almost up there. Um so you're able to wind your way through."
+      }
+    }
+  },
+  "superlatives": {
+    "mvp": {
+      "player": "Olivia",
+      "quote": "Can I do a history check to see if I remember anything about this? You um something in your memory about this. you um you remember some targeted um some very covert targeted killings happening in Grapefruit around this time... Elizandra Legrand."
+    },
+    "best_joke": {
+      "player": "Elspeth",
+      "quote": "I told you she liked my flight suit. I told you."
+    },
+    "most_chaotic": {
+      "player": "Silas",
+      "quote": "I just put it in his bag without telling him."
+    },
+    "decision_driver": "Olivia"
+  }
+}

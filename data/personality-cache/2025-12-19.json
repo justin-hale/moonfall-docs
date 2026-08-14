@@ -1,0 +1,130 @@
+{
+  "schema_version": "1.0",
+  "date": "2025-12-19",
+  "model": "claude-haiku-4-5",
+  "players": {
+    "Topher": {
+      "scores": {
+        "chaos": 11,
+        "heroism": 12,
+        "comedy": 14,
+        "immersion": 13,
+        "strategy": 13,
+        "curiosity": 11
+      },
+      "evidence": {
+        "chaos": "Um yeah, so you head to the 7-Eleven. Um um that'll take you to uh you know the place you need to put explosives.",
+        "heroism": "You're doing great, kid. I'm going to go back to the bowling alley.",
+        "comedy": "Oh, thank you, Auntie Poopy. Thank you. Thank you. Can Can you release the rest of me?",
+        "immersion": "She has those like glassy blue eyes of a blind woman and she has um a cowl around her.",
+        "strategy": "I would like Eva to give me uh a dexterity saving throw.",
+        "curiosity": "Um, what type of organization is this? Like uh who are each of you? Um yeah, how do you know each other?"
+      }
+    },
+    "Leliana": {
+      "scores": {
+        "chaos": 16,
+        "heroism": 5,
+        "comedy": 15,
+        "immersion": 14,
+        "strategy": 4,
+        "curiosity": 6
+      },
+      "evidence": {
+        "chaos": "I'm going to dive head first into a near pile and start just kind of trying to do breast jerk while the",
+        "heroism": "All of them. All of it. All of it.",
+        "comedy": "Yeah. On it. On it. I love pants. I'm going to start I'm going to do like Spongebob like uh run with my arms fling above my head.",
+        "immersion": "Yeah. On it. On it. I love pants.",
+        "strategy": "Okay.",
+        "curiosity": "What?"
+      }
+    },
+    "Bru": {
+      "scores": {
+        "chaos": 11,
+        "heroism": 12,
+        "comedy": 10,
+        "immersion": 12,
+        "strategy": 12,
+        "curiosity": 11
+      },
+      "evidence": {
+        "chaos": "All right. Well, I was going to say take the Matt approach, but he only uses two.",
+        "heroism": "Come on. All right. So, we put all of the gunpowder in here next to the blasting cap.",
+        "comedy": "Um yeah, the middle finger obviously very recent. I'm working on a poop.",
+        "immersion": "I think it's time for me to my own signature firework pattern. I have a I have an idea for for it to be like a diamond shape with a G in the middle or a B in the middle rather for brute.",
+        "strategy": "Okay. Well, nine and 10. Uh, so it's going to be a circle.",
+        "curiosity": "Is it Is it like a canal maybe?"
+      }
+    },
+    "Silas": {
+      "scores": {
+        "chaos": 10,
+        "heroism": 12,
+        "comedy": 10,
+        "immersion": 12,
+        "strategy": 13,
+        "curiosity": 13
+      },
+      "evidence": {
+        "chaos": "I like the idea of us being the Bruce Cousins bowling league.",
+        "heroism": "Okay. I'm going to go ahead and say that I am Bru's uncle.",
+        "comedy": "I mean, it's just like some sort of like like local community center type thing.",
+        "immersion": "Um, and I do like the idea of us being the Bruce Cousins bowling league. We got to represent the honor of the bowling league.",
+        "strategy": "All right. Um, I see where Drew is, right? Okay. Um, are there like attendants or like um any like people who like work for the Oracle who are like walking around?",
+        "curiosity": "Hey, what are we doing once we capture this oracle lady again, fellas?"
+      }
+    },
+    "Elspeth": {
+      "scores": {
+        "chaos": 16,
+        "heroism": 7,
+        "comedy": 16,
+        "immersion": 13,
+        "strategy": 11,
+        "curiosity": 8
+      },
+      "evidence": {
+        "chaos": "Okay, I'm going to look for ham sandwich like the prepared sandwich area.",
+        "heroism": "I don't think she said that because she's a loser. So was Vanessa.",
+        "comedy": "It's just a like a little micro dose of cocaine, like a little upkeep, and then you have to take your sleepy time cocaine, and then that kind of brings you down",
+        "immersion": "I don't know what accent I'm doing. It's gonna be a lot. It's gonna be like 12 different accents, just so you know.",
+        "strategy": "Um yeah, the middle finger obviously very recent. I'm working on a poop. No, I mean I'm always working on one",
+        "curiosity": "What's the prank? Like, is it smell bad?"
+      }
+    },
+    "Olivia": {
+      "scores": {
+        "chaos": 11,
+        "heroism": 12,
+        "comedy": 11,
+        "immersion": 10,
+        "strategy": 11,
+        "curiosity": 11
+      },
+      "evidence": {
+        "chaos": "I'll put all of my clothes on backwards and sit on the skateboard.",
+        "heroism": "I'm going to take my hot axe and like cut my way over to them and just like rip it off their faces so they can breathe.",
+        "comedy": "she opened a spa with god ear wax and is rejuvenating all of the goblins and doing life extensions.",
+        "immersion": "Mhm. We exploded a turtle.",
+        "strategy": "I'm going to give myself a lucky point and do it again.",
+        "curiosity": "Why are we blowing up the turtle's heart? Why are we blowing up the eardrums?"
+      }
+    }
+  },
+  "superlatives": {
+    "mvp": {
+      "player": "Silas",
+      "quote": "I'm ready to listen and I'm ready to talk."
+    },
+    "best_joke": {
+      "player": "Elspeth",
+      "quote": "It's just a like a little micro dose of cocaine, like a little upkeep, and then you have to take your sleepy time cocaine, and then that kind of brings you down"
+    },
+    "most_chaotic": {
+      "player": "Elspeth",
+      "quote": "I feel like I'm going to be leaving this island, so maybe we should just kind of blow up the island."
+    },
+    "decision_driver": "Silas"
+  }
+}

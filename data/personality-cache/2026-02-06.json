@@ -1,0 +1,130 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-02-06",
+  "model": "claude-haiku-4-5",
+  "players": {
+    "Bru": {
+      "scores": {
+        "chaos": 11,
+        "heroism": 13,
+        "comedy": 11,
+        "immersion": 8,
+        "strategy": 14,
+        "curiosity": 10
+      },
+      "evidence": {
+        "chaos": "I'm gonna throw out the um the cannon and I am going to use the cannon's force ballista to propel me up the wall of water.",
+        "heroism": "I got back up, man.",
+        "comedy": "I am the captain now.",
+        "immersion": "Well, uh, I showed up to work Monday morning to, uh, my manager's account being deactivated and I was like, Oh, that's weird. What happened?",
+        "strategy": "I think we said incorrect signals, right? We were purposely luring them.",
+        "curiosity": "Can I use the momentum of my cannon to to catapult me onto the boat?"
+      }
+    },
+    "Topher": {
+      "scores": {
+        "chaos": 13,
+        "heroism": 12,
+        "comedy": 14,
+        "immersion": 14,
+        "strategy": 12,
+        "curiosity": 12
+      },
+      "evidence": {
+        "chaos": "Well, uh, I really thought I was going to drown two of you. Um, especially Silus, who I didn't realize had a con mod of zero.",
+        "heroism": "I am an agent of tier but we don't need to do a bunch of ceremony around it.",
+        "comedy": "Um, it's my favorite hat. It's a funny one cuz it's a well, there's a a a veneerial disease you can get called Joe's and uh they named the shack after it",
+        "immersion": "And you see um uh ropes uh firing up into the air, catching hold of an adult blue dragon flying above you.",
+        "strategy": "Um, so I'm going to set the DC here. Um, baseline to get to the skeleton 15.",
+        "curiosity": "I love that y'all tied Victor into this. I didn't even have to. It's great."
+      }
+    },
+    "Silas": {
+      "scores": {
+        "chaos": 9,
+        "heroism": 11,
+        "comedy": 11,
+        "immersion": 12,
+        "strategy": 16,
+        "curiosity": 14
+      },
+      "evidence": {
+        "chaos": "Mostly making tactical decisions rather than chaotic ones throughout the session.",
+        "heroism": "I'm going to jump over the railings and straight down if that that's what I need to do.",
+        "comedy": "Don't you ever forget. (Rose and Jack Titanic pose reference)",
+        "immersion": "I mean, I feel like I am uh raring for a nap here. So, I'm going to go I'm going to go dex and sleep here.",
+        "strategy": "Um, okay. Well, um, am I holding on to Bob's hoof? Okay. Yeah, I wasn't able to pull Bob and Olivia with me.",
+        "curiosity": "I feel like we should try to talk to Luna. It should be something on the uh something on the agenda today for sure."
+      }
+    },
+    "Leliana": {
+      "scores": {
+        "chaos": 9,
+        "heroism": 15,
+        "comedy": 10,
+        "immersion": 10,
+        "strategy": 12,
+        "curiosity": 11
+      },
+      "evidence": {
+        "chaos": "Conservative spellcasting and tactical positioning, no chaotic decisions.",
+        "heroism": "I'm going to risk it for a biscuit here. Um All right. Can I'm gonna try to cast Polymorph from the dragon.",
+        "comedy": "Well, I'm just got here. I got to, you know",
+        "immersion": "Late arrival mid-session and needed catch-up on the situation.",
+        "strategy": "I want to think I want to use Mantle of Inspiration. I'm just trying to see if I can It is a Bic Inspiration die",
+        "curiosity": "So um how big is our boat? What is that huge class?"
+      }
+    },
+    "Olivia": {
+      "scores": {
+        "chaos": 8,
+        "heroism": 16,
+        "comedy": 10,
+        "immersion": 14,
+        "strategy": 13,
+        "curiosity": 11
+      },
+      "evidence": {
+        "chaos": "I'm gonna immediately summon Bob just and try to figure out how we can get up in the air to attack the dragons.",
+        "heroism": "I'm going to cast aid um at third level on Leliana and Bru and you guys get 10 hit points.",
+        "comedy": "She's talking. We learned that much.",
+        "immersion": "I'm hopping on him and trying to figure out how we can get up in the air to attack the dragons.",
+        "strategy": "I'll just keep I'll be staring down the water watching this dark thing coming at us ready to attack.",
+        "curiosity": "Is the water going up or down? Is the water flowing up?"
+      }
+    },
+    "Elspeth": {
+      "scores": {
+        "chaos": 10,
+        "heroism": 13,
+        "comedy": 13,
+        "immersion": 15,
+        "strategy": 12,
+        "curiosity": 11
+      },
+      "evidence": {
+        "chaos": "I'm going to put in the second phone. I'm going to turn on the engines.",
+        "heroism": "I'm gonna misty step up and then I'll lay on hands.",
+        "comedy": "I'm just like offering cigarettes to everyone.",
+        "immersion": "Yeah. Um, the dragon is below us. I will figure that out and then let you know. But maybe a minute because of dragon. Yeah, the dragon does swim and goes beneath the boat",
+        "strategy": "Is there a steering... where you actually turn on the boat up on top of deck? Like a is it like a boat with like a key where you actually turn it on up deck",
+        "curiosity": "So there's an engine room. Is there a ste like like the room where you steer and you actually turn on the boat up on top of deck?"
+      }
+    }
+  },
+  "superlatives": {
+    "mvp": {
+      "player": "Olivia",
+      "quote": "I'm going to cast aid um at third level on Leliana and Bru and you guys get 10 hit points."
+    },
+    "best_joke": {
+      "player": "Topher",
+      "quote": "Um, it's my favorite hat. It's a funny one cuz it's a well, there's a a a veneerial disease you can get called Joe's and uh they named the shack after it"
+    },
+    "most_chaotic": {
+      "player": "Bru",
+      "quote": "I want to make it bigger. Reducing seems to make everything worse. I'm going to make it bigger."
+    },
+    "decision_driver": "Silas"
+  }
+}

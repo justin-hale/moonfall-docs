@@ -1,0 +1,130 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-05-29",
+  "model": "claude-haiku-4-5",
+  "players": {
+    "Elspeth": {
+      "scores": {
+        "chaos": 9,
+        "heroism": 7,
+        "comedy": 11,
+        "immersion": 13,
+        "strategy": 11,
+        "curiosity": 10
+      },
+      "evidence": {
+        "chaos": "I'm going to murder you. It's not a date.",
+        "heroism": "I need you to know that if I'm falling, my first instinct is to protect this snake.",
+        "comedy": "Yeah. Oh, good. I'm really good at this sarcasm.",
+        "immersion": "No, my face is just naturally this red. Um, you make me nervous.",
+        "strategy": "We need to downplay the mercenary bit. That's the only thing I could think they would flag us.",
+        "curiosity": "Have we left the dinner? And I still have the snake?"
+      }
+    },
+    "Bru": {
+      "scores": {
+        "chaos": 15,
+        "heroism": 4,
+        "comedy": 13,
+        "immersion": 9,
+        "strategy": 5,
+        "curiosity": 6
+      },
+      "evidence": {
+        "chaos": "And if I can speak up successfully, I want to shove Elspeth's chair so that she falls into Lady Viper's.",
+        "heroism": "I don't appreciate you all picking on the shortest person in here.",
+        "comedy": "Do you know the uh the mini me from the third movie where he like crawls across the table?",
+        "immersion": "I slowly start pulling out my knife.",
+        "strategy": "I can't because I'm too short.",
+        "curiosity": "I have two air fryers."
+      }
+    },
+    "Topher": {
+      "scores": {
+        "chaos": 8,
+        "heroism": 10,
+        "comedy": 14,
+        "immersion": 17,
+        "strategy": 13,
+        "curiosity": 10
+      },
+      "evidence": {
+        "chaos": "She withdraws it from like a thigh holster. Stabs through the cork and then pulls it out.",
+        "heroism": "Well, um, do you need a driver?",
+        "comedy": "Oh, Mr. Slithers, you really are enjoying the house but quite remarkable.",
+        "immersion": "Um, and you head into this uh into this bar in Irish pub type place. And um there's quite a commotion. There's a lot of different groups all over.",
+        "strategy": "Lord Bradicus, he loves the show and he is quite frankly hoping that many of us die.",
+        "curiosity": "Do you have any questions for me?"
+      }
+    },
+    "Olivia": {
+      "scores": {
+        "chaos": 5,
+        "heroism": 10,
+        "comedy": 10,
+        "immersion": 8,
+        "strategy": 14,
+        "curiosity": 11
+      },
+      "evidence": {
+        "chaos": "I think we'll be fine. I think we balance the line of overpowered and barely competent very well.",
+        "heroism": "There's one draonus at least finally learn how to use his f****** sword.",
+        "comedy": "I tried to show my theater high school theater uh husband a high school musical cuz I remember loving it.",
+        "immersion": "I think I need to use the powder room. Um, I'm just gonna",
+        "strategy": "I feel like maybe this thing might be a little bit better and we just hold on to our cars, have them fueled up, ready to go.",
+        "curiosity": "Is anything beyond like the magic weapons we have?"
+      }
+    },
+    "Silas": {
+      "scores": {
+        "chaos": 6,
+        "heroism": 10,
+        "comedy": 10,
+        "immersion": 12,
+        "strategy": 16,
+        "curiosity": 11
+      },
+      "evidence": {
+        "chaos": "I don't think we're actually carrying anything contraband.",
+        "heroism": "Well, if you have any contacts here in the city, we um we did have a guy who used to be part of Elder Ran's army.",
+        "comedy": "My bad.",
+        "immersion": "I just want it to look like it's like a mercenary guild registration basically.",
+        "strategy": "I psychic phone with everyone. I don't think we're actually carrying anything contraband.",
+        "curiosity": "Did Jasper ever uh get back to us with the name of anybody that he trusted in Eldoran?"
+      }
+    },
+    "Leliana": {
+      "scores": {
+        "chaos": 5,
+        "heroism": 10,
+        "comedy": 9,
+        "immersion": 11,
+        "strategy": 9,
+        "curiosity": 10
+      },
+      "evidence": {
+        "chaos": "I'm mostly just trying to like uh get out of way here, but like I bet Lady Viper has some pretty good liquor.",
+        "heroism": "I could be. We are under a false identity.",
+        "comedy": "I'll play I kiss the girl and I like it.",
+        "immersion": "Uh, you know what? Yeah, I think it's familiar.",
+        "strategy": "I'll take it. I can ask the bartender.",
+        "curiosity": "Is there besides the bartender, are there is there anybody else of seeming like authority?"
+      }
+    }
+  },
+  "superlatives": {
+    "mvp": {
+      "player": "Silas",
+      "quote": "Well, you know, hey, you need work. If you do, um, they're always hiring, um, military. My Paul, my friend Paul, he's a recruiter."
+    },
+    "best_joke": {
+      "player": "Bru",
+      "quote": "Do you know the uh the mini me from the third movie where he like crawls across the table?"
+    },
+    "most_chaotic": {
+      "player": "Bru",
+      "quote": "And if I can speak up successfully, I want to shove Elspeth's chair so that she falls into Lady Viper's."
+    },
+    "decision_driver": "Silas"
+  }
+}

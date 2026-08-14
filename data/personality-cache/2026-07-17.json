@@ -1,0 +1,130 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-07-17",
+  "model": "claude-haiku-4-5",
+  "players": {
+    "Silas": {
+      "scores": {
+        "chaos": 6,
+        "heroism": 3,
+        "comedy": 8,
+        "immersion": 9,
+        "strategy": 13,
+        "curiosity": 9
+      },
+      "evidence": {
+        "chaos": "No, don't leave the path. Don't go into the tree line at all.",
+        "heroism": "I think it made it very clear last time that I don't give a flipping s*** about the other people who are around us right now.",
+        "comedy": "I'm just imagining there's like a rich lady over like a property like I want you to put more white and gold s*** all over my property.",
+        "immersion": "Are you sure that's your family? Why would they be here?",
+        "strategy": "Mental note of that.",
+        "curiosity": "I'm going to call Finn again and let him know that uh we're not in the library anymore."
+      }
+    },
+    "Bru": {
+      "scores": {
+        "chaos": 8,
+        "heroism": 8,
+        "comedy": 7,
+        "immersion": 10,
+        "strategy": 10,
+        "curiosity": 12
+      },
+      "evidence": {
+        "chaos": "Can I try and at least like catch up to get a glimpse of them? without like going off too far.",
+        "heroism": "A person is going to die. Come on.",
+        "comedy": "I'm just going to rush up really quickly and like get very close to his personal space and smell his face.",
+        "immersion": "I'm the last one to go in. I want to see if like s*** changes out of here.",
+        "strategy": "If I remember correctly, we were told to plant it since the world's tree was dying.",
+        "curiosity": "Can I do a perception check too of like I does this feel real or does this feel like put on by the show or something?"
+      }
+    },
+    "Olivia": {
+      "scores": {
+        "chaos": 3,
+        "heroism": 17,
+        "comedy": 10,
+        "immersion": 11,
+        "strategy": 10,
+        "curiosity": 9
+      },
+      "evidence": {
+        "chaos": "Well, I feel like it'd be weird for us to wear their shimmery human garb in our regular outfits.",
+        "heroism": "I'm going to pat Leliana on the shoulder and say we're with you. And I'm also going to give her some some lay on hands healing.",
+        "comedy": "I like to imagine the brothers like looks the exact same but still playing like this over in the corner like deadeyed like playing the song",
+        "immersion": "honey, can you have you has she told us what happened to her family?",
+        "strategy": "Maybe just Lily or someone else. Two people and then we just follow them.",
+        "curiosity": "Did anyone do like a religion check on the deity she mentioned?"
+      }
+    },
+    "Leliana": {
+      "scores": {
+        "chaos": 14,
+        "heroism": 12,
+        "comedy": 9,
+        "immersion": 16,
+        "strategy": 9,
+        "curiosity": 10
+      },
+      "evidence": {
+        "chaos": "And Leliana is like, 'f*** that.' And hit the portal button.",
+        "heroism": "Um rather than trying to study the schematics, I'm going to try I'm going to cast frostbite on steel if possible.",
+        "comedy": "I'm going to like hit my or I'm going to tap my uh dad. That was the guy that was the guy that killed him.",
+        "immersion": "I guess I'll like kick some of the dirt with my foot kind of to the hole and then drop them in and cover it.",
+        "strategy": "Um, I kind of want to go towards my my house. Um, is it easily like is that doable from where I am to start heading that direction?",
+        "curiosity": "Um, so who is this guy if he if he is indeed approaching"
+      }
+    },
+    "Elspeth": {
+      "scores": {
+        "chaos": 5,
+        "heroism": 5,
+        "comedy": 9,
+        "immersion": 10,
+        "strategy": 11,
+        "curiosity": 8
+      },
+      "evidence": {
+        "chaos": "I hacked it for good.",
+        "heroism": "I hacked the system. Hacked the main frame.",
+        "comedy": "Well, yeah. You going to if you going to keep this up, you're going to get a little slap. We're going to slap you in the face if you do that again.",
+        "immersion": "Yeah. I hacked it.",
+        "strategy": "I hacked the system by navigating to his folder.",
+        "curiosity": "Does it look like a dead language? Is that what we're seeing here."
+      }
+    },
+    "Topher": {
+      "scores": {
+        "chaos": 12,
+        "heroism": 10,
+        "comedy": 13,
+        "immersion": 16,
+        "strategy": 14,
+        "curiosity": 10
+      },
+      "evidence": {
+        "chaos": "Um, as you're tumbling, you uh it feels like falling down a well, uh, as it gets darker, but instead of, um, at some point halfway through you feel like a weird flip and um you end up landing on your feet.",
+        "heroism": "Dad, dad, I have to. I love playing music, but I want to make a difference in the world.",
+        "comedy": "I'm uh from everywhere.",
+        "immersion": "Um, it's like a and you uh pop into a park and uh the top of this like thing tree you're riding just looks like a normalsized tree in this park.",
+        "strategy": "Um, yeah. Give me an insight check.",
+        "curiosity": "Um, all right. Well, uh, I'll I'll go with you."
+      }
+    }
+  },
+  "superlatives": {
+    "mvp": {
+      "player": "Leliana",
+      "quote": "I guess I'll like kick some of the dirt with my foot kind of to the hole and then drop them in and cover it."
+    },
+    "best_joke": {
+      "player": "Silas",
+      "quote": "I'm just imagining there's like a rich lady over like a property like I want you to put more white and gold s*** all over my property."
+    },
+    "most_chaotic": {
+      "player": "Leliana",
+      "quote": "And Leliana is like, 'f*** that.' And hit the portal button."
+    },
+    "decision_driver": "Leliana"
+  }
+}

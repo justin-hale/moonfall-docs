@@ -1,0 +1,112 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-05-15",
+  "model": "claude-haiku-4-5",
+  "players": {
+    "Topher": {
+      "scores": {
+        "chaos": 11,
+        "heroism": 10,
+        "comedy": 12,
+        "immersion": 12,
+        "strategy": 11,
+        "curiosity": 10
+      },
+      "evidence": {
+        "chaos": "Um, inside is quite the ruckus. It's just bedum. There's like fist fights, uh, like people just like shooting off their guns.",
+        "heroism": "Yeah. All right. I think that you should put a pin in that.",
+        "comedy": "The great El Smith. You ready to report your your location in the paper?",
+        "immersion": "There is an aura on aura on Iro that um is a frightening presence. Uh you are afraid of him and literally cannot approach him.",
+        "strategy": "Um so with that 17 left check, you're able to spew this fire and you catch one dude on fire.",
+        "curiosity": "Um, can y'all tell me like what kind of concert you're trying to put together here?"
+      }
+    },
+    "Leliana": {
+      "scores": {
+        "chaos": 6,
+        "heroism": 13,
+        "comedy": 9,
+        "immersion": 13,
+        "strategy": 9,
+        "curiosity": 9
+      },
+      "evidence": {
+        "chaos": "They tried to kill you and Bru. I can't have that. So,",
+        "heroism": "They tried to kill you and Bru. I can't have that. So,",
+        "comedy": "Couldn't have said it better myself. Honestly, this guy's pretty good.",
+        "immersion": "Um, yeah, it's I think so, I like to envision it as, uh, Leon just on a single kind of small stage. I got candles. Light comes from somewhere. Black mist recedes.",
+        "strategy": "Okay. So, we'll avoid that.",
+        "curiosity": "Okay. So, we'll avoid that."
+      }
+    },
+    "Silas": {
+      "scores": {
+        "chaos": 9,
+        "heroism": 12,
+        "comedy": 11,
+        "immersion": 14,
+        "strategy": 16,
+        "curiosity": 12
+      },
+      "evidence": {
+        "chaos": "Um, mutation, Scarlet. We need to we need you to stay hot for just a moment longer. No, we're getting contacts that should exist in this setting, right?",
+        "heroism": "I mean, honestly, yes. We are spoiled with like baddies that we can contact to do this.",
+        "comedy": "You say that as though I was being facitious in some way. I wasn't. Elspeth is out there just like taking names and kicking ass all the time.",
+        "immersion": "Um, this is where uh our old gang used to uses basically our unofficial headquarters, the Kogan Steam. Um, they were all murdered uh by Helga and the Ironclaws except for Bru and uh me and uh apparently Thander, who uh is like a f****** baker now.",
+        "strategy": "Okay. So, the main goal is to try to see if we can figure out where their main base of operations is. So, maybe we should kind of spread out and just see if anyone happens to be talking about it, you know?",
+        "curiosity": "Um, you know, that makes sense. I guess it's just it seems like a weird amount of twins to all be in the same spot."
+      }
+    },
+    "Elspeth": {
+      "scores": {
+        "chaos": 10,
+        "heroism": 11,
+        "comedy": 12,
+        "immersion": 12,
+        "strategy": 9,
+        "curiosity": 10
+      },
+      "evidence": {
+        "chaos": "Well, I mean I was going to declare my location in the newspaper as a racist and put Leliana's concert at this location just to kind of get people here.",
+        "heroism": "Well, they tried to kill me and Bru. I can't have that. So yes.",
+        "comedy": "I was going to declare my location in the newspaper as a racist and put Leliana's concert at this location just to kind of get people here.",
+        "immersion": "It's like if I'm tinkering, bracelet caught, hand gone. Yeah. So, I'm just I'm just always sassy. It's a defense mechanism.",
+        "strategy": "Well, they're going to be fit. Well, they're here now.",
+        "curiosity": "How many people are here? What time is it?"
+      }
+    },
+    "Bru": {
+      "scores": {
+        "chaos": 13,
+        "heroism": 10,
+        "comedy": 9,
+        "immersion": 10,
+        "strategy": 8,
+        "curiosity": 7
+      },
+      "evidence": {
+        "chaos": "I pull out the cannon. And I'm gonna slam the cannon on a table. I'm gonna do like, you know, that obnoxious like finger whistle that people can do. Uh, I'm going to do that and if it quiets down at all, I'm going to say, \"If anyone has information that we need, you better speak up now and stop attacking us.\" And then I'm going to set off the fire part of the cannon.",
+        "heroism": "I mean, I'm sure I'm only a little hurt. That's fine.",
+        "comedy": "It's that the attention span is still not awesome.",
+        "immersion": "After that, Bru does that like um that slow dance pose like middle school slow dance pose where it's All right, that's enough.",
+        "strategy": "Yeah. Well, should I do I need to roll or can I just know how to do it?",
+        "curiosity": "What? It's not a shirt?"
+      }
+    }
+  },
+  "superlatives": {
+    "mvp": {
+      "player": "Leliana",
+      "quote": "Um, yeah, it's I think so, I like to envision it as, uh, Leon just on a single kind of small stage. I got candles. Light comes from somewhere. Black mist recedes."
+    },
+    "best_joke": {
+      "player": "Elspeth",
+      "quote": "I was going to declare my location in the newspaper as a racist and put Leliana's concert at this location just to kind of get people here."
+    },
+    "most_chaotic": {
+      "player": "Bru",
+      "quote": "I pull out the cannon. And I'm gonna slam the cannon on a table. I'm gonna do like, you know, that obnoxious like finger whistle that people can do... And then I'm going to set off the fire part of the cannon."
+    },
+    "decision_driver": "Silas"
+  }
+}

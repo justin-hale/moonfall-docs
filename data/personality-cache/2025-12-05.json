@@ -1,0 +1,148 @@
+{
+  "schema_version": "1.0",
+  "date": "2025-12-05",
+  "model": "claude-haiku-4-5",
+  "players": {
+    "Topher": {
+      "scores": {
+        "chaos": 12,
+        "heroism": 9,
+        "comedy": 14,
+        "immersion": 13,
+        "strategy": 11,
+        "curiosity": 12
+      },
+      "evidence": {
+        "chaos": "Topher: Okay, all right. Um, double eights. Here we go. Oh s***. Sorry. Uh, okay. What? This is This is b*******.",
+        "heroism": "Topher: I would like to roll higher. Can I start rolling like d10s or something?",
+        "comedy": "Topher: Um, Zubor is going to spend the next two hours making uh, lemon poppy seed muffins.",
+        "immersion": "Topher: Okay. So, this is this meeting adjourned then Zor is going to go to the handicap parking space where her dad is parked",
+        "strategy": "Topher: So, so our our mission is to get Ellswith convicted of cheating. Okay. And win. You still want to win.",
+        "curiosity": "Topher: Um, how do people how do they feel about using magic during races?"
+      }
+    },
+    "Leliana": {
+      "scores": {
+        "chaos": 16,
+        "heroism": 4,
+        "comedy": 10,
+        "immersion": 15,
+        "strategy": 13,
+        "curiosity": 7
+      },
+      "evidence": {
+        "chaos": "Leliana: I need I need you to go into else and get her routing and bank number and if you get caught just shove the engine up your",
+        "heroism": "Leliana: Um no, I'm quite sure he told you I would be first. My father will be hearing about this.",
+        "comedy": "Leliana: And then I shoved the watch up my ass. You know, now he's Christopher Walkin.",
+        "immersion": "Leliana: Um yes. Well, uh, Zugo here wants to speak with you. she said.",
+        "strategy": "Leliana: I have a plan and she's never going to know what hit her.",
+        "curiosity": "Leliana: Um he's also an ascending stone."
+      }
+    },
+    "Silas": {
+      "scores": {
+        "chaos": 19,
+        "heroism": 3,
+        "comedy": 17,
+        "immersion": 12,
+        "strategy": 9,
+        "curiosity": 9
+      },
+      "evidence": {
+        "chaos": "Silas: Um, Denlin would walk up to uh, wherever Ellswith is supposed to be and like knock on the door. He has like a big like Groutto Mark style mustache and like some glasses on",
+        "heroism": "Silas: Even in a Toyota Tacoma can outra you.",
+        "comedy": "Silas: And I'm going to walk up and be like, 'Oh, hello there, young madam. I'm a purveyor of illegal drugs. Would you happen to want to purchase some illegal drugs from me?'",
+        "immersion": "Silas: I just I thought of a silly voice and a personality gimmick from my guy.",
+        "strategy": "Silas: I'm going to use my bonus action to teleport.",
+        "curiosity": "Silas: Um, okay. So, does a bonus action count as one of my actions?"
+      }
+    },
+    "Ohma": {
+      "scores": {
+        "chaos": 11,
+        "heroism": 8,
+        "comedy": 11,
+        "immersion": 14,
+        "strategy": 12,
+        "curiosity": 13
+      },
+      "evidence": {
+        "chaos": "Ohma: He has this concept where maybe if he put like a rune under the car that he could activate, it would make the car fly for a short period of time.",
+        "heroism": "Ohma: I I can't believe it, but Papy said we got to do what we got to do for us. I feel like I can't cross El Smith.",
+        "comedy": "Ohma: I recently become very aware of the fact that I don't know s*** about dogs, especially compared to my cat knowledge because I've only had cats for my life.",
+        "immersion": "Ohma: he's kind of gripping the wheel of the truck and just lost in thought",
+        "strategy": "Ohma: What are all the various ways you can cheat in race car driving typically, but specifically in this world?",
+        "curiosity": "Ohma: What are all the various ways you can cheat in race car driving typically"
+      }
+    },
+    "Bru": {
+      "scores": {
+        "chaos": 9,
+        "heroism": 10,
+        "comedy": 12,
+        "immersion": 12,
+        "strategy": 11,
+        "curiosity": 10
+      },
+      "evidence": {
+        "chaos": "Bru: Um, I got to figure out what the sponsors of this world are going to be.",
+        "heroism": "Bru: Because I only operate with the most integrity. And then I chug a blue ox.",
+        "comedy": "Bru: and then I chug a blue ox.",
+        "immersion": "Bru: I'm going back to my garage and I'm going to talk to all of my uh sponsor appointed nerds and get them to do the work for me.",
+        "strategy": "Bru: I'm definitely going back to my garage and I'm going to talk to all of my sponsor appointed nerds and get them to do the work for me.",
+        "curiosity": "Bru: Um, did I tell you my Gen Con fiasco with my outfit?"
+      }
+    },
+    "Elspeth": {
+      "scores": {
+        "chaos": 13,
+        "heroism": 10,
+        "comedy": 12,
+        "immersion": 12,
+        "strategy": 12,
+        "curiosity": 13
+      },
+      "evidence": {
+        "chaos": "Elspeth: Oh, are they like actively stripping in public? What are they doing?",
+        "heroism": "Elspeth: I mean, if it's not good then we can figure it out because I kind of this in a dream and if not then it was just a dream.",
+        "comedy": "Elspeth: What kind of stripper do you need? Is it for wood? Cuz like he's stripping paint.",
+        "immersion": "Elspeth: You're at This is the finale race weekend for this season, which I guess would have been a few months ago in the campaign",
+        "strategy": "Elspeth: The only way that wouldn't work is if somebody's in the red zone and they don't want to just do double movements.",
+        "curiosity": "Elspeth: I only had so so many tokens as cars. So hopefully I did it right."
+      }
+    },
+    "Olivia": {
+      "scores": {
+        "chaos": 13,
+        "heroism": 5,
+        "comedy": 11,
+        "immersion": 12,
+        "strategy": 13,
+        "curiosity": 11
+      },
+      "evidence": {
+        "chaos": "Olivia: I'm gonna get into the engine and mess with the connections on the crystals and essentially like sabotage it so that like it's gonna be like disconnected",
+        "heroism": "Olivia: My career's on the line.",
+        "comedy": "Olivia: Yeah, this is the reality of being a boy mom. He's about to drop me.",
+        "immersion": "Olivia: Serge is off next to a window being very moody and staring out. His emo bangs across his face",
+        "strategy": "Olivia: I'm gonna tear like a chunk of the t-shirt that I got and like wedge it in to the engine so it's like clearly like part of the team Cooper logo.",
+        "curiosity": "Olivia: Question. Did you make it look like she tampered with somebody else's crystal?"
+      }
+    }
+  },
+  "superlatives": {
+    "mvp": {
+      "player": "Olivia",
+      "quote": "Olivia: I'm sabotaging my my teammate's car and framing you at the same time."
+    },
+    "best_joke": {
+      "player": "Silas",
+      "quote": "Silas: I'm going to walk up and be like, 'Oh, hello there, young madam. I'm a purveyor of illegal drugs. Would you happen to want to purchase some illegal drugs from me?'"
+    },
+    "most_chaotic": {
+      "player": "Silas",
+      "quote": "Silas: Um, Denlin would walk up to uh, wherever Ellswith is supposed to be and like knock on the door. He has like a big like Groutto Mark style mustache and like some glasses on and like I'm going to wait for to come and answer the door."
+    },
+    "decision_driver": "Elspeth"
+  }
+}
