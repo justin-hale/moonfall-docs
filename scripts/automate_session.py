@@ -47,6 +47,11 @@ class CLIError(Exception):
     """Raised when the local `claude` CLI backend (--local) fails."""
 
 
+class EmptyResponseError(Exception):
+    """Raised when a model returns no usable text (e.g. a refusal, or a
+    response that is thinking blocks only)."""
+
+
 # Both the direct-API and local-CLI backends accept these same model strings.
 # --- Model configuration ---
 # Haiku for cheap summarisation; Sonnet for creative recap generation.
@@ -233,7 +238,27 @@ podcastlink: ""
             messages=messages,
             **kwargs,
         )
-        return response.content[0].text
+        return self._extract_text(response, model)
+
+    @staticmethod
+    def _extract_text(response, model):
+        """Pull the assistant's text out of a Messages API response.
+
+        `response.content` is a list of blocks, and text is not guaranteed to
+        be first: models with adaptive thinking on by default (Sonnet 5 and
+        the rest of the 5 family) put a thinking block at index 0, so
+        `content[0].text` raises AttributeError. Concatenate every text block
+        instead and ignore the rest.
+        """
+        text = "".join(block.text for block in response.content if block.type == "text")
+        if not text.strip():
+            raise EmptyResponseError(
+                f"{model} returned no text (stop_reason={response.stop_reason}, "
+                f"blocks={[b.type for b in response.content]})"
+            )
+        if response.stop_reason == "max_tokens":
+            print(f"  Warning: {model} hit max_tokens — output is truncated")
+        return text
 
     def _call_cli(self, model, system, messages, timeout=None):
         """Run the prompt through the local `claude` CLI instead of the
@@ -332,7 +357,7 @@ TRANSCRIPT CHUNK:
             print(f"  Summarising chunk {i}/{len(chunks)} ({len(chunk):,} chars)...")
             try:
                 summary = self._summarize_chunk(chunk, i, len(chunks))
-            except (anthropic.APIError, CLIError) as e:
+            except (anthropic.APIError, CLIError, EmptyResponseError) as e:
                 print(f"  Warning: chunk {i} summarisation failed ({e}); using a placeholder so later chunks aren't lost")
                 summary = f"[Chunk {i} summarisation failed: {e}]"
             if summary:
@@ -356,7 +381,105 @@ TRANSCRIPT CHUNK:
             print(f"  Warning: could not read {path}: {e}")
             return ""
 
-    def build_system_prompt(self, exclude_filename=None):
+    def resolve_publication_context(self, session_number, is_interlude=False):
+        """Resolve the publication meta-narrative context for a session.
+
+        Reads data/publication-arc.json and returns a dict describing the
+        authoring persona, storyline beat, and voice directives for this
+        session — or None when the config is missing/invalid or the
+        session predates the first beat, in which case generation behaves
+        exactly as it did before the persona layer existed.
+
+        Interludes have their own numbering sequence, so they inherit the
+        beat of the campaign's latest real session and always use the
+        beat's primary author (they never advance a rotation).
+        """
+        arc_path = self.project_root / "data" / "publication-arc.json"
+        try:
+            arc = json.loads(arc_path.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError) as e:
+            print(f"  Warning: could not load {arc_path.name} ({e}); persona layer disabled")
+            return None
+
+        personas = arc.get("personas", {})
+        dm_notes = (arc.get("notes") or "").strip()
+
+        def _ctx(beat_id, author_id, co_author_id, directive, editorial_notes,
+                 crush_level=None, anonymous=False):
+            author = personas.get(author_id or "")
+            if not author:
+                print(f"  Warning: persona '{author_id}' not found in publication-arc.json; persona layer disabled")
+                return None
+            co_author = personas.get(co_author_id or "") if co_author_id else None
+            crush_text = ""
+            if crush_level is not None:
+                crush_text = (author.get("quirks", {})
+                              .get("silasCrush", {})
+                              .get(str(crush_level), ""))
+            byline = author.get("byline", author.get("name", ""))
+            if anonymous:
+                byline = "The masthead declines to state who compiled this account."
+            return {
+                "beat_id": beat_id,
+                "publication": arc.get("publication", {}).get("name", "the publication"),
+                "author_name": author.get("name", ""),
+                "author_voice": author.get("voice", ""),
+                "byline": byline,
+                "signature": author.get("signature", ""),
+                "co_author_name": co_author.get("name", "") if co_author else "",
+                "co_author_voice": co_author.get("voice", "") if co_author else "",
+                "co_signature": co_author.get("signature", "") if co_author else "",
+                "directive": directive,
+                "editorial_notes": editorial_notes,
+                "crush_text": crush_text,
+                "dm_notes": dm_notes,
+            }
+
+        finale = arc.get("finale", {})
+        if finale.get("active"):
+            directive = finale.get("directive", "")
+            finale_notes = (finale.get("notes") or "").strip()
+            if finale_notes:
+                directive = f"{directive}\n\nDM NOTES ON THE RESOLUTION: {finale_notes}"
+            return _ctx("finale", finale.get("author"), None, directive, "")
+
+        # Beats auto-advance by session count: active beat = last beat whose
+        # startSession has been reached. The final beat has no end — only
+        # finale.active (flipped manually by the DM) ever supersedes it.
+        beat_session = session_number
+        if is_interlude:
+            beat_session = self.get_next_session_number(False) - 1
+        active = None
+        for beat in sorted(arc.get("beats", []), key=lambda b: b.get("startSession", 0)):
+            if beat_session >= beat.get("startSession", 0):
+                active = beat
+        if active is None:
+            return None  # Pre-arc session: persona layer off.
+
+        directive = active.get("directive", "")
+        author_id = active.get("author")
+        co_author_id = active.get("coAuthor")
+        anonymous = False
+        if active.get("authorRule") == "rotation":
+            rotation = active.get("rotation", [])
+            if not rotation:
+                print("  Warning: rotation beat has no rotation entries; persona layer disabled")
+                return None
+            if is_interlude:
+                entry = rotation[0]
+            else:
+                entry = rotation[(beat_session - active.get("startSession", 0)) % len(rotation)]
+            author_id = entry.get("author")
+            co_author_id = entry.get("coAuthor")
+            anonymous = bool(entry.get("anonymous"))
+            if entry.get("directive"):
+                directive = f"{directive}\n\nTHIS SESSION'S CONTROL STATE: {entry['directive']}"
+
+        return _ctx(active.get("id", "?"), author_id, co_author_id, directive,
+                    active.get("editorialNotes", ""),
+                    crush_level=active.get("crushLevel"), anonymous=anonymous)
+
+    def build_system_prompt(self, exclude_filename=None, persona_ctx=None):
         """Build the system prompt."""
         kb_content = self._load_file(self.project_root / "data" / "campaign-kb.md")
         state_content = self._load_file(self.project_root / "data" / "campaign-state.md")
@@ -371,6 +494,28 @@ TRANSCRIPT CHUNK:
 
         style_section = "\n\n---\n\n".join(style_refs) if style_refs else "(no previous sessions available)"
 
+        # Persona layer (publication meta-narrative). When active, the recap
+        # is written in-character by a fictional staff writer, the recent
+        # sessions become structure-only references (their voice may belong
+        # to a different author), and the byline/editorial-note conventions
+        # are added to the format contract.
+        if persona_ctx:
+            style_heading = "## Structure Reference (from recent sessions)"
+            style_caveat = ("\nThese show structure, section order, and factual style ONLY. "
+                            "Their narrative voice may belong to a different author — the "
+                            "Author Persona section below OVERRIDES the exemplar voice.\n")
+            byline_format_item = "3. Byline line immediately after the date header (exact text given in the Author Persona section)\n"
+            format_offset = 1
+            editorial_format_item = "\n9. Editorial notes as specified in the Author Persona section"
+            persona_section = self._build_persona_section(persona_ctx)
+        else:
+            style_heading = "## Style Reference (from recent sessions):"
+            style_caveat = ""
+            byline_format_item = ""
+            format_offset = 0
+            editorial_format_item = ""
+            persona_section = ""
+
         return f"""You are an expert D&D session recap writer. You create engaging, detailed session notes for a campaign called "Moonfall Sessions."
 
 ## Your Task
@@ -380,11 +525,11 @@ Write a comprehensive session recap based on a transcript of the session. The re
 Follow this exact structure:
 1. YAML frontmatter with title, date, description, summary, podcastlink
 2. Date header (e.g. ***July 17, 2026***)
-3. Players Present section
-4. Plot Events section with ### subheadings
-5. Notable Character Moments section
-6. Themes section
-7. Session MVP section
+{byline_format_item}{3 + format_offset}. Players Present section
+{4 + format_offset}. Plot Events section with ### subheadings
+{5 + format_offset}. Notable Character Moments section
+{6 + format_offset}. Themes section
+{7 + format_offset}. Session MVP section{editorial_format_item}
 
 ## Campaign Knowledge Base (CRITICAL - use these names):
 {kb_content}
@@ -392,8 +537,8 @@ Follow this exact structure:
 ## Campaign State & Running Memory:
 {state_content}
 
-## Style Reference (from recent sessions):
-{style_section}
+{style_heading}
+{style_caveat}{style_section}
 
 ## Character Name Rules (MUST follow):
 - Bru is ALWAYS "Bru", NEVER "Brew"
@@ -410,7 +555,45 @@ Follow this exact structure:
 - Highlight character growth and relationship moments
 - End with a Session MVP choice
 - Make callbacks to previous sessions where the transcript references them
-- Write for readers who know the campaign but want to relive the session"""
+- Write for readers who know the campaign but want to relive the session{persona_section}"""
+
+    @staticmethod
+    def _build_persona_section(ctx):
+        """Render the Author Persona prompt section from a resolved context."""
+        co_author_block = ""
+        if ctx["co_author_name"]:
+            co_author_block = (f"\nCO-PERSONA: {ctx['co_author_name']} (signature {ctx['co_signature']})\n"
+                               f"Voice: {ctx['co_author_voice']}\n")
+        crush_block = ""
+        if ctx["crush_text"]:
+            crush_block = f"\nQUIRK — the Archive's coverage of Silas Fairbanks: {ctx['crush_text']}\n"
+        dm_block = ""
+        if ctx["dm_notes"]:
+            dm_block = f"\nDM DIRECTIVE FOR THIS SESSION (one-off, follow it): {ctx['dm_notes']}\n"
+        return f"""
+
+## Author Persona & Publication Storyline (CRITICAL)
+This recap appears in "{ctx['publication']}", the in-world publication behind these
+session notes. It is written in-character by a fictional staff writer. The persona
+layer affects VOICE, the byline, and editorial notes ONLY — never invent, omit, or
+distort actual session events, and never let the meta-narrative displace the recap
+itself. The session's story always comes first; the publication's story lives in the
+margins.
+
+CURRENT AUTHOR: {ctx['author_name']} (signature {ctx['signature']})
+Voice: {ctx['author_voice']}
+{co_author_block}
+STORYLINE BEAT ({ctx['beat_id']}): {ctx['directive']}
+{crush_block}
+BYLINE: the line immediately after the ***Date*** line must be exactly:
+*{ctx['byline']}*
+
+EDITORIAL NOTES CONVENTION: {ctx['editorial_notes'] or 'None this session.'}
+Editorial notes are italic blockquotes placed between narrative sections, each ending
+with the writer's signature, e.g.:
+> *One notes the author's fondness for cataloguing what could simply be felt. — P.A.*
+Notes comment on the WRITING and on each other — they never contradict or alter the
+recorded events themselves.{dm_block}"""
 
     def build_generation_prompt(self, transcript_content, session_number, is_interlude, dry_run=False):
         """Build the user-facing prompt for recap generation.
@@ -522,6 +705,10 @@ Given the following session recap, extract:
 3. Any changes to Character Status
 4. Any new callback opportunities or unresolved hooks
 
+Ignore any byline, editor's note, or publication-meta content in the recap (the notes
+are framed as an in-world publication with fictional staff writers) — record only
+in-world campaign events.
+
 SESSION {session_number} RECAP:
 {recap_text[:12000]}
 
@@ -551,7 +738,7 @@ Respond in this EXACT format (no other text):
                 max_tokens=2048,
                 timeout=180,
             )
-        except (anthropic.APIError, CLIError) as e:
+        except (anthropic.APIError, CLIError, EmptyResponseError) as e:
             print(f"  Warning: campaign state update call failed ({e}); state left unchanged")
             return
 
@@ -580,6 +767,57 @@ Respond in this EXACT format (no other text):
     #  Main generation flow                                                #
     # ------------------------------------------------------------------ #
 
+    @staticmethod
+    def _strip_code_fence(text):
+        """Unwrap model output enclosed in a markdown code fence.
+
+        The local `claude` CLI backend sometimes wraps the entire recap in
+        ```markdown ... ```, which would ship a broken page and defeats
+        frontmatter detection in _apply_publication_metadata().
+        """
+        m = re.match(r"^\s*```[\w-]*\n(.*?)\n?```\s*$", text, re.S)
+        return m.group(1) + "\n" if m else text
+
+    def _apply_publication_metadata(self, recap_text, persona_ctx):
+        """Deterministically stamp persona metadata onto a generated recap.
+
+        The model writes the whole file, frontmatter included, and cannot be
+        trusted to emit every requested key (session 57 dropped
+        `podcastlink` despite instructions). So the prompt *asks* for the
+        byline and this post-processor *guarantees* it, along with
+        `author:`/`beat:` frontmatter keys. No-op when the persona layer is
+        off.
+        """
+        if not persona_ctx:
+            return recap_text
+
+        # Frontmatter: replace any model-emitted author/beat keys with the
+        # authoritative values from the resolved context.
+        fm_match = re.match(r"^---\n(.*?\n)---", recap_text, re.S)
+        if fm_match:
+            fm = fm_match.group(1)
+            fm = re.sub(r"^(author|beat):.*\n", "", fm, flags=re.M)
+            fm += f'author: "{persona_ctx["author_name"]}"\nbeat: "{persona_ctx["beat_id"]}"\n'
+            recap_text = f"---\n{fm}---" + recap_text[fm_match.end():]
+        else:
+            print("  Warning: no frontmatter block found; author/beat keys not injected")
+
+        # Byline: if the line after the first ***date*** line isn't the
+        # expected byline, insert it.
+        byline_line = f"*{persona_ctx['byline']}*"
+        if byline_line not in recap_text:
+            lines = recap_text.split("\n")
+            for i, line in enumerate(lines):
+                if re.match(r"^\*\*\*.+\*\*\*\s*$", line):
+                    lines.insert(i + 1, f"\n{byline_line}")
+                    recap_text = "\n".join(lines)
+                    print(f"  Byline inserted after date header ({persona_ctx['author_name']})")
+                    break
+            else:
+                print("  Warning: no ***date*** line found; byline not inserted")
+
+        return recap_text
+
     def generate_recap(self, transcript_path, session_number, is_interlude, timeout_minutes=10):
         """Generate the session recap using the Anthropic API."""
         print("\n" + "=" * 60)
@@ -597,7 +835,10 @@ Respond in this EXACT format (no other text):
         # Build prompts. Exclude this session's own (still-placeholder) file
         # from the style-reference lookup — see get_recent_sessions().
         own_filename = f"{'interlude' if is_interlude else 'session'}-{session_number}.md"
-        system_prompt = self.build_system_prompt(exclude_filename=own_filename)
+        persona_ctx = self.resolve_publication_context(session_number, is_interlude)
+        if persona_ctx:
+            print(f"  Publication beat: {persona_ctx['beat_id']} — author: {persona_ctx['author_name']}")
+        system_prompt = self.build_system_prompt(exclude_filename=own_filename, persona_ctx=persona_ctx)
         user_prompt = self.build_generation_prompt(transcript_content, session_number, is_interlude)
 
         print(f"  System prompt: {len(system_prompt):,} chars")
@@ -616,7 +857,10 @@ Respond in this EXACT format (no other text):
                 model=GENERATION_MODEL,
                 system=system_prompt,
                 messages=[{"role": "user", "content": user_prompt}],
-                max_tokens=8192,
+                # Headroom: max_tokens caps thinking + response text together,
+                # and Sonnet 5 thinks by default, so the old 8192 left the
+                # recap itself at risk of truncation.
+                max_tokens=16000,
                 timeout=timeout_minutes * 60,
             )
             elapsed = time.time() - start_time
@@ -624,9 +868,14 @@ Respond in this EXACT format (no other text):
         except anthropic.APITimeoutError:
             print(f"  Error: API call timed out after {timeout_minutes} minutes")
             return False
-        except (anthropic.APIError, CLIError) as e:
+        except (anthropic.APIError, CLIError, EmptyResponseError) as e:
             print(f"  Error: generation call failed: {e}")
             return False
+
+        # Unwrap any code fence, then stamp persona metadata
+        # (author/beat frontmatter, byline fallback).
+        recap_text = self._strip_code_fence(recap_text)
+        recap_text = self._apply_publication_metadata(recap_text, persona_ctx)
 
         # Write the recap file.
         filename = own_filename
@@ -701,7 +950,10 @@ Respond in this EXACT format (no other text):
             # Just save the prompt without calling API.
             transcript_content = self._load_file(latest_transcript)
             user_prompt = self.build_generation_prompt(transcript_content, session_number, is_interlude, dry_run=True)
-            system_prompt = self.build_system_prompt(exclude_filename=filename)
+            persona_ctx = self.resolve_publication_context(session_number, is_interlude)
+            if persona_ctx:
+                print(f"  Publication beat: {persona_ctx['beat_id']} — author: {persona_ctx['author_name']}")
+            system_prompt = self.build_system_prompt(exclude_filename=filename, persona_ctx=persona_ctx)
             prompt_file = self.project_root / "scripts" / "last_claude_prompt.txt"
             prompt_file.write_text(f"SYSTEM:\n{system_prompt}\n\nUSER:\n{user_prompt}", encoding="utf-8")
             print(f"\n  Prompt saved to {prompt_file}")
