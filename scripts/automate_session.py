@@ -62,6 +62,13 @@ GENERATION_MODEL = "claude-sonnet-5"
 CHUNK_SIZE = 55_000       # Each chunk sent for summarisation.
 MAX_DIRECT_CHARS = 60_000 # Transcripts below this are sent whole (no pre-summary).
 
+# Returned by run_automation() when no new .srt is waiting to be processed.
+# This is a no-op, not a failure: the generator consumes (deletes) each SRT it
+# processes, so an empty transcripts_raw/ is the normal resting state. A re-run
+# in that state has nothing to generate but must still exit 0, so the workflow
+# goes on to build and deploy whatever is already committed.
+NOTHING_TO_DO = "nothing-to-do"
+
 
 class SessionAutomation:
     def __init__(self, project_root, use_local_cli=False):
@@ -79,13 +86,19 @@ class SessionAutomation:
             print("  Backend: direct Anthropic API — billed per-token against ANTHROPIC_API_KEY")
 
     def find_latest_srt(self):
-        """Find the most recent .srt file in transcripts_raw/"""
+        """Find the most recent .srt file in transcripts_raw/.
+
+        Returns None when nothing is waiting — either because the directory is
+        absent or because it holds no .srt files. Neither is an error: the
+        generator deletes each SRT once processed, so both states just mean
+        there is no new transcript to turn into a recap.
+        """
         if not self.raw_dir.exists():
-            print(f"Error: transcripts_raw directory not found at {self.raw_dir}")
+            print(f"  No transcripts_raw directory at {self.raw_dir}")
             return None
         srt_files = list(self.raw_dir.glob("*.srt"))
         if not srt_files:
-            print(f"Error: No .srt files found in {self.raw_dir}")
+            print(f"  No .srt files waiting in {self.raw_dir}")
             return None
         srt_files.sort(key=lambda x: x.stat().st_mtime, reverse=True)
         return srt_files[0]
@@ -905,7 +918,10 @@ Respond in this EXACT format (no other text):
             print("\n[Step 1/3] Finding and cleaning transcript...")
             srt_file = self.find_latest_srt()
             if not srt_file:
-                return False
+                print("\nNothing to generate: no new .srt transcript is waiting.")
+                print("  Drop one in transcripts_raw/ to create a recap, or pass "
+                      "--no-clean to regenerate from the existing cleaned transcript.")
+                return NOTHING_TO_DO
             if not self.run_transcript_cleaner(srt_file):
                 return False
         else:
@@ -983,14 +999,18 @@ def main():
     project_root = script_dir.parent
 
     automation = SessionAutomation(project_root, use_local_cli=args.local)
-    success = automation.run_automation(
+    result = automation.run_automation(
         session_number=args.session_number,
         is_interlude=args.interlude,
         skip_cleaning=args.no_clean,
         invoke_api=not args.no_generate,
         timeout_minutes=args.timeout,
     )
-    sys.exit(0 if success else 1)
+    # "Nothing to do" exits 0 so a re-run with no waiting transcript still lets
+    # the workflow build and deploy; only real failures exit non-zero.
+    if result == NOTHING_TO_DO:
+        sys.exit(0)
+    sys.exit(0 if result else 1)
 
 
 if __name__ == "__main__":

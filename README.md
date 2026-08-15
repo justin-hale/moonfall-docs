@@ -91,6 +91,13 @@ You can also trigger session generation manually from the **Actions** tab:
 3. Optionally specify a session number or mark it as an interlude
 4. Click **Run workflow** to start
 
+The generator deletes each `.srt` once it has processed it, so `transcripts_raw/`
+is normally empty. Re-running the workflow in that state is a safe no-op: it
+skips generation and goes straight to building and deploying whatever is already
+committed — useful for publishing a session whose earlier run failed at the build
+step. To regenerate a recap from an already-cleaned transcript, run the script
+locally with `--no-clean`.
+
 ### Running Locally
 
 ```bash

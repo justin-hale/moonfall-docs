@@ -1,0 +1,6 @@
+# Drop .srt transcripts here to trigger the Generate Session Notes workflow.
+#
+# This file keeps the directory present in every checkout. The generator
+# deletes each .srt once it has been processed, and git does not track empty
+# directories -- without this placeholder the directory would vanish from the
+# repo after every successful run, breaking later runs of the pipeline.

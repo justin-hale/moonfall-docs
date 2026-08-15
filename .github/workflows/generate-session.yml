@@ -80,7 +80,14 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/sessions/ docs/transcripts/ transcripts_raw/ data/campaign-state.md
+          # Stage everything the generator touches. The stats dataset and
+          # personality cache are rebuilt mid-job; leaving them unstaged left
+          # them stale on main, which failed the Stats & Build Check staleness
+          # gate on every PR opened afterwards.
+          git add docs/sessions/ docs/transcripts/ transcripts_raw/ \
+                  data/campaign-state.md data/personality-cache/ \
+                  data/session-stats.json data/session-stat-blocks.json \
+                  static/data/session-stats.csv
           if git diff --cached --quiet; then
             echo "No changes to commit"
             echo "has_changes=false" >> "$GITHUB_OUTPUT"
