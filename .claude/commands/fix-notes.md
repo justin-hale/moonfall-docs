@@ -1,6 +1,6 @@
 ---
 description: Correct a published session recap against the transcript, in the Chronicle's persona voice
-argument-hint: <session number> — <what is wrong>
+argument-hint: [page URL or session number] — [what is wrong]
 allowed-tools: Read, Edit, Write, Grep, Glob, Bash
 ---
 
@@ -13,9 +13,40 @@ signed correction notice in the recap's own voice.
 
 **Correction request:** $ARGUMENTS
 
-If the request does not name a session, ask which one before doing anything else.
+If the request does not identify a page, ask which one before doing anything else.
 
 ---
+
+## 0. Resolve the page
+
+The request usually arrives as a link copied from the live site, because that is
+where the error was spotted:
+
+    /fix-notes https://moonfallsessions.com/sessions/session-59/ — Ben Boulage was an NPC, not Olivia's alias
+
+Every doc renders at its own path, so the **last path segment is the filename
+stem**. Strip the origin and any trailing slash, take that segment, and open the
+matching `.md` under the directory the URL names:
+
+| Request | File |
+|---|---|
+| `https://moonfallsessions.com/sessions/session-59/` | `docs/sessions/session-59.md` |
+| `/sessions/interlude-12/` | `docs/sessions/interlude-12.md` |
+| `https://moonfallsessions.com/npcs/chalk-rock/` | `docs/npcs/chalk-rock.md` |
+| `59` | `docs/sessions/session-59.md` |
+| `interlude 12` | `docs/sessions/interlude-12.md` |
+
+A bare number always means a session, never an interlude — interludes have their
+own numbering sequence and must be named as such.
+
+Confirm the file exists before going further. If it does not, do not guess at a
+near miss: `ls docs/sessions/` and ask.
+
+A URL outside `docs/sessions/` (an NPC, location, or organization page) is still
+correctable — fix it and log it — but it has no transcript of its own and no
+byline, so steps 1 and 3 change: verify the claim against the transcript of the
+session that established it, and skip the persona notice entirely. Character and
+location pages are not published by the Chronicle and carry no correction notices.
 
 ## 1. Establish what actually happened
 
@@ -23,17 +54,16 @@ The transcript is the only source of truth. The recap, `data/campaign-state.md`,
 and your own memory of the session are all downstream of it and can all be wrong
 in the same way.
 
-1. Find the session file: `docs/sessions/session-N.md` (or `interlude-N.md`).
-2. Find its transcript. Match `date:` in the frontmatter against
+1. Find the session's transcript. Match `date:` in the frontmatter against
    `docs/transcripts/YYYY-MM-DD.md`. **If no transcript carries that date, the
    date itself is suspect** — grep the transcripts for a distinctive proper noun
    from the recap (an NPC name, a location, a running joke) to find the real one,
    and correct the `date:` field and the `***Month D, YYYY***` line to match.
-3. Grep the transcript for the disputed detail and read the surrounding 100–200
+2. Grep the transcript for the disputed detail and read the surrounding 100–200
    lines. The transcripts are speech-to-text with overlapping speakers: names are
    mangled, lines interleave, and a single sentence may be split across four
    turns by two people. Read enough context to be sure who was speaking.
-4. Check `data/campaign-kb.md` for the canonical spelling of every name involved
+3. Check `data/campaign-kb.md` for the canonical spelling of every name involved
    and for the known-transcription-errors table.
 
 **Do not correct anything you could not confirm in the transcript.** If the
