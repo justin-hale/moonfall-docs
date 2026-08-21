@@ -184,7 +184,7 @@ The party reunites with George, Olivia's grandson, who reveals months of underco
 
 
 **Session 59** – The Hairy Monkey Gambit
-The party disguises itself to scout the Eldoran spaceport factory ahead of the three-pronged sabotage strike. Silas infiltrates the control room with exceptional stealth, Olivia establishes contact with inside man Bon Bonnery through an elaborate cover date, and Bru's Colonel Sanders persona charms the Hairy Monkey restaurant staff into cooperation. The team identifies the overseer's key location but alerts the overseer when attempting to drug his beer; the group retreats to finalize plans for simultaneous detonation across all three targets.
+The party disguises itself to scout the Eldoran spaceport factory ahead of the three-pronged sabotage strike. Ben Boulage, the private detective handling the meet, disguises himself as a blonde woman and runs a cover date with inside man Bon Bonnery while Silas and Olivia eavesdrop from the next table; Bru's Colonel Sanders persona charms the Hairy Monkey restaurant staff into cooperation, and Silas later infiltrates the control room with exceptional stealth. The team identifies the overseer's key location but alerts the overseer when attempting to drug his beer; the group retreats to finalize plans for simultaneous detonation across all three targets.
 
 ## Active Plot Threads
 
@@ -423,7 +423,7 @@ Silas's connection to the Sisyphus Circle is known, but his full backstory remai
 #### Session 59 Updates
 - **Silas Fairbanks**: Demonstrated exceptional infiltration skills (stealth check 32, perception check 26); executed acrobatic leap onto moving foreman's pod; established pattern of near-flawless reconnaissance performance.
 - **Bru**: Full commitment to Colonel Sanders disguise throughout session; leveraged theatrical persona to gain Harry's favor and secure restaurant cooperation; asserted professional expertise in bomb-making over Victor's methods.
-- **Olivia Cooper**: Successfully executed "Ben Boulage" retired-detective persona to extract factory intelligence through elaborate cover courtship with Bon Bonnery; maintains seamless operation under false identity.
+- **Olivia Cooper**: Worked the Hairy Monkey undisguised alongside Silas, collecting the factory intelligence Ben Boulage drew out of Bon Bonnery from an adjacent table; disguised as Wendy to front the fast-food delivery cover at the factory gate. Noted as the physically strongest of the three present.
 
 ## Key Callbacks & Unresolved Hooks
 
@@ -474,5 +474,6 @@ Silas's connection to the Sisyphus Circle is known, but his full backstory remai
 #### Session 59 Updates
 - **Victor's Design Notes**: Bru's rejection of Victor's timer-based detonators in favor of synchronized remotes may strain working relationship or require future reconciliation of methods.
 - **The Overseer's Alertness**: Overseer now suspicious of disturbance in control room; security posture may be heightened for remaining infiltration phases; timing of final operation critical.
-- **Bon Bonnery's Intelligence**: Inside contact successfully provided factory floor information; relationship established; potential asset for ongoing operations or future contact.
+- **Bon Bonnery's Intelligence**: Inside contact provided factory floor information (warded furnace, wandering overseer, magical key) to Ben Boulage over a cover date; relationship established through Boulage rather than directly with the party; potential asset for ongoing operations or future contact.
+- **Ben Boulage**: Private detective and party contact who arranged the Bon Bonnery meet, ran the cover date, and departed with Bonnery afterward. Uses disguise as "standard cover" for his business. Available as a future intermediary.
 - **Harold and Monkey (Hairy Monkey Restaurant)**: Established friendly contact; Harry's approval of party and willingness to assist suggests potential safe house or supply location in harbor district.

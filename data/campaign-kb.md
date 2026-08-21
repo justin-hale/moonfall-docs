@@ -41,6 +41,8 @@ Christopher "Topher" Hooper (Google Meet: Christopher Hooper). Sometimes players
 | Helja Ungar | Iron Claws leader (deceased Session 36) | helja-ungar.md | |
 | Zeke | Suspected assassin, murdered Red's adoptive parents | zeke.md | |
 | George | Olivia's nephew, dimensional rift investigator | george.md | |
+| Ben Boulage | Private detective, party contact in the Eldoran capital; arranged the Bon Bonnery meet (Session 59). Disguises himself as a blonde woman as "standard cover" | — | "Bin Bullage", "Bim Bulage", "Ben Bulage" |
+| Bon Bonnery | Actor and inside man at the Eldoran spaceport factory (Session 59) | — | "Bon Bonner", "Bon Boner", "Pon Poty" |
 | April Bonal | Chemist, escaped captive | april-bonal.md | |
 | Scarlet | Keeper of the pocket village capsule | — | |
 | Elder Ragar | Goliath elder, Skyhammer Clan leader | elder-ragar.md | |
@@ -76,6 +78,9 @@ These are systematic speech-to-text mistakes that appear in generated notes:
 | Alexandra Lrange | Elizandra Legrand | Lady Viper's real name |
 | Alexandra Lrron | Elizandra Legrand | Lady Viper's real name (variant transcription) |
 | Lrange | Elizandra Legrand | Lady Viper's real name (variant transcription) |
+| Bin Bullage / Bim Bulage / Ben Bulage | Ben Boulage | NPC private detective — party contact in the Eldoran capital |
+| Bon Bonner / Bon Boner / Pon Poty | Bon Bonnery | NPC actor — inside man at the spaceport factory |
+| Tyram | Taylor Ramsey | Google Meet name — never print the Meet handle in a recap |
 
 ## Active Plot Threads
 - **Astro**: Dragon imprisoned in Raingoth (Silas's orb). Silas attempting dialogue. Bru unknowingly carries the orb (dragon scent). Others speaking to Astro through other orbs.
@@ -89,6 +94,17 @@ These are systematic speech-to-text mistakes that appear in generated notes:
 ## Session Correction Log
 
 Corrections applied via `/fix-notes` are logged here for pattern detection.
+
+### Session 59 (2026-08-14)
+- Fixed: "Ben Boulage" misidentified as Olivia's alias → Boulage is a DM-run NPC private detective; the blonde-woman disguise, the cover date with Bon Bonnery, and the extracted intelligence are all his [user-reported]
+- Fixed: Olivia's actual role at the Hairy Monkey → seated at an adjacent table with Silas, undisguised, eavesdropping
+- Added: Olivia's only Session 59 disguise — Wendy, fronting the fast-food delivery cover at the factory gate (Silas rode Bru's shoulders as a full-height Colonel Sanders)
+- Fixed: "Brew" → "Bru" inside a player quote [known transcription error]
+- Fixed: quote attributed to "Tyram" → "Taylor Ramsey" [Google Meet name leaked into the recap]
+- Fixed: session date 2026-08-28 → 2026-08-14 to match the source transcript
+- Added: Ben Boulage and Bon Bonnery to the NPC table and the transcription-error table
+
+**Pattern:** the generator conflates NPCs with PCs who share a profession. Olivia is a retired detective; Boulage is a private detective; the recap collapsed them into one person. When a recap credits a PC with an action, confirm the PC's *player* was in the room for it — Ellis Taylor did not speak until well after this scene, and the DM was voicing Olivia throughout.
 
 ### Session 47 (2026-03-27)
 - Fixed: "Brew" → "Bru" throughout (3 instances) [user-reported transcription error]

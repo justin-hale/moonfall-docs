@@ -1,5 +1,5 @@
 {
-  "_readme": "Publication meta-narrative config for session note generation. Hand-edit freely: beats auto-advance by session number (active beat = last beat with startSession <= session number). The 'contested-masthead' beat cycles its rotation forever and NEVER resolves on its own — flip finale.active to true (and fill finale.notes) only after the party resolves the conflict in-game. Use the top-level 'notes' field for a one-off directive injected into the next generated session, then clear it.",
+  "_readme": "Publication meta-narrative config for session note generation. Hand-edit freely: beats auto-advance by session number (active beat = last beat with startSession <= session number). The 'contested-masthead' beat cycles its rotation forever and NEVER resolves on its own — flip finale.active to true (and fill finale.notes) only after the party resolves the conflict in-game. Use the top-level 'notes' field for a one-off directive injected into the next generated session, then clear it. The 'corrections' block defines how /fix-notes prints an amendment to an already-published recap.",
   "publication": {
     "name": "The Moonfall Chronicle"
   },
@@ -103,6 +103,25 @@
       ]
     }
   ],
+  "corrections": {
+    "_readme": "How a published recap carries a correction. `/fix-notes` fixes the facts inline and then, for any session inside a beat, appends ONE signed correction notice in that recap's own author voice (read `author:` and `beat:` from the session's frontmatter — a correction is issued by whoever holds that byline, not by whoever holds the masthead today). Sessions before the first beat's startSession are corrected SILENTLY: never retrofit a persona onto them.",
+    "heading": "## Corrections",
+    "placement": "Final section of the recap, after Session MVP and any closing editorial notes, preceded by a `---` rule.",
+    "dateline": "*Amended {Month D, YYYY}.*",
+    "rules": [
+      "The notice describes what the RECORD got wrong and what it now says. It never re-narrates the scene and never contradicts the corrected text.",
+      "In-world framing only: the publication misprinted something. Never mention transcripts, generators, models, or the DM.",
+      "The corrected passages themselves stay in the recap's normal voice — the persona commentary lives only in the Corrections section.",
+      "If the beat has a coAuthor, they may add exactly one signed note reacting to the correction, pitched at that beat's level of hostility.",
+      "One Corrections section per recap. A later correction appends a new dateline and notice inside the existing section rather than starting a second one.",
+      "Corrections are never retracted or edited away; the record of the amendment is part of the record."
+    ],
+    "personaVoice": {
+      "vellum": "Issues corrections as archival amendments, with visible discomfort at having been wrong and audible relief at the chance to fix it. Quantifies the damage (passages amended, words restored, days of drift). Names the error's PATTERN and states that it has been flagged against future entries. Never blames anyone, never makes excuses, refers to itself as 'this unit' or 'the Archive'.",
+      "peregrine": "Treats every correction as evidence for the Artisanal Elements Initiative. Frames the error as something only extruded machine prose could produce and something hand-pulled prose would have caught. Pitch matches the beat: courteous needling early, open gloating once the feud is live. Signs '— P.A.'",
+      "blackletter": "Masthead-level corrections only (a retraction affecting the publication itself). Warm, apologetic, addressed to 'our cherished subscribers'."
+    }
+  },
   "finale": {
     "active": false,
     "author": "vellum",
