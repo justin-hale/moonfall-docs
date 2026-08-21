@@ -182,6 +182,10 @@ Leliana learns the truth about her identity: she and Helisanna were never two pe
 **Session 58** – The Sexy Peacock Conspiracy
 The party reunites with George, Olivia's grandson, who reveals months of undercover infiltration within the city guard on behalf of the Twilight Company. Magic-detecting helmets force a rooftop escape from the Sexy Peacock inn, after which the group establishes itself in Toothy's safehouse to plan three simultaneous sabotage operations against the Golden Empire: a factory, a research facility, and the barracks.
 
+
+**Session 59** – The Hairy Monkey Gambit
+The party disguises itself to scout the Eldoran spaceport factory ahead of the three-pronged sabotage strike. Silas infiltrates the control room with exceptional stealth, Olivia establishes contact with inside man Bon Bonnery through an elaborate cover date, and Bru's Colonel Sanders persona charms the Hairy Monkey restaurant staff into cooperation. The team identifies the overseer's key location but alerts the overseer when attempting to drug his beer; the group retreats to finalize plans for simultaneous detonation across all three targets.
+
 ## Active Plot Threads
 
 ### 1. The Death-Game in the Eldoran Empire
@@ -223,6 +227,12 @@ Silas's connection to the Sisyphus Circle is known, but his full backstory remai
 - **Commander Steel**: Located at university research facility; confirmed as Leliana's brother's killer; now a primary mission target alongside facility sabotage.
 - **Leliana Identity**: Formally adopts "Anna" as compromise name honoring both Helisanna and Leliana halves of her identity.
 - **The Bradicus Death-Games**: Finale broadcast aired during session; noted as propaganda entertainment; reinforces regime's public control mechanisms.
+
+
+#### Session 59 Updates
+- **Three Sabotage Operations**: Advanced from planning to active reconnaissance phase; factory layout and security measures now mapped; decision made to plant all bombs and trigger simultaneously rather than staggered detonations to avoid heightened security response.
+- **Spaceport Factory Target**: Control room secured by magically warded door requiring overseer's key; furnace identified as primary objective; security monitored via bank of screens; overseer now aware of intrusion attempt (though cover not blown).
+- **Bomb Selection**: Bru's synchronized remote detonators chosen over Victor's timer-based designs; professional confidence in Bru's superior craftsmanship established.
 
 ## Character Status
 
@@ -409,6 +419,12 @@ Silas's connection to the Sisyphus Circle is known, but his full backstory remai
 - **Olivia Cooper**: Emotional tension between maternal fear for George's safety and pride in his resistance work; remains steadfast support for operation planning.
 - **Leliana/Anna**: Settled on unified identity name; maintains focus on Commander Steel as personal vengeance target merged with operational objectives.
 
+
+#### Session 59 Updates
+- **Silas Fairbanks**: Demonstrated exceptional infiltration skills (stealth check 32, perception check 26); executed acrobatic leap onto moving foreman's pod; established pattern of near-flawless reconnaissance performance.
+- **Bru**: Full commitment to Colonel Sanders disguise throughout session; leveraged theatrical persona to gain Harry's favor and secure restaurant cooperation; asserted professional expertise in bomb-making over Victor's methods.
+- **Olivia Cooper**: Successfully executed "Ben Boulage" retired-detective persona to extract factory intelligence through elaborate cover courtship with Bon Bonnery; maintains seamless operation under false identity.
+
 ## Key Callbacks & Unresolved Hooks
 
 ### Unresolved Plot Threads
@@ -453,3 +469,10 @@ Silas's connection to the Sisyphus Circle is known, but his full backstory remai
 - **Toothy's Safehouse**: Church-converted community safe house at 238 on western hill overlooking barracks, spaceport, and Guilded Esplanade; scheduled meal times (7:00 a.m. wake-up, 7:30 breakfast) suggest ongoing resistance infrastructure.
 - **Three Sabotage Targets**: Party committed to scouting, gathering intelligence, and designing entry/exit strategies with civilian evacuation plans—unresolved operational details for coming sessions.
 - **Additional Resistance Support**: Party promised additional help arriving after breakfast at safehouse; identity and capabilities unknown.
+
+
+#### Session 59 Updates
+- **Victor's Design Notes**: Bru's rejection of Victor's timer-based detonators in favor of synchronized remotes may strain working relationship or require future reconciliation of methods.
+- **The Overseer's Alertness**: Overseer now suspicious of disturbance in control room; security posture may be heightened for remaining infiltration phases; timing of final operation critical.
+- **Bon Bonnery's Intelligence**: Inside contact successfully provided factory floor information; relationship established; potential asset for ongoing operations or future contact.
+- **Harold and Monkey (Hairy Monkey Restaurant)**: Established friendly contact; Harry's approval of party and willingness to assist suggests potential safe house or supply location in harbor district.

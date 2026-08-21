@@ -1,0 +1,94 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-08-14",
+  "model": "claude-haiku-4-5",
+  "players": {
+    "Topher": {
+      "scores": {
+        "chaos": 15,
+        "heroism": 8,
+        "comedy": 18,
+        "immersion": 19,
+        "strategy": 12,
+        "curiosity": 11
+      },
+      "evidence": {
+        "chaos": "Um, okay, so you want to come with me or not? All right. Hey, but seriously, get out of the sidewalk or I'll push you in the road.",
+        "heroism": "I think we're ready. Let's head inside.",
+        "comedy": "And she uh and then from her other hand, she she pulls out her taser and she tases you. Poor blime me. Why you t me like that? You said you were fine with it.",
+        "immersion": "Ben Bouage, he didn't used to drink when he was a boy because it was illegal. But when he was of age, he started drinking as one does.",
+        "strategy": "Well, we got to you've got to get to the furnace room. That's where you've got to set the explosives. But it's got a magical lock.",
+        "curiosity": "I think that it is uh your characters have never seen this level of technology before. This is this far exceeds anything that any of where you've grown up uh looks like."
+      }
+    },
+    "Silas": {
+      "scores": {
+        "chaos": 8,
+        "heroism": 12,
+        "comedy": 14,
+        "immersion": 16,
+        "strategy": 17,
+        "curiosity": 13
+      },
+      "evidence": {
+        "chaos": "I think in Olivia and Ruth, this is deeply uncomfortable.",
+        "heroism": "if we can steal it without tipping him off, we should do that whenever the opportunity presents itself.",
+        "comedy": "She's really learning the ropes. She's got a lot of potential. Well, you know what? That's exactly what I expect from the Cooper family. Some cultural ignorance about goblins.",
+        "immersion": "I psychic phone with the other two. Oh, looks like we got an amateur detective. Hope he doesn't slow us down here.",
+        "strategy": "I feel like the ideal way for us to go about like blowing up the sites is we can find a way to do them all simultaneously. That way they don't like heighten security at the ones that we don't hit first.",
+        "curiosity": "Okay. So, I got him stashed in the the pee hole. Hey, do we have like a like a lead box I could put the pee hole in so I could carry it around and not get like uh not to have it trip the little detection sweeps?"
+      }
+    },
+    "Bru": {
+      "scores": {
+        "chaos": 12,
+        "heroism": 10,
+        "comedy": 16,
+        "immersion": 14,
+        "strategy": 15,
+        "curiosity": 9
+      },
+      "evidence": {
+        "chaos": "A fully bearded child. What is the problem? Yeah, of course.",
+        "heroism": "I hold his hand.",
+        "comedy": "What in the same heck? I don't know. That's the best I got. I feel like it's just going to come out Australian at this point.",
+        "immersion": "What? Yeah, I'm I'm like chronically on the phone, I guess.",
+        "strategy": "We have we have to look like we have to look like Colonel Sanders the taller and del and deliver because we have to deliver the lunch which I completely forgot what the lunch was.",
+        "curiosity": "Can you give us a minute to look at the menu? Uh, Bru is going to be a carbon copy of what Silus looks like, except for in a Colonel Sanders suit."
+      }
+    },
+    "Olivia": {
+      "scores": {
+        "chaos": 6,
+        "heroism": 11,
+        "comedy": 9,
+        "immersion": 10,
+        "strategy": 9,
+        "curiosity": 10
+      },
+      "evidence": {
+        "chaos": "No. No. There's no sex happening in the room then I. All right. Sure.",
+        "heroism": "We both do it. Back in the pee hole and let Silas sticky his way down to the door.",
+        "comedy": "I muted too aggressively. What psychopath turns on the light at night? I want to go back to sleep.",
+        "immersion": "Okay, I'm frozen. Okay, we're better. He does like scissors every single time. So she's just like, Sure. Paper, paper,",
+        "strategy": "We were talking about also planting the bombs and then detonating them all at once, I think is more what we were talking about instead of blowing up one at a time.",
+        "curiosity": "Okay. Huh? Inside what? All right. Can we like sneak around the other side to see the cover?"
+      }
+    }
+  },
+  "superlatives": {
+    "mvp": {
+      "player": "Silas",
+      "quote": "you um you very carefully set it down. It's not silent. It's not silent and you and then you use something. It's it's a it's hard work, right? as you then try to like sweep objects to sweep the the the crushed up pills into the beer."
+    },
+    "best_joke": {
+      "player": "Topher",
+      "quote": "And she uh and then from her other hand, she she pulls out her taser and she tases you. Poor blime me. Why you t me like that?"
+    },
+    "most_chaotic": {
+      "player": "Bru",
+      "quote": "What in the same heck? I don't know. That's the best I got. I feel like it's just going to come out Australian at this point. A fully bearded child."
+    },
+    "decision_driver": "Silas"
+  }
+}
