@@ -2027,6 +2027,62 @@
         "nat1_mentions": 0
       },
       "superlatives": null
+    },
+    "session-59": {
+      "timing_quality": "exact",
+      "duration_seconds": 10752,
+      "word_count": 23578,
+      "players_present": [
+        "Bru",
+        "Silas",
+        "Olivia"
+      ],
+      "attendance_source": "transcript",
+      "speakers": [
+        {
+          "name": "Topher",
+          "role": "dm",
+          "word_share": 0.3886
+        },
+        {
+          "name": "Bru",
+          "role": "pc",
+          "word_share": 0.3059
+        },
+        {
+          "name": "Silas",
+          "role": "pc",
+          "word_share": 0.271
+        },
+        {
+          "name": "Olivia",
+          "role": "pc",
+          "word_share": 0.0344
+        }
+      ],
+      "top_npcs": {
+        "Bon Bonnery": 9,
+        "Victor": 8,
+        "Ben Boulage": 3
+      },
+      "fun": {
+        "nat20_mentions": 1,
+        "nat1_mentions": 0
+      },
+      "superlatives": {
+        "mvp": {
+          "player": "Silas",
+          "quote": "you um you very carefully set it down. It's not silent. It's not silent and you and then you use something. It's it's a it's hard work, right? as you then try to like sweep objects to sweep the the the crushed up pills into the beer."
+        },
+        "best_joke": {
+          "player": "Topher",
+          "quote": "And she uh and then from her other hand, she she pulls out her taser and she tases you. Poor blime me. Why you t me like that?"
+        },
+        "most_chaotic": {
+          "player": "Bru",
+          "quote": "What in the same heck? I don't know. That's the best I got. I feel like it's just going to come out Australian at this point. A fully bearded child."
+        }
+      }
     }
   }
 }

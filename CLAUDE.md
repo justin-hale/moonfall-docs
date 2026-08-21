@@ -63,7 +63,16 @@ The session notes are framed as an in-world publication, *The Moonfall Chronicle
 - `data/campaign-state.md` and `data/campaign-kb.md` stay persona-neutral: record only in-world campaign events, never publication-meta content.
 - The writers' conflict NEVER resolves on its own — only the DM flipping `finale.active` in `data/publication-arc.json` (after the party resolves it in-game) ends it.
 
+## Correcting Published Notes
+Run `/fix-notes <page URL or session number> — <what is wrong>` (`.claude/commands/fix-notes.md`). Paste the link straight from the live site — the last path segment is the filename stem, so `https://moonfallsessions.com/sessions/session-59/` resolves to `docs/sessions/session-59.md`. The workflow is: verify against the transcript (the only source of truth), fix every place the error landed, print a signed correction notice in the recap's own persona voice, and propagate to `data/campaign-state.md` and `data/campaign-kb.md`.
+- The transcript decides. Never correct a detail you could not confirm in `docs/transcripts/` — ask instead.
+- A session's correction is issued by the persona in ITS `author:` frontmatter, not whoever holds the masthead now. Sessions with no `author:` predate the arc and are corrected silently.
+- Correction conventions (heading, placement, per-persona voice) live in the `corrections` block of `data/publication-arc.json`.
+- Every correction gets an entry in the Session Correction Log in `data/campaign-kb.md`, plus new rows in the NPC and transcription-error tables where applicable.
+- Corrections are never retracted or edited away — the amendment is part of the record.
+
 ## Commands
+- `/fix-notes <page URL or session number> — <what is wrong>` - Correct a published recap (see above)
 - `npm run build` - Build the Docusaurus site
 - `npm run start` - Start dev server
 - `python scripts/automate_session.py` - Generate session notes from transcript (also updates session stats)
