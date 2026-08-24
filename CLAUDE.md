@@ -21,6 +21,17 @@ When creating or editing session recaps, always:
 - Follow the format and style of existing sessions in `docs/sessions/`
 - Use the character roster in `data/campaign-kb.md` to map player names to character names
 
+## Generation Guardrails (automated)
+`scripts/recap_postprocess.py` runs after every generation and deterministically
+fixes what the model cannot know, because it kept inventing it (wrong dates on
+sessions 58 and 59, fabricated podcast URLs, "Brew" for Bru). Details in
+`scripts/README.md`.
+- The session **date** always comes from the transcript filename — never from the model. The stats extractor joins recaps to transcripts on it.
+- **podcastlink** is never model-authored. It is preserved from the page, so paste real episode URLs into the recap's frontmatter by hand.
+- The name rules below are enforced from the tables in `data/campaign-kb.md`, not just requested in the prompt — so a row added by `/fix-notes` protects every future recap.
+- Links to pages that do not exist are unwrapped to plain text.
+- A recap missing its frontmatter, its `Players Present`/`Plot Events` sections, or still holding template placeholders **fails the run** instead of publishing.
+
 ## Character Name Rules (CRITICAL)
 - Bru is ALWAYS "Bru", NEVER "Brew"
 - Elspeth is ALWAYS "Elspeth", NEVER "Ellsworth" or "Elizabeth"

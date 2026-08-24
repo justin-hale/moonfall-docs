@@ -99,3 +99,79 @@ def test_main_exit_code(monkeypatch, result, expected_code):
     with pytest.raises(SystemExit) as excinfo:
         auto.main()
     assert excinfo.value.code == expected_code
+
+
+# --------------------------------------------------------------------------- #
+#  Generation guardrails                                                       #
+# --------------------------------------------------------------------------- #
+
+GOOD_RECAP = '''---
+title: "59: The Hairy Monkey Gambit"
+date: 2026-08-28
+description: "A description."
+summary: "A summary."
+podcastlink: "https://creators.spotify.com/pod/show/topher-hooper/episodes/invented"
+---
+
+***August 28, 2026***
+
+## Players Present
+- **Taylor Ramsey** as Silas Fairbanks
+
+## Plot Events
+
+### Into the Furnace Factory
+''' + "Narrative filler. " * 40
+
+
+def test_date_from_transcript_uses_the_filename(automation):
+    assert automation.date_from_transcript(Path("docs/transcripts/2026-08-14.md")) == "2026-08-14"
+
+
+def test_date_from_transcript_falls_back_to_today(automation):
+    import datetime
+    assert (automation.date_from_transcript(Path("docs/transcripts/notes.md"))
+            == datetime.datetime.now().strftime("%Y-%m-%d"))
+
+
+def test_read_existing_podcast_link_when_there_is_no_page(automation):
+    assert automation.read_existing_podcast_link("session-99.md") == ""
+
+
+def test_read_existing_podcast_link_round_trips_through_the_template(automation):
+    """A link a human pasted in survives a regeneration, which overwrites the page."""
+    automation.sessions_dir.mkdir(parents=True)
+    (automation.sessions_dir / "session-59.md").write_text(
+        '---\ntitle: "59: x"\npodcastlink: "https://example.com/e59"\n---\n', encoding="utf-8")
+
+    link = automation.read_existing_podcast_link("session-59.md")
+    assert link == "https://example.com/e59"
+
+    _, template = automation.create_session_template(59, False, "2026-08-14", podcast_link=link)
+    assert 'podcastlink: "https://example.com/e59"' in template
+
+
+def test_guardrails_repair_the_date_and_drop_an_invented_podcast_link(automation):
+    (automation.project_root / "data").mkdir()
+    (automation.project_root / "data" / "campaign-kb.md").write_text("# empty\n", encoding="utf-8")
+
+    fixed, problems = automation._apply_generation_guardrails(GOOD_RECAP, "2026-08-14", "")
+
+    assert problems == []
+    assert "date: 2026-08-14" in fixed
+    assert "***August 14, 2026***" in fixed
+    assert 'podcastlink: ""' in fixed
+
+
+def test_guardrails_reject_a_recap_with_no_players_present(automation):
+    _, problems = automation._apply_generation_guardrails(
+        GOOD_RECAP.replace("## Players Present", "## Setting"), "2026-08-14", "")
+    assert any("Players Present" in p for p in problems)
+
+
+def test_guardrails_exempt_interludes_from_the_section_rules(automation):
+    _, problems = automation._apply_generation_guardrails(
+        GOOD_RECAP.replace("## Players Present", "## Session Overview")
+                  .replace("## Plot Events", "## The Oracle's Quest"),
+        "2026-08-14", "", is_interlude=True)
+    assert problems == []

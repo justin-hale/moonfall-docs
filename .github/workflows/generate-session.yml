@@ -75,6 +75,13 @@ jobs:
           fi
           python scripts/automate_session.py $ARGS
 
+      # Runs here rather than only inside `npm run build` below: the build
+      # happens after the commit step, so the refreshed index was never part
+      # of the commit and main was left with a sessions.json that did not list
+      # the session just generated (fixed by hand twice — see 9d5de14).
+      - name: Refresh the sessions index
+        run: npm run generate-sessions
+
       - name: Commit generated files
         id: commit
         run: |
@@ -87,7 +94,7 @@ jobs:
           git add docs/sessions/ docs/transcripts/ transcripts_raw/ \
                   data/campaign-state.md data/personality-cache/ \
                   data/session-stats.json data/session-stat-blocks.json \
-                  static/data/session-stats.csv
+                  static/data/session-stats.csv src/data/sessions.json
           if git diff --cached --quiet; then
             echo "No changes to commit"
             echo "has_changes=false" >> "$GITHUB_OUTPUT"
