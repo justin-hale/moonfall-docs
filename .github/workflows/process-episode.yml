@@ -57,8 +57,31 @@ jobs:
       - name: Install Python dependencies
         run: pip install google-api-python-client google-auth
 
+      # Was FedericoCarboni/setup-ffmpeg@v3, which downloads a build from an
+      # external host. On 2026-08-22 that download failed with
+      # `TypeError: fetch failed` ten seconds into the weekly run — before
+      # `Detect episode` ever ran, so Episode 60 was never pulled from Drive,
+      # never transcribed, and never opened its SRT PR. Everything downstream
+      # sat idle and nothing said why. Ubuntu's own package removes the
+      # third-party action and the external host along with it.
       - name: Setup ffmpeg
-        uses: FedericoCarboni/setup-ffmpeg@v3
+        run: |
+          if command -v ffmpeg >/dev/null && command -v ffprobe >/dev/null; then
+            echo "ffmpeg already present on the runner image."
+          else
+            for attempt in 1 2 3; do
+              if sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg; then
+                break
+              fi
+              echo "apt attempt $attempt failed; retrying" >&2
+              sleep $((attempt * 5))
+            done
+          fi
+          # ci_process.py extract encodes MP3 with libmp3lame. Fail here rather
+          # than an hour in, after the video has already been downloaded.
+          ffmpeg -hide_banner -encoders | grep -q libmp3lame
+          ffmpeg -version | head -1
+          ffprobe -version | head -1
 
       - name: Create workspace directory
         run: mkdir -p workspace
