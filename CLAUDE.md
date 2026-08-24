@@ -82,6 +82,13 @@ Run `/fix-notes <page URL or session number> — <what is wrong>` (`.claude/comm
 - Every correction gets an entry in the Session Correction Log in `data/campaign-kb.md`, plus new rows in the NPC and transcription-error tables where applicable.
 - Corrections are never retracted or edited away — the amendment is part of the record.
 
+## Publishing
+The live site is GitHub Pages, built from `main`. Two workflows deploy it:
+- **Generate Session Notes** (`generate-session.yml`) — fires when an `.srt` lands in `transcripts_raw/` on main. Generates, commits, builds, deploys, and posts to Discord. This is the new-session path.
+- **Deploy to GitHub Pages** (`deploy.yml`) — fires on any other push to main, and can be dispatched by hand. This is how corrections and manual edits reach readers; without it they sit on main unpublished.
+
+A merge to main is therefore live within a few minutes. Nothing needs to be deployed by hand.
+
 ## Commands
 - `/fix-notes <page URL or session number> — <what is wrong>` - Correct a published recap (see above)
 - `npm run build` - Build the Docusaurus site

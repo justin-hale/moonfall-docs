@@ -1,6 +1,24 @@
 name: Deploy to GitHub Pages
 
 on:
+  # Any push to main publishes. Until now this was workflow_dispatch only, so
+  # the only content that reached the site automatically was a new session —
+  # Generate Session Notes builds and deploys its own commit. Everything else
+  # (a /fix-notes correction, a hand edit, a new NPC or location page) sat on
+  # main unpublished until someone remembered to dispatch this by hand. The
+  # Session 59 corrections in #35 reached readers only because someone did.
+  #
+  # This does not double-deploy the automated session commit: that push is made
+  # with GITHUB_TOKEN, and GitHub does not start new workflow runs from events
+  # its own token triggers.
+  #
+  # Deliberately unfiltered by path. A paths: list would be cheaper, but
+  # forgetting an entry there reintroduces exactly the silent
+  # never-publishes bug this is fixing; a redundant three-minute build is the
+  # better failure.
+  push:
+    branches:
+      - main
   workflow_dispatch:
 
 permissions:
