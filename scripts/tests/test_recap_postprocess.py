@@ -3,11 +3,11 @@
 Run with:  python -m pytest scripts/tests/ -q
 
 These pin the rule that the model does not get to author facts it cannot
-know. Sessions 57, 58 and 59 each shipped with something invented — a missing
-podcastlink, a date copied from another session, a fabricated Spotify URL, a
-future date, "Brew" for Bru, a Google Meet handle in a quote attribution — and
-each needed a hand-written repair commit afterwards. Every case below is drawn
-from one of those.
+know. Sessions 57, 58 and 59 each shipped with something invented — a date
+copied from another session, a fabricated Spotify URL, a future date, "Brew"
+for Bru, a Google Meet handle in a quote attribution — and each needed a
+hand-written repair commit afterwards. Every case below is drawn from one of
+those.
 """
 
 import sys
@@ -156,28 +156,41 @@ def test_stamp_session_date_without_frontmatter_is_a_noop():
 
 
 # --------------------------------------------------------------------------- #
-#  Podcast link — the model invented URLs for sessions 58 and 59               #
+#  Podcast link — the campaign stopped publishing one                          #
 # --------------------------------------------------------------------------- #
 
-def test_stamp_podcast_link_drops_a_model_invented_url():
-    fixed, notes = rp.stamp_podcast_link(_recap(), "")
-    assert rp.get_frontmatter_value(fixed, "podcastlink") == ""
-    assert notes and "not trusted" in notes[0]
+def test_apply_podcast_link_removes_the_key_from_a_new_recap():
+    """The model still writes one: every style-reference session has the key."""
+    fixed, notes = rp.apply_podcast_link(_recap(), "")
+    assert rp.get_frontmatter_value(fixed, "podcastlink") is None
+    assert "podcastlink" not in fixed
+    assert notes and "no longer publishes a podcast" in notes[0]
 
 
-def test_stamp_podcast_link_restores_the_known_link():
+def test_apply_podcast_link_leaves_the_rest_of_the_frontmatter_intact():
+    fixed, _ = rp.apply_podcast_link(_recap(), "")
+    for key in ("title", "date", "description", "summary"):
+        assert rp.get_frontmatter_value(fixed, key) is not None
+
+
+def test_apply_podcast_link_keeps_a_real_link_on_an_older_recap():
+    """Regenerating a pre-podcast-shutdown session must not destroy its URL."""
     real = "https://creators.spotify.com/pod/show/topher-hooper/episodes/real-e123"
-    fixed, _ = rp.stamp_podcast_link(_recap(), real)
+    fixed, _ = rp.apply_podcast_link(_recap(), real)
     assert rp.get_frontmatter_value(fixed, "podcastlink") == real
 
 
-def test_stamp_podcast_link_adds_the_key_when_the_model_drops_it():
-    """Session 57 omitted podcastlink entirely despite the prompt asking."""
+def test_apply_podcast_link_is_quiet_when_there_is_nothing_to_remove():
     head = SESSION_59_HEAD.replace(
         'podcastlink: "https://creators.spotify.com/pod/show/topher-hooper/'
         'episodes/C4-E59-The-Hairy-Monkey-Gambit"\n', "")
-    fixed, _ = rp.stamp_podcast_link(_recap(head), "")
-    assert rp.get_frontmatter_value(fixed, "podcastlink") == ""
+    fixed, notes = rp.apply_podcast_link(_recap(head), "")
+    assert notes == []
+    assert "podcastlink" not in fixed
+
+
+def test_remove_frontmatter_value_is_a_noop_when_absent():
+    assert rp.remove_frontmatter_value('title: "x"\n', "podcastlink") == 'title: "x"\n'
 
 
 # --------------------------------------------------------------------------- #
@@ -279,6 +292,13 @@ def test_validate_recap_flags_missing_keys():
     assert any("missing `summary`" in p for p in problems)
 
 
+def test_validate_recap_does_not_require_a_podcast_link():
+    head = SESSION_59_HEAD.replace(
+        'podcastlink: "https://creators.spotify.com/pod/show/topher-hooper/'
+        'episodes/C4-E59-The-Hairy-Monkey-Gambit"\n', "")
+    assert rp.validate_recap(_recap(head)) == []
+
+
 def test_validate_recap_flags_unfilled_template_placeholders():
     head = SESSION_59_HEAD.replace('"59: The Hairy Monkey Gambit"',
                                    '"59: [Title To Be Generated]"')
@@ -323,7 +343,7 @@ def test_postprocess_recap_repairs_the_session_59_failures(kb_path, docs_dir):
 
     assert problems == []
     assert rp.get_frontmatter_value(fixed, "date") == "2026-08-14"
-    assert rp.get_frontmatter_value(fixed, "podcastlink") == ""
+    assert "podcastlink" not in fixed
     assert "***August 14, 2026***" in fixed
     assert "Brew" not in fixed and "Tyram" not in fixed
     assert "](/npcs/scarlet" not in fixed and "Scarlet watched." in fixed

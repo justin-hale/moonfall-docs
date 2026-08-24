@@ -225,10 +225,12 @@ class SessionAutomation:
     def read_existing_podcast_link(self, filename):
         """Return the podcastlink already on this session's page, if any.
 
-        run_automation() overwrites the page with a fresh template before
-        generating, so a link a human pasted in earlier would otherwise be
-        lost on a regeneration — and the model would happily invent a
-        replacement (see _apply_generation_guardrails).
+        New recaps have none — the campaign stopped publishing a podcast, so
+        the template below no longer writes the key and the guardrails strip
+        any the model invents. This exists for the older recaps that still
+        carry a real episode URL: run_automation() overwrites the page with a
+        fresh template before generating, so regenerating one of those would
+        otherwise destroy its link.
         """
         path = self.sessions_dir / filename
         if not path.exists():
@@ -241,12 +243,13 @@ class SessionAutomation:
         prefix = "Interlude" if is_interlude else ""
         title = f"{prefix}{' ' if prefix else ''}{session_number}"
         filename = f"{'interlude' if is_interlude else 'session'}-{session_number}.md"
+        # Only the older recaps that predate the podcast ending carry a link.
+        podcast_line = f'\npodcastlink: "{podcast_link}"' if podcast_link else ""
         template = f"""---
 title: "{title}: [Title To Be Generated]"
 date: {transcript_date}
 description: "[Description to be generated]"
-summary: "[Summary to be generated]"
-podcastlink: "{podcast_link}"
+summary: "[Summary to be generated]"{podcast_line}
 ---
 
 ***{transcript_date}***
@@ -575,7 +578,7 @@ Write a comprehensive session recap based on a transcript of the session. The re
 
 ## Format
 Follow this exact structure:
-1. YAML frontmatter with title, date, description, summary, podcastlink
+1. YAML frontmatter with title, date, description, summary (no other keys)
 2. Date header (e.g. ***July 17, 2026***)
 {byline_format_item}{3 + format_offset}. Players Present section
 {4 + format_offset}. Plot Events section with ### subheadings
@@ -834,11 +837,10 @@ Respond in this EXACT format (no other text):
         """Deterministically stamp persona metadata onto a generated recap.
 
         The model writes the whole file, frontmatter included, and cannot be
-        trusted to emit every requested key (session 57 dropped
-        `podcastlink` despite instructions). So the prompt *asks* for the
-        byline and this post-processor *guarantees* it, along with
-        `author:`/`beat:` frontmatter keys. No-op when the persona layer is
-        off.
+        trusted to emit every requested key — session 57 dropped one it was
+        explicitly asked for. So the prompt *asks* for the byline and this
+        post-processor *guarantees* it, along with `author:`/`beat:`
+        frontmatter keys. No-op when the persona layer is off.
         """
         if not persona_ctx:
             return recap_text
@@ -880,8 +882,9 @@ Respond in this EXACT format (no other text):
         printed "Brew" and a Google Meet handle despite the prompt's name
         rules. Each one shipped and needed a hand-written repair commit.
 
-        So the date, the display date header, the podcast link, the canonical
-        names, and internal links are all fixed here instead of asked for —
+        So the date, the display date header, the canonical names, and
+        internal links are all fixed here instead of asked for, and
+        `podcastlink` is stripped outright now that there is no podcast —
         and anything structural that cannot be repaired (missing frontmatter,
         no Players Present section, leftover template placeholders) is returned
         for the caller to fail the run on. Returns (recap_text, problems).

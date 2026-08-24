@@ -134,11 +134,10 @@ title: "36: Session Title Here"
 date: 2025-10-10
 description: "Brief description of what happens in this session."
 summary: "Same as description, used for metadata."
-podcastlink: "https://your-podcast-link-here"
 sidebar_position: 1
 ---
 
-**[🎧 Podcast Link](https://your-podcast-link-here) • *October 10, 2025***
+***October 10, 2025***
 
 ## Session Summary
 
@@ -167,11 +166,10 @@ title: "Interlude XI: Interlude Title Here"
 date: 2025-05-30
 description: "Brief description of the interlude content."
 summary: "Same as description."
-podcastlink: "https://your-podcast-link-here"
 sidebar_position: 16
 ---
 
-**[🎧 Podcast Link](https://your-podcast-link-here) • *May 30, 2025***
+***May 30, 2025***
 
 Write your interlude content here...
 ```
@@ -184,8 +182,10 @@ Write your interlude content here...
 | `date` | ✅ | Publication date (YYYY-MM-DD) - used for chronological sorting |
 | `description` | ✅ | Brief summary for SEO and previews |
 | `summary` | ✅ | Usually same as description |
-| `podcastlink` | ✅ | URL to podcast episode |
 | `sidebar_position` | 🔄 | Auto-generated, don't set manually |
+
+`podcastlink` is retired. The campaign no longer publishes a podcast, so new
+recaps carry no such key; recaps written while it ran keep theirs.
 
 **Legend**: ✅ Required, ⚠️ Optional but recommended, 🔄 Auto-managed
 

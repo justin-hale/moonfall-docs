@@ -18,7 +18,7 @@ beat: "introduction"
 - **Ali Leonard** as **[Elspeth Cooper](/player-characters/elspeth)** — Dwarf Artificer/Gunslinger
 - **Luke Neverisky** as **[Leliana Goldspring](/player-characters/leliana)** — Human Bard
 - **Ellis Taylor** as **[Olivia Cooper](/player-characters/olivia)** — Dwarf Paladin, retired detective
-- **Christopher Hooper** (DM), also portraying **[Scarlet](/npcs/scarlet)** — keeper of the pocket village
+- **Christopher Hooper** (DM), also portraying **Scarlet** — keeper of the pocket village
 - **Ohma Kapua** absent this session
 
 ---

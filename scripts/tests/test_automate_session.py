@@ -139,7 +139,7 @@ def test_read_existing_podcast_link_when_there_is_no_page(automation):
 
 
 def test_read_existing_podcast_link_round_trips_through_the_template(automation):
-    """A link a human pasted in survives a regeneration, which overwrites the page."""
+    """Regenerating an older recap must not destroy the episode URL it carries."""
     automation.sessions_dir.mkdir(parents=True)
     (automation.sessions_dir / "session-59.md").write_text(
         '---\ntitle: "59: x"\npodcastlink: "https://example.com/e59"\n---\n', encoding="utf-8")
@@ -151,7 +151,7 @@ def test_read_existing_podcast_link_round_trips_through_the_template(automation)
     assert 'podcastlink: "https://example.com/e59"' in template
 
 
-def test_guardrails_repair_the_date_and_drop_an_invented_podcast_link(automation):
+def test_guardrails_repair_the_date_and_strip_the_podcast_link(automation):
     (automation.project_root / "data").mkdir()
     (automation.project_root / "data" / "campaign-kb.md").write_text("# empty\n", encoding="utf-8")
 
@@ -160,7 +160,12 @@ def test_guardrails_repair_the_date_and_drop_an_invented_podcast_link(automation
     assert problems == []
     assert "date: 2026-08-14" in fixed
     assert "***August 14, 2026***" in fixed
-    assert 'podcastlink: ""' in fixed
+    assert "podcastlink" not in fixed
+
+
+def test_new_session_template_has_no_podcast_link(automation):
+    _, template = automation.create_session_template(60, False, "2026-08-21")
+    assert "podcastlink" not in template
 
 
 def test_guardrails_reject_a_recap_with_no_players_present(automation):
