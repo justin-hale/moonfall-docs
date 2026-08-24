@@ -82,11 +82,26 @@ Run `/fix-notes <page URL or session number> — <what is wrong>` (`.claude/comm
 - Corrections are never retracted or edited away — the amendment is part of the record.
 
 ## Publishing
-The live site is GitHub Pages, built from `main`. Two workflows deploy it:
-- **Generate Session Notes** (`generate-session.yml`) — fires when an `.srt` lands in `transcripts_raw/` on main. Generates, commits, builds, deploys, and posts to Discord. This is the new-session path.
-- **Deploy to GitHub Pages** (`deploy.yml`) — fires on any other push to main, and can be dispatched by hand. This is how corrections and manual edits reach readers; without it they sit on main unpublished.
+A new episode reaches readers through three workflows, in this order. Only the
+first one starts anything — the other two are useless until it has run.
 
-A merge to main is therefore live within a few minutes. Nothing needs to be deployed by hand.
+1. **Process Episode** (`process-episode.yml`) — the intake. Scheduled Saturdays
+   14:00 UTC, also dispatchable. Pulls the recording from Google Drive,
+   extracts MP3 + SRT, cuts the release, updates the RSS feed, and opens an
+   "Add SRT for Episode N" PR. **This is where a new episode begins.** If it
+   fails, nothing downstream has anything to do and nothing says why.
+2. **Generate Session Notes** (`generate-session.yml`) — fires when that PR
+   merges and the `.srt` lands in `transcripts_raw/` on main. Generates the
+   recap, commits, builds, deploys, and posts to Discord. Dispatching it with
+   an empty `transcripts_raw/` is a deliberate no-op: it exits 0, redeploys the
+   unchanged site, and skips the Discord job. That is *not* a way to publish a
+   new episode — it has nothing to publish.
+3. **Deploy to GitHub Pages** (`deploy.yml`) — fires on any push to main, and
+   can be dispatched by hand. This is how corrections and manual edits reach
+   readers.
+
+A merge to main is therefore live within a few minutes. Nothing needs to be
+deployed by hand.
 
 ## Commands
 - `/fix-notes <page URL or session number> — <what is wrong>` - Correct a published recap (see above)

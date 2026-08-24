@@ -98,6 +98,20 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes to commit"
             echo "has_changes=false" >> "$GITHUB_OUTPUT"
+            # A dispatch with nothing waiting otherwise finishes green having
+            # done nothing at all, which reads as "the episode published".
+            # Say so on the run page instead, and name the workflow that
+            # actually starts a new episode.
+            {
+              echo "### Nothing to generate"
+              echo
+              echo "\`transcripts_raw/\` holds no \`.srt\`, so there was no new session to write up."
+              echo "The site was rebuilt and redeployed unchanged, and no Discord post was sent."
+              echo
+              echo "A new episode starts with the **Process Episode** workflow, which pulls the"
+              echo "recording from Drive, transcribes it, and opens an \"Add SRT for Episode N\" PR."
+              echo "Merging that PR is what gives this workflow something to do."
+            } >> "$GITHUB_STEP_SUMMARY"
           else
             # Extract the new session filename and title before committing
             NEW_FILE=$(git diff --cached --name-only | grep -E '^docs/sessions/(session|interlude)-[0-9]+\.md$' | head -1)
