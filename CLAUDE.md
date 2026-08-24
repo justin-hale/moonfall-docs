@@ -27,7 +27,7 @@ fixes what the model cannot know, because it kept inventing it (wrong dates on
 sessions 58 and 59, fabricated podcast URLs, "Brew" for Bru). Details in
 `scripts/README.md`.
 - The session **date** always comes from the transcript filename — never from the model. The stats extractor joins recaps to transcripts on it.
-- **podcastlink** is never model-authored. It is preserved from the page, so paste real episode URLs into the recap's frontmatter by hand.
+- **podcastlink** is retired — the campaign no longer publishes a podcast, so the key is stripped from every new recap. Older recaps keep the links they already have, even if regenerated.
 - The name rules below are enforced from the tables in `data/campaign-kb.md`, not just requested in the prompt — so a row added by `/fix-notes` protects every future recap.
 - Links to pages that do not exist are unwrapped to plain text.
 - A recap missing its frontmatter, its `Players Present`/`Plot Events` sections, or still holding template placeholders **fails the run** instead of publishing.
@@ -47,7 +47,6 @@ title: "N: Title"
 date: YYYY-MM-DD
 description: "One paragraph summary"
 summary: "One paragraph summary"
-podcastlink: ""
 author: "Persona Name"        # sessions 58+ only, stamped by the generator
 beat: "beat-id"               # sessions 58+ only, stamped by the generator
 ---

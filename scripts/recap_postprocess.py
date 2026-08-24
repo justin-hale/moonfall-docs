@@ -5,8 +5,8 @@ The generator hands the model an empty file and asks it to write the whole
 thing, frontmatter included. That works for prose, but the model has also been
 authoring fields it cannot possibly know, and the results shipped:
 
-  * Session 57 dropped `podcastlink` entirely and replaced "Players Present"
-    with a "Setting" section, so the stats extractor found no attendance.
+  * Session 57 replaced "Players Present" with a "Setting" section, so the
+    stats extractor found no attendance for it.
   * Session 58 dated itself 2026-06-26 — Session 56's date — and invented a
     Spotify episode URL.
   * Session 59 dated itself 2026-08-28, three weeks after the session it was
@@ -36,7 +36,9 @@ from pathlib import Path
 
 # Frontmatter keys every recap must carry. `author`/`beat` are stamped
 # separately by the persona layer and are absent on pre-arc sessions.
-REQUIRED_FRONTMATTER = ("title", "date", "description", "summary", "podcastlink")
+# `podcastlink` is deliberately not here: the campaign stopped publishing a
+# podcast, so new recaps carry no such key at all (see apply_podcast_link).
+REQUIRED_FRONTMATTER = ("title", "date", "description", "summary")
 
 # Headings extract_session_stats.py accepts for the attendance list
 # (see its ATTENDANCE heading pattern) — a recap without one is invisible
@@ -108,6 +110,11 @@ def set_frontmatter_value(frontmatter, key, rendered_value):
     return frontmatter + line + "\n"
 
 
+def remove_frontmatter_value(frontmatter, key):
+    """Drop `key:` from *frontmatter* entirely. No-op when it is absent."""
+    return re.sub(rf"^{re.escape(key)}:.*\n?", "", frontmatter, flags=re.M)
+
+
 def display_date(date_str):
     """2026-08-14 -> 'August 14, 2026' (no platform-specific strftime flags)."""
     parsed = datetime.strptime(date_str, "%Y-%m-%d")
@@ -150,14 +157,20 @@ def stamp_session_date(text, transcript_date):
     return join_frontmatter(frontmatter, body), notes
 
 
-def stamp_podcast_link(text, known_link):
-    """Force `podcastlink` to the link we actually know about.
+def apply_podcast_link(text, known_link):
+    """Drop `podcastlink`, unless the page already carried a real one.
 
-    The model has no way to know an episode URL, so left to itself it invents
-    one that matches the shape of the previous session's (sessions 58 and 59
-    both shipped fabricated Spotify links). *known_link* is whatever the file
-    already carried before generation — normally empty, or a real URL a human
-    pasted in. Anything else the model wrote is dropped.
+    The campaign no longer publishes a podcast, so a new recap has no episode
+    to link and the key is removed outright. The model will still write one —
+    it is asked for nothing of the sort, but the recent sessions it reads for
+    style all carry the key, and it has form for inventing plausible URLs
+    (sessions 58 and 59 both shipped fabricated Spotify links it had no way to
+    know).
+
+    *known_link* is whatever the file carried before generation. For a new
+    session that is always empty, because the template no longer writes the
+    key. It is non-empty only when regenerating one of the older recaps that
+    still has a real episode URL, and that link is kept rather than destroyed.
     """
     notes = []
     frontmatter, body = split_frontmatter(text)
@@ -166,10 +179,18 @@ def stamp_podcast_link(text, known_link):
 
     known_link = known_link or ""
     existing = get_frontmatter_value(text, "podcastlink")
-    if (existing or "") != known_link:
-        notes.append(f"podcastlink: {existing or '(missing)'!r} -> {known_link!r} "
-                     "(model-authored URLs are not trusted)")
-    frontmatter = set_frontmatter_value(frontmatter, "podcastlink", f'"{known_link}"')
+
+    if known_link:
+        if existing != known_link:
+            notes.append(f"podcastlink: {existing or '(missing)'!r} -> {known_link!r} "
+                         "(restored the page's own link)")
+        frontmatter = set_frontmatter_value(frontmatter, "podcastlink", f'"{known_link}"')
+    else:
+        if existing is not None:
+            notes.append(f"podcastlink removed: {existing!r} "
+                         "(the campaign no longer publishes a podcast)")
+        frontmatter = remove_frontmatter_value(frontmatter, "podcastlink")
+
     return join_frontmatter(frontmatter, body), notes
 
 
@@ -386,7 +407,7 @@ def postprocess_recap(text, transcript_date, podcast_link, kb_path, docs_dir,
     notes = []
     text, step_notes = stamp_session_date(text, transcript_date)
     notes.extend(step_notes)
-    text, step_notes = stamp_podcast_link(text, podcast_link)
+    text, step_notes = apply_podcast_link(text, podcast_link)
     notes.extend(step_notes)
     text, step_notes = apply_name_corrections(text, load_name_corrections(kb_path))
     notes.extend(step_notes)

@@ -91,20 +91,22 @@ Then reload your shell: `source ~/.zshrc`
 The model writes the whole recap file, frontmatter included — so it used to
 write fields it has no way to know, and those shipped. Session 58 dated itself
 2026-06-26 (Session 56's date), Session 59 dated itself three weeks into the
-future, both invented a Spotify episode URL, Session 57 dropped `podcastlink`
-entirely, and Session 59 printed "Brew" and a Google Meet handle despite the
-prompt's name rules. Each one needed a hand-written repair commit, and a wrong
-date is worse than it looks: `extract_session_stats.py` joins a recap to its
-transcript on that date, so a hallucinated one silently drops the session out
-of the stats dataset.
+future, both invented a Spotify episode URL, and Session 59 printed "Brew" and
+a Google Meet handle despite the prompt's name rules. Each one needed a
+hand-written repair commit, and a wrong date is worse than it looks:
+`extract_session_stats.py` joins a recap to its transcript on that date, so a
+hallucinated one silently drops the session out of the stats dataset.
 
 `recap_postprocess.py` now takes those fields away from the model. After every
 generation it:
 
 - **stamps the date** — both the `date:` key and the `***Month D, YYYY***`
   header — from the transcript filename, which is the authoritative record
-- **restores `podcastlink`** to whatever the page already carried (normally
-  empty), discarding any URL the model invented
+- **strips `podcastlink`** — the campaign no longer publishes a podcast, so
+  the key is removed outright. The model writes one anyway, because every
+  session it reads for style still has one. A recap that already carried a
+  real episode URL keeps it, so regenerating an older session does not
+  destroy its link
 - **applies the canonical names** from the tables in `data/campaign-kb.md` —
   Known Transcription Errors plus the alias columns of the roster, NPC and
   location tables. Every row `/fix-notes` adds there immunises future recaps
