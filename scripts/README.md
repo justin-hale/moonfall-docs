@@ -51,11 +51,11 @@ generate-session --session-number 42
 generate-session --no-clean
 ```
 
-#### Save Prompt Only (Don't Invoke Claude)
+#### Save Prompt Only (Don't Call the API)
 
 ```bash
-# Generate the prompt but don't automatically run Claude
-generate-session --no-claude
+# Generate the prompt but don't call the model
+generate-session --no-generate
 ```
 
 #### Alternative: Full Python Command
@@ -86,6 +86,43 @@ alias generate-session='python3 ~/Dev/docusaurus/scripts/automate_session.py'
 
 Then reload your shell: `source ~/.zshrc`
 
+### Generation Guardrails
+
+The model writes the whole recap file, frontmatter included — so it used to
+write fields it has no way to know, and those shipped. Session 58 dated itself
+2026-06-26 (Session 56's date), Session 59 dated itself three weeks into the
+future, both invented a Spotify episode URL, Session 57 dropped `podcastlink`
+entirely, and Session 59 printed "Brew" and a Google Meet handle despite the
+prompt's name rules. Each one needed a hand-written repair commit, and a wrong
+date is worse than it looks: `extract_session_stats.py` joins a recap to its
+transcript on that date, so a hallucinated one silently drops the session out
+of the stats dataset.
+
+`recap_postprocess.py` now takes those fields away from the model. After every
+generation it:
+
+- **stamps the date** — both the `date:` key and the `***Month D, YYYY***`
+  header — from the transcript filename, which is the authoritative record
+- **restores `podcastlink`** to whatever the page already carried (normally
+  empty), discarding any URL the model invented
+- **applies the canonical names** from the tables in `data/campaign-kb.md` —
+  Known Transcription Errors plus the alias columns of the roster, NPC and
+  location tables. Every row `/fix-notes` adds there immunises future recaps
+  automatically
+- **unwraps dead internal links**, keeping the label. A generated link to a
+  page nobody had written (`/npcs/scarlet/`) once failed `npm run build` and
+  blocked a deploy
+- **validates what is left** — frontmatter keys, leftover template
+  placeholders, the `Players Present` and `Plot Events` sections (interludes
+  are exempt; they have their own shape), and a plausible body length
+
+Everything repaired is printed in the run log. Anything that cannot be
+repaired fails the run: the recap is still written so it can be inspected, but
+nothing is committed and the SRT stays in `transcripts_raw/` so a re-run picks
+it up.
+
+Run the tests with `python -m pytest scripts/tests/ -q`.
+
 ### Output
 
 The script generates:
@@ -100,7 +137,9 @@ The script generates:
 | `--session-number N` | Specify session number (default: auto-detect) |
 | `--interlude` | Create an interlude instead of regular session |
 | `--no-clean` | Skip transcript cleaning (use existing transcript) |
-| `--no-claude` | Don't invoke Claude automatically (just save prompt) |
+| `--no-generate` | Don't call the API (just save the prompt) |
+| `--timeout MIN` | API timeout in minutes (default: 10) |
+| `--local` | Route model calls through the local `claude` CLI |
 | `-h, --help` | Show help message |
 
 ### Requirements

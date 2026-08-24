@@ -36,6 +36,14 @@ from pathlib import Path
 from datetime import datetime
 import re
 
+# Local module; resolve it relative to this file so the script works from any cwd.
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+
+from recap_postprocess import (  # noqa: E402  (local module)
+    get_frontmatter_value,
+    postprocess_recap,
+)
+
 try:
     import anthropic
 except ImportError:
@@ -163,6 +171,23 @@ class SessionAutomation:
         transcript_files.sort(key=lambda x: x.stat().st_mtime, reverse=True)
         return transcript_files[0]
 
+    @staticmethod
+    def date_from_transcript(transcript_path):
+        """Session date from the transcript filename (YYYY-MM-DD.md).
+
+        This is the only trustworthy record of when a session happened, and
+        extract_session_stats.py joins recaps to transcripts on it. Falls back
+        to today only when a transcript is named something unexpected.
+        """
+        stem = Path(transcript_path).stem
+        try:
+            datetime.strptime(stem, "%Y-%m-%d")
+            return stem
+        except ValueError:
+            today = datetime.now().strftime("%Y-%m-%d")
+            print(f"  Could not parse date from filename {stem!r}, using today: {today}")
+            return today
+
     def get_next_session_number(self, is_interlude=False):
         """Determine the next session or interlude number"""
         if not self.sessions_dir.exists():
@@ -197,7 +222,21 @@ class SessionAutomation:
         session_files.sort(key=lambda x: x.stat().st_mtime, reverse=True)
         return session_files[:count]
 
-    def create_session_template(self, session_number, is_interlude, transcript_date):
+    def read_existing_podcast_link(self, filename):
+        """Return the podcastlink already on this session's page, if any.
+
+        run_automation() overwrites the page with a fresh template before
+        generating, so a link a human pasted in earlier would otherwise be
+        lost on a regeneration — and the model would happily invent a
+        replacement (see _apply_generation_guardrails).
+        """
+        path = self.sessions_dir / filename
+        if not path.exists():
+            return ""
+        return get_frontmatter_value(path.read_text(encoding="utf-8"), "podcastlink") or ""
+
+    def create_session_template(self, session_number, is_interlude, transcript_date,
+                                podcast_link=""):
         """Create a basic session template"""
         prefix = "Interlude" if is_interlude else ""
         title = f"{prefix}{' ' if prefix else ''}{session_number}"
@@ -207,7 +246,7 @@ title: "{title}: [Title To Be Generated]"
 date: {transcript_date}
 description: "[Description to be generated]"
 summary: "[Summary to be generated]"
-podcastlink: ""
+podcastlink: "{podcast_link}"
 ---
 
 ***{transcript_date}***
@@ -831,11 +870,49 @@ Respond in this EXACT format (no other text):
 
         return recap_text
 
-    def generate_recap(self, transcript_path, session_number, is_interlude, timeout_minutes=10):
+    def _apply_generation_guardrails(self, recap_text, transcript_date, podcast_link,
+                                     is_interlude=False):
+        """Repair what the model cannot know, then validate what it wrote.
+
+        The model authors the whole file, frontmatter included, so it has been
+        filling in facts it has no access to: sessions 58 and 59 both dated
+        themselves wrongly and both invented a Spotify episode URL, and 59
+        printed "Brew" and a Google Meet handle despite the prompt's name
+        rules. Each one shipped and needed a hand-written repair commit.
+
+        So the date, the display date header, the podcast link, the canonical
+        names, and internal links are all fixed here instead of asked for —
+        and anything structural that cannot be repaired (missing frontmatter,
+        no Players Present section, leftover template placeholders) is returned
+        for the caller to fail the run on. Returns (recap_text, problems).
+        """
+        recap_text, notes, problems = postprocess_recap(
+            recap_text,
+            transcript_date=transcript_date,
+            podcast_link=podcast_link,
+            kb_path=self.project_root / "data" / "campaign-kb.md",
+            docs_dir=self.project_root / "docs",
+            is_interlude=is_interlude,
+        )
+        if notes:
+            print("  Guardrails applied:")
+            for note in notes:
+                print(f"    - {note}")
+        else:
+            print("  Guardrails: nothing to correct")
+        return recap_text, problems
+
+    def generate_recap(self, transcript_path, session_number, is_interlude, timeout_minutes=10,
+                       transcript_date=None, podcast_link=""):
         """Generate the session recap using the Anthropic API."""
         print("\n" + "=" * 60)
         print("GENERATING SESSION RECAP")
         print("=" * 60)
+
+        # The transcript filename is the authoritative session date; fall back
+        # to it when the caller did not pass one through.
+        if transcript_date is None:
+            transcript_date = self.date_from_transcript(Path(transcript_path))
 
         # Load transcript.
         print(f"Reading transcript from {transcript_path}...")
@@ -885,16 +962,29 @@ Respond in this EXACT format (no other text):
             print(f"  Error: generation call failed: {e}")
             return False
 
-        # Unwrap any code fence, then stamp persona metadata
-        # (author/beat frontmatter, byline fallback).
+        # Unwrap any code fence, repair the fields the model cannot know, then
+        # stamp persona metadata (author/beat frontmatter, byline fallback).
+        # Guardrails run first: they guarantee the ***date*** header the byline
+        # is inserted after.
         recap_text = self._strip_code_fence(recap_text)
+        recap_text, problems = self._apply_generation_guardrails(
+            recap_text, transcript_date, podcast_link, is_interlude=is_interlude)
         recap_text = self._apply_publication_metadata(recap_text, persona_ctx)
 
-        # Write the recap file.
+        # Write the recap file (even when invalid, so the output can be read).
         filename = own_filename
         session_path = self.sessions_dir / filename
         session_path.write_text(recap_text, encoding="utf-8")
         print(f"  Recap written to {session_path}")
+
+        if problems:
+            print("\n  ERROR: the generated recap failed validation:")
+            for problem in problems:
+                print(f"    - {problem}")
+            print(f"  {session_path.name} was written for inspection, but the run is "
+                  "failing rather than publishing it — the transcript stays queued "
+                  "so a re-run picks it up.")
+            return False
 
         # Update campaign state.
         print("\n  Updating campaign state...")
@@ -933,26 +1023,27 @@ Respond in this EXACT format (no other text):
             return False
         print(f"  Found transcript: {latest_transcript.name}")
 
-        try:
-            transcript_date = latest_transcript.stem
-            datetime.strptime(transcript_date, "%Y-%m-%d")
-        except ValueError:
-            transcript_date = datetime.now().strftime("%Y-%m-%d")
-            print(f"  Could not parse date from filename, using today: {transcript_date}")
+        transcript_date = self.date_from_transcript(latest_transcript)
 
         if session_number is None:
             session_number = self.get_next_session_number(is_interlude)
 
         print(f"\n[Step 3/3] Creating {'interlude' if is_interlude else 'session'} {session_number}...")
 
-        # Create template file.
-        filename, template = self.create_session_template(session_number, is_interlude, transcript_date)
+        # Create template file, carrying over any podcast link already on the
+        # page so a regeneration does not drop one a human pasted in.
+        preset_filename = f"{'interlude' if is_interlude else 'session'}-{session_number}.md"
+        podcast_link = self.read_existing_podcast_link(preset_filename)
+        filename, template = self.create_session_template(
+            session_number, is_interlude, transcript_date, podcast_link=podcast_link)
         session_path = self.sessions_dir / filename
         self.sessions_dir.mkdir(parents=True, exist_ok=True)
         session_path.write_text(template, encoding="utf-8")
 
         if invoke_api:
-            success = self.generate_recap(latest_transcript, session_number, is_interlude, timeout_minutes)
+            success = self.generate_recap(latest_transcript, session_number, is_interlude,
+                                          timeout_minutes, transcript_date=transcript_date,
+                                          podcast_link=podcast_link)
             if success and srt_file and srt_file.exists():
                 try:
                     srt_file.unlink()
