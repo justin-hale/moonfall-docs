@@ -240,5 +240,13 @@
       "update-feed": "https://github.com/topherhooper/omelas-stories/releases/download/v59/DnD_2026-08-14.mp3",
       "open-pr": "https://github.com/justin-hale/moonfall-docs/pull/34"
     }
+  },
+  "60": {
+    "drive_file_id": "1wArVpI3XL465B1lbp-y7BkSX7YzHLiUn",
+    "session_date": "2026-08-21",
+    "stages": {
+      "download": "1wArVpI3XL465B1lbp-y7BkSX7YzHLiUn",
+      "extract": "DnD_2026-08-21.mp3"
+    }
   }
 }
