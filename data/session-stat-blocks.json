@@ -2083,6 +2083,62 @@
           "quote": "What in the same heck? I don't know. That's the best I got. I feel like it's just going to come out Australian at this point. A fully bearded child."
         }
       }
+    },
+    "session-60": {
+      "timing_quality": "exact",
+      "duration_seconds": 11280,
+      "word_count": 24821,
+      "players_present": [
+        "Elspeth",
+        "Silas",
+        "Bru"
+      ],
+      "attendance_source": "transcript",
+      "speakers": [
+        {
+          "name": "Topher",
+          "role": "dm",
+          "word_share": 0.3953
+        },
+        {
+          "name": "Elspeth",
+          "role": "pc",
+          "word_share": 0.2228
+        },
+        {
+          "name": "Silas",
+          "role": "pc",
+          "word_share": 0.2175
+        },
+        {
+          "name": "Bru",
+          "role": "pc",
+          "word_share": 0.1644
+        }
+      ],
+      "top_npcs": {
+        "Scarlet": 37,
+        "Victor": 10,
+        "George": 2
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "superlatives": {
+        "mvp": {
+          "player": "Bru",
+          "quote": "We're we're going to build the bomb of a PZO electric crystal oscillator. All right. It is a timer. It's a very reliable timer."
+        },
+        "best_joke": {
+          "player": "Topher",
+          "quote": "All right, mates. Who's ready for some mat?"
+        },
+        "most_chaotic": {
+          "player": "Silas",
+          "quote": "What if we set up a set of explosions above the core? So, and then had a the real bomb positioned above that area so that we blow open a hole at the top of the furnace, then drop the real bomb onto the core."
+        }
+      }
     }
   }
 }
