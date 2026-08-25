@@ -186,6 +186,71 @@ docusaurus/
 - Use `--session-number N` to manually specify the correct number
 - The script looks at existing files in `docs/sessions/` to auto-detect
 
+## ci_process.py
+
+The intake pipeline: Google Drive recording → MP3 + SRT → GitHub release →
+podcast feed → an SRT pull request on this repo. Driven a stage at a time by
+`.github/workflows/process-episode.yml`, which runs Saturday 14:00 UTC and can
+be dispatched by hand.
+
+```
+detect → download → extract → release → update-feed → open-pr
+```
+
+`detect` picks the oldest published release that has no `open-pr` recorded, so
+a run that stops halfway is picked up by the next one. Nothing else about the
+pipeline is worth understanding before this:
+
+### Two files hold all the state
+
+- **`workspace/metadata.json`** — per-run scratch, thrown away with the runner.
+  The stages hand each other paths and URLs through it.
+- **`data/episodes.json`** — the durable registry, committed to `main` at the
+  end of every run, successful or not. It records which stages an episode has
+  completed and is the *only* thing standing between a re-run and a duplicate
+  release, a duplicate podcast entry, or a second SRT PR.
+
+### Every stage has to be safe to run twice
+
+Because the registry is committed at the end of the job, a run that dies —
+or whose final push loses a race — leaves work done that the registry does not
+know about. Episode 60 hit exactly that: release, feed and PR all succeeded,
+the registry push was rejected by a PR that merged mid-job, and the record was
+discarded. The next run then found the release already published, skipped the
+release step, and died on `KeyError: 'audio_url'` after re-downloading 1.2 GB.
+
+So each stage resolves its own state from the world rather than trusting the
+registry to be complete:
+
+| Stage | Already-done check | Result |
+|-------|--------------------|--------|
+| `extract` | the MP3 is still in `workspace/` — the registry alone is not enough, `workspace/` dies with the runner | re-extracts, and republishes the paths either way |
+| `release` | a published release whose title carries this session date | reuses it and reads its MP3 asset URL back off GitHub |
+| `update-feed` | an `<item>` in `feed.xml` with this episode's guid | leaves the feed alone |
+| `open-pr` | an open PR whose head is `srt/episode-N`, or an SRT already on `main` | reuses the PR, or opens none |
+
+The workflow reflects the same rule. The release step is **not** gated on
+whether a release exists — it is the step that resolves the audio URL, and
+skipping it is what broke the resume path. Only a release this run actually
+created sets `RELEASE_CREATED_THIS_RUN`, so the delete-on-failure cleanup can
+never remove an artifact belonging to an earlier run.
+
+### Failures are announced
+
+The registry commit rebases onto `origin/main` and retries rather than dropping
+its changes, and a failed run posts to the Discord webhook. The 2026-08-22 run
+died 24 seconds in and sat unnoticed until Monday, which is what turned a
+four-minute failure into a missed week of publishing.
+
+### After the pipeline
+
+`open-pr` leaves a PR titled `Add SRT for Episode N`. Merging it lands an
+`.srt` in `transcripts_raw/` on `main`, which fires **Generate Session Notes**
+— the recap, the site build, the deploy and the Discord post. The pipeline
+deliberately stops at the PR: nothing is published until someone merges.
+
+Run the tests with `python -m pytest scripts/tests/ -q`.
+
 ## Other Scripts
 
 ### generate-sessions-data.js
