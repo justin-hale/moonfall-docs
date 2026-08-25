@@ -40,9 +40,27 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      # Build the tip of main, not the commit that triggered this run.
+      #
+      # Runs queue on the shared "pages" concurrency group below, so by the
+      # time one reaches a runner main has often moved on — and publishing the
+      # older tree silently un-publishes whatever landed in between, with both
+      # runs green and nothing to show it happened.
+      #
+      # Episode 60 is what that looks like. The SRT merge (aa1a2bd) triggered
+      # this workflow and Generate Session Notes at the same instant. Generate
+      # wrote the recap, committed it as a424205, built, and deployed by
+      # 04:20:10. This run, queued behind it, started 3 seconds later, checked
+      # out aa1a2bd — the commit from before the recap existed — and deployed
+      # that at 04:23:26. Session 60 came off the live site, and the Discord
+      # announcement pointed at a 404.
+      #
+      # Pinned to main rather than github.ref: the live site is built from main
+      # only, so a dispatch from a topic branch must not publish it.
       - name: Checkout
         uses: actions/checkout@v4
         with:
+          ref: main
           fetch-depth: 0
       - name: Setup Node.js
         uses: actions/setup-node@v4
