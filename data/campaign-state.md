@@ -186,6 +186,10 @@ The party reunites with George, Olivia's grandson, who reveals months of underco
 **Session 59** – The Hairy Monkey Gambit
 The party disguises itself to scout the Eldoran spaceport factory ahead of the three-pronged sabotage strike. Ben Boulage, the private detective handling the meet, disguises himself as a blonde woman and runs a cover date with inside man Bon Bonnery while Silas and Olivia eavesdrop from the next table; Bru's Colonel Sanders persona charms the Hairy Monkey restaurant staff into cooperation, and Silas later infiltrates the control room with exceptional stealth. The team identifies the overseer's key location but alerts the overseer when attempting to drug his beer; the group retreats to finalize plans for simultaneous detonation across all three targets.
 
+
+**Session 60** – The Beaded Alley and the Barracks Gate
+The party confirms the spaceport factory furnace is a live power core hidden under stasis magic, with Captain Steel present at a mysterious meeting inside. Elspeth secures magical dampening stickers from Tony's shop and forges genuine connections with factory floor workers scheduled for imminent layoffs. A night scouting of the barracks—executed in elaborate French orphan disguises—ends with George spotted across a courtyard of chained prisoners, forcing the party to weigh breaking cover against maintaining their infiltration.
+
 ## Active Plot Threads
 
 ### 1. The Death-Game in the Eldoran Empire
@@ -233,6 +237,13 @@ Silas's connection to the Sisyphus Circle is known, but his full backstory remai
 - **Three Sabotage Operations**: Advanced from planning to active reconnaissance phase; factory layout and security measures now mapped; decision made to plant all bombs and trigger simultaneously rather than staggered detonations to avoid heightened security response.
 - **Spaceport Factory Target**: Control room secured by magically warded door requiring overseer's key; furnace identified as primary objective; security monitored via bank of screens; overseer now aware of intrusion attempt (though cover not blown).
 - **Bomb Selection**: Bru's synchronized remote detonators chosen over Victor's timer-based designs; professional confidence in Bru's superior craftsmanship established.
+
+
+#### Session 60 Updates
+- **Three Sabotage Operations**: Factory confirmed as containing a stasis-sealed power core rather than simple heat source; Captain Steel's presence at furnace suggests high-level coordination; party opted to construct bombs during planned factory shutdown to minimize witness presence.
+- **Resistance Operations**: Barracks reconnaissance underway; chained prisoner population observed (identity and purpose unknown); George's location pinpointed, enabling potential extraction or continued undercover work.
+- **Bomb Design & Timing**: PZO electric crystal oscillator selected as timing mechanism; two-stage design finalized (external containment breach followed by payload drop onto core); Bru estimated two-hour construction window during factory shutdown.
+- **Magic-Detection Enforcement**: White-armored soldiers with antenna-based scanners actively patrolling Beaded Alley; dampening stickers proved effective countermeasure; 75 total stickers distributed across party for barracks infiltration.
 
 ## Character Status
 
@@ -425,6 +436,14 @@ Silas's connection to the Sisyphus Circle is known, but his full backstory remai
 - **Bru**: Full commitment to Colonel Sanders disguise throughout session; leveraged theatrical persona to gain Harry's favor and secure restaurant cooperation; asserted professional expertise in bomb-making over Victor's methods.
 - **Olivia Cooper**: Worked the Hairy Monkey undisguised alongside Silas, collecting the factory intelligence Ben Boulage drew out of Bon Bonnery from an adjacent table; disguised as Wendy to front the fast-food delivery cover at the factory gate. Noted as the physically strongest of the three present.
 
+
+#### Session 60 Updates
+- **Elspeth Cooper**: Established genuine friendships with factory workers (Cassandra, Gracie, and others); committed to lakeside birthday picnic morning-of planned bombing; complicating emotional investment in regime employees marked as "unsuitable" for replacement workforce.
+- **Silas Fairbanks**: Achieved stealth check of 30 while ceiling-crawling factory furnace chamber; deployed dry comedic deflection ("trying out of sight") during infiltration; maintained composure despite furnace revelation's operational implications.
+- **Bru**: Fully committed to dual-role execution (master bomb-maker and Colonel Sanders-costumed orphan); wore 24 dampening stickers under costume without apparent discomfort; demonstrated professional pride in two-stage bomb design.
+- **Scarlet**: Took active disguise role as elderly orphanage chaperone during barracks infiltration; received acknowledgment from Silas ("when we really need you, you step up") for team participation beyond van-support role.
+- **Olivia Cooper**: Positioned at barracks gate; witnessed prisoner courtyard scene alongside party.
+
 ## Key Callbacks & Unresolved Hooks
 
 ### Unresolved Plot Threads
@@ -477,3 +496,11 @@ Silas's connection to the Sisyphus Circle is known, but his full backstory remai
 - **Bon Bonnery's Intelligence**: Inside contact provided factory floor information (warded furnace, wandering overseer, magical key) to Ben Boulage over a cover date; relationship established through Boulage rather than directly with the party; potential asset for ongoing operations or future contact.
 - **Ben Boulage**: Private detective and party contact who arranged the Bon Bonnery meet, ran the cover date, and departed with Bonnery afterward. Uses disguise as "standard cover" for his business. Available as a future intermediary.
 - **Harold and Monkey (Hairy Monkey Restaurant)**: Established friendly contact; Harry's approval of party and willingness to assist suggests potential safe house or supply location in harbor district.
+
+
+#### Session 60 Updates
+- **Factory Floor Layoffs**: Entire shift crew (including Cassandra, Gracie) scheduled for termination during 24-hour shutdown; Elspeth's picnic commitment creates potential moral complication or civilian casualty concern.
+- **Captain Steel at the Furnace**: Unexplained meeting between Captain Steel and unidentified figure inside furnace chamber; suggests coordination beyond standard military hierarchy; connection to Commander Steel (Leliana's brother's killer) and university research facility unclear.
+- **George's Prisoner Status**: George spotted exiting building in barracks courtyard; unclear whether he is prisoner, undercover operative, or something else; party must decide rescue versus continued infiltration priority.
+- **Hooded Manacled Figures**: Unknown population of chained prisoners being marched into barracks building; purpose, origin, and number unconfirmed; potential mass casualty risk if bombing proceeds without evacuation.
+- **Fredo Boggins' Unsolicited Advice**: Tony's shop owner referenced Elspeth's rival Danlin (currently jailed, possibly released on bail) and offered philosophy about not carrying hate "like spare parts"—possible callback to Elspeth's racing past or hint at Danlin's current operational status.

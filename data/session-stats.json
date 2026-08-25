@@ -7616,54 +7616,222 @@
           "decision_driver": "Silas"
         }
       }
+    },
+    {
+      "id": "session-60",
+      "type": "session",
+      "number": 60,
+      "title": "60: The Beaded Alley and the Barracks Gate",
+      "date": "2026-08-21",
+      "href": "/sessions/session-60/",
+      "has_transcript": true,
+      "transcript_format": "json",
+      "timing_quality": "exact",
+      "duration_seconds": 11280,
+      "block_count": 3220,
+      "word_count": 24821,
+      "speakers": [
+        {
+          "name": "Topher",
+          "canonical": "Topher",
+          "role": "dm",
+          "player": "Topher",
+          "blocks": 1041,
+          "words": 9812,
+          "talk_seconds_est": 6199,
+          "word_share": 0.3953
+        },
+        {
+          "name": "Elspeth",
+          "canonical": "Elspeth Cooper",
+          "role": "pc",
+          "player": "Ali Leonard",
+          "blocks": 874,
+          "words": 5529,
+          "talk_seconds_est": 1912,
+          "word_share": 0.2228
+        },
+        {
+          "name": "Silas",
+          "canonical": "Silas Fairbanks",
+          "role": "pc",
+          "player": "Taylor Ramsey",
+          "blocks": 737,
+          "words": 5399,
+          "talk_seconds_est": 624,
+          "word_share": 0.2175
+        },
+        {
+          "name": "Bru",
+          "canonical": "Bru (Felonias Bru)",
+          "role": "pc",
+          "player": "Justin Hale",
+          "blocks": 568,
+          "words": 4081,
+          "talk_seconds_est": 1040,
+          "word_share": 0.1644
+        }
+      ],
+      "players_present": [
+        "Elspeth",
+        "Silas",
+        "Bru"
+      ],
+      "attendance_source": "transcript",
+      "mentions": {
+        "npcs": {
+          "Scarlet": 37,
+          "Victor": 10,
+          "George": 2,
+          "Astro": 1,
+          "Iro": 1,
+          "Lady Viper": 1
+        },
+        "locations": {
+          "High Forge": 3
+        },
+        "pcs": {
+          "Bru": 21,
+          "Elspeth": 1
+        }
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "personality": {
+        "scores": {
+          "Bru": {
+            "chaos": 14,
+            "heroism": 12,
+            "comedy": 16,
+            "immersion": 13,
+            "strategy": 15,
+            "curiosity": 11
+          },
+          "Topher": {
+            "chaos": 16,
+            "heroism": 10,
+            "comedy": 18,
+            "immersion": 19,
+            "strategy": 12,
+            "curiosity": 14
+          },
+          "Silas": {
+            "chaos": 17,
+            "heroism": 8,
+            "comedy": 14,
+            "immersion": 14,
+            "strategy": 16,
+            "curiosity": 13
+          },
+          "Elspeth": {
+            "chaos": 12,
+            "heroism": 13,
+            "comedy": 15,
+            "immersion": 16,
+            "strategy": 9,
+            "curiosity": 14
+          }
+        },
+        "evidence": {
+          "Bru": {
+            "chaos": "I was just going to old school 24. Put a put a timer on.",
+            "heroism": "I feel like we already talked about like the the voice that you use when you're trying to interrogate people.",
+            "comedy": "I explicitly envisioned you Krunk sneaking... Yeah. Yeah. Yeah.",
+            "immersion": "Bru gave you a very long list and it's pretty obvious that like at least half the stuff on there has nothing to do with what we're building.",
+            "strategy": "We're we're going to build the bomb of a PZO electric crystal oscillator. All right. It is a timer.",
+            "curiosity": "Do I have to do we have to put stickers like on our on our magical parts of our body like the tattoos?"
+          },
+          "Topher": {
+            "chaos": "So you just kind of like crocheting with with samurai swords... with baseball bats.",
+            "heroism": "So you don't get hurt. Yeah. And if you do it again, then I'll kill you.",
+            "comedy": "All right, mates. Who's ready for some mat?",
+            "immersion": "Well, I think I'm going to have to cut the whole floor crew. They're just not cutting it.",
+            "strategy": "So basically you're going to have to either [get new recruits and new students].",
+            "curiosity": "Um, cool. So, y'all get kind of fully attired and quickly sticker your magical items. Um, I think that does substantially like arm the group."
+          },
+          "Silas": {
+            "chaos": "What if we set up a set of explosions above the core? So, and then had a the real bomb positioned above that area so that we blow open a hole at the top of the furnace, then drop the real bomb onto the core.",
+            "heroism": "I mean, you drive a car. I'm just saying. We're definitely past carriages.",
+            "comedy": "Well, my idea was B. I'll do this in character. What if we set up... Yeah, that's what it looks like right now.",
+            "immersion": "I mean, honestly, I think it's just a matter of belief because like you somehow walked straight up that vertical surface a minute ago.",
+            "strategy": "So maybe does it seem like a lot of the containment is like inside of this thing or outside of this thing?",
+            "curiosity": "Well, what's required for this next model. I just I don't think it's going to work."
+          },
+          "Elspeth": {
+            "chaos": "You know what? I think we should make you a taser.",
+            "heroism": "I'm going to take five pages, but I'm also gonna leave money in the binder.",
+            "comedy": "Women do be shopping. You know what I mean?",
+            "immersion": "I'm really good at that because Silus has been teaching me. And by that I mean I just watch Silus and then he goes, 'Stop watching me.'",
+            "strategy": "Should I look like a guard? Like just like a low-level guard?",
+            "curiosity": "Are all the guards boys or are there girls as well?"
+          }
+        },
+        "superlatives": {
+          "mvp": {
+            "player": "Bru",
+            "quote": "We're we're going to build the bomb of a PZO electric crystal oscillator. All right. It is a timer. It's a very reliable timer."
+          },
+          "best_joke": {
+            "player": "Topher",
+            "quote": "All right, mates. Who's ready for some mat?"
+          },
+          "most_chaotic": {
+            "player": "Silas",
+            "quote": "What if we set up a set of explosions above the core? So, and then had a the real bomb positioned above that area so that we blow open a hole at the top of the furnace, then drop the real bomb onto the core."
+          },
+          "decision_driver": "Silas"
+        }
+      }
     }
   ],
   "aggregate": {
-    "total_sessions": 74,
-    "sessions_with_transcripts": 31,
-    "total_words": 796285,
-    "total_blocks": 116579,
-    "total_duration_seconds": 318228,
+    "total_sessions": 75,
+    "sessions_with_transcripts": 32,
+    "total_words": 821106,
+    "total_blocks": 119799,
+    "total_duration_seconds": 329508,
     "speaker_totals": [
       {
         "name": "Topher",
         "canonical": "Topher",
         "role": "dm",
         "player": "Topher",
-        "sessions": 31,
-        "blocks": 29077,
-        "words": 248302,
-        "talk_seconds_est": 40072
+        "sessions": 32,
+        "blocks": 30118,
+        "words": 258114,
+        "talk_seconds_est": 46271
       },
       {
         "name": "Silas",
         "canonical": "Silas Fairbanks",
         "role": "pc",
         "player": "Taylor Ramsey",
-        "sessions": 31,
-        "blocks": 24567,
-        "words": 200756,
-        "talk_seconds_est": 18901
+        "sessions": 32,
+        "blocks": 25304,
+        "words": 206155,
+        "talk_seconds_est": 19525
       },
       {
         "name": "Elspeth",
         "canonical": "Elspeth Cooper",
         "role": "pc",
         "player": "Ali Leonard",
-        "sessions": 24,
-        "blocks": 16498,
-        "words": 90530,
-        "talk_seconds_est": 17114
+        "sessions": 25,
+        "blocks": 17372,
+        "words": 96059,
+        "talk_seconds_est": 19026
       },
       {
         "name": "Bru",
         "canonical": "Bru (Felonias Bru)",
         "role": "pc",
         "player": "Justin Hale",
-        "sessions": 28,
-        "blocks": 15034,
-        "words": 82997,
-        "talk_seconds_est": 17159
+        "sessions": 29,
+        "blocks": 15602,
+        "words": 87078,
+        "talk_seconds_est": 18199
       },
       {
         "name": "Olivia",
@@ -7707,12 +7875,12 @@
       }
     ],
     "top_npcs": {
-      "Victor": 231,
-      "Scarlet": 221,
-      "George": 184,
-      "Iro": 147,
-      "Astro": 62,
-      "Lady Viper": 60,
+      "Scarlet": 258,
+      "Victor": 241,
+      "George": 186,
+      "Iro": 148,
+      "Astro": 63,
+      "Lady Viper": 61,
       "Naomi": 60,
       "Chalk Rock": 35,
       "Bafael": 16,
@@ -7723,31 +7891,31 @@
     },
     "top_locations": {
       "Greyport": 74,
-      "High Forge": 47,
+      "High Forge": 50,
       "Eldoran": 3,
       "Milstrom": 3,
       "Gold Road": 2,
       "Grimvar's Spine": 1
     },
     "top_pcs_mentioned": {
-      "Bru": 1082,
+      "Bru": 1103,
       "Olivia": 20,
       "Red": 20,
-      "Elspeth": 4,
+      "Elspeth": 5,
       "Leliana": 1
     },
     "nat20_mentions": 13,
     "nat1_mentions": 1,
     "personality_by_player": {
       "Bru": {
-        "sessions_scored": 27,
+        "sessions_scored": 28,
         "mean_scores": {
-          "chaos": 11.9,
-          "heroism": 9.6,
-          "comedy": 11.1,
-          "immersion": 10.3,
-          "strategy": 11.6,
-          "curiosity": 9.2
+          "chaos": 12.0,
+          "heroism": 9.7,
+          "comedy": 11.3,
+          "immersion": 10.4,
+          "strategy": 11.8,
+          "curiosity": 9.3
         },
         "signature_evidence": {
           "chaos": {
@@ -7782,21 +7950,21 @@
           }
         },
         "superlative_counts": {
-          "mvp": 1,
+          "mvp": 2,
           "best_joke": 3,
           "most_chaotic": 19,
           "decision_driver": 0
         }
       },
       "Elspeth": {
-        "sessions_scored": 23,
+        "sessions_scored": 24,
         "mean_scores": {
-          "chaos": 9.7,
-          "heroism": 11.9,
-          "comedy": 10.9,
-          "immersion": 12.6,
-          "strategy": 11.3,
-          "curiosity": 10.3
+          "chaos": 9.8,
+          "heroism": 12.0,
+          "comedy": 11.1,
+          "immersion": 12.8,
+          "strategy": 11.2,
+          "curiosity": 10.5
         },
         "signature_evidence": {
           "chaos": {
@@ -8034,14 +8202,14 @@
         }
       },
       "Silas": {
-        "sessions_scored": 30,
+        "sessions_scored": 31,
         "mean_scores": {
-          "chaos": 10.3,
-          "heroism": 10.7,
-          "comedy": 12.3,
+          "chaos": 10.5,
+          "heroism": 10.6,
+          "comedy": 12.4,
           "immersion": 13.3,
           "strategy": 15.1,
-          "curiosity": 12.2
+          "curiosity": 12.3
         },
         "signature_evidence": {
           "chaos": {
@@ -8078,19 +8246,19 @@
         "superlative_counts": {
           "mvp": 11,
           "best_joke": 13,
-          "most_chaotic": 4,
-          "decision_driver": 22
+          "most_chaotic": 5,
+          "decision_driver": 23
         }
       },
       "Topher": {
-        "sessions_scored": 30,
+        "sessions_scored": 31,
         "mean_scores": {
-          "chaos": 12.5,
+          "chaos": 12.6,
           "heroism": 10.5,
-          "comedy": 13.2,
-          "immersion": 14.9,
-          "strategy": 12.8,
-          "curiosity": 11.7
+          "comedy": 13.3,
+          "immersion": 15.0,
+          "strategy": 12.7,
+          "curiosity": 11.8
         },
         "signature_evidence": {
           "chaos": {
@@ -8126,7 +8294,7 @@
         },
         "superlative_counts": {
           "mvp": 0,
-          "best_joke": 5,
+          "best_joke": 6,
           "most_chaotic": 2,
           "decision_driver": 0
         }
