@@ -33,6 +33,44 @@ WORKSPACE = Path("workspace")
 METADATA_FILE = WORKSPACE / "metadata.json"
 REGISTRY_FILE = Path("data/episodes.json")
 
+OMELAS_REPO = "topherhooper/omelas-stories"
+
+
+# ── Release URL ────────────────────────────────────────────────────────────
+
+def release_audio_url(episode_number, mp3_name):
+    """The release asset URL for an episode's MP3.
+
+    Derived, never captured. The URL is a pure function of the tag and the
+    asset filename, so every path agrees on it without having to have been
+    the one that created the release.
+    """
+    return (f"https://github.com/{OMELAS_REPO}/releases/download/"
+            f"v{episode_number}/{mp3_name}")
+
+
+def resolve_audio_url(meta, episode_number):
+    """metadata's audio_url, derived when nothing wrote one.
+
+    cmd_release only reached its `meta["audio_url"] = ...` line when it
+    actually created the release. Three paths skipped it: an existing release
+    for the same date, a release stage already marked done, and — the one that
+    broke run 47 — `RELEASE_EXISTS` making the workflow skip the release step
+    outright, so cmd_release never ran at all. update-feed then died on
+    `KeyError: 'audio_url'`, which made the whole intake unre-runnable the
+    moment a release existed.
+    """
+    return meta.get("audio_url") or release_audio_url(
+        episode_number, Path(meta["mp3_path"]).name)
+
+
+def record_audio_url(meta, episode_number):
+    """Resolve the audio URL and persist it into metadata.json."""
+    audio_url = resolve_audio_url(meta, episode_number)
+    meta["audio_url"] = audio_url
+    METADATA_FILE.write_text(json.dumps(meta, indent=2))
+    return audio_url
+
 
 # ── Env helpers ────────────────────────────────────────────────────────────
 
@@ -567,14 +605,16 @@ def cmd_release():
             d = extract_date_from_filename(name)
             if d and d.strftime("%Y-%m-%d") == session_date:
                 print(f"  Release for date {session_date} already exists ({name}) — skipping.")
+                record_audio_url(meta, episode_number)
                 mark_stage(episode_number, "release", name)
                 return
 
     if stage_done(episode_number, "release"):
         print(f"  Already done — skipping release.")
+        record_audio_url(meta, episode_number)
         return
     mp3_path = Path(meta["mp3_path"])
-    repo = "topherhooper/omelas-stories"
+    repo = OMELAS_REPO
     tag = f"v{episode_number}"
     title = f"Episode {episode_number} - {session_date}"
 
@@ -603,12 +643,8 @@ def cmd_release():
             print(f"ERROR: {result.stderr}", file=sys.stderr)
             sys.exit(1)
 
-    audio_url = (
-        f"https://github.com/{repo}/releases/download/{tag}/{mp3_path.name}"
-    )
+    audio_url = record_audio_url(meta, episode_number)
     print(f"  Release URL: {audio_url}")
-    meta["audio_url"] = audio_url
-    METADATA_FILE.write_text(json.dumps(meta, indent=2))
     mark_stage(episode_number, "release", audio_url)
     # signal that we created a release in this run so cleanup knows to
     # delete it if something fails later
@@ -672,7 +708,9 @@ def cmd_update_feed():
         return
     session_date_str = meta["session_date"]
     mp3_path = Path(meta["mp3_path"])
-    audio_url = meta["audio_url"]
+    audio_url = resolve_audio_url(meta, episode_number)
+    if not meta.get("audio_url"):
+        print(f"  No audio_url in metadata (release step skipped); derived {audio_url}")
     season = 4  # Could be read from config.json if needed
 
     omelas_pat = env("OMELAS_PAT")
