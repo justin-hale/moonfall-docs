@@ -1,0 +1,94 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-08-21",
+  "model": "claude-haiku-4-5",
+  "players": {
+    "Bru": {
+      "scores": {
+        "chaos": 14,
+        "heroism": 12,
+        "comedy": 16,
+        "immersion": 13,
+        "strategy": 15,
+        "curiosity": 11
+      },
+      "evidence": {
+        "chaos": "I was just going to old school 24. Put a put a timer on.",
+        "heroism": "I feel like we already talked about like the the voice that you use when you're trying to interrogate people.",
+        "comedy": "I explicitly envisioned you Krunk sneaking... Yeah. Yeah. Yeah.",
+        "immersion": "Bru gave you a very long list and it's pretty obvious that like at least half the stuff on there has nothing to do with what we're building.",
+        "strategy": "We're we're going to build the bomb of a PZO electric crystal oscillator. All right. It is a timer.",
+        "curiosity": "Do I have to do we have to put stickers like on our on our magical parts of our body like the tattoos?"
+      }
+    },
+    "Topher": {
+      "scores": {
+        "chaos": 16,
+        "heroism": 10,
+        "comedy": 18,
+        "immersion": 19,
+        "strategy": 12,
+        "curiosity": 14
+      },
+      "evidence": {
+        "chaos": "So you just kind of like crocheting with with samurai swords... with baseball bats.",
+        "heroism": "So you don't get hurt. Yeah. And if you do it again, then I'll kill you.",
+        "comedy": "All right, mates. Who's ready for some mat?",
+        "immersion": "Well, I think I'm going to have to cut the whole floor crew. They're just not cutting it.",
+        "strategy": "So basically you're going to have to either [get new recruits and new students].",
+        "curiosity": "Um, cool. So, y'all get kind of fully attired and quickly sticker your magical items. Um, I think that does substantially like arm the group."
+      }
+    },
+    "Silas": {
+      "scores": {
+        "chaos": 17,
+        "heroism": 8,
+        "comedy": 14,
+        "immersion": 14,
+        "strategy": 16,
+        "curiosity": 13
+      },
+      "evidence": {
+        "chaos": "What if we set up a set of explosions above the core? So, and then had a the real bomb positioned above that area so that we blow open a hole at the top of the furnace, then drop the real bomb onto the core.",
+        "heroism": "I mean, you drive a car. I'm just saying. We're definitely past carriages.",
+        "comedy": "Well, my idea was B. I'll do this in character. What if we set up... Yeah, that's what it looks like right now.",
+        "immersion": "I mean, honestly, I think it's just a matter of belief because like you somehow walked straight up that vertical surface a minute ago.",
+        "strategy": "So maybe does it seem like a lot of the containment is like inside of this thing or outside of this thing?",
+        "curiosity": "Well, what's required for this next model. I just I don't think it's going to work."
+      }
+    },
+    "Elspeth": {
+      "scores": {
+        "chaos": 12,
+        "heroism": 13,
+        "comedy": 15,
+        "immersion": 16,
+        "strategy": 9,
+        "curiosity": 14
+      },
+      "evidence": {
+        "chaos": "You know what? I think we should make you a taser.",
+        "heroism": "I'm going to take five pages, but I'm also gonna leave money in the binder.",
+        "comedy": "Women do be shopping. You know what I mean?",
+        "immersion": "I'm really good at that because Silus has been teaching me. And by that I mean I just watch Silus and then he goes, 'Stop watching me.'",
+        "strategy": "Should I look like a guard? Like just like a low-level guard?",
+        "curiosity": "Are all the guards boys or are there girls as well?"
+      }
+    }
+  },
+  "superlatives": {
+    "mvp": {
+      "player": "Bru",
+      "quote": "We're we're going to build the bomb of a PZO electric crystal oscillator. All right. It is a timer. It's a very reliable timer."
+    },
+    "best_joke": {
+      "player": "Topher",
+      "quote": "All right, mates. Who's ready for some mat?"
+    },
+    "most_chaotic": {
+      "player": "Silas",
+      "quote": "What if we set up a set of explosions above the core? So, and then had a the real bomb positioned above that area so that we blow open a hole at the top of the furnace, then drop the real bomb onto the core."
+    },
+    "decision_driver": "Silas"
+  }
+}
