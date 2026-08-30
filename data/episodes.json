@@ -246,7 +246,10 @@
     "session_date": "2026-08-21",
     "stages": {
       "download": "1wArVpI3XL465B1lbp-y7BkSX7YzHLiUn",
-      "extract": "DnD_2026-08-21.mp3"
+      "extract": "DnD_2026-08-21.mp3",
+      "release": "https://github.com/topherhooper/omelas-stories/releases/download/v60/DnD_2026-08-21.mp3",
+      "update-feed": "https://github.com/topherhooper/omelas-stories/releases/download/v60/DnD_2026-08-21.mp3",
+      "open-pr": "https://github.com/justin-hale/moonfall-docs/pull/40"
     }
   }
 }

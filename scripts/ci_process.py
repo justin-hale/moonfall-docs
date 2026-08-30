@@ -88,9 +88,14 @@ def mark_stage(episode_number, stage, value=None):
 
 def stage_done(episode_number, stage):
     """Check if a stage is already recorded as complete."""
+    return stage_value(episode_number, stage) is not None
+
+
+def stage_value(episode_number, stage):
+    """Return the value recorded for a completed stage, or None if not done."""
     registry = load_registry()
     ep = str(episode_number)
-    return ep in registry and stage in registry[ep].get("stages", {})
+    return registry.get(ep, {}).get("stages", {}).get(stage)
 
 
 # ── Date parsing ────────────────────────────────────────────────────────────
@@ -102,6 +107,82 @@ def extract_date_from_filename(filename):
         year, month, day = match.groups()
         return datetime(int(year), int(month), int(day))
     return None
+
+
+# ── Release lookups ────────────────────────────────────────────────────────
+#
+# The pipeline's resume path reads the release back off GitHub rather than
+# trusting the workspace, because workspace/ is per-run and data/episodes.json
+# can be lost (a rejected push discarded episode 60's entire stage record in
+# run 32578519926).
+
+RELEASE_REPO = "topherhooper/omelas-stories"
+
+
+def release_tag_for_date(session_date, repo=RELEASE_REPO):
+    """Return the tag of a published release whose title carries *session_date*.
+
+    Release titles look like "Episode 60 - 2026-08-21", so the same date regex
+    used for Drive filenames pulls the date back out.
+    """
+    result = subprocess.run(
+        ["gh", "release", "list", "--repo", repo,
+         "--limit", "200", "--json", "tagName,name"],
+        capture_output=True, text=True
+    )
+    if result.returncode != 0 or not result.stdout.strip():
+        return None
+    try:
+        releases = json.loads(result.stdout)
+    except json.JSONDecodeError:
+        return None
+    for r in releases:
+        d = extract_date_from_filename(r.get("name", ""))
+        if d and d.strftime("%Y-%m-%d") == session_date:
+            return r.get("tagName")
+    return None
+
+
+def release_audio_url(tag, fallback_name=None, repo=RELEASE_REPO):
+    """Return the download URL of *tag*'s MP3 asset, or None.
+
+    Asked of GitHub rather than constructed from the local filename: a release
+    made by an earlier run can carry an asset named differently from what this
+    run extracted (episodes up to 58 are `C4E*_*.mp3`, newer ones `DnD_*.mp3`).
+    """
+    result = subprocess.run(
+        ["gh", "release", "view", tag, "--repo", repo, "--json", "assets"],
+        capture_output=True, text=True
+    )
+    if result.returncode == 0 and result.stdout.strip():
+        try:
+            assets = json.loads(result.stdout).get("assets", [])
+        except json.JSONDecodeError:
+            assets = []
+        for asset in assets:
+            name = asset.get("name", "")
+            if name.lower().endswith(".mp3"):
+                return (asset.get("url")
+                        or f"https://github.com/{repo}/releases/download/{tag}/{name}")
+    if fallback_name:
+        return f"https://github.com/{repo}/releases/download/{tag}/{fallback_name}"
+    return None
+
+
+def open_pr_for_branch(branch):
+    """Return the URL of an open PR whose head is *branch*, or None."""
+    result = subprocess.run(
+        ["gh", "pr", "list", "--head", branch, "--state", "open",
+         "--json", "url", "--limit", "1"],
+        capture_output=True, text=True
+    )
+    if result.returncode != 0 or not result.stdout.strip():
+        return None
+    try:
+        prs = json.loads(result.stdout)
+    except json.JSONDecodeError:
+        return None
+    return prs[0].get("url") if prs else None
 
 
 # ── Google Drive auth (service account) ────────────────────────────────────
@@ -472,15 +553,22 @@ def cmd_extract():
     meta = json.loads(METADATA_FILE.read_text())
     source_path = Path(meta["source_path"])
     episode_number = meta["episode_number"]
-
-    if stage_done(episode_number, "extract"):
-        print(f"  Already done — skipping extract.")
-        return
     session_date = meta["session_date"]
 
     base_name = f"DnD_{session_date}"
     mp3_path = WORKSPACE / f"{base_name}.mp3"
     srt_path = WORKSPACE / f"{base_name}.srt"
+
+    # The registry outlives the runner but workspace/ does not, so "already
+    # extracted" is only a reason to skip if the MP3 is still on disk. Skipping
+    # on the registry alone left meta without mp3_path and broke release and
+    # update-feed one step later — the same way a skipped release step used to.
+    if stage_done(episode_number, "extract") and mp3_path.exists():
+        print("  Already done — skipping extract.")
+        meta["mp3_path"] = str(mp3_path)
+        meta["srt_path"] = str(srt_path) if srt_path.exists() else None
+        METADATA_FILE.write_text(json.dumps(meta, indent=2))
+        return
 
     # Extract audio
     print(f"  Extracting audio → {mp3_path}")
@@ -553,30 +641,54 @@ def cmd_release():
     meta = json.loads(METADATA_FILE.read_text())
     episode_number = meta["episode_number"]
     session_date = meta["session_date"]
-
-    # defensive check: if any existing release already uses this date in its
-    # title, skip creation to avoid duplicates (same logic as cmd_detect).
-    result = subprocess.run([
-        "gh", "release", "list", "--repo", "topherhooper/omelas-stories",
-        "--limit", "200", "--json", "name"
-    ], capture_output=True, text=True)
-    if result.returncode == 0 and result.stdout.strip():
-        releases = json.loads(result.stdout)
-        for r in releases:
-            name = r.get("name", "")
-            d = extract_date_from_filename(name)
-            if d and d.strftime("%Y-%m-%d") == session_date:
-                print(f"  Release for date {session_date} already exists ({name}) — skipping.")
-                mark_stage(episode_number, "release", name)
-                return
-
-    if stage_done(episode_number, "release"):
-        print(f"  Already done — skipping release.")
-        return
     mp3_path = Path(meta["mp3_path"])
-    repo = "topherhooper/omelas-stories"
+    repo = RELEASE_REPO
     tag = f"v{episode_number}"
     title = f"Episode {episode_number} - {session_date}"
+
+    def finish(audio_url, situation):
+        """Record the release and hand its audio URL to the steps that follow.
+
+        Every exit from cmd_release goes through here. update-feed needs
+        meta["audio_url"] and nothing else from this step, and the paths that
+        returned without setting it are what stranded episode 60: the release
+        already existed, so this step was skipped, and update-feed died on
+        `KeyError: 'audio_url'` (run 32806651268) with the download and the
+        extract already paid for.
+        """
+        if not audio_url:
+            print(
+                f"ERROR: {situation}, but its MP3 asset could not be resolved.\n"
+                f"Check {tag} on {repo} — update-feed cannot write an "
+                f"<enclosure> without the audio URL.",
+                file=sys.stderr,
+            )
+            sys.exit(1)
+        print(f"  Release URL: {audio_url}")
+        meta["audio_url"] = audio_url
+        METADATA_FILE.write_text(json.dumps(meta, indent=2))
+        mark_stage(episode_number, "release", audio_url)
+
+    # Defensive check: if a published release already carries this date in its
+    # title, reuse it rather than creating a duplicate (same logic as cmd_detect).
+    existing_tag = release_tag_for_date(session_date, repo)
+    if existing_tag:
+        print(f"  Release for {session_date} already published as {existing_tag} — reusing it.")
+        finish(
+            release_audio_url(existing_tag, mp3_path.name, repo),
+            f"release {existing_tag} already covers {session_date}",
+        )
+        return
+
+    recorded = stage_value(episode_number, "release")
+    if recorded:
+        print("  Already recorded as done — reusing the recorded release.")
+        finish(
+            recorded if recorded.startswith("https://")
+            else release_audio_url(tag, mp3_path.name, repo),
+            f"release {tag} is recorded as done",
+        )
+        return
 
     print(f"  Creating release {tag} on {repo}")
     result = subprocess.run([
@@ -587,7 +699,8 @@ def cmd_release():
         str(mp3_path)
     ], capture_output=True, text=True)
 
-    if result.returncode != 0:
+    created = result.returncode == 0
+    if not created:
         if "already exists" in result.stderr:
             print(f"  Release {tag} exists — uploading asset with --clobber")
             result = subprocess.run([
@@ -603,16 +716,17 @@ def cmd_release():
             print(f"ERROR: {result.stderr}", file=sys.stderr)
             sys.exit(1)
 
-    audio_url = (
-        f"https://github.com/{repo}/releases/download/{tag}/{mp3_path.name}"
+    finish(
+        f"https://github.com/{repo}/releases/download/{tag}/{mp3_path.name}",
+        f"release {tag} was just published",
     )
-    print(f"  Release URL: {audio_url}")
-    meta["audio_url"] = audio_url
-    METADATA_FILE.write_text(json.dumps(meta, indent=2))
-    mark_stage(episode_number, "release", audio_url)
-    # signal that we created a release in this run so cleanup knows to
-    # delete it if something fails later
-    write_github_env("RELEASE_CREATED_THIS_RUN", "true")
+
+    # Signal that we created a release in this run so the workflow's cleanup
+    # step knows it may delete it if something downstream fails. Only set on a
+    # release we actually created — a pre-existing one we merely uploaded to
+    # belongs to an earlier run and must survive this one's failure.
+    if created:
+        write_github_env("RELEASE_CREATED_THIS_RUN", "true")
 
 
 def cmd_delete_release():
@@ -672,7 +786,20 @@ def cmd_update_feed():
         return
     session_date_str = meta["session_date"]
     mp3_path = Path(meta["mp3_path"])
-    audio_url = meta["audio_url"]
+    # Fall back to asking GitHub for the release asset: metadata.json only
+    # carries audio_url if cmd_release ran in *this* job, and on a resumed run
+    # the release already exists.
+    audio_url = meta.get("audio_url") or release_audio_url(
+        f"v{episode_number}", mp3_path.name
+    )
+    if not audio_url:
+        print(
+            f"ERROR: no audio URL for episode {episode_number}. The release step "
+            f"has not run and v{episode_number} has no MP3 asset on "
+            f"{RELEASE_REPO}; the feed's <enclosure> cannot be written without it.",
+            file=sys.stderr,
+        )
+        sys.exit(1)
     season = 4  # Could be read from config.json if needed
 
     omelas_pat = env("OMELAS_PAT")
@@ -682,6 +809,7 @@ def cmd_update_feed():
     session_date = datetime.strptime(session_date_str, "%Y-%m-%d")
     date_str = session_date.strftime("%B %d").replace(" 0", " ")
     title = f"Episode {episode_number}: {date_str}"
+    guid_text = f"omelas-stories-e{episode_number}"
     pub_date = formatdate(timeval=mktime(session_date.timetuple()), localtime=True)
 
     file_size = mp3_path.stat().st_size
@@ -738,7 +866,7 @@ def cmd_update_feed():
 
         guid = ET.SubElement(item, "guid")
         guid.set("isPermaLink", "false")
-        guid.text = f"omelas-stories-e{episode_number}"
+        guid.text = guid_text
 
         ET.SubElement(item, "pubDate").text = pub_date
 
@@ -748,6 +876,17 @@ def cmd_update_feed():
         ET.SubElement(item, f"{{{ns}}}season").text = str(season)
         ET.SubElement(item, f"{{{ns}}}duration").text = duration_str
         ET.SubElement(item, f"{{{ns}}}explicit").text = "false"
+
+        # The registry is the normal guard against a second entry for one
+        # episode, but it lives in a file a failed run can lose — a rejected
+        # push discarded episode 60's whole stage record — and a duplicate
+        # <item> ships to every subscriber. Ask the feed itself as well.
+        for existing in channel.findall("item"):
+            existing_guid = existing.find("guid")
+            if existing_guid is not None and (existing_guid.text or "").strip() == guid_text:
+                print(f"  feed.xml already lists episode {episode_number} — skipping.")
+                mark_stage(episode_number, "update-feed", audio_url)
+                return
 
         # Insert before existing items
         first_item = channel.find("item")
@@ -861,6 +1000,17 @@ def cmd_open_pr():
         capture_output=True
     )
 
+    # Nothing to propose if the SRT is already on main — which is exactly the
+    # state after a previous run's PR was merged. `gh pr create` would fail
+    # here with "No commits between main and <branch>".
+    if subprocess.run(
+        ["git", "diff", "--quiet", "main", branch], capture_output=True
+    ).returncode == 0:
+        print(f"  {srt_file.name} is already on main — no PR needed.")
+        mark_stage(episode_number, "open-pr", "already-on-main")
+        subprocess.run(["git", "checkout", "main"], capture_output=True)
+        return
+
     print(f"  Pushing branch {branch}...")
     result = subprocess.run(
         # --force handles the case where a previous CI run already pushed this
@@ -896,6 +1046,14 @@ def cmd_open_pr():
         )
 
     try:
+        # A previous run can have opened this PR and then lost its registry
+        # entry, in which case `gh pr create` fails outright. Reuse the PR.
+        already_open = open_pr_for_branch(branch)
+        if already_open:
+            print(f"  PR already open for {branch}: {already_open}")
+            mark_stage(episode_number, "open-pr", already_open)
+            return
+
         print(f"  Opening PR: {pr_title}")
         result = run_pr()
         if result.returncode != 0:

@@ -127,8 +127,14 @@ jobs:
         run: rm -f workspace/source_video.*
 
       # ── GitHub release ──
-      - name: Create GitHub release
-        if: env.SKIP != 'true' && env.DRY_RUN != 'true' && env.RELEASE_EXISTS != 'true'
+      # Runs even when the release already exists. It used to be gated on
+      # RELEASE_EXISTS != 'true', which skipped the one step that resolves the
+      # episode's audio URL, so the next step died on `KeyError: 'audio_url'`
+      # (run 32806651268) — the exact state every partial failure leaves behind.
+      # ci_process.py release detects the existing release itself, reuses its
+      # URL, and only sets RELEASE_CREATED_THIS_RUN when it really created one.
+      - name: Create or resolve GitHub release
+        if: env.SKIP != 'true' && env.DRY_RUN != 'true'
         env:
           GH_TOKEN: ${{ secrets.OMELAS_PAT }}
         run: python scripts/ci_process.py release
@@ -152,14 +158,20 @@ jobs:
 
       # ── Cleanup on failure ──
       - name: Delete release if pipeline failed
-        # only delete if we ourselves created the release in this run, not if
-        # the release already existed (latter case has RELEASE_EXISTS='true')
+        # only delete a release we created in this run. ci_process.py release
+        # sets RELEASE_CREATED_THIS_RUN on that path alone, so a release left by
+        # an earlier run survives this one's failure and stays reusable.
         if: failure() && env.SKIP != 'true' && env.DRY_RUN != 'true' && env.RELEASE_CREATED_THIS_RUN == 'true'
         env:
           GH_TOKEN: ${{ secrets.OMELAS_PAT }}
         run: python scripts/ci_process.py delete-release
 
       # ── Save registry (runs even on partial failure) ──
+      # This is the pipeline's memory of what it has already done, so losing it
+      # costs a whole re-run: a plain `git push` here was rejected when a PR
+      # merged mid-job (run 32578519926), discarding all five of episode 60's
+      # stage records even though the release, the feed entry and the notes PR
+      # had all succeeded. Rebase onto whatever landed and try again.
       - name: Commit episode registry
         if: always() && env.SKIP != 'true' && env.DRY_RUN != 'true'
         run: |
@@ -172,10 +184,42 @@ jobs:
           git add data/episodes.json
           if git diff --cached --quiet; then
             echo "No registry changes to commit."
-          else
-            git commit -m "Update episode registry [automated]"
-            git push
+            exit 0
           fi
+          git commit -m "Update episode registry [automated]"
+          for attempt in 1 2 3; do
+            if git push; then
+              exit 0
+            fi
+            echo "Registry push rejected (attempt $attempt); rebasing onto origin/main." >&2
+            if ! git pull --rebase origin main; then
+              git rebase --abort || true
+              echo "::error::Could not rebase data/episodes.json onto origin/main — the registry is now out of date. Re-run this workflow once main is settled."
+              exit 1
+            fi
+          done
+          echo "::error::Could not push data/episodes.json after 3 attempts."
+          exit 1
+
+      # ── Report a failure ──
+      # Nothing used to announce a broken intake. The 2026-08-22 run died 24
+      # seconds in and sat unnoticed until Monday, which is what turned a
+      # four-minute failure into a missed week of publishing. Reuses the
+      # Discord webhook that generate-session.yml already posts to.
+      - name: Report failure to Discord
+        if: failure() && env.DRY_RUN != 'true'
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          if [ -z "$DISCORD_WEBHOOK_URL" ]; then
+            echo "No DISCORD_WEBHOOK_URL configured; skipping failure notice."
+            exit 0
+          fi
+          EPISODE="${EPISODE_NUMBER:-unknown}"
+          curl -sS -H "Content-Type: application/json" \
+            -d "{\"content\": \"Process Episode failed for episode $EPISODE — no notes PR was opened. $RUN_URL\"}" \
+            "$DISCORD_WEBHOOK_URL" || echo "Failure notice could not be delivered."
 
       - name: Summary
         if: env.SKIP != 'true' && env.DRY_RUN != 'true'
