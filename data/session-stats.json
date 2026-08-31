@@ -7784,54 +7784,147 @@
           "decision_driver": "Silas"
         }
       }
+    },
+    {
+      "id": "session-61",
+      "type": "session",
+      "number": 61,
+      "title": "61: Choirs of Steel",
+      "date": "2026-08-28",
+      "href": "/sessions/session-61/",
+      "has_transcript": true,
+      "transcript_format": "json",
+      "timing_quality": "exact",
+      "duration_seconds": 11556,
+      "block_count": 3861,
+      "word_count": 26239,
+      "speakers": [
+        {
+          "name": "Topher",
+          "canonical": "Topher",
+          "role": "dm",
+          "player": "Topher",
+          "blocks": 982,
+          "words": 10294,
+          "talk_seconds_est": 3028,
+          "word_share": 0.3923
+        },
+        {
+          "name": "Silas",
+          "canonical": "Silas Fairbanks",
+          "role": "pc",
+          "player": "Taylor Ramsey",
+          "blocks": 850,
+          "words": 6406,
+          "talk_seconds_est": 644,
+          "word_share": 0.2441
+        },
+        {
+          "name": "Elspeth",
+          "canonical": "Elspeth Cooper",
+          "role": "pc",
+          "player": "Ali Leonard",
+          "blocks": 976,
+          "words": 5312,
+          "talk_seconds_est": 4371,
+          "word_share": 0.2024
+        },
+        {
+          "name": "Bru",
+          "canonical": "Bru (Felonias Bru)",
+          "role": "pc",
+          "player": "Justin Hale",
+          "blocks": 560,
+          "words": 2525,
+          "talk_seconds_est": 1260,
+          "word_share": 0.0962
+        },
+        {
+          "name": "Leliana",
+          "canonical": "Leliana Goldspring",
+          "role": "pc",
+          "player": "Luke Neverisky",
+          "blocks": 493,
+          "words": 1702,
+          "talk_seconds_est": 856,
+          "word_share": 0.0649
+        }
+      ],
+      "players_present": [
+        "Silas",
+        "Elspeth",
+        "Bru",
+        "Leliana"
+      ],
+      "attendance_source": "transcript",
+      "mentions": {
+        "npcs": {
+          "George": 16,
+          "Scarlet": 10,
+          "Lady Viper": 3,
+          "April Bonal": 1
+        },
+        "locations": {
+          "High Forge": 2
+        },
+        "pcs": {
+          "Bru": 18,
+          "Red": 1
+        }
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "personality": null
     }
   ],
   "aggregate": {
-    "total_sessions": 75,
-    "sessions_with_transcripts": 32,
-    "total_words": 821106,
-    "total_blocks": 119799,
-    "total_duration_seconds": 329508,
+    "total_sessions": 76,
+    "sessions_with_transcripts": 33,
+    "total_words": 847345,
+    "total_blocks": 123660,
+    "total_duration_seconds": 341064,
     "speaker_totals": [
       {
         "name": "Topher",
         "canonical": "Topher",
         "role": "dm",
         "player": "Topher",
-        "sessions": 32,
-        "blocks": 30118,
-        "words": 258114,
-        "talk_seconds_est": 46271
+        "sessions": 33,
+        "blocks": 31100,
+        "words": 268408,
+        "talk_seconds_est": 49299
       },
       {
         "name": "Silas",
         "canonical": "Silas Fairbanks",
         "role": "pc",
         "player": "Taylor Ramsey",
-        "sessions": 32,
-        "blocks": 25304,
-        "words": 206155,
-        "talk_seconds_est": 19525
+        "sessions": 33,
+        "blocks": 26154,
+        "words": 212561,
+        "talk_seconds_est": 20169
       },
       {
         "name": "Elspeth",
         "canonical": "Elspeth Cooper",
         "role": "pc",
         "player": "Ali Leonard",
-        "sessions": 25,
-        "blocks": 17372,
-        "words": 96059,
-        "talk_seconds_est": 19026
+        "sessions": 26,
+        "blocks": 18348,
+        "words": 101371,
+        "talk_seconds_est": 23397
       },
       {
         "name": "Bru",
         "canonical": "Bru (Felonias Bru)",
         "role": "pc",
         "player": "Justin Hale",
-        "sessions": 29,
-        "blocks": 15602,
-        "words": 87078,
-        "talk_seconds_est": 18199
+        "sessions": 30,
+        "blocks": 16162,
+        "words": 89603,
+        "talk_seconds_est": 19459
       },
       {
         "name": "Olivia",
@@ -7848,10 +7941,10 @@
         "canonical": "Leliana Goldspring",
         "role": "pc",
         "player": "Luke Neverisky",
-        "sessions": 24,
-        "blocks": 10541,
-        "words": 47354,
-        "talk_seconds_est": 10520
+        "sessions": 25,
+        "blocks": 11034,
+        "words": 49056,
+        "talk_seconds_est": 11376
       },
       {
         "name": "Ohma",
@@ -7875,32 +7968,32 @@
       }
     ],
     "top_npcs": {
-      "Scarlet": 258,
+      "Scarlet": 268,
       "Victor": 241,
-      "George": 186,
+      "George": 202,
       "Iro": 148,
+      "Lady Viper": 64,
       "Astro": 63,
-      "Lady Viper": 61,
       "Naomi": 60,
       "Chalk Rock": 35,
       "Bafael": 16,
       "Bon Bonnery": 9,
+      "April Bonal": 4,
       "Lady Corwin": 4,
-      "April Bonal": 3,
       "Ben Boulage": 3
     },
     "top_locations": {
       "Greyport": 74,
-      "High Forge": 50,
+      "High Forge": 52,
       "Eldoran": 3,
       "Milstrom": 3,
       "Gold Road": 2,
       "Grimvar's Spine": 1
     },
     "top_pcs_mentioned": {
-      "Bru": 1103,
+      "Bru": 1121,
+      "Red": 21,
       "Olivia": 20,
-      "Red": 20,
       "Elspeth": 5,
       "Leliana": 1
     },

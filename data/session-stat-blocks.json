@@ -2139,6 +2139,55 @@
           "quote": "What if we set up a set of explosions above the core? So, and then had a the real bomb positioned above that area so that we blow open a hole at the top of the furnace, then drop the real bomb onto the core."
         }
       }
+    },
+    "session-61": {
+      "timing_quality": "exact",
+      "duration_seconds": 11556,
+      "word_count": 26239,
+      "players_present": [
+        "Silas",
+        "Elspeth",
+        "Bru",
+        "Leliana"
+      ],
+      "attendance_source": "transcript",
+      "speakers": [
+        {
+          "name": "Topher",
+          "role": "dm",
+          "word_share": 0.3923
+        },
+        {
+          "name": "Silas",
+          "role": "pc",
+          "word_share": 0.2441
+        },
+        {
+          "name": "Elspeth",
+          "role": "pc",
+          "word_share": 0.2024
+        },
+        {
+          "name": "Bru",
+          "role": "pc",
+          "word_share": 0.0962
+        },
+        {
+          "name": "Leliana",
+          "role": "pc",
+          "word_share": 0.0649
+        }
+      ],
+      "top_npcs": {
+        "George": 16,
+        "Scarlet": 10,
+        "Lady Viper": 3
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "superlatives": null
     }
   }
 }

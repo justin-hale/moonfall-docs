@@ -190,6 +190,10 @@ The party disguises itself to scout the Eldoran spaceport factory ahead of the t
 **Session 60** – The Beaded Alley and the Barracks Gate
 The party confirms the spaceport factory furnace is a live power core hidden under stasis magic, with Captain Steel present at a mysterious meeting inside. Elspeth secures magical dampening stickers from Tony's shop and forges genuine connections with factory floor workers scheduled for imminent layoffs. A night scouting of the barracks—executed in elaborate French orphan disguises—ends with George spotted across a courtyard of chained prisoners, forcing the party to weigh breaking cover against maintaining their infiltration.
 
+
+**Session 61** – Choirs of Steel
+The party infiltrates the barracks as orphaned wards and witnesses a harmonic ritual that ascends soldiers into armored angels through belief-fueled divine resonance. Escaping in popcorn bags, they breach the university research tower and discover the Eldoran Empire's full architectural theory: biolescence enables sound-based power conversion from the astral and divine planes, creating a self-perpetuating feedback loop between worship and military might. Commander Steel's wife is confirmed as attending Leliana's lunch event tomorrow—a critical opportunity to advance operations.
+
 ## Active Plot Threads
 
 ### 1. The Death-Game in the Eldoran Empire
@@ -244,6 +248,13 @@ Silas's connection to the Sisyphus Circle is known, but his full backstory remai
 - **Resistance Operations**: Barracks reconnaissance underway; chained prisoner population observed (identity and purpose unknown); George's location pinpointed, enabling potential extraction or continued undercover work.
 - **Bomb Design & Timing**: PZO electric crystal oscillator selected as timing mechanism; two-stage design finalized (external containment breach followed by payload drop onto core); Bru estimated two-hour construction window during factory shutdown.
 - **Magic-Detection Enforcement**: White-armored soldiers with antenna-based scanners actively patrolling Beaded Alley; dampening stickers proved effective countermeasure; 75 total stickers distributed across party for barracks infiltration.
+
+
+#### Session 61 Updates
+- **Eldoran Harmonic Resonance System**: New thread (Session 61). The Empire weaponizes divine feedback loops through biolescence and harmonic ritual; belief fuels gods, gods empower soldiers into ascended knights; dragon orbs identified as possible disruption mechanism; identical architecture suspected to power the space-based weapon.
+- **Three Sabotage Operations**: Status escalated. University research facility mapped with three-tower demolition plan (charges at elevator shaft bases); harmonic resonance laboratory confirmed on middle floor with active human experimentation; concert hall identified as secondary target (acoustically tuned ritual venue).
+- **Commander Steel Location**: Confirmed at university research facility as head scientist; now dual-objective target (personal vendetta + operational demolition).
+- **Commander Steel's Wife**: New hook. Head scientist's wife scheduled to attend Leliana's lunch event tomorrow; party identified as mission-critical intelligence/access opportunity.
 
 ## Character Status
 
@@ -444,6 +455,13 @@ Silas's connection to the Sisyphus Circle is known, but his full backstory remai
 - **Scarlet**: Took active disguise role as elderly orphanage chaperone during barracks infiltration; received acknowledgment from Silas ("when we really need you, you step up") for team participation beyond van-support role.
 - **Olivia Cooper**: Positioned at barracks gate; witnessed prisoner courtyard scene alongside party.
 
+
+#### Session 61 Updates
+- **Leliana Goldspring**: Returned to active play after absence. Fully committed to sad-orphan infiltration disguise (eye patch, prosthetic leg). Witnessed soldier ascension ritual with genuine horror and envy; watched the same power-path her brother's killer took. Reached out to George via message spell; George declined immediate meet, proposed Sexy Peacock rendezvous later.
+- **Elspeth Cooper**: Executed barracks infiltration on exceptional 30-point deception check. Admitted to party emotional discomfort with lying effectively to fascists; group half-joked about post-bombing support group. Walking line between operational confidence and moral cost.
+- **Silas Fairbanks**: Three exceptional rolls in one session (32 acrobatics/hacky-sack, 32 stealth/key-card lift, 30-range deception assist). Cemented as party's most reliable infiltration specialist. Adopted "Bradley" researcher persona with ease; noted by Archive for particular comfort in role and warmer laugh register.
+- **Bru**: Wore Colonel Sanders costume under orphan rags without self-consciousness; leveraged theatrical persona and deception checks throughout barracks and campus infiltration.
+
 ## Key Callbacks & Unresolved Hooks
 
 ### Unresolved Plot Threads
@@ -504,3 +522,11 @@ Silas's connection to the Sisyphus Circle is known, but his full backstory remai
 - **George's Prisoner Status**: George spotted exiting building in barracks courtyard; unclear whether he is prisoner, undercover operative, or something else; party must decide rescue versus continued infiltration priority.
 - **Hooded Manacled Figures**: Unknown population of chained prisoners being marched into barracks building; purpose, origin, and number unconfirmed; potential mass casualty risk if bombing proceeds without evacuation.
 - **Fredo Boggins' Unsolicited Advice**: Tony's shop owner referenced Elspeth's rival Danlin (currently jailed, possibly released on bail) and offered philosophy about not carrying hate "like spare parts"—possible callback to Elspeth's racing past or hint at Danlin's current operational status.
+
+
+#### Session 61 Updates
+- **Dragon Orbs as System Disruptors**: Research notes flagged dragon orbs (containing Astro from Session 41) as potential mechanism to break harmonic feedback loop; Astro's role in sabotage operations now directly relevant.
+- **Biolescence**: New substance identified as linchpin for harmonic resonance and belief-to-power conversion; properties and acquisition unknown; potential target for disruption or research.
+- **Eichek (God of Passion and Music)**: Original template for harmonic feedback loop system; followers fueled by passionate practice rather than explicit doctrine; god grows regardless of intent; parallels Luna's power through concert (Session 53).
+- **Human Experimentation on Top Floor**: Active live-subject testing underway; creates moral calculus for three-tower demolition (extent of casualties unknown; Leliana vocalized discomfort with collateral damage).
+- **Commander Steel's Wife as Access Point**: Tomorrow's lunch event with Leliana provides intelligence/infiltration opportunity; wife's proximity to head scientist's research suggests access to secure information or facility entry.
