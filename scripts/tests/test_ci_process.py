@@ -444,3 +444,118 @@ def test_open_pr_skips_when_the_srt_is_already_on_main(workspace, monkeypatch):
     assert ci.stage_value(60, "open-pr") == "already-on-main"
     assert not fake.ran("git", "push")
     assert not fake.ran("gh", "pr", "create")
+
+
+# ── Drive discovery ────────────────────────────────────────────────────────
+#
+# Google Meet stopped filing recordings flat in "Meet Recordings" on
+# 2026-09-19 and started nesting them under "Google Meet/<meeting name>/".
+# The flat listing that detect used could not see one folder down, so three
+# scheduled runs in a row reported "No new episodes found" while the
+# 2026-09-18 recording sat in the new tree.
+
+_FOLDER = "application/vnd.google-apps.folder"
+
+
+class FakeDrive:
+    """A Drive whose folder tree is a dict of folder id → child metadata."""
+
+    def __init__(self, tree):
+        self.tree = tree
+        self.listed = []
+
+    def files(self):
+        return self
+
+    def list(self, q=None, **kwargs):
+        folder_id = q.split("'")[1]
+        self.listed.append(folder_id)
+        children = self.tree.get(folder_id, [])
+        return _FakeRequest({"files": children})
+
+
+class _FakeRequest:
+    def __init__(self, payload):
+        self.payload = payload
+
+    def execute(self):
+        return self.payload
+
+
+LEGACY_FLAT = {
+    "meet-recordings": [
+        {
+            "id": "v-0206",
+            "name": "DnD - 2026/02/06 19:04 CST - Recording",
+            "mimeType": "video/mp4",
+            "modifiedTime": "2026-02-07T06:31:42Z",
+        },
+        {
+            "id": "notes-doc",
+            "name": "DnD - 2026/08/28 19:03 CDT - Notes by Gemini",
+            "mimeType": "application/vnd.google-apps.document",
+            "modifiedTime": "2026-08-29T05:40:11Z",
+        },
+    ],
+}
+
+NESTED = {
+    "google-meet": [
+        {
+            "id": "dnd-recurring",
+            "name": "DnD (recurring)",
+            "mimeType": _FOLDER,
+            "modifiedTime": "2026-09-19T03:36:26Z",
+        },
+    ],
+    "dnd-recurring": [
+        {
+            "id": "v-0918",
+            "name": "DnD - 2026/09/18 19:48 CDT - Recording",
+            "mimeType": "video/mp4",
+            "modifiedTime": "2026-09-19T05:53:42Z",
+        },
+        {
+            "id": "chat",
+            "name": "DnD - 2026/09/18 19:48 CDT - Chat",
+            "mimeType": "text/plain",
+            "modifiedTime": "2026-09-19T05:53:42Z",
+        },
+    ],
+}
+
+
+def test_scan_finds_a_recording_nested_a_folder_deep():
+    drive = FakeDrive(NESTED)
+    found = ci.list_videos_recursive(drive, ["google-meet"])
+    assert [f["id"] for f in found] == ["v-0918"]
+
+
+def test_scan_orders_across_roots_newest_first():
+    drive = FakeDrive({**LEGACY_FLAT, **NESTED})
+    found = ci.list_videos_recursive(drive, ["meet-recordings", "google-meet"])
+    assert [f["id"] for f in found] == ["v-0918", "v-0206"]
+
+
+def test_scan_ignores_non_video_siblings():
+    drive = FakeDrive({**LEGACY_FLAT, **NESTED})
+    found = ci.list_videos_recursive(drive, ["meet-recordings", "google-meet"])
+    ids = {f["id"] for f in found}
+    assert "notes-doc" not in ids and "chat" not in ids
+
+
+def test_scan_visits_an_overlapping_root_only_once():
+    drive = FakeDrive(NESTED)
+    found = ci.list_videos_recursive(
+        drive, ["google-meet", "dnd-recurring", "google-meet"]
+    )
+    assert [f["id"] for f in found] == ["v-0918"]
+    assert drive.listed.count("dnd-recurring") == 1
+
+
+def test_scan_stops_before_walking_drive_forever():
+    # A folder that contains itself would otherwise loop; the cap is the
+    # backstop for a tree that is merely enormous.
+    drive = FakeDrive({"loop": [{"id": "loop", "name": "loop", "mimeType": _FOLDER}]})
+    assert ci.list_videos_recursive(drive, ["loop"], max_folders=5) == []
+    assert drive.listed == ["loop"]

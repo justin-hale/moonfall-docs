@@ -200,6 +200,53 @@ def get_drive_service():
     return build("drive", "v3", credentials=creds)
 
 
+def list_videos_recursive(service, root_ids, max_folders=200):
+    """Return every video file under *root_ids*, newest first.
+
+    Each root is walked breadth-first rather than listed flat, because Google
+    Meet nests recordings one folder deep now. Folders are de-duplicated, so
+    overlapping roots cost nothing.
+    """
+    videos = {}
+    queue = list(root_ids)
+    scanned = set()
+
+    while queue and len(scanned) < max_folders:
+        folder_id = queue.pop(0)
+        if folder_id in scanned:
+            continue
+        scanned.add(folder_id)
+        print(f"  Scanning folder {folder_id}...")
+
+        page_token = None
+        while True:
+            result = service.files().list(
+                q=f"'{folder_id}' in parents and trashed = false",
+                orderBy="modifiedTime desc",
+                pageSize=200,
+                pageToken=page_token,
+                fields="nextPageToken, files(id, name, mimeType, modifiedTime)",
+            ).execute()
+            for f in result.get("files", []):
+                mime = f.get("mimeType", "")
+                if mime == "application/vnd.google-apps.folder":
+                    queue.append(f["id"])
+                elif mime.startswith("video/"):
+                    videos[f["id"]] = f
+            page_token = result.get("nextPageToken")
+            if not page_token:
+                break
+
+    if queue:
+        print(f"  WARNING: stopped after {max_folders} folders; {len(queue)} left unscanned.")
+
+    ordered = sorted(
+        videos.values(), key=lambda f: f.get("modifiedTime", ""), reverse=True
+    )
+    print(f"  Found {len(ordered)} video file(s) across {len(scanned)} folder(s).")
+    return ordered
+
+
 # ── Subcommand: detect ─────────────────────────────────────────────────────
 
 def cmd_detect():
@@ -353,6 +400,16 @@ def cmd_detect():
 
         # Register override episode
         registry = load_registry()
+        if episode_number is None:
+            # A drive_file_id dispatched on its own used to fall through here
+            # with episode_number still unset, writing EPISODE_NUMBER=None into
+            # the job environment and a literal "None" key into the registry.
+            # Nothing upstream fills it in: the release scan only considers
+            # dates after the newest transcript, so a recording that has no
+            # release yet leaves every branch above it empty.
+            existing_nums = [int(k) for k in registry.keys() if k.isdigit()]
+            episode_number = max(existing_nums) + 1 if existing_nums else 1
+            print(f"  No episode number given — assigning episode {episode_number}")
         ep_key = str(episode_number)
         if ep_key not in registry:
             registry[ep_key] = {"drive_file_id": drive_file_id, "session_date": session_date, "stages": {}}
@@ -365,20 +422,25 @@ def cmd_detect():
         return
 
     # --- Auto-detect: grab most recent Drive file, assign next episode ---
-    drive_folder_id = env("DRIVE_FOLDER_ID")
-    print(f"Scanning Drive folder {drive_folder_id}...")
+    #
+    # DRIVE_FOLDER_ID is a comma-separated list of roots, each walked
+    # recursively. Google Meet changed where it files recordings on
+    # 2026-09-19: instead of dropping them flat into "Meet Recordings", it now
+    # creates "Google Meet/<meeting name>/" and nests them a level down. The
+    # 2026-09-18 recording landed in "Google Meet/DnD (recurring)/" while this
+    # scan was still listing the old flat folder, so three scheduled runs in a
+    # row reported "No new episodes found" and the episode sat unprocessed
+    # with nothing to say why. Walking subfolders keeps the next layout shuffle
+    # inside the part of Drive we already look at.
+    drive_folder_ids = [
+        f.strip() for f in env("DRIVE_FOLDER_ID").split(",") if f.strip()
+    ]
+    print(f"Scanning Drive folders {', '.join(drive_folder_ids)}...")
     service = get_drive_service()
 
-    result = service.files().list(
-        q=f"'{drive_folder_id}' in parents and mimeType contains 'video/' and trashed = false",
-        orderBy="modifiedTime desc",
-        pageSize=200,  # fetch more files so we can search for matches
-        fields="files(id, name, modifiedTime)"
-    ).execute()
-
-    files = result.get("files", [])
+    files = list_videos_recursive(service, drive_folder_ids)
     if not files:
-        print("  No video files found in Drive folder.")
+        print("  No video files found in Drive folder(s).")
         write_github_env("SKIP", "true")
         return
 
