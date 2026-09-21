@@ -243,6 +243,17 @@ Share the **tree root**, not an individual meeting folder — Drive permissions
 inherit, so each new per-meeting subfolder Meet creates is covered without
 further action. Share a leaf and you are back here next week.
 
+`detect` probes every root with `files.get` before walking it, so the log says
+which of the two things went wrong:
+
+- `Root <id>: NOT ACCESSIBLE` — the grant is missing, or the id is wrong.
+  Drive answers a request for a folder you cannot see with *404 not found*
+  rather than *403 forbidden*, so those two look identical from the outside;
+  check the id against the one in the folder's URL before re-sharing.
+- `WARNING: root <id> is readable but has no children` — the grant worked and
+  the folder really is empty, which usually means the recordings are in a
+  subfolder that was shared separately rather than in the tree root.
+
 Both roots are therefore in the workflow's default, and subfolders are
 followed, so a further reshuffle inside either tree needs no code change. A
 `DRIVE_FOLDER_ID` repository variable overrides the default; it takes the same

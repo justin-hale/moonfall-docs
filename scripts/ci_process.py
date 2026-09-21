@@ -216,6 +216,21 @@ def service_account_email():
         return None
 
 
+def probe_folder(service, folder_id):
+    """Can this credential actually see *folder_id*? Returns (ok, detail).
+
+    `files.list` cannot answer this: a folder the caller has no access to
+    returns an empty child list, exactly as an empty folder does. `files.get`
+    distinguishes them — it raises 404 for a folder the caller cannot see,
+    because Drive hides existence rather than admitting a permission denial.
+    """
+    try:
+        meta = service.files().get(fileId=folder_id, fields="id, name").execute()
+        return True, meta.get("name") or folder_id
+    except Exception as exc:  # googleapiclient raises HttpError; keep this broad
+        return False, str(exc).strip()
+
+
 def list_videos_recursive(service, root_ids, max_folders=200):
     """Return every video file under *root_ids*, newest first.
 
@@ -230,9 +245,20 @@ def list_videos_recursive(service, root_ids, max_folders=200):
     # listing simply comes back empty, exactly as an empty folder does.
     empty_roots = []
 
+    unreadable_roots = []
+
     for root_id in root_ids:
         if root_id in scanned:
             continue
+
+        visible, detail = probe_folder(service, root_id)
+        if not visible:
+            # Definite, not a guess: this root is not readable by this run.
+            unreadable_roots.append(root_id)
+            print(f"  Root {root_id}: NOT ACCESSIBLE — {detail}")
+            continue
+        print(f"  Root {root_id} ({detail}):")
+
         before = len(videos)
         children_seen = 0
         queue = [root_id]
@@ -269,7 +295,7 @@ def list_videos_recursive(service, root_ids, max_folders=200):
                 f"  WARNING: stopped after {max_folders} folders; "
                 f"{len(queue)} left unscanned under {root_id}."
             )
-        print(f"  Root {root_id}: {len(videos) - before} video(s), "
+        print(f"    {len(videos) - before} video(s), "
               f"{children_seen} child entr(ies).")
         if children_seen == 0:
             empty_roots.append(root_id)
@@ -280,14 +306,22 @@ def list_videos_recursive(service, root_ids, max_folders=200):
     # that nobody had shared with the service account, and the scan reported
     # only its grand total, so the run read as "no new episodes" rather than
     # "one of your roots is invisible to me".
-    if empty_roots:
+    if empty_roots or unreadable_roots:
         identity = service_account_email()
         who = identity or "the GOOGLE_SERVICE_ACCOUNT_KEY identity"
+        for root_id in unreadable_roots:
+            print(
+                f"  ERROR: root {root_id} is not visible to this run at all. "
+                f"Share that exact folder (as Viewer) with {who}. Note that "
+                f"Drive reports a folder you lack access to as 'not found', so "
+                f"a wrong folder id looks the same as a missing grant — check "
+                f"the id in the folder's URL."
+            )
         for root_id in empty_roots:
             print(
-                f"  WARNING: root {root_id} returned no entries at all. Either "
-                f"it is empty, or the service account cannot read it — share "
-                f"that folder (as Viewer) with {who}."
+                f"  WARNING: root {root_id} is readable but has no children. "
+                f"If you expect recordings there, confirm they are in this "
+                f"folder and not a subfolder shared separately with {who}."
             )
 
     ordered = sorted(
