@@ -215,6 +215,20 @@ so the 2026-09-18 recording was invisible to it: three scheduled runs in a row
 finished green having reported "No new episodes found", and the episode simply
 never entered the pipeline.
 
+**Every root must be shared with the service account.** `GOOGLE_SERVICE_ACCOUNT_KEY`
+is a service account with `drive.readonly` — a separate identity from the
+recordings' owner, so it sees only what has been shared with it. Drive reports
+a folder that identity cannot read as an *empty listing*, not an error, which
+is indistinguishable from an empty folder. That is the second half of how
+Session 62 went missing: the recursive scan did reach the new `Google Meet`
+root and got nothing back, because the folder Meet had just created had never
+been shared. The scan now prints a per-root tally and warns by id when a root
+returns no entries at all, so the next time this happens the run says so
+instead of reporting "No new episodes found".
+
+Sharing the tree root is enough — Drive permissions inherit, so each new
+per-meeting subfolder Meet creates is covered without further action.
+
 Both roots are therefore in the workflow's default, and subfolders are
 followed, so a further reshuffle inside either tree needs no code change. A
 `DRIVE_FOLDER_ID` repository variable overrides the default; it takes the same
