@@ -201,6 +201,26 @@ detect → download → extract → release → update-feed → open-pr
 a run that stops halfway is picked up by the next one. Nothing else about the
 pipeline is worth understanding before this:
 
+### Where recordings come from
+
+`DRIVE_FOLDER_ID` is a **comma-separated list of root folder ids**, and each
+root is walked recursively — not listed flat.
+
+Google Meet changed its filing layout on 2026-09-19. It used to drop every
+recording straight into `My Drive/Meet Recordings/`; it now creates
+`My Drive/Google Meet/<meeting name>/` and nests them a level down. The old
+folder still exists and still holds the back catalogue, but nothing new will
+ever land in it again. `detect` was listing that one folder, non-recursively,
+so the 2026-09-18 recording was invisible to it: three scheduled runs in a row
+finished green having reported "No new episodes found", and the episode simply
+never entered the pipeline.
+
+Both roots are therefore in the workflow's default, and subfolders are
+followed, so a further reshuffle inside either tree needs no code change. A
+`DRIVE_FOLDER_ID` repository variable overrides the default; it takes the same
+comma-separated form. Overlapping roots are de-duplicated, and the walk stops
+after 200 folders so a cycle cannot run away.
+
 ### Two files hold all the state
 
 - **`workspace/metadata.json`** — per-run scratch, thrown away with the runner.
