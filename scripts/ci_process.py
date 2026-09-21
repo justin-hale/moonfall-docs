@@ -200,6 +200,22 @@ def get_drive_service():
     return build("drive", "v3", credentials=creds)
 
 
+def service_account_email():
+    """The address the pipeline authenticates as, read from the key itself.
+
+    Worth surfacing: a Drive folder that has not been shared with this exact
+    identity is invisible rather than forbidden, and the address is otherwise
+    only discoverable by opening the secret or a Drive share dialog. Returns
+    None rather than raising — this is only ever used to enrich a message.
+    """
+    try:
+        return json.loads(os.environ.get("GOOGLE_SERVICE_ACCOUNT_KEY", "")).get(
+            "client_email"
+        )
+    except (ValueError, AttributeError):
+        return None
+
+
 def list_videos_recursive(service, root_ids, max_folders=200):
     """Return every video file under *root_ids*, newest first.
 
@@ -264,12 +280,15 @@ def list_videos_recursive(service, root_ids, max_folders=200):
     # that nobody had shared with the service account, and the scan reported
     # only its grand total, so the run read as "no new episodes" rather than
     # "one of your roots is invisible to me".
-    for root_id in empty_roots:
-        print(
-            f"  WARNING: root {root_id} returned no entries at all. Either it "
-            f"is empty, or the service account cannot read it — check that the "
-            f"folder is shared with the GOOGLE_SERVICE_ACCOUNT_KEY identity."
-        )
+    if empty_roots:
+        identity = service_account_email()
+        who = identity or "the GOOGLE_SERVICE_ACCOUNT_KEY identity"
+        for root_id in empty_roots:
+            print(
+                f"  WARNING: root {root_id} returned no entries at all. Either "
+                f"it is empty, or the service account cannot read it — share "
+                f"that folder (as Viewer) with {who}."
+            )
 
     ordered = sorted(
         videos.values(), key=lambda f: f.get("modifiedTime", ""), reverse=True

@@ -226,8 +226,22 @@ been shared. The scan now prints a per-root tally and warns by id when a root
 returns no entries at all, so the next time this happens the run says so
 instead of reporting "No new episodes found".
 
-Sharing the tree root is enough — Drive permissions inherit, so each new
-per-meeting subfolder Meet creates is covered without further action.
+The identity to share with is
+
+    justin-hale-moonfall-docs-gh-a@fluted-citizen-269819.iam.gserviceaccount.com
+
+**Viewer** is the right role. The pipeline requests only `drive.readonly` and
+never writes to Drive — `Delete source video` removes the copy in `workspace/`
+on the runner, not the recording.
+
+That address is an identifier, not a credential: it grants nothing without the
+key, which exists only in the `GOOGLE_SERVICE_ACCOUNT_KEY` repository secret.
+To confirm it first-hand, read the `client_email` field of that secret's JSON,
+or open the share dialog on a folder the pipeline already reads.
+
+Share the **tree root**, not an individual meeting folder — Drive permissions
+inherit, so each new per-meeting subfolder Meet creates is covered without
+further action. Share a leaf and you are back here next week.
 
 Both roots are therefore in the workflow's default, and subfolders are
 followed, so a further reshuffle inside either tree needs no code change. A
