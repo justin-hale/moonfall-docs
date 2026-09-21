@@ -254,6 +254,20 @@ which of the two things went wrong:
   the folder really is empty, which usually means the recordings are in a
   subfolder that was shared separately rather than in the tree root.
 
+**An unreadable root fails the run.** This is the difference between "nothing
+new this week" and "the pipeline is blind", and the two must not look alike:
+`detect` exits non-zero, the job goes red, and the Discord failure notice
+fires, because it is gated on `failure()`. Session 62 is the argument — three
+consecutive scheduled runs reported `No new episodes found` and finished
+**green** while the recording sat unreachable, and nothing anywhere said so.
+The failure also writes to `$GITHUB_STEP_SUMMARY`, so the run page states the
+problem and the remedy without anyone opening the log.
+
+A root that is readable but empty only warns: an empty folder is a state the
+pipeline can legitimately be in, so it does not go red. Note that a transient
+Drive error on the probe also fails the run rather than being swallowed —
+deliberate, since a re-run costs a minute and silence cost three weeks.
+
 Both roots are therefore in the workflow's default, and subfolders are
 followed, so a further reshuffle inside either tree needs no code change. A
 `DRIVE_FOLDER_ID` repository variable overrides the default; it takes the same
