@@ -256,12 +256,12 @@ which of the two things went wrong:
 
 **An unreadable root fails the run.** This is the difference between "nothing
 new this week" and "the pipeline is blind", and the two must not look alike:
-`detect` exits non-zero, the job goes red, and the Discord failure notice
-fires, because it is gated on `failure()`. Session 62 is the argument — three
-consecutive scheduled runs reported `No new episodes found` and finished
+`detect` exits non-zero and the job goes red. Session 62 is the argument —
+three consecutive scheduled runs reported `No new episodes found` and finished
 **green** while the recording sat unreachable, and nothing anywhere said so.
 The failure also writes to `$GITHUB_STEP_SUMMARY`, so the run page states the
-problem and the remedy without anyone opening the log.
+problem and the remedy without anyone opening the log — which matters more now
+that a red run is the only signal there is.
 
 A root that is readable but empty only warns: an empty folder is a state the
 pipeline can legitimately be in, so it does not go red. Note that a transient
@@ -311,9 +311,15 @@ never remove an artifact belonging to an earlier run.
 ### Failures are announced
 
 The registry commit rebases onto `origin/main` and retries rather than dropping
-its changes, and a failed run posts to the Discord webhook. The 2026-08-22 run
-died 24 seconds in and sat unnoticed until Monday, which is what turned a
-four-minute failure into a missed week of publishing.
+its changes, and a broken intake ends the run non-zero so it shows red, with
+the problem and its remedy on the run page.
+
+**There is no push notification for a failed intake.** The Discord failure
+notice was removed on request; a red run in the Actions tab is the whole
+signal. The 2026-08-22 run is what that costs when nobody looks: it died 24
+seconds in and sat unnoticed until Monday, turning a four-minute failure into
+a missed week of publishing. Anyone relying on this pipeline should watch the
+Actions tab, or subscribe to failed-run notifications for the repository.
 
 ### After the pipeline
 
