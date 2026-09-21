@@ -205,26 +205,6 @@ jobs:
           echo "::error::Could not push data/episodes.json after 3 attempts."
           exit 1
 
-      # ── Report a failure ──
-      # Nothing used to announce a broken intake. The 2026-08-22 run died 24
-      # seconds in and sat unnoticed until Monday, which is what turned a
-      # four-minute failure into a missed week of publishing. Reuses the
-      # Discord webhook that generate-session.yml already posts to.
-      - name: Report failure to Discord
-        if: failure() && env.DRY_RUN != 'true'
-        env:
-          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
-          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
-        run: |
-          if [ -z "$DISCORD_WEBHOOK_URL" ]; then
-            echo "No DISCORD_WEBHOOK_URL configured; skipping failure notice."
-            exit 0
-          fi
-          EPISODE="${EPISODE_NUMBER:-unknown}"
-          curl -sS -H "Content-Type: application/json" \
-            -d "{\"content\": \"Process Episode failed for episode $EPISODE — no notes PR was opened. $RUN_URL\"}" \
-            "$DISCORD_WEBHOOK_URL" || echo "Failure notice could not be delivered."
-
       - name: Summary
         if: env.SKIP != 'true' && env.DRY_RUN != 'true'
         run: |

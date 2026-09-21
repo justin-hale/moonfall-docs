@@ -243,6 +243,31 @@ Share the **tree root**, not an individual meeting folder — Drive permissions
 inherit, so each new per-meeting subfolder Meet creates is covered without
 further action. Share a leaf and you are back here next week.
 
+`detect` probes every root with `files.get` before walking it, so the log says
+which of the two things went wrong:
+
+- `Root <id>: NOT ACCESSIBLE` — the grant is missing, or the id is wrong.
+  Drive answers a request for a folder you cannot see with *404 not found*
+  rather than *403 forbidden*, so those two look identical from the outside;
+  check the id against the one in the folder's URL before re-sharing.
+- `WARNING: root <id> is readable but has no children` — the grant worked and
+  the folder really is empty, which usually means the recordings are in a
+  subfolder that was shared separately rather than in the tree root.
+
+**An unreadable root fails the run.** This is the difference between "nothing
+new this week" and "the pipeline is blind", and the two must not look alike:
+`detect` exits non-zero and the job goes red. Session 62 is the argument —
+three consecutive scheduled runs reported `No new episodes found` and finished
+**green** while the recording sat unreachable, and nothing anywhere said so.
+The failure also writes to `$GITHUB_STEP_SUMMARY`, so the run page states the
+problem and the remedy without anyone opening the log — which matters more now
+that a red run is the only signal there is.
+
+A root that is readable but empty only warns: an empty folder is a state the
+pipeline can legitimately be in, so it does not go red. Note that a transient
+Drive error on the probe also fails the run rather than being swallowed —
+deliberate, since a re-run costs a minute and silence cost three weeks.
+
 Both roots are therefore in the workflow's default, and subfolders are
 followed, so a further reshuffle inside either tree needs no code change. A
 `DRIVE_FOLDER_ID` repository variable overrides the default; it takes the same
@@ -286,9 +311,15 @@ never remove an artifact belonging to an earlier run.
 ### Failures are announced
 
 The registry commit rebases onto `origin/main` and retries rather than dropping
-its changes, and a failed run posts to the Discord webhook. The 2026-08-22 run
-died 24 seconds in and sat unnoticed until Monday, which is what turned a
-four-minute failure into a missed week of publishing.
+its changes, and a broken intake ends the run non-zero so it shows red, with
+the problem and its remedy on the run page.
+
+**There is no push notification for a failed intake.** The Discord failure
+notice was removed on request; a red run in the Actions tab is the whole
+signal. The 2026-08-22 run is what that costs when nobody looks: it died 24
+seconds in and sat unnoticed until Monday, turning a four-minute failure into
+a missed week of publishing. Anyone relying on this pipeline should watch the
+Actions tab, or subscribe to failed-run notifications for the repository.
 
 ### After the pipeline
 

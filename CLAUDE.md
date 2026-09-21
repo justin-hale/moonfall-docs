@@ -92,7 +92,8 @@ first one starts anything — the other two are useless until it has run.
    episode begins.** It deliberately stops there: nothing publishes until that
    PR is merged. State lives in `data/episodes.json` (never hand-edit it except
    to repair a lost run); see `scripts/README.md` for the resume rules. A
-   failed run posts to the Discord webhook.
+   failed run goes red in the Actions tab and nowhere else — it sends no
+   Discord notice, so nothing pushes a broken intake to anyone.
 2. **Generate Session Notes** (`generate-session.yml`) — fires when that PR
    merges and the `.srt` lands in `transcripts_raw/` on main. Generates the
    recap, commits, builds, deploys, and posts to Discord. Dispatching it with

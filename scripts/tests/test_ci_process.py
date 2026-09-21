@@ -467,6 +467,13 @@ class FakeDrive:
     def files(self):
         return self
 
+    def get(self, fileId=None, **kwargs):
+        # Drive hides folders the caller cannot see behind a 404 rather than
+        # admitting a permission denial, so an unknown id raises here.
+        if fileId not in self.tree:
+            raise RuntimeError(f"File not found: {fileId}.")
+        return _FakeRequest({"id": fileId, "name": fileId})
+
     def list(self, q=None, **kwargs):
         folder_id = q.split("'")[1]
         self.listed.append(folder_id)
@@ -561,6 +568,46 @@ def test_scan_stops_before_walking_drive_forever():
     assert drive.listed == ["loop"]
 
 
+def test_an_unreadable_root_is_reported_as_an_error_not_a_maybe():
+    # The distinction that cost the most time: files.list returns an empty
+    # child list both for an empty folder and for one the credential cannot
+    # see. Probing with files.get separates them.
+    drive = FakeDrive(LEGACY_FLAT)  # "google-meet" is absent → invisible
+    with pytest.raises(ci.DriveAccessError) as excinfo:
+        ci.list_videos_recursive(drive, ["meet-recordings", "google-meet"])
+    # An inaccessible root must not be walked at all.
+    assert "google-meet" not in drive.listed
+    # The message names which root, so the run page does not need reading.
+    assert "google-meet" in str(excinfo.value)
+
+
+def test_an_unreadable_root_is_fatal_rather_than_nothing_to_do():
+    # The whole failure mode: a blind run that exits 0 is indistinguishable
+    # from a quiet week. Every readable root still gets walked and reported
+    # first, so the diagnostics land before the raise.
+    drive = FakeDrive(LEGACY_FLAT)
+    with pytest.raises(ci.DriveAccessError):
+        ci.list_videos_recursive(drive, ["meet-recordings", "google-meet"])
+    assert "meet-recordings" in drive.listed
+
+
+def test_every_root_readable_does_not_raise():
+    drive = FakeDrive({**LEGACY_FLAT, **NESTED})
+    found = ci.list_videos_recursive(drive, ["meet-recordings", "google-meet"])
+    assert [f["id"] for f in found] == ["v-0918", "v-0206"]
+
+
+def test_an_unreadable_root_says_error_and_an_empty_one_says_warning(capsys):
+    drive = FakeDrive({**LEGACY_FLAT, "empty-but-readable": []})
+    with pytest.raises(ci.DriveAccessError):
+        ci.list_videos_recursive(
+            drive, ["meet-recordings", "empty-but-readable", "google-meet"]
+        )
+    out = capsys.readouterr().out
+    assert "ERROR: root google-meet is not visible" in out
+    assert "WARNING: root empty-but-readable is readable but has no children" in out
+
+
 def test_scan_names_a_root_it_cannot_read(capsys):
     # Session 62's actual failure: the new "Google Meet" root was walked and
     # returned nothing, because nobody had shared it with the service account.
@@ -584,8 +631,10 @@ def test_scan_names_the_actual_identity_when_the_key_is_present(capsys, monkeypa
         "GOOGLE_SERVICE_ACCOUNT_KEY",
         json.dumps({"client_email": "pipeline@example.iam.gserviceaccount.com"}),
     )
-    drive = FakeDrive({**LEGACY_FLAT, "google-meet": []})
-    ci.list_videos_recursive(drive, ["meet-recordings", "google-meet"])
+    # The inaccessible case is the one that tells you to share the folder.
+    drive = FakeDrive(LEGACY_FLAT)  # "google-meet" absent → invisible
+    with pytest.raises(ci.DriveAccessError):
+        ci.list_videos_recursive(drive, ["meet-recordings", "google-meet"])
 
     out = capsys.readouterr().out
     assert "pipeline@example.iam.gserviceaccount.com" in out
@@ -611,5 +660,17 @@ def test_scan_reports_each_root_separately(capsys):
     drive = FakeDrive({**LEGACY_FLAT, **NESTED})
     ci.list_videos_recursive(drive, ["meet-recordings", "google-meet"])
     out = capsys.readouterr().out
-    assert "Root meet-recordings: 1 video(s)" in out
-    assert "Root google-meet: 1 video(s)" in out
+    # Each root is headed by its own id, with its tally indented beneath.
+    assert "Root meet-recordings (meet-recordings):" in out
+    assert "Root google-meet (google-meet):" in out
+    assert out.count("1 video(s), 2 child entr(ies).") == 1  # the legacy root
+    assert out.count("1 video(s), 3 child entr(ies).") == 1  # the nested root
+
+
+def test_a_readable_but_empty_root_is_not_fatal(capsys):
+    # Distinct from an unreadable root: an empty folder is a real state the
+    # pipeline can be in, so it warns and carries on rather than going red.
+    drive = FakeDrive({**LEGACY_FLAT, "empty-but-readable": []})
+    found = ci.list_videos_recursive(drive, ["meet-recordings", "empty-but-readable"])
+    assert [f["id"] for f in found] == ["v-0206"]
+    assert "WARNING" in capsys.readouterr().out

@@ -216,6 +216,51 @@ def service_account_email():
         return None
 
 
+def fail_the_run(title, detail, remedy):
+    """Report a fatal condition to stderr and the run page, then exit 1.
+
+    Exiting non-zero is the point: the workflow's Discord failure notice is
+    gated on failure(), so a quiet exit 0 reaches nobody.
+    """
+    print(f"ERROR: {title} — {detail}", file=sys.stderr)
+    print(f"       {remedy}", file=sys.stderr)
+
+    summary_path = os.environ.get("GITHUB_STEP_SUMMARY")
+    if summary_path:
+        try:
+            with open(summary_path, "a", encoding="utf-8") as fh:
+                fh.write(f"### {title}\n\n{detail}\n\n{remedy}\n")
+        except OSError:
+            pass  # never let the report of a failure become the failure
+
+    sys.exit(1)
+
+
+class DriveAccessError(RuntimeError):
+    """A configured Drive root could not be read.
+
+    Deliberately not a "nothing new" outcome. A root the run cannot see is a
+    misconfiguration, and the whole point of raising is that the job goes red
+    and Discord hears about it instead of the run reporting "No new episodes
+    found" in green for three weeks running.
+    """
+
+
+def probe_folder(service, folder_id):
+    """Can this credential actually see *folder_id*? Returns (ok, detail).
+
+    `files.list` cannot answer this: a folder the caller has no access to
+    returns an empty child list, exactly as an empty folder does. `files.get`
+    distinguishes them — it raises 404 for a folder the caller cannot see,
+    because Drive hides existence rather than admitting a permission denial.
+    """
+    try:
+        meta = service.files().get(fileId=folder_id, fields="id, name").execute()
+        return True, meta.get("name") or folder_id
+    except Exception as exc:  # googleapiclient raises HttpError; keep this broad
+        return False, str(exc).strip()
+
+
 def list_videos_recursive(service, root_ids, max_folders=200):
     """Return every video file under *root_ids*, newest first.
 
@@ -230,9 +275,20 @@ def list_videos_recursive(service, root_ids, max_folders=200):
     # listing simply comes back empty, exactly as an empty folder does.
     empty_roots = []
 
+    unreadable_roots = []
+
     for root_id in root_ids:
         if root_id in scanned:
             continue
+
+        visible, detail = probe_folder(service, root_id)
+        if not visible:
+            # Definite, not a guess: this root is not readable by this run.
+            unreadable_roots.append(root_id)
+            print(f"  Root {root_id}: NOT ACCESSIBLE — {detail}")
+            continue
+        print(f"  Root {root_id} ({detail}):")
+
         before = len(videos)
         children_seen = 0
         queue = [root_id]
@@ -269,7 +325,7 @@ def list_videos_recursive(service, root_ids, max_folders=200):
                 f"  WARNING: stopped after {max_folders} folders; "
                 f"{len(queue)} left unscanned under {root_id}."
             )
-        print(f"  Root {root_id}: {len(videos) - before} video(s), "
+        print(f"    {len(videos) - before} video(s), "
               f"{children_seen} child entr(ies).")
         if children_seen == 0:
             empty_roots.append(root_id)
@@ -280,20 +336,36 @@ def list_videos_recursive(service, root_ids, max_folders=200):
     # that nobody had shared with the service account, and the scan reported
     # only its grand total, so the run read as "no new episodes" rather than
     # "one of your roots is invisible to me".
-    if empty_roots:
+    if empty_roots or unreadable_roots:
         identity = service_account_email()
         who = identity or "the GOOGLE_SERVICE_ACCOUNT_KEY identity"
+        for root_id in unreadable_roots:
+            print(
+                f"  ERROR: root {root_id} is not visible to this run at all. "
+                f"Share that exact folder (as Viewer) with {who}. Note that "
+                f"Drive reports a folder you lack access to as 'not found', so "
+                f"a wrong folder id looks the same as a missing grant — check "
+                f"the id in the folder's URL."
+            )
         for root_id in empty_roots:
             print(
-                f"  WARNING: root {root_id} returned no entries at all. Either "
-                f"it is empty, or the service account cannot read it — share "
-                f"that folder (as Viewer) with {who}."
+                f"  WARNING: root {root_id} is readable but has no children. "
+                f"If you expect recordings there, confirm they are in this "
+                f"folder and not a subfolder shared separately with {who}."
             )
 
     ordered = sorted(
         videos.values(), key=lambda f: f.get("modifiedTime", ""), reverse=True
     )
     print(f"  Found {len(ordered)} video file(s) across {len(scanned)} folder(s).")
+
+    # Raised last, so every per-root line above is already on the run page.
+    if unreadable_roots:
+        raise DriveAccessError(
+            f"{len(unreadable_roots)} of {len(root_ids)} configured Drive "
+            f"root(s) could not be read: {', '.join(unreadable_roots)}"
+        )
+
     return ordered
 
 
@@ -488,7 +560,21 @@ def cmd_detect():
     print(f"Scanning Drive folders {', '.join(drive_folder_ids)}...")
     service = get_drive_service()
 
-    files = list_videos_recursive(service, drive_folder_ids)
+    try:
+        files = list_videos_recursive(service, drive_folder_ids)
+    except DriveAccessError as exc:
+        # Not SKIP=true. A root we cannot read means the pipeline is blind,
+        # and a blind run that exits 0 is indistinguishable from a quiet week
+        # — which is exactly how Session 62 sat unprocessed while three
+        # scheduled runs reported success.
+        fail_the_run(
+            "Drive is misconfigured",
+            str(exc),
+            "Share every folder in DRIVE_FOLDER_ID (as Viewer) with "
+            + (service_account_email() or "the GOOGLE_SERVICE_ACCOUNT_KEY identity")
+            + ", and check each id against the one in the folder's URL.",
+        )
+
     if not files:
         print("  No video files found in Drive folder(s).")
         write_github_env("SKIP", "true")
