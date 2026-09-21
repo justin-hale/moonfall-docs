@@ -559,3 +559,57 @@ def test_scan_stops_before_walking_drive_forever():
     drive = FakeDrive({"loop": [{"id": "loop", "name": "loop", "mimeType": _FOLDER}]})
     assert ci.list_videos_recursive(drive, ["loop"], max_folders=5) == []
     assert drive.listed == ["loop"]
+
+
+def test_scan_names_a_root_it_cannot_read(capsys):
+    # Session 62's actual failure: the new "Google Meet" root was walked and
+    # returned nothing, because nobody had shared it with the service account.
+    # Drive reports that identically to an empty folder, so the scan has to say
+    # which root came back empty rather than only printing a grand total.
+    drive = FakeDrive({**LEGACY_FLAT, "google-meet": []})
+    found = ci.list_videos_recursive(drive, ["meet-recordings", "google-meet"])
+
+    assert [f["id"] for f in found] == ["v-0206"]
+    out = capsys.readouterr().out
+    assert "WARNING" in out
+    assert "google-meet" in out
+    # No key in the environment: fall back to naming the secret.
+    assert "the GOOGLE_SERVICE_ACCOUNT_KEY identity" in out
+
+
+def test_scan_names_the_actual_identity_when_the_key_is_present(capsys, monkeypatch):
+    # The address is otherwise only visible inside the secret or a Drive share
+    # dialog, so a run that hits this should print the one to share with.
+    monkeypatch.setenv(
+        "GOOGLE_SERVICE_ACCOUNT_KEY",
+        json.dumps({"client_email": "pipeline@example.iam.gserviceaccount.com"}),
+    )
+    drive = FakeDrive({**LEGACY_FLAT, "google-meet": []})
+    ci.list_videos_recursive(drive, ["meet-recordings", "google-meet"])
+
+    out = capsys.readouterr().out
+    assert "pipeline@example.iam.gserviceaccount.com" in out
+    assert "as Viewer" in out
+
+
+def test_service_account_email_is_none_when_the_key_is_absent_or_junk(monkeypatch):
+    monkeypatch.delenv("GOOGLE_SERVICE_ACCOUNT_KEY", raising=False)
+    assert ci.service_account_email() is None
+    monkeypatch.setenv("GOOGLE_SERVICE_ACCOUNT_KEY", "not json")
+    assert ci.service_account_email() is None
+    monkeypatch.setenv("GOOGLE_SERVICE_ACCOUNT_KEY", json.dumps({"no": "email"}))
+    assert ci.service_account_email() is None
+
+
+def test_scan_does_not_warn_when_every_root_reports_children(capsys):
+    drive = FakeDrive({**LEGACY_FLAT, **NESTED})
+    ci.list_videos_recursive(drive, ["meet-recordings", "google-meet"])
+    assert "WARNING" not in capsys.readouterr().out
+
+
+def test_scan_reports_each_root_separately(capsys):
+    drive = FakeDrive({**LEGACY_FLAT, **NESTED})
+    ci.list_videos_recursive(drive, ["meet-recordings", "google-meet"])
+    out = capsys.readouterr().out
+    assert "Root meet-recordings: 1 video(s)" in out
+    assert "Root google-meet: 1 video(s)" in out

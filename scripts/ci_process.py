@@ -200,6 +200,22 @@ def get_drive_service():
     return build("drive", "v3", credentials=creds)
 
 
+def service_account_email():
+    """The address the pipeline authenticates as, read from the key itself.
+
+    Worth surfacing: a Drive folder that has not been shared with this exact
+    identity is invisible rather than forbidden, and the address is otherwise
+    only discoverable by opening the secret or a Drive share dialog. Returns
+    None rather than raising — this is only ever used to enrich a message.
+    """
+    try:
+        return json.loads(os.environ.get("GOOGLE_SERVICE_ACCOUNT_KEY", "")).get(
+            "client_email"
+        )
+    except (ValueError, AttributeError):
+        return None
+
+
 def list_videos_recursive(service, root_ids, max_folders=200):
     """Return every video file under *root_ids*, newest first.
 
@@ -208,37 +224,71 @@ def list_videos_recursive(service, root_ids, max_folders=200):
     overlapping roots cost nothing.
     """
     videos = {}
-    queue = list(root_ids)
     scanned = set()
+    # Per-root tallies, so a root that contributes nothing can be named. A
+    # root the credential cannot read is not an error from Drive's side: the
+    # listing simply comes back empty, exactly as an empty folder does.
+    empty_roots = []
 
-    while queue and len(scanned) < max_folders:
-        folder_id = queue.pop(0)
-        if folder_id in scanned:
+    for root_id in root_ids:
+        if root_id in scanned:
             continue
-        scanned.add(folder_id)
-        print(f"  Scanning folder {folder_id}...")
+        before = len(videos)
+        children_seen = 0
+        queue = [root_id]
 
-        page_token = None
-        while True:
-            result = service.files().list(
-                q=f"'{folder_id}' in parents and trashed = false",
-                orderBy="modifiedTime desc",
-                pageSize=200,
-                pageToken=page_token,
-                fields="nextPageToken, files(id, name, mimeType, modifiedTime)",
-            ).execute()
-            for f in result.get("files", []):
-                mime = f.get("mimeType", "")
-                if mime == "application/vnd.google-apps.folder":
-                    queue.append(f["id"])
-                elif mime.startswith("video/"):
-                    videos[f["id"]] = f
-            page_token = result.get("nextPageToken")
-            if not page_token:
-                break
+        while queue and len(scanned) < max_folders:
+            folder_id = queue.pop(0)
+            if folder_id in scanned:
+                continue
+            scanned.add(folder_id)
+            print(f"  Scanning folder {folder_id}...")
 
-    if queue:
-        print(f"  WARNING: stopped after {max_folders} folders; {len(queue)} left unscanned.")
+            page_token = None
+            while True:
+                result = service.files().list(
+                    q=f"'{folder_id}' in parents and trashed = false",
+                    orderBy="modifiedTime desc",
+                    pageSize=200,
+                    pageToken=page_token,
+                    fields="nextPageToken, files(id, name, mimeType, modifiedTime)",
+                ).execute()
+                for f in result.get("files", []):
+                    children_seen += 1
+                    mime = f.get("mimeType", "")
+                    if mime == "application/vnd.google-apps.folder":
+                        queue.append(f["id"])
+                    elif mime.startswith("video/"):
+                        videos[f["id"]] = f
+                page_token = result.get("nextPageToken")
+                if not page_token:
+                    break
+
+        if queue:
+            print(
+                f"  WARNING: stopped after {max_folders} folders; "
+                f"{len(queue)} left unscanned under {root_id}."
+            )
+        print(f"  Root {root_id}: {len(videos) - before} video(s), "
+              f"{children_seen} child entr(ies).")
+        if children_seen == 0:
+            empty_roots.append(root_id)
+
+    # A root that returns not one child is almost never an empty folder — it
+    # is a folder the service account cannot see. That is how Session 62 went
+    # missing: Meet filed the recording into a brand-new "Google Meet" tree
+    # that nobody had shared with the service account, and the scan reported
+    # only its grand total, so the run read as "no new episodes" rather than
+    # "one of your roots is invisible to me".
+    if empty_roots:
+        identity = service_account_email()
+        who = identity or "the GOOGLE_SERVICE_ACCOUNT_KEY identity"
+        for root_id in empty_roots:
+            print(
+                f"  WARNING: root {root_id} returned no entries at all. Either "
+                f"it is empty, or the service account cannot read it — share "
+                f"that folder (as Viewer) with {who}."
+            )
 
     ordered = sorted(
         videos.values(), key=lambda f: f.get("modifiedTime", ""), reverse=True
