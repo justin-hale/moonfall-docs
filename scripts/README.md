@@ -274,6 +274,35 @@ followed, so a further reshuffle inside either tree needs no code change. A
 comma-separated form. Overlapping roots are de-duplicated, and the walk stops
 after 200 folders so a cycle cannot run away.
 
+### Where the speaker names come from
+
+The transcript has never been speech-to-text. `extract` pulls the caption
+track Meet bakes into the recording (`ffmpeg -map 0:2`), and that track used
+to name every speaker — Episode 61's had five, with no unattributed cues.
+
+Episode 62's did not. 2,167 of its 3,581 cues carried an empty `()` tag and
+the only name present was the host's. `plugins/transcript_cleaner_ai_optimized.py`
+folds an unnamed cue into whoever spoke last, so the entire session collapsed
+into **one 44,318-character block attributed to a single person**, the recap
+model was handed a wall of unattributed text, hit `max_tokens`, and emitted no
+frontmatter. The validation gate caught it and refused to publish.
+
+Meet had not lost the attribution — it moved it, in the same reorganisation
+that moved the recordings into `Google Meet/<meeting name>/`. Each meeting now
+also produces a **`… - Transcript` document** beside the recording, and that
+document still names everyone: 1,927 attributed lines across four speakers for
+the session the caption track had reduced to one.
+
+`scripts/meet_transcript.py` converts that document back into the SRT shape the
+cleaner reads, so nothing downstream changes. Rebuilt from the document, the
+same session cleans to 126,772 characters across 1,585 dialogue blocks and four
+speakers.
+
+The document marks time only every five minutes, so cues are spread evenly
+across each section. That is accurate to within the window and never out of
+order — coarser than a caption track, and finer than the recap needs, since
+timestamps anchor narrative sections rather than quote to the second.
+
 ### Two files hold all the state
 
 - **`workspace/metadata.json`** — per-run scratch, thrown away with the runner.
