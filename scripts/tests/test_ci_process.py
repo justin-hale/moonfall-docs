@@ -674,3 +674,159 @@ def test_a_readable_but_empty_root_is_not_fatal(capsys):
     found = ci.list_videos_recursive(drive, ["meet-recordings", "empty-but-readable"])
     assert [f["id"] for f in found] == ["v-0206"]
     assert "WARNING" in capsys.readouterr().out
+
+
+# ── Transcript source preference ───────────────────────────────────────────
+#
+# Episode 62: the caption track baked into the recording arrived with only the
+# host named and 2,167 of 3,581 cues tagged `()`. The cleaner folds an unnamed
+# cue into whoever spoke last, so the session became one block attributed to
+# one person and recap generation failed. Meet's separate transcript document
+# for the same meeting named all four speakers, so it is preferred and the
+# caption track is not pulled at all when it exists.
+
+TRANSCRIPT_DOC = (
+    "# **Attendees**\n\nAli Leonard, Christopher Hooper\n\n"
+    "# **Transcript**\n\n### 00:05:00\n\n"
+    "Christopher Hooper: Roll initiative.\n\n"
+    "Ali Leonard: Natural twenty.\n\n"
+    "### Meeting ended after 00:10:00\n"
+)
+
+
+class FakeDriveDocs:
+    """Drive with an optional transcript doc and a recorded export."""
+
+    def __init__(self, doc_name=None, doc_text=TRANSCRIPT_DOC, export_raises=False):
+        self.doc_name = doc_name
+        self.doc_text = doc_text
+        self.export_raises = export_raises
+        self.queries = []
+        self.exported = []
+
+    def files(self):
+        return self
+
+    def list(self, q=None, **kwargs):
+        self.queries.append(q)
+        if self.doc_name and f"name = '{self.doc_name}'" in q:
+            return _FakeRequest({"files": [{"id": "doc1", "name": self.doc_name}]})
+        return _FakeRequest({"files": []})
+
+    def export(self, fileId=None, mimeType=None, **kwargs):
+        self.exported.append(fileId)
+        if self.export_raises:
+            raise RuntimeError("export blew up")
+        return _FakeRequest(self.doc_text.encode("utf-8"))
+
+
+def _extract_with(monkeypatch, drive, meta_name="DnD - 2026/08/21 19:00 CDT - Recording"):
+    """Run cmd_extract with a stubbed Drive; return the ffmpeg commands run."""
+    meta = json.loads(Path("workspace/metadata.json").read_text())
+    meta["original_filename"] = meta_name
+    Path("workspace/metadata.json").write_text(json.dumps(meta))
+    Path("workspace/DnD_2026-08-21.mp3").unlink(missing_ok=True)
+
+    ran = []
+
+    def fake_run(cmd, *a, **k):
+        ran.append(list(cmd))
+        if cmd[0] == "ffmpeg":
+            Path(cmd[-1]).write_bytes(b"\x00" * 8)
+        return _Completed(0, "", "")
+
+    monkeypatch.setattr(ci.subprocess, "run", fake_run)
+    monkeypatch.setattr(ci, "get_drive_service", lambda: drive)
+    ci.cmd_extract()
+    return ran
+
+
+def test_the_transcript_doc_is_preferred_and_the_caption_track_is_not_pulled(
+    workspace, monkeypatch
+):
+    drive = FakeDriveDocs(doc_name="DnD - 2026/08/21 19:00 CDT - Transcript")
+    ran = _extract_with(monkeypatch, drive)
+
+    srt = Path("workspace/DnD_2026-08-21.srt").read_text()
+    assert "(Christopher Hooper)\nRoll initiative." in srt
+    assert "(Ali Leonard)\nNatural twenty." in srt
+
+    # Audio still comes from ffmpeg; subtitles never do.
+    assert any("-c:a" in c for c in ran if c[0] == "ffmpeg")
+    assert not any("-map" in c for c in ran if c[0] == "ffmpeg")
+    assert read_meta()["transcript_source"] == "meet-transcript-doc"
+
+
+def test_the_caption_track_is_used_when_there_is_no_transcript_doc(
+    workspace, monkeypatch
+):
+    ran = _extract_with(monkeypatch, FakeDriveDocs(doc_name=None))
+    assert any("-map" in c for c in ran if c[0] == "ffmpeg")
+    assert read_meta()["transcript_source"] == "embedded-caption-track"
+
+
+def test_a_failed_export_falls_back_rather_than_losing_the_episode(
+    workspace, monkeypatch
+):
+    drive = FakeDriveDocs(
+        doc_name="DnD - 2026/08/21 19:00 CDT - Transcript", export_raises=True
+    )
+    ran = _extract_with(monkeypatch, drive)
+    assert drive.exported == ["doc1"]
+    assert any("-map" in c for c in ran if c[0] == "ffmpeg")
+
+
+def test_a_transcript_doc_with_no_utterances_falls_back(workspace, monkeypatch):
+    drive = FakeDriveDocs(
+        doc_name="DnD - 2026/08/21 19:00 CDT - Transcript",
+        doc_text="# Attendees\n\nNobody\n",
+    )
+    ran = _extract_with(monkeypatch, drive)
+    assert any("-map" in c for c in ran if c[0] == "ffmpeg")
+
+
+def test_a_single_speaker_transcript_is_called_out(workspace, monkeypatch, capsys):
+    # The Episode 62 shape: something was produced, but it cannot make a recap.
+    drive = FakeDriveDocs(
+        doc_name="DnD - 2026/08/21 19:00 CDT - Transcript",
+        doc_text=(
+            "# **Transcript**\n\n### 00:05:00\n\n"
+            "Christopher Hooper: Just me talking.\n\n"
+            "### Meeting ended after 00:10:00\n"
+        ),
+    )
+    _extract_with(monkeypatch, drive)
+    err = capsys.readouterr().err
+    assert "only 1 speaker is named" in err
+
+
+def test_a_well_attributed_transcript_raises_no_warning(workspace, monkeypatch, capsys):
+    drive = FakeDriveDocs(doc_name="DnD - 2026/08/21 19:00 CDT - Transcript")
+    _extract_with(monkeypatch, drive)
+    assert "only 1 speaker" not in capsys.readouterr().err
+
+
+def test_the_doc_name_is_derived_from_the_recording_name():
+    drive = FakeDriveDocs(doc_name="DnD - 2026/09/18 19:48 CDT - Transcript")
+    found = ci.find_meet_transcript_doc(
+        drive, "DnD - 2026/09/18 19:48 CDT - Recording.mp4"
+    )
+    assert found == "doc1"
+    assert "DnD - 2026/09/18 19:48 CDT - Transcript" in drive.queries[0]
+
+
+def test_a_recording_not_named_recording_is_not_searched_for():
+    drive = FakeDriveDocs(doc_name="anything")
+    assert ci.find_meet_transcript_doc(drive, "some-random-upload.mp4") is None
+    assert drive.queries == []
+
+
+def test_count_srt_speakers_separates_named_from_unattributed():
+    srt = (
+        "1\n00:00:00,000 --> 00:00:01,000\n(Ali Leonard)\nhi\n\n"
+        "2\n00:00:01,000 --> 00:00:02,000\n()\nwho said that\n\n"
+        "3\n00:00:02,000 --> 00:00:03,000\n(Ali Leonard)\nme\n"
+    )
+    named, unnamed = ci.count_srt_speakers(srt)
+    assert named == {"Ali Leonard"}
+    assert unnamed == 1
