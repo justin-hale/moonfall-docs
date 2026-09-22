@@ -298,6 +298,23 @@ cleaner reads, so nothing downstream changes. Rebuilt from the document, the
 same session cleans to 126,772 characters across 1,585 dialogue blocks and four
 speakers.
 
+`extract` prefers that document automatically. When one exists beside the
+recording it is exported, converted, and used — and the caption track is **not
+pulled at all**, rather than pulled and discarded. Meet names the pair
+identically apart from the final word, so the document is derived from the
+recording's own name rather than searched for blindly. Audio extraction is
+untouched: the release needs the MP3 either way.
+
+Every fallback is deliberate. No document, an export that fails, or a document
+holding no attributed lines all fall back to the caption track, because a
+worse transcript still beats losing the episode. Drive being unreachable does
+too — that step did not need Drive before this, and a network blip must not
+cost an extraction the video alone can satisfy.
+
+Whichever source wins, the run reports how well attributed it is, and warns on
+stderr when only one speaker is named. That is the Episode 62 shape exactly:
+something was produced, but no recap can come from it.
+
 The document marks time only every five minutes, so cues are spread evenly
 across each section. That is accurate to within the window and never out of
 order — coarser than a caption track, and finer than the recap needs, since
