@@ -1,0 +1,94 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-09-18",
+  "model": "claude-haiku-4-5",
+  "players": {
+    "Topher": {
+      "scores": {
+        "chaos": 8,
+        "heroism": 7,
+        "comedy": 14,
+        "immersion": 16,
+        "strategy": 15,
+        "curiosity": 12
+      },
+      "evidence": {
+        "chaos": "He plays George mostly straight but allows NPCs to create lighter chaos; mostly controlled world-building.",
+        "heroism": "George offers to help the party escape and scouts the garrison; basic support but not particularly selfless given his undercover position.",
+        "comedy": "Sustained comedic scenes like the Fredo/Samo friendship moment, the Samoan marriage dilemma, and playful banter about birthdays and elves throughout.",
+        "immersion": "Detailed NPC voices, environmental descriptions like 'Toyota dealership spotlight beams,' and sustained roleplay across multiple scenes with George, Fredo, Cassandra.",
+        "strategy": "Provides tactical advice on timing explosions, suggests the Sexy Peacock as a safe hideout, warns about city lockdown—clearly thinking ahead about the heist logistics.",
+        "curiosity": "Asks probing questions about the plan and pushes players to consider logistics; 'Do y'all have a way out?' and builds world details organically."
+      }
+    },
+    "Silas": {
+      "scores": {
+        "chaos": 7,
+        "heroism": 13,
+        "comedy": 12,
+        "immersion": 14,
+        "strategy": 18,
+        "curiosity": 11
+      },
+      "evidence": {
+        "chaos": "Generally cautious about the plan; joked about Colonel Sanders flash mob but mostly stays on task.",
+        "heroism": "Tells Leliana 'if you see an opportunity to kill his ass, I got your back'—willing to risk the mission for her revenge against Captain Steel.",
+        "comedy": "Good comedic timing with lines like 'You don't believe that' and riffs on business jargon; not the primary joke engine but solid contributions.",
+        "immersion": "Sustained in-character decision-making; speaks as Silas throughout, maintains the halfling worker cover, thinks through character motivations.",
+        "strategy": "Drives the entire heist planning; 'should we split up? have two people go to the factory, two to the garrison'; coordinates timing, anticipates complications with the research center, deliberates escape routes methodically.",
+        "curiosity": "Asks about the scientist's presence, confirms George's role, questions detonation methods ('Detonators exist'), but mostly focused on execution rather than exploration."
+      }
+    },
+    "Elspeth": {
+      "scores": {
+        "chaos": 9,
+        "heroism": 10,
+        "comedy": 13,
+        "immersion": 15,
+        "strategy": 11,
+        "curiosity": 10
+      },
+      "evidence": {
+        "chaos": "Mostly follows the plan; mild impulsiveness with 'I'm gonna be Stephanie from Full House' and some playful tangents but nothing derailing.",
+        "heroism": "Participates in the group's efforts but no standout self-sacrifice; willing to go along with the heist but not driving it.",
+        "comedy": "Solid joke contributions: 'CM Junk,' 'Brainies,' various quips about the party and NPCs; present but not dominating the humor.",
+        "immersion": "Strong roleplay at the party scene; good interaction with Cassandra and Gracie, maintains cover, reacts authentically to events like the lake swim.",
+        "strategy": "Follows Silas's lead on the heist plan; offers minor input on timing and tactics but defers to group decisions.",
+        "curiosity": "Asks about harmonic engines, inquires about other cities, gathers intel from Cassandra's friends about factory layoffs—moderate engagement with world-building."
+      }
+    },
+    "Leliana": {
+      "scores": {
+        "chaos": 6,
+        "heroism": 16,
+        "comedy": 10,
+        "immersion": 14,
+        "strategy": 13,
+        "curiosity": 12
+      },
+      "evidence": {
+        "chaos": "Minimal chaos; focused on the mission. One mistake with the bomb timer but corrects course quickly.",
+        "heroism": "Expresses strong determination to confront Captain Steel: 'I'm gonna do something. I don't know what. I'm gonna do something'; takes on most dangerous solo mission at the barracks; risked visibility to disable the bomb.",
+        "comedy": "Occasional light moments ('the sexy peacock,' comments on brain talkies) but mostly serious and mission-focused.",
+        "immersion": "Good in-character roleplay as Leliana/Helisana; maintains cover at the barracks, reacts authentically to bomb timer malfunction, engages in downtime conversations.",
+        "strategy": "Suggests using the Sexy Peacock as a hideout, proposes trying the World Tree as escape route, helps brainstorm logistics—solid strategic input without dominating.",
+        "curiosity": "Asks clarifying questions about the plan, shows interest in escape routes, inquires about whether she can see people; moderate engagement."
+      }
+    }
+  },
+  "superlatives": {
+    "mvp": {
+      "player": "Silas",
+      "quote": "I'm going to send out a message to all my teammates. I can probably go and scoop the ticket up really quick, but if you guys can make a distraction for me for just a few seconds, I can probably do it."
+    },
+    "best_joke": {
+      "player": "Elspeth",
+      "quote": "CM Junk."
+    },
+    "most_chaotic": {
+      "player": "Elspeth",
+      "quote": "So that's why he's not here. Yep. It's canon now. [re: Bru being carried off by Colonel Sanders flash mob]"
+    },
+    "decision_driver": "Silas"
+  }
+}

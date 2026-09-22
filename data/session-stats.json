@@ -7877,44 +7877,210 @@
         "nat1_mentions": 0
       },
       "personality": null
+    },
+    {
+      "id": "session-62",
+      "type": "session",
+      "number": 62,
+      "title": "62: Party Favors",
+      "date": "2026-09-18",
+      "href": "/sessions/session-62/",
+      "has_transcript": true,
+      "transcript_format": "json",
+      "timing_quality": "exact",
+      "duration_seconds": 9837,
+      "block_count": 1585,
+      "word_count": 18249,
+      "speakers": [
+        {
+          "name": "Topher",
+          "canonical": "Topher",
+          "role": "dm",
+          "player": "Topher",
+          "blocks": 558,
+          "words": 7222,
+          "talk_seconds_est": 3789,
+          "word_share": 0.3957
+        },
+        {
+          "name": "Silas",
+          "canonical": "Silas Fairbanks",
+          "role": "pc",
+          "player": "Taylor Ramsey",
+          "blocks": 362,
+          "words": 5005,
+          "talk_seconds_est": 2234,
+          "word_share": 0.2743
+        },
+        {
+          "name": "Elspeth",
+          "canonical": "Elspeth Cooper",
+          "role": "pc",
+          "player": "Ali Leonard",
+          "blocks": 409,
+          "words": 3396,
+          "talk_seconds_est": 1920,
+          "word_share": 0.1861
+        },
+        {
+          "name": "Leliana",
+          "canonical": "Leliana Goldspring",
+          "role": "pc",
+          "player": "Luke Neverisky",
+          "blocks": 256,
+          "words": 2626,
+          "talk_seconds_est": 1609,
+          "word_share": 0.1439
+        }
+      ],
+      "players_present": [
+        "Silas",
+        "Elspeth",
+        "Leliana"
+      ],
+      "attendance_source": "transcript",
+      "mentions": {
+        "npcs": {
+          "George": 35,
+          "Scarlet": 24,
+          "Lady Viper": 3,
+          "Iro": 1,
+          "Victor": 1
+        },
+        "locations": {
+          "High Forge": 2
+        },
+        "pcs": {
+          "Bru": 22
+        }
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "personality": {
+        "scores": {
+          "Topher": {
+            "chaos": 8,
+            "heroism": 7,
+            "comedy": 14,
+            "immersion": 16,
+            "strategy": 15,
+            "curiosity": 12
+          },
+          "Silas": {
+            "chaos": 7,
+            "heroism": 13,
+            "comedy": 12,
+            "immersion": 14,
+            "strategy": 18,
+            "curiosity": 11
+          },
+          "Elspeth": {
+            "chaos": 9,
+            "heroism": 10,
+            "comedy": 13,
+            "immersion": 15,
+            "strategy": 11,
+            "curiosity": 10
+          },
+          "Leliana": {
+            "chaos": 6,
+            "heroism": 16,
+            "comedy": 10,
+            "immersion": 14,
+            "strategy": 13,
+            "curiosity": 12
+          }
+        },
+        "evidence": {
+          "Topher": {
+            "chaos": "He plays George mostly straight but allows NPCs to create lighter chaos; mostly controlled world-building.",
+            "heroism": "George offers to help the party escape and scouts the garrison; basic support but not particularly selfless given his undercover position.",
+            "comedy": "Sustained comedic scenes like the Fredo/Samo friendship moment, the Samoan marriage dilemma, and playful banter about birthdays and elves throughout.",
+            "immersion": "Detailed NPC voices, environmental descriptions like 'Toyota dealership spotlight beams,' and sustained roleplay across multiple scenes with George, Fredo, Cassandra.",
+            "strategy": "Provides tactical advice on timing explosions, suggests the Sexy Peacock as a safe hideout, warns about city lockdown—clearly thinking ahead about the heist logistics.",
+            "curiosity": "Asks probing questions about the plan and pushes players to consider logistics; 'Do y'all have a way out?' and builds world details organically."
+          },
+          "Silas": {
+            "chaos": "Generally cautious about the plan; joked about Colonel Sanders flash mob but mostly stays on task.",
+            "heroism": "Tells Leliana 'if you see an opportunity to kill his ass, I got your back'—willing to risk the mission for her revenge against Captain Steel.",
+            "comedy": "Good comedic timing with lines like 'You don't believe that' and riffs on business jargon; not the primary joke engine but solid contributions.",
+            "immersion": "Sustained in-character decision-making; speaks as Silas throughout, maintains the halfling worker cover, thinks through character motivations.",
+            "strategy": "Drives the entire heist planning; 'should we split up? have two people go to the factory, two to the garrison'; coordinates timing, anticipates complications with the research center, deliberates escape routes methodically.",
+            "curiosity": "Asks about the scientist's presence, confirms George's role, questions detonation methods ('Detonators exist'), but mostly focused on execution rather than exploration."
+          },
+          "Elspeth": {
+            "chaos": "Mostly follows the plan; mild impulsiveness with 'I'm gonna be Stephanie from Full House' and some playful tangents but nothing derailing.",
+            "heroism": "Participates in the group's efforts but no standout self-sacrifice; willing to go along with the heist but not driving it.",
+            "comedy": "Solid joke contributions: 'CM Junk,' 'Brainies,' various quips about the party and NPCs; present but not dominating the humor.",
+            "immersion": "Strong roleplay at the party scene; good interaction with Cassandra and Gracie, maintains cover, reacts authentically to events like the lake swim.",
+            "strategy": "Follows Silas's lead on the heist plan; offers minor input on timing and tactics but defers to group decisions.",
+            "curiosity": "Asks about harmonic engines, inquires about other cities, gathers intel from Cassandra's friends about factory layoffs—moderate engagement with world-building."
+          },
+          "Leliana": {
+            "chaos": "Minimal chaos; focused on the mission. One mistake with the bomb timer but corrects course quickly.",
+            "heroism": "Expresses strong determination to confront Captain Steel: 'I'm gonna do something. I don't know what. I'm gonna do something'; takes on most dangerous solo mission at the barracks; risked visibility to disable the bomb.",
+            "comedy": "Occasional light moments ('the sexy peacock,' comments on brain talkies) but mostly serious and mission-focused.",
+            "immersion": "Good in-character roleplay as Leliana/Helisana; maintains cover at the barracks, reacts authentically to bomb timer malfunction, engages in downtime conversations.",
+            "strategy": "Suggests using the Sexy Peacock as a hideout, proposes trying the World Tree as escape route, helps brainstorm logistics—solid strategic input without dominating.",
+            "curiosity": "Asks clarifying questions about the plan, shows interest in escape routes, inquires about whether she can see people; moderate engagement."
+          }
+        },
+        "superlatives": {
+          "mvp": {
+            "player": "Silas",
+            "quote": "I'm going to send out a message to all my teammates. I can probably go and scoop the ticket up really quick, but if you guys can make a distraction for me for just a few seconds, I can probably do it."
+          },
+          "best_joke": {
+            "player": "Elspeth",
+            "quote": "CM Junk."
+          },
+          "most_chaotic": {
+            "player": "Elspeth",
+            "quote": "So that's why he's not here. Yep. It's canon now. [re: Bru being carried off by Colonel Sanders flash mob]"
+          },
+          "decision_driver": "Silas"
+        }
+      }
     }
   ],
   "aggregate": {
-    "total_sessions": 76,
-    "sessions_with_transcripts": 33,
-    "total_words": 847345,
-    "total_blocks": 123660,
-    "total_duration_seconds": 341064,
+    "total_sessions": 77,
+    "sessions_with_transcripts": 34,
+    "total_words": 865594,
+    "total_blocks": 125245,
+    "total_duration_seconds": 350901,
     "speaker_totals": [
       {
         "name": "Topher",
         "canonical": "Topher",
         "role": "dm",
         "player": "Topher",
-        "sessions": 33,
-        "blocks": 31100,
-        "words": 268408,
-        "talk_seconds_est": 49299
+        "sessions": 34,
+        "blocks": 31658,
+        "words": 275630,
+        "talk_seconds_est": 53088
       },
       {
         "name": "Silas",
         "canonical": "Silas Fairbanks",
         "role": "pc",
         "player": "Taylor Ramsey",
-        "sessions": 33,
-        "blocks": 26154,
-        "words": 212561,
-        "talk_seconds_est": 20169
+        "sessions": 34,
+        "blocks": 26516,
+        "words": 217566,
+        "talk_seconds_est": 22403
       },
       {
         "name": "Elspeth",
         "canonical": "Elspeth Cooper",
         "role": "pc",
         "player": "Ali Leonard",
-        "sessions": 26,
-        "blocks": 18348,
-        "words": 101371,
-        "talk_seconds_est": 23397
+        "sessions": 27,
+        "blocks": 18757,
+        "words": 104767,
+        "talk_seconds_est": 25317
       },
       {
         "name": "Bru",
@@ -7941,10 +8107,10 @@
         "canonical": "Leliana Goldspring",
         "role": "pc",
         "player": "Luke Neverisky",
-        "sessions": 25,
-        "blocks": 11034,
-        "words": 49056,
-        "talk_seconds_est": 11376
+        "sessions": 26,
+        "blocks": 11290,
+        "words": 51682,
+        "talk_seconds_est": 12985
       },
       {
         "name": "Ohma",
@@ -7968,11 +8134,11 @@
       }
     ],
     "top_npcs": {
-      "Scarlet": 268,
-      "Victor": 241,
-      "George": 202,
-      "Iro": 148,
-      "Lady Viper": 64,
+      "Scarlet": 292,
+      "Victor": 242,
+      "George": 237,
+      "Iro": 149,
+      "Lady Viper": 67,
       "Astro": 63,
       "Naomi": 60,
       "Chalk Rock": 35,
@@ -7984,14 +8150,14 @@
     },
     "top_locations": {
       "Greyport": 74,
-      "High Forge": 52,
+      "High Forge": 54,
       "Eldoran": 3,
       "Milstrom": 3,
       "Gold Road": 2,
       "Grimvar's Spine": 1
     },
     "top_pcs_mentioned": {
-      "Bru": 1121,
+      "Bru": 1143,
       "Red": 21,
       "Olivia": 20,
       "Elspeth": 5,
@@ -8050,11 +8216,11 @@
         }
       },
       "Elspeth": {
-        "sessions_scored": 24,
+        "sessions_scored": 25,
         "mean_scores": {
-          "chaos": 9.8,
-          "heroism": 12.0,
-          "comedy": 11.1,
+          "chaos": 9.7,
+          "heroism": 11.9,
+          "comedy": 11.2,
           "immersion": 12.8,
           "strategy": 11.2,
           "curiosity": 10.5
@@ -8093,8 +8259,8 @@
         },
         "superlative_counts": {
           "mvp": 3,
-          "best_joke": 4,
-          "most_chaotic": 2,
+          "best_joke": 5,
+          "most_chaotic": 3,
           "decision_driver": 4
         }
       },
@@ -8148,13 +8314,13 @@
         }
       },
       "Leliana": {
-        "sessions_scored": 23,
+        "sessions_scored": 24,
         "mean_scores": {
-          "chaos": 9.0,
-          "heroism": 11.7,
-          "comedy": 9.7,
+          "chaos": 8.9,
+          "heroism": 11.9,
+          "comedy": 9.8,
           "immersion": 12.9,
-          "strategy": 10.4,
+          "strategy": 10.5,
           "curiosity": 10.2
         },
         "signature_evidence": {
@@ -8295,14 +8461,14 @@
         }
       },
       "Silas": {
-        "sessions_scored": 31,
+        "sessions_scored": 32,
         "mean_scores": {
-          "chaos": 10.5,
-          "heroism": 10.6,
-          "comedy": 12.4,
+          "chaos": 10.4,
+          "heroism": 10.7,
+          "comedy": 12.3,
           "immersion": 13.3,
-          "strategy": 15.1,
-          "curiosity": 12.3
+          "strategy": 15.2,
+          "curiosity": 12.2
         },
         "signature_evidence": {
           "chaos": {
@@ -8337,20 +8503,20 @@
           }
         },
         "superlative_counts": {
-          "mvp": 11,
+          "mvp": 12,
           "best_joke": 13,
           "most_chaotic": 5,
-          "decision_driver": 23
+          "decision_driver": 24
         }
       },
       "Topher": {
-        "sessions_scored": 31,
+        "sessions_scored": 32,
         "mean_scores": {
-          "chaos": 12.6,
-          "heroism": 10.5,
+          "chaos": 12.5,
+          "heroism": 10.4,
           "comedy": 13.3,
           "immersion": 15.0,
-          "strategy": 12.7,
+          "strategy": 12.8,
           "curiosity": 11.8
         },
         "signature_evidence": {

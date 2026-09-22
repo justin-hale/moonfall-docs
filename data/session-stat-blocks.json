@@ -2188,6 +2188,62 @@
         "nat1_mentions": 0
       },
       "superlatives": null
+    },
+    "session-62": {
+      "timing_quality": "exact",
+      "duration_seconds": 9837,
+      "word_count": 18249,
+      "players_present": [
+        "Silas",
+        "Elspeth",
+        "Leliana"
+      ],
+      "attendance_source": "transcript",
+      "speakers": [
+        {
+          "name": "Topher",
+          "role": "dm",
+          "word_share": 0.3957
+        },
+        {
+          "name": "Silas",
+          "role": "pc",
+          "word_share": 0.2743
+        },
+        {
+          "name": "Elspeth",
+          "role": "pc",
+          "word_share": 0.1861
+        },
+        {
+          "name": "Leliana",
+          "role": "pc",
+          "word_share": 0.1439
+        }
+      ],
+      "top_npcs": {
+        "George": 35,
+        "Scarlet": 24,
+        "Lady Viper": 3
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "superlatives": {
+        "mvp": {
+          "player": "Silas",
+          "quote": "I'm going to send out a message to all my teammates. I can probably go and scoop the ticket up really quick, but if you guys can make a distraction for me for just a few seconds, I can probably do it."
+        },
+        "best_joke": {
+          "player": "Elspeth",
+          "quote": "CM Junk."
+        },
+        "most_chaotic": {
+          "player": "Elspeth",
+          "quote": "So that's why he's not here. Yep. It's canon now. [re: Bru being carried off by Colonel Sanders flash mob]"
+        }
+      }
     }
   }
 }

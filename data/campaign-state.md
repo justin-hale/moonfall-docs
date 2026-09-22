@@ -194,6 +194,10 @@ The party confirms the spaceport factory furnace is a live power core hidden und
 **Session 61** – Choirs of Steel
 The party infiltrates the barracks as orphaned wards and witnesses a harmonic ritual that ascends soldiers into armored angels through belief-fueled divine resonance. Escaping in popcorn bags, they breach the university research tower and discover the Eldoran Empire's full architectural theory: biolescence enables sound-based power conversion from the astral and divine planes, creating a self-perpetuating feedback loop between worship and military might. Commander Steel's wife is confirmed as attending Leliana's lunch event tomorrow—a critical opportunity to advance operations.
 
+
+**Session 62** – Party Favors
+The party finalizes its three-pronged strike plan: Bru constructs two suitcase bombs delivered with silent confidence, Leliana infiltrates the barracks as a mid-ranking officer to arm one device, and Silas executes a lakeside heist during Cassandra's birthday party to steal a research scientist's lab coat and passcode. Between operational cover and genuine connection, the party overhears strangers at the lake recounting legends of "Taco Cat"—a mythic adventuring band that is, unbeknownst to the storytellers, sitting at their picnic table.
+
 ## Active Plot Threads
 
 ### 1. The Death-Game in the Eldoran Empire
@@ -255,6 +259,15 @@ Silas's connection to the Sisyphus Circle is known, but his full backstory remai
 - **Three Sabotage Operations**: Status escalated. University research facility mapped with three-tower demolition plan (charges at elevator shaft bases); harmonic resonance laboratory confirmed on middle floor with active human experimentation; concert hall identified as secondary target (acoustically tuned ritual venue).
 - **Commander Steel Location**: Confirmed at university research facility as head scientist; now dual-objective target (personal vendetta + operational demolition).
 - **Commander Steel's Wife**: New hook. Head scientist's wife scheduled to attend Leliana's lunch event tomorrow; party identified as mission-critical intelligence/access opportunity.
+
+
+#### Session 62 Updates
+- **Three Sabotage Operations – Status Escalated to Active Execution**: Barracks bomb armed and in place; university tower and spaceport factory targets pending; scientist's passcode acquired, enabling final access phase.
+- **Commander Steel – Personal Vendetta Confirmed**: Silas privately offers Leliana unconditional support for killing Steel if opportunity arises; Leliana accepts with commitment to "Helisanna mode."
+- **Escape Planning – New Asset**: Finnegan assigned to map viable exits (boat, sewer, vehicle ramp); light lanes installed at barracks in January now flagged as potential route/obstacle.
+- **Harmonic Engines – Intelligence Acquired**: Fredo Boggins confirms existence of violin-crystal-bundled devices capable of multiplying weapon output by factor of ten; source and acquisition method unknown.
+- **Taco Cat Legend – New Callback Hook**: Party overhears locals recounting mythologized version of their own story at lake; group identity now circulating as folk legend among civilian population.
+- **Cassandra's Fate – Moral Complication Escalated**: Factory worker's scheduled termination during 24-hour shutdown now directly witnessed through personal friendship; birthday party reinforces civilian casualty weight.
 
 ## Character Status
 
@@ -462,6 +475,14 @@ Silas's connection to the Sisyphus Circle is known, but his full backstory remai
 - **Silas Fairbanks**: Three exceptional rolls in one session (32 acrobatics/hacky-sack, 32 stealth/key-card lift, 30-range deception assist). Cemented as party's most reliable infiltration specialist. Adopted "Bradley" researcher persona with ease; noted by Archive for particular comfort in role and warmer laugh register.
 - **Bru**: Wore Colonel Sanders costume under orphan rags without self-consciousness; leveraged theatrical persona and deception checks throughout barracks and campus infiltration.
 
+
+#### Session 62 Updates
+- **Leliana Goldspring – Identity Merger Weaponized**: Adopts "Helisanna mode" consciously as tactical tool rather than involuntary split; demonstrates confidence in merged identity through bomb-arming and reality-warping performance (disguise self DC 20, hallucinatory terrain DC 22).
+- **Silas Fairbanks – Loyalty Extended**: Offers unconditional support to Leliana regarding Commander Steel; provides emotional continuity with long-standing friendship pattern established with Bru; stealth performance at lake heist reaches 27 (stealth) and 26 (sleight of hand) under operational pressure.
+- **Scarlet – Identity Revealed**: Discloses three-hundred-year age and birth under apple tree; acknowledges unspoken observation of Elspeth's fondness for Lady Viper; commits to following Lady Viper's next destination regardless of operational outcome.
+- **Elspeth Cooper – Complicated Attachments**: Tea set gift lands unexpectedly well with Cassandra; receives unplanned emotional confession from Scarlet; navigating tension between genuine friendship and imminent bombing operation.
+- **Bru – Silent Deliverable**: Constructs two functional suitcase bombs with written arming instructions; delivers without commentary or presence; earns renewed confidence in professional expertise.
+
 ## Key Callbacks & Unresolved Hooks
 
 ### Unresolved Plot Threads
@@ -530,3 +551,11 @@ Silas's connection to the Sisyphus Circle is known, but his full backstory remai
 - **Eichek (God of Passion and Music)**: Original template for harmonic feedback loop system; followers fueled by passionate practice rather than explicit doctrine; god grows regardless of intent; parallels Luna's power through concert (Session 53).
 - **Human Experimentation on Top Floor**: Active live-subject testing underway; creates moral calculus for three-tower demolition (extent of casualties unknown; Leliana vocalized discomfort with collateral damage).
 - **Commander Steel's Wife as Access Point**: Tomorrow's lunch event with Leliana provides intelligence/infiltration opportunity; wife's proximity to head scientist's research suggests access to secure information or facility entry.
+
+
+#### Session 62 Updates
+- **Taco Cat as Party Legend**: Folk mythology circulating among civilian population provides future callback opportunity when party identity becomes operationally significant or requires legendary credentials for infiltration/negotiation.
+- **Scarlet's Unspoken Fondness Observation**: Scarlet's notice of Elspeth's attachment to Lady Viper creates future dialogue/relationship callback; Lady Viper's next destination becomes shared point of interest.
+- **Cassandra's Birthday and Termination**: Elspeth's personal connection to factory worker scheduled for death-of-shift creates moral accountability callback; "Stephanie" alias and tea-set gift establish potential future contact or rescue storyline.
+- **George's Barracks Extraction**: Leliana reached George via psychic message to clear building; George's response acknowledged but unresolved; future reunion or extraction necessary before barracks detonation.
+- **Scientist's Passcode and Lab Coat**: Acquired credentials enable final phase of university research tower access; exact nature of lab-coat security clearance and passcode scope unconfirmed.
