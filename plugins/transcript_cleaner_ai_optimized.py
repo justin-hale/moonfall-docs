@@ -25,6 +25,12 @@ from datetime import datetime, timedelta
 
 JSON_SCHEMA_VERSION = "1.0"
 
+# Google Meet captions label a cue "()" when it cannot name the speaker (a
+# guest, a shared room device, or someone not signed in). Those cues used to
+# be dropped outright; for Session 62 that was 59% of the dialogue, and the
+# recap generator was handed a three-hour monologue by the DM.
+UNIDENTIFIED_SPEAKER = "Unidentified Speaker"
+
 
 def parse_timestamp(timestamp_str):
     """Convert SRT timestamp to seconds"""
@@ -233,9 +239,9 @@ def clean_transcript_ai_optimized(input_text, return_blocks: bool = False):
                         continue
                     
                     # Extract speaker name in parentheses at the start
-                    speaker_match = re.match(r'\(([^)]+)\)\s*(.*)', part, re.DOTALL)
+                    speaker_match = re.match(r'\(([^)]*)\)\s*(.*)', part, re.DOTALL)
                     if speaker_match:
-                        speaker_name = speaker_match.group(1).strip()
+                        speaker_name = speaker_match.group(1).strip() or UNIDENTIFIED_SPEAKER
                         dialogue = speaker_match.group(2).strip()
                         # Clean up extra whitespace
                         dialogue = ' '.join(dialogue.split())
@@ -420,20 +426,27 @@ def process_file(input_file, output_file=None):
         lines = [line for line in cleaned_text.split('\n') if line.strip() and not line.startswith('#')]
         speakers = set()
         word_count = 0
+        unidentified_words = 0
         
         for line in lines:
-            if line.startswith('**') and ':**' in line:
-                speaker_match = re.match(r'\*\*([^*]+)\*\*:', line)
-                if speaker_match:
-                    speaker = speaker_match.group(1)
-                    speakers.add(speaker)
-                    dialogue = line.split(':** ', 1)[1] if ':** ' in line else ''
-                    word_count += len(dialogue.split())
+            speaker_match = re.match(r'\*\*([^*]+?):\*\*\s?(.*)', line)
+            if speaker_match:
+                speaker, dialogue = speaker_match.groups()
+                speakers.add(speaker)
+                words = len(dialogue.split())
+                word_count += words
+                if speaker == UNIDENTIFIED_SPEAKER:
+                    unidentified_words += words
         
         print(f"\nStats:")
         print(f"  - {len(speakers)} speakers: {', '.join(sorted(speakers))}")
         print(f"  - {len(lines)} dialogue blocks")
         print(f"  - ~{word_count:,} words total")
+        if word_count and unidentified_words / word_count > 0.25:
+            print(f"\n  WARNING: {unidentified_words / word_count:.0%} of the dialogue has no "
+                  f"speaker name in the captions (labelled '{UNIDENTIFIED_SPEAKER}'). "
+                  f"Players were probably not signed in to Google Meet under their "
+                  f"roster names, so the recap must attribute lines from context.")
         print(f"\nFormat optimized for AI parsing:")
         print(f"  ✓ Grouped by speaker")
         print(f"  ✓ Blank lines between speakers")

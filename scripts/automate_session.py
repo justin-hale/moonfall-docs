@@ -77,6 +77,23 @@ MAX_DIRECT_CHARS = 60_000 # Transcripts below this are sent whole (no pre-summar
 # goes on to build and deploy whatever is already committed.
 NOTHING_TO_DO = "nothing-to-do"
 
+# The transcript cleaner's label for Google Meet cues with no speaker name.
+UNIDENTIFIED_SPEAKER_LABEL = "**Unidentified Speaker:**"
+UNIDENTIFIED_SPEAKER_NOTE = (
+    "Lines labelled \"Unidentified Speaker\" are real dialogue whose speaker the "
+    "captions did not record — often most of the players. Attribute them to a "
+    "character only when the context makes the speaker clear (an in-character "
+    "name, a reply addressed to them, the DM calling on them); otherwise describe "
+    "the action without naming who said it."
+)
+
+
+def unidentified_speaker_note(transcript_text):
+    """The prompt note for transcripts with unnamed speakers, else ''."""
+    if UNIDENTIFIED_SPEAKER_LABEL in transcript_text:
+        return f"\n{UNIDENTIFIED_SPEAKER_NOTE}\n"
+    return ""
+
 
 class SessionAutomation:
     def __init__(self, project_root, use_local_cli=False):
@@ -392,7 +409,7 @@ Extract and list in bullet-point form:
 
 Be concise but thorough — every meaningful event should appear.
 Do NOT invent anything not present in the transcript.
-
+{unidentified_speaker_note(chunk_text)}
 TRANSCRIPT CHUNK:
 {chunk_text}"""
         return self._call_model(
@@ -660,6 +677,7 @@ recorded events themselves.{dm_block}"""
         """
         prefix = "interlude" if is_interlude else "session"
         session_type = "interlude" if is_interlude else "session"
+        speaker_note = unidentified_speaker_note(transcript_content)
 
         # If transcript is too large, summarise first.
         if len(transcript_content) > MAX_DIRECT_CHARS:
@@ -679,7 +697,7 @@ recorded events themselves.{dm_block}"""
         return f"""Create a detailed {session_type} note for {session_type} {session_number}.
 
 Write the file to: docs/sessions/{prefix}-{session_number}.md
-
+{speaker_note}
 {transcript_label}
 
 {transcript_content}"""
