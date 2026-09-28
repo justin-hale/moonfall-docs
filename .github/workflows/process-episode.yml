@@ -43,9 +43,10 @@ jobs:
       DRY_RUN: ${{ github.event.inputs.dry_run || 'false' }}
       # Comma-separated roots, each walked recursively by ci_process.py.
       # First is the legacy flat "Meet Recordings" folder, frozen since
-      # 2026-09-19; second is the "Google Meet" tree Meet files recordings
-      # into now, one subfolder per recurring meeting.
-      DRIVE_FOLDER_ID: ${{ vars.DRIVE_FOLDER_ID || '14EVI64FlpZCwRy4UL4ZhGjlsjK55XL1h,1hFJdv2ntSo9s1yQYK6QEv_EnaT8SzD8G' }}
+      # 2026-09-19. Second and third are both named "Google Meet": Meet
+      # created the first on 2026-09-19 and a second, alongside it at the
+      # root of My Drive, on 2026-09-26 (Session 63 onward files there).
+      DRIVE_FOLDER_ID: ${{ vars.DRIVE_FOLDER_ID || '14EVI64FlpZCwRy4UL4ZhGjlsjK55XL1h,1hFJdv2ntSo9s1yQYK6QEv_EnaT8SzD8G,1YV_vLeKzQwEPJDv7Ogc2O9MyQHWdLPMk' }}
       GOOGLE_SERVICE_ACCOUNT_KEY: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_KEY }}
       OMELAS_PAT: ${{ secrets.OMELAS_PAT }}
 
