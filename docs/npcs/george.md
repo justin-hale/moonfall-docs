@@ -1,21 +1,21 @@
 ---
 title: George
-description: Olivia's nephew and Project Purple Patch investigator
+description: Olivia's grandson and Project Purple Patch investigator
 sidebar_position: 10
 ---
 
 # George
 
-*Investigator • Olivia's Nephew • Dimensional Rift Specialist*
+*Investigator • Olivia's Grandson • Dimensional Rift Specialist*
 
 ## Overview
 
-**George** is Olivia's nephew and a dedicated investigator working on **Project Purple Patch**, the effort to understand and seal the mysterious dimensional rifts appearing throughout the realm. His work addresses cosmic-level threats that could have catastrophic consequences for reality itself.
+**George** is Olivia's grandson and a dedicated investigator working on **Project Purple Patch**, the effort to understand and seal the mysterious dimensional rifts appearing throughout the realm. His work addresses cosmic-level threats that could have catastrophic consequences for reality itself.
 
 ## Basic Information
 
 ### Identity
-- **Relation**: Olivia's nephew
+- **Relation**: Olivia's grandson (the youngest of her grandchildren)
 - **Occupation**: Investigator/Researcher
 - **Specialization**: Dimensional rifts and supernatural phenomena
 - **Project**: Purple Patch investigation team
@@ -23,15 +23,15 @@ sidebar_position: 10
 
 ### Physical Description
 - Details not documented
-- Presumably human or half-elf (like Olivia)
-- Age unknown
+- Species not established
+- Mid-twenties by human reckoning
 - Professional investigator appearance likely
 
 ## Family Connection
 
 ### Olivia's Family
-**Aunt and Nephew**:
-- Olivia is his aunt
+**Grandmother and Grandson**:
+- Olivia is his grandmother; he calls her "Grandma"
 - Family relationship established
 - Presumably knows her as famous warlock/investigator
 - May have inspired his investigation career
@@ -119,7 +119,7 @@ sidebar_position: 10
 
 ### Through Olivia
 **Family Connection**:
-- Aunt is party member
+- Grandmother is party member
 - Aware of their heroics
 - Potential ally through family
 - Shared goals (protecting realm)
@@ -275,7 +275,7 @@ sidebar_position: 10
 - **Family**: Legacy of confronting darkness
 
 ## Related Characters
-- [Olivia Marcella](/player-characters/olivia) - Aunt, famous investigator/warlock
+- [Olivia Marcella](/player-characters/olivia) - Grandmother, famous investigator/warlock
 - **Joel** - Powerful entity, possible ally against cosmic threats
 - [Ach'uk](/npcs/achuk) - Ancient entity possibly related to rift phenomena
 - **Project Purple Patch Team** - Fellow investigators
@@ -323,7 +323,7 @@ sidebar_position: 10
 
 ---
 
-*"My nephew George is investigating these dimensional rifts. He calls it Project Purple Patch. Reality itself is tearing, and he's trying to figure out how to stitch it back together."* - Olivia explaining George's work
+*"My grandson George is investigating these dimensional rifts. He calls it Project Purple Patch. Reality itself is tearing, and he's trying to figure out how to stitch it back together."* - Olivia explaining George's work
 
 *"The rifts aren't just appearing randomly. There's a pattern. A purpose. Something is trying to break through, or something on our side is letting them in."* - George's research hypothesis
 

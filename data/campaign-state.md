@@ -163,20 +163,20 @@ Luna awakens fully, restored by the party's efforts. She reveals the truth about
 **Session 52 – Violescence**
 The party uses violescence, a rare magical substance, to complete Luna's resurrection. The process is dangerous, but they succeed. Luna pledges her support to the resistance.
 
-**Session 53 – The Moon Was Made**
-Leliana performs a concert that magically creates a new moon. The event is a symbol of hope for the world. The party witnesses the birth of a celestial body.
+**Session 53 – How the Moon Was Made**
+The same afternoon as Luna's rescue, the party throws Scarlet a surprise birthday party (gifts: Silas's pocket protector, bracers of defense from Silas and Olivia, a bag of brown from Bru). Disguised, they ambush an Iron Claws lookout crew in an alley and infiltrate the gang's old bar, the Cog & Steam, where Silas lifts a coded map. That night Leliana's acoustic benefit concert at Jasper's brewery pulls silver belief out of the crowd and hangs it in the sky as Luna's new moon.
 
-**Session 54 – Mouth of the Beast**
-The party enters the "Mouth of the Beast," a dangerous dungeon. They face traps, monsters, and moral dilemmas. The dungeon tests their resolve and unity.
+**Session 54 – Into the Mouth of the Beast**
+A pre-dawn dinner with Lady Viper turns into a clumsy first date and a one-way mission briefing: to slip past the Eldoran Empire's magic detectors, the party must pose as a mediocre mercenary company (Pupusa Possum), win Lord Bradicus's death-game contract, and help Twilight Company agent Finnegan get his bomb-making materials into the capital. The road ends at Little Cradle, where Olivia takes the sending stone George reports through.
 
-**Session 55 – Bradicus's Death-Game**
-Lord Bradicus's death-game begins. The party must survive a series of deadly challenges. Bradicus is a charismatic but cruel host, and the games are broadcast for entertainment.
+**Session 55 – Faces and Heels**
+To win Lord Bradicus's televised mercenary audition without looking too good, Pupusa Possum drugs their rivals' continental breakfast with Marvin's memory-wiping brew, then drives into the Bradicus estate. Leliana's insight exposes the jocks-vs-nerds rivalry as staged, and the sadist's reality show kicks off in fire and switchblades. (Justin and Ali were away; Bru rode along, and Elspeth stayed at the inn.)
 
-**Session 56 – Faces and Heels**
-The party navigates the death-game, playing both "faces" (heroes) and "heels" (villains) to survive. They form alliances with other contestants. Leliana's performance skills help them gain favor.
+**Session 56 – No Good Comes From Reading**
+Pupusa Possum out-drives rival crews off the cookout lot and races into a haunted library — the place where a young Leliana once lost a birthday card, walked through a shining gateway, and came back as Helisanna. A book club of soul-eating shades kills Blade of the frog team; the party finds the skeletons of Luna-amulet mercenaries, and Olivia uncovers the hidden gateway behind a dragon statue before it drags them in, clinging to Olivia's steed Bob.
 
 **Session 57 – Two Sides of the Same Coin**
-Leliana learns the truth about her identity: she and Helisanna were never two people. She walked through a gateway as a girl, and the patron merged with her. The revelation shakes her to her core.
+Through the gateway, the party walks Leliana through her buried memories: her brother, Lieutenant Steven Goldspring, murdered in a research lab by Captain Steel, and his funeral on her birthday, where his Blue Moon guitar passes to her. Guided by the hag Straenona through a Dead Forest, they plant a World Tree that ruptures the sky and delivers them into the Eldoran capital, and Leliana learns she and Helisanna were never two people at all — two extremes of one person.
 
 
 **Session 58** – The Sexy Peacock Conspiracy
@@ -184,19 +184,19 @@ The party reunites with George, Olivia's grandson, who reveals months of underco
 
 
 **Session 59** – The Hairy Monkey Gambit
-The party disguises itself to scout the Eldoran spaceport factory ahead of the three-pronged sabotage strike. Ben Boulage, the private detective handling the meet, disguises himself as a blonde woman and runs a cover date with inside man Bon Bonnery while Silas and Olivia eavesdrop from the next table; Bru's Colonel Sanders persona charms the Hairy Monkey restaurant staff into cooperation, and Silas later infiltrates the control room with exceptional stealth. The team identifies the overseer's key location but alerts the overseer when attempting to drug his beer; the group retreats to finalize plans for simultaneous detonation across all three targets.
+The party disguises itself to scout the Eldoran spaceport factory ahead of the three-pronged sabotage strike. Ben Boulage, the private detective handling the meet, disguises himself as a blonde woman and runs a morning cover date with inside man Bon Bonnery while Silas and Olivia eavesdrop from the next table; Bru's Colonel Sanders persona wins over Harry and the Hairy Monkey staff, and Silas proposes detonating all three targets simultaneously. At the factory, Silas carries Bru and Olivia up the wall in the pee hole and boards the overseer's mobile ceiling-track office with exceptional stealth. The session ends mid-infiltration: Silas is inside the pod and the overseer has noticed the attempt to drug her beer.
 
 
 **Session 60** – The Beaded Alley and the Barracks Gate
-The party confirms the spaceport factory furnace is a live power core hidden under stasis magic, with Captain Steel present at a mysterious meeting inside. Elspeth secures magical dampening stickers from Tony's shop and forges genuine connections with factory floor workers scheduled for imminent layoffs. A night scouting of the barracks—executed in elaborate French orphan disguises—ends with George spotted across a courtyard of chained prisoners, forcing the party to weigh breaking cover against maintaining their infiltration.
+The party confirms the spaceport factory furnace is a live power core hidden under stasis magic, and Elspeth glimpses Captain Steel in conversation with an administrator in a corner office off the factory floor. Elspeth secures magical dampening stickers from Tony's shop and forges genuine connections with factory floor workers scheduled for imminent layoffs. A night scouting of the barracks—executed in elaborate French orphan disguises—ends with George spotted across a courtyard of chained prisoners, forcing the party to weigh breaking cover against maintaining their infiltration.
 
 
 **Session 61** – Choirs of Steel
-The party infiltrates the barracks as orphaned wards and witnesses a harmonic ritual that ascends soldiers into armored angels through belief-fueled divine resonance. Escaping in popcorn bags, they breach the university research tower and discover the Eldoran Empire's full architectural theory: biolescence enables sound-based power conversion from the astral and divine planes, creating a self-perpetuating feedback loop between worship and military might. Commander Steel's wife is confirmed as attending Leliana's lunch event tomorrow—a critical opportunity to advance operations.
+The party infiltrates the barracks as orphaned wards and witnesses a harmonic ritual that ascends soldiers into armored angels through belief-fueled divine resonance. Escaping in popcorn bags, they breach the university research tower and discover the Eldoran Empire's full architectural theory: violescence enables sound-based power conversion from the astral and divine planes, creating a self-perpetuating feedback loop between worship and military might. The wife of a head scientist who works with Captain Steel is close with the factory workers and expected at Elspeth's lunch with them tomorrow—a critical opportunity to advance operations.
 
 
 **Session 62** – Party Favors
-The party finalizes its three-pronged strike plan: Bru constructs two suitcase bombs delivered with silent confidence, Leliana infiltrates the barracks as a mid-ranking officer to arm one device, and Silas executes a lakeside heist during Cassandra's birthday party to steal a research scientist's lab coat and passcode. Between operational cover and genuine connection, the party overhears strangers at the lake recounting legends of "Taco Cat"—a mythic adventuring band that is, unbeknownst to the storytellers, sitting at their picnic table.
+The party finalizes its three-pronged strike plan: Bru constructs two suitcase bombs delivered with silent confidence, Leliana infiltrates the barracks disguised as a sergeant-level soldier to arm one device, and Silas executes a lakeside heist during Cassandra's birthday party to steal a research scientist's lab coat and passcode. Between operational cover and genuine connection, Elspeth tells her factory friends the legend of "Taco Cat"—framed as secondhand hearsay—without letting on that the mythic adventuring band is sitting at their picnic table.
 
 ## Active Plot Threads
 
@@ -236,37 +236,37 @@ Silas's connection to the Sisyphus Circle is known, but his full backstory remai
 #### Session 58 Updates
 - **Resistance Operations**: Escalated to active sabotage phase with three confirmed targets (spaceport factory, university research facility, barracks). Twilight Company providing direct support and intelligence.
 - **George's Double Agent Status**: Now revealed and active; embedded in city guard for months; providing tactical briefings and mission objectives.
-- **Commander Steel**: Located at university research facility; confirmed as Leliana's brother's killer; now a primary mission target alongside facility sabotage.
+- **Captain Steel**: Resides at the university (Session 58); killed Leliana's brother, Lieutenant Steven Goldspring (revealed Session 57); now a primary mission target alongside facility sabotage.
 - **Leliana Identity**: Formally adopts "Anna" as compromise name honoring both Helisanna and Leliana halves of her identity.
 - **The Bradicus Death-Games**: Finale broadcast aired during session; noted as propaganda entertainment; reinforces regime's public control mechanisms.
 
 
 #### Session 59 Updates
 - **Three Sabotage Operations**: Advanced from planning to active reconnaissance phase; factory layout and security measures now mapped; decision made to plant all bombs and trigger simultaneously rather than staggered detonations to avoid heightened security response.
-- **Spaceport Factory Target**: Control room secured by magically warded door requiring overseer's key; furnace identified as primary objective; security monitored via bank of screens; overseer now aware of intrusion attempt (though cover not blown).
-- **Bomb Selection**: Bru's synchronized remote detonators chosen over Victor's timer-based designs; professional confidence in Bru's superior craftsmanship established.
+- **Spaceport Factory Target**: Furnace identified as primary objective, behind a warded door requiring the overseer's key; the overseer works from a mobile office pod on a ceiling track, with a bank of monitors covering the furnace; overseer alerted to an attempted drugging while Silas is inside the pod (cover not yet blown).
+- **Bomb Selection**: Bru favors his own synchronized remote detonators over Victor's timer-based designs; the method is still open at session's end.
 
 
 #### Session 60 Updates
-- **Three Sabotage Operations**: Factory confirmed as containing a stasis-sealed power core rather than simple heat source; Captain Steel's presence at furnace suggests high-level coordination; party opted to construct bombs during planned factory shutdown to minimize witness presence.
+- **Three Sabotage Operations**: Factory confirmed as containing a stasis-sealed power core rather than simple heat source; Captain Steel seen meeting an administrator in a corner office off the factory floor; party opted to construct bombs during planned factory shutdown to minimize witness presence.
 - **Resistance Operations**: Barracks reconnaissance underway; chained prisoner population observed (identity and purpose unknown); George's location pinpointed, enabling potential extraction or continued undercover work.
-- **Bomb Design & Timing**: PZO electric crystal oscillator selected as timing mechanism; two-stage design finalized (external containment breach followed by payload drop onto core); Bru estimated two-hour construction window during factory shutdown.
-- **Magic-Detection Enforcement**: White-armored soldiers with antenna-based scanners actively patrolling Beaded Alley; dampening stickers proved effective countermeasure; 75 total stickers distributed across party for barracks infiltration.
+- **Bomb Design & Timing**: PZO electric crystal oscillator selected as timing mechanism; two-stage design proposed by Silas (blow open the top, then drop the payload onto the core); construction estimated at roughly two hours (a short rest) during the factory shutdown.
+- **Magic-Detection Enforcement**: White-armored soldiers with antenna-based scanners actively patrolling Beaded Alley; dampening stickers proved effective countermeasure; about half of the 75 stickers handed out for the barracks infiltration, most of them to Bru.
 
 
 #### Session 61 Updates
-- **Eldoran Harmonic Resonance System**: New thread (Session 61). The Empire weaponizes divine feedback loops through biolescence and harmonic ritual; belief fuels gods, gods empower soldiers into ascended knights; dragon orbs identified as possible disruption mechanism; identical architecture suspected to power the space-based weapon.
-- **Three Sabotage Operations**: Status escalated. University research facility mapped with three-tower demolition plan (charges at elevator shaft bases); harmonic resonance laboratory confirmed on middle floor with active human experimentation; concert hall identified as secondary target (acoustically tuned ritual venue).
-- **Commander Steel Location**: Confirmed at university research facility as head scientist; now dual-objective target (personal vendetta + operational demolition).
-- **Commander Steel's Wife**: New hook. Head scientist's wife scheduled to attend Leliana's lunch event tomorrow; party identified as mission-critical intelligence/access opportunity.
+- **Eldoran Harmonic Resonance System**: New thread (Session 61). The Empire weaponizes divine feedback loops through violescence and harmonic ritual; belief fuels gods, gods empower soldiers into ascended knights; dragon orbs identified as possible disruption mechanism; identical architecture suspected to power the space-based weapon.
+- **Three Sabotage Operations**: Status escalated. University research facility mapped with demolition plan (timed charges at the base of both elevator shafts; stolen key cards reach all three buildings); active human experimentation confirmed on the top floor; concert hall identified as secondary target (acoustically tuned ritual venue).
+- **Captain Steel Location**: Believed to be in the university research tower (he resides at the university per Session 58); now dual-objective target (personal vendetta + operational demolition).
+- **Head Scientist's Wife**: New hook. The wife of a head scientist who works with Steel is close with the factory workers and expected at Elspeth's lunch with them tomorrow (the scientist himself also joins factory events); party identified as mission-critical intelligence/access opportunity.
 
 
 #### Session 62 Updates
 - **Three Sabotage Operations – Status Escalated to Active Execution**: Barracks bomb armed and in place; university tower and spaceport factory targets pending; scientist's passcode acquired, enabling final access phase.
-- **Commander Steel – Personal Vendetta Confirmed**: Silas privately offers Leliana unconditional support for killing Steel if opportunity arises; Leliana accepts with commitment to "Helisanna mode."
+- **Captain Steel – Personal Vendetta Confirmed**: Silas privately offers Leliana unconditional support for killing Steel if opportunity arises; Leliana accepts with commitment to "Helisanna mode."
 - **Escape Planning – New Asset**: Finnegan assigned to map viable exits (boat, sewer, vehicle ramp); light lanes installed at barracks in January now flagged as potential route/obstacle.
-- **Harmonic Engines – Intelligence Acquired**: Fredo Boggins confirms existence of violin-crystal-bundled devices capable of multiplying weapon output by factor of ten; source and acquisition method unknown.
-- **Taco Cat Legend – New Callback Hook**: Party overhears locals recounting mythologized version of their own story at lake; group identity now circulating as folk legend among civilian population.
+- **Harmonic Engines – Intelligence Acquired**: Fredo Boggins confirms harmonic engines built with the violin crystal can make weapons ten times more powerful; source and acquisition method unknown.
+- **Taco Cat Legend – New Callback Hook**: Elspeth tells her factory friends a mythologized version of the party's own story, framed as hearsay from a traveling friend; her listeners have no idea the heroes are at the picnic.
 - **Cassandra's Fate – Moral Complication Escalated**: Factory worker's scheduled termination during 24-hour shutdown now directly witnessed through personal friendship; birthday party reinforces civilian casualty weight.
 
 ## Character Status
@@ -448,11 +448,11 @@ Silas's connection to the Sisyphus Circle is known, but his full backstory remai
 
 
 #### Session 58 Updates
-- **George Fairbanks**: Revealed as Olivia's half-elf grandson; confirmed months-long Twilight Company infiltration; now primary briefing contact and guard liaison; navigating dual loyalty to grandmother and resistance.
+- **George**: Revealed as Olivia's grandson; confirmed months-long Twilight Company infiltration; now primary briefing contact and guard liaison; navigating dual loyalty to grandmother and resistance.
 - **Bru**: Formally assigned role of explosives expert for sabotage operations; evaluating Victor's bomb-making notes with professional skepticism.
-- **Elspeth Cooper**: Inherited "getaway driver" role; her attuned firearm narrowly escaped magic-detection helmet confiscation; now primary escape vehicle operator.
+- **Elspeth Cooper**: Claimed the "getaway driver" role herself ("getaway girl all day"); now primary escape vehicle operator.
 - **Olivia Cooper**: Emotional tension between maternal fear for George's safety and pride in his resistance work; remains steadfast support for operation planning.
-- **Leliana/Anna**: Settled on unified identity name; maintains focus on Commander Steel as personal vengeance target merged with operational objectives.
+- **Leliana/Anna**: Settled on unified identity name; maintains focus on Captain Steel as personal vengeance target merged with operational objectives.
 
 
 #### Session 59 Updates
@@ -464,23 +464,23 @@ Silas's connection to the Sisyphus Circle is known, but his full backstory remai
 #### Session 60 Updates
 - **Elspeth Cooper**: Established genuine friendships with factory workers (Cassandra, Gracie, and others); committed to lakeside birthday picnic morning-of planned bombing; complicating emotional investment in regime employees marked as "unsuitable" for replacement workforce.
 - **Silas Fairbanks**: Achieved stealth check of 30 while ceiling-crawling factory furnace chamber; deployed dry comedic deflection ("trying out of sight") during infiltration; maintained composure despite furnace revelation's operational implications.
-- **Bru**: Fully committed to dual-role execution (master bomb-maker and Colonel Sanders-costumed orphan); wore 24 dampening stickers under costume without apparent discomfort; demonstrated professional pride in two-stage bomb design.
+- **Bru**: Fully committed to dual-role execution (master bomb-maker and Colonel Sanders-costumed orphan); wore roughly two dozen dampening stickers under costume without apparent discomfort; chose the PZO crystal-oscillator timer for the bombs.
 - **Scarlet**: Took active disguise role as elderly orphanage chaperone during barracks infiltration; received acknowledgment from Silas ("when we really need you, you step up") for team participation beyond van-support role.
-- **Olivia Cooper**: Positioned at barracks gate; witnessed prisoner courtyard scene alongside party.
+- **Olivia Cooper**: Off-screen for the rest of the day, carried along in the pee hole.
 
 
 #### Session 61 Updates
-- **Leliana Goldspring**: Returned to active play after absence. Fully committed to sad-orphan infiltration disguise (eye patch, prosthetic leg). Witnessed soldier ascension ritual with genuine horror and envy; watched the same power-path her brother's killer took. Reached out to George via message spell; George declined immediate meet, proposed Sexy Peacock rendezvous later.
-- **Elspeth Cooper**: Executed barracks infiltration on exceptional 30-point deception check. Admitted to party emotional discomfort with lying effectively to fascists; group half-joked about post-bombing support group. Walking line between operational confidence and moral cost.
-- **Silas Fairbanks**: Three exceptional rolls in one session (32 acrobatics/hacky-sack, 32 stealth/key-card lift, 30-range deception assist). Cemented as party's most reliable infiltration specialist. Adopted "Bradley" researcher persona with ease; noted by Archive for particular comfort in role and warmer laugh register.
+- **Leliana Goldspring**: Returned to active play after absence. Fully committed to sad-orphan infiltration disguise (eye patch, prosthetic leg). Watched the soldier ascension ritual with open envy of the armored angels' wings. Reached out to George via message spell; George declined immediate meet, proposed Sexy Peacock rendezvous later.
+- **Elspeth Cooper**: Executed barracks infiltration on exceptional 30-point deception check (21 plus Leliana's bardic inspiration). At the research tower, voiced discomfort about blowing up people inside. Admitted to party emotional discomfort with lying effectively to fascists; group half-joked about post-bombing support group. Walking line between operational confidence and moral cost.
+- **Silas Fairbanks**: Two exceptional rolls in one session (32 acrobatics/hacky-sack, 32 sleight of hand/key-card lift). Cemented as party's most reliable infiltration specialist. Adopted "Bradley" researcher persona with ease.
 - **Bru**: Wore Colonel Sanders costume under orphan rags without self-consciousness; leveraged theatrical persona and deception checks throughout barracks and campus infiltration.
 
 
 #### Session 62 Updates
-- **Leliana Goldspring – Identity Merger Weaponized**: Adopts "Helisanna mode" consciously as tactical tool rather than involuntary split; demonstrates confidence in merged identity through bomb-arming and reality-warping performance (disguise self DC 20, hallucinatory terrain DC 22).
-- **Silas Fairbanks – Loyalty Extended**: Offers unconditional support to Leliana regarding Commander Steel; provides emotional continuity with long-standing friendship pattern established with Bru; stealth performance at lake heist reaches 27 (stealth) and 26 (sleight of hand) under operational pressure.
-- **Scarlet – Identity Revealed**: Discloses three-hundred-year age and birth under apple tree; acknowledges unspoken observation of Elspeth's fondness for Lady Viper; commits to following Lady Viper's next destination regardless of operational outcome.
-- **Elspeth Cooper – Complicated Attachments**: Tea set gift lands unexpectedly well with Cassandra; receives unplanned emotional confession from Scarlet; navigating tension between genuine friendship and imminent bombing operation.
+- **Leliana Goldspring – Identity Weaponized**: Adopts "Helisanna mode" consciously as tactical tool rather than involuntary split; arms the barracks bomb in a sergeant's disguise and covers the lake heist with hallucinatory terrain (performance 22).
+- **Silas Fairbanks – Loyalty Extended**: Offers unconditional support to Leliana regarding Captain Steel; provides emotional continuity with long-standing friendship pattern established with Bru; stealth performance at lake heist reaches 27 (stealth) and 26 (sleight of hand) under operational pressure.
+- **Scarlet – Identity Revealed**: Discloses her three hundred years and birth under an apple tree; when Elspeth confides that she'd follow Lady Viper wherever she goes next, Scarlet promptly passes the secret to Silas.
+- **Elspeth Cooper – Complicated Attachments**: Tea set gift lands unexpectedly well with Cassandra; slips into a swimsuit via disguise self and splashes the crowd as cover for Silas's lab-coat heist; confides her attachment to Lady Viper to Scarlet; navigating tension between genuine friendship and imminent bombing operation.
 - **Bru – Silent Deliverable**: Constructs two functional suitcase bombs with written arming instructions; delivers without commentary or presence; earns renewed confidence in professional expertise.
 
 ## Key Callbacks & Unresolved Hooks
@@ -524,7 +524,7 @@ Silas's connection to the Sisyphus Circle is known, but his full backstory remai
 #### Session 58 Updates
 - **Victor's Bomb-Making Legacy**: Victor previously stayed at Toothy's safehouse and "ruined his room"; his margin-scrawled design notes now inform current explosive operations—potential for Victor contact or reevaluation of his methods.
 - **Magic-Detection Helmets**: New surveillance technology deployed by Golden Empire; represents escalated threat to magic users and attuned item carriers; implications for future infiltration operations.
-- **Toothy's Safehouse**: Church-converted community safe house at 238 on western hill overlooking barracks, spaceport, and Guilded Esplanade; scheduled meal times (7:00 a.m. wake-up, 7:30 breakfast) suggest ongoing resistance infrastructure.
+- **Toothy's Safehouse**: Apartment building (room 238, third floor) beside an old church turned community center on the western hill overlooking barracks, spaceport, and Guilded Esplanade; scheduled meal times (7:00 a.m. wake-up, 7:30 breakfast) suggest ongoing resistance infrastructure.
 - **Three Sabotage Targets**: Party committed to scouting, gathering intelligence, and designing entry/exit strategies with civilian evacuation plans—unresolved operational details for coming sessions.
 - **Additional Resistance Support**: Party promised additional help arriving after breakfast at safehouse; identity and capabilities unknown.
 
@@ -539,7 +539,7 @@ Silas's connection to the Sisyphus Circle is known, but his full backstory remai
 
 #### Session 60 Updates
 - **Factory Floor Layoffs**: Entire shift crew (including Cassandra, Gracie) scheduled for termination during 24-hour shutdown; Elspeth's picnic commitment creates potential moral complication or civilian casualty concern.
-- **Captain Steel at the Furnace**: Unexplained meeting between Captain Steel and unidentified figure inside furnace chamber; suggests coordination beyond standard military hierarchy; connection to Commander Steel (Leliana's brother's killer) and university research facility unclear.
+- **Captain Steel at the Factory**: Elspeth saw Captain Steel (Leliana's brother's killer) in conversation with an administrator in a corner office off the factory floor before he left through the exit throughway; purpose of the meeting unknown.
 - **George's Prisoner Status**: George spotted exiting building in barracks courtyard; unclear whether he is prisoner, undercover operative, or something else; party must decide rescue versus continued infiltration priority.
 - **Hooded Manacled Figures**: Unknown population of chained prisoners being marched into barracks building; purpose, origin, and number unconfirmed; potential mass casualty risk if bombing proceeds without evacuation.
 - **Fredo Boggins' Unsolicited Advice**: Tony's shop owner referenced Elspeth's rival Danlin (currently jailed, possibly released on bail) and offered philosophy about not carrying hate "like spare parts"—possible callback to Elspeth's racing past or hint at Danlin's current operational status.
@@ -547,15 +547,15 @@ Silas's connection to the Sisyphus Circle is known, but his full backstory remai
 
 #### Session 61 Updates
 - **Dragon Orbs as System Disruptors**: Research notes flagged dragon orbs (containing Astro from Session 41) as potential mechanism to break harmonic feedback loop; Astro's role in sabotage operations now directly relevant.
-- **Biolescence**: New substance identified as linchpin for harmonic resonance and belief-to-power conversion; properties and acquisition unknown; potential target for disruption or research.
+- **Violescence**: The substance from Sessions 48–53 resurfaces as the linchpin for harmonic resonance and belief-to-power conversion; how the Empire acquires it unknown; potential target for disruption or research.
 - **Eichek (God of Passion and Music)**: Original template for harmonic feedback loop system; followers fueled by passionate practice rather than explicit doctrine; god grows regardless of intent; parallels Luna's power through concert (Session 53).
-- **Human Experimentation on Top Floor**: Active live-subject testing underway; creates moral calculus for three-tower demolition (extent of casualties unknown; Leliana vocalized discomfort with collateral damage).
-- **Commander Steel's Wife as Access Point**: Tomorrow's lunch event with Leliana provides intelligence/infiltration opportunity; wife's proximity to head scientist's research suggests access to secure information or facility entry.
+- **Human Experimentation on Top Floor**: Active live-subject testing underway; creates moral calculus for three-tower demolition (extent of casualties unknown; Elspeth vocalized discomfort with collateral damage).
+- **Head Scientist's Wife as Access Point**: Tomorrow's lunch with Elspeth's factory friends provides intelligence/infiltration opportunity; the wife of a head scientist working with Steel, she is close with the factory workers, and her husband's research suggests access to secure information or facility entry.
 
 
 #### Session 62 Updates
 - **Taco Cat as Party Legend**: Folk mythology circulating among civilian population provides future callback opportunity when party identity becomes operationally significant or requires legendary credentials for infiltration/negotiation.
-- **Scarlet's Unspoken Fondness Observation**: Scarlet's notice of Elspeth's attachment to Lady Viper creates future dialogue/relationship callback; Lady Viper's next destination becomes shared point of interest.
+- **Elspeth's Lady Viper Confession**: Elspeth told Scarlet in confidence that she'd follow Lady Viper wherever she goes next, and Scarlet passed it straight to Silas; creates future dialogue/relationship callback.
 - **Cassandra's Birthday and Termination**: Elspeth's personal connection to factory worker scheduled for death-of-shift creates moral accountability callback; "Stephanie" alias and tea-set gift establish potential future contact or rescue storyline.
 - **George's Barracks Extraction**: Leliana reached George via psychic message to clear building; George's response acknowledged but unresolved; future reunion or extraction necessary before barracks detonation.
 - **Scientist's Passcode and Lab Coat**: Acquired credentials enable final phase of university research tower access; exact nature of lab-coat security clearance and passcode scope unconfirmed.

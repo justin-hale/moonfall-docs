@@ -1814,9 +1814,9 @@
         }
       ],
       "top_npcs": {
+        "Finnegan": 11,
         "Scarlet": 9,
-        "Naomi": 5,
-        "George": 3
+        "Naomi": 5
       },
       "fun": {
         "nat20_mentions": 2,
@@ -1951,8 +1951,8 @@
       ],
       "top_npcs": {
         "George": 11,
-        "Scarlet": 3,
-        "Astro": 1
+        "Captain Steel": 5,
+        "Scarlet": 3
       },
       "fun": {
         "nat20_mentions": 0,
@@ -2020,7 +2020,7 @@
       "top_npcs": {
         "George": 47,
         "Victor": 15,
-        "Lady Viper": 4
+        "Captain Steel": 4
       },
       "fun": {
         "nat20_mentions": 0,
@@ -2119,7 +2119,7 @@
       "top_npcs": {
         "Scarlet": 37,
         "Victor": 10,
-        "George": 2
+        "Captain Steel": 2
       },
       "fun": {
         "nat20_mentions": 0,
@@ -2181,7 +2181,7 @@
       "top_npcs": {
         "George": 16,
         "Scarlet": 10,
-        "Lady Viper": 3
+        "Captain Steel": 5
       },
       "fun": {
         "nat20_mentions": 0,
@@ -2224,7 +2224,7 @@
       "top_npcs": {
         "George": 35,
         "Scarlet": 24,
-        "Lady Viper": 3
+        "Finnegan": 8
       },
       "fun": {
         "nat20_mentions": 0,
