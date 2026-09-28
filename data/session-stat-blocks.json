@@ -2244,6 +2244,98 @@
           "quote": "So that's why he's not here. Yep. It's canon now. [re: Bru being carried off by Colonel Sanders flash mob]"
         }
       }
+    },
+    "session-63": {
+      "timing_quality": "exact",
+      "duration_seconds": 299,
+      "word_count": 24084,
+      "players_present": [
+        "Olivia",
+        "Bru",
+        "Silas",
+        "Leliana"
+      ],
+      "attendance_source": "transcript",
+      "speakers": [
+        {
+          "name": "Topher",
+          "role": "dm",
+          "word_share": 0.3341
+        },
+        {
+          "name": "Olivia",
+          "role": "pc",
+          "word_share": 0.2167
+        },
+        {
+          "name": "Bru",
+          "role": "pc",
+          "word_share": 0.2073
+        },
+        {
+          "name": "Silas",
+          "role": "pc",
+          "word_share": 0.197
+        },
+        {
+          "name": "Leliana",
+          "role": "pc",
+          "word_share": 0.0431
+        },
+        {
+          "name": "01",
+          "role": "guest",
+          "word_share": 0.0005
+        },
+        {
+          "name": "02",
+          "role": "guest",
+          "word_share": 0.0005
+        },
+        {
+          "name": "00",
+          "role": "guest",
+          "word_share": 0.0005
+        },
+        {
+          "name": "﻿DnD - 2026/09/25 19",
+          "role": "guest",
+          "word_share": 0.0002
+        },
+        {
+          "name": "03",
+          "role": "guest",
+          "word_share": 0.0001
+        },
+        {
+          "name": "Meeting ended after 03",
+          "role": "guest",
+          "word_share": 0.0001
+        }
+      ],
+      "top_npcs": {
+        "Scarlet": 16,
+        "Victor": 4,
+        "George": 3
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "superlatives": {
+        "mvp": {
+          "player": "Bru",
+          "quote": "If… if Bru can say that he's going to steal the sun... I can take the sun with me. It's in the rope trick. it's in an interdimensional field."
+        },
+        "best_joke": {
+          "player": "Bru",
+          "quote": "This is my emotional support rope. You didn't see this when I came in?"
+        },
+        "most_chaotic": {
+          "player": "Bru",
+          "quote": "If… if Bru can say that he's going to steal the sun, which is the opposite of the whole premise of the first Despicable Me movie, Okay. So if Bru can say that he's going to steal the sun... I can take the sun with me."
+        }
+      }
     }
   }
 }

@@ -198,6 +198,10 @@ The party infiltrates the barracks as orphaned wards and witnesses a harmonic ri
 **Session 62** – Party Favors
 The party finalizes its three-pronged strike plan: Bru constructs two suitcase bombs delivered with silent confidence, Leliana infiltrates the barracks as a mid-ranking officer to arm one device, and Silas executes a lakeside heist during Cassandra's birthday party to steal a research scientist's lab coat and passcode. Between operational cover and genuine connection, the party overhears strangers at the lake recounting legends of "Taco Cat"—a mythic adventuring band that is, unbeknownst to the storytellers, sitting at their picnic table.
 
+
+**Session 63** – The Sun in a Suitcase
+Bru infiltrates the spaceport factory disguised as Colonel Sanders and pivots from demolition to theft, shrinking and stealing the miniature sun powering the furnace. Simultaneously, the party discovers six Elspeth clones being trained as dragon-war shock troopers in the research tower, triggers evacuation, and escapes by driving the Bugatti off the collapsing tower over the city wall. Two of three sabotage targets successfully destroyed; the recovered star placed in Scarlet's Secret Chest for permanent storage.
+
 ## Active Plot Threads
 
 ### 1. The Death-Game in the Eldoran Empire
@@ -268,6 +272,17 @@ Silas's connection to the Sisyphus Circle is known, but his full backstory remai
 - **Harmonic Engines – Intelligence Acquired**: Fredo Boggins confirms existence of violin-crystal-bundled devices capable of multiplying weapon output by factor of ten; source and acquisition method unknown.
 - **Taco Cat Legend – New Callback Hook**: Party overhears locals recounting mythologized version of their own story at lake; group identity now circulating as folk legend among civilian population.
 - **Cassandra's Fate – Moral Complication Escalated**: Factory worker's scheduled termination during 24-hour shutdown now directly witnessed through personal friendship; birthday party reinforces civilian casualty weight.
+
+
+#### Session 63 Updates
+- **Three Sabotage Targets – Status Update**: Factory furnace destroyed (sun stolen instead of core detonation); Research tower demolished; Third target location/timing remains unconfirmed.
+- **Elspeth Clones – Critical Discovery**: Six identical copies of Elspeth undergoing military training as Empire shock troopers; potential for rescue/deprogramming similar to prior Elspeth-subjects (non-irreversible modification suspected based on Silas's historical knowledge).
+- **Miniature Sun Acquisition – New Asset**: Stellar core stolen from factory, reduced via *Reduce* spell, stored in Scarlet's *Leomund's Secret Chest* for permanent ethereal containment; unprecedented magical asset now in party possession; applications unknown.
+- **Unidentified Falling Starship – Critical Hook**: Unknown vessel observed plummeting toward earth during tower evacuation sequence; origin, destination, and operational relevance entirely unconfirmed; potential connection to larger sabotage campaign or external third-party intervention.
+- **Helisanna's Revenge – Unresolved Thread**: Silas vocalized commitment to finding additional opportunity for Helisanna's vengeance against Commander Steel; merged identity now operationally available and personally motivated.
+- **Leliana's Identity Stabilization – Confirmed**: Dual identity (Leliana/Helisanna) now cohabiting peacefully and switchable at will rather than involuntary; no longer warring for control.
+- **Elspeth's Undercover Infiltration – Complication Escalated**: Elspeth reports genuine friendship with Eldoran soldiers she was assigned to infiltrate; emotional attachment to enemy personnel creates future operational/moral liability.
+- **Scarlet's Time Gun – Escalated Concern**: Party agreed to exercise gentleness regarding Scarlet's inventive projects; time-erasing weapon rumored to have destroyed alternate universe in earlier multiverse draft; active development ongoing despite stated concern.
 
 ## Character Status
 
@@ -483,6 +498,14 @@ Silas's connection to the Sisyphus Circle is known, but his full backstory remai
 - **Elspeth Cooper – Complicated Attachments**: Tea set gift lands unexpectedly well with Cassandra; receives unplanned emotional confession from Scarlet; navigating tension between genuine friendship and imminent bombing operation.
 - **Bru – Silent Deliverable**: Constructs two functional suitcase bombs with written arming instructions; delivers without commentary or presence; earns renewed confidence in professional expertise.
 
+
+#### Session 63 Updates
+- **Bru – Expanded Operational Role**: Successfully executed factory infiltration under false identity; demonstrated improvisational decision-making (pivoted from demolition to theft mid-operation); convinced foreman of furnace "collapse" under direct questioning; maintained cover story against Captain Steel's direct interrogation; negotiated thief's silence via persuasion check (18); acquired star asset through acrobatics check (natural 20 on top of reduced sun sphere).
+- **Olivia Cooper – Infiltration Specialist**: Executed factory social engineering single-handedly in Silas's absence; convinced foreman of cover role assignment via persuasion check; scaled furnace exterior while planting casing bomb; identified and neutralized independent thief via negotiated silence rather than confrontation.
+- **Silas Fairbanks – Emotional Vulnerability Displayed**: Expressed unguarded pride in Bru's improvisation ("I'm so happy for you right now, buddy"); voiced satisfaction with operational success exceeding original mission parameters; reiterated commitment to Helisanna's unresolved vengeance.
+- **Leliana Goldspring – Combat Integration**: Marked tower collapse with triumphant, unplanned guitar riff during vehicle escape; demonstrates spontaneous tactical integration of musical identity into combat/escape sequences.
+- **Scarlet – Spell Justification Moment**: Cast *Leomund's Secret Chest* (reportedly saved for three-hundred-year opportunity) to provide permanent storage solution for stellar core; party consciously acknowledged and validated her contribution to prevent recent interpersonal friction.
+
 ## Key Callbacks & Unresolved Hooks
 
 ### Unresolved Plot Threads
@@ -559,3 +582,13 @@ Silas's connection to the Sisyphus Circle is known, but his full backstory remai
 - **Cassandra's Birthday and Termination**: Elspeth's personal connection to factory worker scheduled for death-of-shift creates moral accountability callback; "Stephanie" alias and tea-set gift establish potential future contact or rescue storyline.
 - **George's Barracks Extraction**: Leliana reached George via psychic message to clear building; George's response acknowledged but unresolved; future reunion or extraction necessary before barracks detonation.
 - **Scientist's Passcode and Lab Coat**: Acquired credentials enable final phase of university research tower access; exact nature of lab-coat security clearance and passcode scope unconfirmed.
+
+
+#### Session 63 Updates
+- **Falling Starship Mystery**: Unidentified vessel plummeting during evacuation; origin and relevance unconfirmed; potential catalyst for future campaign complications or external faction introduction.
+- **Stellar Core Applications**: Party now possesses unprecedented magical asset (miniature star in ethereal storage); potential uses for power generation, weaponization, or other applications unknown; Bru's pride in acquisition suggests personal investment in eventual deployment.
+- **Elspeth Clone Rescue Opportunity**: Six copies of Elspeth available for potential rescue/deprogramming; prior experience with brainwashed Elspeth-subjects suggests reversibility; moral obligation to attempt recovery versus operational timeline conflict.
+- **Factory Worker Cassandra's Fate**: Cassandra (Elspeth's friend from Session 60) remains on termination roster; birthday picnic commitment and tea-set gift establish unresolved rescue/accountability storyline; potential future contact or guilt callback.
+- **George Fairbanks' Status Unconfirmed**: Leliana's psychic message reached George but future reunion/extraction timeline unclear; barracks detonation impact on George's safety now operationally critical.
+- **Helisanna Mode as Tactical Asset**: Leliana's ability to switch identities consciously now available for future operations; vengeful Helisanna personality and original-self Leliana present distinct tactical/emotional options.
+- **Elspeth's Moral Burden Escalating**: Genuine friendships with Eldoran soldiers combined with discovery of her own clones creates compounding emotional investment; potential future conflict between operational objectives and personal conscience.
