@@ -243,6 +243,14 @@ Share the **tree root**, not an individual meeting folder — Drive permissions
 inherit, so each new per-meeting subfolder Meet creates is covered without
 further action. Share a leaf and you are back here next week.
 
+Sharing the tree root is not always enough either: Meet can create a whole new
+root. On 2026-09-26 it made a *second* `My Drive/Google Meet/` folder
+(`1YV_vLeKzQwEPJDv7Ogc2O9MyQHWdLPMk`) next to the first, and filed Session 63
+(recorded 2026-09-25) there. That run found only Session 62 in the roots it
+knew about, and reported "No new episodes found". When a session goes missing,
+search Drive for `DnD - <date> - Recording` and check which folder it is in.
+If that folder is not in `DRIVE_FOLDER_ID`, add it there and share it.
+
 `detect` probes every root with `files.get` before walking it, so the log says
 which of the two things went wrong:
 
