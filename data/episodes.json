@@ -273,5 +273,16 @@
       "update-feed": "https://github.com/topherhooper/omelas-stories/releases/download/v62/DnD_2026-09-18.mp3",
       "open-pr": "https://github.com/justin-hale/moonfall-docs/pull/46"
     }
+  },
+  "63": {
+    "drive_file_id": "1XtcESwXT23NywzNC4PGcVmSq2IWRD5vS",
+    "session_date": "2026-09-25",
+    "stages": {
+      "download": "1XtcESwXT23NywzNC4PGcVmSq2IWRD5vS",
+      "extract": "DnD_2026-09-25.mp3",
+      "release": "https://github.com/topherhooper/omelas-stories/releases/download/v63/DnD_2026-09-25.mp3",
+      "update-feed": "https://github.com/topherhooper/omelas-stories/releases/download/v63/DnD_2026-09-25.mp3",
+      "open-pr": "https://github.com/justin-hale/moonfall-docs/pull/50"
+    }
   }
 }
