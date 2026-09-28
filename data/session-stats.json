@@ -8190,8 +8190,11 @@
       "mentions": {
         "npcs": {
           "Scarlet": 16,
+          "Captain Steel": 11,
           "Victor": 4,
-          "George": 3
+          "George": 3,
+          "Finnegan": 1,
+          "Fredo Boggins": 1
         },
         "locations": {
           "High Forge": 1
@@ -8529,13 +8532,14 @@
       "Astro": 63,
       "Naomi": 60,
       "Chalk Rock": 35,
-      "Finnegan": 30,
-      "Captain Steel": 20,
+      "Captain Steel": 31,
+      "Finnegan": 31,
       "Bafael": 16,
       "Bon Bonnery": 9,
       "April Bonal": 4,
       "Lady Corwin": 4,
       "Ben Boulage": 3,
+      "Fredo Boggins": 1,
       "Steven Goldspring": 1
     },
     "top_locations": {
