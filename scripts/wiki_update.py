@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
-"""Keep the NPC, location and organization pages current after each session.
+"""Keep the NPC, location, organization and item pages current after each session.
 
 The wiki pages under docs/npcs/, docs/locations/ and docs/organizations/ were
 written once, around Session 36, and nothing touched them again: by Session 63
-every page described a campaign two arcs out of date. This module is the step
+every page described a campaign two arcs out of date. docs/items/ joined them
+later, for the artifacts, vehicles and gear the story keeps coming back to. This module is the step
 the generator was missing. After a recap is published, it:
 
 1. finds which wiki pages the new recap actually involves (a link to the page,
@@ -27,7 +28,7 @@ import re
 from dataclasses import dataclass, field
 from pathlib import Path
 
-WIKI_SECTIONS = ("npcs", "locations", "organizations")
+WIKI_SECTIONS = ("npcs", "locations", "organizations", "items")
 HISTORY_HEADING = "## Session History"
 
 _FRONTMATTER_RE = re.compile(r"\A---\n(.*?\n)---\n?", re.S)
@@ -35,7 +36,7 @@ _FRONTMATTER_RE = re.compile(r"\A---\n(.*?\n)---\n?", re.S)
 
 @dataclass
 class WikiEntity:
-    section: str  # "npcs" | "locations" | "organizations"
+    section: str  # "npcs" | "locations" | "organizations" | "items"
     slug: str
     path: Path
     title: str
@@ -83,7 +84,7 @@ def _frontmatter_list(frontmatter, key):
 
 
 def load_wiki_entities(docs_dir):
-    """Every NPC, location and organization page, with the terms that name it."""
+    """Every NPC, location, organization and item page, with the terms that name it."""
     entities = []
     for section in WIKI_SECTIONS:
         folder = Path(docs_dir) / section
@@ -147,7 +148,8 @@ def build_prompt(label, recap_text, entities, existing_titles):
 Below is the published recap for {label}, and a list of wiki pages whose subject the recap names.
 
 For EACH listed page, write ONE sentence (at most two) stating what that character did, what
-happened to them, or what happened at that place / to that group IN THIS RECAP. Rules:
+happened to them, what happened at that place / to that group, or who used, carried, gained or
+lost that item and to what effect, IN THIS RECAP. Rules:
 - Use only facts stated in the recap. Do not infer, speculate, or add anything the recap does not say.
 - If the page's subject is only mentioned in passing (named, remembered, or referenced, with nothing
   happening), return null for it.
@@ -155,8 +157,8 @@ happened to them, or what happened at that place / to that group IN THIS RECAP. 
 - Plain prose: no markdown, no links, no quotation marks around the whole sentence.
 - Ignore bylines, editorial notes, and correction notices — they are publication commentary, not events.
 
-Also list recurring characters, places, or organizations that play a real part in this recap but
-have NO page yet. Existing pages (do not list these): {known}.
+Also list recurring characters, places, organizations, or notable items (magic items, artifacts,
+vehicles, signature gear) that play a real part in this recap but have NO page yet. Existing pages (do not list these): {known}.
 Only include ones that matter to the ongoing story; skip one-off extras.
 
 PAGES:
@@ -167,7 +169,7 @@ RECAP:
 
 Respond with ONLY a JSON object, no other text:
 {{"updates": {{"<page key>": "<sentence>" or null, ...}},
-  "new_entities": [{{"type": "npc" | "location" | "organization", "name": "...", "why": "<one line>"}}]}}"""
+  "new_entities": [{{"type": "npc" | "location" | "organization" | "item", "name": "...", "why": "<one line>"}}]}}"""
 
 
 def parse_response(text):

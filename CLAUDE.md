@@ -6,7 +6,7 @@ This is a Docusaurus site (v3.9.2) serving as the documentation site for a D&D c
 ## Key Directories
 - `docs/sessions/` - Session recaps (session-N.md, interlude-N.md)
 - `docs/transcripts/` - Cleaned transcripts (.md and .json)
-- `docs/npcs/`, `docs/locations/`, `docs/organizations/` - Wiki pages. Each ends in a `## Session History` section that the generator appends to after every recap (`scripts/wiki_update.py`); give a page `aliases:` in its frontmatter so recaps that use another name still reach it
+- `docs/npcs/`, `docs/locations/`, `docs/organizations/`, `docs/items/` - Wiki pages. Each ends in a `## Session History` section that the generator appends to after every recap (`scripts/wiki_update.py`); give a page `aliases:` in its frontmatter so recaps that use another name still reach it
 - `data/campaign-kb.md` - Campaign knowledge base (canonical names, errors, plot threads)
 - `data/campaign-state.md` - Auto-updating running memory of all sessions
 - `data/publication-arc.json` - Publication meta-narrative config (writer personas, storyline beats)

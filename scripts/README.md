@@ -13,7 +13,7 @@ A comprehensive Python script that automates the workflow of creating session no
 3. **Determines the next session number** by analyzing existing session files
 4. **Generates a Claude prompt** with context from recent sessions
 5. **Prepares everything** for Claude Code to create the full session notes
-6. **Updates the wiki pages** the new recap involves (see [Wiki Pages](#wiki-pages-wiki_updatepy))
+6. **Updates the wiki pages** (NPCs, locations, organizations, items) the new recap involves (see [Wiki Pages](#wiki-pages-wiki_updatepy))
 
 ### Usage
 
@@ -128,21 +128,22 @@ Run the tests with `python -m pytest scripts/tests/ -q`.
 
 ### Wiki Pages (`wiki_update.py`)
 
-The NPC, location and organization pages (`docs/npcs/`, `docs/locations/`,
-`docs/organizations/`) were written once, around Session 36, and nothing ever
-updated them again. After each recap is published, the generator now:
+The NPC, location, organization and item pages (`docs/npcs/`,
+`docs/locations/`, `docs/organizations/`, `docs/items/`) are kept current by
+this step. The first three were written once, around Session 36, and nothing
+ever updated them again. After each recap is published, the generator now:
 
 1. **Finds the pages the recap involves**: a link to the page, or the page's
    `title` or one of its `aliases` appearing in the recap body. Matching is
    case-sensitive (these are proper nouns), and it ignores the frontmatter,
    editorial notes and correction notices.
 2. **Asks Haiku for one factual sentence per page** about what that entity did,
-   or what happened there, *in this recap*. A passing mention gets nothing.
+   what happened there, or who used, gained or lost an item, *in this recap*. A passing mention gets nothing.
 3. **Writes it as that session's bullet** under the page's `## Session History`
    section: `- **[Session 64](/sessions/session-64)** — …`. A regenerated recap
    replaces its own bullet rather than adding a second one.
 
-Recurring characters, places and groups that have no page yet are listed in the
+Recurring characters, places, groups and items that have no page yet are listed in the
 run log and the Actions job summary. They are **never created automatically**:
 whether something deserves a page is an editorial call.
 
