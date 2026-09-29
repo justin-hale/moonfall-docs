@@ -29,7 +29,7 @@ Greyport is where [Silas](/player-characters/silas) and [Bru](/player-characters
 - **The Cog & Steam** — The Sisyphus Circle's favorite bar, overlooking the zoo (Interlude XIII); now held by the Iron Claws (Session 53).
 - **Greyport Speedway** — Scene of the race where Elspeth was framed (Interludes XIV–XV).
 - **The Checkered Rest** — A restaurant near Jasper's bakery, owned by Dolly (Session 48).
-- **Danlin's orphanage** — A converted factory where Danlin had children refine violescence and was transforming children in vats into copies of Elspeth (Sessions 48–50). The name is also spelled Denlin and Denland in earlier recaps.
+- **Denlin's orphanage** — A converted factory where Denlin had children refine violescence and was transforming children in vats into copies of Elspeth (Sessions 48–50).
 - **Razlemania arena** — A wrestling arena on its own island off the coast (Session 51).
 - **The Lenny T Museum** — An old opera house being renovated as a performance venue and memorial to a famous bard (Session 38).
 
@@ -41,7 +41,7 @@ Just off Greyport's coast lies the site where Luna fell when the Eldoran weapon 
 
 **Silas and Bru.** Years ago their crew, the [Sisyphus Circle](/organizations/sisyphus-circle), robbed the Pandora gang's vault in Greyport of the dragon orb for a client who turned out to be [Helja Ungar](/npcs/helja-ungar). At the drop in Blackwell Memorial Park she had the crew gunned down; Silas and Bru escaped through the storm drains with the orb (Interlude XIII). One crew member, Sander, survived and was working at Jasper's bakery when the party arrived (Session 39). The [Iron Claws](/organizations/iron-claws) still hold the crew's old neighborhood (Session 40), and Helja's mother has taken back the boss's seat since Helja's death (Session 53).
 
-**Elspeth.** At the Greyport Speedway finale, rival racers conspired to disgrace her on the orders of the circuit board, and her brother Zachary switched her registered racing crystal for an unregistered one, ending her twenty-year career (Interludes XIV–XV). Back in Greyport she found [Belspeth Booper](/npcs/belspeth-booper) racing under a copy of her name for the orphanage owner Danlin, exposed his child-labor violescence operation, punched Zachary at his garage, and won Danlin's race in Danlin's own car (Sessions 45–50).
+**Elspeth.** At the Greyport Speedway finale, rival racers conspired to disgrace her on the orders of the circuit board, and her brother Zachary switched her registered racing crystal for an unregistered one, ending her twenty-year career (Interludes XIV–XV). Back in Greyport she found [Belspeth Booper](/npcs/belspeth-booper) racing under a copy of her name for the orphanage owner Denlin, exposed his child-labor violescence operation, punched Zachary at his garage, and won Denlin's race in Denlin's own car (Sessions 45–50).
 
 ## Session History
 
@@ -56,9 +56,9 @@ Just off Greyport's coast lies the site where Luna fell when the Eldoran weapon 
 - **[Session 44](/sessions/session-44)** — The party defends Fluke's Workshop from a developer's coordinated assault while Iro saves the burning Caspian Center.
 - **[Session 45](/sessions/session-45)** — The party stakes out the zoo for Victor's sending stone, meets a racer calling herself Belith Booper, and opens the pocket village at Fluke's Workshop.
 - **[Session 47](/sessions/session-47)** — The party meets Lady Viper at the Twilight Company's hidden headquarters and plans a Luna concert with Jasper at his port-side brewery.
-- **[Session 48](/sessions/session-48)** — At a gala in Jasper's bakery the party overhears Danlin, then questions Belspeth Booper after a staged car service from the Checkered Rest.
-- **[Session 49](/sessions/session-49)** — Disguised as orphans, the party infiltrates Danlin's orphanage and finds tanks of figures built in Elspeth's image.
-- **[Session 50](/sessions/session-50)** — The party frees the orphanage's children, steals its violescence, and Elspeth wins Danlin's race in his own car.
+- **[Session 48](/sessions/session-48)** — At a gala in Jasper's bakery the party overhears Denlin, then questions Belspeth Booper after a staged car service from the Checkered Rest.
+- **[Session 49](/sessions/session-49)** — Disguised as orphans, the party infiltrates Denlin's orphanage and finds tanks of figures built in Elspeth's image.
+- **[Session 50](/sessions/session-50)** — The party frees the orphanage's children, steals its violescence, and Elspeth wins Denlin's race in his own car.
 - **[Session 51](/sessions/session-51)** — The party wrestles at Razlemania, on an island arena off Greyport, where Gary retires and is lured away by Crowley.
 - **[Session 52](/sessions/session-52)** — Iro returns to his Greyport workshop, and the party sails to Luna Trench, breaks the Eldoran chains on Luna and restores her.
 - **[Session 53](/sessions/session-53)** — The party raids the Iron Claws' Cog & Steam, and Leliana's benefit concert at Jasper's brewery raises a new moon over Greyport.

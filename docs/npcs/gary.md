@@ -27,7 +27,7 @@ His retirement match was held in an island arena off the coast of Greyport, and 
 
 ## Taken by Crowley
 
-On his way home through the back alleys, a portal opened and Crowley asked, "Say, Gary, would you like a piece of candy?" Gary stepped through. Crowley had waited for him to retire, because a reigning champion could only have been challenged in the ring. Gary had promised to give the party a sending stone for reaching Caspian the next day. In Session 52 the party set out to fetch it from Iro's workshop.
+On his way home through the back alleys, a portal opened and Crowley asked, "Say, Gary, would you like a piece of candy?" Gary stepped through. Crowley had waited for him to retire, because a reigning champion could only have been challenged in the ring. Gary had promised to give the party a sending stone for reaching his aunt Caspian the next day; Crowley holds her too, alive. In Session 52 the party set out to fetch it from Iro's workshop.
 
 ## Session History
 

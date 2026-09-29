@@ -1,6 +1,6 @@
 ---
 title: Mandolin of Rude Truths
-description: Leliana's magic mandolin, awarded in Session 37, whose charges can cast Fly
+description: Leliana's magic mandolin, awarded in Session 37, whose charges can cast Fly; since Session 57 reflavored as the Blue Moon Guitar
 ---
 
 # Mandolin of Rude Truths
@@ -9,7 +9,7 @@ description: Leliana's magic mandolin, awarded in Session 37, whose charges can 
 
 ## Overview
 
-The **Mandolin of Rude Truths** is a magic mandolin belonging to [Leliana](/player-characters/leliana). Leliana has played mandolin since she first appeared in Session 34. She received this one in [Session 37](/sessions/session-37), and it holds charges that can cast spells, *Fly* among them. It is last clearly mentioned in Session 52, still as Leliana's. It may be what carried her over the barracks wall in Session 62 (see the [Blue Moon Guitar](/items/blue-moon-guitar)).
+The **Mandolin of Rude Truths** is a magic mandolin belonging to [Leliana](/player-characters/leliana). Leliana has played mandolin since she first appeared in Session 34. She received this one in [Session 37](/sessions/session-37), and it holds charges that can cast spells, *Fly* among them. After Session 57 the mandolin was reflavored as her brother Steven's **[Blue Moon Guitar](/items/blue-moon-guitar)**: the guitar is the same magic item, with the same charges, and it is on the guitar that she flies over the barracks wall in Session 62. See that page for its story from Session 57 on.
 
 ## Properties
 
@@ -22,10 +22,11 @@ The **Mandolin of Rude Truths** is a magic mandolin belonging to [Leliana](/play
 - **The Order's bucket (Session 39).** At the Dragon's Hide, the [Order of St. George](/organizations/order-of-st-george) asked the party to put its enchanted gear in a bucket while it scanned them, and Leliana put in her mandolin.
 - **The dragon fight (Session 42).** In the water during the fight with the dragon, Leliana cast *Fly* from the mandolin to rise out of it and hover above the boat, and healed herself on the same turn.
 - **Bardic inspiration (Session 52).** Luke described Leliana's bardic inspiration with "a little mandolin playing in the background".
+- **Reflavored (after Session 57).** Once Leliana inherited Steven's guitar in Session 57, the mandolin became the [Blue Moon Guitar](/items/blue-moon-guitar). Its *Fly* charges carried over, and she flies on the guitar (Sessions 61–62).
 
 ## Related
 
-- [Blue Moon Guitar](/items/blue-moon-guitar) — the guitar she has carried since Session 57
+- [Blue Moon Guitar](/items/blue-moon-guitar) — the same item, reflavored after Session 57
 - [Leliana](/player-characters/leliana)
 
 ## Session History

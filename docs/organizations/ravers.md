@@ -9,7 +9,7 @@ description: Purple-eyed young people of High Forge drawn in by Helisanna Doomfa
 
 ## Overview
 
-**The Ravers** are the purple-eyed teenagers and young adults of **[High Forge](/locations/high-forge)** who gathered by the thousands for underground parties after **[Helisanna Doomfall](/player-characters/helisanna)**'s concerts. Her music, powered by her pact with the primordial **[Ach'uk](/npcs/achuk)**, left audiences with glowing purple eyes, and the drug violescence (V) in the Under Lake deepened their dependence. The party used them as an army against the Iron Claws; afterwards Helisanna led them to occupy the Lotus Casino.
+**The Ravers** are the purple-eyed teenagers and young adults of **[High Forge](/locations/high-forge)** who gathered by the thousands for underground parties after **[Helisanna Doomfall](/player-characters/helisanna)**'s concerts. Her music, powered by her pact with the primordial **[Y'chek](/npcs/ychek)**, left audiences with glowing purple eyes, and the drug violescence (V) in the Under Lake deepened their dependence. The party used them as an army against the Iron Claws; afterwards Helisanna led them to occupy the Lotus Casino.
 
 **Current status (last seen Session 38):** many ravers are recovering. Calmer music around the city was stabilising them and letting them return to their families and jobs, though some still slipped down to the lower city for a rock night. Helisanna, their focus, has since Session 57 been one of the two personas of **[Leliana Goldspring](/player-characters/leliana)** (both played by Luke Neverisky); the ravers have not appeared since.
 
@@ -35,7 +35,7 @@ description: Purple-eyed young people of High Forge drawn in by Helisanna Doomfa
 ## Related
 - [Helisanna Doomfall](/player-characters/helisanna) — the performer they followed
 - [Leliana Goldspring](/player-characters/leliana) — the same woman's other persona
-- [Ach'uk](/npcs/achuk) — Helisanna's patron
+- [Y'chek](/npcs/ychek) — Helisanna's patron
 - [Doomfall](/organizations/doomfall) — the band
 - [April Bonal](/npcs/april-bonal) — missing person linked to a Doomfall concert
 - [Iron Claws](/organizations/iron-claws) — V suppliers, then the ravers' target

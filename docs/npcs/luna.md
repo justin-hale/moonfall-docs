@@ -5,7 +5,7 @@ description: Moon goddess struck down by an Eldoran weapon, restored by the part
 
 # Luna
 
-*Moon Goddess • Once Mortal • Partner of the Dragon God Naraxis*
+*Moon Goddess • Once Mortal • Partner of the Dragon God Noraxis*
 
 ## Overview
 
@@ -14,7 +14,7 @@ description: Moon goddess struck down by an Eldoran weapon, restored by the part
 ## Background
 
 - **A mortal once:** Luna says she was mortal and ascended to godhood to protect the people she loved, at the price of removing herself from the world (Session 46). Her features are elven.
-- **Naraxis:** Luna and the dragon god Naraxis are partners, and "the mighty love of Luna and Naraxis" is a legend (Sessions 40–41). The Eldorans and the [Order of St. George](/organizations/order-of-st-george) hope to use the weapon that struck her against him. Luna fears his rage over the attack, but believes she could turn it toward those responsible (Session 46).
+- **Noraxis:** Luna and the dragon god Noraxis are partners, and "the mighty love of Luna and Noraxis" is a legend (Sessions 40–41). The Eldorans and the [Order of St. George](/organizations/order-of-st-george) hope to use the weapon that struck her against him. Luna fears his rage over the attack, but believes she could turn it toward those responsible (Session 46).
 - **Astro:** [Astro](/npcs/astro), the void dragon sealed in Silas's orb, calls Luna "sister" (Session 41). Luna blames herself for not taking the consequences seriously when the dwarves imprisoned Astro centuries ago (Session 46).
 - **The fall:** She describes the weapon as a massive white beam from a giant dish or bowl on the side of the Eldoran space station, which the party calls the "space bowl". She says it shattered her "in the weave" as well as in body (Session 46). Her crash site was a place of balance that gave her a "soft landing" (Session 40). By Session 56 the party reckons she fell more than a year earlier.
 
@@ -35,11 +35,11 @@ description: Moon goddess struck down by an Eldoran weapon, restored by the part
 
 ## Session History
 
-- **[Session 40](/sessions/session-40)** — Bafael tells the party the legend of Luna and Naraxis and reveals that the Order of St. George and Eldoran want to turn the weapon that struck her on Naraxis. The party sails for her crash site.
+- **[Session 40](/sessions/session-40)** — Bafael tells the party the legend of Luna and Noraxis and reveals that the Order of St. George and Eldoran want to turn the weapon that struck her on Noraxis. The party sails for her crash site.
 - **[Session 41](/sessions/session-41)** — The party finds her 400-foot skeleton on the dry seabed and hears her weak voice asking for help while Astro calls her "sister".
 - **[Session 42](/sessions/session-42)** — Ohma throws a sending stone down beside her skull.
 - **[Session 43](/sessions/session-43)** — Silas proposes restoring her through worship at Leliana's concerts.
-- **[Session 46](/sessions/session-46)** — Reached through Victor's sending stone, she appears in the pocket village ("I'm not dead yet"). She describes the Eldoran "space bowl" that struck her and warns of Naraxis's wrath.
+- **[Session 46](/sessions/session-46)** — Reached through Victor's sending stone, she appears in the pocket village ("I'm not dead yet"). She describes the Eldoran "space bowl" that struck her and warns of Noraxis's wrath.
 - **[Session 47](/sessions/session-47)** — She appears on a couch in the pocket village when Elspeth shows it to Lady Viper.
 - **[Session 48](/sessions/session-48)** — The party learns she is "mostly dead", about five percent restored, and that violescence can bring her back.
 - **[Session 50](/sessions/session-50)** — Her decline turns out to have a deadline: she may not survive past May.

@@ -49,6 +49,10 @@ Olivia approaches each challenge with the **professional demeanor** that made he
 
 ## Key Relationships
 
+### Family
+- Grandmother of [Elspeth Cooper](/player-characters/elspeth), who travels with her in the party
+- Grandmother of [George](/npcs/george), the youngest of her grandchildren and Elspeth's cousin; she began searching for him in Sessions 2–3 and has rescued him twice
+
 ### Professional Respect
 - Insists on being called "Retired Detective Olivia Cooper" rather than first names
 - Commands respect through competence and experience

@@ -1,16 +1,16 @@
 ---
 title: Raingoth
-description: The dragon orb that imprisons the void dragon Astro; stolen by Silas in the Sisyphus Circle heist, resealed in Session 41, and held by Silas since Session 47
+description: The dragon orb that imprisons the void dragon Astro; stolen by Silas in the Sisyphus Circle heist, resealed in Session 41, and carried by Silas, who brought it into the Eldoran capital
 aliases: ["Rain Goth", "Rangoth", "Reangoth"]
 ---
 
 # Raingoth
 
-*Artifact • Held by Silas*
+*Artifact • Carried by Silas*
 
 ## Overview
 
-**Raingoth** is the galaxy-filled glass sphere in which the first dwarven kings bound the void dragon **[Astro](/npcs/astro)**. [Silas](/player-characters/silas) stole it with the [Sisyphus Circle](/organizations/sisyphus-circle), and the party resealed Astro inside it at [Luna](/npcs/luna)'s crash site in Session 41. As of Session 63 Silas holds it; he took it back in Session 47. Where it is physically kept after that is never stated. It cannot enter the [pocket village](/locations/pocket-village) or the [portable hole](/items/portable-hole).
+**Raingoth** is the galaxy-filled glass sphere in which the first dwarven kings bound the void dragon **[Astro](/npcs/astro)**. [Silas](/player-characters/silas) stole it with the [Sisyphus Circle](/organizations/sisyphus-circle), and the party resealed Astro inside it at [Luna](/npcs/luna)'s crash site in Session 41. Silas carries it, and he brought it with him into the [Eldoran](/locations/eldoran) capital, where it is as of Session 63. It cannot enter the [pocket village](/locations/pocket-village) or the [portable hole](/items/portable-hole).
 
 The name comes from the dwarves: the [High Forge](/locations/high-forge) vault tablets write it "Rangoth" (Session 30), and the [Order of St. George](/organizations/order-of-st-george) calls it "Rain Goth" (Session 39). It is one of several [dragon orbs](/items/dragon-orbs) tied to Astro.
 
@@ -33,7 +33,7 @@ The name comes from the dwarves: the [High Forge](/locations/high-forge) vault t
 
 ### Who carries it
 
-The recaps and the table disagree. In Session 47 Silas said at the table that during his scheme against Helja (Sessions 36–37) he had slipped the orb into Bru's bag without telling him, and the Session 47 recap reports this as fact. The transcripts of the sessions in between contradict it: in Session 41 Astro's voice comes from Silas's backpack, and in Session 45 the orb is in Silas's backpack, which he hands to Bru to test Victor's needle. Either way, Silas took the orb in hand in Session 47 ("I take the orb") and is its holder from then on.
+Silas carries it, and he brought it into the Eldoran capital. In Session 47 Silas said at the table that during his scheme against Helja (Sessions 36–37) he had slipped the orb into Bru's bag without telling him, and the Session 47 recap reports this as fact, but the sessions in between have it with Silas: in Session 41 Astro's voice comes from Silas's backpack, and in Session 45 the orb is in Silas's backpack, which he hands to Bru to test Victor's needle. In Session 47 Silas took the orb in hand ("I take the orb").
 
 ## Related
 

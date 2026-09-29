@@ -65,7 +65,7 @@ Together with Kevin, Bru represents the perfect fusion of **artificial intellige
 - **The Split (Session 34)**: When Helisanna split in two, Bru's take was blunt — protect the one who was trapped and "kill the bad one"
 - **Hard Truths (Session 56)**: Recalled that Helisanna once made him and Leliana both believe they were part of her family, though she never believed it herself
 - **Emotional Support Dynamite (Session 56)**: Handed Leliana a stick of dynamite in a service-animal vest before she faced the library where Helisanna was born
-- **Since Session 57**: Helisanna and [Leliana](/player-characters/leliana) are one woman who switches between personas; in Session 58 Bru helped propose "Anna" as a name for both halves
+- **Since Session 57**: Helisanna and [Leliana](/player-characters/leliana) are one woman who switches between personas
 
 ### Red (Thurnok Skyhammer) - The Loss That Broke Him
 - **Deep Connection**: Developed strong bond with the gentle giant
@@ -201,7 +201,7 @@ Bru's expertise in pyrotechnics has proven both spectacular and dangerous, but b
 - Foundation of their brotherhood
 
 ### Session 34 - Helisanna's Split
-- Watched Helisanna submit to Ach'uk and split into two women
+- Watched Helisanna submit to Y'chek and split into two women
 - Argued for protecting Leliana and dealing with the Helisanna who left
 
 ### Red's Sacrifice - The Breaking Point
@@ -241,7 +241,6 @@ Bru's expertise in pyrotechnics has proven both spectacular and dangerous, but b
 ### Leliana Goldspring
 - The same woman as Helisanna, able since Session 57 to switch between the two personas
 - Gave her his emotional support dynamite before the library (Session 56)
-- Co-proposed the name "Anna" for both halves (Session 58)
 
 ### Ohma Kapua
 - Respects his strength and teaching style

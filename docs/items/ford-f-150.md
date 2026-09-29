@@ -30,7 +30,7 @@ After Helja Ungar's fall, the party learned that [April Bonal](/npcs/april-bonal
 
 ### Left behind (Session 38)
 
-When the party set out for Greyport, Silas wanted to bring the truck and was told it had been given to High Forge. The party left in the [Vroomfall](/items/vroomfall), the [Zoomfall](/items/zoomfall) and the Bugatti.
+When the party set out for Greyport, Silas wanted to bring the truck and was told it had been given to High Forge. The party left in the van, the [Zoomfall](/items/zoomfall), towing Elspeth's race car, the [Vroomfall](/items/vroomfall), with the Bugatti alongside.
 
 ## Not to Be Confused With
 
@@ -40,7 +40,7 @@ The getaway car of the Sisyphus Circle, which blew up with Spoons in it in the f
 
 - [Chalk Rock](/npcs/chalk-rock): its main driver
 - [High Forge](/locations/high-forge): where it is kept
-- [Bugatti](/items/bugatti), [Vroomfall](/items/vroomfall) and [Zoomfall](/items/zoomfall): the rest of the fleet
+- [Bugatti](/items/bugatti), [Zoomfall](/items/zoomfall) (the van) and [Vroomfall](/items/vroomfall) (Elspeth's race car): the rest of the fleet
 
 ## Session History
 

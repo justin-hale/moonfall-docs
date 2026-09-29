@@ -18,8 +18,8 @@ aliases: ["sending stone", "sending stones", "Luna's sending stone"]
 - **Naomi's line.** Silas saved Naomi's contact in his sending stone as "Muscle Mommy" (Interlude 7) and makes nightly calls to her (Session 40).
 - **Victor's stone in High Forge.** The party overheard a call to Victor's stone from the Twilight Company's Mira about the Iron Claws controlling the tunnels (Session 7).
 - **Lark's stone.** [Lark](/npcs/lark) gave the party a stone to coordinate the infiltration of [High Forge](/locations/high-forge) (Session 25).
-- **Cringe's stone.** Silas took it off the unconscious Cringe (Session 48) and used it to call Danlin while posing as Cringe (Session 49).
-- **Caspian's stone.** After Razlemania, [Gary](/npcs/gary) promised the party a sending stone for his aunt Caspian, but [Crowley](/npcs/crowley) took him that night (Session 51). The party was on its way to [Iro](/npcs/iro)'s workshop to collect it when Luna's alarm came (Session 52).
+- **Cringe's stone.** Silas took it off the unconscious Cringe (Session 48) and used it to call Denlin while posing as Cringe (Session 49).
+- **Caspian's stone.** After Razlemania, [Gary](/npcs/gary) promised the party a sending stone for his aunt Caspian, who is alive but held by [Crowley](/npcs/crowley). Crowley took Gary too, that night (Session 51). The party was on its way to [Iro](/npcs/iro)'s workshop to collect it when Luna's alarm came (Session 52).
 - **George's stone.** Olivia made [Finnegan](/npcs/finnegan) give up the stone George reports through. George checks in on Wednesdays through a drop, so she pocketed it rather than risk exposing him (Session 54). In the capital George told the party not to use it, since it would be tracked to him, and to send messages through [Toothy](/npcs/toothy) instead (Session 58).
 
 The Session 52 recap says Luna sent the same message to everyone she gave a stone to. The transcript does not support this: the table joked about it, and the DM said the message was "probably just for you".
@@ -34,7 +34,7 @@ The Session 52 recap says Luna sent the same message to everyone she gave a ston
 - **[Session 45](/sessions/session-45)** — Silas walks up to Victor and says "Give me the sending stone"; Victor hands it over.
 - **[Session 46](/sessions/session-46)** — The party uses the stone in the pocket village, and Luna speaks and appears: "I'm not dead yet."
 - **[Session 48](/sessions/session-48)** — Silas knocks Cringe out and takes his sending stone.
-- **[Session 49](/sessions/session-49)** — Posing as Cringe, Silas calls Danlin on the stolen stone before the orphanage infiltration.
+- **[Session 49](/sessions/session-49)** — Posing as Cringe, Silas calls Denlin on the stolen stone before the orphanage infiltration.
 - **[Session 52](/sessions/session-52)** — Luna's stone lights up with her plea for help against the Eldoran knights at Luna Trench.
 - **[Session 54](/sessions/session-54)** — Olivia makes Finnegan give up the sending stone George reports through, and pockets it.
 - **[Session 58](/sessions/session-58)** — George tells the party a sending stone would be tracked to him and to message him through Toothy.

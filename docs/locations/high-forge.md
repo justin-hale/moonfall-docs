@@ -39,7 +39,7 @@ After the dragon attack the Iron Claws took the city, controlling its gates and 
 
 On the day of the uprising the Iron Claws took hostages in the Great Hall. The party freed them during Helisanna's concert, and Silas, feigning betrayal, was brought to Helja's throne room in the Forge Heart, where he and Bru killed her and Bru's charges brought the room down. In the Great Hall, Silas then used the orb to order the dragons out of the city; Duncan, ridden by Helisanna, killed Betty, and the Forge Heart exploded behind the party.
 
-In the month that followed, Chalk Rock, who had led an evacuation of hundreds of civilians, and Grimjaw — resurrected, still authoritarian but softening — rebuilt the city together. Many evacuees never returned. Lady Corwin's mercenary army marched in, found little resistance, and reported the city "sacked and nothing worth saving," while its soldiers brought back stories of a witch riding a black dragon through the city's depths. The party kept its van at the city gates as a base, and Leliana taught music to children, including former Iron Claws.
+In the month that followed, Chalk Rock, who had led an evacuation of hundreds of civilians, and Grimjaw — resurrected, still authoritarian but softening — rebuilt the city together. Many evacuees never returned. Lady Corwin's mercenary army marched in, found little resistance, and reported the city "sacked and nothing worth saving," while its soldiers brought back stories of a witch riding a black dragon through the city's depths. The party kept its van, the [Zoomfall](/items/zoomfall), at the city gates as a base, and Leliana taught music to children, including former Iron Claws.
 
 ### Departure (Session 38)
 

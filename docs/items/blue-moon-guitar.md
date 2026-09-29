@@ -1,6 +1,6 @@
 ---
 title: Blue Moon Guitar
-description: Steven Goldspring's steel-strung electric guitar with a blue crescent moon, willed to Leliana; since Session 57 it lets her switch between her Leliana and Helisanna personas
+description: Steven Goldspring's steel-strung electric guitar with a blue crescent moon, willed to Leliana; her Mandolin of Rude Truths reflavored, it lets her switch between her Leliana and Helisanna personas and fly
 aliases: ["Blue Moon guitar"]
 ---
 
@@ -10,7 +10,9 @@ aliases: ["Blue Moon guitar"]
 
 ## Overview
 
-The **Blue Moon Guitar** is the electric guitar of Lieutenant **Steven Goldspring**, [Leliana](/player-characters/leliana)'s brother. It is painted with a blue crescent moon and strung with steel strings, and his will calls it his "Cooper electric guitar". Leliana recovered it in [Session 57](/sessions/session-57) and still carries it as of Session 63. It is how she switches between her two personas, Leliana and [Helisanna](/player-characters/helisanna), who are one woman.
+The **Blue Moon Guitar** is the electric guitar of Lieutenant **Steven Goldspring**, [Leliana](/player-characters/leliana)'s brother. It is painted with a blue crescent moon and strung with steel strings, and his will calls it his "Cooper electric guitar". Leliana recovered it in [Session 57](/sessions/session-57) and still carries it as of Session 63. It is how she switches between her two personas, Leliana and [Helisanna](/player-characters/helisanna), who are one woman, and she flies on it.
+
+Mechanically the guitar is her [Mandolin of Rude Truths](/items/mandolin-of-rude-truths), reflavored as Steven's guitar after Session 57. It keeps the mandolin's charges, so the *Fly* she casts from it is the mandolin's.
 
 ## History
 
@@ -23,18 +25,20 @@ The **Blue Moon Guitar** is the electric guitar of Lieutenant **Steven Goldsprin
 ## Use Since
 
 - **The helmet sweep (Session 58).** When [Magic-Detection Helmets](/items/magic-detection-helmets) came through the Sexy Peacock, Leliana chose to stay rather than leave with Silas: "Mine's just guitar." The soldiers never scanned her table.
-- **Flight (Sessions 61–62).** At the barracks wall Leliana said, "I can fly, too. This guitar is awesome" (Session 61). In Session 62 she flew over the barracks wall using what the transcript records as "my handle or… guitar"; the first word is garbled. The [Mandolin of Rude Truths](/items/mandolin-of-rude-truths) has cast *Fly* before. Which instrument gives her flight has not been settled.
+- **Flight (Sessions 61–62).** At the barracks wall Leliana said, "I can fly, too. This guitar is awesome" (Session 61). In Session 62 she flew over the barracks wall on the guitar, using the *Fly* it carries over from the [Mandolin of Rude Truths](/items/mandolin-of-rude-truths).
 - **The tower falls (Session 63).** As the research tower leaned against the city wall after the bombing, Leliana played "a sweet guitar riff".
 
 ## Related
 
 - [Leliana](/player-characters/leliana) and [Helisanna](/player-characters/helisanna) — the one woman who carries it
 - [Guitar-Axe](/items/guitar-axe) — Helisanna's older heavy-metal instrument
-- [Mandolin of Rude Truths](/items/mandolin-of-rude-truths)
+- [Mandolin of Rude Truths](/items/mandolin-of-rude-truths) — the same magic item before its reflavor
 - [Captain Steel](/npcs/captain-steel) — Steven's murderer, who read his will
 
 ## Session History
 
 - **[Session 57](/sessions/session-57)** — Walking her memories, Leliana sees her brother Steven play the guitar, inherits it by his will at his funeral, and learns that with it she can switch between her Leliana and Helisanna personas at will.
 - **[Session 58](/sessions/session-58)** — Leliana keeps the guitar with her through a magic-detection sweep at the Sexy Peacock, and the soldiers never check it.
+- **[Session 61](/sessions/session-61)** — At the barracks wall Leliana tells the party she can fly on the guitar.
+- **[Session 62](/sessions/session-62)** — Leliana flies back over the barracks wall on the guitar after arming a bomb inside.
 - **[Session 63](/sessions/session-63)** — Leliana plays a guitar riff as the bombed research tower leans against the city wall.

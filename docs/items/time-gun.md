@@ -25,7 +25,7 @@ As Marcus described it in Interlude 11:
 
 In Interlude 11 the old dragon Sol sent the party to a shattered world in the Astral Sea, held together by the artist Scarlet's paintings and the roots of the dying world tree Matthew Broadtwig. The chronomancer Marcus told them the time gun had wrecked their world, and that he, Scarlet and Matthew had spent two millennia trying every combination of choices to undo it. Every timeline ended with someone creating the time gun. Marcus had one bullet left and was preparing to shoot himself back to the start again.
 
-In this world the roles are reversed: here Scarlet is the time-and-space scientist and Marcus the painter (Session 25). The Session 38 recap calls the maker "an alternate Scarlet". In Session 63 Taylor Ramsey (Silas's player) recalled it the other way at the table: that world's Scarlet was the artist, and "Frenchie", whom the table then named as Marcus, "was the scientist who made the time gun". That matches Interlude 11, where Marcus is the chronomancer.
+The gun gets built in every timeline, but not always by the same hands: in one it was Marcus, in another an alternate Scarlet. One of them always builds it. In this world the roles are reversed: here Scarlet is the time-and-space scientist and Marcus the painter (Session 25), which is why the party keeps a close eye on her.
 
 ## The Party and Scarlet
 

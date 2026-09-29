@@ -14,7 +14,7 @@ description: Fluke's youngest son and Gary's brother, a lightning-wielding non-h
 ## Background
 
 - **Family:** Fluke is his father, and the workshop and Fluke's old steamboat, the **Iron Maiden**, are his legacy. His older brothers are Gary, the 250-year wrestling champion, and Shield, who founded a fight institute. His aunt is Caspian, and he calls the Caspian Center in Greyport "the good work of my aunt Caspian". A memorial wall in the workshop tracks his family's deeds, including sightings of Caspian.
-- **Caspian's status:** Not settled. In Session 44 the guest DM said Crowley had taken Caspian as she left town. Players at the table joked in Sessions 44 and 53 that Caspian is dead, and the Session 53 recap repeats this, but no DM ruling confirms it.
+- **Caspian's status:** Alive, and held by [Crowley](/npcs/crowley), who took her as she left Milstrom (Session 18). Players at the table joked in Sessions 44 and 53 that she is dead, but she is not.
 - **The workshop:** Everything in it is jerry-rigged and all of it works. It has Fidget, a mechanical bird who announces visitors, and a lightning-powered forge that uses no flame. Iro keeps a Polaroid scrapbook of finished projects that he calls his "horde".
 - **The deed:** The property was his father's and is his "in perpetuity", vetted by Governor Pike 200 years ago.
 

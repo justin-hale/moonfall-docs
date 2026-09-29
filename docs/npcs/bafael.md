@@ -20,7 +20,7 @@ aliases: ["Rap Sheet"]
 
 ## Views
 
-- He warned Ohma that the Order was working with the [Eldoran Empire](/organizations/eldoran-empire). Eldoran wants to kill the gods so that Eldora grows stronger, the Order wants to kill the dragons, and together they hope to turn the weapon that struck down Luna against Naraxis, her dragon lover.
+- He warned Ohma that the Order was working with the [Eldoran Empire](/organizations/eldoran-empire). Eldoran wants to kill the gods so that Eldora grows stronger, the Order wants to kill the dragons, and together they hope to turn the weapon that struck down Luna against Noraxis, her dragon lover.
 - He believes the Order are honourable and will protect the party only while the two sides are aligned. "Eventually, we will have to choose to be their enemy."
 - He pushed the party on their goals ("You fight the dragon. You fight the empire. Are you going to fight everyone?") and argued that destruction is not the same as evil: "A scorpion is a scorpion, right? But is a scorpion evil?"
 
@@ -30,6 +30,6 @@ Bafael brought the salt and knew the steps of the rebinding: four violescent sph
 
 ## Session History
 
-- **[Session 40](/sessions/session-40)** — At the Greyport docks Ohma recognises "Rap Sheet" leading dragon knights and commandeering Captain Buckle's boat. Bafael privately reveals that the Order of St. George is working with Eldoran to use the moon weapon against Naraxis, then briefs the party on the ritual.
+- **[Session 40](/sessions/session-40)** — At the Greyport docks Ohma recognises "Rap Sheet" leading dragon knights and commandeering Captain Buckle's boat. Bafael privately reveals that the Order of St. George is working with Eldoran to use the moon weapon against Noraxis, then briefs the party on the ritual.
 - **[Session 41](/sessions/session-41)** — He tells the party the knights are mercenaries and challenges their ethics, then leads the descent to Luna's skeleton and sets up the ritual that reseals Astro.
 - **[Session 42](/sessions/session-42)** — According to the recap, he helps Ohma throw Victor's sending stone so that it lands beside Luna's skull. He does not return to Greyport with the ship.

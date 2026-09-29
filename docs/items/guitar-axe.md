@@ -10,7 +10,7 @@ aliases: ["guitar axe", "guitar-axe"]
 
 ## Overview
 
-The **guitar-axe** is [Helisanna Doomfall](/player-characters/helisanna)'s pact weapon: an axe that doubles as the electric guitar she played as frontwoman of [Doomfall](/organizations/doomfall). She told Olivia she received her magic and her instrument through her pact (Session 23), made with the patron later named as [Ach'uk](/npcs/achuk). It has not appeared since Session 36, when Helisanna, then living apart from the party, played in the Iron Claws throne room. Since Session 57 Helisanna and [Leliana](/player-characters/leliana) have been one woman who switches personas with the [Blue Moon guitar](/items/blue-moon-guitar). Whether Helisanna mode brings the guitar-axe back out is unknown.
+The **guitar-axe** is [Helisanna Doomfall](/player-characters/helisanna)'s pact weapon: an axe that doubles as the electric guitar she played as frontwoman of [Doomfall](/organizations/doomfall). She told Olivia she received her magic and her instrument through her pact (Session 23), made with the patron later named as [Y'chek](/npcs/ychek). It has not appeared since Session 36, when Helisanna, then living apart from the party, played in the Iron Claws throne room. Since Session 57 Helisanna and [Leliana](/player-characters/leliana) have been one woman who switches personas with the [Blue Moon guitar](/items/blue-moon-guitar). Whether Helisanna mode brings the guitar-axe back out is unknown.
 
 ## Properties
 

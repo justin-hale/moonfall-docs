@@ -1,6 +1,6 @@
 ---
 title: Doomfall
-description: Helisanna Doomfall's metal act, managed by Silas — the shows that made the purple-eyed ravers; also the name of the party's race car
+description: Helisanna Doomfall's metal act, managed by Silas — the shows that made the purple-eyed ravers
 ---
 
 # Doomfall
@@ -9,7 +9,7 @@ description: Helisanna Doomfall's metal act, managed by Silas — the shows that
 
 ## Overview
 
-**Doomfall** is the metal act fronted by **[Helisanna Doomfall](/player-characters/helisanna)** and managed by **[Silas Fairbanks](/player-characters/silas)**, with **[Bru](/player-characters/bru)** on pyrotechnics. Its shows in High Forge left audience members with glowing purple eyes, and the devoted, purple-eyed crowd that grew from them became the **[ravers](/organizations/ravers)**. The name is also carried by the party's race car, the Doomfall, which Elspeth drives, alongside their van, the Vroomfall.
+**Doomfall** is the metal act fronted by **[Helisanna Doomfall](/player-characters/helisanna)** and managed by **[Silas Fairbanks](/player-characters/silas)**, with **[Bru](/player-characters/bru)** on pyrotechnics. Its shows in High Forge left audience members with glowing purple eyes, and the devoted, purple-eyed crowd that grew from them became the **[ravers](/organizations/ravers)**. The party's vehicles riff on the name: the van is the [Zoomfall](/items/zoomfall) and Elspeth's race car the [Vroomfall](/items/vroomfall). Older recaps that call the race car "the Doomfall" mean the Vroomfall; Doomfall is only the band.
 
 **Current status (Session 63):** inactive. Helisanna left the party in Session 34 and kept performing on her own, last at the Lotus Casino (Interlude XII). Since Session 57 she is no longer apart from the party: she is one of the two personas of **[Leliana Goldspring](/player-characters/leliana)** (both played by Luke Neverisky), and Leliana can switch into her at will.
 
@@ -24,7 +24,7 @@ description: Helisanna Doomfall's metal act, managed by Silas — the shows that
 
 ## The Music and the Purple Eyes
 
-Helisanna's music drew on her warlock pact with **[Ach'uk](/npcs/achuk)**, the primordial spirit of dark, melancholic music. Purple mist and energy streamed from her guitar-axe as she played, and the effect on audiences — mostly teenagers and young adults — was automatic rather than chosen. Those most affected gathered as the ravers.
+Helisanna's music drew on her warlock pact with **[Y'chek](/npcs/ychek)**, the primordial spirit of dark, melancholic music. Purple mist and energy streamed from her guitar-axe as she played, and the effect on audiences — mostly teenagers and young adults — was automatic rather than chosen. Those most affected gathered as the ravers.
 
 After the split, Leliana's music was seen to do the opposite: where Helisanna's drove people into a mania, Leliana's calmed and cleared them (Session 38).
 
@@ -34,7 +34,7 @@ After the split, Leliana's music was seen to do the opposite: where Helisanna's 
 - [Silas Fairbanks](/player-characters/silas) — band manager
 - [Bru](/player-characters/bru) — pyrotechnics
 - [The Ravers](/organizations/ravers) — the purple-eyed crowd
-- [Ach'uk](/npcs/achuk) — Helisanna's patron
+- [Y'chek](/npcs/ychek) — Helisanna's patron
 - [Taco Cat](/organizations/taco-cat) — the party
 
 ## Session History

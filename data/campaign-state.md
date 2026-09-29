@@ -166,10 +166,10 @@ In this backstory session, players took on the roles of Bru's extended goblin fa
 Taco Cat begins their journey to Greyport, investigates Helja's apartment, and retrieves reality stones from the Goliath village.
 
 **Session 39 – The Dragon's Hide**
-A bakery explosion reunites the party with their old crew member Theirsander, leading to a rooftop chase through Greyport and an introduction to the Order of St. George.
+A bakery explosion reunites the party with their old crew member Sander, leading to a rooftop chase through Greyport and an introduction to the Order of St. George.
 
 **Session 40 – Uneasy Alliances**
-The party learns disturbing truths about the Order of St. George's connection to Eldoran, reunites with Theirsander, and sets sail for the underwater ritual site where Luna fell.
+The party learns disturbing truths about the Order of St. George's connection to Eldoran, reunites with Sander, and sets sail for the underwater ritual site where Luna fell.
 
 **Session 41 – The Rebinding Ritual**
 The party arrives at Luna's crash site, debates cosmic alliances, sabotages the Order's tracking equipment, and successfully completes the dangerous rebinding ritual—only to face an incoming dragon.
@@ -181,13 +181,13 @@ The party faces a deadly adult blue dragon attack at Luna's crash site, fights d
 The party returns to Greyport as heroes, levels up to 10, schemes to revive Luna through concert worship, and follows a trail of hot dogs and 45-minute surveillance stakeouts straight into the secret Twilight Company headquarters hidden beneath the city zoo.
 
 **Session 44 – The Son of Fluke**
-The party visits Fluke's Workshop on Brew's recommendation, meets Iro—the youngest son of a Steve Squad legend—and ends up defending the shop from a coordinated three-pronged assault: street thugs, Molotov-hurling boats, and a shark-commanding Saojun beneath the harbor.
+The party visits Fluke's Workshop on Bru's recommendation, meets Iro—the youngest son of a Steve Squad legend—and ends up defending the shop from a coordinated three-pronged assault: street thugs, Molotov-hurling boats, and a shark-commanding Saojun beneath the harbor.
 
 **Session 45 – A Village in the Void**
 The party stakes out the zoo to retrieve Victor's sending stone, stumbles into an identity theft mystery involving a dwarf racer called 'Belith Booper,' and caps the day by opening the long-awaited pocket village—where Silus's surprise birthday party is interrupted by something very wrong in the sky.
 
 **Session 46 – Not Dead Yet**
-Void beings crash Silus's birthday party in the pocket village, and the party fights them back with moonlight and a song—only to discover that the attack was just the beginning. Luna the moon goddess speaks her first words in months, the pocket village reveals itself as something far more permanent than a prototype, and the shape of the fight ahead comes into focus.
+Void beings crash Silas's birthday party in the pocket village, and the party fights them back with moonlight and a song—only to discover that the attack was just the beginning. Luna the moon goddess speaks her first words in months, the pocket village reveals itself as something far more permanent than a prototype, and the shape of the fight ahead comes into focus.
 
 **Session 47 – The Viper's Den**
 Taco Cat emerges from the pocket village, navigates the Twilight Company's headquarters, meets the enigmatic Lady Viper, and Silas opens a fragile dialogue with the imprisoned dragon Astro.
@@ -199,7 +199,7 @@ Taco Cat crashes a Met Gala-level VIP night in disguise, eavesdrops on Denlin's 
 Taco Cat goes undercover as orphans to infiltrate Denlin's facility, and discovers something far worse than a violescence ring — a laboratory full of unconscious dwarven figures built in Elspeth's image.
 
 **Session 50 – The Wall Comes Down**
-Taco Cat finishes what they started in the orphanage lab — the Doctor falls from the ceiling, the simulacra walk free singing Pink Floyd, the children are rescued, and then Elspeth straps into Denland's car and wins the race he was supposed to dominate.
+Taco Cat finishes what they started in the orphanage lab — the Doctor falls from the ceiling, the simulacra walk free singing Pink Floyd, the children are rescued, and then Elspeth straps into Denlin's car and wins the race he was supposed to dominate.
 
 **Session 51 – Thank You, Gary**
 Taco Cat earns backstage passes to Razlemania, slaps on wrestling personas, and fights demons and paladins for the soul of Gary's retirement — then watches the greatest champion in history get lured into an alley by Crowley.
@@ -256,7 +256,7 @@ Lady Viper sent the party into the Eldoran Empire with Twilight Company agent Fi
 
 ### 2. Leliana and Helisanna
 **Status:** One person, two personas, switching at will (Sessions 57–63)
-Luke's original character, Helisanna Doomfall, split in two in Session 34. From then on Luke played Leliana Goldspring, and Helisanna went her own way in her own body (the Lotus Casino in Interlude XII; "running things in the South" on an undead dragon in Session 56). In Session 57 Leliana learned that the two are extremes of one person, and her brother's Blue Moon guitar lets her switch between them. In Session 63 Luke said the personas are "aware of each other" and that switching is "very controlled… like flipping a switch… that's it for now". Still open: whether the separate Helisanna of Session 56 still exists, and what hold the patron Ach'uk has (DM: "you'll have to wait and see", Session 58).
+Luke's original character, Helisanna Doomfall, split in two in Session 34. From then on Luke played Leliana Goldspring, and Helisanna went her own way in her own body (the Lotus Casino in Interlude XII; "running things in the South" on an undead dragon in Session 56). In Session 57 Leliana learned that the two are extremes of one person, and her brother's Blue Moon guitar lets her switch between them. In Session 63 Luke said the personas are "aware of each other" and that switching is "very controlled… like flipping a switch… that's it for now". Still open: whether the separate Helisanna of Session 56 still exists, and what hold the patron Y'chek has (DM: "you'll have to wait and see", Session 58).
 
 ### 3. Captain Steel
 **Status:** Alive; the vendetta is unresolved (Session 63)
@@ -276,18 +276,18 @@ The factory furnace was a power core under stasis magic (Session 60). Up close i
 
 ### 7. The Eldoran War Machine
 **Status:** Partly mapped; the long-term target
-Lady Viper founded the Twilight Company after the Empire killed her family. Her plan targets Eldoran places of worship, the harbor spaceport and the violescence caches; the space station is "out of reach for now" (Session 47). In Session 61 a harmonic ritual turned a soldier into a winged knight. The research the party read says violescence turns belief into power, takes "Eichek", a god of passion and music, as its model, and flags dragon orbs as a way to break the loop. Fredo Boggins reported harmonic engines that make weapons ten times stronger (Session 62). The party suspects the same system powers the Empire's weapon in space (Session 61), the moon laser (Session 57).
+Lady Viper founded the Twilight Company after the Empire killed her family. Her plan targets Eldoran places of worship, the harbor spaceport and the violescence caches; the space station is "out of reach for now" (Session 47). In Session 61 a harmonic ritual turned a soldier into a winged knight. The research the party read says violescence turns belief into power, takes Y'chek, a god of passion and music and Helisanna's patron, as its model, and flags dragon orbs as a way to break the loop. Fredo Boggins reported harmonic engines that make weapons ten times stronger (Session 62). The party suspects the same system powers the Empire's weapon in space (Session 61), the moon laser (Session 57).
 
 ### 8. Luna, Astro and the Dragon Orbs
 **Status:** Luna restored; Astro still bound in her orb
-The moon exploded in Session 16. At Luna's underwater crash site the party resealed the void dragon Astro in the orb Silas carries (Session 41). Luna spoke again in Session 46, and the party cut her free of the Eldoran knights chaining her skull (Session 52). Leliana's benefit concert raised a new moon of belief over Greyport (Session 53). Slain mercenaries wearing Luna's crescent were found in Session 56. Void beings hunt Silas for Astro's "warden" scent. Luna's three options are to seal Astro further, release her, or negotiate using the other orbs, which appear on Scarlet's map (Session 46). Silas has opened a dialogue with Astro (Session 47).
+The moon exploded in Session 16. At Luna's underwater crash site the party resealed the void dragon Astro in Raingoth (Session 41), the orb Silas carries and brought into the Eldoran capital. Luna spoke again in Session 46, and the party cut her free of the Eldoran knights chaining her skull (Session 52). Leliana's benefit concert raised a new moon of belief over Greyport (Session 53). Slain mercenaries wearing Luna's crescent were found in Session 56. Void beings hunt Silas for Astro's "warden" scent. Luna's three options are to seal Astro further, release her, or negotiate using the other orbs, which appear on Scarlet's map (Session 46). Silas has opened a dialogue with Astro (Session 47).
 
 
 #### Session 58 Updates
 - **Sabotage**: Three targets named (spaceport factory, university research facility, barracks), with Twilight Company support.
 - **George**: Revealed as a months-long plant in the city guard; now the briefing contact.
 - **Captain Steel**: Stationed at the university research center; killed Leliana's brother, Lieutenant Steven Goldspring (Session 57).
-- **Leliana/Helisanna**: Bru and Elspeth proposed "Anna" as a name covering both personas, and the table approved it, but it has not been used since. The DM left Ach'uk's status open ("you'll have to wait and see").
+- **Leliana/Helisanna**: Bru and Elspeth floated "Anna" as a name covering both personas; it was dropped. Y'chek's status was left open ("you'll have to wait and see").
 - **Bradicus Death-Game**: Finale broadcast aired at the Sexy Peacock.
 
 
@@ -314,7 +314,7 @@ The moon exploded in Session 16. At Luna's underwater crash site the party resea
 - **Strike**: Barracks bomb armed; the scientist's passcode acquired.
 - **Captain Steel**: Silas will back Leliana if she gets a chance to kill Steel; she'll "put on Helisanna mode."
 - **Escape**: Finnegan is mapping exits (boat, sewer, vehicle ramp); light lanes were installed at the barracks in January.
-- **Harmonic Engines**: Built from the violin crystal, they make weapons ten times more powerful (Fredo Boggins).
+- **Harmonic Engines**: Built from violescence crystals, they make weapons ten times more powerful (Fredo Boggins).
 - **Taco Cat Legend**: Elspeth tells her factory friends the party's own story as hearsay.
 - **Cassandra**: Her shift's layoff is confirmed; Elspeth attended her birthday as "Stephanie".
 
@@ -325,26 +325,26 @@ The moon exploded in Session 16. At Luna's underwater crash site the party resea
 - **Miniature Sun**: Stored in Scarlet's *Leomund's Secret Chest*.
 - **Falling Starship**: An unidentified starship was seen plummeting during the evacuation; unexplained.
 - **Leliana/Helisanna**: Luke says the personas are "aware of each other", and switching is at will and "very controlled… like flipping a switch… that's it for now."
-- **Scarlet's Time Gun**: The party steers Scarlet away from inventing a time gun, remembering the one that wrecked Marcus's world (Interlude XI).
+- **Scarlet's Time Gun**: The party steers Scarlet away from inventing a time gun. In every timeline someone builds one (Marcus in one, an alternate Scarlet in another), and it wrecked Marcus's world (Interlude XI).
 - **Escape**: The session ends as the tower falls; Finnegan waits at the docks.
 
 ## Character Status
 
 ### Party Members (Current)
 
-**Silas Fairbanks** (Taylor Ramsey): Halfling rogue/sorcerer, band manager. He and Bru survived Helja Ungar's betrayal of the Sisyphus Circle (Interlude XIII). Carries Astro's orb (Sessions 41, 47). The party's infiltrator: the key cards (Session 61), the lab coat and passcode (Session 62), the tower bomb (Session 63). His girlfriend is Naomi. He is pledged to back Leliana against Steel (Sessions 62–63).
+**Silas Fairbanks** (Taylor Ramsey): Halfling rogue/sorcerer, band manager. He and Bru survived Helja Ungar's betrayal of the Sisyphus Circle (Interlude XIII). Carries Astro's orb, Raingoth (Sessions 41, 47), and brought it into the Eldoran capital. The party's infiltrator: the key cards (Session 61), the lab coat and passcode (Session 62), the tower bomb (Session 63). His girlfriend is Naomi. He is pledged to back Leliana against Steel (Sessions 62–63).
 
 **Bru (Felonias Bru)** (Justin Hale): Goblin artificer, explosives expert. From Tortuga, the island torn from the sea when the Turtle God woke (Interlude XVI). Built the strike's bombs (Sessions 59–62), wore the Colonel Sanders persona (Sessions 59–63) and stole the sun (Session 63). He distrusts Scarlet ("she's bad news", Session 63).
 
-**Elspeth Cooper** (Ali Leonard): Dwarf artificer/gunslinger with the steel defender BoxBox. A veteran racer whose career ended in a frame-up (Interludes XIV–XV); her brother Zachary swapped her crystal (Session 50). She won the Session 50 race in Denlin's car and is the getaway driver ("getaway girl", Session 58). She befriended the factory workers slated for layoff, including Cassandra (Sessions 60–62). She has feelings for Lady Viper (Sessions 47, 54) and would follow her wherever she goes next (told to Scarlet, Session 62).
+**Elspeth Cooper** (Ali Leonard): Dwarf artificer/gunslinger with the steel defender BoxBox; Olivia's granddaughter and George's cousin. Her race car is the Vroomfall; the party's van is the Zoomfall. A veteran racer whose career ended in a frame-up (Interludes XIV–XV); her brother Zachary swapped her crystal (Session 50). She won the Session 50 race in Denlin's car and is the getaway driver ("getaway girl", Session 58). She befriended the factory workers slated for layoff, including Cassandra (Sessions 60–62). She has feelings for Lady Viper (Sessions 47, 54) and would follow her wherever she goes next (told to Scarlet, Session 62).
 
 **Leliana Goldspring / Helisanna Doomfall** (Luke Neverisky): One woman with two personas (KB: "Leliana and Helisanna"). Name whichever persona is acting.
 - *Leliana*: Bard (College of Glamour); tan, blonde, colourful; "Lily" undercover (Session 55).
-- *Helisanna*: Bard/warlock, frontwoman of Doomfall, patron Ach'uk; pale, white-haired, purple-veined. Helisanna mode carries the vendetta against Steel.
+- *Helisanna*: Human bard/warlock, frontwoman of Doomfall, patron Y'chek; pale, white-haired, purple-veined. Helisanna mode carries the vendetta against Steel.
 - *Origin (Sessions 56–57)*: Her brother, Lieutenant Steven Goldspring, was murdered by Captain Steel, and his funeral fell on her birthday. She was a struggling musician taking inn performance jobs. Following a tip, she went through a gateway in a library and made a deal with "a really scary being", and Helisanna was the result. Neither persona is the original.
-- *Now*: Switches at will with Steven's Blue Moon guitar (Session 57). "Anna" was proposed in Session 58 but is unused.
+- *Now*: Switches at will with Steven's Blue Moon guitar (Session 57), which is her Mandolin of Rude Truths reflavored; she flies on it (Sessions 61–62). "Anna" was floated in Session 58 and dropped.
 
-**Olivia Cooper** (Ellis Taylor): Dwarf paladin, celebrated retired detective. George's grandmother. She is related to Elspeth, but the exact relation is unconfirmed, so do not state one. She rides Bob, her summoned woolly steed (Sessions 56–57). In Session 63 she bluffed her way into the factory with Bru, planted the casing bomb, talked a smuggler into leaving and pulled the tower's fire alarm.
+**Olivia Cooper** (Ellis Taylor): Dwarf paladin, celebrated retired detective. Grandmother of both Elspeth and George (cousins). She rides Bob, her summoned woolly steed (Sessions 56–57). In Session 63 she bluffed her way into the factory with Bru, planted the casing bomb, talked a smuggler into leaving and pulled the tower's fire alarm.
 
 **Ohma Kapua** (Zack): Tortle monk and ex-underground wrestler; joined in Session 26. His brother Bafael, a monk with the Order of St. George (Session 40), was missing as of Session 43. Zack has not played since Session 43, and Ohma has been off-page since.
 
@@ -370,10 +370,10 @@ The moon exploded in Session 16. At Luna's underwater crash site the party resea
 ### Villains & Antagonists
 - **The Eldoran (Golden) Empire**: Destroyed the moon (Session 16); magic-detecting helmets (Session 58); knights forged from belief (Session 61); a weapon in space.
 - **Captain Steel**: See Active Plot Threads. He can fly (Session 63).
-- **Ach'uk (Ruthalk)**: Primordial entity and Helisanna's warlock patron; status unknown (Session 58). The "Eichek" of Session 61 may be Ach'uk (unconfirmed).
+- **Y'chek (Ruthalk)**: Primordial entity and Helisanna's warlock patron, also studied by the Empire as a god of passion and music (Session 61); status unknown (Session 58).
 - **Denlin**: Orphanage owner and violescence dealer; arrested in Session 50. Fredo said he may be out on bail (Session 60).
 - **Zeke**: Eldoran spy who murdered Red's adoptive parents (Session 13).
-- **Crowley**: Fae dealmaker (Session 9); took the retired champion Gary (Session 51).
+- **Crowley**: Fae dealmaker (Session 9); holds Caspian, Iro's aunt, alive (taken Session 18), and took the retired champion Gary (Session 51).
 - **Lord Bradicus**: Host of the televised mercenary audition (Sessions 55–56); finale aired in Session 58.
 
 
@@ -382,7 +382,7 @@ The moon exploded in Session 16. At Luna's underwater crash site the party resea
 - **Bru**: Explosives expert; skeptical of Victor's notes.
 - **Elspeth Cooper**: "Getaway girl all day."
 - **Olivia Cooper**: Torn between fear for George and pride in him.
-- **Leliana/Helisanna**: "Anna" proposed and approved but unused since; Leliana vows to "rip his eyes out" over Steel.
+- **Leliana/Helisanna**: "Anna" floated and dropped; Leliana vows to "rip his eyes out" over Steel.
 
 
 #### Session 59 Updates
@@ -428,12 +428,12 @@ The moon exploded in Session 16. At Luna's underwater crash site the party resea
 4. **The stolen sun**: what to do with it (Session 63).
 5. **The falling starship** (Session 63).
 6. **Captain Steel and Helisanna's revenge** (Sessions 57, 62, 63).
-7. **Ach'uk's status**, and whether the separate Helisanna of Session 56 still exists (Session 58).
+7. **Y'chek's status**, and whether the separate Helisanna of Session 56 still exists (Session 58).
 8. **The space weapon and harmonic loop**, and whether dragon orbs can break it (Sessions 47, 57, 61).
 9. **Astro**: seal her, release her or negotiate (Session 46).
 10. **Cassandra and the factory shift** after the bombing (Sessions 60–63).
 11. **The World Tree** the party planted: 50–60 feet tall in the capital park and still linked to the dimension they came through (Sessions 57, 63).
-12. **Zeke** (Session 13), **Gary** taken by Crowley (Session 51), **Bafael** missing (Session 43), **Denlin** possibly out on bail (Session 60).
+12. **Zeke** (Session 13), **Gary** taken by Crowley (Session 51), who also holds Iro's aunt **Caspian**, alive, **Bafael** missing (Session 43), **Denlin** possibly out on bail (Session 60).
 
 ### Callback Opportunities
 - **Red's sacrifice** (Session 22).
@@ -444,7 +444,7 @@ The moon exploded in Session 16. At Luna's underwater crash site the party resea
 - **The first Elspeth simulacra**, freed singing Pink Floyd (Sessions 49–50), and **Elspeth winning in Denlin's car** (Session 50).
 - **Crowley's first bargain** (Session 9).
 - **Luna's rescue** from the Eldoran knights (Session 52).
-- **Marcus's time gun** (Interlude XI), behind the party's worry about Scarlet (Session 63).
+- **The time gun** that someone builds in every timeline (Interlude XI), behind the party's worry about Scarlet (Session 63).
 - **The Taco Cat legend**, told as hearsay (Session 62).
 
 
@@ -469,7 +469,7 @@ The moon exploded in Session 16. At Luna's underwater crash site the party resea
 #### Session 61 Updates
 - **Dragon Orbs**: A possible way to break the harmonic loop, so Astro's orb may matter.
 - **Violescence**: The substance from Sessions 48–53 is the linchpin of the resonance system.
-- **"Eichek"**: The god of passion and music cited as the template; possibly Ach'uk (unconfirmed).
+- **Y'chek**: Helisanna's patron is the god of passion and music cited as the template.
 
 
 #### Session 62 Updates

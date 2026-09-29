@@ -38,7 +38,7 @@ aliases: ["Pupusa Possum"]
 
 ## Bases and Vehicles
 
-- **Vehicles:** The Vroomfall (the van and mobile base), the Doomfall (Elspeth's race car), a Ford F-150 from the vault heist that became Chalk Rock's government truck (Session 37), and a Bugatti taken from the Blackstone family's hidden garage (Session 31).
+- **Vehicles:** The [Zoomfall](/items/zoomfall) (the van and mobile base), the [Vroomfall](/items/vroomfall) (Elspeth's race car), a Ford F-150 from the vault heist that became Chalk Rock's government truck (Session 37), and a Bugatti taken from the Blackstone family's hidden garage (Session 31).
 - **The pocket village:** A pocket dimension Scarlet, Bru and Elspeth built. It shapes itself to the imaginations of the people inside it and connects to the Lotus Casino. It opened in Session 45, Luna first manifested inside it in Session 46, and Scarlet folded it into a capsule in Session 47.
 - **Safe houses:** Olivia's apartment in High Forge (Interlude XII), the Twilight Company brownstone in Greyport (Sessions 43–47), and Toothy's apartment in the Eldoran capital (Session 58).
 

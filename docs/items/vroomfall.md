@@ -1,53 +1,52 @@
 ---
 title: Vroomfall
-description: The party's painted van and mobile base since the Doomfall tour days; last seen in Session 56 outside the Cornwall Community Library with Scarlet guarding it
-aliases: ["Broomfall"]
+description: Elspeth's Mad Max-painted race car, fitted with wheel spikes and a spoiler for the mountain race; last seen towed out of High Forge behind the Zoomfall in Session 38, whereabouts unknown since
 ---
 
 # Vroomfall
 
-*Van and mobile base • Taco Cat's*
+*Race car • Elspeth's*
 
 ## Overview
 
-The **Vroomfall** is [Taco Cat](/organizations/taco-cat)'s van. It has served as tour bus, getaway vehicle, race support car, workshop and home. It was last seen in Session 56. Elspeth drove it in the chase away from [Lord Bradicus](/npcs/lord-bradicus)'s estate, and when the party went into the Cornwall Community Library, [Scarlet](/npcs/scarlet) stayed outside to guard it rather than put it away in the [pocket village](/locations/pocket-village). No later session says where it is. The DM confirmed in Session 56 that "the van" is the Vroomfall, and in Session 44 Silas's player said "Broomfall is the van". Transcripts and one recap spell the name "Broomfall".
+The **Vroomfall** is [Elspeth](/player-characters/elspeth)'s race car. She drove it in the underground street race in [High Forge](/locations/high-forge) and in the mountain race, which she won. It was last mentioned in Session 38, when the party towed it out of High Forge behind the van, the [Zoomfall](/items/zoomfall). Its whereabouts have been unknown since then.
+
+## The Name
+
+The name riffs on Doomfall, the band. At the table and in many recaps the names of the party's two vehicles were swapped: the van was often called the "Vroomfall" (or "Broomfall" in transcripts), and the unaudited recaps of Sessions 6, 18, 22, 24 and 26 call the race car "the Doomfall". The DM has since settled it: the Vroomfall is Elspeth's race car, the Zoomfall is the van, and Doomfall is only the band. Elspeth raced under the team name Team Cooper (Session 2).
 
 ## Properties
 
-- **Paint job.** The party painted it as a disguise for its escape from [High Forge](/locations/high-forge) (Sessions 7–8). The Session 8 recap describes the design as the "Three Steve Moon": wolves in sunglasses howling at a stylized moon. By Session 26, bounty hunters recognized the painted van on sight.
-- **Armament.** In Session 6, the party's plan for the underground street race used flamethrower turrets mounted on the van.
-- **Roof hatch.** In Session 56 Olivia leans down through it to talk to Leliana.
-- **Name.** The name riffs on Doomfall, the band. In Session 38, with Helisanna then living apart from the party, the table debated renaming it. Recapping at the start of Session 39, Bru suggested naming every vehicle after himself, and Silas said the table had decided to keep the name.
+- **Paint.** Mad Max-inspired (Session 8).
+- **Upgrades.** Wheel spikes for offense and a spoiler for aerodynamics, fitted before the mountain race. For that race Elspeth planned to power it with the party's crystal collection (Sessions 23–24).
+- **Crew space.** BoxBox, Elspeth's steel defender, rides in a special compartment, and Olivia rode with her as co-pilot (Session 24).
 
 ## History
 
-A van appears in the very first session, when the band debated whether to sleep in it on tour. In Session 4 the party caught three gnomes inside it building a bomb. They had been hired to sabotage the party's car. Recaps call it the Vroomfall from Session 7. That session, fleeing High Forge, the party planned to paint it as a disguise. By Session 8 it was painted and had come out of the tunnels under the city into the foothills, travelling with a caravan of fleeing citizens and merchants.
+Elspeth's race car was in the story from the start. The Session 2 recap has her find it tampered with in a rented garage, and a warforged called Racecar warned her she was being targeted. In Session 6 she drove it in the underground street race while the rest of the party ran support from the van, and after the race she loaded it into the van for the escape from High Forge (Session 7). It was given a Mad Max paint job in Session 8.
 
-It carried the support crew for Elspeth's races. In the mountain race (Session 24), Silas and Helisanna rode in it scouting ahead. The Vroomfall team's dynamite set off an avalanche that cleared a path for Elspeth. Before the High Forge operation, Elspeth and Silas priced armor for it at Mr. X's garage: 1,000 gold for plating and 5,000 for crystal force fields. They could not afford either (Session 25).
+In the mountain race (Session 24), Elspeth led from early on, dodged boulders thrown by two stone golems, and brought the car to the summit ahead of the field, though the golems had knocked it to about half health. Afterwards she celebrated with a burnout.
 
-During Arc 2 it became the party's mobile base. Scarlet set up an experimentation space and a small living area in it (Session 35). After Helja's fall it stood at the High Forge gates as a "bubble" of safety, and Elspeth spent her downtime working on it (Session 37). The Session 37 recap credits this to Olivia; the transcript shows it was Elspeth. In Session 38 the party held its family brunch there, then left High Forge in the Vroomfall, towing the [Zoomfall](/items/zoomfall), with the [Bugatti](/items/bugatti) alongside.
+In Session 26 the party drew a hidden garage entrance for its vehicles on its way back into High Forge. In Session 38 the party towed the race car out of High Forge behind the van. No later session mentions it.
 
-By the time the party reached [Greyport](/locations/greyport) (Session 44), Scarlet had taken over every workspace in the van and left scorch marks across its interior. She also told Bru she had "mostly poured it out", meaning his stored brown, which made him furious. The party piled back in to take her to [Iro](/npcs/iro)'s workshop. In Session 45 Silas told her, "I liked you better when you were just in the van all the time".
+A miniature of the car went into the train set Elspeth gave [Red](/player-characters/red) at the Session 18 gift exchange.
 
-The party did not take its own vehicles into the Eldoran Empire. In Sessions 54–55 they travelled in a borrowed wagon and kept their cars in the pocket village. In Session 56 the Vroomfall was back on the road. Elspeth Tokyo-drifted it out of the cookout at Bradicus's estate and chased down the cowboy gang's truck while Bru threw fireworks through the cowboys' window. When Leliana's memories of the library returned, she lunged for the wheel, and Silas suplexed her back into her seat.
+## Open Questions
+
+- **Where is it now?** Did it go into the pocket village with the other cars, or was it left somewhere between the Goliath village and Greyport?
 
 ## Related
 
 - [Zoomfall](/items/zoomfall), [Bugatti](/items/bugatti) and [Ford F-150](/items/ford-f-150): the rest of the fleet
+- [Cooper racing crystal](/items/cooper-racing-crystal): the crystals Elspeth's racing depended on
 - [Doomfall](/organizations/doomfall): the band behind the name
 
 ## Session History
 
-- **[Session 4](/sessions/session-4)** — The party finds three gnomes in the van assembling a bomb, kills two and captures the third, Philbin.
-- **[Session 6](/sessions/session-6)** — The plan for Elspeth's underground street race has the van carry flamethrower turrets, with Olivia on its roof as cannon support.
-- **[Session 7](/sessions/session-7)** — The party escapes the race in the Vroomfall, interrogates Victor inside it, and plans to paint it as a disguise for leaving High Forge.
-- **[Session 8](/sessions/session-8)** — The newly painted Vroomfall, showing wolves in sunglasses howling at a moon, leaves High Forge with a caravan of refugees.
-- **[Session 10](/sessions/session-10)** — The party debates tactics in the crowded van on the road to Milstrom.
-- **[Session 24](/sessions/session-24)** — Silas and Helisanna ride in the Vroomfall as the support team for the mountain race.
-- **[Session 25](/sessions/session-25)** — Elspeth and Silas price armor for the van at Mr. X's garage but cannot afford it.
-- **[Session 26](/sessions/session-26)** — The party paints a hidden garage entrance for its vehicles, and bounty hunters recognise the painted van on the road.
-- **[Session 35](/sessions/session-35)** — Scarlet has turned the Vroomfall into her lab and living space. Silas helps her make interdimensional spheres there.
-- **[Session 37](/sessions/session-37)** — The Vroomfall serves as the party's base at the High Forge gates, and Elspeth spends her downtime working on it.
-- **[Session 38](/sessions/session-38)** — After brunch at the van, the party leaves High Forge in it, towing the Zoomfall. The table debates renaming it.
-- **[Session 44](/sessions/session-44)** — Scarlet drives the van to the Greyport safe house after scorching its interior and pouring out Bru's brown. The party rides in it to Fluke's Workshop.
-- **[Session 56](/sessions/session-56)** — Elspeth drifts the Vroomfall through the escape from Bradicus's estate. Leliana nearly crashes it, and Scarlet guards it outside the library.
+- **[Session 2](/sessions/session-2)** — Elspeth signs up as Team Cooper and finds her race car tampered with in a rented garage.
+- **[Session 6](/sessions/session-6)** — Elspeth drives the car in the underground street race, with BoxBox riding in the back.
+- **[Session 7](/sessions/session-7)** — After the race Elspeth loads the car into the van for the escape from High Forge.
+- **[Session 8](/sessions/session-8)** — After the escape from High Forge, the race car is painted in a Mad Max style.
+- **[Session 23](/sessions/session-23)** — Elspeth acquires wheel spikes and a spoiler for the car.
+- **[Session 24](/sessions/session-24)** — Elspeth, with Olivia as co-pilot, drives the upgraded car through golem attacks to win the mountain race.
+- **[Session 38](/sessions/session-38)** — The party leaves High Forge with the Vroomfall towed behind the Zoomfall.

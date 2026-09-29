@@ -31,7 +31,7 @@ After Helja's fall, Bru and Silas went up the mountain pass to the dragons' nest
 
 ### On the road (Sessions 38–48)
 
-In Session 38 the party drove out of High Forge in the [Vroomfall](/items/vroomfall) and the Bugatti, with Pepsi now riding on it. The F-150 stayed behind with [Chalk Rock](/npcs/chalk-rock). The DM noted that it was "logistically challenging" to bring the Bugatti everywhere. Silas's answer was to finish the pocket village and give it a garage. Once the village was finished, the car was kept inside it.
+In Session 38 the party drove out of High Forge in the van, the [Zoomfall](/items/zoomfall), towing Elspeth's race car, the [Vroomfall](/items/vroomfall), with the Bugatti alongside and Pepsi now riding on it. The F-150 stayed behind with [Chalk Rock](/npcs/chalk-rock). The DM noted that it was "logistically challenging" to bring the Bugatti everywhere. Silas's answer was to finish the pocket village and give it a garage. Once the village was finished, the car was kept inside it.
 
 In [Greyport](/locations/greyport) (Session 48), Bru deployed the pocket village and pulled the Bugatti out to pose as the car service for [Belspeth Booper](/npcs/belspeth-booper) and her manager Cringe. Silas wrecked the real car, which carried her racing team's decals, with a thrown dagger. Bru then used an illusion to give the Bugatti near-copies of those decals, with the party's own names worked in. Belspeth and Cringe got in. Once the doors closed, they realised they were being kidnapped.
 
@@ -43,7 +43,7 @@ In Session 62 Silas pitched the ideal escape from the capital: "peel out in the 
 
 ## Related
 
-- [Vroomfall](/items/vroomfall), [Zoomfall](/items/zoomfall) and [Ford F-150](/items/ford-f-150): the rest of the party's fleet
+- [Zoomfall](/items/zoomfall) (the van), [Vroomfall](/items/vroomfall) (Elspeth's race car) and [Ford F-150](/items/ford-f-150): the rest of the party's fleet
 - [Pocket village](/locations/pocket-village): where the car is kept
 
 ## Session History
@@ -51,7 +51,7 @@ In Session 62 Silas pitched the ideal escape from the capital: "peel out in the 
 - **[Session 31](/sessions/session-31)** — The party finds the Blackstone family's hidden garage under a mountain cabin. Over Elspeth's and Olivia's objections, Bru starts the Bugatti and drives it out.
 - **[Session 32](/sessions/session-32)** — The party offers the Bugatti and the vault gold as tribute to the dragons Duncan and Betty, who agree to attack Helja's fortress instead of razing High Forge.
 - **[Session 37](/sessions/session-37)** — Bru and Silas recover the mud-caked Bugatti from the dragons' nest, along with 26,000 gold that Bru keeps in it as "the First Bank of Bugatti". Bru promises Pepsi a mount on its roof.
-- **[Session 38](/sessions/session-38)** — The party leaves High Forge in the Vroomfall and the Bugatti, with Pepsi riding on the car.
+- **[Session 38](/sessions/session-38)** — The party leaves High Forge in the Zoomfall and the Bugatti, with Pepsi riding on the car.
 - **[Session 48](/sessions/session-48)** — Bru pulls the Bugatti out of the pocket village and uses an illusion to disguise it as Belspeth Booper's car service. Belspeth and Cringe get in and find they have been kidnapped.
 - **[Session 54](/sessions/session-54)** — The party decides the Bugatti is too recognisable for the Little Cradle job, leaves it in the pocket village and takes Lady Viper's wagon.
 - **[Session 62](/sessions/session-62)** — Silas proposes escaping Eldoran by jumping the Bugatti. Finnegan is sent to scout a ramp, a boat or the sewers.
