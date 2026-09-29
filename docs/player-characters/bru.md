@@ -60,12 +60,12 @@ Together with Kevin, Bru represents the perfect fusion of **artificial intellige
 - **Mutual Understanding**: Silas understands Bru's chaotic nature
 - **Fear of Loss**: Worried about losing Silas like he's lost others
 
-### Helisanna - The Betrayal
-- **Former Close Friend**: One of his deepest bonds in the party
-- **The Abandonment**: Felt betrayed when she left without remorse
-- **Unresolved Pain**: Her choice to stay with Ach'uk felt like rejection
-- **Trust Shattered**: Struggles to understand how she could leave them
-- **Anger and Hurt**: Covers his emotional pain with explosions and chaos
+### Helisanna and Leliana - One Friend, Two Personas
+- **Bandmate**: Ran the pyrotechnics for [Helisanna](/player-characters/helisanna)'s Doomfall shows from the first concert
+- **The Split (Session 34)**: When Helisanna split in two, Bru's take was blunt — protect the one who was trapped and "kill the bad one"
+- **Hard Truths (Session 56)**: Recalled that Helisanna once made him and Leliana both believe they were part of her family, though she never believed it herself
+- **Emotional Support Dynamite (Session 56)**: Handed Leliana a stick of dynamite in a service-animal vest before she faced the library where Helisanna was born
+- **Since Session 57**: Helisanna and [Leliana](/player-characters/leliana) are one woman who switches between personas; in Session 58 Bru helped propose "Anna" as a name for both halves
 
 ### Red (Thurnok Skyhammer) - The Loss That Broke Him
 - **Deep Connection**: Developed strong bond with the gentle giant
@@ -95,12 +95,9 @@ Bru's expertise in pyrotechnics has proven both spectacular and dangerous, but b
 - Created family with [Taco Cat](/organizations/taco-cat)
 
 ### The Losses Begin
-**Helisanna's Separation** (Session 34):
-- Watched her choose Ach'uk over the party
-- Felt betrayed by her lack of remorse for leaving
-- Couldn't understand abandoning chosen family
-- First major emotional wound
-- Trust in relationships shaken
+**Helisanna's Split** (Session 34):
+- Watched Helisanna split in two and leave with her ravers, while Leliana stayed with the party
+- Helisanna stayed apart from the party until Session 57, when Leliana learned the two are one person
 
 **Red's Sacrifice**:
 - Devastated by Red's choice to become the starship
@@ -203,17 +200,14 @@ Bru's expertise in pyrotechnics has proven both spectacular and dangerous, but b
 - Spectacular performances showing their coordination
 - Foundation of their brotherhood
 
-### Session 34 - Helisanna's Choice
-- Watched her leave with Ach'uk without remorse
-- First major emotional wound
-- Felt betrayed and abandoned
-- Struggled to understand her choice
+### Session 34 - Helisanna's Split
+- Watched Helisanna submit to Ach'uk and split into two women
+- Argued for protecting Leliana and dealing with the Helisanna who left
 
 ### Red's Sacrifice - The Breaking Point
 - Witnessed Red's transformation into starship consciousness
 - Took the loss incredibly hard
 - Felt abandoned even knowing it was necessary
-- Emotional wound that compounded Helisanna's departure
 - Grieving process affecting his behavior and relationships
 
 ### The Butler Incident
@@ -245,9 +239,9 @@ Bru's expertise in pyrotechnics has proven both spectacular and dangerous, but b
 - Workshop companionship
 
 ### Leliana Goldspring
-- Complicated feelings—she came from Helisanna
-- Wants to trust her but fears another abandonment
-- Her kindness both comforting and painful reminder
+- The same woman as Helisanna, able since Session 57 to switch between the two personas
+- Gave her his emotional support dynamite before the library (Session 56)
+- Co-proposed the name "Anna" for both halves (Session 58)
 
 ### Ohma Kapua
 - Respects his strength and teaching style
@@ -267,15 +261,13 @@ Bru's expertise in pyrotechnics has proven both spectacular and dangerous, but b
 *"Explosions are easier than feelings"* - Rare moment of self-awareness
 
 ### On Loss
-*"Red chose his people. Helisanna chose her demon. Who chooses us?"* - After the losses
-
 *"I keep building things because I can't keep people"* - To Kevin, after Red's sacrifice
 
 ## Related Characters
 - [Silas Fairbanks](/player-characters/silas) - Tag team partner, brother
 - [Red](/player-characters/red) - Lost friend, emotional wound
-- [Helisanna Doomfall](/player-characters/helisanna) - Felt betrayed by her leaving
-- [Leliana Goldspring](/player-characters/leliana) - Complicated connection
+- [Helisanna Doomfall](/player-characters/helisanna) - Bandmate; one of Leliana's two personas since Session 57
+- [Leliana Goldspring](/player-characters/leliana) - The same woman as Helisanna
 - **Kevin** - The constant, his built family
 
 ## Related Organizations

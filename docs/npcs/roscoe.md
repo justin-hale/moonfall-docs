@@ -1,285 +1,38 @@
 ---
 title: Roscoe
-description: Enigmatic drunk and Twilight Company operative
-sidebar_position: 6
+description: Eccentric, hard-drinking old warforged of Milstrom who gave Red his mother's journal and guided the party up the Pilgrim's Path
 ---
 
 # Roscoe
 
-*Species Unknown • Twilight Company Agent • Cryptic Prophet*
+*Warforged • Milstrom Local • Keeper of the Pilgrim Tunnels*
 
 ## Overview
 
-**Roscoe** is an enigmatic figure who serves as an operative for the mysterious Twilight Company. Known for his cryptic wisdom delivered through drunken philosophical musings, he was instrumental in revealing Red's true heritage as Thurnok Skyhammer and appears to be deeply invested in the young Goliath's destiny.
+**Roscoe** is a bizarre old warforged in [Milstrom](/locations/milstrom). He is an eccentric alcoholic who runs on a makeshift digestive system he got through wish magic. He knew the hidden tunnels pilgrims of Tyr once used to get around the town. He gave [Red](/player-characters/red) the journal that revealed Red's true identity, and he guided the party onto the Pilgrim's Path toward [Grimvar's Spine](/locations/grimvars-spine). His last confirmed appearance was over drinks at the Milstrom Inn in [Session 23](/sessions/session-23), and his whereabouts as of Session 63 are unknown.
 
-## Physical Description
+## In Milstrom
 
-- Species unclear (possibly human, possibly not)
-- Often appears intoxicated
-- Maintains mysterious demeanor
-- Physical details deliberately vague
+The party met Roscoe in [Session 10](/sessions/session-10), while the town was in the grip of [Red](/player-characters/red) Lennon's Milstrom Party. He wanted beer for his knowledge, a lot of it, so the party stole a keg from the tavern during a public show trial. In return he showed them a hidden trapdoor into the tunnels beneath Milstrom, drew a drunken but readable map to the corrupted shrine, and told them about the dissenter Willemay. He also pointed them to the tunnels that [George](/npcs/george) had passed through on his pilgrimage, and urged them to act fast.
 
-## Personality and Behavior
+In [Session 11](/sessions/session-11), he led the party through the tunnels to a meadery and dining hall and offered to share "all of his secrets" if everyone drank his homemade Everclear ("Roscoe's Everclear: You Only Live Once"). He also sent Red a telepathic message, "Do you trust your compatriots?", and enjoyed misleading the party about who had sent it. Once Red drank, Roscoe gave him a journal that had belonged to his mother, **Marion Cross**. It revealed that Red was adopted, that his real name is **Thurnok Skyhammer**, a Goliath prince of the [Skyhammer Clan](/organizations/skyhammer-clan), and that the [Twilight Company](/organizations/twilight-company) had placed the Crosses in hiding to protect him from the [Eldoran Empire](/organizations/eldoran-empire). When wolves attacked the town, he warned the party.
 
-### The Drunk Philosopher
-**Characteristic Style**:
-- Speaks in cryptic riddles and metaphors
-- Appears perpetually drunk
-- Offers wisdom wrapped in nonsense
-- Uses philosophical waxing to convey information
-- Questions whether drunk state is genuine or performance
+Roscoe's tip about the Crosses' deaths started the investigation that led to [Zeke](/npcs/zeke) in [Session 13](/sessions/session-13). At the end of that session, he set out with the party as their guide on the Pilgrim's Path.
 
-### Enigmatic Nature
-- Deliberately obscure in communication
-- Reveals information indirectly
-- Maintains air of mystery
-- Never quite answers questions directly
-- Leaves more questions than answers
+## Personality
 
-### Unsettling Honesty
-- Occasional moments of stark clarity
-- Uncomfortable truths delivered bluntly
-- Sincerity breaks through drunk act
-- Makes profound observations between nonsense
+Roscoe mixes cryptic wisdom and drunken philosophizing with unsettling honesty ("I am a liar. And I can also be a hypocrite."). He is fiercely protective of the purity of his liquor and objected loudly when Bru tried to make his Everclear "brown" with dirt. The Session 11 recap notes the party's suspicion that he may be a Peaceforged soldier, once part of a psychic hive mind led by a being called SHIELD. This has not been confirmed.
 
-## Role in Twilight Company
+## Later Appearances
 
-### Operative Status
-- Confirmed agent of Twilight Company
-- Handles sensitive assignments
-- Monitors important assets
-- Conducts long-term surveillance operations
+- In [Session 18](/sessions/session-18), [Jasper](/player-characters/jasper) Gaines was introduced as a friend of Roscoe's, delivering beer to the tavern. During the corrupted solstice, Roscoe's alcohol was replaced with bangers and mash.
+- In [Session 23](/sessions/session-23), after the memorial, Roscoe joined the party for drinks at the Milstrom Inn and sang "Piano Man".
+- The [Session 36](/sessions/session-36) recap lists a "Rosco" among the hostages the Iron Claws held in High Forge's Great Hall, and the [Session 37](/sessions/session-37) recap spells the name "Roscoe". Both say he survived. Neither recap says whether this is the Milstrom warforged, and no Session 36 transcript exists to check.
 
-### Assignment: Red/Thurnok Skyhammer
-**Primary Mission**: Watch over and guide Red
+## Session History
 
-**Long-term Surveillance**:
-- Possibly monitored Red since childhood
-- Certainly involved during awakening period
-- Deep investment in Red's development
-- Personal stake in Red's success
-
-### Methods
-- Indirect guidance through cryptic advice
-- Information revealed at crucial moments
-- Never direct commands or obvious instruction
-- Allows Red to discover truth himself
-
-## The Great Revelation (Session 11)
-
-### Red's True Identity
-**Information Disclosed**:
-- Real name: **Thurnok Skyhammer**
-- Heritage: **Goliath prince** from **Skyhammer clan**
-- Parents: Not random pilgrims, but royalty in hiding
-- Protection: **Twilight Company** placed them to protect Red from Eldoran Empire
-
-### Delivery Method
-- Cryptic hints building to revelation
-- Drunken wisdom concealing profound truth
-- Timed for moment Red needed to know
-- Prepared Red for journey to Skyhammer clan
-
-### Emotional Impact
-- Red transformed from "naive foundling to potentially displaced prince"
-- Party understanding of Red's importance shifted
-- Set up trials and heritage quest
-- Revealed larger cosmic stakes
-
-## Interactions with Party
-
-### With Red
-**Relationship Dynamic**:
-- Guardian figure (at distance)
-- Mentor through riddles
-- Deeply invested in Red's awakening
-- Protective but not overbearing
-- Seems to genuinely care
-
-**Guidance Provided**:
-- Identity revelation
-- Heritage information
-- Direction toward Skyhammer clan
-- Preparation for trials
-
-### With Party Generally
-**Perception by Others**:
-- **Silas**: Becomes Red's unspoken guardian against Roscoe's manipulations
-- **Others**: Unsure whether to trust him
-- **General**: Simultaneously helpful and frustrating
-- **Suspicion**: Unclear if helping or using party
-
-### Communication Style
-**With Party**:
-- Cryptic wisdom
-- Drunken philosophy
-- Uncomfortable truths
-- Metaphorical speech
-- Occasional stark clarity
-
-## Connection to Red's Parents
-
-### Marion and Robert Cross
-**Cover Identities**: Red's foster/adoptive parents
-
-**True Role**:
-- Royal Goliath couple in hiding
-- Protected by Twilight Company
-- Killed by Zeke (under investigation Session 11)
-- Loss part of Red's traumatic past
-
-**Roscoe's Knowledge**:
-- Knew their true identities
-- Possibly arranged their placement
-- Monitored family unit
-- Aware of threats to them
-
-## Philosophical Approach
-
-### Cryptic Wisdom Examples
-- Speaks in riddles about destiny
-- Uses metaphors for profound truths
-- Questions that answer themselves
-- Drunken statements with deeper meaning
-
-### Teaching Method
-- Never tells directly what Red needs to know
-- Forces discovery through questions
-- Guides without commanding
-- Allows choice and agency
-
-### The Drunk Act
-**Purpose (Speculated)**:
-- Disarms suspicion
-- Provides cover for activities
-- Makes wisdom seem accidental
-- Allows honest statements to be dismissed
-- Creates plausible deniability
-
-## Skills and Capabilities
-
-### Intelligence Gathering
-- Long-term surveillance operations
-- Deep knowledge of Red's history
-- Understanding of larger political situation
-- Awareness of cosmic threats
-
-### Manipulation
-- Guides without being obvious
-- Plants ideas indirectly
-- Times revelations perfectly
-- Influences through seeming randomness
-
-### Combat (Unknown)
-- Capabilities unclear
-- Likely highly skilled given Twilight Company membership
-- Never seen in combat by party
-- Probably more dangerous than appears
-
-## Mysteries
-
-### Unresolved Questions
-- **True Nature**: Species? Age? Origin?
-- **Is He Really Drunk?**: Act or genuine?
-- **Full Mission**: What else is he doing?
-- **Authority**: Where does he rank in Twilight Company?
-- **Personal Investment**: Why so invested in Red specifically?
-- **Knowledge**: What else does he know about party's future?
-
-### Suspicious Elements
-- Appears at convenient moments
-- Always knows more than he reveals
-- Connection to cosmic events unclear
-- Relationship with other powers unknown
-
-## Impact on Story
-
-### Narrative Function
-- **Revelation**: Delivers Red's identity
-- **Mystery**: Represents Twilight Company enigma
-- **Guidance**: Subtle mentor figure
-- **Tension**: Unclear if ultimately helpful or manipulative
-
-### Character Development Catalyst
-- **Red**: From naive to understanding heritage
-- **Silas**: Becomes protective of Red against manipulation
-- **Party**: Understanding of larger forces at play
-- **Campaign**: Opens cosmic/political dimensions
-
-### Comic Relief vs. Serious
-- Drunken antics provide humor
-- Profound moments shift tone
-- Combination keeps interactions unpredictable
-- Never fully comic or fully serious
-
-## Current Status
-
-### Post-Revelation
-- Mission regarding Red's identity complete
-- Ongoing surveillance likely continues
-- May appear at future crucial moments
-- Probably watching from distance
-
-### Future Involvement
-- Could reappear when needed
-- May have information about other party members
-- Possibly guides other Twilight Company operations
-- Might know about current threats (dragons, Ach'uk, etc.)
-
-## Relationships
-
-### Red/Thurnok Skyhammer
-- **Primary Assignment**: Watch and guide
-- **Deep Investment**: Personally involved in outcome
-- **Mentor**: Cryptic teacher figure
-- **Guardian**: Protector from distance
-
-### Twilight Company
-- **Operative**: Active agent
-- **Trusted**: Given sensitive assignments
-- **Effective**: Successfully guided Red to revelation
-- **Methods**: Uses unique approach
-
-### Party
-- **Silas**: Guardedness, protective of Red
-- **Others**: Uncertainty, helpful but frustrating
-- **Trust**: Complicated, earned and questioned
-
-## Significance
-
-### To Red's Story
-- Revealed true identity and heritage
-- Connected Red to Skyhammer clan
-- Set up trials and destiny arc
-- Transformed understanding of character
-
-### To Twilight Company Mystery
-- Human face (sort of) on shadowy organization
-- Shows their methods and long-term planning
-- Demonstrates scope of their operations
-- Raises questions about their ultimate goals
-
-### To Campaign Themes
-- **Destiny vs. Choice**: Guides but doesn't control
-- **Information as Power**: Knowledge delivered at right moment
-- **Trust**: Should party trust mysterious helpers?
-- **Truth**: Hidden in plain sight, wrapped in nonsense
-
-## Related Characters
-- [Red](/player-characters/red) - Primary assignment
-- Marion and Robert Cross - Protected subjects (deceased)
-- Other Twilight Company operatives
-
-## Related Organizations
-- [Twilight Company](/organizations/twilight-company) - Employer
-- [Skyhammer Clan](/organizations/skyhammer-clan) - Connected to Red
-- [Eldoran Empire](/organizations/eldoran-empire) - Threat to Red
-
-## Key Sessions
-- **Session 11**: The great revelation of Red's true identity and heritage
-- Various earlier sessions: Cryptic appearances and guidance
-- Future sessions: Likely to reappear at crucial moments
-
----
-
-*"You're not who you think you are, but you're exactly who you need to be. Or is it the other way around? *hiccup* Both, probably."* - Roscoe (drunk or not), Session 11
+- **[Session 10](/sessions/session-10)** — Meets the party in Milstrom and trades a stolen keg for the pilgrim tunnels, a map to the corrupted shrine, and news of the town's dissenters.
+- **[Session 11](/sessions/session-11)** — Makes the party drink his Everclear, then gives Red his mother Marion Cross's journal, revealing that Red is Thurnok Skyhammer.
+- **[Session 13](/sessions/session-13)** — His tip about the Crosses' deaths leads the party to Magnolia and Zeke, and he guides them onto the Pilgrim's Path.
+- **[Session 18](/sessions/session-18)** — Jasper arrives as his friend; the corrupted solstice replaces his alcohol with bangers and mash.
+- **[Session 23](/sessions/session-23)** — Drinks with the party at the Milstrom Inn after the memorial, singing "Piano Man".

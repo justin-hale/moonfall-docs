@@ -40,7 +40,7 @@ sessions 58 and 59, fabricated podcast URLs, "Brew" for Bru). Details in
 - Astro is ALWAYS "Astro", NEVER "Astra"
 
 ## Leliana and Helisanna (one player, two personas)
-Luke Neverisky plays one woman with two personas. Helisanna Doomfall was his original character. She split apart in Session 34, and the DM ran her as a separate character through Session 56. Since Session 57 Leliana and Helisanna have been "two sides of the same coin": one person who switches between the personas at will. Never describe Helisanna as departed, as an NPC, or as Leliana's patron, and never call either persona "the original". The full account, and how to write about her, is in the "Leliana and Helisanna" section of `data/campaign-kb.md`.
+Luke Neverisky plays one woman with two personas. Helisanna Doomfall was his original character. She split apart in Session 34, and the DM ran her as a separate character through Session 56. Since Session 57 Leliana and Helisanna have been "two sides of the same coin": one person who switches between the personas at will. Never describe Helisanna as departed, as an NPC, or as Leliana's patron, and don't call either persona "the original" (since Session 57 she is "both of them"). The full account, and how to write about her, is in the "Leliana and Helisanna" section of `data/campaign-kb.md`.
 
 ## Session File Format
 ```yaml

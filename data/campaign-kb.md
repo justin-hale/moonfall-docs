@@ -13,7 +13,7 @@ Christopher "Topher" Hooper (Google Meet: Christopher Hooper). Sometimes players
 | Silas Fairbanks | Taylor Ramsey | Tyram | "Silus", "Cyrus" | silas.md | Halfling rogue/sorcerer, band manager |
 | Bru (Felonias Bru) | Justin Hale | Justin Hale | "Brew", "Bruce" | bru.md | Goblin artificer. ALWAYS "Bru", NEVER "Brew" |
 | Elspeth Cooper | Ali Leonard | Ali Leonard | "Ellsworth", "Elizabeth" | elspeth.md | Dwarf artificer/gunslinger. ALWAYS "Elspeth", NEVER "Ellsworth" or "Elizabeth" |
-| Helisanna Doomfall | Luke Neverisky | Luke Neverisky | "Helisana", "Alisana", "Halisana", "Helisada" | helisanna.md | Bard/warlock, frontwoman of Doomfall, patron Ach'uk. Luke's original character (Session 1) and now Leliana's other persona — see below |
+| Helisanna Doomfall | Luke Neverisky | Luke Neverisky | "Helisana", "Alisana", "Halisana", "Helisada", "Helana", "Helison", "Helisano", "Helosana", "Pelisana" | helisanna.md | Bard/warlock, frontwoman of Doomfall, patron Ach'uk. Luke's original character (Session 1) and now Leliana's other persona — see below |
 | Leliana Goldspring | Luke Neverisky | Luke Neverisky | "Liliana", "Lily Anna", "Leanna" | leliana.md | Bard (College of Glamour). ALWAYS "Leliana", NEVER "Liliana". One of Luke's two personas — see "Leliana and Helisanna" below. Goes by "Lily" undercover (Session 55) |
 | Olivia Cooper | Ellis Taylor | Ellis Taylor | "Olivia" | olivia.md | Dwarf paladin, retired detective |
 | Ohma Kapua | Zack | Walden Briarhelm | "Oma", "Ohm" | ohma.md | Tortle monk. Joined Session 26 |
@@ -29,7 +29,7 @@ Luke Neverisky plays **one woman with two personas**. Write about them this way:
 - **"Anna":** proposed by Bru and Elspeth in Session 58 as a name covering both, and approved at the table, but not used since. The table calls her Leliana/"Lily" or Helisanna depending on who is out.
 - **Open:** whether the separate Helisanna seen in Session 56 merged into her or still exists, and Ach'uk's current hold ("you'll have to wait and see", Session 58).
 - **Roster order matters:** keep the Helisanna row above Leliana's in the table above. The transcript cleaner and the stats extractor map Luke's Meet name to the *last* row that names him, and his transcript lines belong to Leliana from Session 34 on (lines before that are credited to Helisanna by `DATED_SPEAKER_OVERRIDES` in `scripts/extract_session_stats.py`).
-- **In recaps:** name whichever persona is acting ("Leliana, switching to Helisanna, …"). Never treat Helisanna as departed, as an NPC, or as Leliana's patron, and never call her "the original" — the DM said neither is.
+- **In recaps:** name whichever persona is acting ("Leliana, switching to Helisanna, …"). Never treat Helisanna as departed, as an NPC, or as Leliana's patron, and don't call either persona "the original": since Session 57 the DM's framing is that she is "both of them".
 
 ### Player Characters (Departed/Inactive)
 | Character | Status | File | Notes |
@@ -125,6 +125,15 @@ These are systematic speech-to-text mistakes that appear in generated notes:
 ## Session Correction Log
 
 Corrections applied via `/fix-notes` are logged here for pattern detection.
+
+### Session 63 (2026-09-25) and the Leliana/Helisanna reconciliation (2026-09-29)
+- Fixed: an out-of-character answer from Luke ("aware of each other… very controlled… just flipping a switch") was presented as something Leliana reported in the story and embellished with "cohabiting peacefully rather than warring" [confirmed against transcript]
+- Fixed: "demonstrated her dual identity in the field" — no persona switch happens in Session 63; replaced with her World Tree scouting [confirmed against transcript]
+- Fixed: Captain Steel never questioned Bru. He sent the foreman away through his office door, berated Olivia, tore the furnace door open and flew off, then spotted Bru just before Bru escaped with Misty Step [confirmed against transcript]
+- Fixed: the drink and the persuasion 18 were with the foreman, not Tuni; "collapsed" was the foreman's word, not Bru's; the quote is Olivia's "Yes. I just pour the forges." in answer to Steel; "lying to a superior officer" → to his foreman [confirmed against transcript]
+- Fixed across the site: Helisanna was described as "departed", "fully possessed" or an antagonist, and Leliana as "the original personality" living in a separate body. The canon is now one player, one woman, two personas (see "Leliana and Helisanna" above) [confirmed against transcripts, Sessions 34, 35, 56–58, 63]
+
+**Pattern:** table talk (a player explaining how they play their character) gets recorded as an in-world event. Check whether a line was said in character before it goes into the story.
 
 ### Sessions 53–62 audit (2026-09-28)
 A full audit of the ten most recent recaps against their transcripts, triggered by the user reporting "Commander Steel" (should be Captain Steel). Sessions 58–62 carry a signed correction notice; sessions 53–57 predate the arc and were fixed silently.

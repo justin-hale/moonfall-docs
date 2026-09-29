@@ -42,7 +42,7 @@ Leliana grew up in the Eldoran back-country; the schools there had a terrible re
 The next day, a young performer who "just wanted to be a musician so bad", she went looking for a library she had been tipped off about, lost that birthday card on a shelf, and walked through a shining gateway into an abyss where she was "rendered from your body and then reformed anew". She made a deal with a monstrous being, and Helisanna was born. She had buried the memory; the party walked her back through it in Sessions 56 and 57.
 
 ### Session 57 — Two Sides of the Same Coin
-When the World Tree's roots reached the place where Helisanna was born, the DM told her: "Liliana and Helisana were effectively extremes of who you actually were, the two sides of the coin and that you actually are both of them. And with that guitar, it seems like you're able to switch into either persona whenever you'd like." Silas told her he had found Helisanna "the rudest, most selfish person I've ever met", maybe a coping mechanism — and that the whole person was the version he preferred.
+When the World Tree's roots reached the place where Helisanna was born, the DM told her: "Leliana and Helisanna were effectively extremes of who you actually were, the two sides of the coin and that you actually are both of them. And with that guitar, it seems like you're able to switch into either persona whenever you'd like." Silas told her he had found Helisanna "the rudest, most selfish person I've ever met", maybe a coping mechanism — and that the whole person was the version he preferred.
 
 ## Role in the Party
 
