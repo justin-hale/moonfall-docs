@@ -1,153 +1,90 @@
 ---
 title: Leliana Goldspring
-description: Cheerful bard and the original personality separated from Helisanna
+description: Cheerful bard played by Luke Neverisky — since Session 57, one woman with two personas who can switch at will into Helisanna Doomfall
 sidebar_position: 2
+aliases: ["Leliana"]
 ---
 
 # Leliana Goldspring
 
-*Human Bard • Entertainer • The Heart of the Party*
+*Bard (College of Glamour) • The Heart of the Party • One Woman, Two Personas*
 
 ## Overview
 
-Leliana Goldspring is a nature-loving bard with blonde hair, a sunny disposition, and an infectiously optimistic personality. She emerged as a separate being from **Helisanna Doomfall** in **Session 34** after being trapped inside Helisanna's consciousness for years, powerless to act. Where Helisanna represents the dark, cynical warlock bound to the patron **Ach'uk**, Leliana embodies the light, cheerful original personality that existed before the pact was made.
+Leliana Goldspring and **[Helisanna Doomfall](/player-characters/helisanna)** are the same woman, played by the same player, **Luke Neverisky**. Leliana first appeared in **Session 34**, when Luke's original character, Helisanna, split in two: Leliana joined the party and Helisanna went her own way as a DM-run character. In **Session 57** Leliana learned the truth — she and Helisanna are "two sides of the coin", extremes of one person — and with her late brother's Blue Moon guitar she can now switch into Helisanna at will.
+
+**Current status (Session 63):** an active member of the party on its sabotage campaign in the Eldoran capital. She switches between the two personas "on the fly", fully one or the other with no blending yet; the two are aware of each other, and for now the switch is "very controlled… just flipping a switch". She wants revenge on **[Captain Steel](/npcs/captain-steel)**, who murdered her brother, and reaches for "Helisanna mode" when that grudge is in play.
+
+## How the Two Personas Work
+
+| | Leliana | Helisanna |
+|---|---|---|
+| **Look** | Tan complexion, blonde hair, bright and colourful | Pale skin, white hair, dark colours, purple veins |
+| **Music** | Mandolin and acoustic sets; now the Blue Moon guitar | Heavy metal on an electric guitar-axe |
+| **Class** | Bard (College of Glamour) | Bard/warlock, pact with [Ach'uk](/npcs/achuk) |
+| **Temper** | Cheerful, apologetic ("Oh jeez!"), kind | Rude, cynical, fame-hungry, vengeful |
+
+- **Same face, same build.** At the split the two looked like twins, one pale and one full of colour.
+- **The switch shows.** The DM compared it to a Zelda-and-Sheik transformation (Session 57). Her look shifts along a gradient as she gives in to one side or the other; a quick flip shows as a lightning streak of colour down her right eye and a discolouration across her face that fades (Session 58).
+- **Two sheets, one body.** Since Session 58 Luke keeps Leliana's character sheet as the master (hit points, inventory) and a separate sheet for Helisanna. Some spells belong to one persona only: in Session 62 she switched back from Helisanna to Leliana to send George a *message*.
+- **The name "Anna".** In Session 58 Olivia asked what the party should call her, and she admitted she didn't know who she was at the moment. Bru and Elspeth proposed "Anna", a name that covers both halves, and the table approved it. It has not been used since; the party still calls her Leliana, "Lily", or Helisanna depending on who is out.
 
 ## Background
 
-### The Imprisonment
-- Original personality of the person who became Helisanna
-- When Helisanna accepted Ach'uk's warlock pact, Leliana was locked away in a "prison" within her consciousness
-- Refused to accept the pact herself, maintaining her pure, optimistic nature
-- Witnessed everything the party did through Helisanna's eyes but was powerless to intervene or help
+### The Split (Session 34)
+In the fight against Crang, the near-dead Helisanna submitted to her patron Ach'uk, then tore through the veil with the help of a small dwarven spirit — an avatar of Tyr working through Olivia's spell. Two women fell away from each other, and the stranger introduced herself as Leliana Goldspring: "I live around here… I'm not really anybody special." She had seen everything the party did through Helisanna's eyes, said the choice to make the pact was Helisanna's, not hers, and was glad just to be able to move her legs again. Helisanna, now played by the DM, brushed her off — "I'm the better you. I'm a rockstar, baby" — and left with her ravers.
 
-### The Manifestation (Session 34)
-- Helisanna became so consumed by thoughts of "what if I hadn't made the pact" that this alternate self grew strong enough to manifest
-- Through warlock magic and psychic energy, Helisanna literally split into two distinct people
-- **Helisanna** kept the warlock powers and patron connection (goth rocker, dark personality)
-- **Leliana** gained her own body with the original personality's optimism and compassion (blonde, cheerful, nature-loving)
-- They are now fully separate entities, each with their own body and identity
+In Session 35 the DM ruled that the two were fully separate, with different bodies: Leliana was the idea of who Helisanna would have been had she never gone to meet her patron, grown strong enough to become her own person.
 
-### The Nature-Loving Entertainer
-- Natural performer with infectious enthusiasm and musicality
-- Loves nature and brings positivity wherever she goes
-- Skilled at reading people and understanding emotional dynamics
-- Despite her gentle nature, pragmatic when necessary
+### Where She Came From (Sessions 56–57)
+Leliana grew up in the Eldoran back-country; the schools there had a terrible reading programme but an excellent art programme, and she admits she can barely read. Her brother, **Lieutenant Steven Goldspring**, loved his electric guitar — the Blue Moon, painted with a blue crescent — but enlisted to "make a difference". Captain Steel murdered him in a research lab when he refused to hand over his research, and his funeral fell on Leliana's birthday; his will left her the Blue Moon guitar, and her father gave her a birthday card.
+
+The next day, a young performer who "just wanted to be a musician so bad", she went looking for a library she had been tipped off about, lost that birthday card on a shelf, and walked through a shining gateway into an abyss where she was "rendered from your body and then reformed anew". She made a deal with a monstrous being, and Helisanna was born. She had buried the memory; the party walked her back through it in Sessions 56 and 57.
+
+### Session 57 — Two Sides of the Same Coin
+When the World Tree's roots reached the place where Helisanna was born, the DM told her: "Liliana and Helisana were effectively extremes of who you actually were, the two sides of the coin and that you actually are both of them. And with that guitar, it seems like you're able to switch into either persona whenever you'd like." Silas told her he had found Helisanna "the rudest, most selfish person I've ever met", maybe a coping mechanism — and that the whole person was the version he preferred.
 
 ## Role in the Party
 
-Leliana serves as the party's **emotional heart** and **moral support**, bringing light and optimism to even the darkest situations. Her natural charisma and positive outlook open doors that force cannot, making her invaluable in social encounters and negotiations.
+Leliana is the party's support bard and its heart: she heals, controls crowds, inspires, and works rooms. Where Helisanna's music drove crowds into a purple-eyed mania, Leliana's calms and clears them (Session 38), and her acoustic concert in Greyport pulled belief out of an audience and hung it in the sky as **[Luna](/npcs/luna)**'s new moon (Session 53).
 
-### Combat Style
-- **Bardic Magic**: Support spells focused on healing and crowd control
-- **Healing Word**: Quick healing to save downed allies
-- **Hypnotic Pattern**: Powerful crowd control that incapacitates multiple enemies
-- **Mantle of Inspiration**: Bardic ability that empowers and protects allies
-- **Strategic Support**: Uses magic to control the battlefield and enable ally success
+### Spells and Abilities
+- **Healing and support:** *Healing Word*, Mantle of Inspiration, Bardic Inspiration, *Intellect Fortress*.
+- **Control:** *Hypnotic Pattern*, *Calm Emotions*, *Tasha's Hideous Laughter*, *Counterspell*.
+- **Deception and illusion:** *Minor Illusion*, *Invisibility*, *Hallucinatory Terrain*, *Message*.
+- **Skills:** Performance, Insight (an Insight of 30 exposed a staged rivalry in Session 55), Deception.
 
-### Personality Traits
-- **Eternal Optimist**: Always sees the best in people and situations ("Oh jeez!" is a favorite exclamation)
-- **Frequent Apologizer**: Polite almost to a fault, constantly apologizing
-- **Emotionally Generous**: Genuinely cares for everyone, even while heartbroken about Helisanna
-- **Pragmatic Kindness**: Acknowledges priorities lie with "people who aren't trying to murder each other"
-- **Loyal Friend**: Fiercely protective despite her gentle demeanor
+### Equipment
+- **Blue Moon guitar** — her brother's electric guitar, recovered in Session 57; the key to switching personas.
+- **Mandolin of Rude Truths** (Session 37).
+- Studded leather armour, bought in Session 35 from "Mr. Purple Bottom", three children in a trench coat.
 
-## Key Relationships
+## Relationships
+- **[Helisanna Doomfall](/player-characters/helisanna):** her other self. While they lived apart, Leliana still insisted Helisanna "means well" and was worth saving; since Session 57 she is part of her.
+- **[Silas Fairbanks](/player-characters/silas):** in Session 62 he privately offered to back her if she wanted to kill Captain Steel, even if it wrecked the plan.
+- **[Bru](/player-characters/bru):** gave her his "emotional support dynamite" before she walked into the library (Session 56) and co-proposed the name "Anna" (Session 58). In Session 35 she promised to stay and offered him scritches.
+- **[Olivia Cooper](/player-characters/olivia):** Leliana spotted her 200 gold for armour (Session 35); Olivia gave her the safe word "pineapple" on the drive to the library (Session 56).
+- **[Scarlet](/npcs/scarlet):** Leliana braided her a string necklace for her birthday (Session 53).
+- **[George](/npcs/george):** her psychic link to him in the Eldoran capital (Sessions 61–62).
 
-### Helisanna Doomfall
-- Originally the same person before the warlock pact split them
-- Represents the "light" to Helisanna's "dark"
-- Despite everything, Leliana's heart breaks at the thought of Helisanna being lost
-- Insists that Helisanna did care about the party "in her own rough way"
-- Willing to challenge Helisanna to a musical "rock-off" if needed
-- Worries about matching powers enhanced by Ach'uk's ancient patron
+## Open Questions
+- Did the separate Helisanna, last seen "running things in the South" (Session 56), merge into her at the revelation, or does she still exist somewhere? At the end of Session 57: "we'll have to find out."
+- What hold, if any, does Ach'uk still have on her? In Session 58: "you'll have to wait and see."
+- In Session 34 Leliana said that "when I chose not to go to that shrine, I woke up inside of that house"; how that shrine relates to the library gateway has not been explained.
 
-### The Party
-- Immediately bonded with the group upon emerging
-- Expresses genuine care and gets to know everyone properly
-- Provides emotional support and encouragement
-- Shows faith in others (like expressing belief in Chalk Rock's mission)
-- Generously helps financially (spotted Olivia 200 gold for armor)
-- Works cooperatively even when not fully briefed on plans
-
-### Musical Connection
-- Willing to use music to counter Helisanna's influence
-- Understands the power of performance and bardic magic
-- Sees music as a force for good and connection
-
-## Character Development
-
-### Growth Throughout Recent Sessions
-- **Session 34**: Emerged from Helisanna, explained her imprisonment, offered to help the party
-- **Session 35**: 
-  - Prioritized staying with the party over saving Helisanna
-  - Purchased studded leather armor from "Mr. Purple Bottom" (three kids in a trench coat)
-  - Helped Olivia financially with armor purchase (200 gold)
-  - Expressed faith in Chalk Rock's civilian protection mission
-  - Demonstrated sunny disposition with verbal tics ("Oh jeez," constant apologies)
-  - Bonded with party while acknowledging heartbreak over Helisanna situation
-- **Session 36**:
-  - Healed dying Finnwick with healing word in combat
-  - Used hypnotic pattern for crucial crowd control against multiple enemies including Marta
-  - Provided mantle of inspiration to empower allies
-  - Coordinated with party even without full briefing on deception plans
-
-### Identity and Purpose
-- Learning to exist as her own person separate from Helisanna
-- Balancing optimistic nature with realistic understanding of danger
-- Finding her role as emotional support and tactical magic user
-- Developing identity beyond "what Helisanna could have been"
-- Finding strength in vulnerability and openness
-
-## Powers and Abilities
-
-### Bardic Magic
-- **Healing Word**: Bonus action healing spell that has saved lives
-- **Hypnotic Pattern**: Crowd control that incapacitates multiple enemies
-- **Mantle of Inspiration**: Inspires and protects allies
-- **Bardic Inspiration**: Empowers allies through musical magic (class feature)
-- **Support Spells**: Versatile magic focused on aiding allies and controlling enemies
-
-### Social Skills
-- **Performance**: Natural entertainer and musician
-- **Persuasion**: Convincing through charm, sincerity, and infectious optimism
-- **Insight**: Reading people's true intentions and emotions
-- **Diplomacy**: Mediates conflicts and brings people together
-- **Charisma**: Opens doors through genuine warmth and kindness
-
-### Combat Tactics
-- Focuses on keeping allies alive through healing
-- Controls enemy groups with hypnotic pattern
-- Empowers party members with bardic abilities
-- Positions strategically to support maximum number of allies
-- Adapts to situations even without full mission briefing
-
-## Notable Moments
-
-### The Split (Session 34)
-- Emerged from Helisanna in burst of psychic energy during battle with Crang
-- Immediately explained her imprisonment and offered help despite confusion
-- Revealed she was the personality trapped when Helisanna made the pact with Ach'uk
-
-### Heartbreaking Pragmatism (Session 35)
-- When asked if they should save Helisanna, acknowledged her heart breaks at the thought
-- Chose to prioritize staying with "the people in front of her who aren't trying to murder each other"
-- Demonstrated that kindness doesn't mean lack of wisdom
-
-### Mr. Purple Bottom (Session 35)
-- Encountered three children in a trench coat pretending to be armor merchant "Mr. Purple Bottom"
-- Played along with their charade with good-natured humor
-- Helped Olivia afford better armor by spotting her 200 gold
-
-### Combat Support (Session 36)
-- Saved Finnwick from death with perfectly timed healing word
-- Incapacitated multiple Iron Claws members including Marta with hypnotic pattern
-- Proved herself as crucial tactical support despite being newest party member
-
-### Contrast with Helisanna (Session 35)
-- Sunny disposition and frequent apologies create stark contrast with Helisanna's cynicism
-- Verbal tics ("Oh jeez!") become endearing character traits
-- Demonstrates that the same person's different choices create fundamentally different outcomes
-
----
-
-*"Oh jeez! I know things look bad, but we've got each other, right? That's gotta count for something!"*
+## Session History
+- **[Session 34](/sessions/session-34)** — Leliana emerges when Helisanna splits in two, introduces herself to the party, and stays with them while Helisanna leaves with her ravers.
+- **[Session 35](/sessions/session-35)** — The party learns the two are fully separate people; Leliana says killing Helisanna would break her heart, and helps Olivia afford new armour.
+- **[Session 36](/sessions/session-36)** — In the Great Hall battle she saves the dying Finnwick with *Healing Word* and locks down Iron Claws with *Hypnotic Pattern*.
+- **[Session 37](/sessions/session-37)** — She calms a heated argument with *Calm Emotions*, receives the Mandolin of Rude Truths, and spends the following month helping rebuild High Forge.
+- **[Interlude 12](/sessions/interlude-12)** — At the occupied Lotus Casino she argues the party should still try to save Helisanna.
+- **[Session 44](/sessions/session-44)** — She pilots Iro's steamboat, the Iron Maiden, against attackers on a 27 Insight.
+- **[Session 53](/sessions/session-53)** — Her acoustic benefit concert at Jasper's brewery raises Luna's new moon over Greyport.
+- **[Session 55](/sessions/session-55)** — Undercover as "Lily", she plays a roofied guest at Lord Bradicus's audition and exposes a staged rivalry.
+- **[Session 56](/sessions/session-56)** — Near her homeland, her buried memories return; in the haunted library she learns it is where Helisanna was born and speaks with her through a mirror-pond.
+- **[Session 57](/sessions/session-57)** — Walking her memories, she relives her brother's murder by Captain Steel, recovers his Blue Moon guitar, and learns she and Helisanna are two extremes of one person.
+- **[Session 58](/sessions/session-58)** — She vows to kill Captain Steel; the party proposes "Anna" as a name for both halves.
+- **[Session 60](/sessions/session-60)** — With Luke absent, the DM voices her as Helisanna, running the meatloaf-cart distraction with Scarlet.
+- **[Session 61](/sessions/session-61)** — Disguised as an orphan, she lends Elspeth the inspiration that gets the party into the barracks and envies the new knights their wings.
+- **[Session 62](/sessions/session-62)** — Disguised as a sergeant, she arms a bomb inside the barracks, warns George by *message*, and tells Silas she will "put on Helisanna mode" against Steel.
+- **[Session 63](/sessions/session-63)** — She scouts the World Tree in the guise of a child and marks the research tower's collapse with a guitar riff.

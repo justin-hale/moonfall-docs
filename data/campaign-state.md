@@ -2,166 +2,212 @@
 
 ## Session Event Index
 
-### Arc 1: Escape & High Forge (Sessions 1–21)
+### Sessions 1–52 and Interludes I–XVI
 
-**Session 1 – The Escape from High Forge (Part 1)**
-The Sisyphus Circle — Bru, Silas, and Red — begins planning their escape from a High Forge labor camp. Elspeth Cooper joins them; she's a dwarven inventor whose family was killed by plague. The party is contracted to the Viper, a criminal boss in Milstrom.
+*Built from each recap's own title and summary. For detail, read the recap itself.*
 
-**Session 2 – The Escape from High Forge (Part 2)**
-The group flees High Forge through underground tunnels, evading guards and solving mechanical locks. Bru discovers Elspeth's engineering skills. Silas's rogues' abilities prove essential for navigation.
+**Session 1 – Dinner and Nightcap**
+Beginning of our new campaign, Moonfall. Our "heroes" go on a night out into the city of Highforge.
 
-**Session 3 – The Escape from High Forge (Part 3)**
-A tunnel collapse separates the party. Red and Silas find an alternate exit while Bru and Elspeth stabilize the passage. They reunite and exit into the mountains above Milstrom.
+**Session 2 – A Rock Show And A Briefcase**
+The party is in the dwarven city of High Forge, a place with strict rules.
 
-**Session 4 – Arrival in Milstrom**
-Taco Cat arrives in Milstrom, a city known for its dragon races and criminal underworld. They meet Victor, a resistance leader who offers them work. Helisanna, a bard with electric powers, joins the group. The party enters a dragon-riding street race.
+**Session 3 – Unraveling Twilight**
+The party is in the dwarven city of High Forge, a place with strict rules.
 
-**Session 5 – The Race Begins**
-Street race through Milstrom's streets. Denlin, a rival racer with a dark reputation, becomes an antagonist. The party learns about the Milstrom Dragon Circuit and its criminal ties.
+**Session 4 – Love and Betrayal**
+Our heroes get an assignment to sabotage some racecars.
 
-**Session 6 – Race Day**
-The party competes in the dragon race against Denlin and other racers. Helisanna uses her electric lute to gain an advantage. They learn Denlin has a connection to the city's criminal elite.
+**Session 5 – A Pretty Good Concert**
+Our heroes throw a pretty good concert.
 
-**Session 7 – Denlin's Challenge**
-Denlin challenges the party to a rematch with higher stakes. The group uncovers evidence that Denlin has been sabotaging other racers. Tensions escalate between Taco Cat and Denlin's crew.
+**Session 6 – Highforge Sprint**
+Our heroes race the Highforge Sprint!
 
-**Session 8 – Milstrom Exploration**
-The party explores Milstrom, discovering the city's dragon culture. They encounter resistance members and learn about the oppressive regime of Lord Bradicus in the Eldoran Empire. Lady Corwin, a resistance leader, provides intelligence.
+**Session 7 – Escape Highforge**
+A Dragon Attacks! Our heroes seek to escape highforge!
 
-**Session 9 – Dragon Attack**
-A dragon attacks Milstrom's arena. The party fights to protect civilians. Red's divine powers prove crucial in shielding the group. They discover the dragon was controlled by unknown magic.
+**Session 8 – Caravan Nights**
+Tacocats take a moment to meet caravan folks.
 
-**Session 10 – The Fae Bargain**
-Crowley, a powerful fae, offers the party a bargain: a magical item in exchange for a future favor. The group negotiates, wary of fae trickery. Helisanna senses something wrong about the deal.
+**Session 9 – A Stranger at the Crossroads**
+The party enters the woods to break a fae bargain and strikes a dangerous deal with Mr. Crowley.
 
-**Session 11 – The Milstrom Investigation**
-The party investigates the dragon attack, tracing it to Crowley's interference. They discover the fae has been manipulating Milstrom's dragon races for his own amusement. Evidence points to a larger conspiracy.
+**Session 10 – The Red Scare**
+The party uncovers a devil's grip on Milstrom
 
-**Session 12 – Red's Past**
-Red reveals his backstory: his family was killed, and he took a vow of vengeance. The party helps him track down a lead on his family's murderer. Emotional scenes as Red confronts his past.
+**Session 11 – You Only Live Once**
+The party drinks Roscoe’s Everclear and uncovers [Red](/player-characters/red)’s royal past while wolves descend on the town
 
-**Session 13 – The Mountain Climb**
-Taco Cat begins their journey to Grimvar's Spine, a sacred mountain pilgrimage site. The terrain is treacherous, with magical storms and rockslides. Bru's mechanical inventions prove useful for climbing.
+**Session 12 – Out of the frying pan, into the Fire**
+The party pursues werewolves, recruits an unlikely ally, and faces their most dangerous battle yet.
 
-**Session 14 – Pilgrimage Trials**
-The mountain pilgrimage tests each party member with personal trials. Silas faces his past, Bru confronts his fear of failure, and Red struggles with his rage. Elspeth supports the group with her engineering skills.
+**Session 13 – Burning down the house**
+The party closes the portal, decides Frankie's fate, and investigates [Red](/player-characters/red)'s family history with explosive consequences.
 
-**Session 15 – Grimvar's Spine**
-The party reaches Grimvar's Spine, the sacred peak. They perform the pilgrimage ritual and gain divine insight. Red receives a vision of his purpose, and Helisanna senses a connection to the fae realm.
+**Session 14 – Ascending Grimvar's Spine**
+The party begins their pilgrimage up Grimvar's Spine mountain, where they encounter a peculiar shepherd and his unruly magical sheep.
 
-**Session 16 – Time Skip: Red's Family**
-A flashback session reveals Red's family history: his wife and child were killed by a mysterious figure. Red has been searching for justice ever since. The party learns about the Lycanthropic curse affecting Red.
+**Session 15 – On George's Heels**
+The party pursues George and the pilgrims up Grimvar's Spine, discovering a corrupted shrine and fighting to restore its protective wards.
 
-**Session 17 – The Dragon Orb**
-The party discovers the dragon orb, an ancient artifact containing Astro, a star-touched dragon. The orb pulses with power, and Helisanna feels drawn to it. They learn the orb was used to imprison Astro during a dragon civil war.
+**Session 16 – Olivia's Decision**
+The party rescues George from the Shadowfell and witnesses a catastrophic celestial event.
 
-**Session 18 – Lycanthropy Revelation**
-Red's lycanthropy is fully revealed: he transforms into a wolf-like creature during full moons. The party helps him manage his condition. They learn the curse was placed on him by the same figure who killed his family.
+**Session 17 – The Skyhammers**
+The party reaches [Red](/player-characters/red)'s ancestral clan and discovers advanced technology, but [Red](/player-characters/red) must prove his lineage through dangerous trials.
 
-**Session 20 – Wormhole Encounter**
-The party encounters a wormhole that leads to the Shadowfell. They must rescue George, a friendly creature trapped there. The Shadowfell is a realm of darkness and despair, testing the party's resolve.
+**Session 18 – Winter Solstice Special**
+The party returns to Milstrom for winter solstice festivities, only to face an evil doppelganger threatening their celebration.
 
-**Session 21 – Rescue from Shadowfell**
-Taco Cat ventures into the Shadowfell to rescue George. The realm distorts their perceptions, and they face shadow versions of themselves. They succeed in freeing George and escape back to the material plane.
+**Session 20 – Trials of the W****M Hole**
+The Taco Cat crew ventures into the mysterious wormhole for [Red](/player-characters/red)'s Skyhammer trials, solving ancient puzzles and meeting a star-touched dragon before descending into the chaotic village of Lakeshore Vale.
 
-### Arc 2: The Fall & Aftermath (Sessions 22–33)
+**Session 21 – Trapped In Tree Land**
+The party helps trapped villagers with their daily problems while uncovering the dark truth behind their astral tree sanctuary.
 
-**Session 22 – Red's Sacrifice**
-Red sacrifices himself to power an escape vessel, saving the party from certain death. His death is heroic, and the party mourns his loss. The escape vessel carries them to safety, but the cost is devastating.
+**Interlude I – The Convent of Bloody Orchids**
+The party infiltrates a vampire convent to retrieve a priest's stole, battling undead nuns and terrifying angel statues.
 
-**Session 23 – Memorial for Red**
-The party holds a memorial for Red. Emotional scenes as each member shares their memories. Silas struggles with guilt, and Bru throws himself into his work. Elspeth provides comfort.
+**Interlude II – Murder at the Manor**
+The party attends a birthday party that turns from game to deadly reality when a shapeshifting night hag is revealed as the true killer.
 
-**Session 24 – Journey to Greyport**
-Taco Cat travels to Greyport, a major city, seeking answers about the dragon orb and Red's death. The journey is long, and the party processes their grief. They encounter resistance members along the way.
+**Interlude III – The Corrupted Sanctuary**
+The party completes their infiltration of the vampire convent, facing a monstrous Mother Superior and freeing a tortured angel from its cursed bonds.
 
-**Session 25 – Greyport Arrival**
-The party arrives in Greyport, a sprawling metropolis. They meet Chalk Rock, a dwarf detective who later becomes the city's leader. Greyport is a hub of political intrigue and criminal activity.
+**Interlude IV – Into the Hollow**
+The party ventures into a treacherous swamp to retrieve the final item needed to help Toonlock, facing deadly perytons and undead in the bog waters.
 
-**Session 26 – Resistance Work**
-The party continues resistance operations in Greyport, sabotaging regime supply lines. They work with Lady Viper, leader of the Twilight Company. Tensions rise as the regime cracks down.
+**Interlude V – The Wichita Sisters' Guardian**
+The party navigates treacherous fog and spider-infested cliffs to reach the Wichita Sisters' cave, only to face a massive guardian at the entrance.
 
-**Session 27 – Olivia Cooper**
-Olivia Cooper, Elspeth's grandmother, is introduced. She's a retired detective with a sharp mind and a shotgun. The party learns about the Cooper family's history and their connection to Greyport.
+**Interlude VI – The Final Ritual**
+The party completes their mission to help Toonlock by participating in a dangerous ritual while facing Crowley's final threats and earning powerful rewards.
 
-**Session 28 – Greyport Investigation**
-The party investigates a series of bombings in Greyport. They discover the resistance is being infiltrated by regime spies. Chalk Rock helps them identify the mole.
+**Interlude VII – The Lotus Hotel Hangover**
+The party enjoys a wild night at a magical casino, only to wake up with no memory and a series of increasingly bizarre problems to solve.
 
-**Session 29 – Bombing Mission**
-The party conducts a bombing mission against regime targets. The operation is risky, and they face heavy resistance. Lady Viper's tactical skills prove essential.
+**Interlude VIII – Cooking Combat Chaos**
+The party finds themselves transformed into food ingredients in a twisted cooking show competition hosted by Crowley.
 
-**Session 30 – Blackstone Manor**
-Taco Cat infiltrates the Blackstone Manor, a wealthy family's estate. They steal documents revealing the Blackstones' true nature: they're vampires posing as nobility. The heist is tense and dangerous.
+**Interlude IX – Recipe for Disaster**
+The party concludes their twisted cooking show dream with a dessert castle infiltration that quickly spirals into magical chaos and destruction.
 
-**Session 31 – Blackstone Truth**
-The party confronts the Blackstone family, revealing their vampiric nature to Greyport's elite. The revelation causes political upheaval. Chalk Rock uses the opportunity to consolidate power.
+**Interlude X – The Chaos God's Gift**
+The party is pulled into pocket dimensions where they face impossible moral choices and meet a imprisoned chaos god seeking revenge.
 
-**Session 32 – Resistance Victory**
-The resistance scores a major victory against the regime. The party's actions in Greyport weaken the regime's hold on the city. Celebrations are tempered by the knowledge that the war is far from over.
+**Interlude XI – The Wrecked World of the Quizzites**
+The party visits a shattered world as a cautionary tale about the dangers of uncontrolled magical experimentation and time travel.
 
-**Session 33 – Transition**
-The party prepares for their next mission. They learn about the Eldoran Empire and Lord Bradicus's death-games. Olivia joins the party officially, bringing her detective skills and combat experience.
+**Session 22 – Red's Last Flight**
+The party faces an Eldoran Knight while [Red](/player-characters/red) makes the ultimate sacrifice to power his clan's escape vessel.
 
-### Arc 3: Pizza Wars & Helisanna's Split (Sessions 34–44)
+**Session 23 – Purple-Eyed Ravers and Racing Contracts**
+The party holds a memorial for [Red](/player-characters/red) while uncovering [Helisanna](/player-characters/helisanna)'s supernatural influence and preparing for a dangerous mountain race.
 
-**Session 34 – Pizza Wars Begin**
-The party becomes involved in a pizza war between rival factions in Greyport. What starts as a food dispute escalates into a full-blown conflict. Silas uses his connections to navigate the underworld.
+**Session 24 – Voices from High Forge**
+The party receives a mysterious radio transmission and uncovers dangerous truths about the dragon orb while preparing for their return to High Forge.
 
-**Session 35 – Helisanna's Patron**
-Helisanna's connection to her patron is explored. The party learns that the patron has been manipulating Helisanna for its own ends. Tensions rise as the group debates how to handle the situation.
+**Session 25 – Wanted Dead or Alive**
+The party faces bounty hunters while preparing their return to High Forge, and discovers the true extent of their notoriety.
 
-**Session 36 – Pizza Wars Escalation**
-The pizza war intensifies, with both sides employing increasingly dangerous tactics. The party must choose a side or find a way to end the conflict. Helisanna's electric powers are crucial in several battles.
+**Session 26 – Underground Connections**
+The party infiltrates High Forge through underground tunnels, rescues Lark's family, and discovers the resistance headquarters amid a massive underground rave.
 
-**Session 37 – The Split**
-Helisanna is split into two entities: Helisanna (controlled by the patron) and Leliana (the original personality). The party must deal with both versions. Leliana is confused and scared, while Helisanna is hostile.
+**Session 27 – Bombing for the Resistance**
+The party joins Victor's resistance operation to destroy V production facilities, uncovering human experimentation and facing Iron Claws forces in explosive combat.
 
-**Session 38 – Aftermath of the Split**
-The party grapples with the consequences of Helisanna's split. Leliana joins the party, bringing her bardic abilities. Helisanna, now an antagonist, escapes with the patron's backing. The group mourns the loss of their friend.
+**Session 28 – The Third Explosion and the Royal Vault Heist**
+The party completes their bombing mission with unexpected complications and begins an ambitious heist to steal 500,000 gold pieces from the royal vaults.
 
-**Session 39 – Theirsander**
-Thedoresander, a member of the Sisyphus Circle (Bru and Silas's old group), reunites with the party. He brings intelligence about the Eldoran Empire and Lord Bradicus's plans. The party learns about the death-games.
+**Session 29 – Truckgust F-150th**
+The party takes on a special heist mission to steal a Ford F-150 while dancing golems create chaos in the vaults.
 
-**Session 40 – Greyport Activities**
-The party continues operations in Greyport, preparing for their mission to the Eldoran Empire. They gather supplies, allies, and intelligence. Olivia's detective work proves invaluable.
+**Session 30 – The Vault Heist Conclusion**
+The party completes their ambitious vault heist while facing unexpected betrayals and discovering ancient draconic secrets.
 
-**Session 41 – Luna's Rebinding Ritual**
-The party performs a rebinding ritual for Luna, a moon goddess. The ritual requires rare components and precise timing. The dragon orb is involved, and Astro's connection to Luna is revealed.
+**Session 31 – Into the Blackstone Manor**
+The party investigates a mysterious cabin in the mountains and discovers an underground garage filled with luxury vehicles, leading to moral dilemmas about theft and corporate allegiances.
 
-**Session 42 – Dragon Attack on the Harbor**
-A dragon attacks Greyport's harbor, targeting the party's ship. The Iron Maiden takes damage, and the party must defend it. The dragon is revealed to be working for the Eldoran Empire.
+**Session 32 – Dragon's Bargain and Raver Recruitment**
+The party negotiates with powerful dragons and begins recruiting ravers for their assault on High Forge.
 
-**Session 43 – The Journey Begins**
-Taco Cat sets sail for the Eldoran Empire. The journey is perilous, with storms and sea monsters. Leliana struggles with her new identity, and the party supports her.
+**Session 33 – The Pizza Wars Begin**
+The party investigates a missing persons case in the sewers and meets an unexpected ally while debating the finer points of pizza toppings.
 
-**Session 44 – Arrival in Eldoran**
-The party arrives in the Eldoran Empire, a land of strict hierarchy and brutal justice. They go undercover as "Pupusa Possum," a group of entertainers. The death-games await.
+**Session 34 – The Fractured Soul**
+The party faces Crang and confronts a shocking revelation about Helisanna's true nature.
 
-### Arc 4: The Death-Games & Beyond (Sessions 45–57)
+**Session 35 – The Calm Before the Storm**
+The party grapples with Helisanna's transformation and prepares for the coming revolution.
 
-**Session 45 – The Zoo Gambit**
-The party infiltrates the Greyport Zoo to gather information about the regime's plans. They discover the zoo is a front for a weapons facility. Olivia's detective skills help them navigate the facility.
+**Session 36 – Betrayal and Explosions**
+Taco Cat races against time to save hostages and confront the Iron Claws in a deadly showdown.
 
-**Session 46 – Viper's Den**
-The party visits the Viper's Den, a criminal establishment run by Lady Viper. They gather intelligence and supplies for their mission. Silas's underworld connections are crucial.
+**Session 37 – End of Arc 2**
+Taco Cat completes their battle with the Iron Claws, levels up, and begins rebuilding High Forge during a month-long epilogue.
 
-**Session 47 – The Other Cooper**
-Belspeth Booper, "the Other Cooper," is introduced. She's Elspeth's long-lost sister, thought dead. The reunion is emotional, but Belspeth has her own agenda. Tensions rise between the sisters.
+**Interlude XII – Return to the Lotus Casino**
+Taco Cat returns to the Lotus Casino to help Naomi deal with Helisanna's takeover and the chaos of her raver occupation.
 
-**Session 48 – Orphanage Lab**
-The party infiltrates an orphanage that's actually a laboratory. They discover the regime is experimenting on children. The mission is emotionally draining, and the party must decide how to handle the situation.
+**Interlude XIII – The Sisyphus Circle**
+In this tragic flashback episode, the party played the doomed Sisyphus Circle gang attempting a vault heist on the Pandora gang in Greyport. After successfully infiltrating through rainbow puzzles, time riddles, and explosive traps, they recovered a mysterious dragon orb—only to face betrayal at the dropoff. Helja Ungar revealed herself as the client and executed the entire crew except Bru and Silas, who escaped through the storm drains with the orb, cementing their "always keep moving" philosophy.
 
-**Session 49 – The Wall Comes Down**
-A major battle erupts as the party helps resistance forces breach a regime stronghold. The Wall Comes Down is a turning point in the conflict. The party's actions inspire others to fight.
+**Interlude XIV – The Greyport Speedway Conspiracy**
+In this racing-themed flashback episode, players took on the roles of six rival racers conspiring to disgrace Elspeth Cooper (Elspeth's past identity) and remove her from the racing circuit. What began as various sabotage attempts—from filing down her chassis to planting poppy seed muffins for a drug test—culminated in a high-stakes finale race at Greyport Speedway using custom D&D racing mechanics. The session revealed Elspeth's previous life as a 20+ year veteran racer and team owner who stood against corruption, setting up her eventual transformation into the adventurer the party knows.
 
-**Session 50 – Gary's Retirement**
-Gary, a beloved NPC, retires to Razlemania. The party celebrates his life and achievements. Emotional scenes as they say goodbye to a friend.
+**Interlude XV – The Greyport Finale Race**
+The six-racer conspiracy against Elspeth Cooper (Elspeth's past identity) reached its climax in the Greyport Speedway finale race. Using refined D&D racing mechanics, the conspirators employed red zones for illegal magic, VVS boost zones, and increasingly absurd sabotage attempts—including Wile E. Coyote painted tunnels, slow spells affecting allies, magic weapons, and strategic firebolts. Despite not winning the race, the frame job succeeded: Elspeth was disgraced and accused of using her brother's unregistered racing crystal, ending her 20+ year career. The session mixed high-speed tactical racing with comedy as every conspirator's schemes spiraled into chaos.
 
-**Session 51 – Luna's Awakening**
-Luna awakens fully, restored by the party's efforts. She reveals the truth about the moon's destruction and the Eldoran Empire's role. The party learns about the artificial satellite that killed her.
+**Interlude XVI – The Sacred Disturbance of Tortuga**
+In this backstory session, players took on the roles of Bru's extended goblin family—members of the Bru's Cousins bowling league tasked with creating a 'sacred disturbance' to awaken the Turtle God. What began as a quest for prophetic coordinates involving oracles, fireworks, and a 7-Eleven bathroom laboratory escalated into an explosive finale that literally tore the island from the sea on the back of the awakened Turtle God. The session revealed young Bru's early experiments with explosives and established the tragic event that forced him to leave his homeland.
 
-**Session 52 – Violescence**
-The party uses violescence, a rare magical substance, to complete Luna's resurrection. The process is dangerous, but they succeed. Luna pledges her support to the resistance.
+**Session 38 – The Road to Greyport**
+Taco Cat begins their journey to Greyport, investigates Helja's apartment, and retrieves reality stones from the Goliath village.
+
+**Session 39 – The Dragon's Hide**
+A bakery explosion reunites the party with their old crew member Theirsander, leading to a rooftop chase through Greyport and an introduction to the Order of St. George.
+
+**Session 40 – Uneasy Alliances**
+The party learns disturbing truths about the Order of St. George's connection to Eldoran, reunites with Theirsander, and sets sail for the underwater ritual site where Luna fell.
+
+**Session 41 – The Rebinding Ritual**
+The party arrives at Luna's crash site, debates cosmic alliances, sabotages the Order's tracking equipment, and successfully completes the dangerous rebinding ritual—only to face an incoming dragon.
+
+**Session 42 – Dragon in the Deep**
+The party faces a deadly adult blue dragon attack at Luna's crash site, fights desperately to survive underwater combat, and learns the hard truth about the Order of St. George's dragon-hunting prowess.
+
+**Session 43 – The Greyport Zoo Gambit**
+The party returns to Greyport as heroes, levels up to 10, schemes to revive Luna through concert worship, and follows a trail of hot dogs and 45-minute surveillance stakeouts straight into the secret Twilight Company headquarters hidden beneath the city zoo.
+
+**Session 44 – The Son of Fluke**
+The party visits Fluke's Workshop on Brew's recommendation, meets Iro—the youngest son of a Steve Squad legend—and ends up defending the shop from a coordinated three-pronged assault: street thugs, Molotov-hurling boats, and a shark-commanding Saojun beneath the harbor.
+
+**Session 45 – A Village in the Void**
+The party stakes out the zoo to retrieve Victor's sending stone, stumbles into an identity theft mystery involving a dwarf racer called 'Belith Booper,' and caps the day by opening the long-awaited pocket village—where Silus's surprise birthday party is interrupted by something very wrong in the sky.
+
+**Session 46 – Not Dead Yet**
+Void beings crash Silus's birthday party in the pocket village, and the party fights them back with moonlight and a song—only to discover that the attack was just the beginning. Luna the moon goddess speaks her first words in months, the pocket village reveals itself as something far more permanent than a prototype, and the shape of the fight ahead comes into focus.
+
+**Session 47 – The Viper's Den**
+Taco Cat emerges from the pocket village, navigates the Twilight Company's headquarters, meets the enigmatic Lady Viper, and Silas opens a fragile dialogue with the imprisoned dragon Astro.
+
+**Session 48 – The Other Cooper**
+Taco Cat crashes a Met Gala-level VIP night in disguise, eavesdrops on Denlin's criminal confessions, and tracks down the mysterious racer who replaced Elspeth — only to find a mirror where they expected a stranger.
+
+**Session 49 – Leave Those Kids Alone**
+Taco Cat goes undercover as orphans to infiltrate Denlin's facility, and discovers something far worse than a violescence ring — a laboratory full of unconscious dwarven figures built in Elspeth's image.
+
+**Session 50 – The Wall Comes Down**
+Taco Cat finishes what they started in the orphanage lab — the Doctor falls from the ceiling, the simulacra walk free singing Pink Floyd, the children are rescued, and then Elspeth straps into Denland's car and wins the race he was supposed to dominate.
+
+**Session 51 – Thank You, Gary**
+Taco Cat earns backstage passes to Razlemania, slaps on wrestling personas, and fights demons and paladins for the soul of Gary's retirement — then watches the greatest champion in history get lured into an alley by Crowley.
+
+**Session 52 – Wakey Wakey, Violescence and Bakey**
+Luna's sending stone wakes the party with a panicked alarm — Eldoran knights at the bottom of the sea, hammering chains into her skull. Taco Cat suits up as the Order of St. George, severs the link, and Frankensteins a dead god back into the world.
+
+### Sessions 53+
 
 **Session 53 – How the Moon Was Made**
 The same afternoon as Luna's rescue, the party throws Scarlet a surprise birthday party (gifts: Silas's pocket protector, bracers of defense from Silas and Olivia, a bag of brown from Bru). Disguised, they ambush an Iron Claws lookout crew in an alley and infiltrate the gang's old bar, the Cog & Steam, where Silas lifts a coded map. That night Leliana's acoustic benefit concert at Jasper's brewery pulls silver belief out of the crowd and hangs it in the sky as Luna's new moon.
