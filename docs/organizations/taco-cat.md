@@ -1,205 +1,76 @@
 ---
 title: Taco Cat
-description: The adventuring party and underground metal band
-sidebar_position: 2
+description: The party — Silas, Bru, Elspeth, Olivia, Leliana/Helisanna, Ohma, and Scarlet — who as of Session 63 have just bombed three targets in the Eldoran capital and stolen a miniature sun
+aliases: ["Pupusa Possum"]
 ---
 
 # Taco Cat
 
-*Adventuring Party • Metal Band • Wanted Criminals*
+*The Party • Band, Racing Team, and Wanted Criminals • Twilight Company Operatives*
 
 ## Overview
 
-**Taco Cat** is an adventuring party that has become entangled in High Forge's political upheaval, dragon attacks, and interdimensional mysteries. Known publicly through their racing team **Team Taco Cat**, they previously had a $50,000 bounty on their heads from the Iron Claws (status now uncertain after Helja's death in Session 36).
+**Taco Cat** is the name the adventuring party goes by. It began as a High Forge crew of musicians, racers and grifters. The party went on to break the [Iron Claws](/organizations/iron-claws)' hold on [High Forge](/locations/high-forge), resealed the void dragon [Astro](/npcs/astro), and brought the moon goddess [Luna](/npcs/luna) back to life. It is now the [Twilight Company](/organizations/twilight-company)'s strike team against the [Eldoran Empire](/organizations/eldoran-empire).
 
-## Current Members
+**Status as of Session 63:** In the Eldoran capital, the party has just set off three bombs at once, at the barracks concert hall, the spaceport factory and the university research tower. [Bru](/player-characters/bru) has stolen the factory's power core, a miniature sun that [Scarlet](/npcs/scarlet) is keeping in her *Leomund's Secret Chest*. In the research tower the party found six sleeping copies of [Elspeth](/player-characters/elspeth). The session ends with a vote to jump the Bugatti off the fallen tower and over the city wall, with Finnegan waiting at the docks.
 
-### Active Party
-- **[Ohma Kapua](/player-characters/ohma)** - Tortle monk, "the Ninja Turtle" (joined Session 26)
-- **[Leliana Goldspring](/player-characters/leliana)** - Bard, emerged from Helisanna (Session 34)
-- **[Silas Fairbanks](/player-characters/silas)** - Halfling rogue, former band manager
-- **[Bru](/player-characters/bru)** (Felonias Bru) - Goblin artificer
-- **[Olivia Cooper](/player-characters/olivia)** - Dwarf paladin, retired detective
-- **[Elspeth Cooper](/player-characters/elspeth)** - Dwarf artificer gunslinger
+## Members
 
-### Former/Separated Members
-- **[Red](/player-characters/red)** (Thurnok Skyhammer) - Goliath cleric who sacrificed himself to become the brain for the Skyhammer Clan's starship
-- **[Helisanna Doomfall](/player-characters/helisanna)** - Bard/warlock, currently controlled by patron Ach'uk (separated Session 34)
-- **[Jasper Gaines](/player-characters/jasper)** - Eldoran soldier (departed Session 24)
+- **[Silas Fairbanks](/player-characters/silas):** Halfling rogue and sorcerer, former manager of the band, and the party's go-between with the void dragon Astro, imprisoned in the orb Rain Goth. His old crew was the [Sisyphus Circle](/organizations/sisyphus-circle).
+- **[Bru](/player-characters/bru):** Goblin artificer, Silas's partner since the Sisyphus Circle, and the party's bomb-maker. His companion is Kevin.
+- **[Elspeth Cooper](/player-characters/elspeth):** Dwarf artificer and racer, the party's getaway driver. Her companion is BoxBox.
+- **[Olivia Cooper](/player-characters/olivia):** Dwarf paladin and retired High Forge detective. Her steed is Bob.
+- **[Leliana Goldspring](/player-characters/leliana) / [Helisanna Doomfall](/player-characters/helisanna):** One woman with two personas, both played by Luke Neverisky. Helisanna, the bard-warlock frontwoman of [Doomfall](/organizations/doomfall), was with the party from Session 1. In Session 34 she split in two: Leliana stayed with the party, and Helisanna went her own way with the [ravers](/organizations/ravers). In Session 57 Leliana learned that the two are opposite extremes of one person. Since then she can switch between them at will using her brother's Blue Moon guitar.
+- **[Ohma Kapua](/player-characters/ohma):** Tortle monk and wrestler, a resistance member who joined in Session 26. He has not been at the table during the Eldoran mission (Sessions 54–63).
+- **[Scarlet](/npcs/scarlet):** A three-hundred-year-old elf engineer the party met in Session 25. She keeps the [pocket village](/locations/pocket-village) capsule and travels with the party. The DM usually voices her.
 
-## Former Band Affiliation: Doomfall
+**Former members**
 
-### Past Musical Identity
-- **Genre**: Metal
-- **Former Frontwoman**: Helisanna Doomfall (separated Session 34)
-- **Current Status**: No longer part of Doomfall after Helisanna's separation
-- **Notable Past Venues**: The Little Hovel, The Little Hobble
-- **Legacy**: Party members were associated with Doomfall during Helisanna's time
+- **[Red](/player-characters/red)** (Thurnok Skyhammer): Goliath cleric, merged permanently into his clan's starship in Session 22.
+- **[Jasper Gaines](/player-characters/jasper):** Former Eldoran soldier who joined in Session 18 and left in Session 24. He now runs the Gaines Bruery, Bakery and Bankery in [Greyport](/locations/greyport) and still helps the party.
 
-### Notable Past Performances
-- **Session 1**: Transcendent concert at The Little Hovel with audience eyes glowing purple
-- Multiple underground venues throughout High Forge
-- Open mic performances and charity events
+## Names and Identities
 
-## Racing Team
+- **The name:** A crowd chanted "Taco Cat" as the party's band name during a dance battle (Interlude I). Elspeth raced legitimately as Team Cooper and on the underground circuit as Team Taco Cat (Session 25).
+- **Wanted:** The Iron Claws put a bounty of 50,000, dead or alive, on "Taco Cat", which brought the Jackals bounty hunters down on the party (Session 25).
+- **Pupusa Possum:** For the Eldoran infiltration the party posed as a deliberately unimpressive mercenary company whose signature move is to play dead. Silas forged its guild papers (Session 54), and they entered Lord Bradicus's contest under the name (Sessions 55–56). The cover lapsed when they left the contest unfinished and reached the capital by another route (Session 57).
+- **The legend:** At a factory worker's birthday picnic in the capital, Elspeth told the story of Taco Cat, a band of dwarves, goblins and halflings who saved a dwarven city from a dragon threat, as though it were about strangers (Session 62).
 
-### Team Cooper vs Team Taco Cat
-- **Official Racing**: Team Cooper (legitimate)
-- **Underground Racing**: Team Taco Cat
-- **Primary Driver**: Elspeth Cooper
-- **Vehicles**: 
-  - **Doomfall** - Race car
-  - **Vroomfall** - Enhanced van (mobile base)
+## Bases and Vehicles
 
-### Racing Achievements
-- Won major underground race with elaborate sabotage and teamwork
-- Upgraded vehicles with magical enhancements
-- Gained reputation in High Forge racing scene
+- **Vehicles:** The Vroomfall (the van and mobile base), the Doomfall (Elspeth's race car), a Ford F-150 from the vault heist that became Chalk Rock's government truck (Session 37), and a Bugatti taken from the Blackstone family's hidden garage (Session 31).
+- **The pocket village:** A pocket dimension Scarlet, Bru and Elspeth built. It shapes itself to the imaginations of the people inside it and connects to the Lotus Casino. It opened in Session 45, Luna first manifested inside it in Session 46, and Scarlet folded it into a capsule in Session 47.
+- **Safe houses:** Olivia's apartment in High Forge (Interlude XII), the Twilight Company brownstone in Greyport (Sessions 43–47), and Toothy's apartment in the Eldoran capital (Session 58).
 
-## Criminal Status
+## Story So Far
 
-### The Bounty
-- **Amount**: $50,000 dead or alive (historical)
-- **Issued By**: Iron Claws (Helja Ungar - deceased Session 36)
-- **Special Target**: Silas had additional personal bounty from Helja
-- **Current Status**: Unknown - Helja dead, Iron Claws leadership eliminated, bounty status uncertain
+1. **High Forge (Sessions 1–8):** Concerts, an underground race Elspeth won, and Twilight Company jobs. The party escaped the city when dragons attacked it (Sessions 6–7).
+2. **Milstrom and Grimvar's Spine (Sessions 9–24):** Red learned he was a Skyhammer prince, the party rescued Olivia's grandson [George](/npcs/george), and Red was lost to the Skyhammer starship. Interludes I–XI fall between Sessions 21 and 22.
+3. **The Iron Claws (Sessions 25–37):** The party returned to High Forge through the tunnels with a bounty on their heads, joined and then broke with the [resistance](/organizations/resistance), and killed Helja Ungar in the Forge Heart (Session 36). They spent a month rebuilding the city under Chalk Rock and Grimjaw.
+4. **Greyport (Sessions 38–53):** The party worked with the [Order of St. George](/organizations/order-of-st-george) to reseal Astro (Session 41), opened the pocket village (Session 45), and met [Lady Viper](/npcs/lady-viper) (Session 47). They freed Luna from Eldoran chains and revived her (Session 52), and Leliana's concert raised a new moon over Greyport (Session 53).
+5. **The Eldoran Empire (Sessions 54–63):** The party infiltrated the Empire through Lord Bradicus's contest (Sessions 54–56), walked Leliana's memories to the capital (Session 57), scouted the Twilight Company's three targets (Sessions 58–61), and bombed them (Sessions 62–63).
 
-### Previously Wanted For
-- Opposition to Iron Claws control
-- Various "terrorist" activities (resistance operations)
-- Multiple confrontations with authorities
-- Association with resistance movement
-- **Note**: Legal status unclear after Iron Claws defeat and Helja's death
+## Session History
 
-## Major Operations
-
-### Resistance Activities
-- Infiltrated High Forge through tunnel systems (Session 26)
-- Rescued hostages from Iron Claws
-- Participated in vault heist for draconic tablets (Sessions 29-30)
-- Led uprising against Iron Claws (Session 36)
-
-### Significant Missions
-- **Project Purple Patch**: Investigation into supernatural disturbances
-- **Red's Trials**: Wormhole journey for Skyhammer heritage
-- **Dragon Encounters**: Multiple confrontations, obtained control orb
-- **Vault Infiltration**: Discovered draconic tablets and cosmic secrets
-- **Great Hall Battle**: Confronted Iron Claws leadership (Session 36)
-
-## Base of Operations
-
-### The Vroomfall
-Mobile base equipped with:
-- Living quarters
-- Workshop for Bru and Elspeth's projects
-- Storage for equipment and magical items
-- Transportation
-
-### Temporary Bases
-- April Bonal's underground encampment (Sessions 33-35)
-- Various tunnel systems throughout High Forge
-- Resistance headquarters (through Victor)
-
-## Allies
-
-### Key Allies
-- **Victor** - Resistance operative, explosives expert
-- **Lark** - Former Iron Claws member, guide
-- **Naomi** - Lotus Casino manager, Silas's girlfriend
-- **Lady Corwin** - Resistance leader (complicated relationship)
-- **Chalk Rock** - Young detective, Olivia superfan
-- **April Bonal** - Chemist, provided safe haven
-
-### Organizational Allies
-- Twilight Company (complicated)
-- High Forge Resistance
-- Former Tear leadership
-
-## Equipment and Resources
-
-### Vehicles
-- **Doomfall**: Enhanced race car with magical modifications
-- **Vroomfall**: Mobile base with living quarters
-
-### Notable Items
-- Dragon control orb (mysterious powers)
-- Draconic tablets (destroyed to prevent Iron Claws use)
-- Magical paint (reality-warping)
-- Advanced technology from Eldoran armor
-- Various magical weapons and equipment
-
-### Finances
-- Underground racing winnings
-- Concert revenue
-- "Charity" scams
-- Vault heist proceeds
-
-## Achievements
-
-### Major Victories
-- Won underground race championship
-- Survived multiple dragon encounters
-- Infiltrated High Forge under lockdown
-- Defeated bounty hunters (Session 25)
-- Killed Helja Ungar, ending Iron Claws control (Session 36)
-- Rescued multiple hostages
-- Red fulfilled his destiny, saving the Skyhammer Clan
-
-### Character Moments
-- Spectacular wrestling victory (Ohma, Session 26)
-- Concert transcendence (Helisanna, Session 1)
-- Red's Skyhammer heritage revealed
-- Olivia's retirement and return
-- Bru's chaotic inventions saving the day repeatedly
-
-### Current Challenges
-
-### Active Threats
-- **Helisanna/Ach'uk**: Separated party member now potential threat
-- **Dragons**: Army descending on High Forge in days
-- **Power Vacuum**: High Forge governance after Iron Claws defeat
-- **Eldoran Empire**: Looming presence and political maneuvering
-- **Reduced Numbers**: Loss of Red to his destiny
-
-### Unresolved Missions
-- Seal dimensional rifts (George's quest)
-- Deal with Helisanna situation
-- Control or stop dragon army
-- Establish stable governance in High Forge
-- Determine legal status after bounty issuer's death
-
-## Team Dynamics
-
-### Leadership Structure
-- No formal leader
-- Silas often handles negotiations and planning
-- Olivia provides wisdom and investigation skills
-- Combat roles flexible based on situation
-
-### Core Strengths
-- Tactical improvisation
-- Technical expertise (Bru, Elspeth)
-- Divine and arcane magic
-- Investigation and infiltration
-- Surprising enemies with chaotic creativity
-
-### Legacy
-
-### Reputation
-- Known throughout High Forge racing scene
-- Formerly wanted by Iron Claws (bounty status unclear)
-- Respected by resistance as liberators
-- Feared by criminals
-- Known for heroic actions in defeating tyranny
-
-### Impact
-- Defeated Iron Claws and killed Helja Ungar
-- Saved numerous civilians
-- Uncovered cosmic secrets
-- Changed High Forge political landscape
-- Sacrificed Red to save the Skyhammer Clan
-- Separated from Helisanna, no longer band members
-
----
-
-*"We're not heroes. We're just people who couldn't stand by and watch tyranny win."* - Party reflection after Iron Claws defeat
+- **[Session 1](/sessions/session-1)** — The party's first night out in High Forge ends with Helisanna's transcendent set at the Little Hovel and a 10,000-gold booking.
+- **[Session 6](/sessions/session-6)** — Elspeth wins the underground race with the whole party's help, and dragons attack High Forge.
+- **[Session 7](/sessions/session-7)** — The party escapes burning High Forge through the Iron Claws' tunnels.
+- **[Session 11](/sessions/session-11)** — Red learns he is Thurnok Skyhammer, a hidden Goliath prince.
+- **[Session 18](/sessions/session-18)** — Jasper Gaines joins the party.
+- **[Interlude 1](/sessions/interlude-1)** — A crowd chants "Taco Cat," the party's band name, during a dance battle.
+- **[Session 22](/sessions/session-22)** — Red is merged into the Skyhammer starship, and the party leaves the Goliaths behind.
+- **[Session 24](/sessions/session-24)** — Jasper leaves for Eldoran; the party heads back toward Iron Claws-held High Forge.
+- **[Session 25](/sessions/session-25)** — The 50,000 bounty on Taco Cat comes to light, and the party recruits Scarlet.
+- **[Session 26](/sessions/session-26)** — Ohma joins as the party slips into High Forge.
+- **[Session 34](/sessions/session-34)** — Helisanna splits in two; Leliana stays with the party.
+- **[Session 36](/sessions/session-36)** — Silas and Bru kill Helja Ungar in the Forge Heart.
+- **[Session 37](/sessions/session-37)** — End of Arc 2: the party helps rebuild High Forge over a month and reaches level 9.
+- **[Session 41](/sessions/session-41)** — The party reseals Astro at Luna's crash site and steals the Order of St. George's orb-tracking data.
+- **[Session 45](/sessions/session-45)** — The pocket village opens, and the party throws Silas a birthday party inside it.
+- **[Session 47](/sessions/session-47)** — Lady Viper receives "Taco Cat" at Twilight Company headquarters.
+- **[Session 52](/sessions/session-52)** — Posing as the Order of St. George, the party routs the Eldoran operation on Luna's remains and revives her.
+- **[Session 53](/sessions/session-53)** — Leliana's candlelit concert pulls belief from the crowd and raises a new moon over Greyport.
+- **[Session 54](/sessions/session-54)** — The party sets out for the Eldoran Empire under the cover name Pupusa Possum.
+- **[Session 57](/sessions/session-57)** — Leliana learns she is both herself and Helisanna, and the party climbs a World Tree into the Eldoran capital.
+- **[Session 62](/sessions/session-62)** — The bombs are placed, and Elspeth tells the legend of Taco Cat to Eldoran factory workers.
+- **[Session 63](/sessions/session-63)** — Bru steals a miniature sun, the party finds six Elspeth clones, and three bombs go off across the capital.

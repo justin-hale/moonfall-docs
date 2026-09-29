@@ -12,14 +12,14 @@ podcastlink: "https://github.com/topherhooper/omelas-stories/releases/tag/v44"
 
 ## Settling In: The Brownstone
 
-After the events at the [Greyport](/locations/greyport) Zoo, the party settles into their Twilight Company safe house—a three-story brownstone with six bedrooms and a rooftop garden that [Olivia](/player-characters/olivia) has already claimed for morning meditation and workouts. [Scarlet](/player-characters/elspeth) arrives in the Broomfall (the party's van), having spent the journey with most of the passenger seats removed to make room for experiments. The van is parked in front of a fire hydrant. This is considered fine.
+After the events at the [Greyport](/locations/greyport) Zoo, the party settles into their Twilight Company safe house—a three-story brownstone with six bedrooms and a rooftop garden that [Olivia](/player-characters/olivia) has already claimed for morning meditation and workouts. [Scarlet](/npcs/scarlet) arrives in the Broomfall (the party's van), having spent the journey with most of the passenger seats removed to make room for experiments. The van is parked in front of a fire hydrant. This is considered fine.
 
-[Scarlet](/player-characters/elspeth) immediately begins assessing the brownstone's living room as a potential experiment space, having left a trail of scorch marks across the van's interior. [Brew](/player-characters/bru) looks at her with what can only be described as professional disappointment.
+[Scarlet](/npcs/scarlet) immediately begins assessing the brownstone's living room as a potential experiment space, having left a trail of scorch marks across the van's interior. [Brew](/player-characters/bru) looks at her with what can only be described as professional disappointment.
 
 > **[Brew](/player-characters/bru):** "Scarlet, I thought you were professional."
-> **[Scarlet](/player-characters/elspeth):** "I'm an engineer. I have a PhD. Even worse."
+> **[Scarlet](/npcs/scarlet):** "I'm an engineer. I have a PhD. Even worse."
 
-Before [Scarlet](/player-characters/elspeth) can claim another space for uncontrolled explosions, [Brew](/player-characters/bru) mentions a better option: Fluke's Workshop, a crafting space down by the coast run by a man named Iro. It's free, open to anyone with a creative spark, and has facilities Scarlet actually needs.
+Before [Scarlet](/npcs/scarlet) can claim another space for uncontrolled explosions, [Brew](/player-characters/bru) mentions a better option: Fluke's Workshop, a crafting space down by the coast run by a man named Iro. It's free, open to anyone with a creative spark, and has facilities Scarlet actually needs.
 
 > **[Brew](/player-characters/bru):** "This guy totally loves me. I'll just go and make the introductions. Easy peasy."
 
@@ -80,7 +80,7 @@ He gives [Elspeth](/player-characters/elspeth) a long, searching look—and deci
 > **[Elspeth](/player-characters/elspeth):** "I never paid taxes, but I have an accountant—"
 > **Iro:** *(laughing)* "I look forward to you clearing your good name then."
 
-The party disperses into work. [Scarlet](/player-characters/elspeth) finds the catalytic chamber she needs and immediately starts running trials on the pocket village. [Liliana](/player-characters/leliana) and [Elspeth](/player-characters/elspeth) settle on the couch by the warmth and get out their knitting and crochet, debating audio book recommendations and romance novel prospects. [Olivia](/player-characters/olivia) makes herself a coffee and relaxes. [Brew](/player-characters/bru) and Silus work on something that turns out to be sensory candles calibrated to [Liliana](/player-characters/leliana)'s concert aesthetic.
+The party disperses into work. [Scarlet](/npcs/scarlet) finds the catalytic chamber she needs and immediately starts running trials on the pocket village. [Liliana](/player-characters/leliana) and [Elspeth](/player-characters/elspeth) settle on the couch by the warmth and get out their knitting and crochet, debating audio book recommendations and romance novel prospects. [Olivia](/player-characters/olivia) makes herself a coffee and relaxes. [Brew](/player-characters/bru) and Silus work on something that turns out to be sensory candles calibrated to [Liliana](/player-characters/leliana)'s concert aesthetic.
 
 > **[Liliana](/player-characters/leliana):** "So, Elizabeth. How do you feel about pushing romance novels? There hasn't been a big name in romance since Caspian."
 
@@ -132,11 +132,11 @@ The party immediately gets to work.
 
 ### Perimeter Defense
 
-The party splits into teams and begins preparing. [Brew](/player-characters/bru) and [Scarlet](/player-characters/elspeth) set up Home Alone-style defenses:
+The party splits into teams and begins preparing. [Brew](/player-characters/bru) and [Scarlet](/npcs/scarlet) set up Home Alone-style defenses:
 - A can of [Brew](/player-characters/bru)'s signature brown material rigged above the front door
 - Greased basement stairs
 - A superheated door handle by the knitting area
-- [Scarlet](/player-characters/elspeth)'s catalytic chamber repurposed as a nearby explosive deterrent
+- [Scarlet](/npcs/scarlet)'s catalytic chamber repurposed as a nearby explosive deterrent
 
 [Liliana](/player-characters/leliana) and [Elspeth](/player-characters/elspeth) take the roof. Silus establishes a psychic party link. [Olivia](/player-characters/olivia) takes the front entrance with Bob, her fay sheep.
 
@@ -154,13 +154,13 @@ He runs. The others, seeing their power-cutting cohort flee, charge across the s
 
 [Liliana](/player-characters/leliana) catches a second attacker's gaze and speaks a single word of Suggestion: *Go home. Go to bed.* He stands there—genuinely thinking it over—and begins walking away.
 
-The remaining thugs make their last stand tangled in [Elspeth](/player-characters/elspeth)'s Web spell (which also catches [Olivia](/player-characters/olivia), who accepts this with the dignity of a veteran). [Scarlet](/player-characters/elspeth) casts Fireball at fifth level. Thirty-five fire damage, plus 2d4 from the web burning away. The smaller thugs don't survive. The largest breaks free of the smoldering web and runs.
+The remaining thugs make their last stand tangled in [Elspeth](/player-characters/elspeth)'s Web spell (which also catches [Olivia](/player-characters/olivia), who accepts this with the dignity of a veteran). [Scarlet](/npcs/scarlet) casts Fireball at fifth level. Thirty-five fire damage, plus 2d4 from the web burning away. The smaller thugs don't survive. The largest breaks free of the smoldering web and runs.
 
 ### The Water Assault
 
 As the street clears, a new threat announces itself from the harbor side of the building: three boats have positioned themselves in the water outside the shop, and their crews are hurling Molotov cocktails from slingshots rigged to the rails.
 
-[Elspeth](/player-characters/elspeth), on the roof, shoots one cocktail mid-flight, detonating it against the boat's own deck. [Scarlet](/player-characters/elspeth) casts Slow on a second crew, freezing them as the Molotov lazily tumbles out of a half-cocked sling.
+[Elspeth](/player-characters/elspeth), on the roof, shoots one cocktail mid-flight, detonating it against the boat's own deck. [Scarlet](/npcs/scarlet) casts Slow on a second crew, freezing them as the Molotov lazily tumbles out of a half-cocked sling.
 
 Then [Liliana](/player-characters/leliana) and [Olivia](/player-characters/olivia) do something wonderfully reckless: they get in the Iron Maiden.
 
@@ -170,7 +170,7 @@ Beneath the hull, the situation grows stranger. [Olivia](/player-characters/oliv
 
 > **[Olivia](/player-characters/olivia):** *(swimming like a barracuda, water-aerobics training finally paying off)* "This is fine."
 
-She takes one hit from the trident—12 damage, though [Scarlet](/player-characters/elspeth)'s Haste means three of his subsequent attacks miss entirely against her 23 AC. Underwater, with disadvantage on the axe, she still hits three times. On the third strike, empowered with divine smite against a fiend, she removes one of the Saojun's forearms. On the next exchange, she removes his head.
+She takes one hit from the trident—12 damage, though [Scarlet](/npcs/scarlet)'s Haste means three of his subsequent attacks miss entirely against her 23 AC. Underwater, with disadvantage on the axe, she still hits three times. On the third strike, empowered with divine smite against a fiend, she removes one of the Saojun's forearms. On the next exchange, she removes his head.
 
 The sharks, suddenly uncompelled, look around in confused circles. [Elspeth](/player-characters/elspeth)'s Web spell catches them before anyone decides to re-engage. Once the Saojun is confirmed dead, the sharks are released. They tip their metaphorical hats and disperse into the harbor.
 
@@ -243,7 +243,7 @@ The craftspeople filter back in as Iro returns the workshop to normal. Somewhere
 
 **[Liliana](/player-characters/leliana):** Pilots Iro's 200-year-old steamboat with a 27 Insight roll, suggesting the Iron Maiden is supernaturally responsive to those defending the workshop. Her mirror-image Benny Hill routine keeps two Barlura occupied long enough for Brew to kill them both with a trap. She is the de facto co-author of what is shaping up to be a multi-volume romance series.
 
-**[Scarlet](/player-characters/elspeth):** Runs the first successful pocket village trial in the catalytic chamber. Also: Fireball at 5th level, Slow on a boat crew, Haste on Olivia, and detailed Home Alone trap engineering. Having access to proper facilities is doing her good.
+**[Scarlet](/npcs/scarlet):** Runs the first successful pocket village trial in the catalytic chamber. Also: Fireball at 5th level, Slow on a boat crew, Haste on Olivia, and detailed Home Alone trap engineering. Having access to proper facilities is doing her good.
 
 **[Brew](/player-characters/bru) and Silus (NPCs):** Brew receives Shield's legacy prank kit and kills two Barlura with a force-ballista trap baited by a gangster recording. Silus establishes psychic comms, kills a thug with a surprise knife, and participates in the mirror-image distraction routine.
 
@@ -262,7 +262,7 @@ The craftspeople filter back in as Iro returns the workshop to normal. Somewhere
 > **Iro:** "You come into my home—my father's home—and you speak to me of rejuvenation. Of beautification. You would take the very soul from it, digest it, and s*** it out like you have everywhere else in this waterfront. I will be damned before I sell it to a parasite like you."
 
 > **[Brew](/player-characters/bru):** "Scarlet, I thought you were professional."
-> **[Scarlet](/player-characters/elspeth):** "I'm an engineer. I have a PhD. Even worse."
+> **[Scarlet](/npcs/scarlet):** "I'm an engineer. I have a PhD. Even worse."
 
 > **[Elspeth](/player-characters/elspeth):** *(on the roof, gun leveled)* "Back off, punk."
 

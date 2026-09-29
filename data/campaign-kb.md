@@ -13,42 +13,62 @@ Christopher "Topher" Hooper (Google Meet: Christopher Hooper). Sometimes players
 | Silas Fairbanks | Taylor Ramsey | Tyram | "Silus", "Cyrus" | silas.md | Halfling rogue/sorcerer, band manager |
 | Bru (Felonias Bru) | Justin Hale | Justin Hale | "Brew", "Bruce" | bru.md | Goblin artificer. ALWAYS "Bru", NEVER "Brew" |
 | Elspeth Cooper | Ali Leonard | Ali Leonard | "Ellsworth", "Elizabeth" | elspeth.md | Dwarf artificer/gunslinger. ALWAYS "Elspeth", NEVER "Ellsworth" or "Elizabeth" |
-| Leliana Goldspring | Luke Neverisky | Luke Neverisky | "Liliana", "Lily Anna", "Leanna" | leliana.md | Human bard. ALWAYS "Leliana", NEVER "Liliana". Emerged from Helisanna in Session 34 |
+| Helisanna Doomfall | Luke Neverisky | Luke Neverisky | "Helisana", "Alisana", "Halisana", "Helisada", "Helana", "Helison", "Helisano", "Helosana", "Pelisana" | helisanna.md | Bard/warlock, frontwoman of Doomfall, patron Ach'uk. Luke's original character (Session 1) and now Leliana's other persona — see below |
+| Leliana Goldspring | Luke Neverisky | Luke Neverisky | "Liliana", "Lily Anna", "Leanna" | leliana.md | Bard (College of Glamour). ALWAYS "Leliana", NEVER "Liliana". One of Luke's two personas — see "Leliana and Helisanna" below. Goes by "Lily" undercover (Session 55) |
 | Olivia Cooper | Ellis Taylor | Ellis Taylor | "Olivia" | olivia.md | Dwarf paladin, retired detective |
 | Ohma Kapua | Zack | Walden Briarhelm | "Oma", "Ohm" | ohma.md | Tortle monk. Joined Session 26 |
+
+### Leliana and Helisanna (one player, two personas)
+Luke Neverisky plays **one woman with two personas**. Write about them this way:
+- **Sessions 1–33:** Luke plays **Helisanna Doomfall**, bard/warlock and frontwoman of Doomfall, bound to the patron Ach'uk.
+- **Session 34 — the split:** near death, Helisanna submits to Ach'uk, then tears free with the help of a dwarven spirit (an avatar of Tyr, through Olivia's spell). Two women stand where one was. From here Luke plays **Leliana Goldspring** (bard, College of Glamour), and Helisanna becomes a **DM-run character** with her own body (the DM confirmed "fully separate… different bodies" in Session 35).
+- **Sessions 35–56:** Helisanna is apart from the party — riding a purple-eyed black dragon (Session 37), occupying the Lotus Casino with her ravers (Interlude XII), later "running things in the South" on an undead dragon (Session 56).
+- **Session 57 — the revelation:** Leliana and Helisanna "were effectively extremes of who you actually were, the two sides of the coin", and "you actually are both of them". With the Blue Moon guitar she can switch between them at will — fully one or fully the other, "for now" no blending.
+- **Sessions 58+:** one person, one body, two personas. Luke switches "like an action"; a quick flip shows as a lightning streak of colour down her right eye. The two are aware of each other ("very controlled… like flipping a switch", Session 63). Helisanna mode carries the vendetta against Captain Steel. When Luke is absent the DM may voice her as Helisanna (Session 60).
+- **Appearance:** Helisanna — pale skin, white hair, dark colours, purple veins. Leliana — tan, blonde, colourful, "bright and summery". Same face and build.
+- **"Anna":** proposed by Bru and Elspeth in Session 58 as a name covering both, and approved at the table, but not used since. The table calls her Leliana/"Lily" or Helisanna depending on who is out.
+- **Open:** whether the separate Helisanna seen in Session 56 merged into her or still exists, and Ach'uk's current hold ("you'll have to wait and see", Session 58).
+- **Roster order matters:** keep the Helisanna row above Leliana's in the table above. The transcript cleaner and the stats extractor map Luke's Meet name to the *last* row that names him, and his transcript lines belong to Leliana from Session 34 on (lines before that are credited to Helisanna by `DATED_SPEAKER_OVERRIDES` in `scripts/extract_session_stats.py`).
+- **In recaps:** name whichever persona is acting ("Leliana, switching to Helisanna, …"). Never treat Helisanna as departed, as an NPC, or as Leliana's patron, and don't call either persona "the original": since Session 57 the DM's framing is that she is "both of them".
 
 ### Player Characters (Departed/Inactive)
 | Character | Status | File | Notes |
 |-----------|--------|------|-------|
 | Red (Thurnok Skyhammer) | Departed — became starship consciousness | red.md | Goliath cleric. NEVER "Scarlet" |
-| Helisanna Doomfall | Departed — left party Session 34 | helisanna.md | Human bard/warlock. Leliana split from her |
 | Jasper Gaines | Departed — left party Session 24 | jasper.md | Human fighter. Now runs Gaines Bankery/Brewery/Bakery in Greyport |
 
 ### NPCs (Recurring)
 | NPC | Role | File | Transcript Aliases |
 |-----|------|------|--------------------|
-| Victor | Explosives expert, resistance fighter, former Twilight Company | victor.md | |
+| Victor | Explosives expert; works with Lady Viper and the Twilight Company (lab under the Greyport zoo) | victor.md | |
 | Iro | Workshop keeper, son of legendary Fluke | iro.md | "Ero" |
 | Lady Viper (Elizandra Legrand) | Twilight Company leader/founder | lady-viper.md | "Lady Vyper" |
 | Astro (Astroleinomininoirnoxus) | Dragon imprisoned in Raingoth orb | astro.md | "Astra" |
 | Naomi | Lotus Casino manager, Silas's girlfriend, mother to Julius | naomi.md | |
-| Roscoe | Twilight Company operative | roscoe.md | |
+| Roscoe | Warforged Twilight Company operative | roscoe.md | |
 | Lark | Former Iron Claws member, resistance insider | lark.md | |
-| Lady Corwin | Noblewoman, resistance leader | lady-corwin.md | |
+| Lady Corwin | Noblewoman, resistance leader (deceased Session 36) | lady-corwin.md | |
 | Chalk Rock | Young dwarf detective, Olivia superfan | chalk-rock.md | |
 | Bafael | Monk, Ohma's brother, Order of St. George | bafael.md | |
-| Ach'uk (Ruthalk) | Primordial entity, Helisanna's warlock patron | achuk.md | |
+| Ach'uk (Ruthalk) | Primordial entity, Helisanna's warlock patron. Status unknown since Session 57 | achuk.md | "Yichek", "Eek", "Echek" |
 | Helja Ungar | Iron Claws leader (deceased Session 36) | helja-ungar.md | |
 | Zeke | Suspected assassin, murdered Red's adoptive parents | zeke.md | |
 | George | Olivia's grandson (calls her "Grandma"; youngest of her grandchildren), dimensional rift investigator, Twilight Company plant in the Eldoran city guard (Session 58). Species never stated — do not call him half-elf | george.md | |
-| Captain Steel | Eldoran officer, gaunt and half-machine (he/him). Murdered Leliana's brother, Lieutenant Steven Goldspring (Session 57); resides at the university (Session 58). ALWAYS "Captain" — the DM confirmed it in Session 62. NOT the head scientist, and the head scientist's wife is not his wife | — | "Commander Steel" |
+| Captain Steel | Eldoran officer, gaunt and half-machine (he/him). Murdered Leliana's brother, Lieutenant Steven Goldspring (Session 57); resides at the university (Session 58). ALWAYS "Captain" — the DM confirmed it in Session 62. NOT the head scientist, and the head scientist's wife is not his wife | captain-steel.md | "Commander Steel" |
 | Steven Goldspring | Leliana's late brother, a lieutenant; left her the Blue Moon guitar (Session 57). Transcripts also spell him "Stephen" | — | |
-| Finnegan | Active Twilight Company agent Lady Viper sends with the party; supplies the bomb-making materials (Session 54). Male | — | |
-| Fredo Boggins | Tony-icon shop owner in the Eldoran capital; sold the dampening stickers (Session 60) | — | |
+| Finnegan | Active Twilight Company agent Lady Viper sends with the party; supplies the bomb-making materials (Session 54). Male | finnegan.md | |
+| Fredo Boggins | Tony-icon shop owner in the Eldoran capital; sold the dampening stickers (Session 60) | fredo-boggins.md | |
 | Ben Boulage | Private detective, party contact in the Eldoran capital; arranged the Bon Bonnery meet (Session 59). Disguises himself as a blonde woman as "standard cover" | — | "Bin Bullage", "Bim Bulage", "Ben Bulage" |
 | Bon Bonnery | Actor and inside man at the Eldoran spaceport factory (Session 59) | — | "Bon Bonner", "Bon Boner", "Pon Poty" |
 | April Bonal | Chemist, escaped captive | april-bonal.md | |
-| Scarlet | Keeper of the pocket village capsule | — | |
+| Scarlet | Topher's character: a ~300-year-old elf engineer who keeps the pocket village capsule. He plays her as a PC when a guest DMs (e.g. Session 44) and voices her as DM otherwise. NOT Red, NOT Elspeth | scarlet.md | |
+| Luna | Moon goddess; resurrected Session 52; new moon made at Leliana's concert (Session 53) | luna.md | |
+| Lord Bradicus | Arms-dynasty heir who ran the televised mercenary death-game (Sessions 54–58) | lord-bradicus.md | |
+| Belspeth Booper | Elspeth's impostor ("the Other Cooper"), a racing double — NOT her sister | belspeth-booper.md | |
+| Crowley | Fae antagonist; took Gary (Session 51) | crowley.md | |
+| Gary | Wrestling champion ("Gary 365"), Iro's brother, held by Crowley | gary.md | |
+| Toothy | Twilight Company safehouse keeper in the Eldoran capital (room 238) | toothy.md | |
+| Cassandra | Eldoran spaceport factory worker and Elspeth's friend (Sessions 60, 62) | cassandra.md | |
 | Elder Ragar | Goliath elder, Skyhammer Clan leader | elder-ragar.md | |
 
 ## Locations
@@ -60,8 +80,10 @@ Christopher "Topher" Hooper (Google Meet: Christopher Hooper). Sometimes players
 | Grimvar's Spine | Grimvar's Spine | "Grimvar Spine" | Skyhammer Clan mountain home |
 | Gold Road | Gold Road | | Major trade route |
 | Little Hovel | Little Hovel | | Music venue where crisis began |
-| Milstrom | Milstrom | | Forbidden location |
+| Milstrom | Milstrom | | Red's hometown; the party's base in Sessions 8–13, 18 and 23 |
 | Lakeshore Vale | Lakeshore Vale | | Dimensional village within trials |
+| Little Cradle | Little Cradle | | Merchant town outside the Eldoran capital (Sessions 54–55) |
+| Sexy Peacock | Sexy Peacock | | Family motel and restaurant in the Eldoran capital; George's meeting spot (Sessions 57–58) |
 
 ## Known Transcription Errors
 
@@ -103,6 +125,16 @@ These are systematic speech-to-text mistakes that appear in generated notes:
 ## Session Correction Log
 
 Corrections applied via `/fix-notes` are logged here for pattern detection.
+
+### Session 63 (2026-09-25) and the Leliana/Helisanna reconciliation (2026-09-29)
+- Fixed: an out-of-character answer from Luke ("aware of each other… very controlled… just flipping a switch") was presented as something Leliana reported in the story and embellished with "cohabiting peacefully rather than warring" [confirmed against transcript]
+- Fixed: "demonstrated her dual identity in the field" — no persona switch happens in Session 63; replaced with her World Tree scouting [confirmed against transcript]
+- Fixed: Captain Steel never questioned Bru. He sent the foreman away through his office door, berated Olivia, tore the furnace door open and flew off, then spotted Bru just before Bru escaped with Misty Step [confirmed against transcript]
+- Fixed: the drink and the persuasion 18 were with the foreman, not Tuni; "collapsed" was the foreman's word, not Bru's; the quote is Olivia's "Yes. I just pour the forges." in answer to Steel; "lying to a superior officer" → to his foreman [confirmed against transcript]
+- Fixed: Ali Leonard/Elspeth listed as present — she never speaks in the Session 63 transcript; Elspeth's "vibing with the soldiers" was Taylor describing last session's lake party to Ellis; the Bugatti never cleared the wall — the jump was proposed after the DM ended the session [confirmed against transcript]
+- Fixed across the site: Helisanna was described as "departed", "fully possessed" or an antagonist, and Leliana as "the original personality" living in a separate body. The canon is now one player, one woman, two personas (see "Leliana and Helisanna" above) [confirmed against transcripts, Sessions 34, 35, 56–58, 63]
+
+**Pattern:** table talk (a player explaining how they play their character) gets recorded as an in-world event. Check whether a line was said in character before it goes into the story.
 
 ### Sessions 53–62 audit (2026-09-28)
 A full audit of the ten most recent recaps against their transcripts, triggered by the user reporting "Commander Steel" (should be Captain Steel). Sessions 58–62 carry a signed correction notice; sessions 53–57 predate the arc and were fixed silently.

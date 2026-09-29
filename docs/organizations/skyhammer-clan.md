@@ -1,287 +1,43 @@
 ---
 title: Skyhammer Clan
-description: Goliath clan and Red's true heritage
-sidebar_position: 5
+description: Goliath clan of Grimvar's Spine and Red's birth family, who merged Red into their starship (Session 22); their village stood abandoned by Session 38
+aliases: ["Skyhammers", "Skyhammer clan"]
 ---
 
 # Skyhammer Clan
 
-*Goliath Tribe • Ancient Bloodline • Starship Guardians*
+*Goliath Clan • Starship Builders • Red's Birth Family*
 
 ## Overview
 
-The **Skyhammer Clan** is an ancient Goliath tribe living on **Grimvar's Spine** mountain. They possess unique magical abilities connected to their bloodline, including the power to operate an ancient starship. Red (Thurnok Skyhammer) is the lost prince of this clan, hidden by Twilight Company to protect him from the Eldoran Empire.
+The **Skyhammer Clan** is a Goliath clan whose village stood near the summit of [Grimvar's Spine](/locations/grimvars-spine). They were building starships to reach space and, the party was told, to challenge Eldora's artificial moon. Their ship could only be powered by someone of the main Skyhammer bloodline. [Red](/player-characters/red), the party's cleric, turned out to be that bloodline's lost prince, **Thurnok Skyhammer**. When the clan put him into the ship in Session 22, it took him over permanently. The party left the Goliaths in disgust.
 
-## Location
-
-### Grimvar's Spine Mountain
-- Remote mountain location
-- Two-and-a-half-day journey to reach
-- Treacherous terrain requiring mountaineering skills
-- Cold environment (magical cloaks needed)
-- Isolated from other civilizations
-
-### The Wormhole Trials
-**The "Worms Tunnel"**:
-- Mystical passage carved by ancient serpent
-- Reality-warping trials for bloodline verification
-- Only main Skyhammer bloodline can survive
-- Tests prove heritage and unlock abilities
-- Necessary to power the starship
-
-## History and Heritage
-
-### Ancient Origins
-- Pre-dates current civilizations
-- Connected to cosmic/celestial events
-- Guardians of ancient technology (starship)
-- Artistic traditions (tattoo styles)
-- Oral history and legends
-
-### The Bloodline Power
-**Unique Ability**:
-- Only Skyhammer bloodline can power their spacecraft
-- Knowledge lost when Red's birth parents died
-- Trials either unlock knowledge or kill pretenders
-- Passed down through main family line
-- Critical to clan's purpose and identity
-
-### Loss of Knowledge
-**Tragedy**:
-- Red's birth parents (Marion and Robert Cross) murdered
-- Knowledge of how bloodline power works died with them
-- Clan lost contact with hidden prince
-- Trials remain as only path to rediscovery
-- Desperate situation without heir
-
-## Leadership
-
-### Elder Ragar
-**Clan Leader**:
-- Recognized Red's tattoo style matching clan traditions
-- Explained the bloodline trials
-- Believes trials will unlock knowledge or kill Red
-- Saddened by Marion and Robert's murder
-- Responsible for clan's survival
-
-### Council Structure (Implied)
-- Elder system of governance
-- Preservation of traditions and knowledge
-- Guardianship of starship and trials
-- Isolated decision-making
-
-## The Starship
-
-### Ancient Vessel
-**Mysterious Craft**:
-- Requires Skyhammer bloodline to operate
-- Purpose unclear (escape? exploration? weapon?)
-- Technology beyond current understanding
-- Central to clan's identity and purpose
-
-### Lost Operation Knowledge
-**Critical Problem**:
-- Method of powering ship died with Red's parents
-- Clan cannot use their most important asset
-- Trials are desperate attempt to recover knowledge
-- Without heir, ship remains dormant
+**Status as of Session 63:** gone from the mountain. By Session 38 their village was abandoned, and two [Eldoran](/organizations/eldoran-empire) soldiers were tearing it down. The recaps do not say where the clan or their ship went. The party still holds a grudge against the Goliaths for what was done to Red.
 
 ## Red's Heritage
 
-### Birth and Hiding (Session 11 Revelation)
+- **The journal:** Red's adoptive mother Marion Cross left a journal, which [Roscoe](/npcs/roscoe) gave him. It revealed that Red was adopted, that his real name was Thurnok Skyhammer, and that the [Twilight Company](/organizations/twilight-company) had placed the Crosses in hiding to protect him from the Eldoran Empire (Session 11).
+- **Recognition:** In the village, [Elder Ragar](/npcs/elder-ragar), the clan's ancient leader, recognised the clan's style in Red's tattoo, which together with his birth name confirmed who he was. The clan was saddened to learn the Crosses had been murdered; they had lost touch with them (Session 17).
+- **The massacre:** The clan told the party that when Red was an infant, Eldoran knights attacked the village, killed most of its warriors, and took its scientists and technology (Session 17).
 
-**True Identity**:
-- **Real Name**: Thurnok Skyhammer
-- **Status**: Goliath prince, main bloodline
-- **Parents**: Marion and Robert Cross (cover names)
-- **Protection**: Hidden by Twilight Company from Eldoran Empire
+## The Village and the Ship
 
-### Physical Evidence
-**Red's Tattoo**:
-- Style matches Skyhammer clan artistic traditions
-- Recognized immediately by Elder Ragar
-- Proof of heritage before trials
-- Connection to birth parents
+The party found a solarpunk village where technology blended into the mountain. It ran on white crystals similar to, but distinct from, Eldoran violescence, and its guards carried railguns (Session 17). Ragar explained that only the main bloodline could power the clan's spacecraft, and that the knowledge of how had died with Red's birth parents. To prove himself, Red had to survive the trials of the **Worms Tunnel**, a passage carved by an ancient serpent (Session 17).
 
-**Birth Name**:
-- Knowledge of "Thurnok Skyhammer" helped establish identity
-- Marion and Robert told him before deaths
-- Key to clan recognition
+- **The trials:** Inside, the party solved Goliath tile puzzles and met Sol, a star-touched dragon guardian who answered Red's riddle and gave him a tomahawk from his parents. Sol sent the party through a portal to the astral tree and the trapped village of [Lakeshore Vale](/locations/lakeshore-vale) (Sessions 20–21).
+- **The sacrifice:** The party came back to a blizzard and found an Eldoran knight, Eric, cutting down Goliath guards while Eldoran soldiers set off an avalanche. With the launch at stake, the clan's elder urged Red into a humanoid chamber in the ship, calling it "his destiny". Ports connected to his spine and nervous system, and his consciousness merged with the ship. He soon warned that the ship had taken him over rather than the other way round. After the battle, [Bru](/player-characters/bru) found Red could not be removed without killing him. In grief and rage Bru stabbed the elder in the gut and swore that all goblins were now the clan's enemies. The party refused to join the clan's "space colonization mission", looted Eric's crystal armour and Goliath technology, and left (Session 22).
+- **The blueprints:** The party later studied the rocket ship blueprints they had taken, and Silas worried the design needed a living sacrifice to run (Session 23).
 
-### The Trials (Session 20)
+## The Abandoned Village
 
-**Red's Test**:
-- Entered the Worms Tunnel for trials
-- Party accompanied him through challenges
-- Solved ancient puzzles
-- Met star-touched dragon
-- Descended into chaotic village of Lakeshore Vale
-- Trials ongoing/completion status unclear
+On the way to Greyport the party returned for the reality stones [Scarlet](/npcs/scarlet) needed to stabilise the [pocket village](/locations/pocket-village). The village was deserted and half torn down. Two Eldoran soldiers, protected by a crystal-powered force field, were feeding its materials into an oven-sized cube: a "threshold" relaying matter to a "point alpha" somewhere else. At the table the players made clear they still hated the Goliaths for turning Red into "a battery", but hated the Eldorans too. They sabotaged the machine and took the stones (Session 38).
 
-**Purpose**:
-- Prove Skyhammer heritage
-- Unlock bloodline power knowledge
-- Learn to power the starship
-- Or die in the attempt
+## Session History
 
-## Relationship with Other Powers
-
-### Twilight Company
-**Alliance**:
-- Twilight Company hid Red from Eldoran Empire
-- Placed Marion and Robert as foster parents
-- Protected Skyhammer bloodline
-- Long-term strategic partnership implied
-
-**Purpose**:
-- Preserve important bloodline
-- Protect from imperial persecution
-- Maintain cosmic balance (speculation)
-
-### Eldoran Empire
-**Enemy**:
-- Empire wants Red/Thurnok dead or controlled
-- Reason unclear (threat? resource? prophecy?)
-- Marion and Robert killed (Zeke as agent?)
-- Ongoing imperial threat to clan
-
-**Imperial Interest**:
-- Why does Empire care about Goliath prince?
-- Starship technology desired?
-- Bloodline power threat to Empire?
-- Prophecy or strategic concern?
-
-### Dragons
-**Connection Unclear**:
-- Star-touched dragon in trials
-- Ancient cosmic entities
-- Possible historical relationship
-- Starship and dragons both cosmic-scale
-
-## Cultural Traditions
-
-### Artistic Expression
-- Distinctive tattoo styles
-- Recognized across generations
-- Marks of heritage and identity
-- Passed down through families
-
-### Trial System
-- Reality-warping tests for heritage
-- Only true bloodline survives
-- Proves identity and unlocks power
-- Ancient serpent's creation
-
-### Isolation
-- Remote mountain dwelling
-- Limited contact with outside world
-- Preservation through isolation
-- Self-sufficient community
-
-## Current Status
-
-### Critical Situation
-**Problems**:
-- No heir with knowledge to power starship
-- Lost contact with hidden prince (now restored)
-- Knowledge died with Marion and Robert
-- Trials risky but only option
-
-**Hope**:
-- Red/Thurnok returned (Session 17)
-- Trials underway (Session 20)
-- Bloodline preserved
-- Possible recovery of knowledge
-
-### Red's Journey
-**Ongoing**:
-- Trials in progress
-- Learning heritage and purpose
-- Growing into role as prince
-- Balancing adventuring party with clan duty
-
-## Starship Purpose (Speculation)
-
-### Possible Functions
-**Escape**:
-- Flee apocalyptic event
-- Evacuation from cosmic threat
-- Survival of clan/species
-
-**Exploration**:
-- Cosmic travel and discovery
-- Contact with other worlds
-- Ancient celestial missions
-
-**Weapon**:
-- Defense against cosmic threats
-- Tool against dragons or other entities
-- Strategic deterrent
-
-**Unknown**:
-- Purpose lost to time
-- Multiple functions
-- Activated only in specific circumstances
-
-## Significance
-
-### To Red's Character Arc
-- True identity beyond pacifist cleric
-- Prince with cosmic destiny
-- Responsibility to preserve bloodline
-- Choice between party and clan duty
-
-### To Campaign
-- Cosmic-scale implications
-- Ancient technology and powers
-- Conflict with Eldoran Empire
-- Connection to larger cosmic events
-
-### To Themes
-- **Heritage vs. Choice**: Born prince, chose cleric
-- **Destiny**: Prophecy and bloodline
-- **Power**: Ancient abilities and responsibilities
-- **Identity**: Thurnok vs. Red, prince vs. adventurer
-
-## Mysteries
-
-### Unanswered Questions
-- Why does Eldoran Empire fear/want Skyhammer bloodline?
-- What is starship's true purpose?
-- What happened to rest of main bloodline?
-- Are there other hidden Skyhammer descendants?
-- What do trials actually unlock?
-- Connection to dragons and cosmic entities?
-
-### Future Implications
-- Will Red master starship?
-- Can clan survive without their ship?
-- Will Empire attack clan directly?
-- What role does starship play in larger campaign?
-
-## Related Characters
-- [Red/Thurnok Skyhammer](/player-characters/red) - Lost prince
-- **Elder Ragar** - Clan leader
-- **Marion and Robert Cross** - Red's murdered parents
-- [Roscoe](/npcs/roscoe) - Twilight Company agent who revealed truth
-- **Zeke** - Possibly involved in parents' murder
-
-## Related Organizations
-- [Twilight Company](/organizations/twilight-company) - Protectors and allies
-- [Eldoran Empire](/organizations/eldoran-empire) - Enemy
-- [Taco Cat](/organizations/taco-cat) - Red's chosen family
-
-## Key Sessions
-- **Session 11**: Red's true heritage revealed by Roscoe
-- **Session 17**: Party meets Elder Ragar, learns about trials and starship
-- **Session 20**: Red enters Worms Tunnel for trials
-
-## Geographic Features
-- **Grimvar's Spine**: Mountain home
-- **The Worms Tunnel**: Trial passage
-- **Lakeshore Vale**: Village within trial space
-- **Starship Location**: Presumably at clan settlement
-
----
-
-*"Only someone of the Skyhammer bloodline can power our spacecraft. The knowledge of how this works was lost when your parents died. The trials will either unlock this knowledge or kill you in the attempt."* - Elder Ragar, Session 17
+- **[Session 11](/sessions/session-11)** — Marion Cross's journal reveals that Red is Thurnok Skyhammer, a Goliath prince hidden from the Eldoran Empire.
+- **[Session 17](/sessions/session-17)** — The party reaches the Skyhammer village; Elder Ragar confirms Red's identity and explains the starship, the massacre, and the Worms Tunnel trials.
+- **[Session 20](/sessions/session-20)** — Red's trials begin; Sol gives him a tomahawk from his parents and sends the party to Lakeshore Vale.
+- **[Session 21](/sessions/session-21)** — The trial continues among Lakeshore Vale's trapped villagers until Sol reappears.
+- **[Session 22](/sessions/session-22)** — Eldoran forces attack the village; Red is merged into the starship; Bru stabs the elder, and the party leaves the clan behind.
+- **[Session 23](/sessions/session-23)** — The party studies the Skyhammer rocket blueprints.
+- **[Session 38](/sessions/session-38)** — The village stands abandoned; the party stops two Eldoran soldiers stripping it and takes the reality stones.

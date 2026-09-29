@@ -401,7 +401,7 @@
       "top_npcs": {
         "Scarlet": 46,
         "Naomi": 11,
-        "George": 2
+        "Crowley": 2
       },
       "fun": {
         "nat20_mentions": 0,
@@ -467,9 +467,9 @@
         }
       ],
       "top_npcs": {
+        "Gary": 3,
         "George": 2,
-        "Iro": 2,
-        "Scarlet": 1
+        "Iro": 2
       },
       "fun": {
         "nat20_mentions": 0,
@@ -804,8 +804,8 @@
       ],
       "top_npcs": {
         "George": 6,
-        "Astro": 1,
-        "Chalk Rock": 1
+        "Gary": 3,
+        "Astro": 1
       },
       "fun": {
         "nat20_mentions": 2,
@@ -872,8 +872,8 @@
       ],
       "top_npcs": {
         "George": 23,
-        "Victor": 10,
-        "Naomi": 6
+        "Luna": 14,
+        "Victor": 10
       },
       "fun": {
         "nat20_mentions": 0,
@@ -939,9 +939,9 @@
         }
       ],
       "top_npcs": {
+        "Luna": 34,
         "George": 23,
-        "Astro": 21,
-        "Bafael": 8
+        "Astro": 21
       },
       "fun": {
         "nat20_mentions": 1,
@@ -1007,9 +1007,9 @@
         }
       ],
       "top_npcs": {
+        "Luna": 11,
         "Victor": 10,
-        "George": 6,
-        "Astro": 1
+        "George": 6
       },
       "fun": {
         "nat20_mentions": 1,
@@ -1076,8 +1076,8 @@
       ],
       "top_npcs": {
         "Victor": 61,
-        "George": 3,
-        "Astro": 1
+        "Luna": 10,
+        "George": 3
       },
       "fun": {
         "nat20_mentions": 0,
@@ -1139,7 +1139,7 @@
       "top_npcs": {
         "Iro": 33,
         "Scarlet": 22,
-        "Victor": 1
+        "Gary": 11
       },
       "fun": {
         "nat20_mentions": 0,
@@ -1262,8 +1262,8 @@
       ],
       "top_npcs": {
         "Victor": 17,
-        "Naomi": 16,
-        "Astro": 10
+        "Luna": 16,
+        "Naomi": 16
       },
       "fun": {
         "nat20_mentions": 0,
@@ -1317,9 +1317,9 @@
         }
       ],
       "top_npcs": {
+        "Luna": 32,
         "Victor": 23,
-        "Iro": 20,
-        "Lady Viper": 18
+        "Iro": 20
       },
       "fun": {
         "nat20_mentions": 0,
@@ -1375,7 +1375,7 @@
       "top_npcs": {
         "Astro": 10,
         "Lady Viper": 10,
-        "Victor": 4
+        "Luna": 10
       },
       "fun": {
         "nat20_mentions": 0,
@@ -1441,9 +1441,9 @@
         }
       ],
       "top_npcs": {
-        "Scarlet": 2,
-        "Iro": 1,
-        "Victor": 1
+        "Belspeth Booper": 6,
+        "Luna": 6,
+        "Scarlet": 2
       },
       "fun": {
         "nat20_mentions": 0,
@@ -1502,7 +1502,10 @@
           "word_share": 0.0752
         }
       ],
-      "top_npcs": {},
+      "top_npcs": {
+        "Belspeth Booper": 4,
+        "Luna": 3
+      },
       "fun": {
         "nat20_mentions": 1,
         "nat1_mentions": 0
@@ -1567,8 +1570,9 @@
         }
       ],
       "top_npcs": {
+        "Gary": 72,
         "Iro": 19,
-        "Naomi": 1
+        "Luna": 18
       },
       "fun": {
         "nat20_mentions": 0,
@@ -1628,9 +1632,9 @@
         }
       ],
       "top_npcs": {
-        "Iro": 24,
-        "Scarlet": 15,
-        "George": 12
+        "Luna": 41,
+        "Gary": 28,
+        "Iro": 24
       },
       "fun": {
         "nat20_mentions": 0,
@@ -1692,7 +1696,7 @@
       "top_npcs": {
         "Scarlet": 25,
         "Iro": 21,
-        "George": 5
+        "Luna": 6
       },
       "fun": {
         "nat20_mentions": 1,
@@ -1882,9 +1886,9 @@
         }
       ],
       "top_npcs": {
+        "Luna": 8,
         "Scarlet": 8,
-        "George": 5,
-        "Iro": 2
+        "George": 5
       },
       "fun": {
         "nat20_mentions": 0,
@@ -2020,7 +2024,7 @@
       "top_npcs": {
         "George": 47,
         "Victor": 15,
-        "Captain Steel": 4
+        "Toothy": 12
       },
       "fun": {
         "nat20_mentions": 0,
@@ -2119,7 +2123,7 @@
       "top_npcs": {
         "Scarlet": 37,
         "Victor": 10,
-        "Captain Steel": 2
+        "Cassandra": 7
       },
       "fun": {
         "nat20_mentions": 0,
@@ -2224,7 +2228,7 @@
       "top_npcs": {
         "George": 35,
         "Scarlet": 24,
-        "Finnegan": 8
+        "Cassandra": 8
       },
       "fun": {
         "nat20_mentions": 0,

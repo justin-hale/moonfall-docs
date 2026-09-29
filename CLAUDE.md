@@ -6,8 +6,7 @@ This is a Docusaurus site (v3.9.2) serving as the documentation site for a D&D c
 ## Key Directories
 - `docs/sessions/` - Session recaps (session-N.md, interlude-N.md)
 - `docs/transcripts/` - Cleaned transcripts (.md and .json)
-- `docs/npcs/` - NPC character pages
-- `docs/locations/` - Location pages
+- `docs/npcs/`, `docs/locations/`, `docs/organizations/` - Wiki pages. Each ends in a `## Session History` section that the generator appends to after every recap (`scripts/wiki_update.py`); give a page `aliases:` in its frontmatter so recaps that use another name still reach it
 - `data/campaign-kb.md` - Campaign knowledge base (canonical names, errors, plot threads)
 - `data/campaign-state.md` - Auto-updating running memory of all sessions
 - `data/publication-arc.json` - Publication meta-narrative config (writer personas, storyline beats)
@@ -39,6 +38,9 @@ sessions 58 and 59, fabricated podcast URLs, "Brew" for Bru). Details in
 - Eldoran is ALWAYS "Eldoran", NEVER "Elderan"
 - Greyport is ALWAYS "Greyport", NEVER "Grayport"
 - Astro is ALWAYS "Astro", NEVER "Astra"
+
+## Leliana and Helisanna (one player, two personas)
+Luke Neverisky plays one woman with two personas. Helisanna Doomfall was his original character. She split apart in Session 34, and the DM ran her as a separate character through Session 56. Since Session 57 Leliana and Helisanna have been "two sides of the same coin": one person who switches between the personas at will. Never describe Helisanna as departed, as an NPC, or as Leliana's patron, and don't call either persona "the original" (since Session 57 she is "both of them"). The full account, and how to write about her, is in the "Leliana and Helisanna" section of `data/campaign-kb.md`.
 
 ## Session File Format
 ```yaml

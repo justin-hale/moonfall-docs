@@ -1,330 +1,42 @@
 ---
 title: George
-description: Olivia's grandson and Project Purple Patch investigator
-sidebar_position: 10
+description: Olivia's grandson, a Twilight Company operative the party has rescued twice, now embedded in the Eldoran city guard as their inside man
+aliases: ["George Cooper", "Georgie Boy"]
 ---
 
 # George
 
-*Investigator • Olivia's Grandson • Dimensional Rift Specialist*
+*Olivia's Grandson • Twilight Company Operative • Inside Man in the Eldoran Guard*
 
 ## Overview
 
-**George** is Olivia's grandson and a dedicated investigator working on **Project Purple Patch**, the effort to understand and seal the mysterious dimensional rifts appearing throughout the realm. His work addresses cosmic-level threats that could have catastrophic consequences for reality itself.
+**George Cooper** is [Olivia](/player-characters/olivia)'s grandson and the youngest of her grandchildren. He calls her "Grandma", and [Elspeth](/player-characters/elspeth) calls him her cousin. A young [Twilight Company](/organizations/twilight-company) operative, he first drew the party north when he vanished investigating dimensional rifts for Project Purple Patch. They pulled him out of the Shadowfell (Session 16) and later out of an Iron Claws hostage cage in the Great Hall (Session 36). He then volunteered as the Company's inside man in [Eldoran](/locations/eldoran), and as of Session 63 he is embedded in the city guard under cover. He briefed the party on the three sabotage targets for their strike on the city (Sessions 58 and 62) and got out of the barracks after Leliana warned him before the bomb went off. His species has never been stated.
 
-## Basic Information
+## Background
 
-### Identity
-- **Relation**: Olivia's grandson (the youngest of her grandchildren)
-- **Occupation**: Investigator/Researcher
-- **Specialization**: Dimensional rifts and supernatural phenomena
-- **Project**: Purple Patch investigation team
-- **Status**: Active investigator
+- **Family:** He is Olivia's grandson. She has always tried to look out for him, and he says she also inspires him "to be brave and be involved and try to do what's right."
+- **Twilight Company:** He learned cocktail-making and lockpicking from his mentor, Agent Finnegan, and defends the Company to Olivia as working against the Empire. His colour-coded journals recorded Project Purple Patch (an investigation of dimensional rifts), feuds among [High Forge](/locations/high-forge)'s gangs, and a Church of Tyr pilgrimage led by Father Jacob.
+- **The party's view:** Olivia is fiercely protective of him. The rest of the table, Silas above all, feels they have done nothing but bail him out, and they groaned when they learned he had signed up for undercover work in Eldoran.
 
-### Physical Description
-- Details not documented
-- Species not established
-- Mid-twenties by human reckoning
-- Professional investigator appearance likely
+## Relationships
 
-## Family Connection
+- **[Olivia](/player-characters/olivia):** His grandmother. She broke open a rift with Divine Smite to reach him, and she is torn between pride and fear over his undercover work.
+- **[Elspeth](/player-characters/elspeth):** His cousin.
+- **[Silas](/player-characters/silas):** Taught him lockpicking on the climb up Grimvar's Spine and pickpocketed him as a "test", but has little patience for him.
+- **[Finnegan](/npcs/finnegan):** His Twilight Company mentor and contact, who put the party in touch with him in Eldoran.
+- **[Leliana](/player-characters/leliana):** His psychic contact during the Eldoran operation. She warned him to clear the barracks before the bomb went off.
 
-### Olivia's Family
-**Grandmother and Grandson**:
-- Olivia is his grandmother; he calls her "Grandma"
-- Family relationship established
-- Presumably knows her as famous warlock/investigator
-- May have inspired his investigation career
-- Family connection to party through Olivia
+## Session History
 
-### Shared Investigative Interest
-**Following in Footsteps**:
-- Olivia: Famous investigator and warlock
-- George: Supernatural phenomenon investigator
-- Family tradition of confronting unknown
-- Similar dedication to protecting realm
-- Different specializations but aligned goals
-
-## Project Purple Patch
-
-### The Investigation
-**Dimensional Rift Study**:
-- Leading or participating in investigation
-- Understanding rift phenomena
-- Determining causes and solutions
-- Sealing rifts if possible
-- Preventing catastrophic breakthrough
-
-### The Threat
-**Cosmic-Level Danger**:
-- Dimensional rifts tearing reality
-- Unknown entities potentially entering realm
-- Reality destabilization risk
-- Apocalyptic potential
-- Urgency of investigation
-
-### Research Approach
-**Scientific Method**:
-- Studying rift patterns
-- Analyzing supernatural energy
-- Testing sealing methods
-- Documenting phenomena
-- Theoretical and practical work
-
-## Professional Capabilities
-
-### Investigation Skills
-**Research Abilities**:
-- Supernatural phenomenon expert
-- Analytical thinking
-- Documentation and recording
-- Pattern recognition
-- Problem-solving focus
-
-### Dimensional Knowledge
-**Specialized Expertise**:
-- Understanding of planar mechanics
-- Rift formation comprehension
-- Reality stability concepts
-- Magical theory application
-- Cutting-edge supernatural science
-
-## Connection to Campaign Threats
-
-### Ach'uk and Cosmic Entities
-**Related Dangers**:
-- Ancient primordial entities (Ach'uk)
-- Dimensional boundaries weakening
-- Cosmic-level threats manifesting
-- Multiple reality breaches possible
-- Interconnected supernatural crises
-
-### Eldoran Empire Interest
-**Imperial Concern** (Session 10):
-- Empire warning travelers about Milstrom
-- Knights monitoring supernatural disturbances
-- Imperial interest in dimensional threats
-- Possible cooperation or competition with George
-- Strategic implications of rift knowledge
-
-### Joel Connection
-**Potential Ally** (Session 35):
-- Joel mentioned as powerful entity who might help against Ach'uk
-- George potentially knows of Joel
-- Network of supernatural experts
-- Coordinated response to cosmic threats
-- Shared interest in realm stability
-
-## Relationship with Taco Cat
-
-### Through Olivia
-**Family Connection**:
-- Grandmother is party member
-- Aware of their heroics
-- Potential ally through family
-- Shared goals (protecting realm)
-- Resource for supernatural problems
-
-### Professional Interest
-**Party's Involvement**:
-- Taco Cat dealing with cosmic-level threats
-- Ach'uk manifestation relevant to rift research
-- Helisanna's possession dimensional aspect?
-- Party might assist investigation
-- Mutual benefit potential
-
-## Current Work (Campaign Period)
-
-### Active Investigation
-**Ongoing Research**:
-- Studying rift locations
-- Testing sealing methods
-- Documenting findings
-- Coordinating with others
-- Race against time
-
-### Challenges Faced
-**Investigation Obstacles**:
-- Rifts highly dangerous to study
-- Limited understanding of phenomena
-- Resources and expertise needed
-- Time pressure (worsening situation)
-- Potential casualties from research
-
-## Personality and Characteristics
-
-### Dedication
-**Committed Investigator** (Implied):
-- Takes cosmic threats seriously
-- Willing to face danger for answers
-- Scholarly but practical
-- Protective of realm
-- Family trait of confronting unknown
-
-### Professional Demeanor
-**Investigator Mindset**:
-- Analytical and methodical
-- Evidence-based approach
-- Careful documentation
-- Strategic thinking
-- Balances caution with urgency
-
-## Project Purple Patch Team
-
-### Organization Structure
-**Investigation Group**:
-- George as member or leader
-- Other investigators/researchers likely
-- Coordination with authorities
-- Resource allocation
-- Information sharing protocols
-
-### Resources and Support
-**Backing**:
-- Who funds Project Purple Patch?
-- Academic institution? Government?
-- Private benefactors?
-- Eldoran Empire involved?
-- Independent or official project?
-
-## Locations and Operations
-
-### Field Sites
-**Rift Locations**:
-- Multiple rift appearances throughout realm
-- Milstrom possibly major site
-- High Forge area rifts?
-- Travel required for investigation
-- Dangerous field work
-
-### Research Base
-**Headquarters**:
-- Where is Project Purple Patch based?
-- Laboratory or field operations?
-- Records and equipment storage
-- Meeting location for team
-- Safe distance from rifts?
-
-## Potential Future Involvement
-
-### Party Assistance
-**Possible Collaboration**:
-- Taco Cat's cosmic-level threat experience
-- Ach'uk information relevant
-- Helisanna's dimensional aspects
-- Party's combat capabilities
-- Shared enemy: reality collapse
-
-### Information Exchange
-**Mutual Benefit**:
-- George's rift knowledge helps party
-- Party's Ach'uk experience helps George
-- Joel contact information
-- Sealing methods for cosmic entities
-- Strategic cooperation
-
-### Crisis Response
-**If Rifts Worsen**:
-- George requests party help
-- Emergency sealing mission
-- Entity breakthrough prevention
-- Sacrificial solutions needed?
-- Heroic intervention required
-
-## Expertise Areas
-
-### Dimensional Mechanics
-**Theoretical Knowledge**:
-- Planar boundaries understanding
-- Reality stability concepts
-- Dimensional energy flows
-- Breach mechanics
-- Sealing methodologies
-
-### Practical Application
-**Field Experience**:
-- Direct rift observation
-- Sealing attempt experience
-- Danger assessment
-- Protective measures
-- Emergency protocols
-
-## Significance
-
-### To Campaign
-**Cosmic Threat Context**:
-- Explains dimensional instability
-- Connects to Ach'uk threat
-- Provides expert resource
-- Escalates stakes (reality itself)
-- Potential quest giver
-
-### To Olivia's Character
-**Family Connection**:
-- Shows her family background
-- Shared investigative tradition
-- Personal stakes in cosmic threats
-- Family pride in George's work
-- Potential character development hook
-
-### To Themes
-- **Knowledge**: Understanding unknowable
-- **Sacrifice**: Dangerous investigation for greater good
-- **Cosmic Horror**: Reality-threatening dangers
-- **Expertise**: Specialists confronting unprecedented threats
-- **Family**: Legacy of confronting darkness
-
-## Related Characters
-- [Olivia Marcella](/player-characters/olivia) - Grandmother, famous investigator/warlock
-- **Joel** - Powerful entity, possible ally against cosmic threats
-- [Ach'uk](/npcs/achuk) - Ancient entity possibly related to rift phenomena
-- **Project Purple Patch Team** - Fellow investigators
-
-## Related Organizations
-- **Project Purple Patch** - Investigation team/organization
-- [Eldoran Empire](/organizations/eldoran-empire) - Interest in dimensional phenomena
-- [Taco Cat](/organizations/taco-cat) - Potential allies through Olivia
-- [Twilight Company](/organizations/twilight-company) - Possibly monitoring cosmic threats
-
-## Related Locations
-- **Milstrom** - Possibly major rift site (Eldoran warning suggests supernatural danger)
-- **Rift Locations** - Multiple sites throughout realm
-- [High Forge](/locations/high-forge) - Party's base, potential rift activity
-
-## Key Sessions
-- **Referenced but not directly appeared**: Mentioned in context of dimensional threats and Project Purple Patch
-
-## Future Possibilities
-
-### Quest Hooks
-- George requests party's help with major rift
-- Information about Joel provided
-- Ach'uk connection to rifts revealed
-- Emergency sealing mission
-- Olivia's family drama involving George
-
-### Plot Developments
-- Rifts worsen dramatically
-- Entity breakthrough occurs
-- George discovers crucial information
-- Sacrifice required to seal rifts
-- Connection between all cosmic threats revealed
-
-## Mysteries
-
-### Unanswered Questions
-- How did George get involved in rift investigation?
-- What has he learned about rifts so far?
-- How dangerous is his work?
-- Has he encountered entities through rifts?
-- Does he know about Ach'uk specifically?
-- Connection to Joel and how to contact him?
-- Who funds/supports Project Purple Patch?
-
----
-
-*"My grandson George is investigating these dimensional rifts. He calls it Project Purple Patch. Reality itself is tearing, and he's trying to figure out how to stitch it back together."* - Olivia explaining George's work
-
-*"The rifts aren't just appearing randomly. There's a pattern. A purpose. Something is trying to break through, or something on our side is letting them in."* - George's research hypothesis
-
-*"If we don't seal these rifts soon, there won't be a realm left to save. The party can defeat gangs and monsters, but can they fight reality itself unraveling?"* - Project Purple Patch urgency
+- **[Session 2](/sessions/session-2)** — Olivia investigates George's disappearance and learns he was seen with a halfling named Finnegan. He left a note saying to find his lockbox if he went missing.
+- **[Session 3](/sessions/session-3)** — Olivia finds his colour-coded journals on Project Purple Patch and learns he was last seen heading north on a Church of Tyr pilgrimage by way of Milstrom.
+- **[Session 10](/sessions/session-10)** — The party learns that George and Finnegan passed through the tunnels on the pilgrimage.
+- **[Session 15](/sessions/session-15)** — On Grimvar's Spine the party finds George's belongings and journal at a corrupted shrine. The journal records visions of dark figures waiting on the other side of a rift.
+- **[Session 16](/sessions/session-16)** — George calls out from beyond a rift into the Shadowfell, and Olivia smites it open to rescue him and the pilgrims. He admits to his Twilight Company training under Finnegan.
+- **[Session 17](/sessions/session-17)** — He travels with the party up Grimvar's Spine, holding forth on Project Purple Patch and the goliath clans, while Silas teaches him lockpicking.
+- **[Session 36](/sessions/session-36)** — He is among the Iron Claws' hostages in the Great Hall, and the party frees him from his cage.
+- **[Session 54](/sessions/session-54)** — Finnegan reveals that George volunteered to go undercover in Eldoran's forces and checks in weekly by sending stone. Olivia takes the stone.
+- **[Session 58](/sessions/session-58)** — He meets the party at the Sexy Peacock in city-guard uniform, explains he has spent months infiltrating the guard for the Twilight Company, and names three sabotage targets: the spaceport factory, the university research facility and the barracks.
+- **[Session 60](/sessions/session-60)** — Scouting the barracks, the party glimpses him leaving a building across a courtyard of chained prisoners.
+- **[Session 61](/sessions/session-61)** — The party spots him running laps with his squadron. When Leliana contacts him by message spell, he puts off meeting until later at the Sexy Peacock.
+- **[Session 62](/sessions/session-62)** — He helps finalise the three-pronged strike, advising a midday blast and warning of a citywide lockdown, and takes the barracks lookout post. After Leliana arms the bomb, she psychically warns him to get out.

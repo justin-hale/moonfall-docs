@@ -12,11 +12,11 @@ podcastlink: "https://github.com/topherhooper/omelas-stories/releases/tag/v45"
 
 ## Something Is Happening Inside the Box
 
-Breakfast at the Twilight Company brownstone begins with [Scarlet](/player-characters/elspeth) bursting through the door, wide-eyed, clipboard clutched to her chest and covered in equations. She's been up all night.
+Breakfast at the Twilight Company brownstone begins with [Scarlet](/npcs/scarlet) bursting through the door, wide-eyed, clipboard clutched to her chest and covered in equations. She's been up all night.
 
 The pocket village prototype is no longer behaving like a prototype. Overnight, without any additional calibration, the interdimensional space has begun generating its own internal environment: hills, streams, weather, terrain—all of it appearing without prompting. The sky inside feels too close, she says. She can't explain why.
 
-> **[Scarlet](/player-characters/elspeth):** "It's beyond any of the calibrations I should be able to do in the lab. It's very odd. It's *very* odd."
+> **[Scarlet](/npcs/scarlet):** "It's beyond any of the calibrations I should be able to do in the lab. It's very odd. It's *very* odd."
 
 She wants [Victor](/npcs/victor)'s lab. His measurement equipment is the only thing in [Greyport](/locations/greyport) precise enough to help her tune the resonance and stabilize the space.
 
@@ -24,7 +24,7 @@ She wants [Victor](/npcs/victor)'s lab. His measurement equipment is the only th
 
 > **[Silus](/player-characters/silas):** "We've got a pretty robust itinerary of his zoo schedule. He gets there around eleven. Hot dogs are at lunch."
 
-[Scarlet](/player-characters/elspeth) also raises a secondary concern—with some delicacy—that her instruments at the workshop have been behaving strangely whenever [Silus](/player-characters/silas) is nearby. She has tracked the effect across multiple visits and is fairly confident *something he's carrying* is interfering with her readings. She would like to measure it properly. She would also, diplomatically, like to note that [Silus](/player-characters/silas) is "intelligent in different ways" than the kind of person who would understand her charts.
+[Scarlet](/npcs/scarlet) also raises a secondary concern—with some delicacy—that her instruments at the workshop have been behaving strangely whenever [Silus](/player-characters/silas) is nearby. She has tracked the effect across multiple visits and is fairly confident *something he's carrying* is interfering with her readings. She would like to measure it properly. She would also, diplomatically, like to note that [Silus](/player-characters/silas) is "intelligent in different ways" than the kind of person who would understand her charts.
 
 > **[Silus](/player-characters/silas):** "I liked you better when you were just in the van all the time."
 
@@ -32,7 +32,7 @@ She wants [Victor](/npcs/victor)'s lab. His measurement equipment is the only th
 
 The brownstone's roof garden turns out to be well-suited for intelligence work. Under a pergola draped with hanging jasmine, the party spreads out across picnic tables with a direct sightline to the zoo's main gate and the bench in front of the chimera enclosure. It is a beautiful spring morning. [Liliana](/player-characters/leliana) makes tea. Someone mentions a fire pit. [Silus](/player-characters/silas) and [Liliana](/player-characters/leliana) begin brainstorming the Iro romance novel in earnest. The working title remains in flux. The consensus about what the cover should look like does not.
 
-[Brew](/player-characters/bru) and [Elspeth](/player-characters/elspeth) announce they need to go shopping—fireworks components, racing parts, and the materials [Scarlet](/player-characters/elspeth) needs for the pocket village. [Elspeth](/player-characters/elspeth) elects to attempt a disguise: a British accent.
+[Brew](/player-characters/bru) and [Elspeth](/player-characters/elspeth) announce they need to go shopping—fireworks components, racing parts, and the materials [Scarlet](/npcs/scarlet) needs for the pocket village. [Elspeth](/player-characters/elspeth) elects to attempt a disguise: a British accent.
 
 > **[Brew](/player-characters/bru):** "I feel like it's not helpful to have a disguise halfway through being in the place."
 > **[Elspeth](/player-characters/elspeth):** "I just thought of it. I'm also not changing my appearance. It's just the voice."
@@ -149,17 +149,17 @@ Kevin—[Brew](/player-characters/bru)'s mechanical companion—executes a syste
 
 ## The Pocket Village
 
-At [Iro](/npcs/iro)'s workshop, the welcome from Iro himself is easy and warm—though he does accept [Scarlet](/player-characters/elspeth)'s arrival with characteristic understatement. She moves immediately to the catalytic chamber and begins hooking up Victor's calibration instruments around it. [Silus](/player-characters/silas)'s backpack is warm to the touch—the dragon orb radiating like a space heater, the smell of ozone coming off it. Someone could get used to that, or not.
+At [Iro](/npcs/iro)'s workshop, the welcome from Iro himself is easy and warm—though he does accept [Scarlet](/npcs/scarlet)'s arrival with characteristic understatement. She moves immediately to the catalytic chamber and begins hooking up Victor's calibration instruments around it. [Silus](/player-characters/silas)'s backpack is warm to the touch—the dragon orb radiating like a space heater, the smell of ozone coming off it. Someone could get used to that, or not.
 
-[Scarlet](/player-characters/elspeth) and Victor work with the focus of two people who have not previously met but immediately recognize a kindred obsession. The instruments go up. The sensors ring the chamber. [Scarlet](/player-characters/elspeth) runs through calibrations. And then:
+[Scarlet](/npcs/scarlet) and Victor work with the focus of two people who have not previously met but immediately recognize a kindred obsession. The instruments go up. The sensors ring the chamber. [Scarlet](/npcs/scarlet) runs through calibrations. And then:
 
-> **[Scarlet](/player-characters/elspeth):** "That's it. That's it. A little more—yes. Right there. It's happening. Everyone gather around."
+> **[Scarlet](/npcs/scarlet):** "That's it. That's it. A little more—yes. Right there. It's happening. Everyone gather around."
 
 Through the chamber's small window, the party watches. From a spinning blue void, something dark and organic emerges—wooden roots, spreading through the dimensional space, wrapping around the portal's edges like fingers finding purchase. A shape forms. Heavy hardwood. A door, knotted and ancient-looking, settling into existence with a low, resonant hum.
 
 The blast door opens with a submarine-style wheel-turn and a hiss of pressure.
 
-> **[Scarlet](/player-characters/elspeth):** "Brew, Ellsworth—would you like to do the honors? You've spent so much time on this."
+> **[Scarlet](/npcs/scarlet):** "Brew, Ellsworth—would you like to do the honors? You've spent so much time on this."
 
 [Elspeth](/player-characters/elspeth) steps through first.
 
@@ -261,7 +261,7 @@ The session ends.
 
 ## Notable Quotes
 
-> **[Scarlet](/player-characters/elspeth):** "It's beyond any of the calibrations I should be able to do in the lab. Hills are forming. Streams are appearing. It's *very* odd."
+> **[Scarlet](/npcs/scarlet):** "It's beyond any of the calibrations I should be able to do in the lab. Hills are forming. Streams are appearing. It's *very* odd."
 
 > **[Silus](/player-characters/silas):** "I liked you better when you were just in the van all the time."
 

@@ -1,202 +1,36 @@
 ---
 title: Chalk Rock
-description: Young detective and Olivia superfan
-sidebar_position: 2
+description: Young dwarf detective and Olivia superfan who led High Forge's evacuation and now runs the city alongside Grimjaw
+aliases: ["Rock Chalk"]
 ---
 
 # Chalk Rock
 
-*Dwarf Detective • Olivia Fanboy • Civilian Protector*
+*Dwarf Detective • Olivia Superfan • Co-Leader of High Forge*
 
 ## Overview
 
-**Chalk Rock** is a 16-year-old dwarf detective with an obsessive admiration for retired detective **Olivia Cooper**. Despite his youth, anxiety, and social awkwardness, he demonstrates genuine competence in investigation and planning, particularly when working from his office rather than in field situations.
+**Chalk Rock** is a 16-year-old dwarf detective in [High Forge](/locations/high-forge) with an obsessive admiration for retired detective [Olivia Cooper](/player-characters/olivia). He was recently hired when the party met him, working [April Bonal](/npcs/april-bonal)'s missing persons case. During the battle against the [Iron Claws](/organizations/iron-claws) he led the civilian evacuation of the city. Since Helja's fall (Session 37) he has run High Forge alongside the "softening" Grimjaw, and by Session 38 Olivia's daily training had turned him buff and confident. He stayed in High Forge when the party left for [Greyport](/locations/greyport) and has not appeared in person since.
 
-## Personal Information
+## Personality
 
-### Physical Description
-- 16-year-old dwarf
-- Young for a detective
-- Often appears nervous in social situations
-
-### Personality Traits
-- **Anxious**: Uncomfortable in social settings
-- **Obsessive**: Unhealthy level of admiration for Olivia
-- **Dedicated**: Deeply committed to detective work
-- **Self-Aware**: Knows he's "not good outside this office"
-- **Well-Intentioned**: Genuinely wants to help and protect civilians
-
-## Professional Career
-
-### Detective Work
-- Recently hired as detective
-- Works from police precinct office
-- Specializes in missing persons cases
-- Better at investigation and planning than fieldwork
-
-### Investigation Style
-- **Thorough**: Creates detailed tactical displays
-- **Visual**: Uses maps, cross-sections, and figurines
-- **Analytical**: Connects patterns across cases
-- **Prepared**: Writes everything down in advance
-- **Strategic**: Plans civilian evacuation and coordination
-
-## Obsession with Olivia Cooper
-
-### The Superfan
-- Unhealthy level of admiration for Olivia
-- Created elaborate tactical display in precinct bullpen
-- Display includes:
-  - Detailed city maps showing Iron Claws positions
-  - Cross-sections of High Forge's three-dimensional layout
-  - Figurines of each Taco Cat party member seated around table
-  - **Empty chair at head for Olivia**
-- Talks to himself/imagined versions of party
-- Wistfully wishes for similar mentor-student relationship like Ohma and Litu
-
-### Professional Respect
-Beyond obsession, genuine respect for Olivia's skills:
-- Studies her methods
-- Follows her approach to investigation
-- Aspires to her level of competence
-- Maintains professional standards she exemplified
-
-## Major Cases
-
-### April Bonal Investigation (Session 32-33)
-**Missing Person Case**:
-- Investigated disappearance of April Bonal (human socialite from chocolate trading family)
-- Last seen at Doomfall concert months ago
-- Connected to other missing persons:
-  - Casey Bones
-  - Bernardo (tortle)
-  - Montgomery Bell
-  - Taylor Kyler Moore
-- All linked to synthesis lab where party rescued test subjects
-- Led party to Rattie's Pie Land
-- Case ultimately resolved when April found in sewers
-
-### Civilian Protection Planning (Session 35)
-**Evacuation Coordination**:
-- Developed comprehensive civilian evacuation plan
-- Coordinating with old Tear leaders
-- Prepared speech for convincing religious authorities
-- Wrote everything down knowing he's better at planning than public speaking
-- Party recognized his competence and good intentions
-
-## The Precinct Display (Session 35)
-
-### Discovery by Party
-During infiltration of old police precinct, party found Chalk Rock's tactical center:
-
-**Physical Setup**:
-- Elaborate display in bullpen
-- Detailed maps of entire city
-- Three-dimensional cross-sections
-- Figurines representing each party member
-- Empty chair for Olivia (symbolic of his loneliness and desire for mentorship)
-
-**Overheard Planning**:
-- Talking through strategy alone
-- Working on civilian protection
-- Preparing for upcoming conflict
-- Demonstrating competence despite isolation
-
-**Party Reaction**:
-- Liliana expressed faith in his ability to succeed
-- Party recognized he's competent and well-intentioned
-- Understood his social anxiety and need for structure
-- Took maps without disturbing him
+- **Anxious but competent:** Before Helja's fall he was socially awkward and better at planning than fieldwork. He wrote his speeches out in advance because, as he reminded himself, "you're not good outside this office."
+- **Olivia superfan:** He models himself on Olivia and talks through his plans with an imagined version of her.
+- **Transformed:** In Session 38 he strides into Bernardo's pizza shop chest-out and muscular, ordering pies "for the boys" at the police office. Olivia has been working with him daily.
 
 ## Relationships
 
-### With Olivia Cooper
-- **His Perspective**: Obsessive admiration, desire for mentorship
-- **Her Awareness**: Knows of him, unclear on extent of his obsession
-- **Nature**: One-sided hero worship with professional respect
+- **[Olivia](/player-characters/olivia):** His idol. She is the one party member who likes him, calling him "very competent, just very awkward", and she put him in charge. She spent days after the battle teaching him how to run an orderly, democratic city and gave him a personal sending stone.
+- **[Elspeth](/player-characters/elspeth):** Openly dislikes him. She taught the teenagers to drive but refused to teach him, and she points out every new ding he puts in the F-150 to Olivia.
+- **[Silas](/player-characters/silas):** Finds him insufferable, and liked him even less once he started thriving.
+- **Grimjaw:** Former Iron Claws leader who now governs High Forge with him.
+- **[April Bonal](/npcs/april-bonal):** The subject of his missing persons case. After Session 37 her group agreed to work with him on distributing the looted vault gold.
 
-### With Taco Cat
-- **Awareness**: Knows who they are and tracks their activities
-- **Contact**: Limited direct interaction
-- **Attitude**: Appears to want to help despite their criminal status
-- **Connection**: Through Olivia primarily
+## Session History
 
-### With Litu and Ohma (Session 35)
-- Observed master-student relationship with jealousy
-- Had dinner with Litu at April's encampment
-- Discussed mentorship relationships
-- Represents what he wishes he had with Olivia
-
-## Character Development
-
-### Strengths
-- **Investigation**: Excellent at connecting cases and evidence
-- **Planning**: Creates comprehensive strategic plans
-- **Visualization**: Uses maps and displays effectively
-- **Dedication**: Committed to protecting civilians
-- **Self-Knowledge**: Aware of his limitations
-
-### Weaknesses
-- **Social Anxiety**: Uncomfortable in field situations
-- **Obsessive Behavior**: Unhealthy fixation on Olivia
-- **Youth**: Limited experience (only 16)
-- **Public Speaking**: Knows he struggles outside office
-- **Isolation**: Works alone with imagined companions
-
-### Growth Potential
-- Could develop into excellent detective with experience
-- Needs mentorship to channel obsession productively
-- Has skills and dedication to succeed
-- Could overcome social anxiety through practice
-
-## Significance to Story
-
-### Comic Relief
-- Obsessive superfan behavior provides humor
-- Talking to imagined versions of party
-- Elaborate shrine-like display
-- Contrast between competence and social awkwardness
-
-### Genuine Competence
-- Despite comedy, actually good at his job
-- Civilian protection plans are solid
-- Investigation skills legitimate
-- Represents competent "normal" authorities
-
-### Symbolic Role
-- Represents civilians party affects
-- Shows impact of Olivia's legacy
-- Demonstrates good people in broken systems
-- Bridge between party and normal society
-
-## Current Activities
-
-### Pre-Great Hall Battle (Session 35)
-- Finalizing civilian evacuation plans
-- Coordinating with old Tear leaders
-- Preparing speeches for religious authorities
-- Working from police precinct office
-- Unaware of party infiltrating building
-
-### Post-Session 36
-- Status unclear after Great Hall battle
-- Likely implementing civilian protection plans
-- Probably aware of Iron Claws leadership changes
-- May need to work with new governance structure
-
-## Future Potential
-
-### Possible Storylines
-- Could become actual mentee to Olivia
-- May play role in post-Iron Claws governance
-- Could provide valuable civilian protection during ongoing conflicts
-- Might grow into capable detective with experience
-
-### Relationships
-- Olivia might take him seriously as protégé
-- Could develop friendship with party beyond obsession
-- May connect with other young NPCs (balanced development)
-
----
-
-*"I know I'm not good outside this office, so I'm writing everything down."* - Chalk Rock, planning his speech (Session 35)
+- **[Session 32](/sessions/session-32)** — At the Little Hovel the party meets Detective Chalk Rock, who is investigating the disappearance of April Bonal and other missing people linked to the synthesis lab.
+- **[Session 33](/sessions/session-33)** — He leads the party to Rattie's Pie Land, where the trail runs into the sewers to April's encampment.
+- **[Session 35](/sessions/session-35)** — Sneaking through the old precinct for a map, the party finds his elaborate battle display, with figurines of the party around a table and an empty chair at its head. They overhear him planning to get civilians out of the city with the help of the old community leaders.
+- **[Session 36](/sessions/session-36)** — He wakes the party with news that the Iron Claws have taken hostages in the Great Hall.
+- **[Session 37](/sessions/session-37)** — He leads hundreds of civilians out of High Forge, then takes charge of the city with Grimjaw. Olivia coaches him on governing, the F-150 becomes his government vehicle, and April's group agrees to work with him on the vault gold.
+- **[Session 38](/sessions/session-38)** — Weeks later, he is buff and confident after daily training with Olivia, running the city smoothly with Grimjaw. The F-150 stays with him when the party leaves for Greyport.
