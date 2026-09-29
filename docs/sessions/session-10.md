@@ -34,8 +34,8 @@ The group lists their reasons for entering Milstrom:
 - [Red](/player-characters/red)'s personal ties: family history and suspected involvement of the Twilight Company.
 - Possible show venue for [Helisanna](/player-characters/helisanna) at the Common Mug tavern.
 
-### Enter: The Vroomfall & Party Debate
-- The party discusses tactics (talking vs. explosions) in their crowded Vroomfall van, full of allies and passengers.
+### Enter: The Zoomfall & Party Debate
+- The party discusses tactics (talking vs. explosions) in their crowded Zoomfall van, full of allies and passengers.
 - Political and social topics emerge, including the status of tieflings, who are recent hellspawn refugees, and commentary on racial/species mechanics in D&D.
 - The party debates decision-making processes and considers votes, brute strength, and past combat performance.
 
@@ -61,7 +61,7 @@ The group lists their reasons for entering Milstrom:
   - Directions to the corrupted shrine, detailed via a drunkenly hand-drawn but decipherable map.
   - Information about Willemay’s dissent and religious alignment (devoted to Tyr).
   - Confirmation that the town is under subtle magical corruption stemming from [Red](/player-characters/red) Lennon—a literal devil from hell.
-  - Insights about [Olivia](/player-characters/olivia)'s nephew Finnegan and George, who passed through these tunnels in pursuit of a pilgrimage.
+  - Insights about Finnegan and [Olivia](/player-characters/olivia)'s grandson George, who passed through these tunnels in pursuit of a pilgrimage.
 
 ### The Pilgrim Route and Next Steps
 - The party uses Roscoe's tunnels and map to plan their approach.

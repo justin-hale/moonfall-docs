@@ -42,7 +42,7 @@ The party's suspicion sharpens as the memory itself hits Leliana for 8 psychic d
 
 Straenona explains the rules like a grim Ghost of Christmas Past. She takes wanderers from one painful memory to the next, but she will not enter the final one. Stray from the path and **the ghost dog** — a phantom she also calls "Eg" — will eat you or transform you. To keep it at bay, she gifts the party a **bone** the dogs won't cross for a while. At the end of the path lies a **Dead Forest** where everything has died, and the only way through is to bring a **new seed** to replant it.
 
-The party remembers they are carrying exactly that: a **World Tree seed** taken from an alternate-universe Scarlet's home. Olivia, ever practical, offers up sliced tomatoes, carrots, and PB&Js from her packed lunches. Food and curiosity buy Straenona's cooperation, and Leliana braces herself to keep walking. She should be far stronger this time through, having lived everything that comes after.
+The party remembers they are carrying exactly that: a **World Tree seed**, given to Bru by the dying world tree Matthew Broadtwig in [Interlude XI](/sessions/interlude-11). Olivia, ever practical, offers up sliced tomatoes, carrots, and PB&Js from her packed lunches. Food and curiosity buy Straenona's cooperation, and Leliana braces herself to keep walking. She should be far stronger this time through, having lived everything that comes after.
 
 ### Steven Joins the Army
 
@@ -108,7 +108,7 @@ When the roots connected, the Dead Forest linked back to the birth of Helisanna 
 
 The World Tree bursts up through a park in **Eldora's capital city**, and the party climbs out into a hyper-advanced world: hovercraft, drones, a space shuttle launching from the harbor, glowing lamp posts, shimmering shape-shifting fabrics, and citizens with cybernetic red-glowing eyes. Meanwhile, on the distant game-show feed, vines and tomato plants and a giant potato are erupting out of the library floor — the far end of the same seed.
 
-The city is powered by five giant floating crystals of iridescence arranged in a pentagon, one at the spaceport, beaming purple energy down to distributed pylons. Elspeth immediately scouts them as sabotage targets. The inner ring is affluent and mostly human; the outer worker rings are diverse, with dwarves running shops — but goblins are conspicuously absent from every work crew, and halflings, gnomes, and orcs serve as labor.
+The city is powered by five giant floating crystals of violescence arranged in a pentagon, one at the spaceport, beaming purple energy down to distributed pylons. Elspeth immediately scouts them as sabotage targets. The inner ring is affluent and mostly human; the outer worker rings are diverse, with dwarves running shops — but goblins are conspicuously absent from every work crew, and halflings, gnomes, and orcs serve as labor.
 
 The party disguises themselves to blend in: Silas as a human child, then a street urchin, with Leliana posing as a wealthy jogging mother and the others as nannies and children. Their old cover — winning Bradicus's contest — is void, since they never actually won it, so they'll need a new story and must stash their weapons and magic items in the portable hole to slip past the city's magic detectors. Their contact **Finnegan** points them to **George Cooper** ("Georgie Boy"), now embedded in the city guard, to be met at a bar on the outskirts called the **Sexy Peacock**, where soldiers gather after their shifts. The session ends as the party walks in the door.
 

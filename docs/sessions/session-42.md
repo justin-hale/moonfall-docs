@@ -16,29 +16,40 @@ The session opens immediately where the previous ended—with the rebinding ritu
 
 > **Dragon Knight:** "We got a live one!"
 
-Three grappling hooks spring from Captain Buckle's vessel, piercing an **adult blue dragon** circling overhead. The dragon lets out a roar that reverberates through the hollow ocean and unleashes its breath weapon—a devastating lightning strike that arcs across the ritual site.
+Three grappling hooks spring from Captain Buckle's vessel, piercing an **adult blue dragon** skimming just above the 300-foot walls of water. [Olivia](/player-characters/olivia) summons **Bob**, her steed, and she and [Elspeth](/player-characters/elspeth)—the two who thought to wear life vests—plunge into the water wall and start floating for the surface.
+
+The dragon lets out a roar that reverberates through the hollow ocean and unleashes its breath weapon—a devastating lightning strike that arcs across the ritual site.
 
 **Dexterity Saving Throw DC 19:**
-- **[Olivia](/player-characters/olivia):** Success (30 damage)
-- **[Elspeth](/player-characters/elspeth):** Success (30 damage)
-- **[Ohma](/player-characters/ohma):** Success (30 damage)
 - **[Leliana](/player-characters/leliana):** Success (30 damage)
 - **[Bru](/player-characters/bru):** Success (30 damage)
 - **[Silas](/player-characters/silas):** Success (evasion reduces to 0 damage)
+- **[Olivia](/player-characters/olivia)** and **[Elspeth](/player-characters/elspeth):** Already clear of the blast in the water
 
-[Silas](/player-characters/silas)'s rogue evasion allows him to completely avoid the lightning, but everyone else takes significant damage from the dragon's opening salvo.
+[Silas](/player-characters/silas)'s rogue evasion allows him to completely avoid the lightning. He then teleports onto Olivia's back and sticks there with his **Cloak of Arachnida** as she rises. [Leliana](/player-characters/leliana)—who, being a sheltered non-risk-taker, had of course also grabbed a life vest—shoots up the water wall after them, and [Bru](/player-characters/bru) fires his force ballista cannon to propel himself up past the life-vest crew (Arcana 23).
+
+The dragon answers with a fearsome roar aimed at the ship, a shattering sound blast that splinters wood and kills a sailor at the point of impact.
 
 ## Underwater Combat
 
 ### Olivia Mounts Up
 
-[Olivia](/player-characters/olivia), ever the tactician, immediately summons **Bob the Battle Buddy** (her Find Steed mount) and uses his 60-foot teleportation to phase-step directly onto the dragon's back. From this elevated position, she swings her battle axe with divine fury.
+Surfacing beside the ship, [Olivia](/player-characters/olivia) uses **Bob**'s 60-foot teleportation to phase-step directly onto the dragon's back—Silas still stuck to her. Channeling divinity, she swings her battle axe.
 
 **Attack Results:**
-- First attack: 27 (hit, 21 damage with Divine Smite)
+- First attack: 27 (hit, 21 damage with Shining Smite)
 - Second attack: 26 (hit, 12 damage)
 
 She attempts to use her Topple mastery to knock the dragon prone (DC 21), but the creature's massive constitution saves it from the effect.
+
+### The Dragon's Roar
+
+The dragon turns on the party members still in the water with another thunderous roar.
+
+**Constitution Saving Throw DC 18:**
+- **[Leliana](/player-characters/leliana):** 21, success (6 thunder damage)
+- **[Bru](/player-characters/bru):** 19, success (6 thunder damage)
+- **[Elspeth](/player-characters/elspeth):** 12, failure (13 thunder damage)
 
 ### The Dragon Dives
 
@@ -48,194 +59,152 @@ The sudden submersion creates chaos. Two of the three St. George knights lose th
 
 ### Silas's Mobility
 
-[Silas](/player-characters/silas), ever adaptable, had been velcro-clinging to [Olivia](/player-characters/olivia)'s back using his **Cloak of Arachnida**. As the dragon dives, he makes a split-second decision.
+[Silas](/player-characters/silas) unsticks himself from [Olivia](/player-characters/olivia) and clings to the dragon itself.
 
 **Athletics Check:** 22 (with psychic die boost)
 
-[Silas](/player-characters/silas) manages to stick to the dragon itself, then immediately uses his bonus action to throw a psychic dagger at the surface, teleporting away from the underwater death trap.
+Holding his breath—with a Constitution modifier of zero, he has no time to spare—he stabs the dragon for 25 psychic damage, then uses his bonus action to throw a psychic dagger at the surface, teleporting away from the underwater death trap.
 
 > **[Silas](/player-characters/silas)** (via psychic phone): "I am no good in water. Good luck. Bye."
 
-He scrambles up the side of the ship using spider climb, getting to safety while the others face the submerged threat.
+He swims for the ship and hauls himself aboard (Athletics 18).
 
 ### Olivia's Dilemma
 
-[Olivia](/player-characters/olivia), mounted on Bob 50 feet underwater, realizes this is a fight she can't win. She abandons the dragon and uses Bob's movement to swim toward the surface—but at half speed underwater, they're still dangerously deep.
+[Olivia](/player-characters/olivia), mounted on Bob 50 feet underwater (Constitution +5, enough breath for five rounds), realizes this is a fight she can't win. With Silas gone, she abandons the dragon, and Bob dashes her back to the surface and aboard the ship.
 
-**Constitution Modifier:** +5 (can hold breath for 5 rounds)
+### Elspeth Under the Hull
 
-### Bru's Engine Crisis
+The ship lurches as the dragon slams into it from below. [Elspeth](/player-characters/elspeth) takes a deep breath and dives under the boat to inspect the damage (Investigation 23): a big dent in the steel underbelly, holding for now. The engines look intact—they simply aren't running. She reports over the psychic phone that there's no hole yet, but the boat can't take much more.
 
-[Bru](/player-characters/bru), having propelled himself up to the surface using his force ballista cannon, sprints below decks to the engine room. There he finds [Leliana](/player-characters/leliana), who had used **Healing Word** (23 HP) to bring him back from unconsciousness after the first lightning strike.
+### Bru Enlarges the Ship
 
-The dragon's dive included a **devastating slam into the ship's hull**—targeting the engines specifically. The sound of metal grinding and water beginning to seep in echoes through the engine room.
+[Bru](/player-characters/bru) uses his cannon to catapult himself onto the deck (Arcana 18) and casts **Enlarge** on the entire ship, making it sturdier, before racing below decks toward the engine room. As he arrives, something outside begins tearing at the engines.
+
+### The Dragon Strikes Back
+
+The dragon attacks [Silas](/player-characters/silas), who has leapt back down to stab at it, slamming him into the side of the boat (Uncanny Dodge halves the blow). [Leliana](/player-characters/leliana), flying above the deck via her mandolin's Fly, tries to **Polymorph** the dragon; it burns a legendary resistance, and the concentration costs her the flight.
+
+Then the dragon breathes lightning straight through the ship. [Olivia](/player-characters/olivia) saves (19) and takes 34; [Bru](/player-characters/bru) and [Leliana](/player-characters/leliana) fail, take the full 69, and both drop unconscious.
+
+The party scrambles:
+- **[Elspeth](/player-characters/elspeth)** climbs aboard and uses Misty Step and Lay on Hands to bring Leliana back up
+- **[Bru](/player-characters/bru)** makes a death saving throw: a 7, boosted to a success at 10 by [Olivia](/player-characters/olivia)'s **Aura of Protection**
+- **[Olivia](/player-characters/olivia)** casts **Aid** at 3rd level on Bru and Leliana, raising their maximum and current HP by 10 and bringing Bru back to consciousness, then uses Lay on Hands on herself
+
+The dragon fires lightning through the boat again (DC 19, with advantage for the cover), and Bru goes down for the second time. The knights dive off the boat to drive their swords into it, and [Silas](/player-characters/silas), walking up the hull with spider climb, hits it with psychic daggers for 31 and then 7. The dragon turns and vanishes—an invisible rush of movement diving deep below the water.
+
+### Leliana and the Engine Room
+
+[Leliana](/player-characters/leliana) rushes below decks and brings [Bru](/player-characters/bru) back with a powerful **Healing Word** (23 HP), then later heals herself with an upcast Cure Wounds and stays by his side, playing him bardic inspiration.
+
+### Elspeth Takes the Helm
+
+[Elspeth](/player-characters/elspeth) heads for the wheelhouse at the front of the ship. No one is there—Captain Buckle and his crew have been hiding in their quarters—but the key is still in the ignition. She cranks it, and the engines catch. Only one of the two runs, and she coaxes the ship into slow, drifting motion (Arcana 15) while lighting a cigarette from a pack she finds there.
+
+Over the radio, other ships report more dragons coming in from the south. Elspeth relays it over the psychic phone, then gets on the radio herself, dubbing the ship "Big Sinks": they got hit hard, the dragon swims under the boat, and they're limping along. When HQ repeatedly asks for the status of the orb, she stalls—she's at the helm and will report back.
+
+### Bru's Engine Repair
+
+With his passive Perception, [Bru](/player-characters/bru) spots that the left engine's underside has been smashed in, jamming its gears (Arcana 16). The next round he gets to work.
 
 **Bru's Engine Repair:**
 - **Arcana Check:** 30 (with bardic inspiration d8)
-- **Result:** Using duct tape (his artificer's tool of choice), he pulls out the massive dent in the steel underbelly and restores both engines to function
+- **Result:** Using duct tape (the portable hole holds an endless supply), he sticks a huge glob to the smashed metal, pulls out the dent, and gets the second engine running
 
 The repair causes a backfire that deals 8 bludgeoning damage to [Bru](/player-characters/bru), but the ship is saved.
 
-### Elspeth's Radio Management
+## Luna's Gift
 
-[Elspeth](/player-characters/elspeth), showing remarkable initiative, rushes to the wheelhouse and takes control of the engines. Captain Buckle had fled to his quarters with his crew during the attack, leaving the ship effectively unmanned.
+Before starting on the engine, [Bru](/player-characters/bru) hands his own Victor-logo sending stone to Leliana to take topside—Victor keeps its match. [Silas](/player-characters/silas) proposes throwing it down to Luna so they can reach her later through Victor's stone.
 
-She monitors the situation through the radio network, listening as other ships report:
+**The Throw:** [Silas](/player-characters/silas) and [Ohma](/player-characters/ohma) tag-team it, and Ohma's 28 wins out—a pro-baseball arc that lands the stone right beside the ritual site at Luna's skull.
 
-> **Radio Chatter:** "We've got a live one down south! White dragon and copper dragon engaged! Jenkins' ship is sinking—he's the last one alive. He's got mortal wounds..."
-
-The professional dragon hunters are being decimated.
-
-### The Dragon's Thunder
-
-The dragon, still submerged beneath the ship, unleashes another attack—a **sonic roar through the water** that creates a shockwave of thunder damage.
-
-**Constitution Saving Throw DC 18:**
-- **[Olivia](/player-characters/olivia) (in water):** Success (6 damage)
-- **[Bru](/player-characters/bru) (below decks):** Failure (13 damage, knocked unconscious again)
-- **[Leliana](/player-characters/leliana) (below decks):** Failure (13 damage)
-- **[Elspeth](/player-characters/elspeth) (in wheelhouse):** Success (6 damage)
-
-[Bru](/player-characters/bru) collapses in the engine room for the second time. [Leliana](/player-characters/leliana), at 6 HP, barely remains standing.
+The party doesn't attempt immediate communication, planning to reach out once they've tracked down [Victor](/npcs/victor) in Greyport and his paired stone.
 
 ## The Escape
 
-### Olivia's Healing Magic
+### The Dragon Retreats
 
-Breaking through to the surface, [Olivia](/player-characters/olivia) immediately casts **Aid** at 3rd level on [Bru](/player-characters/bru) and [Leliana](/player-characters/leliana), increasing their maximum HP by 10 and bringing [Bru](/player-characters/bru) back to consciousness.
+The dragon, having taken significant damage from the party and the St. George knights, knows when to leave. A dark shape rising from the water turns out to be one of the dragon knights, with two more behind him. [Olivia](/player-characters/olivia) fishes them out; they are unconscious, but alive and stabilized.
 
-She then uses Lay on Hands on herself to recover from the lightning and thunder damage.
+### The Orb "Lost at Sea"
 
-### Elspeth Makes the Call
+In the wheelhouse, [Elspeth](/player-characters/elspeth) explains that HQ keeps asking about the orb. [Silas](/player-characters/silas) takes the radio:
 
-[Elspeth](/player-characters/elspeth) gets on the radio and delivers a status report in her best professional voice:
-
-> **[Elspeth](/player-characters/elspeth):** "HQ, this is Big Sinks. We've completed the ritual successfully. The dragon went underwater and attacked our boat. We're limping back with one engine damaged. Over."
-
-> **HQ:** "Big Sinks, what's the status of the orb?"
-
-> **[Elspeth](/player-characters/elspeth):** "The dragon dove underwater and hit the boat, and the orb fell into the ocean during the fighting. Over."
+> **[Silas](/player-characters/silas):** "Got some bad news for you there, HQ. During the assault by the dragon, the orb fell into the ocean. Over."
 
 **Deception Check:** 28
 
-HQ completely buys the story. [Silas](/player-characters/silas), listening through the psychic network, is impressed by the smooth lie.
-
-### Bru's Death Saves
-
-While unconscious in the engine room, [Bru](/player-characters/bru) makes death saving throws with the help of [Olivia](/player-characters/olivia)'s **Aura of Protection** (+3 to all saves):
-
-**First Save:** 10 (success with aura bonus)
-
-Before he needs a second roll, [Olivia](/player-characters/olivia)'s Aid spell brings him back to consciousness.
-
-### The Dragon Retreats
-
-The dragon, having taken significant damage from the party and the St. George knights, makes a tactical retreat. It dives deeper into the ocean, becoming invisible, and swims away from the combat zone.
-
-The St. George knights manage to kill a **white dragon** at another engagement site, providing dragon meat for the "victory picnic" they keep discussing on the radio.
+HQ completely buys the story and says it will send a team to retrieve it. Silas adds that the dragon killed a bunch of the St. George knights, gives an ETA of about 12 hours, and confesses they have no dragon meat for the picnic. Leroy's ship, having taken down a dragon, offers to provide the main course for the "victory picnic" everyone on the radio keeps discussing.
 
 ### Jenkins' Last Words
 
-Through the radio network, the party overhears the death of Jenkins, sole survivor of his ship:
+Through the radio network, the party overhears the death of Jenkins, the last one alive on his ship after a beautiful copper dragon sank it and fled:
 
-> **Jenkins:** "Leroy, this is Jenkins. I'm the last one alive on this ship. I have mortal wounds and will soon be bleeding out. Please pass along a message to my sister Tiana—sorry I'm going to miss her wedding. Tell her I won't be able to do best man duties. Over."
+> **Jenkins:** "I'm the last alive on this ship. I am not the captain, and I have mortal wounds, so I will soon be bleeding out. Over."
 
-> **Leroy:** "We'll remember you at the victory picnic, Jenkins. Over."
+He asks Leroy to pass along a note to his sister Tiana: sorry he's going to miss her wedding, and he won't be able to do best man duties.
 
-[Silas](/player-characters/silas) turns off the radio, disgusted by the casual acceptance of casualties.
+> **Leroy:** "We will remember you and celebrate you at the victory picnic. Over."
 
-## Luna's Gift
+The ship is some 40 minutes away—too far to help. [Silas](/player-characters/silas) turns off the radio in disgust.
 
-As the ship limps away from the crash site, the party uses [Victor](/npcs/victor)'s sending stone (connected to the one [Ohma](/player-characters/ohma) threw down to Luna's skeleton) to attempt communication with the fallen goddess.
+### A Faraday Box
 
-**[Ohma](/player-characters/ohma)'s Athletics Throw:** 28 (with Bafael's assistance)
-
-The stone lands perfectly near Luna's skull, establishing a connection.
-
-The party doesn't attempt immediate communication, planning to reach out once they've tracked down Victor in Greyport and retrieved his paired stone.
+Silas and Bru scrounge leftover hull-repair sheeting into a makeshift Faraday box for the orb, just in case someone tries to track it.
 
 ## Return to Greyport
 
-### The Victory Picnic
-
-Twelve hours later, the enlarged ship (still under the effects of [Bru](/player-characters/bru)'s Enlarge spell) arrives at Greyport harbor. A crowd of **dragon knights in gleaming bone armor** lines the docks, cheering the returning heroes.
-
-The St. George knights have successfully killed two and a half dragons:
-- One white dragon (Leroy's ship)
-- One copper dragon (Leroy's ship)
-- The blue dragon (wounded but escaped—counted as half)
-
-Preparations are underway for the promised "victory picnic," complete with roasted dragon meat.
-
 ### Captain Buckle's Hat
 
-Captain Buckle, impressed by [Elspeth](/player-characters/elspeth)'s seamanship during the crisis, gifts her his prized possession—a trucker hat reading:
+Once things calm down, the crew emerge from their quarters, where they had been nervously drinking from the ale casks (now also enlarged). Captain Buckle wanders into the wheelhouse, confused that the boat seems bigger, and thanks the party for sailing it out of danger. [Bru](/player-characters/bru) declares himself captain now and demands the captain's funny hat, and Buckle hands over his favorite—a hat reading:
 
 > **"I GOT CRABS AT JOE'S SHACK"**
 
-He explains the "hilarious" double meaning (crabs the food and crabs the STI) before wandering off to supervise his enlarged vessel.
+He explains the "hilarious" double meaning (crabs the food and crabs the STI), then reminds them to turn off the engines and start rowing when they reach the harbor. It's a no-wake zone.
+
+> **[Silas](/player-characters/silas):** "I have zero respect left for this crew of sailors. I'm not interested in impressing them at all."
 
 ### The Knights' Assessment
 
-One of the St. George knights approaches [Olivia](/player-characters/olivia):
+One of the rescued St. George knights wakes and approaches [Olivia](/player-characters/olivia):
 
-> **Knight:** "Hey, what happened with the dragon? You did the ritual, right?"
+> **Knight:** "Hey, what happened with the dragon? It didn't go back, right? I think we left it bloodied at the bottom of the ocean."
 
-> **[Olivia](/player-characters/olivia):** "Yeah, we completed it successfully. But the dragon dove deep and we couldn't track it after that."
+> **[Olivia](/player-characters/olivia):** "Well, the dragon drug you down, and you died, but it's okay. We got you out of the water. No clue what happened to the dragon. It just skedaddled."
 
-> **Knight:** "Damn. That was going to be my promotion. Well, at least everyone's alive. That's a win."
+> **Knight:** "Damn. That's my promotion. Well, you did the ritual, right?"
 
-The knight, showing his mercenary nature, immediately begins calculating how he can still advance his career despite not securing the dragon.
+Olivia refers him to Silas, who tells him the orb fell into the ocean when his bag ruptured. The knight laments having nothing to bring back—then, hearing of Jenkins' death, shrugs that Jenkins was "kind of an a******" and that the loss of captains might get him a promotion after all.
 
-### Silas's Disappointment
+### The Victory Picnic
 
-[Silas](/player-characters/silas) broadcasts through the psychic network:
+The party takes a long rest aboard. Early the next morning, the enlarged ship (still under the effects of [Bru](/player-characters/bru)'s Enlarge spell) trickles into Greyport harbor. A long line of **dragon knights in gleaming bone armor** lines the docks, cheering.
 
-> **[Silas](/player-characters/silas):** "I've got to say, I have zero respect left for this crew of sailors and these so-called dragon hunters. They're not impressive at all."
+The Order claims two and a half dragons. The proof on display is the dead white dragon Leroy's boat has towed in behind it—roasted dragon meat for the promised "victory picnic."
 
-The party reflects on how they essentially saved the ship while the "expert" dragon hunters either hid below decks or died in other encounters.
+The party reflects on how they essentially saved the ship while its crew hid below decks and the "expert" dragon hunters missed their strikes, drowned, or died in other encounters.
 
 ## Intelligence Gathering
 
 ### The Stolen Tracking Data
 
-During the chaos of the arm-wrestling distraction, [Bru](/player-characters/bru) and [Elspeth](/player-characters/elspeth) successfully:
+During the arm-wrestling distraction last session, [Bru](/player-characters/bru) and [Elspeth](/player-characters/elspeth) successfully:
 
-1. **Hijacked the tracking signal** - Routing the real coordinates of other dragon orbs to local storage on a floppy disc
-2. **Sabotaged the relay network** - Sending false coordinates to all other St. George receivers
+1. **Hijacked the tracking signal** - Saving the real coordinates of other dragon orbs to a floppy disc
+2. **Sabotaged the relay network** - Sending incorrect coordinates to all other St. George receivers
 3. **Secured exclusive access** - Only the party knows the true locations of the remaining dragon orbs
 
-The data shows **multiple orb locations** across the region, though the party hasn't yet analyzed the specific coordinates.
-
-### Victor's Situation
-
-Through the sending stone, [Bru](/player-characters/bru) contacts [Victor](/npcs/victor):
-
-> **[Bru](/player-characters/bru):** "Hey Victor, buddy. We're in the neighborhood."
-
-> **Victor:** "What are you wearing?"
-
-> **[Bru](/player-characters/bru):** "Thirteen wires. One for every organization."
-
-Victor reveals he's at **Greyport Zoo** ("I love the zoo. I've got a membership") and needs help with an "experiment" involving a dragon egg to make "the best omelette."
-
-[Bru](/player-characters/bru) warns him not to leave the zoo, citing danger to his life, but Victor has "dinner plans" and can't guarantee he'll stay put.
+The party hasn't yet studied the coordinates.
 
 ## Party Planning
-
-### Operation Cogenstein
-
-[Bru](/player-characters/bru), upon learning from Theirsander that the Iron Claws still control their old neighborhood, writes "OPERATION COGENSTEIN" at the top of a piece of paper, planning revenge.
-
-[Silas](/player-characters/silas) quickly covers:
-
-> **[Silas](/player-characters/silas):** "It's nothing. Bru likes to scribble. It's anti-bread propaganda. We hate gluten."
 
 ### Next Steps
 
 The party agrees on priorities:
 
-1. **Track down Victor** - Retrieve his sending stone to communicate with Luna
+1. **Track down Victor** - Last heard to be at the Greyport zoo; they need his sending stone to communicate with Luna
 2. **Analyze the tracking data** - Determine locations of remaining dragon orbs
 3. **Avoid St. George** - Don't reveal they have the orb or the tracking data
 4. **Communicate with Luna** - Learn what she needs to recover
@@ -245,44 +214,43 @@ The party agrees on priorities:
 
 **Dragon Combat:**
 - Adult blue dragons are CR 16 threats with devastating lightning breath
-- Can deal 60+ lightning damage in a single breath weapon
+- Can deal 60+ lightning damage in a single breath weapon—even through a ship's hull
 - Smart enough to use tactical underwater combat
 - Will retreat when bloodied rather than fight to death
 
 **St. George Effectiveness:**
-- Most knights either hid below decks or were easily killed
-- Only successful kills came from coordinated ships with full crews
-- The "expert dragon hunters" lost entire ships to single dragons
+- The ship's crew hid in their quarters; the knights missed often, and two had to be fished out of the water
+- One ship (Jenkins') was sunk by a single copper dragon, which escaped
+- The one confirmed kill is Leroy's white dragon
 - Their primary income comes from dragon-bone themed bachelor party taverns
 
 **Luna's Status:**
 - Weak but alive and aware
-- Can communicate through sending stones placed near her skeleton
-- The ritual site allows magical communication through the dimensional barrier
+- A sending stone now lies beside her skull, its match in Victor's hands—still untested
 
 **The Tracking Data:**
-- Shows locations of multiple dragon orbs across the region
-- St. George and Eldoran now have false coordinates
+- Coordinates of other dragon orbs, saved to a floppy disc
+- The Order's other relays now have incorrect coordinates
 - Party has exclusive access to accurate information
 
 **Radio Network:**
-- St. George uses open radio frequencies for all communication
-- HQ expects regular status updates
+- St. George ships and HQ share an open radio network
+- HQ expects regular status updates—and believes the orb is lost at sea
 - The "victory picnic" is apparently mandatory for returning ships
 
 ## Character Moments
 
-**[Silas](/player-characters/silas):** His immediate decision to abandon the underwater combat ("I am no good in water") shows tactical awareness. His disgust with the St. George knights' casualties reveals his growing moral consciousness.
+**[Silas](/player-characters/silas):** His immediate decision to abandon the underwater combat ("I am no good in water") shows tactical awareness, and his smooth radio lie convinces HQ the orb is lost. His disgust with the St. George knights' casualties reveals his growing moral consciousness.
 
-**[Bru](/player-characters/bru):** Knocked unconscious twice but immediately returns to fixing engines with duct tape. His 30 on the repair check saves the ship. Planning "Operation Cogenstein" shows he hasn't forgotten old grudges.
+**[Bru](/player-characters/bru):** Knocked unconscious twice but immediately returns to fixing engines with duct tape. His 30 on the repair check saves the ship—and wins him Captain Buckle's hat.
 
-**[Olivia](/player-characters/olivia):** Her opening move—summoning Bob and teleporting onto the dragon—demonstrates paladin fearlessness. Her immediate healing after surfacing shows battlefield awareness. The Aura of Protection saves [Bru](/player-characters/bru)'s life during death saves.
+**[Olivia](/player-characters/olivia):** Her opening move—summoning Bob and teleporting onto the dragon—demonstrates paladin fearlessness. Her Aid spell brings Bru and Leliana back into the fight, and her Aura of Protection saves Bru's life during death saves.
 
-**[Elspeth](/player-characters/elspeth):** Takes control of the wheelhouse when Captain Buckle flees, monitors radio communications, and delivers a perfect deception to HQ about the "lost" orb. Earns the captain's hat.
+**[Elspeth](/player-characters/elspeth):** Dives under the hull to check the damage, takes the helm when Captain Buckle hides, starts the engines, and stalls HQ over the radio as "Big Sinks."
 
-**[Leliana](/player-characters/leliana):** Her Healing Word brings [Bru](/player-characters/bru) back from unconsciousness mid-combat, enabling him to repair the engines. Takes thunder damage but stays conscious to continue supporting.
+**[Leliana](/player-characters/leliana):** Tries to polymorph the dragon, is knocked unconscious by its lightning, and once back on her feet brings [Bru](/player-characters/bru) back with Healing Word and supports his engine repair with bardic inspiration.
 
-**[Ohma](/player-characters/ohma):** His perfect throw (with Bafael's assistance) places the sending stone near Luna's skull, establishing the communication link they'll need later.
+**[Ohma](/player-characters/ohma):** His perfect throw places the sending stone near Luna's skull, establishing the communication link they'll need later.
 
 ## Unresolved Threads
 
@@ -299,16 +267,12 @@ The party agrees on priorities:
 
 > **[Silas](/player-characters/silas):** "I am no good in water. Good luck. Bye." *(teleporting away from the underwater combat)*
 
-> **[Bru](/player-characters/bru):** "All right, I guess it's fine." *(after flipping a coin to decide whether to give blood for the ritual)*
+> **[Silas](/player-characters/silas):** "During the assault by the dragon, the orb fell into the ocean. Over." *(Deception 28)*
 
-> **[Elspeth](/player-characters/elspeth):** "HQ, this is Big Sinks. The orb fell into the ocean during the fighting. Over." *(Deception 28)*
+> **Knight:** "Damn. That's my promotion." *(on learning the dragon got away)*
 
-> **Knight:** "That was going to be my promotion. Well, at least everyone's alive." *(casually dismissing Jenkins' death)*
+> **[Silas](/player-characters/silas):** "I have zero respect left for this crew of sailors."
 
-> **[Silas](/player-characters/silas):** "I've got zero respect left for this crew of sailors and these so-called dragon hunters."
+> **Captain Buckle:** "It's my favorite hat. It's a funny one—there's a venereal disease called crabs, and you can eat crabs at Joe's Shack. My friend got it once. Me too."
 
-> **Victor:** "What are you wearing?"
-
-> **Captain Buckle:** "It's my favorite hat because it's funny—you can get crabs at Joe's Shack, but also there's a venereal disease called crabs. My friend got it once. Me too."
-
-The session ends with the party safely returned to Greyport, possessing both the resealed dragon orb and exclusive tracking data on the remaining orbs—but with Victor in potential danger, Luna waiting for contact, and the complex web of allegiances more tangled than ever. The "expert" dragon hunters proved far less competent than advertised, leaving the party to wonder how they've survived this long, and whether their mercenary nature might become a problem when the party's true agenda becomes clear.
+The session ends with the party safely returned to Greyport, possessing both the resealed dragon orb and exclusive tracking data on the remaining orbs—but with Victor somewhere in the city, Luna waiting for contact, and the complex web of allegiances more tangled than ever. The "expert" dragon hunters proved far less competent than advertised, leaving the party to wonder how they've survived this long, and whether their mercenary nature might become a problem when the party's true agenda becomes clear.

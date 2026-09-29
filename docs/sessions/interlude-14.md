@@ -2,7 +2,7 @@
 title: 'Interlude XIV: The Greyport Speedway Conspiracy'
 date: '2025-12-05'
 description: "A flashback to Elspeth Cooper's racing past, revealing a six-racer conspiracy to frame her for cheating and end her legendary career in the magical racing circuit."
-summary: "In this racing-themed flashback episode, players took on the roles of six rival racers conspiring to disgrace Elspeth Cooper (Elspeth's past identity) and remove her from the racing circuit. What began as various sabotage attempts—from filing down her chassis to planting poppy seed muffins for a drug test—culminated in a high-stakes finale race at Greyport Speedway using custom D&D racing mechanics. The session revealed Elspeth's previous life as a 20+ year veteran racer and team owner who stood against corruption, setting up her eventual transformation into the adventurer the party knows."
+summary: "In this racing-themed flashback episode, guest DM Ali ran the table while the other players took on the roles of six rival racers conspiring to disgrace Elspeth Cooper and remove her from the racing circuit. What began as various sabotage attempts—from filing down her chassis to planting poppy seed muffins for a drug test—culminated in a high-stakes finale race at Greyport Speedway using custom D&D racing mechanics. The session revealed Elspeth's previous life as a 20+ year veteran racer and team owner who stood against corruption, setting up her eventual turn to adventuring."
 featureimage: '/img/C4I14.webp'
 image: '/img/C4I14.webp'
 podcastlink: ''
@@ -12,7 +12,7 @@ podcastlink: ''
 
 ## Session Overview
 
-This flashback session revealed **[Elspeth](/player-characters/elspeth)**'s secret past as **Elspeth Cooper**, a legendary dwarf racer in the magical racing circuit. The party played six rival racers who conspired to frame Elspeth for cheating and get her permanently banned from racing. The session combined Scott Pilgrim-style villain energy with Formula 1 racing mechanics, as the conspirators attempted increasingly ridiculous sabotage schemes before facing Elspeth in the season finale race at Greyport Speedway.
+This flashback session revealed the racing past of **[Elspeth Cooper](/player-characters/elspeth)**, a legendary dwarf racer in the magical racing circuit. Ali, Elspeth's player, ran the session as guest DM—voicing Tito, Elspeth and the rest of the racing world—while the other players played six rival racers who conspired to frame Elspeth for cheating and get her permanently banned from racing. The session combined Scott Pilgrim-style villain energy with Formula 1 racing mechanics, as the conspirators attempted increasingly ridiculous sabotage schemes before facing Elspeth in the season finale race at Greyport Speedway.
 
 ## The Conspiracy Meeting
 
@@ -22,11 +22,11 @@ The session began with **Tito Bonito**, president of the racing circuit board, c
 
 **The Conspirators:**
 - **Verstap** (Justin) - Dominant racer based on Max Verstappen, sponsored by Infinity Internet, Sun Bills coffee, and Blue Ox energy drinks
-- **Den Lin** (Tyram) - Cartoonishly evil human racer who owns orphan coal mines and uses orphan souls to power teleportation magic
+- **Denlin** (Taylor) - Cartoonishly evil human racer, newest driver on the circuit and a team owner himself, who owns orphan coal mines and uses orphan souls to power teleportation magic
 - **Serge** (Ellis) - Emo second-tier racer for MX racing team, career on the line
-- **Scotty Mac** (Christopher) - Older dwarf racer and Elspeth's best friend, torn by loyalty
+- **Scotty Mac** (Zack) - Older dwarf racer and Elspeth's best friend, torn by loyalty
 - **Lancey Stroll** (Luke) - Whiny elf whose rich father owns his team, speaks with Christopher Walken voice
-- **Xugor** (Ali) - 7-foot tall, 250-pound orcish woman, quiet and technical, daughter of ex-KGB agent
+- **Xugor** (Christopher) - 7-foot tall, 250-pound orcish woman, quiet and technical, daughter of ex-KGB agent
 
 **Tito's Revelation:**
 - Elspeth voted against a unanimous board decision
@@ -51,10 +51,9 @@ The session began with **Tito Bonito**, president of the racing circuit board, c
 ### Round 1: The Failed Schemes
 
 **Chassis Filing (Xugor & Father):**
-- Xugor's ex-KGB father (always carrying files) helped file down Elspeth's car chassis to reduce weight (illegal modification)
-- Xugor's engineer caught them in the act and kicked them out
-- The sabotage was reported to officials (backfired)
-- Father insisted this was "standard procedure from the old country"
+- While Xugor distracted Team Cooper's engineer by "finding" problems with the axle, her ex-KGB father (always carrying a file) filed down the floor of Elspeth's car to make it lighter (illegal modification)
+- Team Cooper's engineer caught them in the act and threw them out, threatening to report them for tampering
+- Elspeth's crew had to replace the filed-down part with a full undercarriage change
 
 **Team Poaching (Verstap):**
 - Verstap's team attempted to hire away Elspeth's entire pit crew
@@ -62,30 +61,35 @@ The session began with **Tito Bonito**, president of the racing circuit board, c
 - Every single crew member remained loyal to Elspeth
 - Elspeth's reputation as a great boss proved too strong
 
-**Den Lin's Scooby-Doo Schemes:**
+**Denlin's Scooby-Doo Schemes:**
 
-The most entertainingly incompetent conspirator, Den Lin attempted multiple cartoon-villain plots:
+The most entertainingly incompetent conspirator, Denlin attempted multiple cartoon-villain plots:
 
-1. **The Hooker Scandal** - Hired legal "companions" from the guild to dance around Elspeth's garage for scandalous photos. Elspeth simply backed her car into the garage and ignored them (legal and not scandalous).
+1. **The Navy Buddy** - In a Groucho Marx mustache and glasses, knocked at Team Cooper's garage claiming he and Elspeth "served in the Navy together." The engineer at the peephole sent him away.
 
-2. **The Drug Setup** - Approached Elspeth with "illegal drugs" while wearing an obvious recording device the size of a brick. She refused to engage.
+2. **The Drug Setup** - Approached Elspeth offering "illegal drugs" with a tape recorder barely hidden in his lapel. She called security.
 
-3. **Photographic Evidence** - Took pictures with a comically large old-fashioned camera with visible flash powder.
+3. **The Grandmother Gambit** - Offered "a delivery of illegal drugs for your granddaughter" to Elspeth's grandmother Olivia—then still a detective—who threw him over the hood of a car, frisked him and got out the handcuffs. He escaped by throwing down pieces of his fake mustache, which were smoke bombs.
 
-All schemes featured Den Lin twirling his mustache (which doubled as smoke bombs) and cackling about his "meddling orphans."
+4. **The Hooker Scandal** - Hired legal "companions" (they have their own guild in Greyport) to dance around Elspeth outside her garage for scandalous photos. Elspeth backed into her garage and refused to engage (legal and not scandalous).
+
+5. **Photographic Evidence** - Took pictures with a comically large old-fashioned camera on a tripod, head under a curtain.
+
+All schemes featured Denlin twirling his mustache and cackling about orphans.
 
 ### Round 2: Banking and Baking
 
 **The Tax Fraud Plot (Lancey & Xugor):**
 - Discovered Elspeth keeps her banking information on post-it notes in her desk
 - Sent a pit crew member to steal the information to frame her for tax evasion
-- The hired thief got distracted by Den Lin's hooker rave and never completed the mission
-- Lancey's own banking information was also on post-it notes (projection)
+- Lancey's father supplied the tax lawyers; Lancey sent one of his crew members after the post-it
+- The hired thief got distracted by Denlin's hooker rave and never completed the mission
+- Lancey's own banking information is also kept on a post-it (the crew member knew exactly where to look)
 
 **The Crystal Sabotage (Serge):**
 - Serge successfully tampered with teammate Verstap's race car crystal/engine connections
-- Wedged a piece of Team Cooper t-shirt into Verstap's engine to frame Elspeth
-- This sabotage WAS discovered by officials before the race
+- Wedged a piece of a Team Cooper t-shirt (lifted from the Cooper tent with Zachary Cooper's help) into Verstap's engine to frame Elspeth
+- Verstap's team discovered the sabotage and took it to the officials before the race
 - The planted evidence pointed directly to Elspeth
 - Most strategically effective sabotage of all conspirators
 
@@ -93,8 +97,8 @@ All schemes featured Den Lin twirling his mustache (which doubled as smoke bombs
 - Xugor baked 26 lemon poppy seed muffins
 - Plan: Feed them to Elspeth so poppy seeds trigger a positive drug test
 - Requires eating an unrealistic amount to actually work
+- Xugor handed muffins to George, Elspeth's cousin, and to Lancey
 - Elspeth ate one muffin before bed
-- George (Serge's teammate) also ate several muffins (potential collateral damage)
 
 ## Race Day Revelations
 
@@ -103,13 +107,12 @@ All schemes featured Den Lin twirling his mustache (which doubled as smoke bombs
 Race morning began with more attempted sabotage:
 
 **Pineapple Pizza Incident:**
-- Den Lin planted pineapple pizza at Elspeth's breakfast seat
-- Hoped to create scandal over her "controversial" food choices
-- Elspeth simply ate it without comment
-- Even the conspirators thought this was stupid
+- Denlin planted a Hawaiian pizza at Elspeth's breakfast seat
+- Hoped to create scandal over her "controversial" food choices ("Everyone look, Elspeth likes pineapple on her pizza!")
+- Elspeth just thought someone had left it on her seat, and Scotty Mac asked for a slice—pineapple is "kind of my bag"
 
 **Scotty's Warning:**
-- Scotty Mac visited Elspeth privately
+- The evening before the race, Scotty Mac visited Elspeth privately in her garage
 - Gave a vague warning: "Things might get crazy out there today"
 - Clearly torn between friendship and pressure from his father (team owner "Papy")
 - His daughter Win is training to take over his seat
@@ -117,8 +120,7 @@ Race morning began with more attempted sabotage:
 ### The Driver's Meeting
 
 **Official Discoveries:**
-- Officials found sabotage on both Verstap's car (crystal tampering with Cooper shirt evidence) and Elspeth's car (filed chassis)
-- Both cars were disqualified from pole position and sent to the back of the grid
+- Tito announced that sabotage on both Verstap's car (crystal tampering with Cooper shirt evidence) and Elspeth's car (filed chassis) had been brought to the officials, who were looking into it
 - Elspeth had no idea why her car was sabotaged
 - The frame job was working
 
@@ -129,18 +131,18 @@ Race morning began with more attempted sabotage:
 - Elspeth received a standard map without the cheat information
 - The conspiracy extended to race officiating itself
 
-## The Hidden Mastermind: Zachary Cooper
+## The Other Plan: Zachary Cooper
 
-Throughout the pre-race scheming, Tito revealed the true architect of the conspiracy:
+Tito told the racers he already had "a plan in motion" that might not pan out. Just before the meeting, a dwarf was shoved out of his office ("Get it done, or I'll get it done without you"). Serge recognized him and later tracked him down:
 
 **Zachary Cooper** - Elspeth's brother:
-- Desperately wants to be the driver instead of his sister
-- Working directly with Tito to orchestrate Elspeth's downfall
-- Has possession of their father's racing crystal
-- Believes he deserves the seat more than Elspeth
-- Willing to destroy his sister's legacy to claim it
+- Tito promised him Elspeth's seat if he pulls it off
+- Believes he is the better driver: "She's gotten to drive for like 25 years and it's my turn"
+- Has their father's racing crystal and her car
+- Plans to mess with her crystal—but not to kill her
+- Only vaguely knows why Tito wants her gone (something about big money coming in, and safety)
 
-This revealed a tragic family betrayal at the heart of the conspiracy—Elspeth's own brother was engineering her disgrace.
+This revealed a tragic family betrayal at the heart of the conspiracy—Elspeth's own brother was working toward her disgrace.
 
 ## The Greyport Finale Race
 
@@ -162,46 +164,47 @@ The DM introduced experimental D&D racing rules using Roll20:
 - Cloud of daggers, psychic attacks, slow spells all viable
 
 **Special Abilities:**
-- Den Lin: Teleportation using orphan soul power
+- Denlin: Teleportation using orphan soul power
 - Lancey: Cloud of daggers traps
 - Xugor: Slow spell
-- Scotty: Secret "nuclear option" rune under Elspeth's car that makes it fly (definite cheating, last resort only)
+- Scotty: Secret "nuclear option" glyph under Elspeth's car that makes it fly (definite cheating, last resort only)
 
 ### Race Start: The Initiative
 
-**Starting Grid (after penalties):**
+**Starting Grid (by initiative):**
 1. **Verstap** (Initiative: First)
 2. **Scotty Mac** (High initiative)
 3. **Xugor** (Mid-pack)
 4. **Lancey** (Mid-pack)
-5. **Den Lin** (Low initiative)
+5. **Denlin** (Low initiative)
 6. **Serge** (Rolled a 2)
-7. **Elspeth** (Back of grid, NPC-controlled)
+7. **Elspeth** (run by Ali as guest DM)
 
-### Round 1: The Breakaway
+### The Opening Rounds: The Breakaway
 
 **The Front Runners:**
-- Verstap rolled double 8s on movement (8+5=13 total movement)
-- Scotty Mac rolled double 8s (16 total movement)
-- Lancey also rolled double 8s
+- Verstap rolled an 8 and a 5 on movement (13 total)
+- Scotty Mac rolled 14
+- Lancey rolled double 8s (16)
 - The front pack pulled significantly ahead
 
 **The Back Pack:**
-- Xugor, Den Lin, Serge, and Elspeth fell behind
-- Elspeth (NPC) rolling poorly
+- Xugor, Denlin, Serge, and Elspeth fell behind
+- Elspeth rolling poorly
 - Conspirators in back discussing when to use red zone abilities
 
 **Tactical Plays:**
-- Xugor cast Slow spell affecting both Den Lin and Verstap (friendly fire)
-- Den Lin used teleportation to jump ahead using orphan soul power ("You meddling orphans!")
-- Lancey prepared Cloud of Daggers trap
-- Scotty debated using the flying car rune
+- Lancey dropped a low Cloud of Daggers behind him in a red zone; Scotty Mac and Xugor drove straight through it
+- Denlin hurled a live turtle, Mortimer, into Elspeth's rear window (16 damage), then later sent it scratching into her cockpit
+- Xugor cast Slow (DC 17) on the pack, catching Denlin and Verstap (friendly fire)
+- Denlin used his teleportation to jump ahead
+- Scotty kept his flying-car glyph in reserve
 
 ## Character Moments
 
-### Elspeth/Elspeth's Legacy
+### Elspeth's Legacy
 
-The session painted a picture of Elspeth before she became Elspeth:
+The session painted a picture of Elspeth before she became an adventurer:
 
 **Professional Reputation:**
 - 20+ years of championship racing
@@ -214,44 +217,44 @@ The session painted a picture of Elspeth before she became Elspeth:
 - Weakness for baked goods (exploited by Xugor)
 - Keeps banking info on post-it notes (security flaw)
 - Trusts her competitors (naive to the conspiracy)
-- Close relationship with granddaughter Olivia (retired detective)
+- Close relationship with her grandmother Olivia (then still a detective, a month or so from retirement)
 - Values safety regulations over "big money" deals
 
-**The Unanswered Question:** How does this legendary, principled racer become the adventurer Elspeth? This conspiracy may be her origin story.
+**The Unanswered Question:** How does this legendary, principled racer become an adventurer? This conspiracy may be her origin story.
 
 ### Scotty Mac's Moral Conflict
 
-Christopher played Scotty as the conspiracy's conscience:
+Zack played Scotty as the conspiracy's conscience:
 
 **Torn Loyalties:**
 - Genuine decades-long friendship with Elspeth
 - Pressure from father ("Papy") who owns the team
 - Responsibility to daughter Win who's training to replace him
-- Given the "nuclear option" rune as insurance
-- Warned Elspeth despite orders not to
+- Came up with the "nuclear option" glyph himself as insurance
+- Warned Elspeth, but couldn't bring himself to tell her everything
 
-**The Flying Car Rune:**
-- Placed under Elspeth's car as sabotage
+**The Flying Car Glyph:**
+- A glyph from his toolbox, slipped under Elspeth's car
 - Would make car fly (obvious and definite cheating)
 - Only to be activated if all other schemes fail
 - Scotty clearly hates the idea of using it
 - Represents his moral breaking point
 
-### Den Lin: The Scooby-Doo Villain
+### Denlin: The Scooby-Doo Villain
 
-Tyram leaned fully into cartoon villainy:
+Taylor leaned fully into cartoon villainy:
 
 **Evil Credentials:**
 - Owns orphan coal mines
 - Uses orphan souls to power teleportation magic
-- Signature line: "You meddling orphans!"
+- Endless orders to his mine bosses by sending stone
 - Smoke bomb mustache
-- Carries a derringer
+- Throws turtles
 - Photographic evidence obsession
 
 **Failed Schemes:**
-- Every single sabotage attempt backfired spectacularly
-- Hooker rave, drug setup, pineapple pizza, giant camera
+- Every single sabotage attempt fell flat
+- Navy buddy, drug setup, arrest by Olivia, hooker rave, pineapple pizza, giant camera
 - Provided comic relief throughout conspiracy
 - First finale race (nobody expected his chaos)
 
@@ -279,7 +282,7 @@ Luke gave Lancey a Christopher Walken voice and rich kid energy:
 
 ### Xugor: The Technical Threat
 
-Ali played the quiet, methodical conspirator:
+Christopher played the quiet, methodical conspirator:
 
 **Physical Presence:**
 - 7 feet tall, 250 pounds of muscle
@@ -296,15 +299,15 @@ Ali played the quiet, methodical conspirator:
 
 ## Ongoing Plot Threads
 
-1. **Race Outcome Unknown:** The session ended after one round with mechanics being refined—will the conspiracy succeed?
+1. **Race Outcome Unknown:** The session ended a few rounds into the race with mechanics being refined—will the conspiracy succeed?
 
-2. **Elspeth's Transformation:** How does this disgrace (if successful) lead to her becoming Elspeth the adventurer?
+2. **Elspeth's Transformation:** How does this disgrace (if successful) lead to her becoming an adventurer?
 
 3. **Zachary's Betrayal:** Brother vs. sister for their father's legacy and racing crystal
 
 4. **The "Big Money" Vote:** What was Tito trying to pass that Elspeth opposed for safety reasons?
 
-5. **Scotty's Nuclear Option:** Will he actually activate the flying car rune and permanently betray his best friend?
+5. **Scotty's Nuclear Option:** Will he actually activate the flying car glyph and permanently betray his best friend?
 
 6. **Serge's Frame Job:** Will the Cooper shirt evidence in Verstap's engine stick and prove Elspeth's "guilt"?
 
@@ -314,7 +317,7 @@ Ali played the quiet, methodical conspirator:
 
 9. **Team Owner Conspiracy:** All owners except Elspeth agreed—what leverage does Tito have over them?
 
-10. **Olivia's Investigation:** Elspeth's granddaughter (retired detective) appeared trying to arrest Den Lin earlier—will she uncover the conspiracy?
+10. **Olivia's Investigation:** Elspeth's grandmother Olivia, then still a detective, tried to arrest Denlin earlier—will she uncover the conspiracy?
 
 11. **Character Connections:** Does the current party know about Elspeth's racing past?
 
@@ -322,7 +325,7 @@ Ali played the quiet, methodical conspirator:
 
 ### Racing System Playtest
 
-The DM created custom racing mechanics combining D&D rules with motorsport:
+Guest DM Ali created custom racing mechanics combining D&D rules with motorsport:
 
 **Successful Elements:**
 - d8 movement rolls with action economy
@@ -340,13 +343,13 @@ The DM created custom racing mechanics combining D&D rules with motorsport:
 ### Meta-Gaming Notes
 
 **Player Highlights:**
-- Den Lin's cartoonish schemes provided consistent comedy
+- Denlin's cartoonish schemes provided consistent comedy
 - Scotty's moral conflict added emotional weight
 - Serge's successful sabotage created real stakes
 - Xugor's methodical approach showed different villain archetypes
 - Verstap and Lancey rounded out the conspiracy diversity
 
-**DM Preparation:**
+**Ali's Preparation:**
 - Roll20 map of Indianapolis-style speedway
 - Custom racing rule system
 - NPC Elspeth with racing stats
@@ -355,7 +358,7 @@ The DM created custom racing mechanics combining D&D rules with motorsport:
 
 ### Session Ending
 
-The race paused after the first round to:
+The race paused a few rounds in to:
 - Refine movement and passing mechanics
 - Clarify red zone and VVS zone usage
 - Allow players to strategize with better understanding
@@ -365,9 +368,9 @@ The conspirators had successfully framed Elspeth (chassis filing and crystal sab
 
 ## Key Revelations
 
-1. **Elspeth's Previous Identity:** Elspeth Cooper was a legendary racer, not just someone who raced—this was her entire career and identity for 20+ years
+1. **Elspeth's Racing Career:** Elspeth Cooper was a legendary racer, not just someone who raced—this was her entire career and identity for 20+ years
 
-2. **Family Betrayal:** Her brother Zachary orchestrated her downfall to steal her racing seat and their father's crystal
+2. **Family Betrayal:** Her brother Zachary is working with Tito to take her racing seat
 
 3. **Principled Stand:** Elspeth's vote against "big money" initiatives made her a target of the entire racing establishment
 
@@ -375,7 +378,7 @@ The conspirators had successfully framed Elspeth (chassis filing and crystal sab
 
 5. **The Board Conspiracy:** Tito Bonito and all team owners except Elspeth coordinated to remove her from the sport
 
-6. **Origin Story Setup:** This conspiracy and potential disgrace likely explains how Elspeth became the adventurer Elspeth
+6. **Origin Story Setup:** This conspiracy and potential disgrace likely explains how Elspeth became an adventurer
 
 ---
 

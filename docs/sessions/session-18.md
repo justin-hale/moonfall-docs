@@ -158,7 +158,7 @@ The party participates in a "White Owlbear" gift exchange (their world's version
 - **[Jasper](/player-characters/jasper) receives**: [Olivia](/player-characters/olivia)'s detective magnifying glass  
 - **[Elspeth](/player-characters/elspeth) receives**: VIP tickets for 10 to "Gaines Bruery Bakery and Bankery" in Eldora
 - **[Olivia](/player-characters/olivia) receives**: [Helisanna](/player-characters/helisanna)'s bottle of Emmervale Elixir from High Forge
-- **[Red](/player-characters/red) receives**: [Elspeth](/player-characters/elspeth)'s custom train track with mini Vroomfall and Doomfall cars
+- **[Red](/player-characters/red) receives**: [Elspeth](/player-characters/elspeth)'s custom train track with mini Zoomfall and Vroomfall cars
 - **[Silas](/player-characters/silas) and [Bru](/player-characters/bru)'s exchange**: Deferred to next session
 
 ### Celebration Continues

@@ -8,7 +8,7 @@ image: "/img/C4E26.webp"
 podcastlink: "https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4E26-July-11th-e35f9op"
 ---
 
-**[🎧 Podcast Link](https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4E26-July-11th-e35f9op) • *July 10, 2025***
+**[🎧 Podcast Link](https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4E26-July-11th-e35f9op) • *July 11, 2025***
 
 ## Session Overview
 
@@ -33,10 +33,10 @@ The party establishes fake identities for their infiltration mission:
 
 ### The Magical Paint Solution
 
-The party discovers they can use **Scarlett's magical paint** to alter their tunnel map and create new passages through reality:
+The party discovers they can use **Scarlet's magical paint** to alter their tunnel map and create new passages through reality:
 - **Lark** provides detailed tunnel maps with Iron Claws patrol routes
 - **[Helisanna](/player-characters/helisanna)** draws new tunnel entrances using the magical paint (having the best performance skill)
-- They create a hidden garage entrance for their vehicles (Vroomfall and Doomfall)
+- They create a hidden garage entrance for their vehicles (Zoomfall and Vroomfall)
 - A direct route to the residential hall where Lark's family is being held
 
 ## The Jackals Encounter
@@ -44,7 +44,7 @@ The party discovers they can use **Scarlett's magical paint** to alter their tun
 ### Mistaken Identity
 
 While traveling toward High Forge, the party encounters another group of **Jackal bounty hunters** who mistake them for fellow hunters:
-- The hunters recognize the painted Vroomfall and assume they're collecting on Taco Cat's bounty
+- The hunters recognize the painted Zoomfall and assume they're collecting on Taco Cat's bounty
 - **[Helisanna](/player-characters/helisanna)** plays along, pretending they captured the targets
 - When the deception unravels, the hunters threaten retaliation before driving away
 

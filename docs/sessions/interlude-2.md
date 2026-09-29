@@ -7,7 +7,7 @@ featureimage: "C4I2.webp"
 podcastlink: "https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4-Interlude-March-7th-e2vsn80"
 ---
 
-**[🎧 Podcast Link](https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4-Interlude-March-7th-e2vsn80) • *March 6, 2025***
+**[🎧 Podcast Link](https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4-Interlude-March-7th-e2vsn80) • *March 7, 2025***
 
 ## Clarifying Note
 This session takes place after the masquerade and before the vampire convent.

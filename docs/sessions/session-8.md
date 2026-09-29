@@ -14,8 +14,8 @@ podcastlink: "https://creators.spotify.com/pod/show/topher-hooper/episodes/C4-E8
 
 The party finally leaves the deep tunnels under High Forge, emerging into the dawn-lit foothills of the surrounding mountains. As they rejoin a larger caravan of fleeing citizens and merchants, the group maintains a low profile while still accompanied by Bo, the Twilight Company remnants, and the now-painted vehicles: **Vroomfall** and **Zoomfall**.
 
-- **Van aesthetics update**: Vroomfall now features the iconic “Three Steve Moon” (wolves wearing sunglasses) howling at a stylized moon.
-- **Zoomfall** is painted in a Mad Max–inspired style, waiting on Ellie’s final flair.
+- **Van aesthetics update**: Zoomfall now features the iconic “Three Steve Moon” (wolves wearing sunglasses) howling at a stylized moon.
+- **Vroomfall** is painted in a Mad Max–inspired style, waiting on Ellie’s final flair.
 
 ## 🧪 A Wave of Revelations
 

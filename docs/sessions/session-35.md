@@ -8,17 +8,17 @@ image: "/img/C4E35.webp"
 podcastlink: "https://creators.spotify.com/pod/show/topher-hooper/episodes/C4-E1-Dinner-and-Nightcap-e393cbr"
 ---
 
-**[🎧 Podcast Link](https://creators.spotify.com/pod/show/topher-hooper/episodes/C4-E1-Dinner-and-Nightcap-e393cbr) • *October 2, 2025***
+**[🎧 Podcast Link](https://creators.spotify.com/pod/show/topher-hooper/episodes/C4-E1-Dinner-and-Nightcap-e393cbr) • *October 3, 2025***
 
-The session opens with the party still reeling from the previous confrontation where Helisanna split into two distinct beings—the patron-controlled Helisanna who departed with the ravers, and the newly manifested Leliana Goldspring, a cheerful bard who claims to be the original personality trapped inside Helisanna's consciousness for years.
+The session opens with the party still reeling from the previous confrontation where Helisanna split into two distinct beings—the patron-controlled Helisanna who departed with the ravers, and the newly manifested Leliana Goldspring, a cheerful bard who had been trapped inside Helisanna's consciousness for years.
 
 ## Understanding the Split
 
-The party immediately begins questioning Leliana about the nature of her existence and relationship to Helisanna. Leliana explains that she represents who Helisanna was before accepting the pact with Ach'uk—a personality that was locked away when the warlock deal was struck. She has witnessed everything through Helisanna's eyes but been powerless to intervene. The group debates whether they are two halves of a fractured soul or completely separate entities.
+The party immediately begins questioning Leliana about the nature of her existence and relationship to Helisanna. Leliana explains that she represents who Helisanna was before accepting the pact with Y'chek—a personality that was locked away when the warlock deal was struck. She has witnessed everything through Helisanna's eyes but been powerless to intervene. The group debates whether they are two halves of a fractured soul or completely separate entities.
 
-When asked directly if they should attempt to save Helisanna, Leliana—despite her heart breaking at the thought—acknowledges that her priority lies with the people in front of her who aren't trying to murder each other. This pragmatic response is noticeably gentler than anything Helisanna ever expressed, though Leliana insists that Helisanna did care about the party in her own rough way.
+When Silas asks whether she could help kill her other half if it came to that, Leliana—despite her heart breaking at the thought—acknowledges that her priority lies with the people in front of her who aren't trying to murder each other. This pragmatic response is noticeably gentler than anything Helisanna ever expressed, though Leliana insists that Helisanna did care about the party in her own rough way.
 
-The DM clarifies that Helisanna had become so consumed by thoughts of "what if I hadn't made the pact" that this alternate self grew strong enough to manifest as a separate being through warlock magic. They are now fully distinct entities, each with their own bodies and identities—Helisanna kept the warlock powers and patron connection, while Leliana retained the original personality's optimism and compassion.
+The DM clarifies that Helisanna had become so consumed by thoughts of "what if I hadn't made the pact" that this alternate self grew strong enough to manifest as a separate being through warlock magic. They are now fully distinct entities, each with their own bodies and identities—Helisanna kept the warlock powers and patron connection, while Leliana is who she would have been had she never gone to meet her patron, with all of that self's optimism and compassion.
 
 ## Strategic Assessment
 
@@ -30,9 +30,9 @@ Silas proposes contacting his girlfriend Naomi, who manages operations at the Lo
 
 **The Dragon Threat**: An army of dragons will descend on High Forge in three days. The party possesses the mysterious orb that may allow them to command the dragons, though using it carries unknown risks. They recognize they got off relatively easy with the dragons during their last encounter (having given them the Bugatti), but the creatures still destroyed parts of the city.
 
-**The Helisanna Situation**: The patron-controlled Helisanna now leads the ravers and poses an unpredictable threat. While she's still committed to the Iron Claws attack, her actions afterward could range from simply pursuing fame to attempting to "party the city to death" as ancient legends describe Ach'uk's influence. The party agrees they cannot defeat her in direct combat at their current power level.
+**The Helisanna Situation**: The patron-controlled Helisanna now leads the ravers and poses an unpredictable threat. While she's still committed to the Iron Claws attack, her actions afterward could range from simply pursuing fame to attempting to "party the city to death" as ancient legends describe Y'chek's influence. The party agrees they cannot defeat her in direct combat at their current power level.
 
-Tofer explicitly warns the players that a straight fight against Helisanna would end badly for them, suggesting they need to be clever about any confrontation—planting seeds for future solutions, making deals, or finding ways to avoid direct combat entirely.
+Topher explicitly warns the players that a straight fight against Helisanna would end badly for them, suggesting they need to be clever about any confrontation—planting seeds for future solutions, making deals, or finding ways to avoid direct combat entirely.
 
 ## Planning Solutions
 
@@ -40,15 +40,27 @@ The party brainstorms several potential approaches to the Helisanna problem:
 
 **Ellis proposes using the dimensional rifts**: Perhaps they could send Helisanna and the ravers to another dimension temporarily, giving the party time to deal with other threats. This leads to discussion of using the stellar radio technology from Red's research.
 
-**Luke suggests a rock-off**: Leliana could challenge Helisanna to a musical battle, with pyrotechnics from Bru and Elspeth providing a spectacular show that might appeal to Helisanna's desire for the perfect performance.
+**A rock-off**: Leliana suggests music could even Helisanna out, playing the antithesis of her melancholy metal, and Ohma declares she is already part of a rock-off. Silas points out that nobody in Helisanna's stage crew can match the pyrotechnics Bru and Elspeth could put on, and asks for sunshine and flowers instead of fire, which Bru insists is possible.
 
 **The Vegas Solution**: Ellis proposes that Silas contact Naomi about offering Helisanna a residency at the Lotus Casino—giving her a venue for nightly performances with free booze and adoring crowds. This appeals to Helisanna's core motivation (fame and recognition) without requiring combat. The party generally agrees this might be their best short-term solution.
 
-**Long-term Rescue Mission**: The party discusses eventually seeking out Joel (the powerful entity they've encountered before) to help save Helisanna from Ach'uk's influence. Tofer confirms this is a viable quest line they could pursue after dealing with immediate threats, though he jokes about his track record of keeping Joel alive.
+**Long-term Rescue Mission**: The party discusses eventually seeking out Joel (the cowboy from their interdimensional adventures, last seen alive in Greyport) to help save Helisanna from Y'chek's influence. Topher confirms this is a viable quest line they could pursue after dealing with immediate threats, though he jokes about his track record of keeping Joel alive.
 
 ## Return to the Sewers
 
-Needing rest and a safe location, the party heads back to April Bonal's underground encampment. Along the way, Bru continues his ongoing argument with April about poison (still bitter about nearly dying from testing her toxin). The group also discovers that the dwarf couple living in Olivia's former apartment were legitimate residents assigned by the Iron Claws after Olivia fled—though this doesn't make the encounter any less awkward.
+### Bru's Poison Problem
+
+In the nightclub's aftermath, April, Casey and Bernardo turn up with pizza and a plan to poison Crang One (and, April insists, the ravers too, which Olivia refuses). Bru needles April until he beats her at arm wrestling, then takes a sip of her poison to prove it is as weak as she is. It is not:
+- April heads back down the tunnels convinced he'll be dead within a couple of hours, and swearing to double the recipe
+- Soon after, a failed save knocks him unconscious; Leliana, remembering she is a healer now, brings him back with a 49-point Cure Wounds
+- He passes a few more saves with Flash of Genius and Olivia's aura, with Olivia carrying him
+- When he drops unconscious a second time, Elspeth uses Lesser Restoration to cure the poison, bringing him back up at 1 hit point
+
+The incident highlights both Bru's impressive constitution and his tendency toward self-destructive decisions in pursuit of proving himself.
+
+### Olivia's Apartment
+
+The party tries to rest at Olivia's apartment off the Great Hall. Silas picks the changed lock, and they find a dwarf couple, Jonathan and Marbel, at the breakfast nook. The pair were legitimate residents assigned the abandoned flat by the Iron Claws. Leliana's Calm Emotions settles Jonathan, but Marbel leaps out of the third-story window yelling for help. Rather than risk being reported, the party leaves and heads back to April Bonal's underground encampment instead.
 
 At the encampment, they find:
 - April working on her chemistry set, trying to improve her poison after Bru's remarkable resistance
@@ -60,27 +72,19 @@ Litu has thoughtfully set up a complete camp including a hot tub, demonstrating 
 
 ## Shopping and Preparations
 
-### Bru's Poison Problem
+### The Potion Shop
 
-Before the group can properly rest, Bru insists on visiting a potion shop to restock supplies after his near-death experience. The party visits an establishment run by an elderly dwarf named Tunac in the Underlake district. When Ohma reveals his identity as "the Ninja Turtle" (the famous underground wrestler), Tunac agrees not to report them to authorities in exchange for the story.
-
-However, the shopping trip is repeatedly interrupted by Bru needing to make constitution saving throws against the poison still ravaging his system:
-- He passes several through liberal use of Flash of Genius
-- April watches with scientific curiosity, insisting her poison should have killed him by now  
-- The party eventually carries the semiconscious goblin while continuing their errands
-- Elspeth finally uses Lesser Restoration to cure him after he drops to 1 hit point
-
-The incident highlights both Bru's impressive constitution and his tendency toward self-destructive decisions in pursuit of proving himself.
+With the long rest behind them, Ohma and Bru go shopping. They find a potion shop in the Underlake district run by an elderly dwarf named Tunac. When Ohma reveals his identity as "the Ninja Turtle" (the famous underground wrestler), Tunac agrees not to rat them out to anybody, though he charges them the same price as before.
 
 ### Kevin's Arsenal
 
-Ohma purchases supplies to upgrade Kevin (Bru's steel defender):
+Ohma purchases supplies to upgrade Kevin (Bru's construct companion):
 - 10 flasks of oil (1 gold total—apparently oil is remarkably cheap)
 - 5 scrolls of Acid Splash (100 gold)
-- 4 healing potions (200 gold)
+- 2 healing potions (100 gold)
 - 1 scroll of Web (240 gold)
 
-Bru plans to modify the Web scroll into wrist-mounted web shooters for Kevin, creating a Spider-Man style combat homunculus. When Ohma questions this allocation of their shared gold, Bru successfully arm-wrestles April to claim the crafting table in their safe house, then begins extracting juice from grapes to create "acid grapes" and "toilet wine."
+Bru plans to modify the Web scroll into wrist-mounted web shooters for Kevin, creating a Spider-Man style combat construct. Back at the Zoomfall, Bru arm-wrestles Scarlet for her work table and wins a close match, and Ohma sets to work with a syringe extracting juice from Tunac's pound of grapes to create "acid grapes" and "toilet wine."
 
 The goblin's creative chaos includes proposals to:
 - Create poisonous toilet wine to revenge-poison April
@@ -93,7 +97,7 @@ Silas repeatedly tries to redirect Bru toward less dangerous projects, eventuall
 
 **Leliana** visits the "Purple Bottom Armory," run by three children stacked in a trench coat pretending to be an adult proprietor named "Mr. Purple Bottom." She plays along with their charade while purchasing basic studded leather armor (45 gold) after determining that magical armor remains too expensive for her current budget.
 
-**Olivia** visits the same establishment and negotiates for adamantine plate armor with financial help from Leliana (who spots her 200 gold). The upgrade provides immunity to critical hits and reduces all physical damage by 3, significantly improving her already formidable defensive capabilities. Her AC remains 20, but she becomes extraordinarily difficult to damage effectively.
+**Olivia** visits the same establishment and negotiates for adamantine plate armor with financial help from Leliana (who spots her 200 gold). The armor makes her immune to critical hits, and with her new Heavy Armor Master feat she also shrugs off 3 points of all bludgeoning, piercing and slashing damage, significantly improving her already formidable defensive capabilities. Her AC remains 20, but she becomes extraordinarily difficult to damage effectively.
 
 ## Confronting the Past
 
@@ -107,8 +111,8 @@ In the bullpen, they discover an elaborate tactical display that Chalk Rock has 
 - Figurines representing each party member seated around a table
 - An empty chair at the head for Olivia
 
-The display reveals Chalk Rock's loneliness and his desire to have his mentor back. Eavesdropping on his office, they hear him talking to himself (or possibly to imagined versions of the party), working through his plan to:
-- Coordinate with the old Tear leaders to evacuate civilians before the conflict
+The display reveals Chalk Rock's loneliness and his desire to have his mentor back. Leliana creeps close enough to eavesdrop and hears him talking to himself (and asking what Olivia would do), working through his plan to:
+- Coordinate with the old Tyr leaders to evacuate civilians before the conflict
 - Prepare a speech for convincing religious authorities to help
 - Write everything down in advance since he knows he's "not good outside this office"
 
@@ -116,14 +120,14 @@ The party realizes Chalk Rock is competent and well-intentioned, just anxious an
 
 ## Technical Preparations
 
-At the Vroomfall (the party's mobile base), Scarlet has been conducting research on dimensional magic to advance the Pocket Village project. Silas assists her in creating several basketball-sized glass spheres that emanate interdimensional energy—likely components for the village's eventual construction or for manipulating planar barriers.
+At the Zoomfall (the party's van and mobile base), Scarlet has been conducting research on dimensional magic to advance the Pocket Village project, studying a bag of holding she bought for the purpose. Silas assists her in creating several basketball-sized glass spheres that emanate interdimensional energy—likely components for the village's eventual construction or for manipulating planar barriers.
 
 Meanwhile, Bru converts his purchases into combat applications for Kevin:
 - Creates wrist-mounted web shooters from the scroll
-- Installs an ammunition bandolier holding alchemist's fire, acid, and healing potions
+- Installs an ammunition bandolier holding alchemist's fire, flasks of oil, and healing potions
 - Considers adding acid spray mechanisms
 
-The modifications transform Kevin from a simple steel defender into a heavily armed combat support construct, ready for the coming battle.
+The modifications transform Kevin from a simple construct companion into a heavily armed combat support construct, ready for the coming battle.
 
 ## Character Moments
 
@@ -135,7 +139,7 @@ The modifications transform Kevin from a simple steel defender into a heavily ar
 
 **Silas and Bru**: Their friendship shows in Silas repeatedly saving Bru from his own poor choices, though he also enables some of the goblin's more creative chaos when it serves strategic purposes.
 
-**Olivia's Displacement**: Returning to her apartment to find it occupied by Iron Claws-assigned residents reinforces her exile status. She handles it pragmatically, taking only what she needs (the maps) rather than fighting innocent civilians caught in the regime's housing redistribution.
+**Olivia's Displacement**: Returning to her apartment to find it occupied by Iron Claws-assigned residents reinforces her exile status. She handles it pragmatically, learning her family photos are in storage and walking away rather than fighting innocent civilians caught in the regime's housing redistribution.
 
 ## Timeline and Pressure
 
@@ -144,7 +148,7 @@ The party completes their long rest with one day remaining before the planned up
 - Day 2: Final preparations and positioning
 - Day 3: The Great Hall concert/uprising against Iron Claws
 - Day 3: Dragon army descends on the city
-- Ongoing: Helisanna's unpredictable actions under Ach'uk's influence
+- Ongoing: Helisanna's unpredictable actions under Y'chek's influence
 
 ## Unresolved Questions
 
@@ -154,17 +158,17 @@ The party completes their long rest with one day remaining before the planned up
 
 **Dragon Control**: The party has the orb but doesn't know how to use it safely or what consequences using it might bring.
 
-**George's Mission**: Olivia's nephew's quest to seal dimensional rifts remains unaddressed, though the party's work with Scarlet on dimensional magic may eventually connect to this plotline.
+**George's Mission**: Olivia's grandson's quest to seal dimensional rifts remains unaddressed, though the party's work with Scarlet on dimensional magic may eventually connect to this plotline.
 
-**Ach'uk's Endgame**: What does the ancient primordial entity ultimately want? How much control does it truly have over Helisanna? Can its influence be countered or severed?
+**Y'chek's Endgame**: What does the ancient primordial entity ultimately want? How much control does it truly have over Helisanna? Can its influence be countered or severed?
 
 ## Setup for Next Session
 
-Tofer explicitly warns players that next session will be continuous action—the convergence of the Iron Claws uprising, dragon threat, and Helisanna situation. He advises them to:
-- Review their character abilities and resources
-- Think about positioning and tactics
-- Consider how their various preparations might be employed
-- Prepare for difficult choices with no perfect solutions
+Topher explicitly warns players that next session will be continuous action—the convergence of the Iron Claws uprising, dragon threat, and Helisanna situation. He advises them to:
+- Focus their targets and work together
+- Keep the battle map zoomed out far enough to see everything that's happening
+
+He also notes that the fight will close out the current arc, and that Greyport, the direction the moon goddess fell, is a natural next destination, though the party can choose another.
 
 The session ends with the party as ready as they can be, though everyone understands they're heading into a situation where even the best plans may crumble under pressure from multiple simultaneous crises. The question isn't whether things will go wrong, but how catastrophically, and whether they can adapt quickly enough to prevent total disaster.
 

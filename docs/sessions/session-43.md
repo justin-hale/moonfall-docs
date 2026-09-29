@@ -18,12 +18,11 @@ Before the session proper begins, the party takes time to celebrate and process 
 
 **[Silas](/player-characters/silas)** took the Telekinetic feat and bumped his Charisma to +4—now the second most charismatic person in the party, a fact he does not let go unnoticed. With Reliable Talent already applied to his deception, he is, as he puts it, an even better liar than he was before.
 
-> **[Silas](/player-characters/silas):** "You could be lying to us right now."
-> **DM:** "Exactly."
+> **DM:** "You could be lying to us right now."
 
-**[Leliana](/player-characters/leliana)** hit the bard milestone of Magical Secrets, gaining access to spells from any list—bard, cleric, druid, or wizard. After much deliberation about the weight of this cosmic gift, she chose Conjure Animals. The party's unanimous suggestion: summon a herd of sheep.
+**[Leliana](/player-characters/leliana)** hit the bard milestone of Magical Secrets, gaining access to spells from any list—bard, cleric, druid, or wizard. Faced with a daunting number of new options, she chose Conjure Animals—with every intention of conjuring a herd of sheep.
 
-**[Bru](/player-characters/bru)** gained two Replicate Magic Item infusions and the ability to craft uncommon magic items. After debating between a Periapt of Wound Closure ("always stabilized, double hit points from hit dice") and Winged Boots, he landed on the boots—with the reminder that flying melee fighters win fights.
+**[Bru](/player-characters/bru)** gained two Replicate Magic Item infusions and the ability to craft uncommon magic items. After debating between a Periapt of Wound Closure ("always stabilized, double hit points from hit dice") and Winged Boots, he leaned toward the boots, with Silas arguing that the party's melee fighters would get the most out of flight.
 
 > **[Olivia](/player-characters/olivia):** "Remember how helpful it was when all of us could fly? All except one."
 
@@ -43,13 +42,13 @@ On the voyage back to [Greyport](/locations/greyport), with the coast still on t
 
 His plan: leverage [Leliana](/player-characters/leliana)'s musical talent to host concerts and revival festivals, directing audience worship explicitly toward Luna. Eldora grew powerful through the slow accumulation of worship—what if they ran that process in fast-forward?
 
-> **[Silas](/player-characters/silas):** "This is in addition to maybe pilfering some of the relics from the Elderans and feeding them to Luna or whatever. And most importantly, we could definitely monetize this."
+> **[Silas](/player-characters/silas):** "This is in addition to maybe pilfering some of the relics from the Eldorans and feeding them to Luna or whatever. And most importantly, we could definitely monetize this."
 
 [Leliana](/player-characters/leliana) immediately bristles at the monetization angle. [Silas](/player-characters/silas) pivots with impressive speed.
 
 > **[Silas](/player-characters/silas):** "We can make some like t-shirts or something. And hey—I'll even do it legit."
 
-[Ohma](/player-characters/ohma) points out she could redirect her existing followers' devotion toward Luna rather than herself. The group lands on a framing that even [Silas](/player-characters/silas) approves of:
+[Ohma](/player-characters/ohma) points out that [Leliana](/player-characters/leliana) could simply tell her existing followers to direct their praise to Luna instead of to her. The group lands on a framing that even [Silas](/player-characters/silas) approves of:
 
 > **[Silas](/player-characters/silas):** "It's not a cult if there's already a religion behind it. There's an air of legitimacy to this that normally cults don't have. Well—you'd be the leader of the cult."
 
@@ -65,21 +64,19 @@ His plan: leverage [Leliana](/player-characters/leliana)'s musical talent to hos
 
 The group also remembers a critical loose end: during the ritual, [Ohma](/player-characters/ohma) threw a sending stone down to Luna's resting place. [Victor](/npcs/victor) holds the matching stone. To communicate with Luna, they need Victor's stone. Their plan for retrieving it is... direct.
 
-> **[Silas](/player-characters/silas):** "We go find Victor, use his sending stone—and by use, I mean take it, so we don't have to talk to Victor anymore."
-
-> **[Leliana](/player-characters/leliana):** "Glad everyone agrees."
+> **[Silas](/player-characters/silas):** "We go find Victor, use his sending stone—and by use, I mean take it, so we don't have to talk to Victor anymore. Glad everyone agrees."
 
 ### The Victory Parade
 
 The SS Leroy pulls into the [Greyport](/locations/greyport) harbor dragging the white dragon's corpse behind it. Harbor Row smells of lit barbecue pits and roasting meat. The Dragon's Hide tavern is packed. It is a full heroes' welcome.
 
-Commander Tannell strides up with a heavy duffel bag.
+Commander Tannondel strides up with a heavy duffel bag.
 
-> **Commander Tannell:** "Congratulations, team. Partial success, but we'll take the successes where we get them. Following up on the orb is next—but for now: several dead dragons, and here are your earnings."
+> **Commander Tannondel:** "Congratulations, team. Partial success, but we'll take the successes where we get them. Following up on the orb is next—but for now: several dead dragons, and here are your earnings."
 
 One thousand gold each. She also produces a large yellow block with an arrow pointing up. The party each take a turn jumping on it. They change color with each jump. Level 10, officially canonized.
 
-> **Commander Tannell:** "We can talk later. Enjoy the picnic. You deserve it."
+> **Commander Tannondel:** "We can talk later. Enjoy the picnic. You deserve it."
 
 ### Dragon Skewers
 
@@ -97,27 +94,31 @@ The verdict: incredible. Like the most perfectly marbled wagyu steak, melting on
 
 As they approach, the DM hands description duties back to the players—this is their city, their world, their zoo. The party collaboratively constructs it.
 
-**The Entrance:** A massive bronze statue anchors the gates—[Dane](https://moonfall.fandom.com/) (Ellis Taylor's previous ranger character who founded the park) and Steve the wolf standing heroically, eyes fixed on some distant horizon. Smaller animals cavort around their feet: squirrels climbing Steve's leg, bunnies in mid-prance. The statue is surrounded by a splash fountain where children play. Patina has begun to form at the base from water erosion, as an architect would note.
+**The Entrance:** A massive bronze statue anchors the gates—Dane (Ellis Taylor's previous ranger character, who founded the park with Lady Legrand's private animal collection as its first residents) and Steve the wolf standing heroically, eyes fixed on some distant horizon. Smaller animals cavort around their feet: squirrels climbing Steve's leg, bunnies in mid-prance. The statue is surrounded by a splash fountain where children play. Patina has begun to form around the base where the water splashes.
 
 **The Owl Bear Exhibit:** The main attraction, drawing the largest crowds. A family of owl bears—matriarch, patriarch, and two juveniles—interact directly with visitors in an enrichment-focused, deeply spacious pit enclosure with elevated boardwalks above.
 
 **The Moss Kitten Café:** Mosskittens—small feline creatures made entirely of living plant matter—available for 5-minute interactive sessions. A popular stop.
 
-**The Platty Puff Restaurant:** A D&D splatbook creature: platypuses wearing chef's hats who bake and run the establishment. The espresso bar is staffed by the café's mosskitten baristas.
+**The Platty Puff Restaurant:** A D&D splatbook creature: platypuses wearing chef's hats who bake and run the establishment. The Platty Puffs may double as baristas at the Moss Kitten Café.
 
 **The Steve Merchandise Empire:** The zoo's mascot is Steve. Full mascot costumes with sunglasses and rainbow capes staff the entrance. Mylar balloons of every former party member float above vendor kiosks. Light-up wands with Steve's face as the hilt. Novelty sunglasses with wolf imagery. And those toy figures with the string in the base—push the bottom, Steve collapses; release, he springs back upright on his hind legs. "Steve Dots" (dippin' dots) sold from every other kiosk.
 
 ### The Ticket Line
 
-The party waits 45 minutes in line behind what appears to be every stroller in [Greyport](/locations/greyport). Entry costs one copper piece. Even [Silas](/player-characters/silas) is not cheap enough to argue.
-
-He does attempt to pass himself off as a small child to get in at a reduced rate. This fails.
+The party waits 45 minutes in line behind what appears to be every stroller in [Greyport](/locations/greyport). [Silas](/player-characters/silas) attempts to pass himself off as a small child to get in free. This fails.
 
 > **Ticket Clerk:** "I haven't seen a halfling before."
 
 > **[Silas](/player-characters/silas):** "I'm a human child."
 
 > **[Olivia](/player-characters/olivia):** "He has the immaturity of a child, but yes, he's an adult."
+
+Entry turns out to cost one copper piece. In a gesture of personal growth, [Silas](/player-characters/silas) pays for his own ticket.
+
+### The Ticketing Counter Lead
+
+While they have the clerk's ear, the party asks about a patron matching [Victor](/npcs/victor)'s description. [Bru](/player-characters/bru)'s questioning (Investigation 16) jogs her memory: a patron named Victor recently caused trouble by bringing a gun into the zoo, which has a strict no-open-carry policy. [Bru](/player-characters/bru) responds by lunging at the clerk and trying to peel her face off, convinced it is a Victor disguise. It is not.
 
 ### The Owl Bear Exhibit: Midnight Werewolf
 
@@ -139,31 +140,27 @@ The owl bears, apparently, can talk. This surprises [Bru](/player-characters/bru
 
 ## Tracking Victor
 
-### The Ticketing Counter Lead
-
-After their owl bear detour, the party asks the ticketing staff about a patron matching [Victor](/npcs/victor)'s description. The front desk attendant recalls him immediately:
-
-A patron named Victor recently caused a scene—he tried to bring a gun into the zoo. The staff escorted him out. He is, however, allowed to return without weapons, and he does so regularly.
-
 ### Trevor in the Security Office
 
 The security office contains two guards: one standing at rigid attention like a Buckingham Palace sentry, and one asleep in a rocking chair. The standing guard introduces himself as **Trevor**.
 
-Trevor, it turns out, has a complicated relationship with [Victor](/npcs/victor).
+Trevor confirms that security escorted [Victor](/npcs/victor) out after the gun incident, and that he is allowed to return without firearms. He also turns out to have a complicated relationship with Victor.
 
-He explains that after the gun incident, he began monitoring [Victor](/npcs/victor)'s movements as a matter of professional diligence. [Victor](/npcs/victor) arrives every morning at 9:00 AM with a croissant, spends approximately two hours at the chimera enclosure on a bench, then eats a hot dog in the food court for 45 minutes—during which Trevor sat across from him making eye contact to match his pace, bite for bite.
+He explains that for the first three days after the gun incident, he monitored [Victor](/npcs/victor)'s movements as a matter of professional diligence. [Victor](/npcs/victor) arrives every morning at 9:00 AM with a croissant and stays for approximately three hours: about two hours on a bench at the chimera enclosure, then a hot dog in the food court for 45 minutes—during which Trevor sat across from him to match his pace, bite for bite.
 
-> **Trevor:** "On the third day, I truly understood him. I was ready to apprehend him as a criminal within the park."
-
-> **[Bru](/player-characters/bru):** "You sat across from him eating hot dogs and making eye contact for 45 minutes."
+> **[Bru](/player-characters/bru):** "Do you make eye contact with him the whole time?"
 
 > **Trevor:** "Yes, while I eat my hot dog as well. I tried to match his speed. It is excruciatingly slow."
 
-> **[Silas](/player-characters/silas):** "That's not surveillance. That's a date."
+> **[Bru](/player-characters/bru):** "So you make eye contact and you chew and swallow at the same time for 45 minutes."
 
-His supervisors eventually told him to stop stalking the guests. However, Trevor's final report noted that [Victor](/npcs/victor) always "disappears" near the chimera exhibit—never actually entering, but somehow vanishing after three hours on the bench.
+> **[Silas](/player-characters/silas):** "That does sound like a pretty intimate encounter you guys are having."
 
-It is currently 1:30 PM. Victor left for the day. His apartment location is unknown.
+> **Trevor:** "On the third day, I truly understood him. I was ready to apprehend him as a criminal within the park."
+
+His supervisors eventually told him to stop stalking the guests. Trevor nonetheless suspects that [Victor](/npcs/victor) has found a way to infiltrate the inner workings of the zoo through the chimera exhibit, where he always seems to disappear.
+
+It is currently 1:30 PM. The party has missed him for the day.
 
 As the party leaves the security office, they hear Trevor's supervisor yanking him back inside:
 
@@ -171,7 +168,7 @@ As the party leaves the security office, they hear Trevor's supervisor yanking h
 
 ## The Chimera Exhibit: Fufu Cuddly Poops
 
-The chimera exhibit is home to **Fufu** (also known as Fufu Cuddly Poops and affectionately just "Poo")—the chimera originally collected as part of Lady Lorange's private animal collection and now one of the zoo's flagship residents.
+The chimera exhibit is home to **Fufu** (also known as Fufu Cuddly Poops)—a crowd favorite, and not to be confused with the owl bear of the same name at the casino.
 
 Fufu is having an excellent afternoon:
 - The **lion head** is sunning on a warm rock
@@ -202,7 +199,7 @@ About five minutes later, a trap door rises from the walkway tiles in front of t
 
 The party descends into the sewers beneath the chimera exhibit. Service lighting illuminates the winding tunnels dimly.
 
-Survival checks establish navigation: [Ohma](/player-characters/ohma) rolls a 19, [Silas](/player-characters/silas) rolls a 25, and [Bru](/player-characters/bru) manages a 17 with half-proficiency. Together they track [Victor](/npcs/victor)'s path by identifying which tunnel entries show recent use versus years of accumulated grime.
+Survival checks establish navigation: [Ohma](/player-characters/ohma) rolls a 20, [Silas](/player-characters/silas) rolls a 16, and [Bru](/player-characters/bru) manages a 17 with half-proficiency. Together they track [Victor](/npcs/victor)'s path by identifying which tunnel entries show recent use versus years of accumulated grime.
 
 Eventually, a side hatchway reveals something unexpected.
 
@@ -213,7 +210,7 @@ The space beyond the hatch is built inside a converted water collection bay—do
 [Victor](/npcs/victor)'s alchemical operation is on full display:
 - An alchemical bench covered in active reagents
 - A blasting chamber against the far wall
-- A shelf of perfectly spherical **violescent orbs**—the same type used in the rebinding ritual
+- A shelf of perfectly spherical **violescent orbs**
 - Multiple gun designs on drafting tables, all configured to fire the orbs as ammunition
 
 [Silas](/player-characters/silas) immediately begins pocketing orbs with a 23 on Sleight of Hand. Nothing explodes.
@@ -234,13 +231,15 @@ The newer letter, hastily written:
 
 > **[Olivia](/player-characters/olivia):** "Honey, I think you've got an admirer."
 
+> **[Silas](/player-characters/silas):** "Damn. Even when he's not here, Victor finds a way to be really annoying."
+
+[Bru](/player-characters/bru) explains that Victor has a habit of writing letters he never sends—and then not remembering whether he sent them.
+
 ### Victor's Journal
 
 [Olivia](/player-characters/olivia) turns to the most recent journal entry, dated five days ago:
 
 > **Victor's Journal:** *"I think they're on to me. I set up a projection on the bench to try to throw off their scent. I think if I don't think they know what kind of deal they have here, we'll continue to run our operations here until it becomes too dangerous."*
-
-> **[Silas](/player-characters/silas):** "He knew we were coming. Classic Victor."
 
 A mirroring door on the opposite wall leads further into the sewers.
 
@@ -250,41 +249,37 @@ A mirroring door on the opposite wall leads further into the sewers.
 
 [Leliana](/player-characters/leliana) opens the far door.
 
-On the other side is not an empty sewer tunnel. It is a large, active facility—dozens of people at workstations, at planning tables, moving purposefully between stations. The entire room freezes when the door opens.
+On the other side is not an empty sewer tunnel. It is a large, active facility full of people at work. The entire room freezes when the door opens.
 
-Four well-armed figures break away from the crowd and move toward the door.
+The last thing [Leliana](/player-characters/leliana) glimpses before four well-armed figures reach her is an ideas board off to the side that reminds her of [Chalk Rock](/npcs/chalk-rock)'s thought boards. Then the guards grab her and start hauling her away.
 
 ### Charm Person, Applied Liberally
 
-[Leliana](/player-characters/leliana) upcasts Charm Person to 4th level, targeting all four approaching guards. Three of the four fail their Wisdom save against DC 17. One—a guard named **Pat**—becomes immediately and effusively friendly.
+From his post by the entrance, [Ohma](/player-characters/ohma) crosses the room and seizes the arm of the guard dragging [Leliana](/player-characters/leliana)—a 16 on strength-based intimidation—stopping him in his tracks. Another guard moves to grab Ohma in turn.
+
+[Leliana](/player-characters/leliana) upcasts Charm Person to 4th level, targeting all four guards. Three of the four fail their Wisdom save against DC 17—including both guards holding onto the party. One—a guard named **Pat**—becomes immediately and effusively friendly.
 
 > **Pat:** "She's one of my best friends that I've known my whole life."
 
-> **Non-Charmed Guard (Tino):** "Pat, this is on you. This is entirely on you."
+The one guard who kept his wits, Tino, is not amused.
 
-[Ohma](/player-characters/ohma) grabs the remaining guard's arm—a 16 on strength-based intimidation—stopping him in his tracks long enough for [Silas](/player-characters/silas) to step forward and flash Twilight Company credentials.
-
-The atmosphere changes immediately.
+> **Tino:** "All right, Pat, this is on you. This is on you."
 
 ### What Is This Place
 
-Through Pat and the cooperative layout of the room, the party pieces together the truth: this is a **Twilight Company headquarters facility** operating beneath the Greyport Zoo.
+This door, Pat explains, guards Victor's study, and nobody is supposed to use it. [Leliana](/player-characters/leliana) talks her way out of trouble as one of Victor's friends, and Pat happily gives a tour of what the party is looking at:
+- **The Planning Bay:** A couple of heists in progress
+- **A huge project:** Plans to blow up the spaceport in Eldoran
+- **Logistics:** The zoo's front operations—sourcing animals, special exhibits
+- **Special Ops:** Down the hall, off-limits even to Pat
 
-Visible from their position:
-- **The Planning Bay:** Active heist schematics covering the walls
-- **A major project board:** Detailed plans to destroy the Eldoran space station
-- **Logistics hub:** Zoo operations, animal sourcing, seasonal exhibits—the zoo is a cover
-- **Special Ops wing:** Down the hall, behind a door Pat cannot enter
+[Silas](/player-characters/silas)'s Insight check (a 20) confirms the truth: this is the **Twilight Company headquarters**, operating beneath the Greyport Zoo. He steps in with his credentials as a member and demands the safe house the Company is supposed to provide.
 
-And, briefly glimpsed by [Leliana](/player-characters/leliana) through the chaos—an ideas board that looks disturbingly like the planning style of **[Chalk Rock](/npcs/chalk-rock)**.
-
-> **[Silas](/player-characters/silas):** "We came in through the wrong door. We're friends of Victor's. We're members."
-
-> **Tino:** "Then why didn't you use the front door?"
+> **Pat:** "Listen. You came through the wrong door, okay? I'm supposed to just guard this door. Why don't you go through the front door if you're supposed to be here?"
 
 ### The Atrium
 
-The party is escorted down to the main atrium where a gnome receptionist manages check-ins with professional indifference.
+The party heads downstairs to the main atrium, where a gnome receptionist manages check-ins with professional indifference.
 
 [Silas](/player-characters/silas) invokes the name of their operation:
 
@@ -292,17 +287,15 @@ The party is escorted down to the main atrium where a gnome receptionist manages
 
 > **Gnome:** "Great. We have a safe house for you."
 
-The gnome hands over a key and—after the party asks when [Victor](/npcs/victor) will be back—explains that [Victor](/npcs/victor) delivers hot dogs to the zoo daily at 12:30 PM as a "loss leader" for foot traffic. This somehow leads to the gnome explaining what a hot dog is, in detail, at length, to five people who already know what a hot dog is.
+The gnome hands over a key and—after the party asks when [Victor](/npcs/victor) will be back—explains that [Victor](/npcs/victor) delivers a huge batch of hot dogs at around 12:30 PM—a "loss leader" to draw people into the zoo. He keeps several apartments in the city, but nobody knows where. This somehow leads to the gnome explaining what a hot dog is, in detail, at length, to five people who already know what a hot dog is.
 
 > **[Olivia](/player-characters/olivia):** "So he'll be in before or after noon. Okay, thank you."
 
 ## The Safe House
 
-The Twilight Company safe house is across the main drive from the zoo—a three-story New York brownstone in warm stone, hardwood floors throughout, and six fully appointed bedrooms across the upper floors. The roof opens onto a garden terrace with a direct sightline to the chimera enclosure.
+The Twilight Company safe house is across the main drive from the zoo—a three-story New York brownstone in warm stone, hardwood floors throughout, and six fully appointed bedrooms across the upper floors. The roof opens onto a garden terrace looking across the main drive to the zoo.
 
 > **[Ohma](/player-characters/ohma):** "The Twilight Company does not have bad taste in interior design. This is lovely."
-
-From the rooftop, the party can see Fufu through the enclosure fencing—still agitated but settling, the PlayStation now dark for the evening.
 
 They have a safe place to sleep. [Victor](/npcs/victor) will be back at 12:30 tomorrow with hot dogs.
 
@@ -317,7 +310,7 @@ They have a safe place to sleep. [Victor](/npcs/victor) will be back at 12:30 to
 - Maintains a hidden lab beneath the Greyport Zoo's chimera exhibit
 - Has been constructing weaponized violescent orbs with custom guns to fire them
 - His lab doubles as an access point to Twilight Company HQ
-- Returns to the zoo daily at 12:30 PM with hot dogs
+- Delivers a batch of hot dogs around 12:30 PM
 - His journal confirms he knows he's being watched, and set up the bench projection as a decoy
 - He has written multiple letters to [Bru](/player-characters/bru) that he never sent—one nostalgic, one requesting lunch and his dowsing rod
 
@@ -325,9 +318,9 @@ They have a safe place to sleep. [Victor](/npcs/victor) will be back at 12:30 to
 - Has a full headquarters facility running beneath the zoo
 - The zoo itself appears to be a front organization for their operations
 - Active heist planning visible on the walls
-- A major operation targeting the Eldoran space station is in progress
+- A major operation to blow up the Eldoran spaceport is in progress
 - [Silas](/player-characters/silas) and others have enough Twilight Company history to be recognized as associates
-- [Chalk Rock](/npcs/chalk-rock) may have some connection to operations here
+- An ideas board inside reminded [Leliana](/player-characters/leliana) of [Chalk Rock](/npcs/chalk-rock)'s style
 
 **Bafael:**
 - Appears to have remained near Luna's crash site or a nearby island rather than returning to Greyport
@@ -349,7 +342,7 @@ They have a safe place to sleep. [Victor](/npcs/victor) will be back at 12:30 to
 
 - [Victor](/npcs/victor) returns at 12:30 PM tomorrow—what does the party actually want from him? The sending stone, yes, but what else?
 - The letters to [Bru](/player-characters/bru) suggest [Victor](/npcs/victor) has a "new discovery" to share. What has he found?
-- What is the Twilight Company's full plan? The Eldoran space station operation and [Chalk Rock](/npcs/chalk-rock)'s apparent involvement raise major questions
+- What is the Twilight Company's full plan? The plot to blow up the Eldoran spaceport raises major questions
 - The violescent orbs [Silas](/player-characters/silas) lifted are now in party inventory—what were they intended for?
 - [Leliana](/player-characters/leliana)'s charm on three guards will wear off—will Pat remember her fondly or cause problems?
 - How does the Twilight Company's operation beneath the zoo connect to the party's broader fight against Eldoran?
@@ -366,7 +359,7 @@ They have a safe place to sleep. [Victor](/npcs/victor) will be back at 12:30 to
 
 > **Trevor:** "On the third day, I truly understood him. I was ready to apprehend him as a criminal within the park." *(on his surveillance of Victor)*
 
-> **[Bru](/player-characters/bru):** "You sat across from him for 45 minutes eating hot dogs and making eye contact."
+> **[Bru](/player-characters/bru):** "So you make eye contact and you chew and swallow at the same time for 45 minutes."
 
 > **[Olivia](/player-characters/olivia):** "Honey, I think you've got an admirer." *(handing Bru Victor's unsent letters)*
 

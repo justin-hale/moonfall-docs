@@ -148,7 +148,7 @@ The concert continues to its quiet end.
 
 ### Aftermath
 
-Silas, with a nat-20 sleight of hand totaling 33, sketches an Islamic-crescent-style moon symbol for Luna's faithful in exacting, CAD-rendering detail — ready for stamping. He brings it to Bru, who runs Arcana 19 on turning it into a press. They start discussing where to set up production. The old Caspian Center machine shop comes up, though Caspian is dead.
+Silas, with a nat-20 sleight of hand totaling 33, sketches an Islamic-crescent-style moon symbol for Luna's faithful in exacting, CAD-rendering detail — ready for stamping. He brings it to Bru, who runs Arcana 19 on turning it into a press. They start discussing where to set up production. The old Caspian Center machine shop comes up, though with Caspian gone — held by Crowley — no one knows whether it still exists.
 
 The crowd, dispersing, does not just talk about religion. They talk about resistance. Greyport — part of the Free States, mostly islands, the last human city the Eldoran Empire hasn't yet rolled up — had largely accepted that conquest was coming. Tonight they are reconsidering. The political ripple from one quiet acoustic set is visible in the conversations on the walk home.
 

@@ -1716,7 +1716,6 @@
           "Scarlet": 7,
           "Chalk Rock": 6,
           "Naomi": 3,
-          "Ach'uk": 1,
           "April Bonal": 1,
           "Lady Corwin": 1
         },
@@ -7262,11 +7261,11 @@
           "Scarlet": 3,
           "Finnegan": 2,
           "Luna": 2,
-          "Ach'uk": 1,
           "Astro": 1,
           "Chalk Rock": 1,
           "Steven Goldspring": 1,
-          "Toothy": 1
+          "Toothy": 1,
+          "Y'chek": 1
         },
         "locations": {
           "Sexy Peacock": 4
@@ -7489,7 +7488,6 @@
           "Finnegan": 4,
           "Lady Viper": 4,
           "Crowley": 2,
-          "Ach'uk": 1,
           "Chalk Rock": 1,
           "Naomi": 1,
           "Scarlet": 1
@@ -7925,8 +7923,8 @@
           "George": 16,
           "Scarlet": 10,
           "Captain Steel": 5,
-          "Ach'uk": 4,
           "Lady Viper": 3,
+          "Y'chek": 3,
           "April Bonal": 1,
           "Luna": 1
         },
@@ -8606,9 +8604,9 @@
       "Cassandra": 16,
       "Toothy": 15,
       "Bon Bonnery": 9,
-      "Ach'uk": 7,
       "April Bonal": 4,
       "Lady Corwin": 4,
+      "Y'chek": 4,
       "Ben Boulage": 3,
       "Lord Bradicus": 2,
       "Fredo Boggins": 1,

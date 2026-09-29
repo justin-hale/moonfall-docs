@@ -20,7 +20,7 @@ podcastlink: "https://creators.spotify.com/pod/show/topher-hooper/episodes/C4-E6
 - Tensions briefly rise between [Silas](/player-characters/silas) and Bru, and [Helisanna](/player-characters/helisanna) is teased for her subpar performance.
 ### Planning for the Race
 - The group solidifies roles in the upcoming underground street race:
-  - **[Elspeth](/player-characters/elspeth)** will drive the Doomfall.
+  - **[Elspeth](/player-characters/elspeth)** will drive the Vroomfall.
   - **BoxBox** (her automaton) rides in the back for support.
   - **[Silas](/player-characters/silas)** and **[Helisanna](/player-characters/helisanna)** prepare sabotage and distraction tactics.
   - **Bru** equips and plans the use of flamethrower cannons and caltrops.

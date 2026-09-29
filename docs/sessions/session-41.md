@@ -1,8 +1,8 @@
 ---
 title: "41: The Rebinding Ritual"
 date: 2026-01-30
-description: "The party arrives at Luna's crash site, debates cosmic alliances, sabotages the Order's tracking equipment, and successfully completes the dangerous rebinding ritual—only to face an incoming dragon."
-summary: "The party arrives at Luna's crash site, debates cosmic alliances, sabotages the Order's tracking equipment, and successfully completes the dangerous rebinding ritual—only to face an incoming dragon."
+description: "The party sabotages the Order's tracking equipment, arrives at Luna's crash site, debates cosmic alliances, and successfully completes the dangerous rebinding ritual—only to face an incoming dragon."
+summary: "The party sabotages the Order's tracking equipment, arrives at Luna's crash site, debates cosmic alliances, and successfully completes the dangerous rebinding ritual—only to face an incoming dragon."
 featureimage: "C4E41.webp"
 image: "/img/C4E41.webp"
 podcastlink: ""
@@ -10,29 +10,15 @@ podcastlink: ""
 
 **🎧 Podcast coming soon • *January 30, 2026***
 
-## Arrival at the Crash Site
-
-The session opens with the party aboard Captain Buckle's vessel, now past the harbor and sailing toward the crash site where Luna fell. As they approach, a caller announces: "Hi, the crash site. It's almost here."
-
-### The Impossible Ocean
-
-As the party makes their way to the front of the boat, they witness something extraordinary—a border where the sea simply ends. A sheer drop reveals a perfectly dry ocean floor within an open ring of water, hundreds of feet below.
-
-The ocean forms a swirling vortex with stark walls, roughly 300 feet down to the exposed seabed. And there, sprawled across the ancient ocean floor, lies the glowing skeletal remains of **Luna**—the fallen moon goddess.
-
-> **Christopher (DM):** "You see the skeleton of a glowing winged figure. She appears to be about 400 feet long."
-
-The scale is staggering. This is no metaphor—they're looking at the actual corpse of a god.
-
 ## Conference with Bafael
 
-[Bafael](/npcs/bafael) approaches [Ohma](/player-characters/ohma) and requests a private meeting with the entire party before arriving at the ritual site. Through [Silas](/player-characters/silas)'s psychic phone connection, the conversation becomes a strategy session about their true allegiances.
+The session opens aboard Captain Buckle's vessel, now past the harbor and sailing toward the crash site where Luna fell. Around midday, with the site still hours away, [Bafael](/npcs/bafael) asks [Ohma](/player-characters/ohma) to gather the party in his cabin below deck. The meeting becomes a strategy session about their true allegiances.
 
 ### The Question of Direction
 
 > **Bafael:** "Have you decided what you are going to do when we get to the crash site?"
 
-> **[Silas](/player-characters/silas):** "I have concepts of a plan."
+> **[Bru](/player-characters/bru):** "I have concepts of a plan."
 
 The discussion quickly turns philosophical. Bafael challenges the party on their ultimate goals:
 
@@ -52,7 +38,7 @@ Bafael reveals crucial information: the dragon knights on this ship are **mercen
 
 > **[Olivia](/player-characters/olivia):** "I want to know how long they've been working with Eldoran. They've done a lot of war crimes."
 
-Bafael explains the alliance: Eldoran wants to kill all the gods so their god Eldora becomes more powerful. St. George wants to kill all dragons. Together, they believe they can use the Eldoran moon weapon to destroy the draconic gods, including **Noraxis**—Luna's dragon lover.
+Bafael arrived only a month ago, and the two were already working together. As he understands it, St. George wants to kill all dragons, and works with Eldoran because Eldoran can finally kill the gods—including the draconic gods such as **Noraxis**, Luna's dragon lover. ([Ohma](/player-characters/ohma) reasons that Eldoran's aim is to make their god Eldora more powerful.) Bafael adds that dragons are coming, Noraxis among them, and that they must decide whether the space gun shoots Noraxis or is taken down.
 
 ### The Scorpion Philosophy
 
@@ -60,17 +46,96 @@ Bafael shares his philosophical perspective on destruction:
 
 > **Bafael:** "Not every destructive force is evil. It is in itself an aspect, an agent of chaos, an element of our universe moving forward. A scorpion is a scorpion, right? But is a scorpion evil?"
 
-He reveals two scorpions at the ship's zoo—and a cultural superstition:
+He mentions the two scorpions at the zoo—which prompts a tortle superstition:
 
 > **[Ohma](/player-characters/ohma):** "One scorpion, three scorpion, five scorpion, but two—never. It is a very bad omen."
 
+## The Sabotage Plan
+
+Rather than choose between factions, the party develops a clever middle path: complete the ritual (necessary to reseal Astro) while sabotaging the Order's tracking equipment so they can't locate other dragon orbs. Bafael explains that three sensors ring the crash site, and each ship carries a relay to read them—on this one, in the captain's quarters.
+
+### The Distraction
+
+[Ohma](/player-characters/ohma) and [Olivia](/player-characters/olivia) create a diversion by challenging each other to arm wrestling on deck.
+
+**Athletics Checks:**
+- **[Olivia](/player-characters/olivia):** 18
+- **[Ohma](/player-characters/ohma):** 25
+
+[Ohma](/player-characters/ohma) dons his wrestling persona, showing off his **Belt of Giant Strength**. The match draws a crowd, with betting erupting among the sailors. After a tense bout that goes back and forth, [Ohma](/player-characters/ohma) slams home the victory to huge cheers.
+
+### Infiltrating the Relay Room
+
+While the arm wrestling match captivates the crew, [Silas](/player-characters/silas) rolls a **27 on Stealth** to sneak [Bru](/player-characters/bru) and [Elspeth](/player-characters/elspeth), tucked inside the portable hole, toward the captain's quarters, where the relay equipment is housed.
+
+Inside, they find a 1960s-era satellite dish with a revolving antenna and a console at its base. The artificers get to work.
+
+**Group Arcana Check:**
+- **[Elspeth](/player-characters/elspeth):** 19
+- **[Bru](/player-characters/bru):** 25 (with Flash of Genius)
+
+The combined roll exceeds DC 20, achieving full success:
+- They **hijack the signal**, routing the real coordinates to their own local storage
+- They **sabotage the relay network**, sending erroneous signals to all other receivers
+- Only the party will know where the other dragon orbs are located
+
+> **[Silas](/player-characters/silas):** "Neither faction is better off. And we have not made either side better off."
+
+### A Night Aboard
+
+The infiltrators slip back above deck unnoticed. The captain announces they will reach the site in the morning and opens casks of ale "on St. George," and the ship parties late into the night. At dawn, [Ohma](/player-characters/ohma), Bafael and [Olivia](/player-characters/olivia) practice tai chi together on deck as the sun rises over the water.
+
+## Arrival at the Crash Site
+
+In the morning, the lookout calls out that the crash site is almost here, and people scurry to the front of the boat.
+
+### The Impossible Ocean
+
+As the party makes their way forward, they witness something extraordinary—a border where the sea simply ends. A sheer drop reveals a perfectly dry ocean floor within an open ring of water, hundreds of feet below.
+
+The ocean forms a swirling vortex with stark walls, roughly 300 feet down to the exposed seabed. And there, sprawled across the ancient ocean floor, lies the glowing skeleton of a winged figure some 400 feet long: **Luna**, the fallen moon goddess.
+
+The scale is staggering. This is no metaphor—they're looking at the actual body of a god.
+
+## Descent to the Ocean Floor
+
+The party descends the 300-foot drop using a combination of techniques. [Bafael](/npcs/bafael) demonstrates the monk approach—wave dashing in and out between water and air, rapidly descending.
+
+[Ohma](/player-characters/ohma) follows with similar grace, performing what the party describes as "360 no-scopes" on the way down.
+
+[Olivia](/player-characters/olivia), ever practical, grabs the ship's few tattered life vests for herself and [Elspeth](/player-characters/elspeth) before they jump, and uses the rappelling ropes to catch herself when the wave-dashing technique doesn't quite work. [Bru](/player-characters/bru) jumps too—he has things to blow up.
+
+### Luna's Voice
+
+As they walk across the ancient seabed toward the goddess's remains, a weak voice enters their minds:
+
+> **Luna:** "Who... who is that? I'm so weak. My bones feel like they might break."
+
+The voice grows stronger as they approach her head—also the location of the ritual site.
+
 ## The Dragon Orb's Purpose
 
-The party debates whether to use the dragon orb to help revive Luna. [Bru](/player-characters/bru) conducts scientific experiments, walking the orb around the crash site and observing its behavior.
+At the altar, doubts surface. [Ohma](/player-characters/ohma) finds blood magic suspicious and asks where Bafael learned the ritual (from the Order of St. George's research, he says). [Silas](/player-characters/silas) reads Bafael with a 33 Insight: he joined St. George only to reach this site, and now, faced with an orb that might hold the power to bring back his goddess, he is swaying toward not doing the ritual at all.
+
+> **Bafael:** "I cannot lead you to this ritual. You lead me to this ritual."
+
+The party debates whether the dragon orb could help revive Luna.
+
+### Astro Speaks
+
+As they debate, a voice emanates from [Silas](/player-characters/silas)'s backpack—**Astro**, calling Luna "sister":
+
+> **Astro:** "I will help you, sister. This world will remember the mighty love of Luna and Noraxis."
+
+Then Luna's angelic voice again: "Are you there? Please help me."
+
+Then, directed specifically at [Silas](/player-characters/silas):
+
+> **Astro:** "Do what you want, Silas. I will not be stopped."
 
 ### Bru's Scientific Analysis
 
-**[Bru](/player-characters/bru)** rolls an impressive **31 on his Arcana check** (with Flash of Genius) and discovers fascinating properties:
+[Bru](/player-characters/bru) takes a scientific approach instead, taking the orb from Silas and walking it around the site. He rolls an impressive **31 on his Arcana check** (with Flash of Genius) and discovers fascinating properties:
 
 **Away from the altar:**
 - The orb subtly pulls matter and energy toward it—like a black hole in miniature
@@ -86,75 +151,16 @@ The party debates whether to use the dragon orb to help revive Luna. [Bru](/play
 
 > **[Bru](/player-characters/bru):** "It feels like the orb wants to be close to the goddess's body, not this weird altar thing."
 
-### Astro Speaks
-
-As they debate, [Silas](/player-characters/silas)'s backpack suddenly speaks with an angelic voice—**Astro** addressing her fallen sister:
-
-> **Astro:** "I will help you, sister. This world will remember the mighty love of Luna and Noraxis."
-
-Luna's weak voice responds: "Are you there? Please help me."
-
-Then, directed specifically at [Silas](/player-characters/silas):
-
-> **Astro:** "Do what you want, Silas. I will not be stopped."
-
-## The Sabotage Plan
-
-Rather than choose between factions, the party develops a clever middle path: complete the ritual (necessary to reseal Astro) while sabotaging the Order's tracking equipment so they can't locate other dragon orbs.
-
-### The Distraction
-
-[Ohma](/player-characters/ohma) and [Olivia](/player-characters/olivia) create a diversion by challenging each other to arm wrestling on deck.
-
-**Athletics Checks:**
-- **[Olivia](/player-characters/olivia):** 18
-- **[Ohma](/player-characters/ohma):** 25
-
-[Ohma](/player-characters/ohma) dons his wrestling persona, showing off his **Belt of Giant Strength**. The match draws a crowd, with betting erupting among the sailors. After a tense bout that goes back and forth, [Ohma](/player-characters/ohma) slams home the victory to huge cheers.
-
-### Infiltrating the Relay Room
-
-While the arm wrestling match captivates the crew, [Silas](/player-characters/silas) rolls a **27 on Stealth** to sneak [Bru](/player-characters/bru) and [Elspeth](/player-characters/elspeth) toward the captain's quarters, where the relay equipment is housed.
-
-Inside, they find a 1960s-era satellite dish with a revolving antenna and a console at its base. The artificers get to work.
-
-**Group Arcana Check:**
-- **[Elspeth](/player-characters/elspeth):** 19
-- **[Bru](/player-characters/bru):** 25 (with Flash of Genius)
-
-The combined roll exceeds DC 20, achieving full success:
-- They **hijack the signal**, routing the real coordinates to their own local storage
-- They **sabotage the relay network**, sending erroneous signals to all other receivers
-- Only the party will know where the other dragon orbs are located
-
-> **[Silas](/player-characters/silas):** "Neither faction is better off. And we have not made either side better off."
-
 ## A New Plan Emerges
 
 The party agrees on a comprehensive strategy:
 
 1. **Complete the rebinding ritual** - Astro must be resealed regardless of other considerations
-2. **Steal the tracking data** - Prevent Eldoran and St. George from finding other orbs
-3. **Eventually steal power from Eldoran** - Use the energy from their moon weapon or artifacts to revive Luna
-4. **Destroy the god gun** - Prevent Eldoran from shooting Luna again once she's revived
+2. **Keep the tracking data** - Already secured aboard the ship, so neither Eldoran nor St. George finds the other orbs
+3. **Eventually steal power from Eldora** - Take one of her artifacts, or whatever powers the moon weapon, to revive Luna
+4. **Destroy the god gun** - As Bafael insists, reviving Luna now would only set her up to be shot again
 
-> **[Silas](/player-characters/silas):** "To hell with this dragon. We mess over Eldoran and then we use that to help Luna. Everyone cool? Let's do the ritual."
-
-## Descent to the Ocean Floor
-
-The party descends the 300-foot drop using a combination of techniques. [Bafael](/npcs/bafael) demonstrates the monk approach—wave dashing in and out between water and air, rapidly descending.
-
-[Ohma](/player-characters/ohma) follows with similar grace, performing what the party describes as "360 no-scopes" on the way down.
-
-[Olivia](/player-characters/olivia), ever practical, insists on life vests and uses the repelling ropes, occasionally catching herself when the wave-dashing technique doesn't quite work.
-
-### Luna's Voice
-
-As they walk across the ancient seabed toward the goddess's remains, a weak voice enters their minds:
-
-> **Luna:** "Who... who is that? I'm so weak. My bones feel like they might break."
-
-The voice grows stronger as they approach her head—also the location of the ritual site.
+> **[Silas](/player-characters/silas):** "To hell with this dragon. We mess over Eldora and then we use that to help Luna. Everyone cool? Let's do the ritual."
 
 ## The Rebinding Ritual
 
@@ -192,37 +198,40 @@ The orb shoots from [Silas](/player-characters/silas)'s backpack, hovering above
 
 ## The Psychic Battle
 
-The party is pulled prostrate above the seven salt circles. Christopher calls for saving throws—wisdom, constitution, charisma, or intelligence.
+The party is pulled prostrate above the seven salt circles. Each must make a saving throw—wisdom, constitution, charisma, or intelligence—round after round.
 
 ### Round One
 
 [Olivia](/player-characters/olivia)'s **Aura of Protection** provides +3 to everyone. The artificers throw out **Flash of Genius** bonuses to support the weaker rolls.
 
 **Results:**
-- **[Elspeth](/player-characters/elspeth):** Natural 20 → 27
 - **[Ohma](/player-characters/ohma):** 25 (popped into shell for advantage)
 - **[Bru](/player-characters/bru):** 22 (with Flash of Genius)
-- **[Silas](/player-characters/silas):** 20 (with Flash of Genius)
+- **[Silas](/player-characters/silas):** 20 (with Elspeth's Flash of Genius)
 - **[Olivia](/player-characters/olivia):** 20
 - **[Leliana](/player-characters/leliana):** Barely passes
 
+A searing pain pulls through them. For a moment Silas feels his mind will be overwhelmed, but the bond of the psychic link steadies him.
+
 ### Round Two
 
-Another wave of psychic energy. [Leliana](/player-characters/leliana) screams:
+Another wave of psychic energy. [Elspeth](/player-characters/elspeth) rolls a 27. [Leliana](/player-characters/leliana) fails even with a Flash of Genius and screams:
 
 > **[Leliana](/player-characters/leliana):** "My mind! My mind!"
 
 She takes **12 points of psychic damage** but remains conscious.
 
-The party feels their consciousnesses forming a bubble, slowly moving in on the orb—like a coordinated assault on the dragon's prison.
-
 ### Round Three
 
-Final push. The party rallies, with Flash of Genius flying between members.
+[Silas](/player-characters/silas) drops to a 13; Elspeth's last Flash of Genius lifts him to 17. As the tendrils pull him toward the void, the psychic connection pulls him back:
 
 > **[Elspeth](/player-characters/elspeth)** (through the psychic link, slapping [Silas](/player-characters/silas) mentally): "Get it together. Come on."
 
-Everyone passes their saves.
+The party feels their consciousnesses forming a bubble, slowly moving in on the orb—like a coordinated assault on the dragon's prison.
+
+### Round Four
+
+One last round of saves. Everyone passes, Leliana included.
 
 ## The Binding Succeeds
 
@@ -232,7 +241,7 @@ The sphere collapses inward. A wrenching, grinding sound—like metal scratching
 
 Silence.
 
-The dragon **Astrolinomini Noraxis**—Astro, the void dragon, the world-eater—has been resealed.
+The dragon **Astroleinomininoirnoxus**—Astro, the void dragon, the world-eater—has been resealed.
 
 ## Cliffhanger: Dragons Approach
 
@@ -278,7 +287,7 @@ The session ends with the Order of St. George doing what they do best—and the 
 
 **[Olivia](/player-characters/olivia):** Her Aura of Protection proves crucial during the ritual's psychic assault. Her insistence on life vests before descending shows her practical retired-detective mindset.
 
-**[Elspeth](/player-characters/elspeth):** Rolls a natural 20 on her save and provides Flash of Genius to struggling party members. Her mental "slap" to [Silas](/player-characters/silas) through the psychic link shows her no-nonsense support style.
+**[Elspeth](/player-characters/elspeth):** Rolls a 27 on her save and provides Flash of Genius to struggling party members. Her mental "slap" to [Silas](/player-characters/silas) through the psychic link shows her no-nonsense support style.
 
 **[Leliana](/player-characters/leliana):** Takes the brunt of the psychic damage but perseveres through the ritual, demonstrating her dedication to the party despite being the newest member.
 
@@ -295,7 +304,7 @@ The session ends with the Order of St. George doing what they do best—and the 
 
 ## Notable Quotes
 
-> **[Silas](/player-characters/silas):** "To hell with this dragon. We mess over Eldoran and then we use that to help Luna."
+> **[Silas](/player-characters/silas):** "To hell with this dragon. We mess over Eldora and then we use that to help Luna."
 
 > **Bafael:** "I cannot lead you to this ritual. You lead me to this ritual."
 

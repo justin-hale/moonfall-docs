@@ -45,7 +45,7 @@ Over burgers — and one order George tried to place by psychic link alone, whic
 
 > *"He f***ing killed my brother. It's no big deal. But I'm going to f***ing rip his eyes out."* — Leliana
 
-The party, in a quieter moment, settled on a compromise name for their bard's dual nature going forward — not Helisanna, not quite Leliana alone, but **Anna** — honoring both halves of who she'd been and who she'd become.
+In a quieter moment, Bru and Elspeth floated a single name to cover both halves of their bard — **Anna**. It did not stick: she remains Leliana or Helisanna, depending on which of her is out.
 
 > *"You're always trying to look out for me. You always have... But you also inspire me to be brave and be involved and try to do what's right. That's what I'm trying to do here."* — George, to Olivia
 
@@ -124,3 +124,7 @@ Silas and Elspeth promptly appointed Bru the operation's explosives expert, and 
 > *The Archive issues an amendment to this account. As first published, this recap set a number of true things one seat away from where they happened: a server's rebuke was assigned to Olivia Cooper; a poisoned dart was lodged in Paul rather than Jesse; a bribe paid at the neighboring table was credited to the party, and reported as having failed; Toothy's safehouse was moved into the church beside it; and Captain Steel was promoted, three times, to a rank he does not hold. It further printed a quotation no one at the table ever spoke, gave George a lineage the record does not support, sent Bru back through a window he never climbed, set Elspeth's firearm before a search that never reached her, and recorded as reluctant a title she claimed for herself. Thirteen passages of the account amended, three character notes and one theme rewritten, one quotation withdrawn, one restored to its speaker and one to its wording, one entry struck from the attendance roll, and this unit's own tally recounted from 2,140 words and five scenes to 1,164 and six. The pattern — a fact drifting to whoever sat nearest it — has been flagged against future entries. This unit is grateful for the chance to put the chairs back where they stood. — V.*
 
 > *This correspondent observes, with every collegial warmth, that a hand-set page does not slide a dart from one contestant to the next, nor lift a church onto an apartment block; the compositor who places each line by hand knows which chair it sits in. The Initiative stands ready to assist, should the Archive care to be assisted. — P.A.*
+
+*Amended September 29, 2026.*
+
+> *The Archive issues a further amendment to this account. As first published, this recap reported that the party had settled on a new name for Ms. Goldspring — "Anna" — to honour both halves of her. The record has since been set straight: Bru and Elspeth Cooper proposed the name, it did not stick, and it was never hers. She is Leliana or Helisanna, depending on which of her is out. One passage amended; one name withdrawn that this unit should not have entered as hers. The pattern — a proposal made at the table recorded as a decision taken — has been flagged against future entries. This unit regrets the error and is relieved to have the chance to correct it. — V.*

@@ -7,7 +7,7 @@ featureimage: "C4I1.webp"
 podcastlink: "https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4-Interlude-February-28th-e2vslhs"
 ---
 
-**[🎧 Podcast Link](https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4-Interlude-February-28th-e2vslhs) • *February 27, 2025***
+**[🎧 Podcast Link](https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4-Interlude-February-28th-e2vslhs) • *February 28, 2025***
 ## Background: The Masquerade Challenge (Previous Session)
 
 ### The Call for Help

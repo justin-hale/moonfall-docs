@@ -154,13 +154,13 @@ Taco Cat returns to the Lotus Casino to help Naomi deal with Helisanna's takeove
 In this tragic flashback episode, the party played the doomed Sisyphus Circle gang attempting a vault heist on the Pandora gang in Greyport. After successfully infiltrating through rainbow puzzles, time riddles, and explosive traps, they recovered a mysterious dragon orb—only to face betrayal at the dropoff. Helja Ungar revealed herself as the client and executed the entire crew except Bru and Silas, who escaped through the storm drains with the orb, cementing their "always keep moving" philosophy.
 
 **Interlude XIV – The Greyport Speedway Conspiracy**
-In this racing-themed flashback episode, players took on the roles of six rival racers conspiring to disgrace Elspeth Cooper (Elspeth's past identity) and remove her from the racing circuit. What began as various sabotage attempts—from filing down her chassis to planting poppy seed muffins for a drug test—culminated in a high-stakes finale race at Greyport Speedway using custom D&D racing mechanics. The session revealed Elspeth's previous life as a 20+ year veteran racer and team owner who stood against corruption, setting up her eventual transformation into the adventurer the party knows.
+In this racing-themed flashback episode, guest DM Ali ran the table while the other players took on the roles of six rival racers conspiring to disgrace Elspeth Cooper and remove her from the racing circuit. What began as various sabotage attempts—from filing down her chassis to planting poppy seed muffins for a drug test—culminated in a high-stakes finale race at Greyport Speedway using custom D&D racing mechanics. The session revealed Elspeth's previous life as a 20+ year veteran racer and team owner who stood against corruption, setting up her eventual turn to adventuring.
 
 **Interlude XV – The Greyport Finale Race**
-The six-racer conspiracy against Elspeth Cooper (Elspeth's past identity) reached its climax in the Greyport Speedway finale race. Using refined D&D racing mechanics, the conspirators employed red zones for illegal magic, VVS boost zones, and increasingly absurd sabotage attempts—including Wile E. Coyote painted tunnels, slow spells affecting allies, magic weapons, and strategic firebolts. Despite not winning the race, the frame job succeeded: Elspeth was disgraced and accused of using her brother's unregistered racing crystal, ending her 20+ year career. The session mixed high-speed tactical racing with comedy as every conspirator's schemes spiraled into chaos.
+The six-racer conspiracy against Elspeth Cooper reached its climax in the Greyport Speedway finale race. Using refined D&D racing mechanics, the conspirators employed red zones for illegal magic, VVS boost zones, and increasingly absurd sabotage attempts—including Wile E. Coyote painted tunnels, slow spells affecting allies, magic weapons, strategic firebolts, and a racer polymorphed into a sheep. The race was black-flagged and cancelled, and the frame job succeeded: Elspeth was blamed for the chaos, suspended, and found to be racing with a switched family crystal, bringing her 20+ year career to a disgraceful end. The session mixed high-speed tactical racing with comedy as every conspirator's schemes spiraled into chaos.
 
 **Interlude XVI – The Sacred Disturbance of Tortuga**
-In this backstory session, players took on the roles of Bru's extended goblin family—members of the Bru's Cousins bowling league tasked with creating a 'sacred disturbance' to awaken the Turtle God. What began as a quest for prophetic coordinates involving oracles, fireworks, and a 7-Eleven bathroom laboratory escalated into an explosive finale that literally tore the island from the sea on the back of the awakened Turtle God. The session revealed young Bru's early experiments with explosives and established the tragic event that forced him to leave his homeland.
+In this backstory session, players took on the roles of Bru's extended goblin family—members of the Bru's Cousins bowling league tasked with creating a 'sacred disturbance' to awaken the Turtle God. What began as a quest for prophetic directions involving an oracle, fireworks, and a 7-Eleven bathroom laboratory escalated into an explosive finale in the Turtle God's ear canal that woke the god and sent the island walking away on its back. The session revealed young Bru's early experiments with explosives and established the tragic event that forced him to leave his homeland.
 
 **Session 38 – The Road to Greyport**
 Taco Cat begins their journey to Greyport, investigates Helja's apartment, and retrieves reality stones from the Goliath village.
@@ -172,7 +172,7 @@ A bakery explosion reunites the party with their old crew member Sander, leading
 The party learns disturbing truths about the Order of St. George's connection to Eldoran, reunites with Sander, and sets sail for the underwater ritual site where Luna fell.
 
 **Session 41 – The Rebinding Ritual**
-The party arrives at Luna's crash site, debates cosmic alliances, sabotages the Order's tracking equipment, and successfully completes the dangerous rebinding ritual—only to face an incoming dragon.
+The party sabotages the Order's tracking equipment, arrives at Luna's crash site, debates cosmic alliances, and successfully completes the dangerous rebinding ritual—only to face an incoming dragon.
 
 **Session 42 – Dragon in the Deep**
 The party faces a deadly adult blue dragon attack at Luna's crash site, fights desperately to survive underwater combat, and learns the hard truth about the Order of St. George's dragon-hunting prowess.
@@ -184,10 +184,10 @@ The party returns to Greyport as heroes, levels up to 10, schemes to revive Luna
 The party visits Fluke's Workshop on Bru's recommendation, meets Iro—the youngest son of a Steve Squad legend—and ends up defending the shop from a coordinated three-pronged assault: street thugs, Molotov-hurling boats, and a shark-commanding Saojun beneath the harbor.
 
 **Session 45 – A Village in the Void**
-The party stakes out the zoo to retrieve Victor's sending stone, stumbles into an identity theft mystery involving a dwarf racer called 'Belith Booper,' and caps the day by opening the long-awaited pocket village—where Silus's surprise birthday party is interrupted by something very wrong in the sky.
+The party stakes out the zoo to retrieve Victor's sending stone, stumbles into an identity theft mystery involving a dwarf racer called 'Belspeth Booper,' and caps the day by opening the long-awaited pocket village—where Silas's surprise birthday party is interrupted by something very wrong in the sky.
 
 **Session 46 – Not Dead Yet**
-Void beings crash Silas's birthday party in the pocket village, and the party fights them back with moonlight and a song—only to discover that the attack was just the beginning. Luna the moon goddess speaks her first words in months, the pocket village reveals itself as something far more permanent than a prototype, and the shape of the fight ahead comes into focus.
+Void beings crash Silas's birthday party in the pocket village, and the party fights them back with moonlight and a song—only to discover that the attack was just the beginning. Luna the moon goddess speaks for the first time since her fall, the pocket village reveals itself as something far more permanent than a prototype, and the shape of the fight ahead comes into focus.
 
 **Session 47 – The Viper's Den**
 Taco Cat emerges from the pocket village, navigates the Twilight Company's headquarters, meets the enigmatic Lady Viper, and Silas opens a fragile dialogue with the imprisoned dragon Astro.
@@ -199,10 +199,10 @@ Taco Cat crashes a Met Gala-level VIP night in disguise, eavesdrops on Denlin's 
 Taco Cat goes undercover as orphans to infiltrate Denlin's facility, and discovers something far worse than a violescence ring — a laboratory full of unconscious dwarven figures built in Elspeth's image.
 
 **Session 50 – The Wall Comes Down**
-Taco Cat finishes what they started in the orphanage lab — the Doctor falls from the ceiling, the simulacra walk free singing Pink Floyd, the children are rescued, and then Elspeth straps into Denlin's car and wins the race he was supposed to dominate.
+Taco Cat finishes what they started in the orphanage lab — the Doctor falls to a dagger from the ceiling, the simulacra walk free singing Pink Floyd, the children are rescued, and then Elspeth straps into Denlin's car and wins the race in his place.
 
 **Session 51 – Thank You, Gary**
-Taco Cat earns backstage passes to Razlemania, slaps on wrestling personas, and fights demons and paladins for the soul of Gary's retirement — then watches the greatest champion in history get lured into an alley by Crowley.
+Taco Cat earns backstage passes to Razlemania, slaps on wrestling personas, and fights demons and paladins for the soul of Gary's retirement — then the greatest champion in history is lured through a portal in a back alley by Crowley.
 
 **Session 52 – Wakey Wakey, Violescence and Bakey**
 Luna's sending stone wakes the party with a panicked alarm — Eldoran knights at the bottom of the sea, hammering chains into her skull. Taco Cat suits up as the Order of St. George, severs the link, and Frankensteins a dead god back into the world.
@@ -336,7 +336,7 @@ The moon exploded in Session 16. At Luna's underwater crash site the party resea
 
 **Bru (Felonias Bru)** (Justin Hale): Goblin artificer, explosives expert. From Tortuga, the island torn from the sea when the Turtle God woke (Interlude XVI). Built the strike's bombs (Sessions 59–62), wore the Colonel Sanders persona (Sessions 59–63) and stole the sun (Session 63). He distrusts Scarlet ("she's bad news", Session 63).
 
-**Elspeth Cooper** (Ali Leonard): Dwarf artificer/gunslinger with the steel defender BoxBox; Olivia's granddaughter and George's cousin. Her race car is the Vroomfall; the party's van is the Zoomfall. A veteran racer whose career ended in a frame-up (Interludes XIV–XV); her brother Zachary swapped her crystal (Session 50). She won the Session 50 race in Denlin's car and is the getaway driver ("getaway girl", Session 58). She befriended the factory workers slated for layoff, including Cassandra (Sessions 60–62). She has feelings for Lady Viper (Sessions 47, 54) and would follow her wherever she goes next (told to Scarlet, Session 62).
+**Elspeth Cooper** (Ali Leonard): Dwarf artificer/gunslinger with the steel defender BoxBox; Olivia's granddaughter and George's cousin. Her race car is the Vroomfall; the party's van is the Zoomfall. A veteran racer whose career ended in a frame-up (Interludes XIV–XV); her brother Zachary swapped her crystal (Interludes XIV–XV; confronted in Session 50). She won the Session 50 race in Denlin's car and is the getaway driver ("getaway girl", Session 58). She befriended the factory workers slated for layoff, including Cassandra (Sessions 60–62). She has feelings for Lady Viper (Sessions 47, 54) and would follow her wherever she goes next (told to Scarlet, Session 62).
 
 **Leliana Goldspring / Helisanna Doomfall** (Luke Neverisky): One woman with two personas (KB: "Leliana and Helisanna"). Name whichever persona is acting.
 - *Leliana*: Bard (College of Glamour); tan, blonde, colourful; "Lily" undercover (Session 55).

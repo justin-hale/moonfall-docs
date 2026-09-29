@@ -50,7 +50,7 @@ Teams typically include:
 - [Bru](/player-characters/bru) eventually falls into a pool on the way to the motel and wanders lost before finally finding his room around 7 a.m.
 - [Helisanna](/player-characters/helisanna) secures her room with a fraction more dignity.
 ### 🔍 Act VI: [Olivia](/player-characters/olivia)’s Side Story – George & Finnegan
-- [Olivia](/player-characters/olivia) spends her night alone investigating the disappearance of her grand-nephew **George**.
+- [Olivia](/player-characters/olivia) spends her night alone investigating the disappearance of her grandson **George**.
 - She stops by a local **bodega** (owned by “Bo Dega”) and chats with a shopkeeper.
 - She learns George was seen with a suspicious halfling named **Finnegan**—charming, young, blonde, and always around shady people.
 - Back at her apartment, [Olivia](/player-characters/olivia) finds a surprise note on her conspiracy board:

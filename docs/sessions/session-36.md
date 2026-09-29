@@ -8,11 +8,11 @@ image: "/img/C4E36.webp"
 podcastlink: "https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4E36-October-10-e39d26s"
 ---
 
-**[🎧 Podcast Link](https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4E36-October-10-e39d26s) • *October 9, 2025***
+**[🎧 Podcast Link](https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4E36-October-10-e39d26s) • *October 10, 2025***
 
 ## A Desperate Morning
 
-The party awakens to Chalk Rock frantically alerting them that the Iron Claws have taken hostages in the great hall and are threatening to execute them. Despite some initial skepticism from Silas and Bru about whether they should care, the group quickly realizes the gravity of the situation when they learn the hostages include George (Olivia's nephew), Will, Rosco, Belvolt, Finnwick (who is actively bleeding out), and Lady Corwin.
+The party awakens to Chalk Rock frantically alerting them that the Iron Claws have taken hostages in the great hall and are threatening to execute them. Despite some initial skepticism from Silas and Bru about whether they should care, the group quickly realizes the gravity of the situation when they learn the hostages include George (Olivia's grandson), Will, Rosco, Belvolt, Finnwick (who is actively bleeding out), and Lady Corwin.
 
 The party debates their approach while shopping for last-minute magical items and preparing for what promises to be their final confrontation with the Iron Claws. They use magical disguises to blend in with the ravers preparing for Helisanna's concert in the great hall.
 
@@ -75,7 +75,7 @@ In a shocking turn, Silas reveals a plan he's been secretly coordinating with Br
 - Bru's explosives detonate, causing massive structural damage to the throne room
 - In the chaos, Silas attacks Helja with surprise
 - He critically strikes with a natural 20, dealing 51 damage with sneak attack
-- His attacks are personal—he whispers "What were their names?" referring to his crew that Helja killed in Grayport
+- His attacks are personal—he whispers "What were their names?" referring to his crew that Helja killed in Greyport
 - Helja doesn't remember them, highlighting the casual cruelty of her villainy
 - Silas coordinates with Bru's cannon for the killing blow—flames incinerate Helja from inside her mouth, leaving only a skeleton falling into her throne
 
@@ -107,13 +107,13 @@ With Helja dead, the throne room begins collapsing:
 
 ## Character Moments
 
-**Silas's Revenge:** His personal vendetta against Helja for killing his crew in Grayport drives the entire deception plan. His cold professionalism in negotiating with her, only to personally execute her, shows both his tactical mind and emotional core.
+**Silas's Revenge:** His personal vendetta against Helja for killing his crew in Greyport drives the entire deception plan. His cold professionalism in negotiating with her, only to personally execute her, shows both his tactical mind and emotional core.
 
 **Bru's Engineering:** Justin's elaborate trap with timed explosives showcases Bru's artificer skills and willingness to take risks. His coordination with Silas demonstrates growing trust despite their usual dynamic.
 
 **Leliana's Support:** Luke's strategic use of crowd control spells (hypnotic pattern) and support abilities (mantle of inspiration, healing word) proves crucial in keeping the party alive during chaotic combat.
 
-**Ohma's Pragmatism:** Walden's monk demonstrates both combat prowess and tactical thinking by stealing Marta's escape ring and attempting to eliminate threats.
+**Ohma's Pragmatism:** Zack's monk demonstrates both combat prowess and tactical thinking by stealing Marta's escape ring and attempting to eliminate threats.
 
 **Elspeth's Determination:** Ali's paladin shows her protective nature, particularly in saving Belvolt and trying to ensure everyone escapes safely.
 

@@ -21,7 +21,7 @@ Ohma Kapua is a tortle monk whose shell bears ancient curse markings and whose p
 - This wrestling connection became the foundation of his relationship with the party
 
 ### The Monastic Order
-- Member of a monastic order alongside fellow monk **Beonardo**
+- Member of a monastic order alongside fellow monk **Bernardo**
 - Trained in devastating martial arts techniques including stunning strikes
 - Master of **Step of the Wind** and **Deflect Attacks** combat techniques
 - His shell bears mysterious curse markings from unknown origins
@@ -57,7 +57,7 @@ Ohma's devoted tortle student who travels with him and serves as his assistant:
 - Their master-student relationship contrasts Ohma's violent combat style with his patient teaching approach
 - Witnessed having dinner with detective Chalk Rock, discussing mentorship
 
-### Beonardo
+### Bernardo
 Fellow monk from Ohma's order:
 - Runs **Rattie's Pie Land**, a pizza establishment in High Forge
 - Investigating leads about the fallen moon goddess
@@ -80,7 +80,7 @@ Fellow monk from Ohma's order:
 ### Growth Throughout the Campaign
 - **Session 26**: Spectacular wrestling debut and initiation into the party via fireworks ceremony
 - **Sessions 29-30**: Participated in vault heist, destroyed draconic tablets, demonstrated tactical support
-- **Session 33**: Reunited with Beonardo, revealed deeper connections to monastic order
+- **Session 33**: Reunited with Bernardo, revealed deeper connections to monastic order
 - **Session 34**: Fought Crang with stunning strikes, ended unconscious from compelled dancing
 - **Session 35**: Revealed as "the Ninja Turtle" to Tunac, purchased supplies for Kevin (Bru's steel defender), tender moment with Litu setting up camp
 - **Session 36**: Stole Marta's teleportation ring mid-combat, kicked her off a ledge, demonstrated peak pragmatism
