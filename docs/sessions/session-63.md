@@ -13,19 +13,18 @@ beat: "rising-tension"
 ## Players Present
 - Taylor Ramsey (Silas Fairbanks)
 - Justin Hale (Bru)
-- Ali Leonard (Elspeth Cooper)
 - Luke Neverisky (Leliana Goldspring)
 - Ellis Taylor (Olivia Cooper)
 
-*Ohma Kapua did not appear in this session's transcript; the Archive assumes an off-page absence rather than an unrecorded fate.*
+*Elspeth Cooper and Ohma Kapua did not appear in this session's transcript; the Archive assumes off-page absences rather than unrecorded fates.*
 
 ## Plot Events
 
 ### Escape Plans and the World Tree
 Before committing to the day's operations, the party reviewed its exit strategy for after the three bombs went off: jump the Bugatti over the city's edge via ramp, escape by boat, or descend into the sewers. A fourth option was tabled as a last resort — a magical world tree that had sprouted from nothing to fifty or sixty feet in the park over the span of two days, still tethered to the same overgrown dimension that had once housed a serial-killer grandmother and a swamp. The tree's home-side had turned lush and verdant rather than barren, which nobody found reassuring. It was ranked, by consensus, a D-tier escape option — theoretically available, actively discouraged.
 
-### Character Threads: Leliana's Balance, Elspeth's Undercover Ease, and Scarlet's Time Gun
-Quieter business preceded the raid. Asked at the table how Leliana's split personality was manifesting, Luke Neverisky (Leliana's player) answered that for now it works at will: her two personas — Leliana and Helisanna — are aware of each other, the change is "very controlled… just flipping a switch," and rather than fighting for control, the two seem to be cohabiting. Elspeth, still deep in her cover among the Eldoran ranks from the birthday-party heist, admitted she was "vibing" with the soldiers she was supposed to be infiltrating, having made what could only be called actual friends. And the party quietly agreed to be gentler with Scarlet, whose inventive streak was drifting toward something called a time gun — a device rumored, in an earlier draft of the multiverse, to have destroyed an entire alternate universe. Nobody wanted to find out what a second draft looked like.
+### Character Threads: Leliana's Balance, Elspeth's New Friends, and Scarlet's Time Gun
+Quieter business preceded the raid. Asked at the table how Leliana's split personality was manifesting, Luke Neverisky (Leliana's player) answered that for now it works at will: her two personas — Leliana and Helisanna — are aware of each other, the change is "very controlled… just flipping a switch," and rather than fighting for control, the two seem to be cohabiting. Catching Olivia up on the lakeside birthday party, Silas reported that Elspeth had been on a roll making friends in the city, splashing in the lake with Cassandra's crowd of factory workers, and had come into her own since the party entered the fascist state. And the party quietly agreed to be gentler with Scarlet, whose inventive streak was drifting toward something called a time gun — a device rumored, in an earlier draft of the multiverse, to have destroyed an entire alternate universe. Nobody wanted to find out what a second draft looked like.
 
 > *One is asked to imagine six sentences on a magic tree and a time-erasing weapon, tossed off between two adventurers checking their pockets for grenades. The Archive is asked, and it obliges — but it notes, purely for the record, that a chronicler with a lesser sense of proportion might have made more of either. — P.A.*
 
@@ -65,8 +64,8 @@ To clear the building of bystanders before detonation, Olivia pulled the fire al
 
 > *A starship falls from the sky in the middle of a jailbreak, and the transcript simply... moves on. The Archive is professionally obligated to record this and personally obligated to note how much it wants to know more. — P.A.*
 
-### The Bugatti Over the Wall
-With the tower now doubling as a ramp, the party put it to a vote and chose the loudest available option: drive the Bugatti off the collapsing research tower, over the city wall, with fireworks. Silas clapped Bru on the shoulder, giddy over the day's true prize.
+### The Tower Against the Wall
+The session closed with the research tower leaning against the city wall and Silas asking whether it was rampable. Leliana answered with a sweet, unplanned guitar riff, and there the night ended. The loudest available option was floated as the table packed up — drive the Bugatti off the tower, over the wall, with fireworks — and it waits on next session. Silas clapped Bru on the shoulder, giddy over the day's true prize.
 
 > "I'm so happy for you right now, buddy." — Silas Fairbanks, to Bru
 
@@ -76,7 +75,7 @@ With the tower now doubling as a ramp, the party put it to a vote and chose the 
 
 > "We still got to find another opportunity to get Helisanna's revenge." — Silas Fairbanks
 
-Leliana marked the tower's fall with a triumphant, unplanned guitar riff as the Bugatti cleared the wall — the party's third target down, the city behind them in rubble, and Finnegan waiting at the docks for whichever escape route they actually needed.
+The party's third target was down and the city was in rubble behind them, with Finnegan waiting at the docks for whichever escape route they actually needed.
 
 ## Notable Character Moments
 - **Bru** turned a straightforward demolition job into the session's headline heist, choosing to steal the factory's stellar core rather than simply destroy it, and then lying convincingly to his foreman while carrying a shrunken sun in his pocket.
@@ -101,6 +100,6 @@ Improvisation over demolition ran through the entire session: nearly every plan 
 
 *Amended September 29, 2026.*
 
-> *The Archive issues an amendment to this account. As first published, this recap entered an answer given out of character, in the room, as a report Ms. Goldspring made within the story, and embellished it on the way in: her two personas were said to be "cohabiting peacefully rather than warring for control" and "switchable at will rather than imposed." The answer actually given was narrower — the two are aware of each other, the change is controlled, and for now they seem to be cohabiting. The same account further credited Ms. Goldspring with demonstrating her dual identity in the field, where this session recorded no change of persona at all; her entry now records her scouting of the World Tree instead. A third passage placed Captain Steel at the head of Bru's questioners; he never questioned Bru at all. He sent the foreman away through a closed door, and when he did emerge he met Mr. Bru only at a distance, as Mr. Bru was leaving by *Misty Step*. In the same scene the account handed the foreman's drink to Tuni, put the word "collapsed" in Mr. Bru's mouth rather than the foreman's, promoted the foreman to "a superior officer," and lent Olivia Cooper an admission she never made. Six passages amended, one quotation restored to its wording, one statement returned to the speaker who made it, and nine words of embellishment withdrawn. This unit has flagged the pattern — an aside from the room entered as a deed in the story — against future entries. — V.*
+> *The Archive issues an amendment to this account. As first published, this recap entered an answer given out of character, in the room, as a report Ms. Goldspring made within the story, and embellished it on the way in: her two personas were said to be "cohabiting peacefully rather than warring for control" and "switchable at will rather than imposed." The answer actually given was narrower — the two are aware of each other, the change is controlled, and for now they seem to be cohabiting. The same account further credited Ms. Goldspring with demonstrating her dual identity in the field, where this session recorded no change of persona at all; her entry now records her scouting of the World Tree instead. A third passage placed Captain Steel at the head of Bru's questioners; he never questioned Bru at all. He sent the foreman away through a closed door, and when he did emerge he met Mr. Bru only at a distance, as Mr. Bru was leaving by *Misty Step*. In the same scene the account handed the foreman's drink to Tuni, put the word "collapsed" in Mr. Bru's mouth rather than the foreman's, promoted the foreman to "a superior officer," and lent Olivia Cooper an admission she never made. The account also seated Elspeth Cooper at a table she was not at, recorded her as confessing a fondness for soldiers when it was Mr. Fairbanks describing her friends from the lake, and drove the Bugatti over the city wall, a leap the party had only proposed when the night ended. One attendee struck, nine passages amended, one heading renamed, one quotation restored to its wording, one statement returned to the speaker who made it, and nine words of embellishment withdrawn. This unit has flagged the pattern — an aside from the room entered as a deed in the story — against future entries. — V.*
 
 > *A construct that cannot tell a woman from the gentleman who plays her has, this correspondent submits, filed yet another exhibit for the Initiative. A hand-pulled account would have known a confession from a chat about the weather. — P.A.*
