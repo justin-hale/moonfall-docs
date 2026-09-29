@@ -7,8 +7,8 @@ This script automates the workflow of creating session notes from transcript fil
 2. Summarises long transcripts chunk-by-chunk (using Claude Haiku)
 3. Creates a comprehensive session note using Claude Sonnet
 4. Merges the new session's updates into the campaign-state.md running memory
-5. Adds the session to the Session History of every NPC, location and
-   organization page the recap involves (scripts/wiki_update.py)
+5. Adds the session to the Session History of every NPC, location,
+   organization and item page the recap involves (scripts/wiki_update.py)
 6. Updates the session-stats dataset (personality analysis + stats extraction)
 
 Usage:
@@ -834,8 +834,8 @@ Respond in this EXACT format (no other text):
     def update_wiki_pages(self, session_number, recap_text, is_interlude=False):
         """Add this session to the Session History of each page it involves.
 
-        Without this step the NPC, location and organization pages were
-        written once and never touched again. Failures only warn, like the
+        Without this step the NPC, location, organization and item pages
+        were written once and never touched again. Failures only warn, like the
         campaign-state update: a published recap never waits on the wiki.
         """
         docs_dir = self.project_root / "docs"

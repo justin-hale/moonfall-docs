@@ -21,6 +21,9 @@ def _docs(tmp_path):
     (tmp_path / "npcs").mkdir()
     (tmp_path / "locations").mkdir()
     (tmp_path / "organizations").mkdir()
+    (tmp_path / "items").mkdir()
+    (tmp_path / "items" / "blue-moon-guitar.md").write_text(
+        _page("Blue Moon Guitar", aliases='["Blue Moon"]'), encoding="utf-8")
     (tmp_path / "npcs" / "lady-viper.md").write_text(
         _page("Lady Viper", aliases='["Viper", "Elizandra Legrand"]'), encoding="utf-8")
     (tmp_path / "npcs" / "iro.md").write_text(_page("Iro"), encoding="utf-8")
@@ -105,3 +108,11 @@ def test_apply_updates_skips_unknown_and_null(tmp_path):
     assert written == ["npcs/iro"]
     assert "Iro repaired the van." in (tmp_path / "npcs" / "iro.md").read_text()
     assert wu.HISTORY_HEADING not in (tmp_path / "npcs" / "lady-viper.md").read_text()
+
+
+def test_items_are_a_wiki_section(tmp_path):
+    entities = {e.key: e for e in wu.load_wiki_entities(_docs(tmp_path))}
+    assert entities["items/blue-moon-guitar"].url == "/items/blue-moon-guitar"
+    recap = "## Plot Events\nLeliana played the Blue Moon at the funeral.\n"
+    keys = {e.key for e in wu.find_mentioned_entities(recap, list(entities.values()))}
+    assert keys == {"items/blue-moon-guitar"}
