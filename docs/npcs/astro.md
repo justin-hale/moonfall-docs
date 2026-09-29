@@ -1,7 +1,7 @@
 ---
 title: Astro
-description: Void dragon imprisoned in the dragon orb Rain Goth, resealed by the party in Session 41 and now in tentative talks with Silas
-aliases: ["Astroleinomininoirnoxus", "Astroenos Noxis", "Astrolinomini Noraxis", "Astraenominoir", "Astroeninoious", "Rain Goth", "Rangoth"]
+description: Void dragon imprisoned in the dragon orb Raingoth, resealed by the party in Session 41 and now in tentative talks with Silas
+aliases: ["Astroleinomininoirnoxus", "Astroenos Noxis", "Astrolinomini Noraxis", "Astraenominoir", "Astroeninoious"]
 ---
 
 # Astro
@@ -10,22 +10,22 @@ aliases: ["Astroleinomininoirnoxus", "Astroenos Noxis", "Astrolinomini Noraxis",
 
 ## Overview
 
-**Astro** is an ancient void dragon imprisoned by the first dwarven kings in a galaxy-filled glass sphere the dwarves call **Rain Goth** (also written Rangoth), the dragon orb that [Silas](/player-characters/silas) stole in the [Sisyphus Circle](/organizations/sisyphus-circle) heist. The party resealed her in the rebinding ritual at [Luna](/npcs/luna)'s crash site (Session 41). As of Session 63 she is still bound, and the party holds the orb. Silas has begun talking with her in place of further binding (Session 47). She threatens revenge if she ever gets free, but for the first time asked how long the party would need. Other orbs tied to her are scattered across the world. The party holds their locations, and in Session 61 they learned that the [Eldoran Empire](/organizations/eldoran-empire) wants those orbs too.
+**Astro** is an ancient void dragon imprisoned by the first dwarven kings in a galaxy-filled glass sphere the dwarves call **[Raingoth](/items/raingoth)** (also written Rain Goth and Rangoth), the dragon orb that [Silas](/player-characters/silas) stole in the [Sisyphus Circle](/organizations/sisyphus-circle) heist. The party resealed her in the rebinding ritual at [Luna](/npcs/luna)'s crash site (Session 41). As of Session 63 she is still bound, and the party holds the orb. Silas has begun talking with her in place of further binding (Session 47). She threatens revenge if she ever gets free, but for the first time asked how long the party would need. Other [orbs](/items/dragon-orbs) tied to her are scattered across the world. The party holds their locations, and in Session 61 they learned that the [Eldoran Empire](/organizations/eldoran-empire) wants those orbs too.
 
 Her full name is never pronounced the same way twice. Silas keeps it written phonetically on his forearm.
 
 ## Nature
 
 - **Void dragon:** The High Forge tablets (Session 30) call her "the sleeper in the stars, the serpent of the world, the god, the dragon of everything", captured by the first dwarven kings in "a knot in the thread of reality". Speaking through the orb in Session 24, she called herself "Everything".
-- **Dragons' allegiance:** Whoever holds Rain Goth can command those "who carry dragon's blood" (Session 30). The dragons in [High Forge](/locations/high-forge) served her and followed whoever held the orb (Sessions 28 and 32).
+- **Dragons' allegiance:** Whoever holds [Raingoth](/items/raingoth) can command those "who carry dragon's blood" (Session 30). The dragons in [High Forge](/locations/high-forge) served her and followed whoever held the orb (Sessions 28 and 32).
 - **Predator of the void:** Luna watched the dwarves imprison her centuries ago. In Session 46 the party worked out that her appetite kept void beings in check. With Astro imprisoned, those beings are loose in the dimensional tears.
 - **Luna:** Astro calls Luna "sister". At the crash site she promised to help her and told Silas, "I will not be stopped" (Session 41).
-- **The orb:** It is nearly unbreakable, and it tears reality if it is put in a bag of holding or a pocket dimension. For that reason it never enters the [pocket village](/locations/pocket-village). Touching it opens a psychic link to her.
+- **[The orb](/items/raingoth):** It is nearly unbreakable, and it tears reality if it is put in a bag of holding or a pocket dimension. For that reason it never enters the [pocket village](/locations/pocket-village). Touching it opens a psychic link to her.
 
 ## Relationships
 
 - **[Silas](/player-characters/silas):** Stole the orb, and has kept a psychic connection to it ever since he first touched it. He speaks her name in the rituals and is the only one to have negotiated with her. The void devils "smell the warden" on him (Session 46).
-- **[Bru](/player-characters/bru):** Analysed the orb (Sessions 24 and 41). In Session 47 it came out that Silas had slipped it into Bru's bag without telling him.
+- **[Bru](/player-characters/bru):** Analysed the orb (Sessions 24 and 41). In Session 47 Silas claimed he had once slipped it into Bru's bag without telling him, but Sessions 41–45 have the orb in Silas's own backpack, and Silas has held it since.
 - **[Olivia](/player-characters/olivia):** The first party member to touch the orb. It spoke her name (Session 7).
 - **[Helja Ungar](/npcs/helja-ungar):** Hired the Sisyphus Circle to steal the orb and hunted Silas for it for years. Her mother pushed her to get it.
 - **[Order of St. George](/organizations/order-of-st-george):** Dragon hunters who organised the rebinding ritual and tried to use it to track the other orbs. The party sabotaged their tracking.
