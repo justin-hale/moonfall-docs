@@ -1,278 +1,43 @@
 ---
 title: Helja Ungar
-description: Former Iron Claws leader (deceased)
-sidebar_position: 8
+description: Iron Claws boss who massacred Silas and Bru's old crew and ruled High Forge, killed by Silas and Bru in the Forge Heart throne room (Session 36)
+aliases: ["Helja", "Helga", "Helja Ungart", "Helja Utgart", "Helja Ironart"]
 ---
 
 # Helja Ungar
 
-*Human • Iron Claws Leader • Primary Antagonist (Deceased)*
+*Head of the Iron Claws • Ruler of High Forge • Deceased*
 
 ## Overview
 
-**Helja Ungar** was the ruthless leader of the Iron Claws criminal organization that seized control of High Forge following the dragon attack. She maintained oppressive rule through intimidation, high taxation, and strategic alliances until her death at Silas's hands during the Great Hall battle in Session 36.
+**Helja Ungar** was the head of the [Iron Claws](/organizations/iron-claws), which the table calls a dwarven mafia. Years before the campaign she hired Silas and Bru's crew, the [Sisyphus Circle](/organizations/sisyphus-circle), to steal the dragon orb that imprisons [Astro](/npcs/astro), then had them massacred at the handoff. Silas escaped with the orb, and she hunted him for eleven years. After the dragon attack on [High Forge](/locations/high-forge) she ruled the city under the dragons. She fed them tribute while claiming to hold the orb, taxed the city and put a bounty on the party. She died in Session 36 in her throne room in the [Forge Heart](/organizations/forge-heart), after Silas bluffed his way in with a fake orb. Bru's explosives and Silas's blades brought her down, and a blast from Bru's cannon burned her from the inside. Silas believes her mother has since taken back control of the Iron Claws in [Greyport](/locations/greyport) (Session 53).
 
-## Physical Description
+The recaps spell her surname several ways (Ungart, Utgart, Ironart). Ungar is the canonical spelling.
 
-- Human woman
-- Commanding presence
-- Leadership bearing
-- Intimidating demeanor
+## Background
 
-## Rise to Power
-
-### Seizing High Forge (Session 24)
-**Opportunity**: Dragon attack created power vacuum
-
-**Takeover**:
-- Iron Claws filled leadership void
-- Established control through force and organization
-- Positioned as "order" alternative to chaos
-- Used dragon alliance for legitimacy/threat
-
-### Governance Style
-**Oppressive Control**:
-- High taxation on citizens
-- Protection money collection
-- Housing redistribution
-- Public intimidation tactics
-
-## Criminal Operations
-
-### Iron Claws Leadership
-
-**Organizational Structure**:
-- Helja at top as primary leader
-- Lieutenants: Grimjaw, Triple C, Car, Athena, Marta
-- Multiple guard posts and facilities
-- Control of strategic locations
-
-**Criminal Activities**:
-- **Bounty System**: $50,000 on Taco Cat
-- **Violessence Smuggling**: Black market trade with Eldoran
-- **Protection Rackets**: Taxing businesses
-- **Tunnel Patrols**: Controlling underground access
-
-### Strategic Alliances
-
-**Dragon Cooperation**:
-- Working with dragon forces
-- Plans involving dragon summoning
-- Used dragon threat for control
-- Mutual benefit arrangement
-
-**Eldoran Empire**:
-- Suspected coordination with Empire
-- Captain Corwin turned for them
-- Lady Corwin connection unclear
-- Political maneuvering on grand scale
-
-## Personal Vendetta: Silas
-
-### Greyport Massacre
-**Silas's Crew Killed**:
-- Helja responsible for deaths in Greyport
-- Killed Silas's former crew/associates
-- Created personal vendetta
-- Enormous bounty on Silas specifically
-
-**Special Targeting**:
-- Silas had highest price on head
-- Personal hatred beyond general Taco Cat bounty
-- Wanted him specifically dead or captured
-- Made him primary target
-
-### The Grudge
-- Drove Silas's actions throughout campaign
-- Motivated his involvement in resistance
-- Personal stake in Iron Claws downfall
-- Revenge plot culminated in Session 36
-
-## Major Operations
-
-### Bounty on Taco Cat (Session 25)
-**The Announcement**:
-- **$50,000 dead or alive** on entire party
-- Coordinated bounty hunter operations
-- Active search throughout High Forge
-- Multiple encounter attempts
-
-**Impact**:
-- Forced party underground
-- Required tunnel infiltration
-- Increased danger level
-- Made party celebrities in criminal world
-
-### Hostage Situation (Session 36)
-**Great Hall Takeover**:
-- Captured multiple hostages:
-  - George (Olivia's nephew)
-  - Will
-  - Roscoe
-  - Belvolt
-  - Finnwick (actively bleeding out)
-  - Lady Corwin
-- Threatened execution
-- Strategic play for control
-- Final confrontation setup
-
-## The Great Hall Battle (Session 36)
-
-### Confrontation
-**Helja's Position**:
-- Command of Iron Claws forces
-- Held hostages as leverage
-- Positioned for what should be victory
-- Underestimated party's deception plan
-
-**Silas's Deception**:
-- Pretended to negotiate
-- Cold professionalism hiding true intent
-- Positioned himself strategically
-- Executed her personally
-
-### Her Death
-**Final Moments**:
-- Killed by Silas during battle
-- Personal vendetta satisfied
-- Leadership vacuum created immediately
-- Iron Claws forces scattered without her
-
-**Impact of Death**:
-- **Leadership**: Iron Claws command structure collapsed
-- **Organization**: Lieutenants fled or fell
-- **Control**: Grip on High Forge broken
-- **Legacy**: Oppressive regime ended
-
-## Leadership Style
-
-### Ruthlessness
-- No mercy for opponents
-- Willing to execute hostages
-- Used fear as primary tool
-- Calculated cruelty
-
-### Strategic Mind
-- Dragon alliance for power
-- Eldoran connections for legitimacy
-- Bounty system to eliminate threats
-- Resource control through taxation
-
-### Organizational Skill
-- Built effective criminal empire quickly
-- Maintained control through lieutenants
-- Coordinated complex operations
-- Filled power vacuum efficiently
+- **The orb job:** Her journal from the year of the heist shows she wanted the orb because of her mother: "I must have the orb. My mother said it would be the only way we were respected… this last thing I will do, not because you deserve it, but because I do."
+- **The massacre:** When the crew handed over the bag in Greyport, she had them executed. Bartleby Thatch (Silas's alias) had switched in a decoy medicine ball, and he and Bru escaped through the storm drains with the real orb. Her journal records that Sander's body was not among the dead and that her people never found him.
+- **Research:** Her study held books on the fabric of reality, and her notes on "reality stones" pointed to the goliaths' mountain. She booby-trapped her bedroom door with a poisoned needle.
 
 ## Relationships
 
-### With Iron Claws Leadership
-**Lieutenants** (Grimjaw, Triple C, Car, Athena, Marta):
-- Commanded through fear and respect
-- Effective delegation of authority
-- Loyalty maintained through success
-- Organization crumbled without her
+- **[Silas](/player-characters/silas):** Her quarry for eleven years, and the man who killed her. He asked her, "What were their names?" about his dead crew, and she did not remember.
+- **[Bru](/player-characters/bru):** The other survivor of the massacre. He wired her throne room with explosives and fired the final shot.
+- **[Olivia](/player-characters/olivia):** Olivia calls Helja an old nemesis who would know her on sight.
+- **Her mother:** Pushed her to get the orb. Silas believes she now runs the Iron Claws again.
+- **Lieutenants:** Grimjaw, Captain Corwin ("Triple C"), Marta and others. Grimjaw and Triple C escaped when she died.
 
-### With Taco Cat
-**Primary Antagonist**:
-- Hunted them actively
-- Massive bounty on their heads
-- Viewed as primary threat
-- Personal hatred of Silas
+## Session History
 
-### With Silas Specifically
-**Mutual Vendetta**:
-- She killed his crew in Greyport
-- He wanted revenge
-- Both sought other's death
-- Ended with her execution
-
-## Impact on High Forge
-
-### During Her Rule
-**Negative**:
-- Oppressive taxation
-- Citizens lived in fear
-- Freedom curtailed
-- Criminal empire entrenched
-
-**"Positive" (Complicated)**:
-- Maintained order (such as it was)
-- Prevented complete chaos
-- Organized governance (criminal but functional)
-- Alternative to anarchy
-
-### After Her Death
-**Power Vacuum**:
-- No clear successor
-- Iron Claws leadership scattered
-- High Forge governance uncertain
-- Multiple factions positioning for control
-
-## Character Significance
-
-### As Antagonist
-- Clear villain for party to oppose
-- Personal connection through Silas
-- Represented oppression and tyranny
-- Satisfying defeat for narrative
-
-### Political Complexity
-- Not simple monster - built functioning organization
-- Filled real power vacuum
-- Raised questions about post-tyrant governance
-- Showed dangers of criminal rule
-
-### Personal Vendetta
-- Drove Silas's character arc
-- Created emotional stakes
-- Made conflict personal not just political
-- Revenge as motivation and danger
-
-## Legacy
-
-### Immediate Aftermath (Session 36)
-- Iron Claws weakened significantly
-- Lieutenants fled using teleportation rings
-- Some forces eliminated in battle
-- Organization in disarray
-
-### Long-term Impact
-- Power vacuum she created remains
-- Question of legitimate governance
-- Iron Claws remnants still exist
-- Example of what not to become
-
-### Lessons
-- Power seized by force unstable
-- Personal vendettas have consequences
-- Criminal governance ultimately fails
-- Tyrants create resistance
-
-## Related Characters
-- [Silas Fairbanks](/player-characters/silas) - Nemesis, her killer
-- **Grimjaw, Triple C, Car, Athena, Marta** - Iron Claws lieutenants
-- **Captain Corwin** - Turned for Iron Claws
-- [Taco Cat](/organizations/taco-cat) - Primary opposition
-
-## Related Organizations
-- [Iron Claws](/organizations/iron-claws) - Leader
-- [The Resistance](/organizations/resistance) - Enemy
-- [Eldoran Empire](/organizations/eldoran-empire) - Possible ally
-- Dragons - Allied forces
-
-## Key Sessions
-- **Session 24**: Iron Claws control established
-- **Session 25**: $50,000 bounty announced
-- **Session 36**: Hostage situation, death at Silas's hands
-
-## Quotes
-
-*"Taco Cat, the bounty is $50,000 dead or alive. My associates and I would prefer alive. It's less messy, but we're not picky. Lay down your arms, you're surrounded."* - Iron Claws operative speaking for Helja, Session 25
-
----
-
-**Status**: Deceased (Session 36)
-**Killed By**: Silas Fairbanks
-**Cause of Death**: Personal execution during Great Hall battle
-**Legacy**: Power vacuum, scattered organization, ended oppressive regime
+- **[Session 7](/sessions/session-7)** — The party learns that the Iron Claws, led by Helja, control the High Forge tunnels. Olivia realises Helja is an old nemesis who would recognise her and Silas.
+- **[Session 24](/sessions/session-24)** — Victor reports that Helja has become the shadow ruler of High Forge under the dragons. The entity in the orb offers to "eat" her if Silas cooperates.
+- **[Session 25](/sessions/session-25)** — The party learns she is squeezing High Forge with protection money and heavy taxes. The Iron Claws put a 50,000 bounty on Taco Cat, with an especially large price on Silas.
+- **[Session 28](/sessions/session-28)** — The party learns the dragons obey whoever holds the orb, believed to be Helja, and that she pays them regular gold tribute.
+- **[Session 31](/sessions/session-31)** — Realising Lady Corwin has manipulated them, the party keeps the tribute gold and gives itself a week to plan an assault on Helja.
+- **[Session 32](/sessions/session-32)** — Silas proves to the dragons that Helja never had the orb, and they agree to attack her fortress directly.
+- **[Session 36](/sessions/session-36)** — Silas fakes a betrayal to get an audience in her Forge Heart throne room. He offers her a fake orb while Bru wires the room, then strikes on "Now." Bru's cannon incinerates her and her skeleton falls into her throne.
+- **[Interlude 13](/sessions/interlude-13)** — In a flashback, she reveals herself as the Sisyphus Circle's client at the Greyport handoff and has the crew executed. Silas and Bru escape with the real orb, and she puts a bounty on "that halfling".
+- **[Session 38](/sessions/session-38)** — Silas and Bru search her High Forge apartment and find her yearly journals: her mother's pressure over the orb, the massacre, and her failed hunt for Sander. Her door trap poisons Silas.
+- **[Session 40](/sessions/session-40)** — Silas hands her journals to the Order of St. George.
+- **[Session 53](/sessions/session-53)** — Silas and Bru scout the Iron Claws in their old bar, the Cog and Steam. Silas believes Helja's mother is back in charge.
