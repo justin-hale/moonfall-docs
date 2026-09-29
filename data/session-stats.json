@@ -1204,7 +1204,7 @@
           "name": "Helisanna",
           "canonical": "Helisanna Doomfall",
           "role": "pc",
-          "player": null,
+          "player": "Luke Neverisky",
           "blocks": 660,
           "words": 3889,
           "talk_seconds_est": null,
@@ -1255,8 +1255,10 @@
           "Chalk Rock": 7,
           "Victor": 5,
           "Astro": 3,
+          "Crowley": 3,
           "April Bonal": 2,
-          "Bafael": 1
+          "Bafael": 1,
+          "Luna": 1
         },
         "locations": {
           "Greyport": 1,
@@ -1714,6 +1716,7 @@
           "Scarlet": 7,
           "Chalk Rock": 6,
           "Naomi": 3,
+          "Ach'uk": 1,
           "April Bonal": 1,
           "Lady Corwin": 1
         },
@@ -2226,6 +2229,7 @@
         "npcs": {
           "Scarlet": 46,
           "Naomi": 11,
+          "Crowley": 2,
           "George": 2,
           "Chalk Rock": 1
         },
@@ -2460,6 +2464,7 @@
       "attendance_source": "transcript",
       "mentions": {
         "npcs": {
+          "Gary": 3,
           "George": 2,
           "Iro": 2,
           "Scarlet": 1
@@ -3591,6 +3596,7 @@
       "mentions": {
         "npcs": {
           "George": 6,
+          "Gary": 3,
           "Astro": 1,
           "Chalk Rock": 1,
           "Iro": 1,
@@ -3799,6 +3805,7 @@
       "mentions": {
         "npcs": {
           "George": 23,
+          "Luna": 14,
           "Victor": 10,
           "Naomi": 6,
           "Bafael": 5,
@@ -4022,9 +4029,11 @@
       "attendance_source": "transcript",
       "mentions": {
         "npcs": {
+          "Luna": 34,
           "George": 23,
           "Astro": 21,
           "Bafael": 8,
+          "Crowley": 4,
           "Iro": 3,
           "Naomi": 1,
           "Victor": 1
@@ -4245,6 +4254,7 @@
       "attendance_source": "transcript",
       "mentions": {
         "npcs": {
+          "Luna": 11,
           "Victor": 10,
           "George": 6,
           "Astro": 1,
@@ -4465,6 +4475,7 @@
       "mentions": {
         "npcs": {
           "Victor": 61,
+          "Luna": 10,
           "George": 3,
           "Astro": 1,
           "Bafael": 1,
@@ -4679,6 +4690,8 @@
         "npcs": {
           "Iro": 33,
           "Scarlet": 22,
+          "Gary": 11,
+          "Crowley": 3,
           "Victor": 1
         },
         "locations": {
@@ -4882,7 +4895,9 @@
           "Victor": 53,
           "Iro": 16,
           "Scarlet": 13,
-          "Naomi": 3
+          "Luna": 7,
+          "Naomi": 3,
+          "Belspeth Booper": 1
         },
         "locations": {},
         "pcs": {
@@ -5076,6 +5091,7 @@
       "mentions": {
         "npcs": {
           "Victor": 17,
+          "Luna": 16,
           "Naomi": 16,
           "Astro": 10,
           "Scarlet": 10,
@@ -5243,12 +5259,14 @@
       "attendance_source": "transcript",
       "mentions": {
         "npcs": {
+          "Luna": 32,
           "Victor": 23,
           "Iro": 20,
           "Lady Viper": 18,
           "Scarlet": 18,
           "Astro": 8,
-          "Naomi": 4
+          "Naomi": 4,
+          "Belspeth Booper": 1
         },
         "locations": {
           "Greyport": 6,
@@ -5414,6 +5432,8 @@
         "npcs": {
           "Astro": 10,
           "Lady Viper": 10,
+          "Luna": 10,
+          "Belspeth Booper": 5,
           "Victor": 4,
           "Iro": 1,
           "Scarlet": 1
@@ -5599,6 +5619,8 @@
       "attendance_source": "transcript",
       "mentions": {
         "npcs": {
+          "Belspeth Booper": 6,
+          "Luna": 6,
           "Scarlet": 2,
           "Iro": 1,
           "Victor": 1
@@ -5803,7 +5825,10 @@
       ],
       "attendance_source": "transcript",
       "mentions": {
-        "npcs": {},
+        "npcs": {
+          "Belspeth Booper": 4,
+          "Luna": 3
+        },
         "locations": {},
         "pcs": {
           "Bru": 35,
@@ -6002,7 +6027,10 @@
       "attendance_source": "transcript",
       "mentions": {
         "npcs": {
+          "Gary": 72,
           "Iro": 19,
+          "Luna": 18,
+          "Crowley": 2,
           "Naomi": 1
         },
         "locations": {
@@ -6210,9 +6238,12 @@
       "attendance_source": "transcript",
       "mentions": {
         "npcs": {
+          "Luna": 41,
+          "Gary": 28,
           "Iro": 24,
           "Scarlet": 15,
           "George": 12,
+          "Crowley": 2,
           "Victor": 2
         },
         "locations": {
@@ -6405,8 +6436,11 @@
         "npcs": {
           "Scarlet": 25,
           "Iro": 21,
+          "Luna": 6,
           "George": 5,
-          "Lady Viper": 3
+          "Lady Viper": 3,
+          "Gary": 2,
+          "Crowley": 1
         },
         "locations": {
           "Greyport": 4
@@ -6612,9 +6646,14 @@
           "Victor": 8,
           "Finnegan": 5,
           "Iro": 4,
+          "Luna": 3,
+          "Lord Bradicus": 2,
+          "Crowley": 1,
+          "Gary": 1,
           "Naomi": 1
         },
         "locations": {
+          "Little Cradle": 6,
           "Greyport": 2,
           "High Forge": 2
         },
@@ -6817,7 +6856,8 @@
         },
         "locations": {
           "Eldoran": 3,
-          "High Forge": 1
+          "High Forge": 1,
+          "Little Cradle": 1
         },
         "pcs": {
           "Bru": 22
@@ -6998,6 +7038,7 @@
       "attendance_source": "transcript",
       "mentions": {
         "npcs": {
+          "Luna": 8,
           "Scarlet": 8,
           "George": 5,
           "Iro": 2
@@ -7220,11 +7261,16 @@
           "Captain Steel": 5,
           "Scarlet": 3,
           "Finnegan": 2,
+          "Luna": 2,
+          "Ach'uk": 1,
           "Astro": 1,
           "Chalk Rock": 1,
-          "Steven Goldspring": 1
+          "Steven Goldspring": 1,
+          "Toothy": 1
         },
-        "locations": {},
+        "locations": {
+          "Sexy Peacock": 4
+        },
         "pcs": {
           "Bru": 8
         }
@@ -7438,14 +7484,18 @@
         "npcs": {
           "George": 47,
           "Victor": 15,
+          "Toothy": 12,
           "Captain Steel": 4,
           "Finnegan": 4,
           "Lady Viper": 4,
+          "Crowley": 2,
+          "Ach'uk": 1,
           "Chalk Rock": 1,
           "Naomi": 1,
           "Scarlet": 1
         },
         "locations": {
+          "Sexy Peacock": 8,
           "High Forge": 5
         },
         "pcs": {
@@ -7526,9 +7576,12 @@
           "Victor": 8,
           "Ben Boulage": 3,
           "George": 3,
-          "Scarlet": 2
+          "Scarlet": 2,
+          "Toothy": 1
         },
-        "locations": {},
+        "locations": {
+          "Sexy Peacock": 2
+        },
         "pcs": {
           "Bru": 23,
           "Red": 1
@@ -7689,9 +7742,11 @@
         "npcs": {
           "Scarlet": 37,
           "Victor": 10,
+          "Cassandra": 7,
           "Captain Steel": 2,
           "George": 2,
           "Astro": 1,
+          "Gary": 1,
           "Iro": 1,
           "Lady Viper": 1
         },
@@ -7870,10 +7925,13 @@
           "George": 16,
           "Scarlet": 10,
           "Captain Steel": 5,
+          "Ach'uk": 4,
           "Lady Viper": 3,
-          "April Bonal": 1
+          "April Bonal": 1,
+          "Luna": 1
         },
         "locations": {
+          "Sexy Peacock": 3,
           "High Forge": 2
         },
         "pcs": {
@@ -7952,13 +8010,17 @@
         "npcs": {
           "George": 35,
           "Scarlet": 24,
+          "Cassandra": 8,
           "Finnegan": 8,
           "Captain Steel": 4,
           "Lady Viper": 3,
           "Iro": 1,
+          "Luna": 1,
+          "Toothy": 1,
           "Victor": 1
         },
         "locations": {
+          "Sexy Peacock": 5,
           "High Forge": 2
         },
         "pcs": {
@@ -8193,8 +8255,10 @@
           "Captain Steel": 11,
           "Victor": 4,
           "George": 3,
+          "Cassandra": 1,
           "Finnegan": 1,
-          "Fredo Boggins": 1
+          "Fredo Boggins": 1,
+          "Luna": 1
         },
         "locations": {
           "High Forge": 1
@@ -8456,7 +8520,7 @@
         "name": "Helisanna",
         "canonical": "Helisanna Doomfall",
         "role": "pc",
-        "player": null,
+        "player": "Luke Neverisky",
         "sessions": 1,
         "blocks": 660,
         "words": 3889,
@@ -8527,24 +8591,34 @@
       "Scarlet": 308,
       "Victor": 246,
       "George": 240,
+      "Luna": 225,
       "Iro": 149,
+      "Gary": 121,
       "Lady Viper": 67,
       "Astro": 63,
       "Naomi": 60,
       "Chalk Rock": 35,
       "Captain Steel": 31,
       "Finnegan": 31,
+      "Crowley": 20,
+      "Belspeth Booper": 17,
       "Bafael": 16,
+      "Cassandra": 16,
+      "Toothy": 15,
       "Bon Bonnery": 9,
+      "Ach'uk": 7,
       "April Bonal": 4,
       "Lady Corwin": 4,
       "Ben Boulage": 3,
+      "Lord Bradicus": 2,
       "Fredo Boggins": 1,
       "Steven Goldspring": 1
     },
     "top_locations": {
       "Greyport": 74,
       "High Forge": 55,
+      "Sexy Peacock": 22,
+      "Little Cradle": 7,
       "Eldoran": 3,
       "Milstrom": 3,
       "Gold Road": 2,
