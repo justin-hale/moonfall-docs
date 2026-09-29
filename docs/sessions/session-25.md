@@ -8,7 +8,7 @@ image: "/img/C4E25.webp"
 podcastlink: "https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4E25-June-27th-e351oja"
 ---
 
-**[🎧 Podcast Link](https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4E25-June-27th-e351oja) • *June 26, 2025***
+**[🎧 Podcast Link](https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4E25-June-27th-e351oja) • *June 27, 2025***
 
 ## Session Overview
 
@@ -40,16 +40,16 @@ The party continues their journey toward High Forge while dealing with the after
 
 **Project Status**: The pocket village construction requires three more successful sessions to complete if the rolls continue to go well.
 
-## Meeting Scarlett
+## Meeting Scarlet
 
-The party encounters **Scarlett**, a younger version of the scientist they met in Marcus's destroyed timeline. In this dimension, she specializes in **time and space research** rather than art, while **Marcus** is focused on painting rather than temporal engineering.
+The party encounters **Scarlet**, a younger version of the scientist they met in Marcus's destroyed timeline. In this dimension, she specializes in **time and space research** rather than art, while **Marcus** is focused on painting rather than temporal engineering.
 
 **Key Differences from the Previous Timeline**:
-- **Scarlett** is the scientist working on **dimensional and time travel theories**
+- **Scarlet** is the scientist working on **dimensional and time travel theories**
 - **Marcus** is the artist focused on landscape painting
 - Their roles are essentially reversed from the destroyed timeline
 
-**Recruitment Success**: After some discussion about the dangers of time manipulation research, the party successfully convinces **Scarlett** to abandon her temporal experiments in exchange for helping with their **pocket dimension workspace** project. She brings valuable expertise in extra-dimensional magic that complements their existing schematics.
+**Recruitment Success**: After some discussion about the dangers of time manipulation research, the party successfully convinces **Scarlet** to abandon her temporal experiments in exchange for helping with their **pocket dimension workspace** project. She brings valuable expertise in extra-dimensional magic that complements their existing schematics.
 
 ## Gathering Intelligence at the Refugee Camp
 
@@ -100,7 +100,7 @@ The party encounters **Scarlett**, a younger version of the scientist they met i
 
 ## Van Upgrades Attempt
 
-**[Elspeth](/player-characters/elspeth)** and **[Silas](/player-characters/silas)** visit **Mr. X's** garage to acquire defensive upgrades for the Vroomfall before entering dangerous territory.
+**[Elspeth](/player-characters/elspeth)** and **[Silas](/player-characters/silas)** visit **Mr. X's** garage to acquire defensive upgrades for the Zoomfall before entering dangerous territory.
 
 ### Available Upgrades and Pricing
 
@@ -226,7 +226,7 @@ This episode effectively explores the consequences of notoriety and the challeng
 3. **Dragon Cooperation**: Evidence that dragons and Iron Claws are working together
 4. **Portal Conspiracy**: **Joaquin's** warnings about a larger supernatural plot
 5. **Advanced Projects**: Continued progress on pocket village and rocket ship construction
-6. **Scarlett's Integration**: The dimensional specialist's role in future adventures
+6. **Scarlet's Integration**: The dimensional specialist's role in future adventures
 
 ## Session Conclusion
 

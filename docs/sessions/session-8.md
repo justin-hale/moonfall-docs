@@ -1,6 +1,6 @@
 ---
 title: "8: Caravan Nights"
-date: 2024-10-03
+date: 2024-10-02
 description: "Tacocats take a moment to meet caravan folks."
 summary: "Tacocats take a moment to meet caravan folks."
 featureimage: "https://d2a9bkgsuxmqe2.cloudfront.net/staging/podcast_uploaded_episode400/41448639/41448639-1727985336183-69d761febf22c.jpg"
@@ -14,8 +14,8 @@ podcastlink: "https://creators.spotify.com/pod/show/topher-hooper/episodes/C4-E8
 
 The party finally leaves the deep tunnels under High Forge, emerging into the dawn-lit foothills of the surrounding mountains. As they rejoin a larger caravan of fleeing citizens and merchants, the group maintains a low profile while still accompanied by Bo, the Twilight Company remnants, and the now-painted vehicles: **Vroomfall** and **Zoomfall**.
 
-- **Van aesthetics update**: Vroomfall now features the iconic “Three Steve Moon” (wolves wearing sunglasses) howling at a stylized moon.
-- **Zoomfall** is painted in a Mad Max–inspired style, waiting on Ellie’s final flair.
+- **Van aesthetics update**: Zoomfall now features the iconic “Three Steve Moon” (wolves wearing sunglasses) howling at a stylized moon.
+- **Vroomfall** is painted in a Mad Max–inspired style, waiting on Ellie’s final flair.
 
 ## 🧪 A Wave of Revelations
 

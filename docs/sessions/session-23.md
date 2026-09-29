@@ -8,7 +8,7 @@ image: "/img/C4E23.webp"
 podcastlink: "https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4E23-June-13th-e34d08c"
 ---
 
-**[🎧 Podcast Link](https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4E23-June-13th-e34d08c) • *June 12, 2025***
+**[🎧 Podcast Link](https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4E23-June-13th-e34d08c) • *June 13, 2025***
 
 ## Session Overview
 

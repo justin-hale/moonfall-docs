@@ -1,8 +1,8 @@
 ---
 title: 'Interlude XV: The Greyport Finale Race'
 date: '2025-12-12'
-description: "Conclusion of the racing conspiracy against Elspeth Cooper, featuring experimental D&D racing mechanics, increasingly elaborate sabotage, and the ultimate disgrace of a racing legend."
-summary: "The six-racer conspiracy against Elspeth Cooper (Elspeth's past identity) reached its climax in the Greyport Speedway finale race. Using refined D&D racing mechanics, the conspirators employed red zones for illegal magic, VVS boost zones, and increasingly absurd sabotage attempts—including Wile E. Coyote painted tunnels, slow spells affecting allies, magic weapons, and strategic firebolts. Despite not winning the race, the frame job succeeded: Elspeth was disgraced and accused of using her brother's unregistered racing crystal, ending her 20+ year career. The session mixed high-speed tactical racing with comedy as every conspirator's schemes spiraled into chaos."
+description: "Conclusion of the racing conspiracy against Elspeth Cooper, featuring experimental D&D racing mechanics, increasingly elaborate sabotage, a black-flagged race, and the disgrace of a racing legend."
+summary: "The six-racer conspiracy against Elspeth Cooper reached its climax in the Greyport Speedway finale race. Using refined D&D racing mechanics, the conspirators employed red zones for illegal magic, VVS boost zones, and increasingly absurd sabotage attempts—including Wile E. Coyote painted tunnels, slow spells affecting allies, magic weapons, strategic firebolts, and a racer polymorphed into a sheep. The race was black-flagged and cancelled, and the frame job succeeded: Elspeth was blamed for the chaos, suspended, and found to be racing with a switched family crystal, bringing her 20+ year career to a disgraceful end. The session mixed high-speed tactical racing with comedy as every conspirator's schemes spiraled into chaos."
 featureimage: '/img/C4I14.webp'
 image: '/img/C4I14.webp'
 podcastlink: ''
@@ -12,7 +12,7 @@ podcastlink: ''
 
 ## Session Overview
 
-Continuing directly from [Interlude XIV](/sessions/interlude-14), this session concluded the flashback race conspiracy against **Elspeth Cooper** (Elspeth's previous identity). The experimental D&D racing mechanics were refined with action economy changes, red zones for magical abilities, and VVS (Vroom Vroom System) boost zones. The six conspirators—Verstap, Den Lin, Serge, Scotty Mac, Lancey Stroll, and Xugor—deployed increasingly chaotic sabotage attempts while racing three laps around Greyport Speedway. Though the race outcome was secondary, the conspiracy succeeded: Elspeth was accused of using her brother Zachary's unregistered racing crystal, ending her legendary career in disgrace.
+Continuing directly from [Interlude XIV](/sessions/interlude-14), this session concluded the flashback race conspiracy against **Elspeth Cooper**, again with Ali, Elspeth's player, as guest DM. The experimental D&D racing mechanics were refined with action economy changes, red zones for magical abilities, and VVS (Vroom Vroom System) boost zones. The six conspirators—Verstap, Denlin, Serge, Scotty Mac, Lancey Stroll, and Xugor—deployed increasingly chaotic sabotage attempts in a race planned for three laps around Greyport Speedway, until officials black-flagged it during the first lap. Though the race outcome was secondary, the conspiracy succeeded: Elspeth was blamed for everything, suspended, and found to be running a switched family crystal, ending her legendary career in disgrace.
 
 ## Pre-Race Recap: The Conspiracy
 
@@ -20,25 +20,25 @@ As established in Interlude XIV, **Tito Bonito** (racing circuit board president
 
 **The Conspirators:**
 - **Verstap** (Justin) - Dominant golden boy, sponsored by Infinity Internet
-- **Den Lin** (Tyram) - Cartoonish villain with orphan coal mines and teleportation magic
+- **Denlin** (Taylor) - Cartoonish villain with orphan coal mines and teleportation magic
 - **Serge** (Ellis) - Desperate second-tier driver, career on the line
-- **Scotty Mac** (Christopher) - Elspeth's best friend, torn by loyalty
+- **Scotty Mac** (Zack) - Elspeth's best friend, torn by loyalty
 - **Lancey Stroll** (Luke) - Rich elf with Christopher Walken voice, whiny and entitled  
-- **Xugor** (Ali) - 7-foot orcish woman, quiet and methodical
+- **Xugor** (Christopher) - 7-foot orcish woman, quiet and methodical
 
 **Pre-Race Sabotage Success:**
 - Serge successfully planted Team Cooper t-shirt evidence in Verstap's sabotaged engine
-- Xugor fed Elspeth poppy seed muffins (hoping for positive drug test)
-- Den Lin's schemes all spectacularly failed (pineapple pizza scandal, hooker photos, etc.)
-- Scotty placed a "nuclear option" rune under Elspeth's car to make it fly if needed
-- Both Verstap and Elspeth were penalized to back of grid for discovered sabotage
+- Xugor's poppy seed muffins reached Elspeth (hoping for positive drug test)
+- Denlin's schemes all spectacularly failed (pineapple pizza scandal, hooker photos, etc.)
+- Scotty placed a "nuclear option" glyph under Elspeth's car to make it fly if needed
+- Officials were investigating the sabotage found on both Verstap's and Elspeth's cars
 
 **The Trump Card:**
-Unknown to most conspirators, Elspeth's brother **Zachary Cooper** had already ensured her downfall by switching her registered racing crystal (their mother's Cooper crystal) for an unregistered family crystal.
+Unknown to the conspirators until after the race, Elspeth's brother **Zachary Cooper** had already ensured her downfall by switching her registered racing crystal (their mother's Cooper crystal) for the family's other, unregistered crystal.
 
 ## Refined Racing Mechanics
 
-The DM adjusted the experimental racing system based on Interlude XIV feedback:
+Ali adjusted the experimental racing system based on Interlude XIV feedback:
 
 **Action Economy Changes:**
 - Started with two generic actions per turn (move or ability)
@@ -48,7 +48,7 @@ The DM adjusted the experimental racing system based on Interlude XIV feedback:
 **Movement System:**
 - Roll d8 for base movement (in 5-foot squares)
 - Can dash (use action to roll additional d8)
-- Slow spell reduces movement die to d4 and limits to one action
+- Slowed racers are limited to one action (the table settled on halving movement)
 
 **Special Zones:**
 - **Blue Zones (VVS)** - Legal boost zones providing extra d4 movement
@@ -65,33 +65,33 @@ The DM adjusted the experimental racing system based on Interlude XIV feedback:
 
 ### Opening Moves: The Separation
 
-**Initiative Order (approximate):**
-1. Den Lin (first)
+**Turn Order (approximate):**
+1. Denlin (far out in first place)
 2. Verstap  
 3. Serge
 4. Scotty Mac
 5. Lancey Stroll
 6. Xugor
-7. Elspeth (NPC, back of grid)
+7. Elspeth (run by Ali)
 
-**Den Lin's Painted Tunnel Scheme:**
-- Den Lin deployed his pre-planned Wile E. Coyote sabotage
+**Denlin's Painted Tunnel Scheme:**
+- Denlin deployed his pre-planned Wile E. Coyote sabotage
 - Planted sign reading "SHORTCUT FOR ELSPETH ONLY" with arrow
 - Sign pointed to painted tunnel on wall with "ELSPETH" written above it
 - Hoped Elspeth would crash into the false tunnel
 - Move forward: 2 spaces (engine restart after placing sign)
+- It worked: Denlin's performance (19) beat Elspeth's save, and she drove headlong into the wall, took the damage, and kept going
 
 **Early Positioning:**
-- Verstap, Scotty Mac, and Lancey all rolled double 8s (16 total movement)
-- Front pack pulled significantly ahead
-- Xugor, Serge, Den Lin, and Elspeth fell behind
+- The front pack from Interlude XIV was still well ahead
+- Xugor and Elspeth trailed the field
 - Clear separation between leaders and stragglers
 
 ### Serge's Strategic Sabotage
 
 **Awe Foes Attempt:**
 - Serge used Channel Divinity: Awe Foes (trying to frighten opponents)
-- Targeted Den Lin, Verstap, and Elspeth
+- Targeted Denlin, Verstap, and Elspeth
 - DC 15 Wisdom save
 - **All three saved** (frustrating moment for desperate Serge)
 - Movement: 7 spaces
@@ -104,18 +104,17 @@ The DM adjusted the experimental racing system based on Interlude XIV feedback:
 ### The Great Slow Spell Incident
 
 **Xugor's Area Effect:**
-- Xugor cast Slow spell affecting multiple cars
-- Intended targets: Den Lin, Verstap, and others
-- **Friendly fire**: Also affected teammate Verstap
-- Effect: Reduces movement to d4, limits to one action, disadvantage on attacks
+- Xugor's first Slow (end of Interlude XIV) had caught Denlin and Verstap; Verstap shook it off with an 18 on his save
+- Xugor then cast Expeditious Retreat to get into the red zone—dropping her concentration on Slow
+- Later, using Expeditious Retreat to move 15 spaces at once, she cast Slow again on the cars in a box ahead of her, deliberately leaving Elspeth out ("Elizabeth is my friend")
+- Effect: Limits to one action and halves speed
 - DC 17 Wisdom save
 
-**Saves:**
-- Verstap: Saved (16, then 18 on second slow)
-- Scotty Mac: Failed (slowed)
-- Serge: Saved (but slowed again later)
-- Lancey: Immune (already "naturally slow")
-- Den Lin: Failed (slowed)
+**Saves (second Slow):**
+- Verstap: Failed (slowed)
+- Scotty Mac: Failed with a 16 (slowed)
+- Serge: Failed (slowed), then shook it off later with a 25
+- Lancey: The table joked he had been "naturally slow" the whole time
 
 **Chaos:**
 - Slow spell became recurring theme
@@ -126,25 +125,24 @@ The DM adjusted the experimental racing system based on Interlude XIV feedback:
 ### Scotty Mac's Moral Crisis
 
 **The Honest Racer:**
-- Scotty attempted misty step teleportation but couldn't take his car
-- Read Den Lin's "Shortcut for Elspeth Only" sign
+- Scotty first worried Misty Step couldn't take his car, then—once the table agreed racers *are* their cars—used it in the unsupervised zone
+- Read Denlin's "Shortcut for Elspeth Only" sign
 - As "honest racer," honorably avoided the "designated" shortcut
 - Clear internal conflict: wants to win, feels guilty about cheating
 
 **Aging Rapidly:**
 - Running gag: Scotty aging throughout the race
-- Started at 40-50, by end might die of old age
+- By mid-race the table put him at 65 and joked he might die of old age
 - "Poor Scotty Mac" sympathy despite being conspirator
 - Double-rolled sixes: "One for the money, two for the double eights!"
 
 ### Lancey Stroll: The Polymorph Attempt
 
 **Turn Scotty Into a Sheep:**
-- Lancey cast Polymorph on Scotty Mac in visible zone
-- Attempted to turn him into a sheep mid-race
-- Scotty rolled **18 Wisdom save** (barely passed)
-- Would have created sheep covered in sponsorship stickers
+- Lancey cast Polymorph on Scotty Mac (in the visible zone) to turn him into a sheep mid-race
+- Scotty rolled **18 Wisdom save** against DC 17 (barely passed)
 - Discussed: Would it be Dumb & Dumber van-dog but as sheep-car?
+- Lancey then tried Verstap—twice. The second time Verstap rolled a 3 (see "The Black Flag" below)
 
 **Christopher Walken Energy:**
 - "I'm gonna turn him into a SHEEP"
@@ -155,23 +153,21 @@ The DM adjusted the experimental racing system based on Interlude XIV feedback:
 ### Verstap's Position & Slow Escape
 
 **Golden Boy Status:**
-- Started with movement penalties (back of grid due to sabotage discovery)
-- Used misty step to teleport forward (60 ft bonus action)
-- Escaped multiple slow spells through high Wisdom saves
+- Used Misty Step to teleport forward, and later again to reach the next red zone
+- Shook off the first Slow, but was caught by the second
 - Movement rolls consistently high (9-12 spaces)
 
-**Avoiding Conflict:**
-- Verstap mostly focused on racing to win
-- Didn't engage in active sabotage during Lap 1
-- Benefited from being sponsored golden boy
-- Officials gave him benefit of doubt on earlier sabotage accusations
+**Picking His Shots:**
+- Cast Heat Metal on Elspeth's car from inside a red zone (16 fire damage)
+- Held off casting when a spell would have been seen
+- Later hit Xugor with a Fireball (35 fire damage) when she passed through his range
 
-## The Race: Mid-Laps
+## The Race: Mid-Race
 
-### Den Lin's Elaborate Scheming Continues
+### Denlin's Elaborate Scheming Continues
 
 **Free Treats for Dwarves Trap:**
-- As Den Lin passed the pit area, signaled his "minions"
+- As Denlin passed the pit area, signaled his "minions"
 - They set up sign: "FREE TREATS FOR DWARVES"
 - Display included keg of booze, beef jerky, "things dwarves like"
 - All placed on a **catapult**
@@ -179,15 +175,13 @@ The DM adjusted the experimental racing system based on Interlude XIV feedback:
 
 **Execution:**
 - Pre-planned during 24-hour sabotage window
-- Aimed at Elspeth and Scotty (both dwarves)
+- Aimed at dwarves—Elspeth resisted; Scotty Mac, pitting during the red flag, fell for it (see below)
 - Classic Wile E. Coyote energy
 - Movement: 10 spaces
 
-**Den Lin's Slow Suffering:**
-- Constantly affected by Xugor's slow spells
-- Could only move d4 instead of d8
-- "What level of autism made that happen?" (regarding complex engine builds)
-- Still teleported using orphan soul power when possible
+**Denlin's Turtle Artillery:**
+- Hurled another turtle, Archibald, at Elspeth (natural 20, 33 psychic damage)
+- Used his teleportation and a cunning-action dash to stay far out in front
 
 ### Serge's Desperation Play: The Insurance Scam
 
@@ -223,6 +217,7 @@ The DM adjusted the experimental racing system based on Interlude XIV feedback:
 - Focus: Frame Elspeth rather than win race
 
 **Firebolt Bombardment:**
+- Opened with a critical firebolt on Serge (32 damage)—"Elspeth did it," Serge announced
 - Shot Serge with firebolt for 12 damage
 - Each firebolt had post-it note saying "From Elspeth"
 - Elspeth was actually behind Xugor at the time
@@ -231,30 +226,30 @@ The DM adjusted the experimental racing system based on Interlude XIV feedback:
 **Second Casting:**
 - Another firebolt at Serge for 9 damage
 - "I'm shooting from a hidden location. No one knows it's me."
-- Choosing not to affect Elspeth directly ("she's my friend")
+- Also sent her father into Elspeth's crowded race-day garage after her bank passwords (he was caught)
 - Strategic sacrifice: Not racing to win, ensuring frame job success
 
 ### The Slow Spell Wars
 
 **Recurring Slow Effects:**
-- Xugor cast Slow multiple times
-- Each casting affected 4-6 cars in area
-- Verstap: Saved repeatedly (+8 Wisdom)
-- Scotty Mac: Slowed, then saved later
-- Den Lin: Perpetually slowed
-- Serge: Slowed, then saved with natural 25
+- Xugor cast Slow twice
+- Each casting caught several cars in the area
+- Verstap: Shook off the first, failed the second
+- Scotty Mac: Slowed
+- Denlin: Slowed by the first casting
+- Serge: Slowed, then saved with a 25
 
 **Action Economy Confusion:**
 - "If you're slowed, can you take bonus actions?"
-- Slowed = one action, half speed, d4 movement
+- Slowed = one action, half speed
 - Frightened = different effect (disadvantage, can't move toward source)
 - Both could stack simultaneously
 
-**Expeditious Retreat Counter:**
-- Xugor cast Expeditious Retreat to compensate
+**Expeditious Retreat Backfire:**
+- Xugor's Expeditious Retreat needed her concentration, so each casting dropped her Slow
 - "Whoever's slowed is no longer slowed"
 - Used multiple bonus actions for extra movement
-- Balanced offensive debuffs with personal mobility
+- Traded her own debuffs for personal mobility
 
 ### Verstap vs. Scotty Mac: The Friendship Contests
 
@@ -267,16 +262,16 @@ The DM adjusted the experimental racing system based on Interlude XIV feedback:
 **Scotty's Decline:**
 - "Well, old Scotty here only rolled a six. Not my best I've ever had."
 - Still affected by slow spell: "If I'm slowed and rolled a six, did I actually roll a three?"
-- Corrected: Should roll d4 when slowed, not d8 then halve
+- Corrected: Should roll one die when slowed, not two
 - Moved backward 3 spaces at one point (following slow rules strictly)
 
 **"Honest Racer" Roleplay:**
 - Scotty consistently played as conflicted
 - "I play by the rules" even while actively cheating
 - Called his "Papy" (father/team owner) in distress
-- Win watching from home, training to take his seat
+- Win, his daughter, is training to take his seat
 
-## The Race: Final Lap & Conclusion
+## The Black Flag & Conclusion
 
 ### The Question of Victory
 
@@ -284,28 +279,35 @@ The DM adjusted the experimental racing system based on Interlude XIV feedback:
 - Primary goal: Frame Elspeth for cheating
 - Actual race winner less important than conspiracy success
 - Multiple racers stopped racing to focus on sabotage
-
-**Likely Finishing Positions (approximate):**
-1. Verstap or Xugor (front runners)
-2. Den Lin (teleportation advantage despite slow)
-3. Scotty Mac (elderly but determined)
-4. Serge (damaged but functional)
-5. Lancey (naturally slow despite privilege)
-6. Elspeth (sabotaged, accused, penalized)
+- Denlin still led by a mile when the race stopped—still on lap one
 
 **Why Victory Didn't Matter:**
-- Xugor literally parked to shoot Elspeth
+- Xugor literally parked to shoot Serge "for" Elspeth
 - Serge stopped to create collision evidence
-- Den Lin focused on elaborate traps
+- Denlin focused on elaborate traps
 - Scotty conflicted about competing
-- Winning would draw attention; better to frame Elspeth and finish mid-pack
+
+### The Sheep and the Black Flag
+
+**Car Sheep:**
+- Lancey's second Polymorph on Verstap landed (Verstap rolled a 3)
+- Since racers are their cars, Verstap became a car-sized sheep, its wool plastered in sponsor decals—Sun Bills, Blue Ox and more
+- Officials saw a car turn into a sheep: yellow flags, then red flags, then black flags—flags so rarely used they had to be dusted off
+- Everyone was called into the pits, and the race was stopped
+
+**Denlin's Catapult Pays Off:**
+- In the pit, Scotty Mac failed his save (7) and went for the free dwarf treats
+- The catapult launched him about 100 feet; he slow-fell to earth eating the jerky
 
 ### The Post-Race Revelation
 
-**Tito's Announcement:**
-- Race officials investigated Elspeth's car
-- Found multiple "irregularities" from sabotage
-- Discovered the damning evidence: **Wrong crystal**
+**Tito's Office:**
+- Everyone was ordered up to Tito's office—including the sheep, pushed up the stairs
+- Serge arrived in an arm sling, neck brace and boot
+- The conspirators piled on: Denlin swore he heard Elspeth say "It's sheep time" over the radio before Verstap turned; Xugor had "watched her" firebolt Serge; Serge said she hit him; the "shortcut for Elspeth" sign was on the track; there were the hookers; and Xugor's father had "evidence" of offshore accounts
+- Tito cancelled the race (to be rerun the next weekend), suspended Elspeth pending investigation, and warned she might face charges—while noting allegations against Xugor too, since her father had been caught in Elspeth's garage
+- Lancey quietly ended the Polymorph, leaving a 2,000-pound car creaking on the office floor
+- Officials went to investigate Elspeth's car, and found the damning evidence: **Wrong crystal**
 
 **The Crystal Conspiracy:**
 - Elspeth's registered crystal: Cooper family crystal (her mother's)
@@ -314,32 +316,33 @@ The DM adjusted the experimental racing system based on Interlude XIV feedback:
 - Using unregistered crystal = definite cheating, grounds for ban
 
 **Elspeth's Reaction:**
-- Dramatically left the paddock
-- "Smells. Got it." (Den Lin's delayed punchline satisfaction)
+- Bewildered throughout ("What is happening?")—she turned to Scotty for support, and he could only say something must have been pulling him back all race
+- Dramatically left the office
+- "Smells. Got it." (Denlin's delayed punchline satisfaction)
 - No defense possible against crystal evidence
 - 20+ year career ended in disgrace
 
 **The Conspirators' "Victory":**
 - Tito: "We did it everyone! Congratulations!"
 - Most conspirators felt terrible
-- Scotty Mac: "I feel terrible. I've got to call my Papy."
+- Scotty Mac: "I feel terrible. This race feels like it's aged me a lot... I'm calling my Papy."
 - Lancey: "I guess I'm calling my daddy."
-- Den Lin walked out satisfied
-- Xugor called her lawyer
+- Denlin walked out satisfied
+- Xugor called her dad
 
 ### Ongoing Accusations
 
-The DM revealed Ally had a **list of everything Elspeth has been accused of:**
+Ali revealed she had a **list of everything Elspeth has been accused of.** Among the accusations aired in Tito's office:
 
 **Known Accusations:**
 1. Using unregistered crystal (Zachary's switch)
-2. Chassis filing (Xugor's pre-race sabotage, caught)
-3. Crystal tampering (Serge's planted Team Cooper shirt evidence)
-4. Rear-ending Serge (insurance scam collision)
-5. Shooting firebolt at Serge (Xugor's post-it note frame job)
-6. Pineapple pizza scandal (Den Lin's failed attempt)
-7. Hooker association (Den Lin's rave photos)
-8. Drug test concerns (Xugor's poppy seed muffins)
+2. Crystal tampering (Serge's planted Team Cooper shirt evidence)
+3. Rear-ending Serge (insurance scam collision)
+4. Shooting firebolt at Serge (Xugor's post-it note frame job)
+5. Turning Verstap into a sheep (Lancey's polymorph, blamed on her)
+6. The "shortcut for Elspeth" sign (Denlin's painted tunnel)
+7. Hooker association (Denlin's rave photos)
+8. Offshore bank accounts (Xugor and Lancey's tax-fraud scheme)
 
 **Frame Job Success:**
 - Even without the crystal switch, mountain of circumstantial evidence
@@ -354,9 +357,9 @@ The DM revealed Ally had a **list of everything Elspeth has been accused of:**
 ### Serge: Career Desperation
 
 **Second-Tier Racer Mentality:**
-- Only saboteur who successfully executed plan (Verstap's engine tampering pre-race)
+- Most successful pre-race saboteur (Verstap's engine tampering)
 - Insurance fraud collision perfectly executed
-- Took significant damage (43 HP) to frame Elspeth
+- Took significant damage (43 HP) along the way
 - "I might lose a job if he [Verstap] wins"
 
 **Moral Calculation:**
@@ -369,9 +372,9 @@ The DM revealed Ally had a **list of everything Elspeth has been accused of:**
 
 **The "Honest Racer":**
 - Best friends with Elspeth for decades
-- Given nuclear option rune (make her car fly = obvious cheating)
+- Planted the nuclear option glyph (make her car fly = obvious cheating)
 - Tried to race honestly despite conspiracy
-- "Come on, Lancey. Scotty needs [to win]."
+- Fell for Denlin's dwarf-treat catapult
 
 **Moral Weight:**
 - Clearly aging rapidly (visual metaphor for guilt)
@@ -389,56 +392,55 @@ The DM revealed Ally had a **list of everything Elspeth has been accused of:**
 **Strategic Saboteur:**
 - Sacrificed race victory to ensure frame job
 - Parked in red zone for optimal firing position
-- Pre-planned dwarf catapult trap
+- Sent her father after Elspeth's bank passwords
 - Slow spells controlled the field
 
 **Professional Approach:**
 - Quiet, methodical, effective
 - "I run for a nonprofit" (ironically, while sabotaging)
-- Called lawyer immediately after (prepared for consequences)
+- Told Tito he could speak to her lawyer, then called her dad
 - Daughter of ex-KGB equivalent (learned from the best)
 
-### Den Lin: Wile E. Coyote Personified
+### Denlin: Wile E. Coyote Personified
 
 **Cartoon Villain Energy:**
 - Painted tunnel with "ELSPETH" sign
 - Free treats catapult trap
 - Pineapple pizza scandal
-- "You meddling orphans!" while teleporting
+- Turtles thrown at Elspeth's car
 
-**Consistent Failure:**
+**Mixed Results:**
 - Every pre-race scheme failed spectacularly
-- Constantly slowed by Xugor's spells
+- The race-day traps finally landed: Elspeth hit the painted wall, Scotty rode the catapult
 - Still satisfied by overall conspiracy success
 - Walked out without regret: "f****** got her ass"
 
 ### Verstap: The Golden Boy
 
-**Minimal Involvement:**
+**Selective Involvement:**
 - Focused on actually racing
-- High Wisdom saves avoided most debuffs
-- Benefited from system despite being framed too
-- Officials believed his sabotage was Elspeth's fault
+- Picked his moments: Heat Metal on Elspeth, a Fireball on Xugor
+- Officials believed his pre-race sabotage was Elspeth's fault
+- Ended the race as a sponsor-plastered sheep
 
 **Privilege in Action:**
 - Sponsorships: Infinity Internet, Sun Bills, Blue Ox
 - Team resources superior to others
-- "I'm the golden boy of the race"
-- Could afford to just race and let others do dirty work
+- Expected to be the target as "the golden boy of the race"
 
 ### Lancey Stroll: Christopher Walken Chaos
 
 **Rich Kid Problems:**
 - Father owns team (ultimate safety net)
-- Attempted to polymorph Scotty into sheep
+- Polymorphed Verstap into a sheep after Scotty resisted
 - Whiny throughout: "apparently not" (deadpan)
 - Banking info on post-it notes (projection of incompetence)
 
-**Minimal Competence:**
-- Movement solid but no tactical sense
-- Cloud of daggers prepared but never deployed
+**Accidental Kingmaker:**
+- Movement solid but little tactical sense
+- Cloud of daggers dropped in Interlude XIV
+- His sheep got the race black-flagged
 - Called "daddy" after conspiracy success
-- Embodied entitled mediocrity
 
 ## Racing Mechanics: Lessons Learned
 
@@ -482,7 +484,7 @@ The DM revealed Ally had a **list of everything Elspeth has been accused of:**
 
 **Speed Separation:**
 - Leaders quickly separated from stragglers
-- Den Lin's teleport only way to stay competitive
+- Teleports and Misty Steps were the only way to close gaps
 - Made interactions between front/back impossible
 - More catch-up mechanics needed
 
@@ -501,7 +503,7 @@ The DM revealed Ally had a **list of everything Elspeth has been accused of:**
 - "This is such a game of Munchkin in race form"
 - Everyone friends until someone near winning
 - Then everyone beats them down
-- "I f****** hate Munchkin" - Tyram
+- "I f****** hate Munchkin" - Taylor
 
 **Christopher Walken Voice:**
 - Lancey Stroll's entire characterization
@@ -520,7 +522,7 @@ The DM revealed Ally had a **list of everything Elspeth has been accused of:**
 **"Are You Guys Cheating?"**
 - Verstap asking after being slow-spelled by ally
 - Multiple conspirators affecting teammates
-- "All of us are within 60 feet of Den Lin. Just saying."
+- "All of us are within 60 feet of Denlin. Just saying."
 - The irony of conspirators accusing each other
 
 **Xugor's Shooting Gallery:**
@@ -540,7 +542,7 @@ The DM revealed Ally had a **list of everything Elspeth has been accused of:**
 - Painted tunnel
 - Dwarf treat catapult
 - Pineapple pizza scandal
-- "I need some more anvils in your plans, Tyram"
+- "I need some more anvils in your plans, Taylor"
 
 **The Cat Toe Incident:**
 - Someone's cat sniffing toes during session
@@ -550,7 +552,7 @@ The DM revealed Ally had a **list of everything Elspeth has been accused of:**
 
 ## Meta & Player Dynamics
 
-### Ally's Experience as Elspeth
+### Ali's Experience as Elspeth
 
 **The Target:**
 - "I do feel like you kind of hate me"
@@ -562,13 +564,13 @@ The DM revealed Ally had a **list of everything Elspeth has been accused of:**
 - Started with structured rules
 - "Then the rules went away, and now it's just kind of a free-for-all"
 - Players consistently asking "Can we do this? Can we do this?"
-- Ally adapting on the fly
+- Ali adapting on the fly
 
 **Genuine Question:**
-- "Ally, are you really not having a good time?"
-- Tyram: "I legit will feel terrible if you're just like miserable right now"
-- Response: "It was a great session and we did it"
-- Non-answer suggested mixed feelings
+- "Ali, are you really not having a good time?"
+- Taylor: "I legit will feel terrible if you're just like miserable right now"
+- Response: "This is super fun. I'm having a really good time."
+- A later "Sure." got called out as a non-answer
 
 ### The Conspiracy Guilt
 
@@ -585,14 +587,14 @@ The DM revealed Ally had a **list of everything Elspeth has been accused of:**
 - Called Papy in distress
 
 **Xugor's Calculation:**
-- "I run for a nonprofit" (while shooting fireballs)
+- "I run for a nonprofit" (while shooting firebolts)
 - Strategic rather than emotional
-- Still called lawyer afterward
+- Still called her dad afterward
 
 ### DM's Vision vs. Reality
 
 **Christopher's Check-In:**
-- "Ally, what was your vision?"
+- "Ali, what was your vision?"
 - "Well, it doesn't really matter. It's already happened."
 - "That was good. We ended up accusing her and it's good. We did it."
 - Resigned acceptance of chaos
@@ -605,7 +607,7 @@ The DM revealed Ally had a **list of everything Elspeth has been accused of:**
 
 ## Ongoing Plot Threads
 
-1. **Elspeth's Transformation:** How does this disgraced racer become adventurer Elspeth? When does she switch identities?
+1. **Elspeth's Transformation:** How does this disgraced racer become an adventurer?
 
 2. **Zachary's Betrayal:** Brother's conspiracy with Tito—what does he gain? Does he get Elspeth's seat?
 
@@ -615,13 +617,13 @@ The DM revealed Ally had a **list of everything Elspeth has been accused of:**
 
 5. **Tito's Endgame:** What was the "big money" vote Elspeth opposed? How does her removal benefit the circuit?
 
-6. **Granddaughter Olivia:** Retired detective mentioned in Interlude XIV—does she investigate the conspiracy? Learn the truth?
+6. **Grandmother Olivia:** Elspeth's grandmother, then still a detective, who nearly arrested Denlin in Interlude XIV—does she investigate the conspiracy? Learn the truth?
 
 7. **The Other Conspirators:** Do any of them face consequences? Regret their actions?
 
 8. **Current Timeline Connection:** Does the main party know about Elspeth's racing past?
 
-9. **The Nuclear Option Rune:** Was Scotty's flying car rune ever discovered? Is it still under her car?
+9. **The Nuclear Option Glyph:** Was Scotty's flying car glyph ever discovered? Is it still under her car?
 
 10. **Poppy Seed Drug Test:** Did Xugor's muffin plan actually work? Was there a positive test?
 
@@ -639,7 +641,7 @@ The DM revealed Ally had a **list of everything Elspeth has been accused of:**
 - High comedy despite dark premise
 - Racing mechanics functional if not perfect
 
-**Ally's Experience:**
+**Ali's Experience:**
 - Challenging being targeted PC
 - Had to adapt rules constantly
 - Mixed feelings on chaos vs. structure
@@ -663,8 +665,6 @@ The DM revealed Ally had a **list of everything Elspeth has been accused of:**
 
 **Current Break:**
 - Regular campaign paused for interludes
-- Party around 10th level
-- Mid-campaign position
 - Multiple backstories still to explore
 
 **Return Timeline:**
@@ -681,7 +681,7 @@ The DM revealed Ally had a **list of everything Elspeth has been accused of:**
 
 3. **Conspiracy Overkill:** Six racers' elaborate sabotage was unnecessary—Zachary's crystal switch alone would have ended her career
 
-4. **Moral Cost:** Every conspirator except Den Lin showed guilt, especially Scotty Mac who betrayed decades-long friendship
+4. **Moral Cost:** Most conspirators showed guilt, especially Scotty Mac who betrayed decades-long friendship
 
 5. **Systemic Corruption:** The racing circuit board, team owners, and officials all coordinated to remove Elspeth for opposing "big money" interests
 
@@ -689,11 +689,11 @@ The DM revealed Ally had a **list of everything Elspeth has been accused of:**
 
 7. **Cooper Family Crystals:** Two family racing crystals exist with different registrations—suggests complex family history and inheritance
 
-8. **Identity Transformation Setup:** This disgrace likely triggers Elspeth's transition to Elspeth the adventurer—complete life change
+8. **Life Transformation Setup:** This disgrace likely triggers Elspeth's transition to adventuring—complete life change
 
 ## Legacy & Impact
 
-**For Elspeth/Elspeth:**
+**For Elspeth:**
 - Career destroyed by family betrayal
 - 20+ years of integrity weaponized against her
 - Forced reinvention as adventurer
@@ -724,7 +724,8 @@ The DM revealed Ally had a **list of everything Elspeth has been accused of:**
 - Six-racer conspiracy succeeded despite chaotic execution
 - Serge's insurance scam collision perfectly executed
 - Xugor's shooting gallery frame job with post-it notes
-- Den Lin's Wile E. Coyote schemes (painted tunnel, catapult trap)
+- Denlin's Wile E. Coyote schemes (painted tunnel, catapult trap)
+- Lancey's polymorph turns Verstap into a sheep and gets the race black-flagged
 - Scotty Mac's guilt over betraying decades-long friendship
 - Zachary Cooper's crystal switch ensured failure regardless
 - Elspeth Cooper disgraced and career ended after 20+ years

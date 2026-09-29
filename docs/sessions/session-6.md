@@ -1,6 +1,6 @@
 ---
 title: "6: Highforge Sprint"
-date: 2024-09-07
+date: 2024-09-06
 description: "Our heroes race the Highforge Sprint!"
 summary: "Our heroes race the Highforge Sprint!"
 featureimage: "https://d2a9bkgsuxmqe2.cloudfront.net/staging/podcast_uploaded_episode400/41448639/41448639-1725735250244-b9d6f23e3a787.jpg"
@@ -20,7 +20,7 @@ podcastlink: "https://creators.spotify.com/pod/show/topher-hooper/episodes/C4-E6
 - Tensions briefly rise between [Silas](/player-characters/silas) and Bru, and [Helisanna](/player-characters/helisanna) is teased for her subpar performance.
 ### Planning for the Race
 - The group solidifies roles in the upcoming underground street race:
-  - **[Elspeth](/player-characters/elspeth)** will drive the Doomfall.
+  - **[Elspeth](/player-characters/elspeth)** will drive the Vroomfall.
   - **BoxBox** (her automaton) rides in the back for support.
   - **[Silas](/player-characters/silas)** and **[Helisanna](/player-characters/helisanna)** prepare sabotage and distraction tactics.
   - **Bru** equips and plans the use of flamethrower cannons and caltrops.

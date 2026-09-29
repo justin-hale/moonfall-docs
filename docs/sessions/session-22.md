@@ -8,7 +8,7 @@ image: "/img/C4E22.webp"
 podcastlink: "https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4E22-June-6th-e34d032"
 ---
 
-**[🎧 Podcast Link](https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4E22-June-6th-e34d032) • *June 5, 2025***
+**[🎧 Podcast Link](https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4E22-June-6th-e34d032) • *June 6, 2025***
 
 ## Opening: Arrival on the Mountain
 
@@ -106,7 +106,7 @@ Using their artifice skills, **[Bru](/player-characters/bru)** and **[Elspeth](/
 
 ### Return to Milstrom
 
-The party makes excellent time down the mountain and returns to **Milstrom**, [Red](/player-characters/red)'s adoptive hometown. They reunite with their vehicles (the Vroomfall and Doomfall) and take a much-needed long rest.
+The party makes excellent time down the mountain and returns to **Milstrom**, [Red](/player-characters/red)'s adoptive hometown. They reunite with their vehicles (the Zoomfall and Vroomfall) and take a much-needed long rest.
 
 ## Character Development and Gifts
 

@@ -44,7 +44,7 @@ Before the campaign, Helja hired the [Sisyphus Circle](/organizations/sisyphus-c
 ### Greyport
 
 - **Sander found:** Helja's journals showed that her people had searched Greyport for the Sisyphus Circle survivor Sander without success (Session 38).
-- **The bakery bombing:** When the party found Sander, the Gaines bakery exploded. The party chased Iron Claws across the rooftops, killing several, and the [Order of St. George](/organizations/order-of-st-george) took one prisoner (Session 39). Commander Tannell later admitted the Order had kept Sander at the bakery as bait, hoping he would be targeted (Session 40 transcript).
+- **The bakery bombing:** When the party found Sander, the Gaines bakery exploded. The party chased Iron Claws across the rooftops, killing several, and the [Order of St. George](/organizations/order-of-st-george) took one prisoner (Session 39). Commander Tannondel later admitted the Order had kept Sander at the bakery as bait, hoping he would be targeted (Session 40 transcript).
 - **The old neighbourhood:** Sander told the party the Iron Claws still held the old gang's neighbourhood, and Bru started planning "Operation Cogenstein" (Session 40).
 - **The Cog & Steam:** The party ambushed four Iron Claws, took their hats, and walked into the Cog & Steam, now a boarded-up gang bar. Bru set an Iron Claw on fire, Silas talked his way behind the bar, and the bartender slipped him a coded map (Session 53).
 

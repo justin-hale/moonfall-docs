@@ -1,6 +1,6 @@
 ---
 title: "12: Out of the frying pan, into the Fire"
-date: 2024-10-26
+date: 2024-10-25
 description: "The party pursues werewolves, recruits an unlikely ally, and faces their most dangerous battle yet."
 summary: "The party pursues werewolves, recruits an unlikely ally, and faces their most dangerous battle yet."
 featureimage: "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode400/41448639/41448639-1729957948962-543bad37638b1.jpg"

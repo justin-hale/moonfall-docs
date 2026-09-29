@@ -1,6 +1,6 @@
 ---
 title: Helisanna Doomfall
-description: Metal frontwoman and bard/warlock bound to Ach'uk — since Session 57, one of the two personas of Leliana Goldspring, played by Luke Neverisky
+description: Metal frontwoman and bard/warlock bound to Y'chek — since Session 57, one of the two personas of Leliana Goldspring, played by Luke Neverisky
 sidebar_position: 3
 aliases: ["Helisanna", "Helisana"]
 ---
@@ -11,7 +11,7 @@ aliases: ["Helisanna", "Helisana"]
 
 ## Overview
 
-Helisanna Doomfall and **[Leliana Goldspring](/player-characters/leliana)** are the same woman, played by the same player, **Luke Neverisky**. Helisanna was Luke's original character: the pale, metal-playing bard/warlock who fronted the band Doomfall and was bound to the primordial patron **[Ach'uk](/npcs/achuk)**. In **Session 34** she split into two people, and from **Session 34 to Session 56** Helisanna lived apart from the party as a DM-run character while Luke played Leliana. In **Session 57** Leliana learned that the two were never really separate — they are "two sides of the coin", extremes of a single person — and that with her brother's Blue Moon guitar she can switch between them at will.
+Helisanna Doomfall and **[Leliana Goldspring](/player-characters/leliana)** are the same woman, played by the same player, **Luke Neverisky**. Helisanna was Luke's original character: the pale, metal-playing bard/warlock who fronted the band Doomfall and was bound to the primordial patron **[Y'chek](/npcs/ychek)**. In **Session 34** she split into two people, and from **Session 34 to Session 56** Helisanna lived apart from the party as a DM-run character while Luke played Leliana. In **Session 57** Leliana learned that the two were never really separate — they are "two sides of the coin", extremes of a single person — and that with her brother's [Blue Moon Guitar](/items/blue-moon-guitar) she can switch between them at will.
 
 **Current status (Session 63):** Helisanna is a persona, not a separate party member. Leliana can become Helisanna "on the fly", fully one or the other, with no blending yet. The two personas are aware of each other and the switch is, in Luke's words, "very controlled… just flipping a switch". Helisanna mode carries the party's grudge against **[Captain Steel](/npcs/captain-steel)**, who murdered Leliana's brother.
 
@@ -19,15 +19,16 @@ Helisanna Doomfall and **[Leliana Goldspring](/player-characters/leliana)** are 
 
 | | Helisanna | Leliana |
 |---|---|---|
+| **Race** | Human | Human |
 | **Look** | Pale skin, white hair, dark colours, purple veins | Tan complexion, blonde hair, bright and colourful |
 | **Music** | Heavy metal on an electric guitar-axe | Mandolin and acoustic sets; now the Blue Moon guitar |
-| **Class** | Bard/warlock, pact with Ach'uk | Bard (College of Glamour) |
+| **Class** | Bard/warlock, pact with Y'chek | Bard (College of Glamour) |
 | **Temper** | Rude, cynical, fame-hungry, vengeful | Cheerful, apologetic ("Oh jeez!"), kind |
 
 - **Same face, same build.** At the split the party saw two women who looked like twins, one pale and one full of colour.
 - **The switch shows.** The DM compared it to a Zelda-and-Sheik transformation (Session 57). How much her look changes depends on how far she gives in to one side; a quick flip shows as a lightning streak of colour down her right eye and a discolouration across her face that fades (Session 58).
 - **Two sheets, one body.** Since Session 58 Luke keeps a Helisanna character sheet alongside Leliana's, with Leliana's as the master sheet for hit points and inventory. In Session 62 he played the barracks infiltration as Helisanna and switched to Leliana to send George a *message*, a spell only Leliana has.
-- **The name "Anna".** In Session 58 Bru and Elspeth proposed calling her "Anna", a name that covers both halves, and the table approved it. It has not been used since; the party still says Leliana (or "Lily") or Helisanna depending on who is out.
+- **What to call her.** In Session 58 Bru and Elspeth floated "Anna" as a name covering both, but it was dropped: she is Leliana (or "Lily" undercover) or Helisanna depending on who is out.
 
 ## Background
 
@@ -73,12 +74,11 @@ When the World Tree's roots connected to the place where Helisanna was born, Lel
 - **[Leliana Goldspring](/player-characters/leliana):** her other self. Between Sessions 34 and 56 Helisanna treated her with scorn; since Session 57 they share one body and know each other's minds.
 - **[Silas Fairbanks](/player-characters/silas):** her band manager. In Session 57 he told Leliana that Helisanna was "the rudest, most selfish person I've ever met" but perhaps a coping mechanism, and that he preferred the whole person. He has promised to back Helisanna's revenge on Steel.
 - **[Bru](/player-characters/bru):** in Session 56 he recalled that Helisanna once made him and Leliana believe they were part of her family, though she never believed it herself.
-- **[Ach'uk](/npcs/achuk):** her patron. What has become of it since Session 57 is unknown.
+- **[Y'chek](/npcs/ychek):** her patron. What has become of it since Session 57 is unknown.
 
 ## Open Questions
 - Did the separate Helisanna last seen "running things in the South" (Session 56) merge into Leliana at the revelation, or does she still exist somewhere? Asked at the end of Session 57, the answer was "we'll have to find out"; in Session 58 Helisanna spoke of her cult and dragon as her own memories.
-- What hold does Ach'uk still have on her? In Session 58: "you'll have to wait and see."
-- Only one recap (Session 9) states her race, as Human.
+- What hold does Y'chek still have on her? In Session 58: "you'll have to wait and see."
 
 ## Session History
 - **[Session 1](/sessions/session-1)** — Helisanna headlines The Little Hovel with Bru's pyrotechnics and Red's blessings; audience members' eyes glow purple.
@@ -86,13 +86,13 @@ When the World Tree's roots connected to the place where Helisanna was born, Lel
 - **[Session 23](/sessions/session-23)** — Purple mist from her performance turns locals' eyes purple, and she tells Olivia what little she knows of her pact.
 - **[Session 26](/sessions/session-26)** — The party finds thousands of purple-eyed ravers under her influence partying beside the resistance headquarters.
 - **[Session 32](/sessions/session-32)** — At The Little Hobble she commands the ravers with her music and sends them to prepare a massive concert.
-- **[Session 34](/sessions/session-34)** — Near death, she submits to Ach'uk and then tears free; she splits into Helisanna, who leaves with her ravers, and Leliana Goldspring.
+- **[Session 34](/sessions/session-34)** — Near death, she submits to Y'chek and then tears free; she splits into Helisanna, who leaves with her ravers, and Leliana Goldspring.
 - **[Session 35](/sessions/session-35)** — The party learns the two are fully separate people with separate bodies and debates whether Helisanna can be saved.
 - **[Session 36](/sessions/session-36)** — She plays the Great Hall concert while her ravers swarm the Iron Claws.
 - **[Session 37](/sessions/session-37)** — She appears riding Duncan the black dragon and is later rumoured to haunt the depths of High Forge.
 - **[Interlude 12](/sessions/interlude-12)** — She and her ravers occupy the Lotus Casino until the reset sends them back to High Forge.
 - **[Session 56](/sessions/session-56)** — Through a mirror-pond she warns Leliana away from the gateway where Helisanna was born.
 - **[Session 57](/sessions/session-57)** — Leliana learns she and Helisanna are two extremes of one person and gains the power to switch between them.
-- **[Session 58](/sessions/session-58)** — Speaking as Helisanna, she vows to kill Captain Steel; the name "Anna" is proposed for her.
+- **[Session 58](/sessions/session-58)** — Speaking as Helisanna, she vows to kill Captain Steel, and a lightning streak down her right eye marks the switch.
 - **[Session 60](/sessions/session-60)** — Voiced by the DM as Helisanna for the whole session, she runs the meatloaf-cart distraction.
 - **[Session 62](/sessions/session-62)** — She infiltrates the barracks as Helisanna and promises Silas to "put on Helisanna mode" against Steel.

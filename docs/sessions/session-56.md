@@ -28,7 +28,7 @@ Lord Bradicus's death-game reality show, in progress. The party — competing un
 
 ### Escape from the Cookout
 
-The bell rings, Bradicus says *"go,"* and the lot erupts. Pupusa Possum is the only sober group in a sea of drunk revelers, three rival gangs, and buzzing camera drones — the whole audition is a reality show, and they are on camera. Silas has already teleported ahead of the pack. Rather than fight, the party books it for the van.
+The bell rings, Bradicus says *"go,"* and the lot erupts. Pupusa Possum is the only sober group in a sea of drunk revelers, three rival gangs, and buzzing camera drones — the whole audition is a reality show, and they are on camera. Silas has already teleported ahead of the pack. Rather than fight, the party books it for the van, the **Zoomfall**.
 
 Silas, on a natural 20 Perception, clocks a tiny Volkswagen-Beetle-shaped car slipping out through the gate, then whips out his **wand of web** and webs every biker's motorcycle to the ground. Leliana covers the trick with a **minor illusion** of a giant web-spitting spider. Keeping up her drunk-facade from the night before, Leliana stumbles past the four blinded bikers on a Deception of 32, drawing only a mournful *"Oh my eyes... come on, Paul."*
 
@@ -54,7 +54,7 @@ The party pledges to walk in with her. Olivia leans down through the van's roof 
 
 ### The Triple C
 
-They reach a squat brutalist concrete building — the **Cornwall Community Library**, "the triple C." The rival frog-people team overcooks the approach and drives straight into a bog. **Scarlet** volunteers to stay behind and guard the van rather than tuck it into the pocket village. At the doors, Bru offers his own gesture of profound trust — **emotional support dynamite**, a single stick of dynamite fitted with a service-animal vest — so Leliana won't feel alone. The front door teleports whoever enters onto a glowing glyph in the basement, and the party warps in one by one.
+They reach a squat brutalist concrete building — the **Cornwall Community Library**, "the triple C." The rival frog-people team overcooks the approach and drives straight into a bog. **Scarlet** volunteers to stay behind and guard the Zoomfall rather than tuck it into the pocket village. At the doors, Bru offers his own gesture of profound trust — **emotional support dynamite**, a single stick of dynamite fitted with a service-animal vest — so Leliana won't feel alone. The front door teleports whoever enters onto a glowing glyph in the basement, and the party warps in one by one.
 
 ### The Book Club
 
@@ -91,7 +91,7 @@ They pass through rooms of skeletons and corpses. Olivia's investigations tell a
 - **Three armored mercenaries**, dead maybe six months, killed violently — one stabbed in the back, one beheaded, one disemboweled. Each wore a **crescent-moon amulet of glass and silver**: followers of **Luna**. One of them was carrying a pressed-rose birthday card.
 - **Two Eldoran soldiers**, dead about as long, sprawled in piles of books without a wound between them — but with blood on both their swords and one blade dented from cutting through something hard. Victims of the reading compulsion.
 
-The birthday card reads: *"For our little rose bud who never gives up on her dreams... We love you, Leliana. From mom, dad, and Peter."* At first the party fears these are Leliana's parents; they are not — they are mercenaries wearing Luna's crescent. The party guesses they found the card and came looking for her, perhaps from a chapter of Luna's faithful that once gathered near here, until something cut them down about six months ago. Timeline shakes loose: the moon fell over a year ago, and the party has been away roughly two years.
+The birthday card reads: *"For our little rose bud who never gives up on her dreams... We love you, Leliana. From mom, dad, and Steven."* At first the party fears these are Leliana's parents; they are not — they are mercenaries wearing Luna's crescent. The party guesses they found the card and came looking for her, perhaps from a chapter of Luna's faithful that once gathered near here, until something cut them down about six months ago. Timeline shakes loose: the moon fell over a year ago, and the party has been away roughly two years.
 
 ### The Wishing Pond
 

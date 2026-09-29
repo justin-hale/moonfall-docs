@@ -7,7 +7,7 @@ featureimage: "C4I5.webp"
 podcastlink: "https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4-interlude-April-4th--2025-DM-Taylor-e315l80"
 ---
 
-**[🎧 Podcast Link](https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4-interlude-April-4th--2025-DM-Taylor-e315l80) • *April 3, 2025***
+**[🎧 Podcast Link](https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4-interlude-April-4th--2025-DM-Taylor-e315l80) • *April 4, 2025***
 
 ## Session Overview
 

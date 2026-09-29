@@ -8,7 +8,7 @@ image: "/img/C4E24.webp"
 podcastlink: "https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4E24-June-20th-e34it9n"
 ---
 
-**[🎧 Podcast Link](https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4E24-June-20th-e34it9n) • *June 19, 2025***
+**[🎧 Podcast Link](https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4E24-June-20th-e34it9n) • *June 20, 2025***
 
 ## Session Overview
 
@@ -21,10 +21,10 @@ The session opens with final preparations for the dangerous mountain race organi
 ### Team Strategy and Roles
 
 **Team Assignments**:
-- **[Elspeth](/player-characters/elspeth)**: Primary driver of the Doomfall race car
+- **[Elspeth](/player-characters/elspeth)**: Primary driver of the Vroomfall race car
 - **[Olivia](/player-characters/olivia)**: Co-pilot providing combat support and navigation assistance
 - **BoxBox**: [Elspeth](/player-characters/elspeth)'s steel defender riding in the car's special compartment
-- **[Silas](/player-characters/silas) and [Helisanna](/player-characters/helisanna)**: Support team in the Vroomfall van, scouting ahead for obstacles and conducting sabotage operations
+- **[Silas](/player-characters/silas) and [Helisanna](/player-characters/helisanna)**: Support team in the Zoomfall van, scouting ahead for obstacles and conducting sabotage operations
 - **[Bru](/player-characters/bru)**: Artillery specialist providing explosive support
 
 ### Sabotage Operations
@@ -41,7 +41,7 @@ Building on their previous race experience, **[Silas](/player-characters/silas)*
 
 ### Stage One: Boulder Sabotage and Avalanche
 
-**The Challenge**: As racers begin the mountain ascent, the Vroomfall team scouts ahead and identifies an ambush by the **Shield Bros team** positioned to ram other cars on a precarious mountain path.
+**The Challenge**: As racers begin the mountain ascent, the Zoomfall team scouts ahead and identifies an ambush by the **Shield Bros team** positioned to ram other cars on a precarious mountain path.
 
 **Coordinated Sabotage**:
 - **[Bru](/player-characters/bru)** (Intelligence check: 21) analyzes the terrain and identifies the perfect explosive placement to create maximum chaos
@@ -78,7 +78,7 @@ Building on their previous race experience, **[Silas](/player-characters/silas)*
 
 ### Stage Four: The Descent Gauntlet
 
-**Continued Advantages**: The Vroomfall team's earlier explosion continues to benefit [Elspeth](/player-characters/elspeth), as she can drive through the clear path they created while other racers struggle with debris and unstable terrain.
+**Continued Advantages**: The Zoomfall team's earlier explosion continues to benefit [Elspeth](/player-characters/elspeth), as she can drive through the clear path they created while other racers struggle with debris and unstable terrain.
 
 **Pursuing Threats**: 
 - A more aggressive stone golem emerges, crawling along the ground in pursuit of the leading car
@@ -235,7 +235,7 @@ In an emotionally significant scene, **[Jasper](/player-characters/jasper) Gaine
 - **Racing Victory Rewards**: The Warden's Signet (providing advantages for any vehicle operation)
 - **Advanced Technology**: Eldoran armor and crystal-embedded weapons from Eric
 - **Magical Items**: Various crystals from their adventures and the dangerous dragon orb
-- **Transportation**: The Vroomfall van and Doomfall race car, both enhanced with recent modifications
+- **Transportation**: The Zoomfall van and Vroomfall race car, both enhanced with recent modifications
 
 **Ongoing Projects**: The party continues working on their advanced schematics during downtime, including the rocket ship and pocket village construction using materials and knowledge gathered from various sources.
 

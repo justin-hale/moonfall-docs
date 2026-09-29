@@ -8,7 +8,7 @@ image: "/img/C4E28.webp"
 podcastlink: "https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4E28-August-1st-e36c3c0"
 ---
 
-**[🎧 Podcast Link](https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4E28-August-1st-e36c3c0) • *July 31, 2025***
+**[🎧 Podcast Link](https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4E28-August-1st-e36c3c0) • *August 1, 2025***
 
 ## Session Overview
 

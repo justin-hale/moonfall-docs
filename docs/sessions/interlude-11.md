@@ -7,7 +7,7 @@ featureimage: "C4I11.webp"
 podcastlink: "https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4-interlude-May-30th--2025-DM-Topher-e33kk86"
 ---
 
-**[🎧 Podcast Link](https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4-interlude-May-30th--2025-DM-Topher-e33kk86) • *May 29, 2025***
+**[🎧 Podcast Link](https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4-interlude-May-30th--2025-DM-Topher-e33kk86) • *May 30, 2025***
 
 ## Session Overview
 

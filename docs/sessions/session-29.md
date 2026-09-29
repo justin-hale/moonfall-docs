@@ -8,7 +8,7 @@ image: "/img/C4E29.webp"
 podcastlink: "https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4E29-Truckgust-150th-e36lb3o"
 ---
 
-**[🎧 Podcast Link](https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4E29-Truckgust-150th-e36lb3o) • *August 14, 2025***
+**[🎧 Podcast Link](https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4E29-Truckgust-150th-e36lb3o) • *August 15, 2025***
 
 ## Session Overview
 

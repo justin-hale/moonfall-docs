@@ -8,7 +8,7 @@ image: "/img/C4E27.webp"
 podcastlink: "https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4E27-July-18th-e35otea"
 ---
 
-**[🎧 Podcast Link](https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4E27-July-18th-e35otea) • *July 17, 2025***
+**[🎧 Podcast Link](https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4E27-July-18th-e35otea) • *July 18, 2025***
 
 ## Session Overview
 

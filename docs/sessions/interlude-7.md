@@ -7,7 +7,7 @@ featureimage: "C4I7.webp"
 podcastlink: "https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4-interlude-April-25th--2025-DM-Ellis-e324okc"
 ---
 
-**[🎧 Podcast Link](https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4-interlude-April-25th--2025-DM-Ellis-e324okc) • *April 24, 2025***
+**[🎧 Podcast Link](https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4-interlude-April-25th--2025-DM-Ellis-e324okc) • *April 25, 2025***
 
 ## Session Overview
 

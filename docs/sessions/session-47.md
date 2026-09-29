@@ -13,7 +13,7 @@ Greyport, early morning. The party surfaces from their pocket village in Iro's w
 ---
 
 ## Players Present
-- **Topher** (DM) – also running Bru, Leliana, Scarlet, and Victor as NPCs
+- **Topher** (DM) – also voicing Bru, Leliana, Scarlet, and Victor
 - **Taylor Ramsey** as **Silas** – Rogue/Sorcerer, holder of the dragon orb containing Astro
 - **Ali Leonard** as **Elspeth** – Artificer/Paladin racer, pocket village architect
 - **Ellis Taylor** as **Olivia Cooper** – Retired Detective, Devotion Paladin
@@ -30,7 +30,7 @@ Scarlet demonstrates the village's new form factor: she locks the door with a ke
 
 Iro rouses himself, delighted to have them back. A piece of lore surfaces naturally: Iro keeps a Polaroid scrapbook he calls his "horde," adding a photo whenever someone finishes a project in his workshop.
 
-**Bru's dragon scent**, a side effect of carrying the orb, has become notable enough that the void devils could smell it during their last battle. The smell lingers.
+**Silas's dragon scent**, a side effect of carrying the orb, has become notable enough that the void devils could smell it on him during their last battle. The smell lingers.
 
 ---
 
@@ -55,7 +55,7 @@ The front lobby has a receptionist and a rotating seasonal password — a latte 
 
 The bookcase slides open.
 
-Victor is triumphant. The party is unimpressed.
+Victor grumbles that none of this would have happened if they had taken his entrance. The party is unimpressed.
 
 ---
 
@@ -83,7 +83,7 @@ A gaunt, impeccably dressed butler greets them at the door.
 
 > *"Welcome. I assume you are here to see Lady Viper. She has been looking forward to meeting you, Taco Cat. It is a shame that you've dressed so poorly and look so dreadful. Would you like to consider coming back another time when you look less ghastly?"*
 
-He produces a steaming iron from his pocket and begins pressing Silas's clothes on the spot. Silas submits to this. Olivia and Elspeth have a different approach: Elspeth opens the pocket village, sprints through to the Lotus Casino, and returns in a few minutes wearing her pinstripe suit and carrying a cane.
+He produces a steaming iron from his pocket and begins pressing Silas's clothes on the spot. Silas submits to this. Elspeth, with a hat of disguise Silas pops onto her head, conjures a sharp suit. Olivia, told her outfit is dated and moth-eaten, has a different approach: she grabs the pocket village from Scarlet, sprints through to the Lotus Casino, and returns in a few minutes wearing her subtle three-piece pinstripe suit and hat, plus a cane just for fun.
 
 The butler approves. He presents them:
 
@@ -118,7 +118,7 @@ The party takes stock of her privately, passing insight checks around the circle
 
 **Elspeth (16):** Finds her composure almost paralyzing to engage with — her attractiveness is genuinely distracting, and Elspeth can't tell if the occasional eye contact is directed at her specifically or if she's just staring at the room. It feels both professional and isolated, as if no one has ever quite managed to treat Lady Viper like a person rather than a phenomenon.
 
-**Silas (28, with Flash of Genius and Bless):** Sees through the performance entirely. Lady Viper is not primarily a strategist — she is a person of charisma, working through her own powers of persuasion to gather anarchists, misfits, and people hurt by the Eldoran Empire and steer them toward her personal goal of revenge. Her plan for Eldoran is meticulous. Her plan for after the ashes: nonexistent. This is not a political revolution. It is a grief project at continental scale.
+**Silas (28, boosted and with Elspeth's Flash of Genius):** Sees through the performance entirely. Lady Viper is not primarily a strategist — she is a person of charisma, working through her own powers of persuasion to gather anarchists, misfits, and people hurt by the Eldoran Empire and steer them toward her personal goal of revenge. Her plan for Eldoran is meticulous. Her plan for after the ashes: nonexistent. This is not a political revolution. It is a grief project at continental scale.
 
 *Silas says nothing of this to Lady Viper.*
 
@@ -154,15 +154,15 @@ Lady Viper stares.
 
 > *"That is the embodiment of Luna in this space."*
 
-She is visibly moved. She agrees that a commune or congregation anchored in this space — with people who can move between the material world and the pocket village — could be a genuine asset.
+The party explains the idea: a commune or congregation that can live in the material world and still visit Luna here. Lady Viper admits that sounds complicated and leaves it to them to figure out.
 
 - **The rocket ship problem**: Getting to the space station that destroyed Luna requires a ship. The party floats options: build one (needs massive violescence and specialized materials), steal one from the Eldoran spaceport, or steal components and build from parts. No solution is resolved, but stealing from Eldoran during the planned infiltration is the leading candidate.
 
 > *"We have the schematics. We just need the parts and a lot of violescence."*
 
-Elspeth tries to find something shorter to call her — "Lady Viper? My lady? Ma'am?" — each attempt more awkward than the last. Lady Viper blushes. Elspeth moves on.
+Elspeth tries to find something shorter to call her — "Lady Viper? My lady? Ma'am?" — each attempt more awkward than the last. Lady Viper, amused, notices she has made Elspeth blush. Elspeth moves on.
 
-Lady Viper cannot offer a rocket in a week. She half-suggests they find the Colossus — then remembers they are gone.
+Lady Viper has no place for building a rocket, and Scarlet flatly rules out building one in a week. She half-suggests they find the Colossus — until the party reminds her they are gone.
 
 **The timeline**: Lady Viper expects to begin infiltrating Eldoran in close to a week. In the meantime, the party is free to operate in Greyport.
 
@@ -170,9 +170,9 @@ Lady Viper cannot offer a rocket in a week. She half-suggests they find the Colo
 
 ### What Olivia Knows and Does Not Say
 
-When Lady Viper describes the night her family was killed, Olivia quietly attempts a history check. The DC is 20. She rolls a natural 20.
+When Lady Viper describes the night her family was killed, Olivia quietly attempts a history check. The DC is steep. She rolls a 20.
 
-She remembers: at a detective conference years ago, colleagues from Greyport, a few drinks in, whispered something they were not supposed to share. *They had the Lrange family killed. Only the daughter was left. Elizandra Legrand.*
+She remembers: at a detective conference years ago, colleagues from Greyport, a few drinks in, whispered something they were not supposed to share. *They had the Legrand family killed. Only the daughter was left. Elizandra Legrand.*
 
 Olivia looks at Lady Viper. She says nothing. She tucks the name away.
 
@@ -180,15 +180,13 @@ Olivia looks at Lady Viper. She says nothing. She tucks the name away.
 
 ### Departure
 
-Victor is sent to his lab. The butler bids them farewell and reminds them to dress better next time. Mr. Slithers coils affectionately around Elspeth's leg on the way out.
-
-As they leave, Elspeth turns to Silas: *"Were you flirting with her? Because that seemed to work in our other meeting."* Silas, already devoted to a different goddess, deflects gracefully.
+Victor, bored, has already wandered off to his lab. Mr. Slithers coils affectionately around Elspeth's leg on the way out, and the butler bids them farewell with the hope that next time they will come appropriately prepared.
 
 ---
 
 ### Communing with Astro
 
-Back at the brownstone, the party assembles. Bru has, unbeknownst to himself, been carrying the dragon orb this entire time — Silas slipped it into his bag during an earlier scheme.
+Back at the brownstone, the party assembles. Silas claims that Bru has been carrying the dragon orb without knowing it — that he slipped it into Bru's bag during his scheme against Helja. He jangles some keys in front of Bru and takes the orb.
 
 The party forms a psychic circle. Olivia casts Bless. Leliana provides bardic inspiration. Elspeth contributes warding bond. Silas grips the orb.
 
@@ -220,6 +218,8 @@ The orb goes quiet. Silas opens his eyes. His nose is bleeding slightly.
 
 > *"We made progress. We made progress."*
 
+Elspeth asks whether he was flirting with her — *"because that seemed to work in our other meeting."* Silas, already devoted to a different goddess, deflects gracefully.
+
 ---
 
 ### Jasper at the Brewery
@@ -240,7 +240,7 @@ They fill him in:
 
 > *"I think we could do that. And hey, we got a bunch of people in town for that race — probably could pull all those visitors in for something like this."*
 
-Jasper will make calls for contacts in Eldoran for when the party arrives. He's relieved to hear they'll have at least a week before heading out. He hands over VIP tickets for tonight's event at the bakery — champagne, the solarium, a proper night out.
+Jasper will make calls for contacts in Eldoran for when the party arrives — at least a hideout. The party stresses, again, that they have at least a week before heading out. He reminds them of the VIP tickets he gave them for tonight's event at the bakery — champagne, the solarium, a proper night out.
 
 > *"When you're ready to put up your boots, I think you'll always have a home here. I'll make sure of it."*
 
@@ -251,8 +251,8 @@ Jasper will make calls for contacts in Eldoran for when the party arrives. He's 
 The party tallies their immediate priorities before leaving for Eldoran:
 
 1. **Luna's congregation** — organize at least one concert, likely using the beer garden and church venue Jasper offered
-2. **Denlin** – the racist orphanage owner who has violescence and has been racing under Elspeth's stolen identity as "Bellith Booper"; heist or race diversion under consideration
-3. **Iron Claws** – still active in Greyport, still a problem; the newspaper conveniently lists their locations
+2. **Denlin** – the racer who owns an orphanage and exploits its children, and who must have violescence; he won't race Elspeth, so a heist — perhaps slipped in during a race — is under consideration. Belspeth Booper, the dwarf racing under Elspeth's stolen identity, is still out there too
+3. **Iron Claws** – still active in Greyport, still a problem
 4. **Rocket ship logistics** – needs violescence, materials, and a plan; likely involves the Eldoran spaceport heist
 5. **Astro dialogue** – Silas will return to the orb before any major decisions about the other dragon orb sites
 

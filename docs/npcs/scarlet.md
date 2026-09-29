@@ -25,14 +25,14 @@ She is not [Red](/player-characters/red) and not [Elspeth](/player-characters/el
 
 Scarlet researched the dimensional side of the project that became the pocket village:
 
-- She and Silas made interdimensional glass spheres for it at the party's van (Session 35). She worked on it with Bru and Elspeth after Arc 2, when it was about half finished (Session 37; the recaps of Sessions 37–38 call the project "the Stellaro").
+- She and Silas made interdimensional glass spheres for it in the party's van, the [Zoomfall](/items/zoomfall) (Session 35). She worked on it with Bru and Elspeth after Arc 2, when it was about half finished (Session 37; the recaps of Sessions 37–38 call the project "the Stellaro").
 - She asked for the reality stones from Red's old Goliath village to stabilise its interior (Session 38).
 - At Iro's workshop in Greyport she ran the first trials in the catalytic chamber (Session 44). After it began forming hills and streams on its own, she calibrated it with [Victor](/npcs/victor)'s instruments and opened it (Session 45).
 - When void beings attacked inside, she held the space together from outside (Session 46). She then locked the door with a key and folded the village into a small capsule that she carries (Session 47).
 
 ## The Time Gun
 
-In the Quizzites' timeline it was Marcus, the scientist there, who built the time gun that destroyed their universe. Because Scarlet holds that role in this world, the party worries she might build one too. Silas raised this in Session 38, and in Session 63 the party agreed to keep steering her away from it.
+The [time gun](/items/time-gun) that destroyed the Quizzites' universe gets built in every timeline by someone: Marcus in one, an alternate Scarlet in another. Because this world's Scarlet is the time-and-space scientist, the party worries she might build one too. Silas raised this in Session 38, and in Session 63 the party agreed to keep steering her away from it.
 
 ## Relationships
 

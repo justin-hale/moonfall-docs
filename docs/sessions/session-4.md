@@ -1,6 +1,6 @@
 ---
 title: "4: Love and Betrayal"
-date: 2024-08-25
+date: 2024-08-24
 description: "Our heroes get an assignment to sabotage some racecars."
 summary: "Our heroes get an assignment to sabotage some racecars."
 featureimage: "https://d2a9bkgsuxmqe2.cloudfront.net/staging/podcast_uploaded_episode400/41448639/41448639-1724609198550-a6f77d20d0c0a.jpg"

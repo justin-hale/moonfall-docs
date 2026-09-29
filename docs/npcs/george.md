@@ -10,7 +10,7 @@ aliases: ["George Cooper", "Georgie Boy"]
 
 ## Overview
 
-**George Cooper** is [Olivia](/player-characters/olivia)'s grandson and the youngest of her grandchildren. He calls her "Grandma", and [Elspeth](/player-characters/elspeth) calls him her cousin. A young [Twilight Company](/organizations/twilight-company) operative, he first drew the party north when he vanished investigating dimensional rifts for Project Purple Patch. They pulled him out of the Shadowfell (Session 16) and later out of an Iron Claws hostage cage in the Great Hall (Session 36). He then volunteered as the Company's inside man in [Eldoran](/locations/eldoran), and as of Session 63 he is embedded in the city guard under cover. He briefed the party on the three sabotage targets for their strike on the city (Sessions 58 and 62) and got out of the barracks after Leliana warned him before the bomb went off. His species has never been stated.
+**George Cooper** is [Olivia](/player-characters/olivia)'s grandson and the youngest of her grandchildren. He calls her "Grandma". [Elspeth](/player-characters/elspeth), another of Olivia's grandchildren, is his cousin. A young [Twilight Company](/organizations/twilight-company) operative, he first drew the party north when he vanished investigating dimensional rifts for Project Purple Patch. They pulled him out of the Shadowfell (Session 16) and later out of an Iron Claws hostage cage in the Great Hall (Session 36). He then volunteered as the Company's inside man in [Eldoran](/locations/eldoran), and as of Session 63 he is embedded in the city guard under cover. He briefed the party on the three sabotage targets for their strike on the city (Sessions 58 and 62) and got out of the barracks after Leliana warned him before the bomb went off. His species has never been stated.
 
 ## Background
 
@@ -21,7 +21,7 @@ aliases: ["George Cooper", "Georgie Boy"]
 ## Relationships
 
 - **[Olivia](/player-characters/olivia):** His grandmother. She broke open a rift with Divine Smite to reach him, and she is torn between pride and fear over his undercover work.
-- **[Elspeth](/player-characters/elspeth):** His cousin.
+- **[Elspeth](/player-characters/elspeth):** His cousin; Olivia is grandmother to them both.
 - **[Silas](/player-characters/silas):** Taught him lockpicking on the climb up Grimvar's Spine and pickpocketed him as a "test", but has little patience for him.
 - **[Finnegan](/npcs/finnegan):** His Twilight Company mentor and contact, who put the party in touch with him in Eldoran.
 - **[Leliana](/player-characters/leliana):** His psychic contact during the Eldoran operation. She warned him to clear the barracks before the bomb went off.

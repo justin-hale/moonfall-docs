@@ -1,6 +1,6 @@
 ---
 title: "7: Escape Highforge"
-date: 2024-09-14
+date: 2024-09-13
 description: "A Dragon Attacks! Our heroes seek to escape highforge!"
 summary: "A Dragon Attacks! Our heroes seek to escape highforge!"
 featureimage: "https://d2a9bkgsuxmqe2.cloudfront.net/staging/podcast_uploaded_episode400/41448639/41448639-1726335771728-06dca69a352f9.jpg"
@@ -12,7 +12,7 @@ podcastlink: "https://creators.spotify.com/pod/show/topher-hooper/episodes/C4-E7
 
 ## Escape From the Race and Into the Fire
 
-The session begins immediately after the conclusion of the race, with the party still in the Vroomfall. Suddenly, explosions are heard from the direction of the Market Ward — possibly indicating a dragon attack. The party, joined by [Elspeth](/player-characters/elspeth) who loads her car into the Vroomfall, quickly debates their escape route from the city.
+The session begins immediately after the conclusion of the race, with the party still in the Zoomfall. Suddenly, explosions are heard from the direction of the Market Ward — possibly indicating a dragon attack. The party, joined by [Elspeth](/player-characters/elspeth) who loads her car into the Zoomfall, quickly debates their escape route from the city.
 
 ## Plotting a Tunnel Escape
 
@@ -49,7 +49,7 @@ The party debates where to hide the orb, almost placing it in the bag of holding
 ## Plans and Disguises
 
 At the aquafarm near the tunnel entrance, they rendezvous with Bo Dega and the Twilight Company crew (Cyrus, Mira, Lanny, Courtney). The party prepares to sneak past the Iron Claws with a multi-layered plan:
-- Paint the Vroomfall to disguise it.
+- Paint the Zoomfall to disguise it.
 - Use disguise kits on the more recognizable members.
 - Hide [Red](/player-characters/red) and [Silas](/player-characters/silas) in the bag of holding (without the orb).
 - Hide [Helisanna](/player-characters/helisanna), [Elspeth](/player-characters/elspeth), and Bru in produce crates.

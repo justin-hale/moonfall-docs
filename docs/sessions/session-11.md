@@ -1,6 +1,6 @@
 ---
 title: "11: You Only Live Once"
-date: 2024-10-19
+date: 2024-10-18
 description: "The party drinks Roscoe’s Everclear and uncovers [Red](/player-characters/red)’s royal past while wolves descend on the town"
 summary: "The party drinks Roscoe’s Everclear and uncovers [Red](/player-characters/red)’s royal past while wolves descend on the town"
 featureimage: "https://d2a9bkgsuxmqe2.cloudfront.net/staging/podcast_uploaded_episode400/41448639/41448639-1729360815024-1c70054943e82.jpg"

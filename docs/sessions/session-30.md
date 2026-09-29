@@ -8,7 +8,7 @@ image: "/img/C4E30.webp"
 podcastlink: "https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4E30-August-22-e377kpp"
 ---
 
-**[🎧 Podcast Link](https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4E30-August-22-e377kpp) • *August 21, 2025***
+**[🎧 Podcast Link](https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4E30-August-22-e377kpp) • *August 22, 2025***
 
 ## Background
 
@@ -24,13 +24,13 @@ The vault team discovers three ancient marble tablets covered in draconic script
 > "When the star worm fell from the void between the worlds, the first dwarven kings captured a knot in the thread of reality in a crystal and shadow. Let none speak its true name, for names have power, and this one's power would crack the world."
 
 **The Second Tablet** details the control mechanism:
-> "They who hold Rangoth hold the sphere of the chain. All who carry dragon's blood must bow to its wielder. Beware, the consciousness of everything endures within."
+> "They who hold Raingoth hold the sphere of the chain. All who carry dragon's blood must bow to its wielder. Beware, the consciousness of everything endures within."
 
 **The Third Tablet** provides the ritual requirements:
-> "When the sleeper wakes, the wielder of Reangoth will be tested. To reinforce the bindings, a ritual at Sony must be performed. Four perfect spheres of pure violescent spinning over seven circles of salt centered over a bowl of blood given freely. Then speak the name of the worm that lies in the threads of reality."
+> "When the sleeper wakes, the wielder of Raingoth will be tested. To reinforce the bindings, a ritual at Sony must be performed. Four perfect spheres of pure violescent spinning over seven circles of salt centered over a bowl of blood given freely. Then speak the name of the worm that lies in the threads of reality."
 
 Additional newer script on the third tablet warns:
-> "Rangoth was taken by thieves. Without the orb, when the dragon fully awakes, we are lost. The sleeper in the stars, the serpent of the world, the god, the dragon of everything. Astroeninoious. To live is to serve. To give is to thrive. To ignore is to suffer. To resist is to die."
+> "Raingoth was taken by thieves. Without the orb, when the dragon fully awakes, we are lost. The sleeper in the stars, the serpent of the world, the god, the dragon of everything. Astroeninoious. To live is to serve. To give is to thrive. To ignore is to suffer. To resist is to die."
 
 ### Captain Corwin's Betrayal
 
@@ -153,7 +153,7 @@ This session demonstrates the party's evolution into a highly effective criminal
 The draconic tablets introduce major campaign implications:
 
 - The existence of **Astroeninoious**, a cosmic dragon entity
-- The **Rangoth orb** as a control mechanism for draconic beings
+- The **Raingoth orb** as a control mechanism for draconic beings
 - The need for a specific ritual to reinforce bindings on cosmic threats
 - Connections to **Greyport** and ancient dwarven sites
 

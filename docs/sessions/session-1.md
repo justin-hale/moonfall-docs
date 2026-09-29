@@ -1,6 +1,6 @@
 ---
 title: "1: Dinner and Nightcap"
-date: 2024-08-05
+date: 2024-08-04
 description: "Beginning of our new campaign, Moonfall. Our \"heroes\" go on a night out into the city of Highforge."
 summary: "Beginning of our new campaign, Moonfall. Our \"heroes\" go on a night out into the city of Highforge."
 featureimage: "https://d2a9bkgsuxmqe2.cloudfront.net/staging/podcast_uploaded_episode400/41448639/41448639-1722888138489-a7a4bde8e442a.jpg"
