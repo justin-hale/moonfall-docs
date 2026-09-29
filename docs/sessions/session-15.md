@@ -1,6 +1,6 @@
 ---
 title: "15: On George's Heels"
-date: 2024-11-23
+date: 2024-11-22
 description: "The party pursues George and the pilgrims up Grimvar's Spine, discovering a corrupted shrine and fighting to restore its protective wards."
 summary: "The party pursues George and the pilgrims up Grimvar's Spine, discovering a corrupted shrine and fighting to restore its protective wards."
 featureimage: "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode400/41448639/41448639-1732396351179-c9e04da0627fb.jpg"

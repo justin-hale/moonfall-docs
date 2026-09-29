@@ -9,7 +9,7 @@ summary: "Taco Cat earns backstage passes to Razlemania, slaps on wrestling pers
 
 ## Setting
 
-Greyport. A massive arena on its own island off the coast, sold out for Razlemania — Gary 365's retirement match after 250 years as the undisputed champion. Not long after the orphanage heist, the party arrives with backstage passes from Iro, Gary's younger brother, as thanks for helping save his shop. By the end of the night, three wrestling factions have brawled across the full card, the arena has been partially detonated, a retired champion has walked home with the crowd's tears at his back, and Crowley has claimed another prize.
+Greyport. A massive arena on its own island off the coast, sold out for Razlemania — Gary's retirement match after 250 years as the undisputed champion. Not long after the orphanage heist, the party arrives with backstage passes from Iro, Gary's younger brother, as thanks for helping save his shop. By the end of the night, three wrestling factions have brawled across the full card, the arena has been partially detonated, a retired champion has walked home with the crowd's tears at his back, and Crowley has claimed another prize.
 
 ---
 
@@ -27,7 +27,7 @@ Greyport. A massive arena on its own island off the coast, sold out for Razleman
 
 ### Razlemania
 
-Iro, who gets backstage passes every year as Gary's younger brother, shared them as a thank-you to the people who helped save his shop. The venue is an island arena off the coast of Greyport, and tonight it is packed — fans in replica championship belts, faux prosthetic arms, Gary-themed merchandise at every turn. Inside the venue, a museum documents Gary 365's 250-year career as undisputed champion: his famous frying pan (used, per the placard, "to bonk demons on the head with divine justice"), replica belts ranging up to a thousand gold pieces, and footage of his only attempted heel run — approximately two seconds before he apologized.
+Iro, who gets backstage passes every year as Gary's younger brother, shared them as a thank-you to the people who helped save his shop. The venue is an island arena off the coast of Greyport, and tonight it is packed — fans in replica championship belts, faux prosthetic arms, Gary-themed merchandise at every turn. Inside the venue, a museum documents Gary's 250-year career as undisputed champion: his famous frying pan (used, per the placard, "to bonk demons on the head with divine justice"), replica belts ranging up to a thousand gold pieces, and footage of his only attempted heel run — approximately two seconds before he apologized.
 
 Olivia rolls History with advantage as a dwarf from High Forge: 17. She places Gary immediately as an icon, roughly equivalent to a major sports franchise. She is personally indifferent in the way someone grows up surrounded by football and never once cares who wins. Leliana, starting from zero, visits a guest-services kiosk and learns the entire sport from scratch. The employee tells her it is "redneck anime."
 
@@ -175,7 +175,7 @@ They lock in combat and vanish through the portal together.
 
 ### Gary Returns from Orbit
 
-Gary 365 streaks back through the atmosphere like a meteorite — beard on fire, clothes burning away, expression of pure determination. His jet boots run dry short of the arena, so he paints a targeting laser from his robot arm to show where he will cross — the assist he needs from Taco Cat — and the shark arrives right on his line.
+Gary streaks back through the atmosphere like a meteorite — beard on fire, clothes burning away, expression of pure determination. His jet boots run dry short of the arena, so he paints a targeting laser from his robot arm to show where he will cross — the assist he needs from Taco Cat — and the shark arrives right on his line.
 
 The extinction impact spear makes contact with the shark. Balthazar's ribs shatter. Gary uses the ring ropes to apply a guillotine grip.
 

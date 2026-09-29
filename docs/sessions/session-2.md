@@ -1,6 +1,6 @@
 ---
 title: "2: A Rock Show And A Briefcase"
-date: 2024-08-09
+date: 2024-08-08
 description: "The party is in the dwarven city of High Forge, a place with strict rules."
 summary: "The party is in the dwarven city of High Forge, a place with strict rules."
 featureimage: "https://d2a9bkgsuxmqe2.cloudfront.net/staging/podcast_uploaded_episode400/41448639/41448639-1723918380058-9f3d300d07063.jpg"

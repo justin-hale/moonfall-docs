@@ -1,6 +1,6 @@
 ---
 title: "21: Trapped In Tree Land"
-date: 2025-01-28
+date: 2025-01-27
 description: "The party helps trapped villagers with their daily problems while uncovering the dark truth behind their astral tree sanctuary."
 summary: "The party helps trapped villagers with their daily problems while uncovering the dark truth behind their astral tree sanctuary."
 featureimage: "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode400/41448639/41448639-1738100355332-e721f18b172cc.jpg"

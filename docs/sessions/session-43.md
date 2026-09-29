@@ -94,7 +94,7 @@ The verdict: incredible. Like the most perfectly marbled wagyu steak, melting on
 
 As they approach, the DM hands description duties back to the players—this is their city, their world, their zoo. The party collaboratively constructs it.
 
-**The Entrance:** A massive bronze statue anchors the gates—Dane (Ellis Taylor's previous ranger character, who founded the park with Lady Legrand's private animal collection as its first residents) and Steve the wolf standing heroically, eyes fixed on some distant horizon. Smaller animals cavort around their feet: squirrels climbing Steve's leg, bunnies in mid-prance. The statue is surrounded by a splash fountain where children play. Patina has begun to form around the base where the water splashes.
+**The Entrance:** A massive bronze statue anchors the gates—Dane (Ellis Taylor's previous ranger character, who founded the park with Lady Legrand's (grandmother of [Lady Viper](/npcs/lady-viper)) private animal collection as its first residents) and Steve the wolf standing heroically, eyes fixed on some distant horizon. Smaller animals cavort around their feet: squirrels climbing Steve's leg, bunnies in mid-prance. The statue is surrounded by a splash fountain where children play. Patina has begun to form around the base where the water splashes.
 
 **The Owl Bear Exhibit:** The main attraction, drawing the largest crowds. A family of owl bears—matriarch, patriarch, and two juveniles—interact directly with visitors in an enrichment-focused, deeply spacious pit enclosure with elevated boardwalks above.
 
@@ -140,31 +140,31 @@ The owl bears, apparently, can talk. This surprises [Bru](/player-characters/bru
 
 ## Tracking Victor
 
-### Trevor in the Security Office
+### Travis in the Security Office
 
-The security office contains two guards: one standing at rigid attention like a Buckingham Palace sentry, and one asleep in a rocking chair. The standing guard introduces himself as **Trevor**.
+The security office contains two guards: one standing at rigid attention like a Buckingham Palace sentry, and one asleep in a rocking chair. The standing guard introduces himself as **Travis**.
 
-Trevor confirms that security escorted [Victor](/npcs/victor) out after the gun incident, and that he is allowed to return without firearms. He also turns out to have a complicated relationship with Victor.
+Travis confirms that security escorted [Victor](/npcs/victor) out after the gun incident, and that he is allowed to return without firearms. He also turns out to have a complicated relationship with Victor.
 
-He explains that for the first three days after the gun incident, he monitored [Victor](/npcs/victor)'s movements as a matter of professional diligence. [Victor](/npcs/victor) arrives every morning at 9:00 AM with a croissant and stays for approximately three hours: about two hours on a bench at the chimera enclosure, then a hot dog in the food court for 45 minutes—during which Trevor sat across from him to match his pace, bite for bite.
+He explains that for the first three days after the gun incident, he monitored [Victor](/npcs/victor)'s movements as a matter of professional diligence. [Victor](/npcs/victor) arrives every morning at 9:00 AM with a croissant and stays for approximately three hours: about two hours on a bench at the chimera enclosure, then a hot dog in the food court for 45 minutes—during which Travis sat across from him to match his pace, bite for bite.
 
 > **[Bru](/player-characters/bru):** "Do you make eye contact with him the whole time?"
 
-> **Trevor:** "Yes, while I eat my hot dog as well. I tried to match his speed. It is excruciatingly slow."
+> **Travis:** "Yes, while I eat my hot dog as well. I tried to match his speed. It is excruciatingly slow."
 
 > **[Bru](/player-characters/bru):** "So you make eye contact and you chew and swallow at the same time for 45 minutes."
 
 > **[Silas](/player-characters/silas):** "That does sound like a pretty intimate encounter you guys are having."
 
-> **Trevor:** "On the third day, I truly understood him. I was ready to apprehend him as a criminal within the park."
+> **Travis:** "On the third day, I truly understood him. I was ready to apprehend him as a criminal within the park."
 
-His supervisors eventually told him to stop stalking the guests. Trevor nonetheless suspects that [Victor](/npcs/victor) has found a way to infiltrate the inner workings of the zoo through the chimera exhibit, where he always seems to disappear.
+His supervisors eventually told him to stop stalking the guests. Travis nonetheless suspects that [Victor](/npcs/victor) has found a way to infiltrate the inner workings of the zoo through the chimera exhibit, where he always seems to disappear.
 
 It is currently 1:30 PM. The party has missed him for the day.
 
-As the party leaves the security office, they hear Trevor's supervisor yanking him back inside:
+As the party leaves the security office, they hear Travis's supervisor yanking him back inside:
 
-> **Supervisor:** "Trevor, get the hell back in here. What are you doing? You talking to people again? I told you not to do that anymore. All right, get your ass back in here."
+> **Supervisor:** "Travis, get the hell back in here. What are you doing? You talking to people again? I told you not to do that anymore. All right, get your ass back in here."
 
 ## The Chimera Exhibit: Fufu Cuddly Poops
 
@@ -357,7 +357,7 @@ They have a safe place to sleep. [Victor](/npcs/victor) will be back at 12:30 to
 
 > **[Silas](/player-characters/silas):** "We go find Victor, use his sending stone—and by use, I mean take it, so we don't have to talk to Victor anymore."
 
-> **Trevor:** "On the third day, I truly understood him. I was ready to apprehend him as a criminal within the park." *(on his surveillance of Victor)*
+> **Travis:** "On the third day, I truly understood him. I was ready to apprehend him as a criminal within the park." *(on his surveillance of Victor)*
 
 > **[Bru](/player-characters/bru):** "So you make eye contact and you chew and swallow at the same time for 45 minutes."
 

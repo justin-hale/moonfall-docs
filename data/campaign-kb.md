@@ -67,7 +67,7 @@ Luke Neverisky plays **one woman with two personas**. Write about them this way:
 | Lord Bradicus | Arms-dynasty heir who ran the televised mercenary death-game (Sessions 54–58) | lord-bradicus.md | |
 | Belspeth Booper | Elspeth's impostor ("the Other Cooper"), a racing double — NOT her sister | belspeth-booper.md | |
 | Crowley | Fae antagonist; took Gary (Session 51) | crowley.md | |
-| Gary | Wrestling champion ("Gary 365"), Iro's brother, held by Crowley | gary.md | |
+| Gary | Wrestling champion, Iro's brother, held by Crowley. Not "Gary 365" (Session 51's guest DM: nobody said the number) | gary.md | |
 | Toothy | Twilight Company safehouse keeper in the Eldoran capital (room 238) | toothy.md | |
 | Cassandra | Eldoran spaceport factory worker and Elspeth's friend (Sessions 60, 62) | cassandra.md | |
 | Elder Ragar | Goliath elder, Skyhammer Clan leader | elder-ragar.md | |
@@ -110,6 +110,10 @@ Answers from the DM to open questions. They override recaps and earlier wiki tex
 | Session 59's "— P.A." note in Vellum's voice | Leave as is |
 | Raingoth | Spelled Raingoth; **Silas carries it, and brought it into the Eldoran capital** |
 | Companions (BoxBox, Kevin, Bob, Pepsi) | Stay on the PC pages; no separate pages |
+| Session dates, 2024 recaps (Sessions 1–18, 20, 21) | The Friday header dates are right; `date:` was a day late and is corrected |
+| Greyport zoo guard | **Travis** (not Trevor, Session 43) |
+| Gary | Just **Gary** — no "365" |
+| Lady Legrand (Session 43) | Founded the zoo's collection; she is **Lady Viper's grandmother** (Elizandra Legrand is her granddaughter) |
 
 ## Known Transcription Errors
 

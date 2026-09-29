@@ -1,6 +1,6 @@
 ---
 title: "20: Trials of the W****M Hole"
-date: 2025-01-11
+date: 2025-01-10
 description: "The Taco Cat crew ventures into the mysterious wormhole for [Red](/player-characters/red)'s Skyhammer trials, solving ancient puzzles and meeting a star-touched dragon before descending into the chaotic village of Lakeshore Vale."
 summary: "The Taco Cat crew ventures into the mysterious wormhole for [Red](/player-characters/red)'s Skyhammer trials, solving ancient puzzles and meeting a star-touched dragon before descending into the chaotic village of Lakeshore Vale."
 featureimage: "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode400/41448639/41448639-1736613509472-2f2825544348a.jpg"

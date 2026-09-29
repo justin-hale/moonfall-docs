@@ -1,7 +1,6 @@
 ---
 title: Gary
-description: Gary 365, Iro's brother and wrestling's undisputed champion for 250 years, who retired at Razlemania in Session 51 and was then lured away by Crowley
-aliases: ["Gary 365"]
+description: Gary, Iro's brother and wrestling's undisputed champion for 250 years, who retired at Razlemania in Session 51 and was then lured away by Crowley
 ---
 
 # Gary
@@ -10,7 +9,7 @@ aliases: ["Gary 365"]
 
 ## Overview
 
-**Gary 365** is a professional wrestler, the son of Fluke of the Steve Squad and the brother of [Iro](/npcs/iro). He was undisputed champion for 250 years. He retired at Razlemania in [Greyport](/locations/greyport) in Session 51, after the party helped save the event from a demon faction. That same night [Crowley](/npcs/crowley) lured him through a portal, and he has not been seen since.
+**Gary** is a professional wrestler, the son of Fluke of the Steve Squad and the brother of [Iro](/npcs/iro). He was undisputed champion for 250 years. He retired at Razlemania in [Greyport](/locations/greyport) in Session 51, after the party helped save the event from a demon faction. That same night [Crowley](/npcs/crowley) lured him through a portal, and he has not been seen since.
 
 ## Background
 

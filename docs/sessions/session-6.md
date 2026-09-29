@@ -1,6 +1,6 @@
 ---
 title: "6: Highforge Sprint"
-date: 2024-09-07
+date: 2024-09-06
 description: "Our heroes race the Highforge Sprint!"
 summary: "Our heroes race the Highforge Sprint!"
 featureimage: "https://d2a9bkgsuxmqe2.cloudfront.net/staging/podcast_uploaded_episode400/41448639/41448639-1725735250244-b9d6f23e3a787.jpg"

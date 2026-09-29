@@ -1,6 +1,6 @@
 ---
 title: "Winter Solstice Special"
-date: 2024-12-21
+date: 2024-12-20
 description: "The party returns to Milstrom for winter solstice festivities, only to face an evil doppelganger threatening their celebration."
 summary: "The party returns to Milstrom for winter solstice festivities, only to face an evil doppelganger threatening their celebration."
 featureimage: "https://d2a9bkgsuxmqe2.cloudfront.net/staging/podcast_uploaded_episode400/41448639/41448639-1734812230188-0627c2c8075f8.jpg"

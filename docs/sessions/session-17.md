@@ -1,6 +1,6 @@
 ---
 title: "17: The Skyhammers"
-date: 2024-12-14
+date: 2024-12-13
 description: "The party reaches [Red](/player-characters/red)'s ancestral clan and discovers advanced technology, but [Red](/player-characters/red) must prove his lineage through dangerous trials."
 summary: "The party reaches [Red](/player-characters/red)'s ancestral clan and discovers advanced technology, but [Red](/player-characters/red) must prove his lineage through dangerous trials."
 featureimage: "https://d2a9bkgsuxmqe2.cloudfront.net/staging/podcast_uploaded_episode400/41448639/41448639-1734206819666-7ef380cd7d28e.jpg"

@@ -1,6 +1,6 @@
 ---
 title: "8: Caravan Nights"
-date: 2024-10-03
+date: 2024-10-02
 description: "Tacocats take a moment to meet caravan folks."
 summary: "Tacocats take a moment to meet caravan folks."
 featureimage: "https://d2a9bkgsuxmqe2.cloudfront.net/staging/podcast_uploaded_episode400/41448639/41448639-1727985336183-69d761febf22c.jpg"

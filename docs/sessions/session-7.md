@@ -1,6 +1,6 @@
 ---
 title: "7: Escape Highforge"
-date: 2024-09-14
+date: 2024-09-13
 description: "A Dragon Attacks! Our heroes seek to escape highforge!"
 summary: "A Dragon Attacks! Our heroes seek to escape highforge!"
 featureimage: "https://d2a9bkgsuxmqe2.cloudfront.net/staging/podcast_uploaded_episode400/41448639/41448639-1726335771728-06dca69a352f9.jpg"

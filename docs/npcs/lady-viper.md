@@ -27,6 +27,8 @@ She told the party she had been due to attend a ball the night her family was ki
 
 In [Session 47](/sessions/session-47), [Olivia](/player-characters/olivia) rolled a natural 20 on a history check and remembered something from a detectives' conference years earlier. Some Greyport colleagues, after a few drinks, had whispered that "they" had the Legrand family killed and that only the daughter, **Elizandra Legrand**, survived. Olivia has not told Lady Viper that she knows. (The transcript garbles the name as "Lrange"/"Alexandra Lrron"; the spelling here follows the knowledge base.)
 
+Her grandmother, **Lady Legrand**, owned the private animal collection that Dane used to found the Greyport zoo ([Session 43](/sessions/session-43)).
+
 Her name first came up in [Session 3](/sessions/session-3), when the Twilight Company told Olivia that [Finnegan](/npcs/finnegan) was on a mission and meeting "someone called Lady Viper."
 
 ## Aims and Methods
