@@ -1,458 +1,63 @@
 ---
 title: Eldoran
-description: Capital of the Eldoran Empire
-sidebar_position: 6
+description: Capital city of the Eldoran Empire, built across two facing cliffs; bombed at three sites by the party in Session 63
+aliases: ["Eldoran capital", "Eldora's capital"]
 ---
 
 # Eldoran
 
-*Imperial Capital • Technological Hub • Authoritarian City*
+*Imperial Capital • City of the Five Crystals • Target of the Three-Site Strike*
 
 ## Overview
 
-**Eldoran** is the capital city of the [Eldoran Empire](/organizations/eldoran-empire), a technologically advanced metropolis ruled by the ascended goddess Eldora. Known for its military might, crystal-embedded technology, and the artificial moon created upon Eldora's ascension, Eldoran represents both cutting-edge advancement and authoritarian control.
+**Eldoran** is the capital city of the [Eldoran Empire](/organizations/eldoran-empire) and the seat of the goddess Eldora's faith. Lady Viper called it one of the most heavily defended cities in the world, watched by soldiers who can detect magic on sight. The party reached it in [Session 57](/sessions/session-57) and spent Sessions 58–63 inside it under cover, preparing a coordinated sabotage strike for the [Twilight Company](/organizations/twilight-company).
 
-## Geography
+As of Session 63, bombs have gone off at three sites across the city — the [Spaceport Factory](/locations/spaceport-factory), the [barracks](/locations/eldoran-barracks) and the university [Research Tower](/locations/research-tower). The Research Tower collapsed onto the city wall, [Bru](/player-characters/bru) had already stolen the miniature sun that powered the factory furnace, and the party was on the point of escaping the city.
 
-### Location
-- Capital of Eldoran Empire
-- Connected to other cities via [Gold Road](/locations/gold-road)
-- Major regional power center
-- Strategic position for imperial control
+## The City
 
-### The Artificial Moon
-**Celestial Feature** (Session 14):
-- Second moon is manufactured satellite
-- Created when Eldora ascended to godhood
-- Visible demonstration of technological/magical supremacy
-- Symbol of imperial power
-- Orbits above capital
+- **Setting:** The capital is carved into two facing cliffsides and built out across the top, reached by riding an elevator up from the valley floor (Session 55).
+- **Technology:** Hovercraft, drones, glowing lamp posts, shape-shifting fabrics and citizens with red-glowing cybernetic eyes; a space shuttle launches from the harbor (Session 57).
+- **Power:** Five giant floating crystals of iridescence hang over the city in a pentagon, one of them at the spaceport, beaming purple energy down to pylons across the city. Elspeth marked them as sabotage targets on arrival (Session 57).
+- **Society:** The inner ring is affluent and mostly human. The outer worker rings are more diverse — dwarves run shops, while halflings, gnomes and orcs work as labor — but goblins are absent from every work crew (Session 57).
+- **Faith:** There is "no god but Eldora"; the artificers' god Tony is followed here only as a philosophy (Session 60).
+- **Districts:** Named areas include the Tumble Downs, the Beaded Alley, the Crescent and the Guilded Esplanade (Session 58).
+- **Transit:** The barracks installed luminous "light lanes" for vehicles in January (Session 62); the road into the barracks is a glowing blue levitation platform.
 
-### Space Station
-**Orbital Presence** (Session 14):
-- Space station near Eldoran's moon
-- Advanced space-faring capability
-- Purpose unclear (monitoring? weapons? research?)
-- Far beyond other nations' technology
-- Strategic dominance from orbit
+## Security
 
-## Government and Leadership
+Lady Viper warned the party that the capital is riddled with mechanisms that detect magic weapons, magic items and spellcasters themselves, and that casters of the party's power could only enter under the sponsorship of an aristocrat ([Session 54](/sessions/session-54)). Soldiers wear laser-scanning magic-detection helmets and search civilians with them, as at the Sexy Peacock (Session 58); in the Beaded Alley, white-armored soldiers tally magical purchases shop by shop (Session 60).
 
-### Divine Rule
-**Eldora - The Ascended Goddess**:
-- Achieved divinity (method unclear)
-- Rules through divine authority
-- Created artificial moon upon ascension
-- Divine right justification
-- Technological deity
+The party hid its weapons and magic items in the portable hole Silas carries, and later masked items with magic-dampening "Tony stickers" that Elspeth took from [Fredo Boggins](/npcs/fredo-boggins)'s shop (Session 60).
 
-### Administrative Structure
-**Imperial Government**:
-- Hierarchical military organization
-- Centralized authority from capital
-- Bureaucratic administration
-- Strict law enforcement
-- Expansionist policies
+## Places in the Capital
 
-## Technology and Magic
+- **[Little Cradle](/locations/little-cradle)** — The trader town just outside the city, where the party met [Finnegan](/npcs/finnegan).
+- **The Bradicus estate** — Seat of [Lord Bradicus](/npcs/lord-bradicus), a spiral of stonework built into the rock behind a brick wall, under an arcane dome that blocks flight and throws back anything lobbed over it. Bradicus is an independent state, a contested matter between it and the Empire (Session 55).
+- **The park** — Where the World Tree the party planted in the Dead Forest burst up into the city (Session 57). By Session 63 it had grown to fifty or sixty feet. Cassandra's lakeside birthday party was held in the park (Session 62).
+- **[The Sexy Peacock](/locations/sexy-peacock)** — Family inn and eatery where soldiers gather after their shifts; the party's meeting place with [George](/npcs/george).
+- **Toothy's apartment** — Room 238 of an apartment building on the western hill, beside an old church turned community center, overlooking the barracks, the spaceport and the Guilded Esplanade. [Toothy](/npcs/toothy) keeps it as a Twilight Company safehouse (Session 58).
+- **The spaceport** — A harbor of floating platforms where rocket ships, barges, fighters and aircraft land (Session 59), home to the **[Spaceport Factory](/locations/spaceport-factory)**.
+- **The Hairy Monkey** — A restaurant run by a perpetually high proprietor named Harry and staffed by a sentient, very strong monkey (Session 59).
+- **The Beaded Alley** — A marketplace where Fredo Boggins keeps an artificer's shop bearing Tony's icon (Session 60).
+- **The university** — A campus of three research towers ([Research Tower](/locations/research-tower)).
+- **[The barracks](/locations/eldoran-barracks)** — A walled compound several city blocks across, with a concert hall used for ascension rituals.
 
-### Crystal Technology
-**Advanced Equipment**:
-- Crystal-embedded weapons and armor
-- Magical enhancement integration
-- Superior to most other nations' gear
-- Mass production capability
-- Technological edge
+## The Party in the Capital
 
-### Space-Faring Capability
-**Unique Advancement**:
-- Space station construction
-- Artificial moon creation
-- Orbital presence established
-- Beyond current realm's technology
-- Strategic and symbolic superiority
+The capital had been a distant destination since [Session 1](/sessions/session-1), when Dirk offered the party a caravan job along the [Gold Road](/locations/gold-road) to Eldoran. In Session 47 [Lady Viper](/npcs/lady-viper) laid out her plan to strike the Empire, including destroying the spaceport in Eldoran's harbor.
 
-### Military Technology
-**Weapon Systems**:
-- Eldoran Knights' glowing armor
-- Advanced combat equipment
-- Crystal-powered enhancements
-- Intimidation through visual display
-- Functional superiority
+The party's first way in — winning Lord Bradicus's televised mercenary audition as the fake company "Pupusa Possum" — collapsed when the contest's library dragged them into a hidden gateway. They entered the city instead by climbing the World Tree up through its park (Session 57). [Leliana](/player-characters/leliana) is Eldoran-born, from the back-country outside the capital (Sessions 54 and 56).
 
-## Military Presence
+George, embedded in the city guard for the Twilight Company, gave the party three targets: a factory at the spaceport, a research facility at the university where [Captain Steel](/npcs/captain-steel) was stationed, and the barracks (Session 58). The party scouted all three through Sessions 59–62, agreed that all three had to go up at once, and detonated them together in Session 63. Across the operation Elspeth made real friends among the factory workers, which the party never fully reconciled with the mission.
 
-### Eldoran Knights
-**Elite Force**:
-- Bright glowing figures
-- Crystal-embedded armor
-- Patrol Gold Road and territories
-- Intimidating and powerful
-- Symbol of imperial authority
+## Session History
 
-### Training Facilities
-**Jasper's Background**:
-- Military training within city
-- Soldier development programs
-- Discipline and hierarchy
-- Expected service for citizens
-- Professional warrior class
-
-## Culture and Society
-
-### Militaristic Values
-**Social Structure**:
-- Military service expected or honored
-- Strict hierarchy and discipline
-- Order and control emphasized
-- Individual freedom limited
-- Expansion justified by superiority
-
-### Technological Pride
-**Innovation Culture**:
-- Advanced equipment as cultural value
-- Space exploration capability
-- Crystal technology integration
-- Superiority complex over other nations
-- Progress through technology
-
-### Authoritarian Control
-**Social Order**:
-- Divine authority through Eldora
-- Military enforcement everywhere
-- Surveillance and monitoring
-- Limited dissent tolerance
-- Conformity expected
-
-## Notable Citizens
-
-### Jasper Gaines (Former Resident)
-**Departed Soldier** (Session 24):
-- Grew up and trained in Eldoran
-- Deserted military service
-- Joined Taco Cat adventures
-- Returned home for mental health (Session 24)
-- Left VIP tickets for party
-- Fate regarding desertion unknown
-
-### Eric (Deceased)
-**Eldoran Knight**:
-- Witnessed Jasper's desertion
-- Pursued or confronted him
-- Killed by party
-- Had advanced crystal-embedded equipment
-- Only witness to desertion crime
-
-## Economic Power
-
-### Trade Hub
-**Commercial Center**:
-- Major trade destination
-- Gold Road connections
-- Imperial wealth concentration
-- Economic dominance
-- Market for advanced goods
-
-### Black Market Shadow
-**Illegal Trade** (Session 25):
-- Violessence (V) smuggled from High Forge to Eldoran
-- Lucrative illegal market
-- Imperial involvement unclear
-- Demand for restricted substances
-- Criminal enterprise opportunity
-
-## Strategic Interests
-
-### Regional Expansion
-**Imperial Goals**:
-- Control of neighboring territories
-- Strategic alliances (Lady Corwin in High Forge)
-- Trade route dominance (Gold Road)
-- Elimination of threats (Skyhammer clan)
-- Ideological spread (Eldora worship)
-
-### High Forge Connections
-**Manipulation and Interest**:
-- Lady Corwin's secret imperial ties
-- Captain Corwin's presence
-- Strategic interest in city
-- Potential annexation plans
-- Using chaos for advantage
-
-### Skyhammer Clan Threat
-**Active Pursuit**:
-- Wants Red/Thurnok Skyhammer eliminated
-- Reasons unclear but persistent
-- Arranged or conducted Marion/Robert murders
-- Ongoing hunt for Skyhammer prince
-- Fear of ancient bloodline power
-
-## Districts and Areas
-
-### Military Quarter (Implied)
-**Training and Barracks**:
-- Soldier training facilities
-- Knight headquarters
-- Weapon and armor production
-- Military administration
-- Strategic planning centers
-
-### Government District
-**Imperial Administration**:
-- Palace or central authority building
-- Eldora's seat of power (divine residence?)
-- Bureaucratic offices
-- Law enforcement headquarters
-- Imperial decision-making center
-
-### Technology Centers
-**Research and Production**:
-- Crystal technology development
-- Space program facilities
-- Advanced weapons research
-- Innovation hubs
-- Scientific advancement
-
-## Relationship with Other Nations
-
-### High Forge
-**Strategic Interest**:
-- Lady Corwin infiltration
-- Economic ties (V smuggling)
-- Potential annexation target
-- Monitoring and manipulation
-- Power vacuum opportunity
-
-### Skyhammer Clan
-**Active Threat Elimination**:
-- Hunt for Red/Thurnok
-- Marion and Robert Cross murders
-- Fear of starship technology
-- Bloodline power concern
-- Prophecy or strategic threat
-
-### Other Cities
-**Imperial Expansion**:
-- Gradual control extension
-- Checkpoint systems on roads
-- Economic integration
-- Military intimidation
-- Cultural influence spread
-
-## Checkpoints and Control
-
-### Gold Road Patrols
-**Travel Monitoring**:
-- Knights questioning travelers
-- Brooches for intelligence gathering
-- Warnings about problem areas
-- Controlled movement
-- Authority demonstration
-
-### Border Control
-**Territory Management**:
-- Strategic checkpoint placement
-- Immigration and trade control
-- Security screening
-- Intelligence collection
-- Population monitoring
-
-## The VIP Tickets (Session 24)
-
-### Jasper's Gesture
-**Access to Eldoran**:
-- Left tickets for Taco Cat party
-- Invitation or safe passage?
-- Access to events or locations
-- Potential meeting with Jasper
-- Complicated by party's crimes
-
-### Party's Dilemma
-**Visiting Eldoran**:
-- Killed Eldoran Knight (Eric)
-- Jasper's desertion connection
-- Wanted status in High Forge
-- Imperial scrutiny risk
-- Opportunity vs. danger
-
-## Current Status (Post-Session 36)
-
-### Ongoing Imperial Power
-**Unchanged Authority**:
-- Iron Claws defeat doesn't affect Eldoran
-- Imperial expansion continuing
-- Military strength undiminished
-- High Forge power vacuum opportunity
-- Strategic position maintained
-
-### Party Relations
-**Increasingly Hostile**:
-- Killed imperial knight
-- Connection to deserter (Jasper)
-- Wanted criminals
-- Opposition to imperial interests
-- Future conflict likely
-
-## Threats from Eldoran
-
-### To Taco Cat
-**Personal Dangers**:
-- Eric's death may require answer
-- Jasper's desertion connection
-- Imperial investigation possible
-- Visit to capital risky
-- Long-term antagonist
-
-### To Regional Stability
-**Expansion Agenda**:
-- High Forge annexation possible
-- Strategic manipulation continuing
-- Military intervention potential
-- Economic control tightening
-- Ideological conquest
-
-## Technological Wonders
-
-### The Artificial Moon
-**Engineering Marvel**:
-- Created upon Eldora's ascension
-- Visible from great distances
-- Symbol of divine/technological power
-- Practical functions unclear
-- Propaganda value immense
-
-### Space Station
-**Orbital Facility**:
-- Advanced construction capability
-- Space-based operations
-- Monitoring or weapons platform?
-- Research facility?
-- Unprecedented achievement
-
-### Crystal Integration
-**Widespread Technology**:
-- Weapons and armor enhancement
-- Magical energy channeling
-- Superior combat effectiveness
-- Mass production achieved
-- Technological advantage maintained
-
-## Social Structure
-
-### Upper Classes
-**Elite and Nobility**:
-- Military leadership
-- Government administrators
-- Wealthy merchants
-- Technological innovators
-- Divine favor privileged
-
-### Military Class
-**Soldiers and Knights**:
-- Professional warriors
-- Eldoran Knights elite
-- Regular soldiers numerous
-- Social honor through service
-- Advancement through military
-
-### Working Classes
-**Common Citizens**:
-- Support imperial infrastructure
-- Limited freedoms
-- Mandatory loyalty
-- Benefit from technological progress
-- Subject to authoritarian control
-
-## Cultural Identity
-
-### Imperial Pride
-**Superiority Complex**:
-- Advanced technology as validation
-- Divine leadership justification
-- Expansionism as civilizing mission
-- Order vs. chaos narrative
-- Destined for dominance
-
-### Order and Discipline
-**Social Values**:
-- Military precision expected
-- Hierarchy respected
-- Individual conformity
-- Collective over personal
-- Strength through unity
-
-## Significance
-
-### To Campaign
-**Major Antagonist Base**:
-- Home of imperial threat
-- Source of long-term opposition
-- Technological superiority challenge
-- Political complexity
-- Future confrontation site
-
-### As World Power
-**Regional Dominance**:
-- Strongest military force
-- Technological superiority
-- Economic powerhouse
-- Strategic control
-- Expansion continuing
-
-### To Themes
-- **Authoritarianism**: Control vs. freedom
-- **Technology**: Progress at what cost?
-- **Divine Authority**: Religious justification for power
-- **Imperialism**: Expansion and conquest
-- **Order vs. Chaos**: Imperial perspective
-
-## Future Implications
-
-### Potential Storylines
-**Party Involvement**:
-- Visiting using VIP tickets
-- Rescuing or meeting Jasper
-- Confronting imperial authority
-- Investigating space station
-- Dealing with desertion/murder consequences
-
-**Regional Conflict**:
-- High Forge annexation attempt
-- Skyhammer clan confrontation
-- Military expansion
-- Technological threats
-- Imperial overreach
-
-## Related Characters
-- [Jasper Gaines](/player-characters/jasper) - Native son, deserter, returned home
-- [Red/Thurnok Skyhammer](/player-characters/red) - Hunted by empire
-- **Eldora** - Ascended goddess ruler
-- **Eric** - Knight killed by party (deceased)
-- **Eldoran Knights** - Military elite from capital
-
-## Related Organizations
-- [Eldoran Empire](/organizations/eldoran-empire) - Based here
-- [Skyhammer Clan](/organizations/skyhammer-clan) - Empire's target
-- [Twilight Company](/organizations/twilight-company) - Opposition
-- [Taco Cat](/organizations/taco-cat) - Increasingly hostile relations
-
-## Related Locations
-- [Gold Road](/locations/gold-road) - Highway to capital
-- [High Forge](/locations/high-forge) - Strategic interest
-- [Grimvar's Spine](/locations/grimvars-spine) - Skyhammer clan home (target)
-- **Artificial Moon** - Orbital above city
-- **Space Station** - Near moon
-
-## Key Sessions
-- **Session 1**: Gold Road to Eldoran mentioned
-- **Session 10**: Eldoran Knights checkpoint
-- **Session 14**: Artificial moon and space station mentioned
-- **Session 24**: Jasper returns, leaves VIP tickets
-
----
-
-*"Eldoran is the future. Order, progress, strength. The rest of the realm lives in the past."* - Imperial propaganda
-
-*"When Eldora ascended, she created a second moon. A manufactured satellite orbiting above her capital. That's the kind of power we're dealing with."* - Campaign briefing, Session 14
-
-*"The Empire offers order. Some call it oppression. In Eldoran, they call it civilization."* - Observation on imperial culture
+- **[Session 55](/sessions/session-55)** — The party rides a caravan up to the capital, built into two facing cliffs and reached by elevator, and enters the Bradicus estate for Lord Bradicus's audition.
+- **[Session 57](/sessions/session-57)** — The World Tree carries the party up through a park into the capital, where they see its five floating power crystals and its ringed districts, disguise themselves, and head for the Sexy Peacock.
+- **[Session 58](/sessions/session-58)** — George gives the party three sabotage targets at the Sexy Peacock while soldiers with magic-detecting helmets search the diners, and the party settles into Toothy's safehouse on the western hill.
+- **[Session 59](/sessions/session-59)** — The party gets its first view of the spaceport, meets its inside man through Ben Boulage at the Hairy Monkey, and infiltrates the spaceport factory.
+- **[Session 60](/sessions/session-60)** — Elspeth shops the Beaded Alley under patrol and takes dampening stickers, the party confirms the factory furnace is a power core, and scouts the barracks by night.
+- **[Session 61](/sessions/session-61)** — The party watches an ascension ritual inside the barracks and breaches a university research tower to learn the harmonic science behind the Empire's power.
+- **[Session 62](/sessions/session-62)** — Leliana arms a bomb in the barracks auditorium, Elspeth gathers intelligence from Fredo Boggins, and Silas steals a scientist's lab coat and passcode at a lakeside party in the park.
+- **[Session 63](/sessions/session-63)** — Bru steals the star from the factory furnace, the party evacuates and bombs the research tower, and explosions go off at three sites across the city as the tower falls onto the city wall.

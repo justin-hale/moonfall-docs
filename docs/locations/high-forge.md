@@ -1,480 +1,72 @@
 ---
 title: High Forge
-description: The campaign's primary city setting
-sidebar_position: 1
+description: Dwarven mountain city where the campaign began; freed from Iron Claws rule in Sessions 36–37 and now governed by Chalk Rock and Grimjaw
+aliases: ["Highforge"]
 ---
 
 # High Forge
 
-*Industrial City • Campaign Hub • City in Crisis*
+*Dwarven Mountain City • Where the Campaign Began • Liberated from the Iron Claws*
 
 ## Overview
 
-**High Forge** is the primary city setting for the Moonfall Sessions campaign, a sprawling industrial metropolis plagued by organized crime, supernatural threats, and political instability. Home to thousands of citizens, an extensive underground tunnel network, and the site of most major campaign events, High Forge serves as the party's base of operations and the center of ongoing conflicts.
+**High Forge** is a dwarven city built into a mountain, where the campaign began and where [Olivia](/player-characters/olivia) served as a detective before she retired. The party fled it during the dragon attack of Sessions 6–7, and returned in Session 25 to find it ruled by [Helja Ungar](/npcs/helja-ungar)'s [Iron Claws](/organizations/iron-claws) under the dragons. Working with the [Resistance](/organizations/resistance), the ravers and eventually the dragons themselves, the party broke the Iron Claws in Sessions 36–37: Silas and Bru killed Helja in her Forge Heart throne room, and Silas used the dragon orb to send the besieging dragons away.
 
-## Geography
+When the party left for Greyport in Session 38, the city was being rebuilt under [Chalk Rock](/npcs/chalk-rock) and a softening Grimjaw, Helja's former lieutenant. [Helisanna](/player-characters/helisanna) was last reported riding a black dragon in the city's blocked-off depths (Session 37), and the ravers she led were sent back to High Forge from the Lotus Casino in Interlude XII.
 
-### Location
-- Major city in the realm
-- Connected to other cities via Gold Road
-- Two-and-a-half days from Grimvar's Spine mountain
-- Access to water sources (lake, underground water)
-- Strategic position for trade and travel
+## The City
 
-### City Layout
+- **The Market Ward** — Where foreigners are allowed without paperwork or a sponsor: inns, traders, bars, music venues and the underground racing scene, including the Cog and Steam tavern and the [Little Hovel](/locations/little-hovel) (Sessions 1–2).
+- **The residential halls** — Closed to visitors without papers (Session 2). Olivia's apartment opens off the [Great Hall](/locations/great-hall).
+- **The Great Hall and the Forge Heart** — The Great Hall runs from the city gate to the [Forge Heart](/organizations/forge-heart), an ancient magma-forged anvil temple where Doomfall played its big concert (Session 5) and where Helja later kept her throne room (Session 36).
+- **The Cathedral of Tyr** — Doubles as the city's courthouse and jail (Session 3).
+- **The royal vaults** — A thousand-year-old gold-plated hall of numbered vaults, including Vault 7, robbed by the party in Sessions 28–30.
+- **The Under Lake** — The underground lake district, where the ravers gathered and partied (Sessions 23, 26–27, 35).
+- **Tunnels and mines** — Old royal tunnels and mining routes run under and out of the city; the Iron Claws controlled and taxed them (Sessions 7, 23, 26). City maps also show a once-hidden elevator running to the top of the mountain (Session 35).
+- **Red Brook** — A training village outside the city that grew, after the liberation, into a bustling market town where many evacuees settled (Sessions 37–38).
 
-**Surface Level**:
-- Entertainment district (Lotus Casino)
-- Industrial areas (forges, factories)
-- Residential neighborhoods
-- Commercial districts
-- Government buildings (Great Hall)
-- The Little Hovel and other venues
+## History with the Party
 
-**Underground** ([The Forge Heart](/organizations/forge-heart)):
-- Extensive tunnel network
-- Resistance headquarters
-- April Bonal's synthesis lab
-- Underground nightclub (thousands capacity)
-- Multiple safe houses and living areas
+### The Night Out and the Dragon Attack (Sessions 1–7)
 
-### Notable Districts
+The campaign opened with a tavern brawl in the Market Ward and Helisanna's breakout show at the Little Hovel, which won Doomfall a 10,000-gold concert at the Forge Heart. Over the following days Elspeth prepared for the underground Highforge Sprint amid sabotage from rival racers, Olivia began searching for her missing grandson George, and assassins targeted Silas at the concert. Elspeth won the race just as dragons began attacking the city (Session 6). The party drove into the burning Market Ward to rescue Victor, crossed the Great Hall to the mines, bribed their way past an Iron Claws tunnel checkpoint, and escaped the city (Session 7).
 
-**Entertainment Quarter**:
-- [Lotus Casino](/organizations/lotus-casino)
-- The Little Hovel (music venue)
-- Underground nightclub
-- Social gathering spaces
+### Under the Iron Claws (Sessions 23–35)
 
-**Industrial Sector**:
-- Forges and metalworking
-- Manufacturing facilities
-- Working-class neighborhoods
-- Economic center
+After the dragon attack the Iron Claws took the city, controlling its gates and tunnels and putting bounties on the party (Session 23). Helja ruled under the authority of the dragons, who held the upper levels and took the city's gold as tribute (Sessions 24–25). The party slipped back in through tunnels they drew with Scarlet's magical paint, rescued Lark's family, recruited Ohma and joined Victor's resistance (Session 26); bombed the V drug facilities, killing Grimjaw (Session 27); robbed the royal vaults of 500,000 gold meant as tribute (Sessions 28–30); turned the dragons Duncan and Betty against Helja by revealing she did not hold the orb (Session 32); and fought Crang for control of the ravers, a battle in which Helisanna split into two women, Helisanna and Leliana (Sessions 33–34).
 
-## Government and Politics
+### Liberation (Sessions 36–37)
 
-### Traditional Leadership (Pre-Crisis)
-**City Council System** (Implied):
-- Governing body (structure unclear)
-- Great Hall as seat of power
-- Official law enforcement
-- Administrative functions
+On the day of the uprising the Iron Claws took hostages in the Great Hall. The party freed them during Helisanna's concert, and Silas, feigning betrayal, was brought to Helja's throne room in the Forge Heart, where he and Bru killed her and Bru's charges brought the room down. In the Great Hall, Silas then used the orb to order the dragons out of the city; Duncan, ridden by Helisanna, killed Betty, and the Forge Heart exploded behind the party.
 
-### Iron Claws Era (Sessions 24-36)
-**Criminal Control**:
-- [Helja Ungar](/npcs/helja-ungar) as de facto ruler
-- Iron Claws gang dominance
-- Bounty system ($50,000 on Taco Cat)
-- Oppression and violence
-- Official government undermined
+In the month that followed, Chalk Rock, who had led an evacuation of hundreds of civilians, and Grimjaw — resurrected, still authoritarian but softening — rebuilt the city together. Many evacuees never returned. Lady Corwin's mercenary army marched in, found little resistance, and reported the city "sacked and nothing worth saving," while its soldiers brought back stories of a witch riding a black dragon through the city's depths. The party kept its van at the city gates as a base, and Leliana taught music to children, including former Iron Claws.
 
-### Post-Session 36 (Power Vacuum)
-**Leadership Crisis**:
-- Helja killed, Iron Claws leaderless
-- No clear governmental authority
-- Resistance members proposing solutions
-- [Naomi](/npcs/naomi) suggested as potential leader
-- City governance uncertain
+### Departure (Session 38)
 
-## History
+Weeks later the party found Chalk Rock confident and muscled from training with Olivia, a new workshop bearing Tony's symbol opposite Bernardo's pizza shop, and Helja's journals in her upper-class apartment. They left the F-150 with Chalk Rock and set out for Greyport by way of Red Brook.
 
-### Founding and Development
-**Industrial Heritage**:
-- Built around forges and metalworking
-- Industrial economy established
-- Underground tunnels for infrastructure
-- Growth into major city
+## Session History
 
-### Recent Troubles
-
-**Iron Claws Rise** (Session 24):
-- Criminal organization seizes control
-- Helja Ungar takes power
-- Violence and oppression increase
-- Resistance forms in response
-
-**Supernatural Crisis**:
-- Raver phenomenon spreads
-- Thousands with purple eyes
-- Missing persons investigations
-- Dimensional rifts appearing (Project Purple Patch)
-
-**The Great Hall Battle** (Session 36):
-- Taco Cat and Resistance vs. Iron Claws
-- Helja Ungar killed by Silas
-- Leadership eliminated
-- Victory but uncertain future
-
-## Major Landmarks
-
-### The Great Hall
-**Government Center**:
-- Seat of city power
-- Site of Session 36 battle
-- Large capacity for gatherings
-- Central location
-- Symbolic importance
-
-**Session 36 Events**:
-- Iron Claws coordination center
-- Helisanna's concert venue
-- Final battle location
-- Helja's death site
-- Resistance victory point
-
-### The Little Hovel
-**Music Venue**:
-- Where Doomfall started
-- First purple-eyed ravers appeared
-- Community gathering space
-- Cultural significance
-- Origin point of supernatural crisis
-
-### Lotus Casino
-**Entertainment Hub**:
-- Naomi's workplace
-- Premier performance venue
-- Social gathering location
-- Proposed Vegas solution site
-- Potential political center
-
-### Underground Nightclub
-**Raver Central** (Session 26):
-- Thousands capacity venue
-- Greatest party of all time
-- Purple-eyed raver gatherings
-- Next to resistance headquarters
-- Ongoing supernatural activity
-
-### April Bonal's Lab
-**Underground Haven** (Sessions 33-35):
-- Chemistry synthesis lab
-- Taco Cat safe house
-- Underground community member
-- Resource provider
-- Hidden from Iron Claws
-
-## Economy
-
-### Industry
-**Forges and Manufacturing**:
-- City's namesake industry
-- Metalworking and craftsmanship
-- Working-class employment
-- Economic foundation
-
-### Entertainment
-- Lotus Casino and venues
-- Music scene and performances
-- Underground party culture
-- Tourism (implied)
-
-### Black Market
-**Violessence (V) Trade** (Session 25-27):
-- Illegal drug smuggling
-- High Forge to Eldoran route
-- Iron Claws involvement
-- Lake water supply exhausted
-- Ongoing trafficking
-
-## Demographics
-
-### Population
-**Size**: Thousands of residents
-- Large urban population
-- Diverse species and classes
-- Working-class majority
-- Underground dwellers
-
-### Notable Groups
-
-**Surface Dwellers**:
-- Ordinary citizens
-- Workers and families
-- Business owners
-- City officials
-
-**Underground Community**:
-- Resistance members
-- Refugees from Iron Claws
-- Permanent underground residents (April)
-- Purple-eyed ravers (thousands)
-
-**Transients**:
-- Adventurers (Taco Cat)
-- Merchants and travelers
-- Visiting performers
-- Criminals and fugitives
-
-## Culture and Society
-
-### Music Scene
-**Thriving Underground**:
-- The Little Hovel venue
-- Doomfall's career launch
-- Underground raves
-- Youth culture expression
-- Supernatural transformation
-
-### Working Class Identity
-- Industrial heritage pride
-- Labor and craftsmanship values
-- Community solidarity
-- Resistance to oppression
-
-### Crisis Era Changes
-**Social Disruption**:
-- Fear of Iron Claws violence
-- Thousands missing to ravers
-- Underground refuge culture
-- Breakdown of normal order
-- Adaptation to chaos
-
-## Major Events
-
-### Campaign Timeline
-
-**Early Sessions**:
-- Doomfall concerts begin (Session 1)
-- Purple eyes first appear
-- Party formation and adventures
-- Gold Road travels
-
-**Iron Claws Era** (Sessions 24-36):
-- Helja takes control (Session 24)
-- $50,000 bounties on Taco Cat (Session 25)
-- Underground rave discovery (Session 26)
-- Taco Cat refuge underground (Sessions 33-36)
-- Great Hall Battle (Session 36)
-
-**Supernatural Crisis**:
-- Helisanna's possession (Session 34)
-- Thousands of ravers under control
-- Dimensional rifts (Project Purple Patch)
-- Ach'uk's manifestation
-- Ongoing cosmic threats
-
-## Law and Order
-
-### Official Law Enforcement
-**City Guard/Watch**:
-- Formal police force (mentioned but limited detail)
-- Overwhelmed by Iron Claws
-- Investigating missing persons (Chalk Rock)
-- Limited effectiveness during crisis
-
-### Iron Claws Control (Sessions 24-36)
-**Criminal Justice**:
-- Bounty system for enemies
-- Street-level violence
-- Patrol patterns in tunnels
-- Informant networks
-- Eliminated Session 36
-
-### Post-Victory Status
-**Current Law Enforcement**:
-- Official guard likely restored
-- Resistance members as heroes
-- New governance needed
-- Rebuilding order
-
-## Strategic Importance
-
-### Military/Political
-**Regional Significance**:
-- Major population center
-- Industrial capacity
-- Underground infrastructure
-- Strategic location
-- Eldoran Empire interest (Lady Corwin connection)
-
-### Supernatural
-**Nexus of Activity**:
-- Raver phenomenon origin
-- Dimensional rifts appearing
-- Ach'uk's foothold
-- Cosmic-level threats
-- Dragon army proximity
-
-## Current Challenges (Post-Session 36)
-
-### Immediate Problems
-**Power Vacuum**:
-- No clear government leadership
-- Iron Claws remnants scattered
-- Resistance heroes but not administrators
-- Citizens need governance
-- Naomi proposed as solution
-
-**Raver Crisis**:
-- Thousands still under Ach'uk's control
-- Helisanna fully possessed
-- No immediate solution
-- Vegas solution proposed but not implemented
-- Ongoing supernatural threat
-
-**Infrastructure**:
-- Damage from Great Hall battle
-- Underground system status
-- Economic disruption from crisis
-- Resource allocation needs
-
-### Long-term Concerns
-**Political Stability**:
-- Establishing legitimate government
-- Preventing new criminal takeover
-- Justice for Iron Claws crimes
-- Rebuilding trust
-
-**Supernatural Threats**:
-- Ach'uk and ravers unresolved
-- Dimensional rifts ongoing
-- Dragon army approaching
-- Cosmic-scale dangers
-
-**Social Recovery**:
-- Families reuniting with ravers
-- Healing from Iron Claws era
-- Economic rebuilding
-- Community restoration
-
-## Relationship with Other Powers
-
-### Eldoran Empire
-**Complicated Ties**:
-- Lady Corwin's secret connections
-- Captain Corwin's presence
-- Gold Road to Eldoran
-- Imperial interest in city
-- Potential annexation threat
-
-### Skyhammer Clan
-**Distant Connection**:
-- Two-and-a-half days travel to Grimvar's Spine
-- Red's heritage from clan
-- Limited direct contact
-- Strategic distance
-
-### Twilight Company
-**Covert Operations**:
-- Operating in shadows
-- Roscoe's presence (Session 11)
-- Victor's activities
-- Monitoring and intervention
-- True extent of involvement unclear
-
-## Neighborhoods and Areas
-
-### Known Locations
-- **Entertainment District**: Casinos, venues, nightlife
-- **Industrial Quarter**: Forges, factories, workers
-- **Underground**: Tunnels, safe houses, nightclub
-- **Government Center**: Great Hall area
-- **Residential Areas**: Family homes, apartments
-
-### Unmapped Territory
-- Full city layout undocumented
-- Many locations unexplored
-- Potential for discovery
-- Expanding setting
-
-## Daily Life
-
-### Pre-Crisis Normal
-- Industrial work and crafts
-- Entertainment and socializing
-- Trade and commerce
-- Ordinary urban existence
-
-### During Iron Claws Era
-**Survival Mode**:
-- Fear of violence
-- Curfews or restrictions (implied)
-- Black market reliance
-- Underground refuge
-- Community resilience
-
-### Post-Battle Recovery
-**Rebuilding**:
-- Return to surface for underground refugees?
-- Economic restart
-- Social healing
-- New normal establishment
-
-## Significance
-
-### To Campaign
-**Central Hub**:
-- Primary setting for majority of sessions
-- Party's base of operations
-- All major factions present
-- Interconnected storylines
-- Heart of conflict
-
-### To Characters
-**Home and Battleground**:
-- Where party formed and grew
-- Personal connections (Silas/Naomi, Helisanna/ravers)
-- Defended from Iron Claws
-- Responsibility for future
-- Emotional investment
-
-### To Themes
-- **Urban Struggle**: Crime, poverty, survival
-- **Community**: Resistance and solidarity
-- **Power Vacuum**: Leadership and governance
-- **Corruption**: Criminal takeover
-- **Redemption**: Saving the city
-
-## Future Possibilities
-
-### Potential Storylines
-**Governance**:
-- Naomi's leadership campaign
-- Rebuilding government
-- Justice system restoration
-- Democracy vs. other systems
-
-**Supernatural Resolution**:
-- Vegas solution implementation
-- Raver crisis management
-- Ach'uk confrontation
-- Dimensional rift sealing
-
-**Recovery**:
-- Economic rebuilding
-- Social healing
-- Infrastructure repair
-- New era for High Forge
-
-## Related Characters
-- [Silas Whitlock](/player-characters/silas) - Criminal-turned-hero, killed Helja
-- [Helisanna Doomfall](/player-characters/helisanna) - Started raver crisis
-- [Naomi](/npcs/naomi) - Proposed leader
-- [Helja Ungar](/npcs/helja-ungar) - Former criminal ruler (deceased)
-- [April Bonal](/npcs/april-bonal) - Underground resident
-- [Chalk Rock](/npcs/chalk-rock) - Young detective
-- [Lady Corwin](/npcs/lady-corwin) - Secret Eldoran connections
-
-## Related Organizations
-- [Taco Cat](/organizations/taco-cat) - Adventuring party, city defenders
-- [Iron Claws](/organizations/iron-claws) - Former criminal rulers (defeated)
-- [The Resistance](/organizations/resistance) - Underground opposition
-- [The Ravers](/organizations/ravers) - Supernatural crisis
-- [Lotus Casino](/organizations/lotus-casino) - Entertainment venue
-- [The Forge Heart](/organizations/forge-heart) - Underground community
-
-## Key Sessions
-- **Session 1**: Campaign begins, Doomfall at Little Hovel
-- **Session 24**: Iron Claws take control
-- **Session 25**: $50,000 bounties announced
-- **Session 26**: Underground rave discovered
-- **Sessions 33-36**: Taco Cat underground, planning attack
-- **Session 36**: Great Hall Battle, Helja killed, Iron Claws defeated
-
----
-
-*"High Forge is our home. It's messy, dangerous, corrupt, and falling apart. But it's ours. And we're going to save it."* - Taco Cat determination, Session 35
-
-*"The city's free from Helja, but what now? Who's in charge? Who protects people? Who cleans up this mess?"* - Post-battle questions, Session 36
+- **[Session 1](/sessions/session-1)** — The party's night out in the Market Ward ends in a tavern brawl, Helisanna's breakout show at the Little Hovel, and a 10,000-gold concert deal.
+- **[Session 2](/sessions/session-2)** — Elspeth re-enters the city's underground racing scene and finds her car sabotaged, while Olivia starts investigating George's disappearance.
+- **[Session 3](/sessions/session-3)** — Olivia gets church authority at the Cathedral of Tyr and the party attends an open Twilight Company meeting beneath a bar.
+- **[Session 4](/sessions/session-4)** — The party sabotages rival racers' cars in the garage bays for the Twilight Company.
+- **[Session 5](/sessions/session-5)** — Doomfall plays the Forge Heart while the party fights off two attempts on Silas's life.
+- **[Session 6](/sessions/session-6)** — Elspeth wins the Highforge Sprint just as dragons begin attacking the city.
+- **[Session 7](/sessions/session-7)** — The party rescues Victor from the burning Market Ward and escapes the city through the mining tunnels past an Iron Claws checkpoint.
+- **[Session 23](/sessions/session-23)** — A bounty hunter reveals that the Iron Claws took control of High Forge after the dragon attack and that purple-eyed ravers are gathering there.
+- **[Session 24](/sessions/session-24)** — Over the radio, Victor tells Bru that Helja rules the city under the dragons, who hold its upper levels.
+- **[Session 25](/sessions/session-25)** — At the refugee camp outside the city the party learns of the Iron Claws' tribute to the dragons and meets Lark, who offers a way in.
+- **[Session 26](/sessions/session-26)** — The party paints new tunnels into the city, rescues Lark's family, recruits Ohma and reaches the resistance headquarters beside a vast raver party.
+- **[Session 27](/sessions/session-27)** — The party bombs V production facilities for Victor, frees test subjects, and kills Grimjaw.
+- **[Session 28](/sessions/session-28)** — The party finds the third target was Victor's own lab and begins Lady Corwin's heist on the royal vaults.
+- **[Session 29](/sessions/session-29)** — Bru, Elspeth and Olivia take a truck from the vault garage past dancing golems.
+- **[Session 30](/sessions/session-30)** — The party completes the vault heist, reads the draconic tablets and defeats the turned Captain Corwin.
+- **[Session 32](/sessions/session-32)** — The party turns the dragons Duncan and Betty against Helja and recruits ravers at the Little Hovel.
+- **[Session 33](/sessions/session-33)** — Following Chalk Rock's missing-persons case into the sewers, the party finds April Bonal and heads for Crang's nightclub.
+- **[Session 34](/sessions/session-34)** — The party fights Crang and his ravers beneath the city, and Helisanna splits into two women, Helisanna and Leliana.
+- **[Session 35](/sessions/session-35)** — The party shops in the Under Lake district and takes city maps from Olivia's old precinct ahead of the uprising.
+- **[Session 36](/sessions/session-36)** — The party frees the hostages in the Great Hall, and Silas and Bru kill Helja in the Forge Heart throne room.
+- **[Session 37](/sessions/session-37)** — Silas sends the dragons away, the Forge Heart explodes, and in the month after, Chalk Rock and Grimjaw rebuild the city.
+- **[Interlude 12](/sessions/interlude-12)** — The party sets out from Olivia's apartment for the Lotus Casino, and the casino's reset sends Helisanna and her ravers back to High Forge.
+- **[Session 38](/sessions/session-38)** — The party searches Helja's apartment, gathers for brunch, and leaves High Forge for Greyport.

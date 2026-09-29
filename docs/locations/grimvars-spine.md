@@ -1,381 +1,43 @@
 ---
 title: Grimvar's Spine
-description: Mountain home of the Skyhammer Clan
-sidebar_position: 3
+description: Mountain climbed by the Pilgrim's Path from Milstrom; home of a Tyr shrine and the Skyhammer Goliath village, found being dismantled by Eldoran soldiers in Session 38
+aliases: ["Grimvar Spine"]
 ---
 
 # Grimvar's Spine
 
-*Mountain Range • Goliath Territory • Site of Ancient Trials*
+*Pilgrim Mountain • Home of the Skyhammer Clan • Where Red Left the Party*
 
 ## Overview
 
-**Grimvar's Spine** is a remote and treacherous mountain range that serves as the ancestral home of the [Skyhammer Clan](/organizations/skyhammer-clan), Red's true heritage. This harsh environment houses an ancient Goliath tribe, mysterious trials carved by primordial serpents, and technology far beyond the current age—including a starship that only Skyhammer blood can operate.
+**Grimvar's Spine** is the mountain above [Milstrom](/locations/milstrom), climbed by the Pilgrim's Path, an old trail of stones marked with the scales of Tyr. Partway up stands a shrine of Tyr built to hold a rift to the Shadowfell closed; at the summit stands the village of the [Skyhammer Clan](/organizations/skyhammer-clan), [Red](/player-characters/red)'s birth clan, beside the cave where Red undertook his trials.
 
-## Geography
+It is where the party rescued [George](/npcs/george) (Sessions 14–16), where Red was merged with his clan's starship and lost to the party (Session 22), and where, in Session 38, the party found the Goliath village being torn down by two Eldoran soldiers and took the reality stones Scarlet needed for the [pocket village](/locations/pocket-village).
 
-### Location
-- Remote mountain range
-- Two-and-a-half days journey from [High Forge](/locations/high-forge)
-- Isolated from other civilizations
-- Difficult terrain requiring mountaineering skills
-- Strategic isolation from outside interference
+## The Pilgrim's Path
 
-### Climate and Environment
-**Harsh Conditions**:
-- Extremely cold temperatures
-- Party needed magical cloaks to survive
-- Treacherous climbing required
-- Remote and unforgiving
-- Natural defense from invaders
+- **The shepherd's farm.** Near the start of the trail lives a struggling shepherd, Jeffrey Thompson, with a flock of magical sheep: Bessie the lightning-throwing ewe, Gus the cliff-climbing ram, three lambs that shift whoever touches them into other planes, and Old Myrtle, a sheep possessed by the spirit of a god, who gave prophecies and crumbled to bones on reaching his cottage. A new Myrtle was born to Bessie and Olivia's fey ram Bob. The party rounded up the flock, recruited the lambs into "Bru's Army," and received cold-resistant Woolen Cloaks of the Mountain Guardians (Session 14). Later recaps call the shepherd Jeremy.
+- **The shrine of Tyr.** Higher up, past ghostly pilgrims and an abandoned camp holding Father Jacob's and George's journals, stands a shrine of four warded pillars around the statue of a dwarf woman carrying water. Its wards had been corrupted; the party restored them and destroyed Lacuna, the corrupted statue-creature (Session 15).
+- **The Shadowfell rift.** Beside the shrine, a rift held George and the Tyr pilgrims trapped in the Shadowfell. Olivia smashed it open, the party fought the shadows that poured out with the help of the Eldoran knight Eric, and Red closed it with Eleanor's amulet. That night, from the shepherd's cottage, Bru watched the real moon crack and explode (Session 16).
 
-### Terrain Features
-- Steep mountain faces
-- Rocky outcroppings
-- Goliath settlement areas
-- Hidden passages and caves
-- Ancient structures
+## The Skyhammer Village
 
-## The Skyhammer Clan Settlement
+A two-and-a-half-day climb above the shepherd's farm, the Skyhammer village sits on the summit: solar panels, electric lights, aluminum and steel buildings, guards with railguns, white crystal technology, and a half-built rocket at its center. The clan's elder, [Elder Ragar](/npcs/elder-ragar), told Red that only the Skyhammer bloodline could power the ship, and sent him into the Worm Tunnel, a cave carved by an ancient serpent, to prove his heritage (Session 17). Inside, the party solved a pressure-plate puzzle and a constellation chamber, met the star-scaled dragon Sol, and was sent through a portal to the astral tree and [Lakeshore Vale](/locations/lakeshore-vale) (Session 20).
 
-### Living Areas
-**Mountain Dwellings**:
-- Goliath-sized structures
-- Adapted to harsh climate
-- Self-sufficient community
-- Isolated from outside world
-- Traditional architecture
+### Red's Last Flight (Session 22)
 
-### Community Spaces
-- Council areas (Elder Ragar's domain)
-- Common gathering spaces
-- Training grounds (implied)
-- Storage for supplies
-- Strategic defensive positions
+Returning through Marcus's portal, the party arrived on the snowy mountaintop to find Eric attacking the village; Eldoran soldiers had planted explosives to set off an avalanche. [Jasper](/player-characters/jasper) refused to join Eric and fought her alongside the party. With the avalanche coming, Red entered the ship's chamber at the Elder's urging and was merged with the ship, permanently. The party killed Eric, Bru stabbed the Elder, and the party refused the clan's space mission, took technology and Eric's crystal armor from the compound, and rode a sheep-drawn sleigh down to Milstrom.
 
-## The Wormhole Trials
+### The Village Dismantled (Session 38)
 
-### The Worms Tunnel
-**Ancient Test**:
-- Mystical passage carved by ancient serpent
-- Reality-warping trials within
-- Only Skyhammer main bloodline can survive
-- Tests prove heritage and unlock abilities
-- Failure means death
+When the party returned for reality stones, the only people in the village were two Eldoran soldiers, camped in a tent at its center, tearing down its huts and feeding boulders and lumber into an oven-sized cube machine that made whatever went in vanish. Silas pantsed the terminal operator and Elspeth shoved the other worker into the cube; Kevin's dynamite struck the machine with the man three-quarters of the way through, and it began exploding over and over on itself. Ohma stripped the loading bays and carts of close to 500 pounds of reality stones.
 
-### Trial Locations Within
+## Session History
 
-**Session 20 Journey**:
-- Ancient puzzles encountered
-- Star-touched dragon meeting
-- Chaotic village of Lakeshore Vale
-- Reality-bending spaces
-- Descent through challenges
-
-### Purpose
-**Bloodline Verification**:
-- Prove Skyhammer heritage
-- Unlock knowledge to power starship
-- Test worthiness and strength
-- Access bloodline abilities
-- Recover lost knowledge or die trying
-
-## The Starship
-
-### Ancient Vessel Location
-**Mysterious Craft**:
-- Somewhere on Grimvar's Spine
-- Requires Skyhammer bloodline to operate
-- Technology beyond current understanding
-- Purpose unclear (escape? weapon? exploration?)
-- Central to clan identity
-
-### Current Status
-**Dormant**:
-- Knowledge of operation lost with Red's parents
-- Awaiting heir who can power it
-- Guarded by clan
-- Strategic asset unused
-
-## Historical Significance
-
-### Ancient Origins
-**Pre-Current Civilizations**:
-- Goliath tribe predates modern nations
-- Connection to cosmic/celestial events
-- Guardians of ancient technology
-- Oral traditions preserved
-- Artistic and cultural heritage maintained
-
-### The Lost Generation
-**Recent Tragedy**:
-- Marion and Robert Cross (Red's parents) murdered
-- Knowledge of starship operation died with them
-- Clan lost contact with hidden heir
-- Desperate situation without prince
-- Trials as only hope to recover knowledge
-
-## Notable Locations
-
-### Elder Ragar's Domain
-**Leadership Center** (Session 17):
-- Where party met clan leader
-- Negotiations and explanations
-- Recognition of Red's tattoo
-- Trials explained
-- Heritage confirmed
-
-### Trial Entrance
-**Gateway to Tests**:
-- Access to Worms Tunnel
-- Where Red began trials (Session 20)
-- Dangerous passage
-- Party accompanied him
-- Point of no return
-
-### Lakeshore Vale (Within Trials)
-**Chaotic Village**:
-- Encountered during trial descent
-- Reality-warped settlement
-- Part of trial challenges
-- Unclear if real or manifestation
-- Added to trial difficulty
-
-## Cultural Elements
-
-### Tattoo Traditions
-**Artistic Heritage**:
-- Distinctive Skyhammer tattoo styles
-- Recognized by Elder Ragar
-- Red's tattoo matched clan traditions
-- Marks of heritage and identity
-- Passed through generations
-
-### Oral Traditions
-- History preserved through stories
-- Knowledge of starship (partially lost)
-- Trial legends and warnings
-- Clan heritage teachings
-- Strategic information maintained
-
-### Isolation Culture
-**Self-Sufficiency**:
-- Limited contact with outside world
-- Preservation through remoteness
-- Traditional ways maintained
-- Suspicious of outsiders
-- Protective of secrets
-
-## The Journey to Grimvar's Spine
-
-### Travel Challenges (Session 17)
-**Two-and-a-Half Days**:
-- Difficult trek from High Forge
-- Mountaineering skills required
-- Cold weather gear essential
-- Party needed magical cloaks
-- Physical endurance tested
-
-### Access Considerations
-**Remote Location**:
-- Natural barrier to invasion
-- Protects clan from outside threats
-- Limits Eldoran Empire interference
-- Prevents casual visitors
-- Strategic advantage of isolation
-
-## Strategic Importance
-
-### To Skyhammer Clan
-**Ancestral Home**:
-- Where traditions preserved
-- Starship location
-- Trial site
-- Council governance
-- Identity and heritage center
-
-### To Eldoran Empire
-**Threat or Prize**:
-- Why does Empire want Red dead?
-- Starship technology desired?
-- Bloodline power feared?
-- Prophecy concerning clan?
-- Strategic threat to imperial expansion?
-
-### To Red's Character
-**Heritage Site**:
-- True home discovered
-- Identity beyond pacifist cleric
-- Responsibility to clan and bloodline
-- Prince's obligations
-- Choice between party and duty
-
-## Wildlife and Dangers
-
-### Natural Hazards
-- Extreme cold and weather
-- Treacherous climbing
-- Avalanche risk (implied)
-- Limited resources
-- Isolation from help
-
-### Supernatural Elements
-**Trial-Related**:
-- Ancient serpent's legacy
-- Reality-warping passages
-- Star-touched dragon
-- Mystical challenges
-- Cosmic-level dangers
-
-## Resources
-
-### Clan Sustenance
-**Survival Necessities**:
-- Food sources (hunting? herding?)
-- Water from mountain sources
-- Fuel for heat
-- Building materials
-- Self-sufficient systems
-
-### Ancient Technology
-**Beyond Normal Resources**:
-- Starship and its systems
-- Trial mechanisms
-- Magical/technological hybrid
-- Unknown capabilities
-
-## Relationship with Outside World
-
-### Limited Contact
-**Isolation Policy**:
-- Rarely interact with other civilizations
-- Protective of clan secrets
-- Suspicious of outsiders
-- Emergency contact for heir only
-- Twilight Company connection (Red's protection)
-
-### Known to Few
-**Obscure Location**:
-- Most unaware of clan existence
-- Red's heritage secret
-- Eldoran Empire somehow knows
-- Twilight Company informed
-- Strategic obscurity
-
-## Current Status (Post-Session 20)
-
-### Red's Trials
-**Ongoing**:
-- Trial completion status unclear
-- Red's success or failure unknown
-- Knowledge recovery attempted
-- Party's role in trials
-- Outcome awaited
-
-### Clan Situation
-**Awaiting Results**:
-- Hope for heir's success
-- Fear of trials killing Red
-- Starship still dormant
-- Leadership continuing
-- Future uncertain
-
-## Threats
-
-### External
-**Eldoran Empire**:
-- Imperial interest in Red/clan
-- Potential invasion if location exposed
-- Starship technology desired
-- Bloodline elimination goal
-- Strategic threat
-
-### Internal
-**Succession Crisis**:
-- Red may fail trials (death)
-- No other main bloodline heirs known
-- Knowledge permanently lost possible
-- Clan identity threatened
-- Starship forever dormant
-
-## Future Implications
-
-### If Red Succeeds
-**Starship Activation**:
-- Clan's purpose fulfilled
-- Technology operational
-- Red's role as prince confirmed
-- Strategic power gained
-- Questions about starship's purpose
-
-### If Red Fails
-**Permanent Loss**:
-- Knowledge gone forever
-- Clan identity crisis
-- Starship remains dormant
-- Heritage incomplete
-- Tragic ending
-
-## Significance
-
-### To Campaign
-**Cosmic Stakes**:
-- Ancient technology and powers
-- Red's heritage and destiny
-- Conflict with Eldoran Empire
-- Mysterious starship purpose
-- Connection to larger cosmic events
-
-### To Red's Arc
-**Identity and Choice**:
-- True home vs. chosen family (Taco Cat)
-- Prince vs. pacifist cleric
-- Responsibility to bloodline
-- Destiny vs. free will
-- Heritage discovered
-
-### To Themes
-- **Heritage**: Bloodline and identity
-- **Isolation**: Protection through remoteness
-- **Lost Knowledge**: Tragedy of Marion and Robert's deaths
-- **Destiny**: Trials and prophecy
-- **Technology**: Ancient powers and modern world
-
-## Related Characters
-- [Red/Thurnok Skyhammer](/player-characters/red) - Clan prince, heir
-- [Elder Ragar](/npcs/elder-ragar) - Clan leader (needs NPC page)
-- **Marion and Robert Cross** - Red's murdered parents
-- [Roscoe](/npcs/roscoe) - Revealed Red's heritage
-- **Star-Touched Dragon** - Encountered in trials
-
-## Related Organizations
-- [Skyhammer Clan](/organizations/skyhammer-clan) - Mountain residents
-- [Twilight Company](/organizations/twilight-company) - Protected Red
-- [Eldoran Empire](/organizations/eldoran-empire) - Threat to clan
-- [Taco Cat](/organizations/taco-cat) - Red's chosen family
-
-## Related Locations
-- [High Forge](/locations/high-forge) - Two-and-a-half days away
-- **Lakeshore Vale** - Within trial dimension
-- **Eldoran** - Empire's capital, threat source
-
-## Key Sessions
-- **Session 11**: Red's true heritage revealed (Grimvar's Spine mentioned)
-- **Session 17**: Party travels to mountain, meets Elder Ragar, learns about trials
-- **Session 20**: Red enters Worms Tunnel for trials, party accompanies
-
-## Mysteries
-
-### Unanswered Questions
-- What is the starship's true purpose?
-- Why does Eldoran Empire fear Skyhammer clan?
-- Are there other hidden bloodline members?
-- What do trials actually unlock?
-- How was starship created?
-- Connection to other cosmic entities?
-
----
-
-*"The journey to Grimvar's Spine is treacherous, but the truths waiting at the summit are worth any hardship. This is where Red's story truly begins—or ends."* - Campaign journal
-
-*"Only someone of the Skyhammer bloodline can power our spacecraft. The knowledge of how this works was lost when your parents died. The trials will either unlock this knowledge or kill you in the attempt."* - Elder Ragar, Session 17
+- **[Session 14](/sessions/session-14)** — The party starts up the Pilgrim's Path, rounds up the shepherd's magical sheep, hears a radio report of void dragons, and receives cold-resistant cloaks.
+- **[Session 15](/sessions/session-15)** — Following George's trail higher up the mountain, the party restores the corrupted shrine of Tyr and destroys Lacuna, revealing a rift behind it.
+- **[Session 16](/sessions/session-16)** — Olivia breaks open the Shadowfell rift, the party rescues George and the pilgrims with Eric's help, and Bru watches the moon explode from the shepherd's cottage.
+- **[Session 17](/sessions/session-17)** — The party climbs to the Skyhammer village at the summit, where Elder Ragar confirms Red's identity and sends him to the Worm Tunnel.
+- **[Session 20](/sessions/session-20)** — In the Worm Tunnel the party solves the trial puzzles, meets Sol, and passes through a portal to the astral tree.
+- **[Session 22](/sessions/session-22)** — Eric attacks the Goliath village, Red merges permanently with the clan's starship, and the party kills Eric and leaves the mountain by sleigh.
+- **[Session 38](/sessions/session-38)** — The party finds two Eldoran soldiers dismantling the Goliath village with a cube machine, wrecks the machine, and takes about 500 pounds of reality stones.
