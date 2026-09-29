@@ -7,7 +7,9 @@ This script automates the workflow of creating session notes from transcript fil
 2. Summarises long transcripts chunk-by-chunk (using Claude Haiku)
 3. Creates a comprehensive session note using Claude Sonnet
 4. Merges the new session's updates into the campaign-state.md running memory
-5. Updates the session-stats dataset (personality analysis + stats extraction)
+5. Adds the session to the Session History of every NPC, location and
+   organization page the recap involves (scripts/wiki_update.py)
+6. Updates the session-stats dataset (personality analysis + stats extraction)
 
 Usage:
     python automate_session.py [--session-number N] [--interlude] [--no-clean] [--no-generate] [--timeout MIN] [--local]
@@ -43,6 +45,7 @@ from recap_postprocess import (  # noqa: E402  (local module)
     get_frontmatter_value,
     postprocess_recap,
 )
+import wiki_update  # noqa: E402  (local module)
 
 try:
     import anthropic
@@ -549,6 +552,12 @@ TRANSCRIPT CHUNK:
 
         style_section = "\n\n---\n\n".join(style_refs) if style_refs else "(no previous sessions available)"
 
+        # The wiki pages that exist, so the recap links them instead of
+        # guessing slugs (a link to a missing page is unwrapped by the
+        # guardrails, and a missing link leaves the page undiscoverable).
+        wiki_pages = wiki_update.load_wiki_entities(self.project_root / "docs")
+        wiki_listing = "\n".join(f"- [{e.title}]({e.url})" for e in wiki_pages) or "(none)"
+
         # Persona layer (publication meta-narrative). When active, the recap
         # is written in-character by a fictional staff writer, the recent
         # sessions become structure-only references (their voice may belong
@@ -591,6 +600,9 @@ Follow this exact structure:
 
 ## Campaign State & Running Memory:
 {state_content}
+
+## Wiki Pages (link the first mention of each in Plot Events, using exactly these paths):
+{wiki_listing}
 
 {style_heading}
 {style_caveat}{style_section}
@@ -818,6 +830,52 @@ Respond in this EXACT format (no other text):
         state_path.write_text(updated, encoding="utf-8")
         print(f"  Campaign state updated with session {session_number}")
 
+    def update_wiki_pages(self, session_number, recap_text, is_interlude=False):
+        """Add this session to the Session History of each page it involves.
+
+        Without this step the NPC, location and organization pages were
+        written once and never touched again. Failures only warn, like the
+        campaign-state update: a published recap never waits on the wiki.
+        """
+        docs_dir = self.project_root / "docs"
+        entities = wiki_update.load_wiki_entities(docs_dir)
+        mentioned = wiki_update.find_mentioned_entities(recap_text, entities)
+        if not mentioned:
+            print("  No wiki pages involved in this recap")
+            return []
+
+        label, _ = wiki_update.session_label(session_number, is_interlude)
+        prompt = wiki_update.build_prompt(label, recap_text, mentioned,
+                                          [e.title for e in entities])
+        try:
+            result = self._call_model(
+                model=SUMMARIZATION_MODEL,
+                system="You are a precise campaign wiki editor. Output only the requested JSON.",
+                messages=[{"role": "user", "content": prompt}],
+                max_tokens=4096,
+                timeout=180,
+            )
+        except (anthropic.APIError, CLIError, EmptyResponseError) as e:
+            print(f"  Warning: wiki update call failed ({e}); pages left unchanged")
+            return []
+
+        parsed = wiki_update.parse_response(result)
+        written = wiki_update.apply_updates(mentioned, parsed["updates"], session_number, is_interlude)
+        print(f"  Wiki pages updated: {', '.join(written) if written else 'none'}")
+
+        new_lines = wiki_update.format_new_entities(parsed["new_entities"])
+        if new_lines:
+            print("  Recurring entities with no wiki page yet (not created automatically):")
+            for line in new_lines:
+                print(f"    {line}")
+            summary_path = os.environ.get("GITHUB_STEP_SUMMARY")
+            if summary_path:
+                with open(summary_path, "a", encoding="utf-8") as f:
+                    f.write(f"### Wiki pages to consider ({label})\n\n"
+                            "These play a part in the recap but have no page yet:\n\n"
+                            + "\n".join(new_lines) + "\n\n")
+        return written
+
     # ------------------------------------------------------------------ #
     #  Main generation flow                                                #
     # ------------------------------------------------------------------ #
@@ -992,6 +1050,9 @@ Respond in this EXACT format (no other text):
         # Update campaign state.
         print("\n  Updating campaign state...")
         self.update_campaign_state(session_number, recap_text)
+
+        print("\n  Updating wiki pages...")
+        self.update_wiki_pages(session_number, recap_text, is_interlude)
 
         return True
 
