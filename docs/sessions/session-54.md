@@ -1,8 +1,8 @@
 ---
 title: "54: Into the Mouth of the Beast"
 date: 2026-05-29
-description: "A pre-dawn dinner with Lady Viper turns into a clumsy first date and a one-way mission briefing: to slip past the Eldoran Empire's magic detectors, the party must pose as a mediocre mercenary company, win a sadistic lord's death-game contract, and smuggle Bru's explosives into the capital — all the way down a long road to Little Cradle and a man named Finnegan."
-summary: "A pre-dawn dinner with Lady Viper turns into a clumsy first date and a one-way mission briefing: to slip past the Eldoran Empire's magic detectors, the party must pose as a mediocre mercenary company, win a sadistic lord's death-game contract, and smuggle Bru's explosives into the capital — all the way down a long road to Little Cradle and a man named Finnegan."
+description: "A pre-dawn dinner with Lady Viper turns into a clumsy first date and a one-way mission briefing: to slip past the Eldoran Empire's magic detectors, the party must pose as a mediocre mercenary company, win a sadistic lord's death-game contract, and get Finnegan's bomb-making materials into the capital — all the way down a long road to Little Cradle and a man named Finnegan."
+summary: "A pre-dawn dinner with Lady Viper turns into a clumsy first date and a one-way mission briefing: to slip past the Eldoran Empire's magic detectors, the party must pose as a mediocre mercenary company, win a sadistic lord's death-game contract, and get Finnegan's bomb-making materials into the capital — all the way down a long road to Little Cradle and a man named Finnegan."
 ---
 
 ***May 29, 2026***
@@ -34,7 +34,7 @@ It's 4:00 a.m. when a messenger knocks at the townhouse. Lady Viper, leader of t
 
 The candlelit room has been transformed into a lavish dinner table — flowers, candles, a fine spread, and at the center two seats set conspicuously side by side, ringed by a dozen other chairs. It is, very obviously, a date arranged around a mission. The party teases Elspeth without mercy. She insists it is purely a briefing.
 
-Everyone deploys a cover. Silas slides to the bar cart and stealthily swipes plates to ferry food around, staying hidden and casting Message through Leliana to feed Elspeth lines of moral support. Leliana busies herself at the bar cart, keeping watch and relaying the whispers. Olivia excuses herself to the "powder room," grabs a plate, and eats in the hallway — letting slip, in the process, that she's a retired detective.
+Everyone deploys a cover. Silas slides to the bar cart and deftly swipes plates to ferry food around, staying out of the way while Leliana casts Message to feed Elspeth lines of moral support. Leliana busies herself at the bar cart, keeping watch and relaying the whispers. Olivia excuses herself to the "powder room," grabs a plate from the passing servants, and eats in the hallway.
 
 Elspeth shows up in her coveralls. On a quiet perception check she feels something cool slide up her leg — **Mr. Slithers**, Lady Viper's snake — and then a calming hand on her shoulder as Viper herself appears. Viper draws a fine vintage and opens it with a needle-thin dagger from a thigh holster, pouring Elspeth a glass.
 
@@ -49,9 +49,9 @@ Elspeth, red to the ears, covering: *"No, my face is just naturally this red... 
 
 Over dinner, Lady Viper lays out what the party is walking into. **Eldoran** — the imperial capital — is one of the most heavily defended cities in the world, riddled with mechanisms that detect magic: magic weapons, magic items, and magic-wielders themselves. There's only one way for spellcasters of the party's caliber to get inside the walls: under the advocacy and sponsorship of one of Eldoran's aristocracy.
 
-The Twilight Company has already engineered an opening. A high-ranking noble is hosting an event where he's hiring mercenary companies to retrieve an artifact, and the Company has arranged for the party to attend. The job is to win that contract — and the crucial instruction is to **hold their punches**. They must look *less* capable than they are. A flashy, obviously elite team draws exactly the wrong attention.
+The Twilight Company has already engineered an opening. A high-ranking noble is hosting an event where he's hiring mercenary companies to retrieve an artifact, and the Company has arranged for the party to attend. The job is to win that contract — and the crucial instruction is to **hold their punches**. They must look *less* capable than they are. A flashy, obviously elite team draws exactly the wrong attention. When Olivia pokes her head in from the hallway to ask how they're supposed to win a job without looking capable, Viper — greeting her as "retired detective Olivia Cooper" — advises watching their peers and holding back just a little more than they do.
 
-The escort is **Agent Finnegan**, a former Twilight Company operative and a contact of George's. The rendezvous is **Little Cradle**, a trader's marketplace just outside Eldoran, at an inn called **A Little Soup**, where Finnegan keeps a room and will be waiting that evening. Jasper has supplied the names of a few trusted army contacts inside Eldoran. Lady Viper, however, is not coming — she's too recognizable from her own years "in the service," and her presence would sink the whole operation.
+The escort is **Agent Finnegan**, a Twilight Company operative and George's old contact in the Company. The rendezvous is **Little Cradle**, a trader's marketplace just outside Eldoran, at a pub called **A Little Soup**, with an inn above it where Finnegan keeps a room and will be waiting that evening. Jasper has supplied the names of a few trusted army contacts inside Eldoran. Lady Viper, however, is not coming — she's too recognizable from her own years "in the service," and her presence would sink the whole operation.
 
 > *"I want you to know, Elsie, that you're going into the mouth of the beast. This is dangerous. Be careful."*
 
@@ -59,11 +59,11 @@ The escort is **Agent Finnegan**, a former Twilight Company operative and a cont
 
 ### The Date Goes Sideways
 
-With the briefing done, the party makes a play to push the romance along — and overengineers it badly. Bru, shoved by one teammate and telekinetically nudged by another, sails off course and lands not where intended but directly in **Lady Viper's lap**, where she catches and cradles him like an infant.
+With the briefing done, the party makes a play to push the romance along — and overengineers it badly. Bru sneaks up to shove Elspeth's chair toward Viper, fumbles the push, and Silas's telekinetic assist sends Bru himself sailing off course — landing not where intended but directly in **Lady Viper's lap**, where she catches and cradles him like an infant.
 
 > *"Oh, hello Bru."*
 
-Elspeth, falling in the chaos, instinctively shields Mr. Slithers — and later ties an apology note around the snake's neck, having already nicknamed him "Sniglet":
+Elspeth leans back just in time to keep her seat, catching Bru's grasping hands in her own lap — and later ties an apology note around the snake's neck, having already nicknamed him "Sniglet":
 
 > *"Sorry about them... I'll take you on a real date when I get back. — L."*
 
@@ -73,11 +73,9 @@ Silas's verdict on the whole affair: *"That wasn't the ideal outcome, but it was
 
 ### The Long Road
 
-Lady Viper has left a motorized wagon for the day-long trip to Little Cradle. The party debates taking their own flashier vehicles — Elspeth's Bugatti among them — and wisely decides against it: the point is to stay invisible. They keep their own cars fueled and stowed in the **pocket village** for a fast exit, and take the inconspicuous wagon. The departure is pure theater anyway — out of an underground garage, through a waterfall, and down tunnels onto a dirt road out of the city, with Scarlet oversleeping and sprinting to catch up at the last second.
+Lady Viper has left a motorized wagon for the day-long trip to Little Cradle. The party debates taking their own flashier vehicles — the party's Bugatti among them — and wisely decides against it: the point is to stay invisible. They keep their own cars fueled and stowed in the **pocket village** for a fast exit, and take the inconspicuous wagon. The departure is pure theater anyway — out of an underground garage, through a waterfall, and down tunnels onto a dirt road out of the city, with Scarlet oversleeping and sprinting to catch up at the last second.
 
 On the road, the party builds its cover identity: a deliberately unimpressive mercenary company. After cycling through and rejecting a string of bad names, they settle on **Pupusa Possum** — a possum-themed outfit whose signature move is to play dead and shout "papoose time." Silas forges their mercenary guild registration documents while the wagon's moving (sleight of hand, 23). The world they're driving through is roughly a rustic 1950s-60s — Model-T-style automobiles are common, but coming from poorer Greyport, beat-up vehicles draw no suspicion at all.
-
-> *"I remember when this is a yellow brick road, not a gold road in a horse-drawn wagon."*
 
 ---
 
@@ -91,7 +89,7 @@ Silas spins a rags-to-riches story — humble folk out of Greyport, headed to El
 
 ### Little Cradle and the Man in Room 1012
 
-**Little Cradle** is the last stop before Eldoran: a merchant town stocked with everything the city won't allow inside — drugs, firearms, armaments — and crawling with mercenary companies kitting up for jobs (including a memorable pack of pink-dyed, sword-toting furries loudly going "meow" and nearly starting a brawl). At the base of a twenty-story brutalist tower sits the restaurant **A Little Soup**; the inn proper, **Little Spoon**, is higher up. Leliana takes point at the bar and gets the room number from the bartender. The party climbs ten flights of stairs — Constitution saves all around, Olivia carrying Silas piggyback and succeeding with disadvantage — to room **1012** and meets **Finnegan** ("Finn") in person for the first time.
+**Little Cradle** is the last stop before Eldoran: a merchant town stocked with everything the city won't allow inside — drugs, firearms, armaments — and crawling with mercenary companies kitting up for jobs (including a memorable pack of pink-dyed, sword-toting furries holding court in a front room and loudly going "meow"). At the base of a twenty-story brutalist tower sits the restaurant **A Little Soup**; the inn proper, **Little Spoon**, is higher up. Leliana takes point at the bar and gets the room number from the bartender. The party climbs ten flights of stairs — Constitution saves all around, Olivia carrying Silas piggyback and succeeding with disadvantage — to room **1012** and meets **Finnegan** ("Finn") in person for the first time.
 
 Finnegan lays out the real shape of the job. The noble hiring mercenaries is **Lord Bradicus**, who wants an artifact pulled from an old ruined library — once part of a college, now buried under rubble after a long-ago plague trapped people underground. The ruin is haunted: scary entities are drawn to the artifacts like a magnet. Bradicus is a sadist who is openly *hoping* mercenaries die. He intends to record the whole expedition with little drones and watch the carnage on a detached viewing device for his own amusement.
 
@@ -106,19 +104,20 @@ There's one more thread: **George** — the young man the party has rescued more
 > *"He has a 100% failure rate on missions."*
 > Finnegan, in his defense: *"I asked him to give me a sandwich once. He did it."*
 
+Olivia isn't taking it on faith. She demands to know how George reports in and leans on Finnegan until he gives it up (Intimidation 24, with a Flash of Genius assist from Elspeth): a **sending stone**. George checks in every Wednesday through a drop, and doesn't keep his end switched on. It's Sunday. Olivia pockets the stone and resolves to wait rather than shout into it and risk exposing him — and starts drafting a "disappointed in you" speech, framing him as well-meaning but dangerously untrained: *"He just wants to do things too quickly... you don't know what the hell you're doing in dangerous situations."*
+
 Olivia, fully embracing where this is all heading: *"Forget these fake moon people. They blew up my home and they blew up the moon."*
 
 ---
 
 ### The Rager
 
-With the plan set, the party settles in for the night and throws an absolute rager in the Little Soup pub. A few schemes get sorted in the noise:
+With the plan set, the party settles in for the night and throws an absolute rager in the Little Soup pub. A couple of loose ends get tied off around it:
 
-- **The sending stone:** Olivia decides to keep a sending stone in her pocket and wait for a critical drop of intel from a contact on Wednesday — refusing to shout into it and risk exposing him. She also drafts a "disappointed in you" speech for George, framing him as well-meaning but dangerously untrained: *"He just wants to do things too quickly... you don't know what the hell you're doing in dangerous situations."*
 - **The cats:** The party plans to non-lethally incapacitate a rival mercenary group's cats — out of respect for Olivia, settling on giving them "a really bad hangover" using Marvin's tonic from the Lotus, accessed through the pocket village's connection. Silas volunteers to fetch it.
 - **A revelation:** Leliana, on a history check, is revealed to be **Eldoran-born** — she's from this region and finds it familiar. *"You just never asked."* Elspeth immediately worries she'll be recognized inside the empire. (Olivia, for the record, is "too old" to pass for a local.)
 
-Next session: the party undertakes the **tuning exams** — described as something like a first-class mage's exam, an underground-ruins, treasure-room trial.
+Next session: the audition itself, starting at Lord Bradicus's city gates in the morning — a trial the table is already comparing to an anime-style underground-ruins, treasure-room exam.
 
 ---
 
@@ -126,13 +125,13 @@ Next session: the party undertakes the **tuning exams** — described as somethi
 
 - **Elspeth's date** is the warm center of the session. She arrives to a candlelit dinner in her coveralls, gets a snake up her leg and a hand on her shoulder, and spends the whole evening too flustered to form a sentence while the entire party stage-manages the romance over a Message spell. The plan ends with Bru in Lady Viper's lap instead of anything resembling a kiss — and Elspeth still finds the presence of mind to apologize to the snake on her way out.
 
-- **Silas at the checkpoint** is the session's quiet professional work. The forged guild papers written at speed in a moving wagon, the driver swap so Elspeth never has to lie, and the rags-to-riches backstory that lands a 22 — clean tradecraft that gets a wagon full of magic users and explosives past Eldoran inspectors without a ripple.
+- **Silas at the checkpoint** is the session's quiet professional work. The forged guild papers written at speed in a moving wagon, the driver swap so Elspeth never has to lie, and the rags-to-riches backstory that lands a 22 — clean tradecraft that gets a wagon full of magic users and a pocket-dimension capsule past Eldoran inspectors without a ripple.
 
-- **Bru as the lap-baby** is the comic high point. Shoved off-trajectory by his own teammates, he becomes the only "neutral outcome" of a date scheme that had no business going well, and Lady Viper rolling with it — cradling him and greeting him by name — is exactly the kind of grace the party didn't earn.
+- **Bru as the lap-baby** is the comic high point. Launched off-trajectory by his own wingman scheme and Silas's telekinesis, he becomes the only "neutral outcome" of a date scheme that had no business going well, and Lady Viper rolling with it — cradling him and greeting him by name — is exactly the kind of grace the party didn't earn.
 
 - **Olivia's turn toward the cause** is real character movement. The retired detective who spent the dinner eating a plate in the hallway is, by the end of the night, openly framing herself as a freedom fighter against the empire that destroyed her home. It's the most directly political any of them have gotten about the road ahead.
 
-- **Leliana being Eldoran** reframes the whole infiltration. The bard the party is most worried about getting recognized is the one who knows the streets best — a complication and an asset in the same breath, and a piece of backstory that was apparently sitting there the whole time, unasked.
+- **Leliana being Eldoran** reframes the whole infiltration. The bard the party is most worried about getting recognized is the one who's been here before — a complication and an asset in the same breath, and a piece of backstory that was apparently sitting there the whole time, unasked.
 
 ---
 

@@ -6284,7 +6284,7 @@
             "heroism": "I'm gonna I'm gonna double bonus action and toss the grenade launcher to Elf.",
             "comedy": "Every day of the week.",
             "immersion": "I got to refill all the bomb all the explosives materials that I used up.",
-            "strategy": "I had a plan of while we were on our way, I was going to hook up the grenade launcher or rocket launcher to also shoot biolescence.",
+            "strategy": "I had a plan of while we were on our way, I was going to hook up the grenade launcher or rocket launcher to also shoot violescence.",
             "curiosity": "What are you even reading, Scarlet?"
           },
           "Topher": {
@@ -6483,7 +6483,7 @@
             "chaos": "Um, mutation, Scarlet. We need to we need you to stay hot for just a moment longer. No, we're getting contacts that should exist in this setting, right?",
             "heroism": "I mean, honestly, yes. We are spoiled with like baddies that we can contact to do this.",
             "comedy": "You say that as though I was being facitious in some way. I wasn't. Elspeth is out there just like taking names and kicking ass all the time.",
-            "immersion": "Um, this is where uh our old gang used to uses basically our unofficial headquarters, the Kogan Steam. Um, they were all murdered uh by Helga and the Ironclaws except for Bru and uh me and uh apparently Thander, who uh is like a f****** baker now.",
+            "immersion": "Um, this is where uh our old gang used to uses basically our unofficial headquarters, the Kogan Steam. Um, they were all murdered uh by Helga and the Ironclaws except for Bru and uh me and uh apparently Sander, who uh is like a f****** baker now.",
             "strategy": "Okay. So, the main goal is to try to see if we can figure out where their main base of operations is. So, maybe we should kind of spread out and just see if anyone happens to be talking about it, you know?",
             "curiosity": "Um, you know, that makes sense. I guess it's just it seems like a weird amount of twins to all be in the same spot."
           },
@@ -6610,6 +6610,7 @@
           "Scarlet": 15,
           "George": 13,
           "Victor": 8,
+          "Finnegan": 5,
           "Iro": 4,
           "Naomi": 1
         },
@@ -6807,6 +6808,7 @@
       "attendance_source": "transcript",
       "mentions": {
         "npcs": {
+          "Finnegan": 11,
           "Scarlet": 9,
           "Naomi": 5,
           "George": 3,
@@ -7215,9 +7217,12 @@
       "mentions": {
         "npcs": {
           "George": 11,
+          "Captain Steel": 5,
           "Scarlet": 3,
+          "Finnegan": 2,
           "Astro": 1,
-          "Chalk Rock": 1
+          "Chalk Rock": 1,
+          "Steven Goldspring": 1
         },
         "locations": {},
         "pcs": {
@@ -7433,6 +7438,8 @@
         "npcs": {
           "George": 47,
           "Victor": 15,
+          "Captain Steel": 4,
+          "Finnegan": 4,
           "Lady Viper": 4,
           "Chalk Rock": 1,
           "Naomi": 1,
@@ -7682,6 +7689,7 @@
         "npcs": {
           "Scarlet": 37,
           "Victor": 10,
+          "Captain Steel": 2,
           "George": 2,
           "Astro": 1,
           "Iro": 1,
@@ -7861,6 +7869,7 @@
         "npcs": {
           "George": 16,
           "Scarlet": 10,
+          "Captain Steel": 5,
           "Lady Viper": 3,
           "April Bonal": 1
         },
@@ -7943,6 +7952,8 @@
         "npcs": {
           "George": 35,
           "Scarlet": 24,
+          "Finnegan": 8,
+          "Captain Steel": 4,
           "Lady Viper": 3,
           "Iro": 1,
           "Victor": 1
@@ -8179,8 +8190,11 @@
       "mentions": {
         "npcs": {
           "Scarlet": 16,
+          "Captain Steel": 11,
           "Victor": 4,
-          "George": 3
+          "George": 3,
+          "Finnegan": 1,
+          "Fredo Boggins": 1
         },
         "locations": {
           "High Forge": 1
@@ -8518,11 +8532,15 @@
       "Astro": 63,
       "Naomi": 60,
       "Chalk Rock": 35,
+      "Captain Steel": 31,
+      "Finnegan": 31,
       "Bafael": 16,
       "Bon Bonnery": 9,
       "April Bonal": 4,
       "Lady Corwin": 4,
-      "Ben Boulage": 3
+      "Ben Boulage": 3,
+      "Fredo Boggins": 1,
+      "Steven Goldspring": 1
     },
     "top_locations": {
       "Greyport": 74,

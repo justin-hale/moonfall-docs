@@ -1,6 +1,6 @@
 # Campaign Knowledge Base
 
-Last updated: 2026-04-04
+Last updated: 2026-09-28
 
 ## Character Roster
 
@@ -40,7 +40,11 @@ Christopher "Topher" Hooper (Google Meet: Christopher Hooper). Sometimes players
 | Ach'uk (Ruthalk) | Primordial entity, Helisanna's warlock patron | achuk.md | |
 | Helja Ungar | Iron Claws leader (deceased Session 36) | helja-ungar.md | |
 | Zeke | Suspected assassin, murdered Red's adoptive parents | zeke.md | |
-| George | Olivia's nephew, dimensional rift investigator | george.md | |
+| George | Olivia's grandson (calls her "Grandma"; youngest of her grandchildren), dimensional rift investigator, Twilight Company plant in the Eldoran city guard (Session 58). Species never stated — do not call him half-elf | george.md | |
+| Captain Steel | Eldoran officer, gaunt and half-machine (he/him). Murdered Leliana's brother, Lieutenant Steven Goldspring (Session 57); resides at the university (Session 58). ALWAYS "Captain" — the DM confirmed it in Session 62. NOT the head scientist, and the head scientist's wife is not his wife | — | "Commander Steel" |
+| Steven Goldspring | Leliana's late brother, a lieutenant; left her the Blue Moon guitar (Session 57). Transcripts also spell him "Stephen" | — | |
+| Finnegan | Active Twilight Company agent Lady Viper sends with the party; supplies the bomb-making materials (Session 54). Male | — | |
+| Fredo Boggins | Tony-icon shop owner in the Eldoran capital; sold the dampening stickers (Session 60) | — | |
 | Ben Boulage | Private detective, party contact in the Eldoran capital; arranged the Bon Bonnery meet (Session 59). Disguises himself as a blonde woman as "standard cover" | — | "Bin Bullage", "Bim Bulage", "Ben Bulage" |
 | Bon Bonnery | Actor and inside man at the Eldoran spaceport factory (Session 59) | — | "Bon Bonner", "Bon Boner", "Pon Poty" |
 | April Bonal | Chemist, escaped captive | april-bonal.md | |
@@ -81,6 +85,11 @@ These are systematic speech-to-text mistakes that appear in generated notes:
 | Bin Bullage / Bim Bulage / Ben Bulage | Ben Boulage | NPC private detective — party contact in the Eldoran capital |
 | Bon Bonner / Bon Boner / Pon Poty | Bon Bonnery | NPC actor — inside man at the spaceport factory |
 | Tyram | Taylor Ramsey | Google Meet name — never print the Meet handle in a recap |
+| Commander Steel | Captain Steel | NPC rank — players say "Commander"; the DM always says "Captain" |
+| Thander | Sander | Surviving member of Silas and Bru's old crew |
+| El Smith Koopa | Elspeth Cooper | Radio-ad speech-to-text, Session 53 (the same line mishears "racer" as "racist") |
+| Casin / Caspia | Caspian | Caspian Shores, Iro's aunt |
+| biolescence | violescence | The DM's term (Sessions 48–53, 61) |
 
 ## Active Plot Threads
 - **Astro**: Dragon imprisoned in Raingoth (Silas's orb). Silas attempting dialogue. Bru unknowingly carries the orb (dragon scent). Others speaking to Astro through other orbs.
@@ -94,6 +103,55 @@ These are systematic speech-to-text mistakes that appear in generated notes:
 ## Session Correction Log
 
 Corrections applied via `/fix-notes` are logged here for pattern detection.
+
+### Sessions 53–62 audit (2026-09-28)
+A full audit of the ten most recent recaps against their transcripts, triggered by the user reporting "Commander Steel" (should be Captain Steel). Sessions 58–62 carry a signed correction notice; sessions 53–57 predate the arc and were fixed silently.
+
+**Cross-session**
+- Fixed: "Commander Steel" → "Captain Steel" in sessions 58, 61, 62 and throughout `data/campaign-state.md` [user-reported; the DM confirms "It's Captain Steel" in the Session 62 transcript]
+- Fixed: `data/campaign-state.md` treated Captain Steel and "Commander Steel" as possibly two people, made Steel the university's head scientist, and made the head scientist's wife Steel's wife — none of which was said [confirmed against transcript]
+- Fixed: George is Olivia's grandson, not her nephew (here, in `docs/npcs/george.md`, and in campaign-state), and not "George Fairbanks" or a half-elf [confirmed against transcript, Session 58]
+- Fixed: the `data/campaign-state.md` summaries for Sessions 53–57 described events that never happened (a dungeon, a broadcast death-game) — rewritten from the corrected recaps
+
+**Session 53 (2026-05-15)**
+- Fixed: the surprise party is Scarlet's birthday, not Silas's; gift givers corrected (pocket protector from Silas, bracers from Silas and Olivia, brown from Bru); the hug is Scarlet and Bru
+- Fixed: Ellis Taylor removed from Players Present (absent); the session is the same day as Luna's rescue, not the morning after
+- Fixed: Elspeth, not Scarlet, stays outside with Olivia; "Thunder" → Sander; Silas has no twin; Silas's check was Performance, not Deception; Elspeth, not Olivia, names Gregor; "You made a moon" is Elspeth's line; "Caspia" → Caspian; radio-ad transcription garble fixed
+
+**Session 54 (2026-05-29)**
+- Fixed: Bru shoved Elspeth's chair and Silas's Mage Hand threw Bru into Viper's lap (recap had it reversed); Elspeth did not fall
+- Fixed: Finnegan is a current agent, and the bomb materials are his; "tuning exams" removed (out-of-game anime reference); Olivia takes George's sending stone from Finnegan, not a Wednesday "intel drop"; Little Soup (pub) vs Little Spoon (inn) reconciled
+
+**Session 55 (2026-06-05)**
+- Fixed: Bru is present (DM-voiced), not sitting out; "Christopher" (the DM's name) removed from the narrative; the "honest man" quote is Silas about Naomi, not about Finnegan
+- Fixed: Olivia meets Paul in the morning gym; the "Carl" flub was not an alias flub (Paul called her "Becca Vincson"); the Arcana 26 was Bru's; Leliana's Insight 30, not Silas's 20, exposed the staged feud; Finnegan used a prepared invitation, not a bluff
+
+**Session 56 (2026-06-26)**
+- Fixed: Blade belonged to the frog team and stays dead; Paul is alive; fireworks went into the cowboys' Dodge Ram; Bob is Olivia's steed; Elspeth, not Leliana, stows the books and offers her chapter; Olivia, not "Luke", found the statue's hidden door; Leliana's Deception was 32
+
+**Session 57 (2026-07-17)**
+- Fixed: Bru, not Silas, chased the runner into the Dead Forest; the Blue Moon guitar was willed to Leliana; the birthday card was found hours earlier, not months; the phantom dog is not Straenona; psychic damage limited to the two actual hits
+
+**Session 58 (2026-07-24)**
+- Fixed: "Ellis" → Olivia in narrative; the "use your lips" line is the server Odette's; invented dinner quote removed; Needle's dart hit Jesse, not Paul; the 35-gold bribe was paid (successfully) by the neighboring elves; Bru never went through the window; Toothy's place is an apartment (room 238) beside a church-turned-community-center; Elspeth named herself "getaway girl"; Scarlet was not in the session
+
+**Session 59 (2026-08-14)**
+- Fixed: the tape-recorder narration over coffee and a waffle was Ben Boulage's, not Olivia's (the earlier correction missed this passage; the DM acknowledged it in the Session 60 transcript)
+- Fixed: the Hairy Monkey meeting was a morning cover date, not an evening; the lead box was to hold the pee hole (Astro/orb removed); the "shock me?" line is Bru's to a jellyfish-person; Bru and Olivia rode inside the pee hole; the pod is the overseer's mobile office; the session ends on a cliffhanger, not a retreat
+- Amended: this log's earlier Session 59 pattern note says Ellis "did not speak until well after this scene". She was present but muted — she is addressed and rolls from the start; only her audio begins late
+
+**Session 60 (2026-08-21)**
+- Fixed: Players Present listed Luke, Ellis and Zack, who were all absent (the DM voiced Leliana and Scarlet)
+- Fixed: Captain Steel was seen near a corner office off the factory floor, not in the furnace chamber; Elspeth's Sleight of Hand was 16, not 8; Scarlet paid the 200 gold; the two-stage bomb design was Silas's; the "shift manager" was Leliana and an administrator; sticker count reconciled
+
+**Session 61 (2026-08-28)**
+- Fixed: the head scientist's wife attends Elspeth's lunch, not "Commander Steel's wife" at Leliana's; "Isn't that weird?" is Elspeth's line; the goblin-mines joke is Bru's; the Deception 30 was Elspeth's 21 plus Leliana's bardic die; "Donald" is the escort guard Derek; key-card lift was Sleight of Hand 32; "biolescence" → violescence; Scarlet restored as the nun chaperone; the Steel revelation dated to Session 57
+- Open: "Eichek, a god of passion and music" may be Ach'uk — left as-is pending DM confirmation
+
+**Session 62 (2026-09-18)**
+- Fixed: Justin and Ellis removed from Players Present (absent); "We're killing infrastructure" is Elspeth's; the Tony meeting was at a mechanic shop off the park boulevard, with Elspeth undisguised; Elspeth confided her Lady Viper attachment to Scarlet (not the reverse); the lake swimsuit disguise and splashing were Elspeth's; Elspeth told the Taco Cat legend herself; Steel is not the head scientist
+
+**Pattern:** credit drifts to whoever is nearest in the scene or already holds the thread — an adjacent table's bribe, the church next door, the server's words handed to the grandmother beside her, Elspeth's actions handed to Leliana or Scarlet. Absent players are listed as present and credited with DM-voiced actions, and players' guesses (Steel as head scientist) harden into fact. Check the Players Present list against who actually speaks in the transcript, and check who at the table actually said or did the thing. Player and DM names (Christopher, Ellis, Luke) must never stand in for a character in the narrative, and table talk ("tuning exams" = an anime reference) is not an in-world event.
 
 ### Session 59 (2026-08-14)
 - Fixed: "Ben Boulage" misidentified as Olivia's alias → Boulage is a DM-run NPC private detective; the blonde-woman disguise, the cover date with Bon Bonnery, and the extracted intelligence are all his [user-reported]
