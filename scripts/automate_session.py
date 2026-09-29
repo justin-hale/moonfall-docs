@@ -614,6 +614,7 @@ Follow this exact structure:
 - Eldoran is ALWAYS "Eldoran", NEVER "Elderan"
 - Greyport is ALWAYS "Greyport", NEVER "Grayport"
 - Astro is ALWAYS "Astro", NEVER "Astra"
+- Leliana and Helisanna are ONE woman with two personas, both played by Luke Neverisky (see "Leliana and Helisanna" in the Knowledge Base). Name whichever persona is acting; never treat Helisanna as departed, as an NPC, or as Leliana's patron
 
 ## Writing Guidelines:
 - Use concrete details from the transcript only. Do NOT invent events, characters, or locations.
