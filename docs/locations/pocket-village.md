@@ -1,7 +1,7 @@
 ---
 title: Pocket Village
 description: Pocket dimension built by Scarlet, Bru and Elspeth that shapes itself to its visitors; opened in Session 45, carried by Scarlet as a capsule, and where Luna first spoke again
-aliases: ["pocket village", "Stellaro"]
+aliases: ["pocket village", "Stellaro", "pocket village capsule"]
 ---
 
 # Pocket Village

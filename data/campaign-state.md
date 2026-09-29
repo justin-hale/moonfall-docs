@@ -260,7 +260,7 @@ Luke's original character, Helisanna Doomfall, split in two in Session 34. From 
 
 ### 3. Captain Steel
 **Status:** Alive; the vendetta is unresolved (Session 63)
-Steel is gaunt and half-machine. He murdered Leliana's brother, Lieutenant Steven Goldspring, and turned Steven's research into the Empire's "moon laser" (Session 57). He is stationed at the university research center (Session 58). Silas promised to back Leliana if she got a chance to kill him ("I'll put on Helisanna mode", Session 62). In Session 63 he questioned Bru at the factory, tore the furnace door open one-handed and flew off; he was not at the tower. Silas: "We still got to find another opportunity to get Helisanna's revenge."
+Steel is gaunt and half-machine. He murdered Leliana's brother, Lieutenant Steven Goldspring, and turned Steven's research into the Empire's "moon laser" (Session 57). He is stationed at the university research center (Session 58). Silas promised to back Leliana if she got a chance to kill him ("I'll put on Helisanna mode", Session 62). In Session 63 he sent the factory foreman away from his office door, then came out to berate Olivia, tore the furnace door open one-handed and flew off, spotting Bru outside just before Bru escaped with *Misty Step*; he was not at the tower. Silas: "We still got to find another opportunity to get Helisanna's revenge."
 
 ### 4. George
 **Status:** Undercover in the barracks; fate after the blast unknown (Session 63)
@@ -272,7 +272,7 @@ Denlin raced "Belspeth Booper", a lookalike he raised and named, under Elspeth's
 
 ### 6. The Stolen Sun
 **Status:** Held in Scarlet's Secret Chest (Session 63)
-The factory furnace was a power core under stasis magic (Session 60). Up close it was a miniature sun the size of a school bus that also charges the rocket-engine crystals (Session 63). Bru shrank it with *Reduce*, hid it in a *Rope Trick* and told the foreman, a coworker named Tuni and Captain Steel that the furnace had "collapsed". Scarlet stored it with *Leomund's Secret Chest*. No use has been decided.
+The factory furnace was a power core under stasis magic (Session 60). Up close it was a miniature sun the size of a school bus that also charges the rocket-engine crystals (Session 63). Bru shrank it with *Reduce*, hid it in a *Rope Trick* and told the foreman and a coworker named Tuni that it had got really big, then really small, and was gone; the foreman called it a collapse. Captain Steel never questioned him. Scarlet stored it with *Leomund's Secret Chest*. No use has been decided.
 
 ### 7. The Eldoran War Machine
 **Status:** Partly mapped; the long-term target
@@ -413,7 +413,7 @@ The moon exploded in Session 16. At Luna's underwater crash site the party resea
 
 
 #### Session 63 Updates
-- **Bru**: Posed as an "entropy mechanic"; flew to the top of the sun to plant the internal bomb, then shrank and stole it instead. He kept up the "collapse" story under Steel's questioning and won over Tuni (Persuasion 18).
+- **Bru**: Posed as an "entropy mechanic"; flew to the top of the sun to plant the internal bomb, then shrank and stole it instead. He held his story together under questioning from the foreman and Tuni, won the foreman over with a shared drink (Persuasion 18), and escaped Captain Steel with *Misty Step*.
 - **Olivia Cooper**: Talked herself and Bru into cover roles; planted the casing bomb; pulled the tower's fire alarm.
 - **Silas Fairbanks**: Rode the elevator roof and planted the tower bomb where Olivia suggested; "I'm so happy for you right now, buddy," to Bru.
 - **Leliana**: Played a guitar riff as the tower fell.

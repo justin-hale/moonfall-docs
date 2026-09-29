@@ -114,7 +114,7 @@ These are systematic speech-to-text mistakes that appear in generated notes:
 | biolescence | violescence | The DM's term (Sessions 48–53, 61) |
 
 ## Active Plot Threads
-- **Astro**: Dragon imprisoned in Raingoth (Silas's orb). Silas attempting dialogue. Bru unknowingly carries the orb (dragon scent). Others speaking to Astro through other orbs.
+- **Astro**: Dragon imprisoned in Raingoth (Silas's orb). Silas attempting dialogue. Silas carries the orb (Sessions 41–47); his Session 47 claim that he had slipped it into Bru's bag contradicts earlier play. Others speaking to Astro through other orbs.
 - **Lady Viper / Twilight Company**: Planning strike against Eldoran Empire. Party meeting leadership.
 - **Iron Claws aftermath**: Unfinished business in Greyport after Helja's death (Session 36).
 - **Elspeth's impostor**: Someone racing under her name — unresolved.
@@ -131,6 +131,7 @@ Corrections applied via `/fix-notes` are logged here for pattern detection.
 - Fixed: "demonstrated her dual identity in the field" — no persona switch happens in Session 63; replaced with her World Tree scouting [confirmed against transcript]
 - Fixed: Captain Steel never questioned Bru. He sent the foreman away through his office door, berated Olivia, tore the furnace door open and flew off, then spotted Bru just before Bru escaped with Misty Step [confirmed against transcript]
 - Fixed: the drink and the persuasion 18 were with the foreman, not Tuni; "collapsed" was the foreman's word, not Bru's; the quote is Olivia's "Yes. I just pour the forges." in answer to Steel; "lying to a superior officer" → to his foreman [confirmed against transcript]
+- Fixed (2026-09-29, second pass): the Session 63 `summary:` frontmatter still had the party escaping by driving the Bugatti off the tower [confirmed against transcript]
 - Fixed: Ali Leonard/Elspeth listed as present — she never speaks in the Session 63 transcript; Elspeth's "vibing with the soldiers" was Taylor describing last session's lake party to Ellis; the Bugatti never cleared the wall — the jump was proposed after the DM ended the session [confirmed against transcript]
 - Fixed across the site: Helisanna was described as "departed", "fully possessed" or an antagonist, and Leliana as "the original personality" living in a separate body. The canon is now one player, one woman, two personas (see "Leliana and Helisanna" above) [confirmed against transcripts, Sessions 34, 35, 56–58, 63]
 
