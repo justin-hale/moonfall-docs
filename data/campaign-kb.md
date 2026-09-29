@@ -13,8 +13,8 @@ Christopher "Topher" Hooper (Google Meet: Christopher Hooper). Sometimes players
 | Silas Fairbanks | Taylor Ramsey | Tyram | "Silus", "Cyrus" | silas.md | Halfling rogue/sorcerer, band manager |
 | Bru (Felonias Bru) | Justin Hale | Justin Hale | "Brew", "Bruce" | bru.md | Goblin artificer. ALWAYS "Bru", NEVER "Brew" |
 | Elspeth Cooper | Ali Leonard | Ali Leonard | "Ellsworth", "Elizabeth" | elspeth.md | Dwarf artificer/gunslinger. ALWAYS "Elspeth", NEVER "Ellsworth" or "Elizabeth" |
-| Leliana Goldspring | Luke Neverisky | Luke Neverisky | "Liliana", "Lily Anna", "Leanna" | leliana.md | Bard (College of Glamour). ALWAYS "Leliana", NEVER "Liliana". One of Luke's two personas — see "Leliana and Helisanna" below. Goes by "Lily" undercover (Session 55) |
 | Helisanna Doomfall | Luke Neverisky | Luke Neverisky | "Helisana", "Alisana", "Halisana", "Helisada" | helisanna.md | Bard/warlock, frontwoman of Doomfall, patron Ach'uk. Luke's original character (Session 1) and now Leliana's other persona — see below |
+| Leliana Goldspring | Luke Neverisky | Luke Neverisky | "Liliana", "Lily Anna", "Leanna" | leliana.md | Bard (College of Glamour). ALWAYS "Leliana", NEVER "Liliana". One of Luke's two personas — see "Leliana and Helisanna" below. Goes by "Lily" undercover (Session 55) |
 | Olivia Cooper | Ellis Taylor | Ellis Taylor | "Olivia" | olivia.md | Dwarf paladin, retired detective |
 | Ohma Kapua | Zack | Walden Briarhelm | "Oma", "Ohm" | ohma.md | Tortle monk. Joined Session 26 |
 
@@ -28,6 +28,7 @@ Luke Neverisky plays **one woman with two personas**. Write about them this way:
 - **Appearance:** Helisanna — pale skin, white hair, dark colours, purple veins. Leliana — tan, blonde, colourful, "bright and summery". Same face and build.
 - **"Anna":** proposed by Bru and Elspeth in Session 58 as a name covering both, and approved at the table, but not used since. The table calls her Leliana/"Lily" or Helisanna depending on who is out.
 - **Open:** whether the separate Helisanna seen in Session 56 merged into her or still exists, and Ach'uk's current hold ("you'll have to wait and see", Session 58).
+- **Roster order matters:** keep the Helisanna row above Leliana's in the table above. The transcript cleaner and the stats extractor map Luke's Meet name to the *last* row that names him, and his transcript lines belong to Leliana from Session 34 on (lines before that are credited to Helisanna by `DATED_SPEAKER_OVERRIDES` in `scripts/extract_session_stats.py`).
 - **In recaps:** name whichever persona is acting ("Leliana, switching to Helisanna, …"). Never treat Helisanna as departed, as an NPC, or as Leliana's patron, and never call her "the original" — the DM said neither is.
 
 ### Player Characters (Departed/Inactive)
