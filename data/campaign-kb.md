@@ -132,6 +132,7 @@ Corrections applied via `/fix-notes` are logged here for pattern detection.
 - Fixed: Captain Steel never questioned Bru. He sent the foreman away through his office door, berated Olivia, tore the furnace door open and flew off, then spotted Bru just before Bru escaped with Misty Step [confirmed against transcript]
 - Fixed: the drink and the persuasion 18 were with the foreman, not Tuni; "collapsed" was the foreman's word, not Bru's; the quote is Olivia's "Yes. I just pour the forges." in answer to Steel; "lying to a superior officer" → to his foreman [confirmed against transcript]
 - Fixed (2026-09-29, second pass): the Session 63 `summary:` frontmatter still had the party escaping by driving the Bugatti off the tower [confirmed against transcript]
+- Fixed: the tower bomb was remote-detonated with the others, not a "delayed charge" [confirmed against transcript]
 - Fixed: Ali Leonard/Elspeth listed as present — she never speaks in the Session 63 transcript; Elspeth's "vibing with the soldiers" was Taylor describing last session's lake party to Ellis; the Bugatti never cleared the wall — the jump was proposed after the DM ended the session [confirmed against transcript]
 - Fixed across the site: Helisanna was described as "departed", "fully possessed" or an antagonist, and Leliana as "the original personality" living in a separate body. The canon is now one player, one woman, two personas (see "Leliana and Helisanna" above) [confirmed against transcripts, Sessions 34, 35, 56–58, 63]
 
