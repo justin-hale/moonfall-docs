@@ -214,3 +214,19 @@ def test_update_wiki_pages_survives_a_failed_call(automation, monkeypatch):
 
     assert automation.update_wiki_pages(64, "Iro fixed things.") == []
     assert "Session History" not in (npcs / "iro.md").read_text()
+
+
+# --------------------------------------------------------------------------- #
+#  Transcripts with unnamed speakers                                           #
+# --------------------------------------------------------------------------- #
+
+def test_generation_prompt_explains_unidentified_speakers(automation):
+    transcript = "**Christopher Hooper:** Roll.\n\n**Unidentified Speaker:** Nineteen."
+    prompt = automation.build_generation_prompt(transcript, 62, False)
+    assert auto.UNIDENTIFIED_SPEAKER_NOTE in prompt
+
+
+def test_generation_prompt_omits_the_note_when_every_speaker_is_named(automation):
+    transcript = "**Christopher Hooper:** Roll.\n\n**Ali Leonard:** Nineteen."
+    prompt = automation.build_generation_prompt(transcript, 62, False)
+    assert auto.UNIDENTIFIED_SPEAKER_NOTE not in prompt
