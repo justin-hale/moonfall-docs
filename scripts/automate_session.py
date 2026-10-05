@@ -306,13 +306,18 @@ summary: "[Summary to be generated]"{podcast_line}
         kwargs = {}
         if timeout is not None:
             kwargs["timeout"] = timeout
-        response = self.client.messages.create(
+        # Streamed so the recap call can ask for a max_tokens large enough to
+        # hold Sonnet 5's thinking and the recap together: the SDK refuses a
+        # non-streaming request with a cap that size. get_final_message()
+        # returns the same Message that messages.create() would have.
+        with self.client.messages.stream(
             model=model,
             max_tokens=max_tokens,
             system=system,
             messages=messages,
             **kwargs,
-        )
+        ) as stream:
+            response = stream.get_final_message()
         return self._extract_text(response, model)
 
     @staticmethod
@@ -1028,9 +1033,10 @@ Respond in this EXACT format (no other text):
                 system=system_prompt,
                 messages=[{"role": "user", "content": user_prompt}],
                 # Headroom: max_tokens caps thinking + response text together,
-                # and Sonnet 5 thinks by default, so the old 8192 left the
-                # recap itself at risk of truncation.
-                max_tokens=16000,
+                # and Sonnet 5 thinks by default. 16000 was not enough: on
+                # Session 64 thinking used ~14k of it and the recap stopped
+                # after ~1,750 tokens (Session 62 failed the same way).
+                max_tokens=64000,
                 timeout=timeout_minutes * 60,
             )
             elapsed = time.time() - start_time
