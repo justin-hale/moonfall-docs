@@ -1,218 +1,53 @@
 ---
 title: Victor
-description: Former Twilight Company operative and resistance explosives expert
-sidebar_position: 3
+description: Eccentric Twilight Company explosives man who works from a lab beneath the Greyport Zoo under Lady Viper and counts Bru as his dearest friend
 ---
 
 # Victor
 
-*Human • Explosives Expert • Independent Resistance Fighter*
+*Twilight Company • Explosives and Instruments • Greyport*
 
 ## Overview
 
-**Victor** is a former Twilight Company operative who now conducts independent resistance operations against the Iron Claws in High Forge. Specializing in explosives and sabotage, he operates from the underground tunnel systems and coordinates with various resistance cells while maintaining his independence.
+**Victor** is a scattered, excitable [Twilight Company](/organizations/twilight-company) inventor and explosives maker. He was the party's Twilight Company contact in [High Forge](/locations/high-forge), then helped run the resistance's bombing campaign there. He now works out of a lab beneath the [Greyport](/locations/greyport) Zoo and takes his orders from [Lady Viper](/npcs/lady-viper). As of Session 63 he is in Greyport and did not join the Eldoran infiltration. His bomb designs travelled to the capital anyway, and the party set them aside for [Bru](/player-characters/bru)'s. He considers Bru a dear friend. Most of the party, [Silas](/player-characters/silas) above all, find him exhausting.
 
-## Background
+## High Forge
 
-### Twilight Company Connection
-- Former operative for the mysterious Twilight Company
-- Left organization to pursue independent operations
-- Maintains some methods and connections from training
-- Unclear why he departed from Twilight Company
+- **The dragon attack ([Session 7](/sessions/session-7)).** During the dragon attack on High Forge, the party drove into the burning Market Ward to pull Victor out of [Little Hovel](/locations/little-hovel). He was trying to save an armful of essential and ridiculous things: Girl Scout cookies, a piranha gun, and a folder of old tunnel maps whose value he didn't recognize. The maps got the party out through the mines. Victor identified [Silas](/player-characters/silas)'s stolen orb as a communication device to another plane or being.
+- **The radio call ([Session 24](/sessions/session-24)).** Bru overheard him on the radio asking a female associate for sulfur. Victor was staying in occupied High Forge, making explosives to hit Iron Claws strongholds, and he offered help with the party's schematics in exchange for their help.
+- **The bombing campaign ([Sessions 26](/sessions/session-26)–[28](/sessions/session-28)).** At the [resistance](/organizations/resistance) headquarters he ran a chaotic underground lab, dressed in stacked goggles and a singed lab coat. He vetted the party with a chalk-circle Zone of Truth and proposed destroying the Iron Claws' three V production facilities. He started all three bomb timers at once, and his yield calculations were badly off: the first blast rained purple snow over three city blocks. The third "target" turned out to be his own crystal refinement lab. Then he left a note ("Off to get sulfur. Be back later. Take a helmet.") and a communication crown.
+- **Dragon dung ([Session 32](/sessions/session-32)).** The party found him collecting dragon dung for explosives. He talked about his history with the Twilight Company and his current independent work, mentioned plans to travel to Greyport, and confirmed that [Lady Corwin](/npcs/lady-corwin) had been working for the [Eldoran Empire](/organizations/eldoran-empire).
 
-### Expertise
-- **Explosives Manufacturing**: Creates bombs from available materials
-- **Sabotage**: Targets Iron Claws operations strategically
-- **Tunnel Systems**: Expert navigator of High Forge underground
-- **Guerrilla Tactics**: Effective at hit-and-run operations
+## Greyport
 
-## Operations
+- **Messages and the sending stone.** Bru's recovered recording machine held messages from Victor ([Session 37](/sessions/session-37)). In [Session 40](/sessions/session-40), Bru called him on an ostentatious Victor-branded sending stone and found him at the zoo ("I love the zoo. I've got a membership."), after a dragon egg for an "omelette" experiment. In [Session 42](/sessions/session-42), the party threw Bru's stone down to Luna's remains, which made Victor's paired stone the party's line to her.
+- **The lab under the zoo ([Session 43](/sessions/session-43)).** The party tracked him to a hidden lab beneath the chimera exhibit, reached by a trapdoor, where a holographic decoy of him sat on the bench. Inside were violescent orbs, gun designs for firing them, and two unsent letters to Bru, one nostalgic and one asking him to lunch and to bring his dowsing rod. His journal said he knew he was being watched. A door from the lab opened straight into the Twilight Company's facility beneath the zoo.
+- **Handing over the stone ([Session 45](/sessions/session-45)).** Victor gave Silas the sending stone without protest. He had taken the zoo's security guard, who once shadowed him, under his wing and was trying to find him a place in the Navy. He showed the party his tracking of Eldoran space station teleport sites and his monitoring of dimensional rifts, and lent his calibration instruments to [Scarlet](/npcs/scarlet), which helped stabilize the [pocket village](/locations/pocket-village).
+- **The pocket village ([Session 46](/sessions/session-46)).** He turned out to have been hiding in a bush in the pocket village through the whole void-being battle. He used the stone link to reach [Luna](/npcs/luna) and revealed that he now works with Lady Viper ("Lady Viper tells me how to blow things up now"), which left Bru in tears.
+- **Twilight Company headquarters ([Session 47](/sessions/session-47)).** He escorted the party to headquarters as their liaison, couldn't remember the seasonal password, and was sent back to his lab afterward.
 
-### Resistance Activities (Session 24)
-**First Contact with Party**:
-- Encountered party investigating High Forge
-- Explained Iron Claws control of city
-- Manufacturing explosives to target Iron Claws operations
-- Plans to attack Iron Claws-controlled churches and nightclubs
+## In the Eldoran Capital (by proxy)
 
-**Recruitment Offer**:
-- Proposed helping party with advanced schematics
-- Offered assistance with resistance operations
-- Provided information about tunnel infiltration routes
-- Mentioned old tunnel system for covert entry
+In [Session 58](/sessions/session-58), the safehouse keeper [Toothy](/npcs/toothy) handed the party Victor's bomb designs: pressure-cooker devices sketched in the margins of a page torn from a religious text. According to [George](/npcs/george), Victor had sent the supply list and instructions ahead. Toothy added that Victor had stayed at the safehouse once "and he ruined his room." The party made Bru their explosives expert. In [Sessions 59](/sessions/session-59) and [60](/sessions/session-60), they chose Bru's synchronized remote detonators over Victor's timer-based designs. Silas: *"Anything that's even remotely like what Victor would do makes me think it's a bad idea."*
 
-### Strategic Targets
-- Iron Claws-controlled religious buildings
-- Nightclubs under gang control
-- Strategic disruption rather than mass destruction
-- Focus on weakening organizational control
+## Relationships
 
-## Relationship with Party
+- **[Bru](/player-characters/bru)**: Victor treats him as his dearest friend and "compatriot" and writes him letters he never sends. Bru was hurt to learn that Victor had "moved on" to Lady Viper.
+- **[Silas](/player-characters/silas)**: Avoids talking to Victor as much as possible.
+- **[Lady Viper](/npcs/lady-viper)**: His current director in the Twilight Company.
 
-### Session 24 Meeting
-- Helped party understand Iron Claws situation
-- Offered alliance against common enemy
-- Provided tunnel access information
-- Connected party to broader resistance network
+## Session History
 
-### Session 26
-- Party used information he provided
-- Tunnel infiltration successful
-- Resistance headquarters accessed
-- Ongoing coordination implied
-
-### Session 32 Encounter
-**Dragon Dung Collection**:
-- Spotted by party collecting dragon dung for explosives
-- Revealed chaotic but well-intentioned plans
-- Discussed sabotage of Iron Claw operations
-- Mentioned plans to travel to Greyport
-
-## Methods and Philosophy
-
-### Explosive Creation
-- Uses dragon dung as explosive material
-- Improvises with available resources
-- Focuses on effectiveness over elegance
-- "Chaotic but well-intentioned"
-
-### Tactical Approach
-- Strategic targeting over random destruction
-- Minimize civilian casualties
-- Weaken Iron Claws systematically
-- Independent operations avoid compromise of resistance cells
-
-### Independence
-- Works alone or with small trusted groups
-- Doesn't coordinate all activities with resistance leadership
-- Maintains operational security through isolation
-- Answers to no one but himself
-
-## Skills and Capabilities
-
-### Explosives Expertise
-- Bomb manufacturing from basic materials
-- Understanding of chemical compounds
-- Timing and placement for maximum effect
-- Creative use of unconventional materials (dragon dung)
-
-### Urban Warfare
-- Knowledge of High Forge layout
-- Tunnel system navigation
-- Guerrilla tactics
-- Quick strikes and retreats
-
-### Intelligence
-- Understanding of Iron Claws operations
-- Recognition of strategic targets
-- Assessment of security measures
-- Planning multi-stage operations
-
-## Personality
-
-### Character Traits
-- **Independent**: Prefers working alone
-- **Dedicated**: Committed to removing Iron Claws
-- **Practical**: Uses whatever materials available
-- **Chaotic**: Methods sometimes haphazard
-- **Well-Intentioned**: Genuinely wants to help city
-
-### Motivations
-- Opposition to Iron Claws tyranny
-- Freedom for High Forge citizens
-- Personal vendetta (specific reasons unclear)
-- Professional pride in craft
-
-## Connections
-
-### To Resistance
-- **Independent Operator**: Not under Lady Corwin's command
-- **Allied Goals**: Shares objective of Iron Claws removal
-- **Shared Resources**: Occasional coordination with other cells
-- **Historical Ties**: Former structure through resistance connections
-
-### To Party
-- **Informant**: Provided crucial intelligence
-- **Ally**: Working toward same goals
-- **Contact**: Can be reached through resistance channels
-- **Resource**: Explosives expertise available
-
-### To Twilight Company
-- **Former Member**: Left organization
-- **Training**: Maintains skills from service
-- **Methods**: Uses Twilight Company tactics
-- **Status**: Current relationship unclear
-
-## Current Activities
-
-### Ongoing Operations (Session 32)
-- Collecting materials (dragon dung) for explosives
-- Planning sabotage operations
-- Mentioned travel plans to Greyport
-- Continuing independent resistance work
-
-### Post-Session 36
-- Status during Great Hall battle unclear
-- Likely conducting separate operations
-- May coordinate with new governance structure
-- Greyport trip timeline unknown
-
-## Future Implications
-
-### Greyport Connection
-- Mentioned plans to travel there
-- Possible connection to Silas's past
-- Potential future quest hook
-- Unknown objectives in that city
-
-### Continued Resistance
-- Even with Iron Claws weakened, work continues
-- May target remaining Iron Claws cells
-- Could help establish security in transition
-- Expertise valuable for new government
-
-### Party Relationship
-- Potential future ally for missions
-- Explosives expertise useful
-- Greyport connection may intersect with party
-- Knowledge of underground networks valuable
-
-## Significance
-
-### To Resistance Movement
-- Represents independent operators
-- Shows not all resistance under Lady Corwin
-- Demonstrates diverse approaches to same goal
-- Maintains pressure from multiple angles
-
-### To Story
-- Connection between Twilight Company and current events
-- Represents "graduate" of secret organization
-- Provides alternative to structured resistance
-- Links High Forge to Greyport storyline
-
-### To Party
-- Useful ally with specialized skills
-- Source of intelligence on Iron Claws
-- Connection to tunnel systems
-- Potential Greyport guide/contact
-
-## Related Characters
-- [Lady Corwin](/npcs/lady-corwin) - Resistance leader (separate operations)
-- [Lark](/npcs/lark) - Fellow resistance member
-- Roscoe - Possible Twilight Company connection
-
-## Related Organizations
-- [Twilight Company](/organizations/twilight-company) - Former employer
-- [The Resistance](/organizations/resistance) - Allied forces
-- [Iron Claws](/organizations/iron-claws) - Primary target
-
-## Key Sessions
-- Session 24: First meeting, recruitment offer
-- Session 26: Information used for infiltration
-- Session 32: Dragon dung collection, Greyport mention
-- Post-36: Ongoing operations against Iron Claws remnants
-
----
-
-*"Dragon dung makes excellent explosives. People don't know that. Well, they do after the first explosion."* - Victor (probably)
+- **[Session 7](/sessions/session-7)** — Rescued from Little Hovel during the dragon attack; his tunnel maps lead the party out of High Forge, and he identifies Silas's orb as a communication device.
+- **[Session 24](/sessions/session-24)** — Bru overhears him on the radio making explosives against the Iron Claws in occupied High Forge, and he proposes an alliance.
+- **[Session 26](/sessions/session-26)** — The party reaches his operation at the resistance headquarters.
+- **[Session 27](/sessions/session-27)** — Vets the party with Zone of Truth and sends them to bomb three V facilities with simultaneously started timers; his yield estimates prove badly wrong.
+- **[Session 28](/sessions/session-28)** — The third target turns out to be his own lab; he leaves a note and a communication crown and goes off for sulfur.
+- **[Session 32](/sessions/session-32)** — Found collecting dragon dung; mentions a Greyport trip and confirms Lady Corwin's Eldoran ties.
+- **[Session 40](/sessions/session-40)** — Answers Bru's sending-stone call from the Greyport Zoo, wanting a dragon egg for an "omelette."
+- **[Session 42](/sessions/session-42)** — The party throws Bru's stone down to Luna's remains, making Victor's paired stone the party's link to her.
+- **[Session 43](/sessions/session-43)** — The party finds his lab under the zoo, his unsent letters to Bru, and the Twilight Company facility beyond it.
+- **[Session 45](/sessions/session-45)** — Hands Silas the sending stone and lends Scarlet his instruments for the pocket village.
+- **[Session 46](/sessions/session-46)** — Emerges from a bush in the pocket village, reaches Luna through the stone, and reveals he works with Lady Viper.
+- **[Session 47](/sessions/session-47)** — Escorts the party to Twilight Company headquarters, forgetting the password.
+- **[Session 58](/sessions/session-58)** — His margin-note bomb designs reach the party via Toothy in the Eldoran capital, and the party makes Bru their explosives expert instead.

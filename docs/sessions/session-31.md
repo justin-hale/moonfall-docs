@@ -8,7 +8,7 @@ image: "/img/C4E31.webp"
 podcastlink: "https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4E31-August-29-e37q3re"
 ---
 
-**[🎧 Podcast Link](https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4E31-August-29-e37q3re) • *August 28, 2025***
+**[🎧 Podcast Link](https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4E31-August-29-e37q3re) • *August 29, 2025***
 
 ## Pre-Session Banter
 

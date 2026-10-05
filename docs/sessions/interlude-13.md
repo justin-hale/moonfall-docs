@@ -24,8 +24,8 @@ The Sisyphus Circle gathered at their favorite haunt, the Cog and Steam bar over
 - **Bartleby Thatch** - Halfling (Silas's alias), paranoid veteran thief
 - **Bru** - 11-year-old goblin artificer with bombs and attitude
 - **Spoons** - Human monk driver obsessed with kung fu videos
-- **Peaches** - Half-orc muscle, strong and silent
-- **Cream** - Gnome bard, Peaches's best friend with a miniature figurine collection
+- **Peaches** - Half-orc muscle, silent out loud (but formal and articulate in his inner voice); makes tiny wire sculptures of animals and keeps a collection of miniature figurines
+- **Cream** - Gnome bard with silver hair braided over one side and a lute, Peaches's best friend
 
 The crew distributed their equipment: a portable hole (nicknamed "the cornhole"), spider climbing slippers (2 pairs), dark vision goggles (2 pairs), an X-ray vision ring, and grappling hooks. They also engaged in their tradition of drinking moonshine with dirt rubbed on their tongues after each successful job.
 
@@ -36,8 +36,8 @@ The crew distributed their equipment: a portable hole (nicknamed "the cornhole")
 
 ## The Infiltration
 
-**Sewer Approach:**  
-Bru placed a bomb to blow open the sewer system, creating a distraction explosion of sewage that made residents think there was just a plumbing issue. The team ziplined across into the building's second floor.
+**Rooftop Approach:**  
+Most of the crew rode inside the portable hole while Alma and Bartleby walked up the building across the street in their spider climbing slippers. From that roof, Sander fired the grappling gun (a special order from Fluke's old shop, now run by Iro) to rig a zip line to the target. The second floor had no windows, so Bru planted remote charges in the sewer and a breaching charge on the vault-floor wall. Bartleby pushed the button, and both went off together: a manhole cover blew off in a geyser of sewage that made residents think there was just a plumbing issue, and nobody noticed the second explosion. The team ziplined across through the hole into the building's second floor.
 
 **The Vault's Concentric Defenses:**  
 The vault consisted of multiple layers, each with its own security system arranged like boxes within boxes. The team had to work their way through three distinct puzzle layers.
@@ -106,10 +106,17 @@ As the crew entered the vault's inner chamber, Bru (highest passive perception) 
 
 **Preparations:**
 - Silas worked on opening the puzzle box
-- Bru placed remote explosive charges throughout the vault layers as they retreated
-- The crew discovered fighting below—the Order of St. George (dragon slayers with lance-piercing-dragon-skull emblem) had raided the Pandora gang's headquarters
-- Spoons prepared to return to the getaway car
-- Alma insisted everyone evacuate
+- Sander called for everyone to evacuate as soon as they had the prize
+- Bru placed remote explosive charges on the structural points of each vault layer as they went
+- The crew let Alma and Spoons in and laid the portable hole in front of the vault door
+- Spoons headed back to the getaway car and warned the crew over the psychic link that the Pandora gang was on the move: some heading downstairs, some coming for the vault
+
+**Pandora Herself:**  
+The gang's leader, Pandora, came for the vault in person ("No one steals from me"). Bru's cannon hit her square in the chest (15 damage) and knocked her back, but she somersaulted over the portable hole into the room.
+- She stabbed Peaches with a poisoned short sword for 37 damage and hit Sander with a poisoned crossbow bolt for 30
+- Bru answered with Fire Bolt, then a force ballista shot that pushed her straight into Peaches, who German-suplexed her into the floor
+- Peaches followed up with a critical smite that took off one of her arms and left her with 5 HP
+- Sander walked up and finished her with a casual "360 no-scope" shot
 
 **The True Prize:**  
 Silas successfully opened the box, revealing a black dragon orb with a galaxy-like star pattern swirling inside (like the galaxy from Men in Black). He shuddered as he touched it, establishing a connection that would haunt him for years. He stuffed it into his backpack.
@@ -119,7 +126,10 @@ Silas successfully opened the box, revealing a black dragon orb with a galaxy-li
 - Bru detonated charges, collapsing the third floor onto the second
 - The crew did a Tarzan-style swing across the street as explosions erupted behind them
 - In practiced precision, they all put on sunglasses mid-swing (they'd rehearsed this cool moment)
-- Spoons retrieved the getaway car
+- Spoons had the getaway car waiting: his own ride, running a V8 he pulled out of an F-150
+
+**The Order of St. George:**  
+As the crew piled into the car, heavily armored dwarves with bloody weapons burst out of the Pandora gang's kicked-in front door. Their emblem was a lance piercing a dragon skull, and a high History roll identified them as the Order of St. George, a group of dragon slayers. Their leader pointed his bloodied greatsword at the crew and ordered them to drop what they had taken. Bru threw pocket dynamite, Spoons pulled a tire-smoking burnout, and the Order's Toyota Tacoma stalled before they could give chase.
 
 ## The Blackwell Memorial Park Betrayal
 
@@ -144,11 +154,11 @@ Gunmen emerged from trees and shrubs all around, opening fire on the crew.
 - **Sander** - Jumped in front of Alma to shield her; both were shot together
 - **Cream** - Shot in the knee trying to run
 - **Peaches** - Slowed down to carry wounded Cream; both were killed by concentrated gunfire, dying in each other's arms
-- **Spoons** - The getaway Ford F-150 was destroyed by grenades thrown under the fuel tank; Spoons died in the explosion (his birthday was supposed to be tomorrow, where he'd planned to meet disgraced racer LP)
-- **Alma** - Killed alongside Sander (never got to ground Bru)
+- **Spoons** - The getaway car was destroyed by grenades thrown under the fuel tank; Spoons died in the explosion (his birthday was supposed to be tomorrow, when he'd planned to meet the underground racer LP)
+- **Alma** - Killed alongside Sander (Sander never got to ground Bru)
 
 **The Escape:**  
-Bru's force ballista cannon ran into the ambush and exploded next to Helja, tearing open the decoy bag and revealing the medicine ball instead of the orb. Enraged at the deception, Helja turned to pursue Silas and Bru.
+Bru's force ballista cannon ran into the ambush and exploded next to Helja, tearing open the decoy bag and revealing the medicine ball instead of the orb. Enraged at the deception, Helja turned to pursue Silas and Bru, and ordered a bounty put on the halfling.
 
 The halfling and goblin took advantage of their small size, jumping into a storm drain. Grenades followed but exploded just outside the range. They found a strong current in the sewers—Silas grabbed Bru by the scruff of his neck and they both leapt in, getting swept away to safety outside city limits.
 
@@ -156,7 +166,7 @@ Bru was shell-shocked and silent, shutting down emotionally. This was the first 
 
 ## The Aftermath: Dragon Horde Mountain
 
-The flashback ended with present-day Silas and Bru at the Dragon Horde, watching the sunset. Silas poured drinks with dirt, their traditional toast. He reflected on Helja's death (which happened in present-day Campaign 4).
+The flashback ended with present-day Silas and Bru at the Dragon Horde, watching the sunset. Silas poured drinks with dirt, their traditional toast. He reflected on Helja's death (Session 36).
 
 **Silas's Realization:**  
 "I was wrong, you know? About getting soft when you start to give a shit about people. I don't think I would have stayed and fought if I didn't give a shit about you guys. Maybe. Or maybe I am just getting stupid."
@@ -179,33 +189,33 @@ However, by the present day, Silas is reconsidering this belief after fighting a
 **Tomorrow Never Comes:**  
 Multiple crew members mentioned plans for tomorrow:
 - Spoons's birthday and meeting racer LP
-- Alma planning to ground Bru
-- Cream's retirement and miniature figurine store
-- Sander and Alma's relationship with Robin
+- Sander planning to ground Bru
+- Peaches's retirement and miniature figurine store
+- Alma moving in with Robin, and the big announcement she was saving for tomorrow's party
 
 None of them got their tomorrow.
 
 ## Key Revelations
 
-1. **Helja's Grudge:** The dragon orb was never meant for Helja—Silas switched bags and escaped with it, creating an 11-year vendetta that led to her hunting them
+1. **Helja's Grudge:** The crew stole the dragon orb from the Pandora gang for Helja, who was their secret client, but she never got it: Silas had switched bags, and he escaped with the orb, creating an 11-year vendetta that led to her hunting them
 2. **The Dragon Orb:** Now revealed to be the mysterious item Silas has been protecting all these years
 3. **The Order of St. George:** Dragon slayers who raided the Pandora gang the same night, adding chaos to the heist
 4. **Original Crew Composition:** The Sisyphus Circle was seven members before being reduced to just Bru and Silas
-5. **Helisana Connection:** Mentioned as a potential client/cover after the massacre, possibly their first job after reforming
+5. **Helisanna Connection:** Mentioned as a potential client/cover after the massacre, possibly their first job after reforming
 
 ## Ongoing Plot Threads
 
 - **The Dragon Orb's Purpose:** What was Helja planning to do with it?
 - **Silas's Connection:** The orb established a "fateful connection" when he touched it—what does this mean?
 - **Order of St. George:** Where are these dragon slayers now?
-- **Bru and Silas's Next Move:** They mentioned meeting Helisana after this—is this how they entered the current storyline?
+- **Bru and Silas's Next Move:** They mentioned meeting Helisanna after this—is this how they entered the current storyline?
 - **Portable Hole:** Will the party actually get to keep this powerful magic item?
 
 ## Session Conclusion
 
 The session ended with the current-day Silas and Bru preparing to rejoin their new gang, having shared this painful memory. The flashback explained the deep bond between the halfling and goblin, forged in tragedy and escape. It also revealed why Silas is so paranoid about clients, why Bru shuts down during loss, and why both have commitment issues with their new party.
 
-The DM (Tyram) balanced puzzle-solving, combat, character development, and tragic storytelling throughout the session, creating a complete heist narrative with an emotional gut-punch ending. The players' knowledge of the doomed outcome added dramatic irony to every optimistic statement about "tomorrow."
+The DM (Taylor) balanced puzzle-solving, combat, character development, and tragic storytelling throughout the session, creating a complete heist narrative with an emotional gut-punch ending. The players' knowledge of the doomed outcome added dramatic irony to every optimistic statement about "tomorrow."
 
 ---
 

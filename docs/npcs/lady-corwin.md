@@ -1,256 +1,45 @@
 ---
 title: Lady Corwin
-description: Resistance leader with secret Eldoran connections
-sidebar_position: 7
+description: Dwarven noblewoman who bankrolled the High Forge resistance while positioning her family with the Eldoran Empire; killed in the Great Hall hostage crisis (Session 36)
 ---
 
 # Lady Corwin
 
-*Human • Noblewoman • Resistance Leader • Secret Eldoran Agent*
+*Dwarf • Noblewoman • High Forge Resistance Backer • Deceased*
 
 ## Overview
 
-**Lady Corwin** is a noblewoman who leads resistance operations against the Iron Claws in High Forge. However, investigation has revealed suspicious connections to the Eldoran Empire, suggesting she may be playing both sides for strategic advantage.
+**Lady Corwin** was a posh dwarven noblewoman in the [High Forge](/locations/high-forge) [resistance](/organizations/resistance) who planned the Vault 7 gold heist that [Taco Cat](/organizations/taco-cat) carried out. The party later concluded that her real aim was to deliver the city to the [Eldoran Empire](/organizations/eldoran-empire) and install her family as its governors. She was among the hostages the Iron Claws held in the [Great Hall](/locations/great-hall), and she died there in [Session 36](/sessions/session-36). As of Session 63 she is dead; her mercenary army came to High Forge after her death, looked the city over, and left.
 
-## Background
+## Role in the Resistance
 
-### Noble Status
-- Former or current High Forge nobility
-- Resources and connections from privileged position
-- Knowledge of city politics and power structures
-- Access to wealth for resistance operations
+The party met her at the resistance headquarters beneath High Forge, alongside [Victor](/npcs/victor) and Sia. Victor wanted to blow up the Iron Claws' V production facilities. Lady Corwin argued against demolition and for a gold heist: the Iron Claws sent a large tribute shipment "up the mountain" every full moon, and intercepting it would bankrupt [Helja Ungar](/npcs/helja-ungar), expose whom she was paying, and leave the city's infrastructure standing.
 
-### Rise to Resistance Leadership
-- Organized opposition to Iron Claws control
-- Coordinates multiple resistance cells
-- Commands respect and resources
-- Positioned as legitimate alternative to criminal rule
+Her heist plan targeted **500,000 gold pieces** of dragon tribute held in **Vault 7** of the royal vaults. Her cousin, **Captain Corwin**, commanded the transport convoy. The party would pose as the official escort with forged documents, load the gold, and divert it to a hideout. She said the resistance needed 1 million gold to hire a mercenary army, that this shipment was her whole war chest, and that failure would force her to flee.
 
-## Resistance Operations
+During the heist she sent [Bru](/player-characters/bru), [Elspeth](/player-characters/elspeth) and [Olivia](/player-characters/olivia) to help "the triplets", a resistance team stuck with golems in the lower vault levels. She called Bru "my favorite".
 
-### Leadership Style (Sessions 29-30)
+## True Motives
 
-**Multi-Team Coordination**:
-- Organized vault infiltration operation
-- Commanded "the triplets" resistance team
-- Coordinated with Taco Cat for mission support
-- Strategic planning and resource allocation
+After the heist, [Silas](/player-characters/silas) worked out her actual plan in [Session 31](/sessions/session-31). The mercenary army was real, but it was meant to hand High Forge and its violescence to the Eldoran Empire, and the Corwins would rule the city as governors under imperial authority. The party kept the stolen gold and began planning their own assault on Helja. In [Session 32](/sessions/session-32), Victor confirmed that Corwin had been working for the Empire.
 
-**At Resistance Headquarters**:
-- Pacing anxiously during operations
-- Micromanaging team assignments
-- Concerned about mission outcomes
-- Directing party to support roles
+## Death
 
-### Major Operations Commanded
+In [Session 36](/sessions/session-36), the Iron Claws took hostages in the Great Hall, and Lady Corwin was one of them. The party freed most of the captives, but she died in the battle. In the Session 37 transcript the players recall leaving her body to burn. About a month later her mercenary army arrived under **Captain Sir Eric**, marched through High Forge, investigated, and left. The official report said the city was "sacked and nothing worth saving."
 
-**Vault Infiltration** (Sessions 29-30):
-- Multi-team assault on secured facility
-- Objective: Steal draconic tablets
-- Triplets assigned to lower vault levels
-- Taco Cat deployed to assist with golems
-- Intelligence gathering on Iron Claws
+## Relationships
 
-**Strategic Goals**:
-- Weaken Iron Claws through targeted strikes
-- Gather intelligence on enemy operations
-- Build resistance network throughout city
-- Position for eventual overthrow
+- **Captain Corwin ("Triple C")**: Her cousin, a separate person. He commanded the tribute convoy but had been turned by the Iron Claws. He fought the party in Vault 7 in [Session 30](/sessions/session-30), where the party took his smoke-wreathed black sword. He came back to the Great Hall in Session 36 "looking like a vacant undead puppet" and escaped the collapse.
+- **[Victor](/npcs/victor)**: A fellow resistance planner. They disagreed on strategy, and he later confirmed her Eldoran ties.
+- **[Taco Cat](/organizations/taco-cat)**: They carried out her heist and then kept the gold once they saw through her.
 
-## The Betrayal Revealed
+## Session History
 
-### Suspicious Connections (Session 31)
-
-**Investigation Findings**:
-- Recent records show suspicious allegiances
-- Strong connections to Eldoran Empire
-- **Strategic business decision** to position family with Empire
-- Working as double agent or manipulator
-
-### Party's Discovery
-- Party investigated her background
-- Found evidence of Eldoran ties
-- Realized they'd been manipulated
-- Decision to keep gold rather than deliver as instructed
-
-**Manipulation of Party**:
-- Used them for missions serving Empire interests
-- Positioned as resistance leader while serving other masters
-- Uncertain which side she truly serves
-- May be using resistance for personal/family advantage
-
-### Captain Corwin Connection (Session 30)
-
-**Cousin's Betrayal**:
-- **Captain Corwin** is Lady Corwin's cousin
-- Turned by Iron Claws, wore ironclaw badge
-- Mentioned "just about ready to summon the dragon of everything"
-- Interested in draconic tablets
-- Family connection raises questions about Lady Corwin's loyalties
-
-## True Motivations (Speculated)
-
-### Eldoran Empire Alignment
-**Possible Reasons**:
-- Family advancement in imperial hierarchy
-- Strategic positioning for after Iron Claws fall
-- Playing both sides for maximum advantage
-- Genuine belief in Empire as better alternative
-
-### Personal/Family Goals
-- Securing Corwin family position
-- Protecting family wealth and status
-- Hedging bets between powers
-- Ensuring family survives regime change
-
-### Complex Loyalty
-**Scenarios**:
-1. True resistance leader compromised by family pressure
-2. Eldoran agent infiltrating resistance
-3. Triple agent playing all sides
-4. Opportunist using chaos for family advantage
-
-## Leadership Capabilities
-
-### Strategic Planning
-- **Effective Coordinator**: Successfully manages multiple teams
-- **Resource Management**: Allocates assets efficiently
-- **Intelligence**: Understands enemy operations
-- **Timing**: Plans operations with good timing
-
-### Weaknesses
-- **Divided Loyalties**: Serves multiple masters
-- **Trust Issues**: Party now questions her
-- **Family Vulnerabilities**: Cousin compromised
-- **Overextension**: Too many complex schemes
-
-## Relationship with Party
-
-### Initial Alliance
-- Positioned as resistance benefactor
-- Provided missions and resources
-- Coordinated vault infiltration
-- Seemed genuine resistance leader
-
-### After Discovery (Session 31)
-**Party Response**:
-- Realized manipulation
-- Kept gold rather than deliver
-- Planning independent resistance
-- Working around her rather than with her
-
-**Current Status**:
-- Alliance strained or broken
-- Party operates independently
-- Uncertain if she knows they know
-- Future interactions complicated
-
-## Impact on Resistance
-
-### Positive Contributions
-- Organized effective operations
-- Built resistance network
-- Provided resources and leadership
-- Coordinated successful missions
-
-### Compromising Factors
-- Eldoran connections endanger resistance
-- May be feeding information to Empire
-- Personal goals override movement goals
-- Creates vulnerability in resistance structure
-
-## Family
-
-### Captain Corwin (Cousin)
-- Turned by Iron Claws
-- Interested in draconic tablets
-- Mentioned dragon summoning
-- Family connection compromises Lady Corwin
-
-### Broader Corwin Family
-- Noble lineage in High Forge
-- Strategic positioning with Eldoran Empire
-- Wealth and resources
-- Political connections
-
-## Current Status (Post-Session 36)
-
-### After Great Hall Battle
-- Iron Claws leadership eliminated/scattered
-- Resistance achieved major victory
-- Her role in new power structure unclear
-- Eldoran connections become more relevant
-
-### Power Vacuum Implications
-- Could attempt to seize leadership
-- Eldoran Empire may make move
-- Party positioning Naomi as alternative
-- Lady Corwin's true allegiances tested
-
-## Future Complications
-
-### Potential Conflicts
-- Eldoran Empire intervention in High Forge
-- Competition for governance between factions
-- Party's knowledge of her betrayal
-- Captain Corwin's fate and information
-
-### Uncertain Role
-- May ally with party against Empire
-- Could oppose party for Eldoran interests
-- Might be removed from power
-- Could reveal even deeper schemes
-
-## Character Complexity
-
-### Not Simple Villain
-- Genuinely fights Iron Claws (for own reasons)
-- Provides real help to resistance
-- Capable and effective leader
-- Complex motivations beyond pure evil
-
-### Moral Ambiguity
-- Using resistance for family advantage
-- Playing multiple sides
-- Means and ends questions
-- Patriotism to which nation?
-
-## Significance
-
-### To Resistance Story
-- Shows complexity of revolutionary movements
-- Not all resistance leaders pure of motive
-- Internal threats as dangerous as external
-- Trust issues within movement
-
-### To Campaign Themes
-- **Loyalty**: To family vs. cause vs. nation
-- **Power**: Who should rule after tyrants fall
-- **Manipulation**: Trust and betrayal
-- **Complexity**: Allies with own agendas
-
-### To Party Development
-- Forces critical thinking about allies
-- Reveals larger political landscape
-- Complicates simple good vs. evil narrative
-- Prepares for future political maneuvering
-
-## Related Characters
-- **Captain Corwin** (Cousin) - Turned by Iron Claws
-- [Victor](/npcs/victor) - Resistance operative (independent of her)
-- [Lark](/npcs/lark) - Resistance ally (not under her direct command)
-- [Taco Cat](/organizations/taco-cat) - Former allies, now suspicious
-
-## Related Organizations
-- [The Resistance](/organizations/resistance) - Leads (with compromised loyalties)
-- [Eldoran Empire](/organizations/eldoran-empire) - Secret connections
-- [Iron Claws](/organizations/iron-claws) - Enemy (publicly)
-
-## Key Sessions
-- **Session 29-30**: Vault infiltration, leadership role
-- **Session 31**: Eldoran connections revealed, party keeps gold
-- **Post-36**: Power vacuum and her position unclear
-
----
-
-*"The Corwin family has always been about strategic positioning. This is just... very strategic."* - Investigation findings, Session 31
+- **[Session 27](/sessions/session-27)** — Meets the party at resistance headquarters and argues for intercepting the Iron Claws' full-moon tribute shipments instead of Victor's demolition plan.
+- **[Session 28](/sessions/session-28)** — Lays out the 500,000-gold Vault 7 heist, with her cousin Captain Corwin commanding the convoy the party will impersonate.
+- **[Session 29](/sessions/session-29)** — Paces at headquarters during the heist and sends Bru, Elspeth, and Olivia to help the triplets.
+- **[Session 30](/sessions/session-30)** — Her cousin Captain Corwin turns out to be working for the Iron Claws and fights the party in the vault; the party escapes with the gold.
+- **[Session 31](/sessions/session-31)** — Silas works out that she plans to hand High Forge to the Eldoran Empire with her family as governors; the party keeps the gold.
+- **[Session 32](/sessions/session-32)** — Victor confirms she has been working for the Eldoran Empire.
+- **[Session 36](/sessions/session-36)** — Held hostage by the Iron Claws in the Great Hall, she dies in the rescue battle.
+- **[Session 37](/sessions/session-37)** — Her death is recapped; a month later her mercenary army under Captain Sir Eric passes through High Forge and reports the city "sacked and nothing worth saving."

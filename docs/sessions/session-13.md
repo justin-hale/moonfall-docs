@@ -1,6 +1,6 @@
 ---
 title: "13: Burning down the house"
-date: 2024-11-11
+date: 2024-11-10
 summary: "The party closes the portal, decides Frankie's fate, and investigates [Red](/player-characters/red)'s family history with explosive consequences."
 featureimage: "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode400/41448639/41448639-1731362881012-3c22f2d1c5246.jpg"
 image: "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode400/41448639/41448639-1731362881012-3c22f2d1c5246.jpg"

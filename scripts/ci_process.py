@@ -21,6 +21,8 @@ import sys
 import shutil
 import tempfile  # used by cmd_update_feed
 import xml.etree.ElementTree as ET
+
+import meet_transcript
 from datetime import datetime
 from email.utils import formatdate
 from pathlib import Path
@@ -732,6 +734,74 @@ def cmd_download():
     mark_stage(episode_number, "download", drive_file_id)
 
 
+def find_meet_transcript_doc(service, recording_name):
+    """The "… - Transcript" document belonging to a recording, or None.
+
+    Meet names the pair identically apart from the final word, so the document
+    is derivable from the recording rather than needing its own search.
+    """
+    # Not Path(...).stem: Meet puts the date in the title ("DnD - 2026/09/18
+    # 19:48 CDT - Recording"), and those slashes are not directories. Path
+    # would reduce the whole name to "Recording" and the search would look for
+    # a document called "Transcript".
+    stem = re.sub(r"\.[A-Za-z0-9]{1,5}$", "", recording_name).strip()
+    suffix = "Recording"
+    if not stem.endswith(suffix):
+        print(f"  Recording is not named '… - {suffix}'; no transcript doc to look for.")
+        return None
+
+    doc_name = stem[: -len(suffix)] + "Transcript"
+    escaped = doc_name.replace("\\", "\\\\").replace("'", "\\'")
+    try:
+        result = service.files().list(
+            q=(
+                f"name = '{escaped}' and "
+                "mimeType = 'application/vnd.google-apps.document' and "
+                "trashed = false"
+            ),
+            pageSize=5,
+            fields="files(id, name)",
+        ).execute()
+    except Exception as exc:
+        print(f"  Could not search for a transcript doc: {exc}")
+        return None
+
+    files = result.get("files", [])
+    if not files:
+        print(f"  No transcript doc named {doc_name!r}.")
+        return None
+    print(f"  Found transcript doc: {files[0]['name']}")
+    return files[0]["id"]
+
+
+def export_meet_transcript_srt(service, doc_id):
+    """Export a Meet transcript doc and render it as SRT, or None on failure."""
+    try:
+        data = service.files().export(fileId=doc_id, mimeType="text/plain").execute()
+    except Exception as exc:
+        print(f"  Could not export the transcript doc: {exc}")
+        return None
+
+    text = data.decode("utf-8") if isinstance(data, bytes) else data
+    entries, meeting_end = meet_transcript.parse_transcript_doc(text)
+    if not entries:
+        print("  Transcript doc held no attributed lines; ignoring it.")
+        return None
+
+    counts = meet_transcript.speaker_counts(entries)
+    print(f"  {len(entries)} attributed line(s) across {len(counts)} speaker(s): "
+          + ", ".join(f"{n} ({c})" for n, c in
+                      sorted(counts.items(), key=lambda kv: -kv[1])))
+    return meet_transcript.to_srt(entries, meeting_end)
+
+
+def count_srt_speakers(srt_text):
+    """Distinct non-empty speaker tags in an SRT, and how many cues lack one."""
+    tags = re.findall(r"^\(([^)]*)\)\s*$", srt_text, re.M)
+    named = {t.strip() for t in tags if t.strip()}
+    return named, sum(1 for t in tags if not t.strip())
+
+
 # ── Subcommand: extract ─────────────────────────────────────────────────────
 
 def cmd_extract():
@@ -780,20 +850,72 @@ def cmd_extract():
         sys.exit(1)
     print(f"  Audio saved: {mp3_path}")
 
-    # Extract subtitles (try stream 2, then s:0)
-    print(f"  Extracting subtitles → {srt_path}")
+    # Subtitles: prefer Meet's transcript document over the caption track
+    # baked into the video.
+    #
+    # The embedded track is not a transcription — it is whatever Meet wrote
+    # into the file — and on 2026-09-18 it arrived with 2,167 of its 3,581
+    # cues tagged `()` and only the host ever named. The cleaner folds an
+    # unnamed cue into whoever spoke last, so Episode 62 collapsed into a
+    # single 44,318-character block attributed to one person and recap
+    # generation failed on it. The same meeting's transcript document named
+    # all four speakers across 1,927 lines.
+    #
+    # So when the document exists it wins, and pulling the caption track is
+    # skipped entirely rather than done and discarded.
     srt_ok = False
-    for stream in ["0:2", "0:s:0"]:
-        r = subprocess.run([
-            "ffmpeg", "-i", str(source_path),
-            "-map", stream, "-y", str(srt_path)
-        ], capture_output=True, text=True)
-        if r.returncode == 0 and srt_path.exists():
+    # Drive was not needed by this step before, so a failure to reach it must
+    # not cost us an extraction the video alone can satisfy.
+    try:
+        service = get_drive_service()
+    except Exception as exc:
+        service = None
+        print(f"  Could not reach Drive for the transcript doc: {exc}")
+
+    doc_id = (
+        find_meet_transcript_doc(service, meta.get("original_filename", ""))
+        if service
+        else None
+    )
+    if doc_id:
+        srt_text = export_meet_transcript_srt(service, doc_id)
+        if srt_text:
+            srt_path.write_text(srt_text, encoding="utf-8")
             srt_ok = True
-            print(f"  Subtitles saved: {srt_path}")
-            break
+            meta["transcript_source"] = "meet-transcript-doc"
+            print(f"  Subtitles built from transcript doc: {srt_path}")
+            print("  Skipping caption-track extraction — the document supersedes it.")
+
     if not srt_ok:
-        print("  Warning: No subtitles found in video.")
+        print(f"  Extracting subtitles from the video → {srt_path}")
+        for stream in ["0:2", "0:s:0"]:
+            r = subprocess.run([
+                "ffmpeg", "-i", str(source_path),
+                "-map", stream, "-y", str(srt_path)
+            ], capture_output=True, text=True)
+            if r.returncode == 0 and srt_path.exists():
+                srt_ok = True
+                meta["transcript_source"] = "embedded-caption-track"
+                print(f"  Subtitles saved: {srt_path}")
+                break
+        if not srt_ok:
+            print("  Warning: No subtitles found in video.")
+
+    # Whatever the source, say how well attributed it is. A transcript with
+    # one speaker cannot produce a recap — that is what Episode 62 proved —
+    # and the cost of finding out at generation time is a wasted model call
+    # and a failed publish.
+    if srt_ok:
+        named, unnamed = count_srt_speakers(srt_path.read_text(encoding="utf-8"))
+        print(f"  Speaker attribution: {len(named)} named, {unnamed} cue(s) unattributed.")
+        if len(named) <= 1:
+            print(
+                f"  WARNING: only {len(named)} speaker is named in this transcript. "
+                "Recap generation needs speaker turns and will reject the result. "
+                "If a Meet transcript document exists for this session, share its "
+                "folder with the service account so the intake can prefer it.",
+                file=sys.stderr,
+            )
 
     # If we extracted subtitles, decide whether to copy them into
     # `transcripts_raw/`. Only copy if there is no existing cleaned

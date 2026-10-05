@@ -2,9 +2,9 @@
 title: 'Interlude XVI: The Sacred Disturbance of Tortuga'
 date: '2025-12-19'
 description: "A flashback to young Bru's life on the Island of Tortuga before it rose from the sea, revealing the goblin bowling club's sacred mission to awaken the Turtle God through chaos."
-summary: "In this backstory session, players took on the roles of Bru's extended goblin family—members of the Bru's Cousins bowling league tasked with creating a 'sacred disturbance' to awaken the Turtle God. What began as a quest for prophetic coordinates involving oracles, fireworks, and a 7-Eleven bathroom laboratory escalated into an explosive finale that literally tore the island from the sea on the back of the awakened Turtle God. The session revealed young Bru's early experiments with explosives and established the tragic event that forced him to leave his homeland."
+summary: "In this backstory session, players took on the roles of Bru's extended goblin family—members of the Bru's Cousins bowling league tasked with creating a 'sacred disturbance' to awaken the Turtle God. What began as a quest for prophetic directions involving an oracle, fireworks, and a 7-Eleven bathroom laboratory escalated into an explosive finale in the Turtle God's ear canal that woke the god and sent the island walking away on its back. The session revealed young Bru's early experiments with explosives and established the tragic event that forced him to leave his homeland."
 featureimage: '/img/C4I16.webp'
-image: '/img/C4I15.webp'
+image: '/img/C4I16.webp'
 podcastlink: ''
 ---
 
@@ -12,7 +12,7 @@ podcastlink: ''
 
 ## Session Overview
 
-This flashback session revealed **[Bru](/player-characters/bru)**'s life before the main campaign, when he was a young goblin (around 8-10 years old) living on the Island of Tortuga. The party played members of Bru's extended family—the **Bru's Cousins** bowling league—tasked by their godfather **Taskmaster Grit** with creating a "sacred disturbance" to awaken the Turtle God upon which their island rested. The session combined family comedy, goblin chaos, and explosive finales, ultimately revealing how the island rose from the sea and why Bru had to leave his homeland.
+This flashback session revealed **[Bru](/player-characters/bru)**'s life before the main campaign, when he was a young goblin (around 8-10 years old) living on the Island of Tortuga. The party played members of Bru's extended family—the **Bru's Cousins** bowling league—tasked by their godfather **Taskmaster Grit** with creating a "sacred disturbance" to awaken the Turtle God upon which their island rested. The session combined family comedy, goblin chaos, and explosive finales, ultimately revealing how the island rose from the sea and why Bru had to leave his homeland. (Zack was absent; Ellis joined partway through.)
 
 ## The Bru Family & Bowling League
 
@@ -28,15 +28,15 @@ This flashback session revealed **[Bru](/player-characters/bru)**'s life before 
 
 ### The Family Members
 
-**Young Bru** (Justin) - Age 8-10, teenage angst phase, aspiring explosives expert with a leather jacket and dreams of creating the perfect firework. The youngest of the group but considered the natural leader due to his attention to detail.
+**Young Bru** (Justin) - In his teenage angst phase, aspiring explosives expert with dreams of creating the perfect firework. The only one of the group who can read, and considered the natural leader due to his attention to detail.
 
-**Drew** (Luke) - Bru's younger brother, high-energy goblin heavily addicted to cocaine (kept separate stashes for every occasion: walking cocaine, bathroom cocaine, dinner cocaine). Spoke rapidly, constantly bouncing, and prone to diving into piles of "snow" (mostly cocaine).
+**Dru** (Luke) - Bru's younger brother, high-energy goblin heavily addicted to cocaine (kept separate stashes for every occasion: walking cocaine, bathroom cocaine, dinner cocaine). Spoke rapidly, constantly bouncing, and prone to diving into piles of "snow" (mostly cocaine).
 
-**Uncle Belch** (Tyram) - Bru's uncle, 9th level soulblade rogue with reliable talent and conspiracy theorist tendencies. Believed the Winter King was a front for the "mind flayer mafia" and taught Bru various paranoid theories.
+**Uncle Belch** (Taylor) - Bru's uncle, named (goblin-style) for the first sound he made, a belch. A retired 7-Eleven employee of the month, 9th level soulblade rogue with reliable talent, and conspiracy theorist. Believed the Winter King was a front for the "mind flayer mafia" and taught Bru various paranoid theories.
 
-**EA** (Ali) - Older cousin (spelled with all the Irish vowels: approximately 60 in goblin years), owner of a fireworks shop specializing in pranks and offensive shapes. Taught Bru his technical firework skills. Highly critical but ultimately helpful mentor figure.
+**EA** (Ali) - Older cousin (spelled the Irish way, with all the vowels), owner of a fireworks shop specializing in pranks and offensive shapes. Taught Bru his technical firework skills, despite being unable to read. Highly critical but ultimately helpful mentor figure.
 
-**Martha "Auntie Poops"** (Ellis) - Joined mid-session, brought her own unique energy to the family chaos.
+**Auntie Poopy** (Ellis) - Named for the first thing she did when she was born. Joined mid-session, brought her own unique energy to the family chaos, and a passion for true crime.
 
 **Godfather Grit** - Taskmaster of the bowling league, perpetually vibrating with energy and stress, covered in chalk dust, speaks in urgent non-sequiturs. Has a score of 7 in bowling (terrible) because he was "trying to hit one pin every time."
 
@@ -46,7 +46,8 @@ This flashback session revealed **[Bru](/player-characters/bru)**'s life before 
 - Goblins mature by age 10
 - Die frequently from heart attacks (hereditary epidemic)
 - Have litters of children (large families)
-- Considered "elderly" by age 60
+- Named after the first sound they make
+- Age fast: Uncle Belch retired from the 7-Eleven at 14
 
 **Social Structure:**
 - Bowling leagues function as sacred covenants
@@ -84,35 +85,40 @@ The goblin city of Tortuga celebrated the winter solstice with chaotic festiviti
 - Each establishment creates their own "snow" through goblin ingenuity
 - Nightclubs use cocaine as snow effects
 - Children play in various questionable white substances
-- Drew acquired a full bag of nightclub cocaine for "personal use"
+- Dru acquired a full bag of nightclub cocaine for "personal use"
 
 ## The Oracle's Quest
 
 ### Mistress Tatterbottom
 
-The family's mission required finding **Mistress Tatterbottom**, an oracle traveling through the city in her caravan during the festival. She supposedly had coordinates for where to create the sacred disturbance.
+The family's mission required finding **Mistress Tatterbottom**, an oracle traveling through the city in her caravan during the festival. She supposedly knew where to create the sacred disturbance.
 
 **The Caravan:**
-- Traveling slowly through festival crowds
-- Oracle available for readings
-- Chalk line marked the path to follow
-- Led eventually to a 7-Eleven
+- Traveling slowly through festival crowds, along the parade route beside the bowling alley
+- Dru distracted the guard by racing circles around the caravan
+- Uncle Belch trailed it (stealth 23 on a roll of 2) and misty-stepped through the window
+- The blind oracle found his cocaine "a bit light," but accepted it along with one of EA's middle-finger bottle rockets
+- Her prophecy: "Go to the last place that you achieved employee of the month. In the basement, you will find a secret entrance, and that will lead you directly to the beast's heart. And then you'll root through their heart to their ear canal."
+- Belch's last employee-of-the-month honor: the 7-Eleven
 
 ### The 7-Eleven Bathroom Laboratory
 
-The oracle's directions led to an unexpected location: **the bathroom of a 7-Eleven convenience store** run by a Pakistani clerk.
+The oracle's directions led to an unexpected location: **the bathroom of a 7-Eleven convenience store**, the biggest, brightest building in town, run by a Pakistani clerk named Bug.
 
-**The Secret Laboratory:**
-- Bru's explosive workshop hidden in the bathroom
-- Contains slide puzzle lock on the door
+**The 7-Eleven:**
+- Fridges, fluorescent lights, automatic doors, and the town's only Slurpee Brown machine
+- Stevie, a sentient hot dog on the roller who remembered Belch—until Bru took a bite out of him
+- EA ran up a tab for snacks (ham sandwiches, warm half-price boiled eggs, "Boritos")
+
+**The Bathroom:**
+- Like every 7-Eleven bathroom, it came with a chemistry and alchemy set (and a baby changing table)
+- A slide puzzle combination lock (1-2-3-4-pound, solved by EA with a 23)
 - Equipped for firework construction
-- Has sewer grate/ladder leading to nightclub below
-- Oracle indicated this bathroom was key to the disturbance
+- A sewer grate and ladder leading down to a nightclub—the oracle's secret entrance
 
 **Notable Features:**
 - Only one bathroom (creating a multi-hour occupancy problem)
-- Vanessa (goblin customer) desperately needed to use it
-- Slide puzzle security system
+- Vanessa, Bru's cousin, desperately needed to use it
 - Hidden entrance to the sewer system
 - Direct access to the Nerve Hub nightclub
 
@@ -123,41 +129,37 @@ The oracle's directions led to an unexpected location: **the bathroom of a 7-Ele
 A recurring NPC who became the session's tragic figure:
 
 **Characteristics:**
-- Goblin woman with weak bladder
-- Needed bathroom urgently
-- Drank water constantly (unusual for goblins)
-- Ate unusual foods (pineapple pizza)
-- Related to the family somehow
+- Bru's cousin (not on the bowling team), just two weeks old
+- Needed bathroom urgently—though she didn't know the bathroom code
+- Stays hydrated (EA claimed she drinks toilet water)
 - Generally considered annoying by the family
 - Kept insisting she needed to use the bathroom
 
 ### The Death Toll
 
-Vanessa died **three separate times** during the session due to heart attacks:
-
-**First Death:**
-- Cardiac arrest while waiting for bathroom
-- Family occupied bathroom for hours working on fireworks
-- EA had been verbally abusive to her
-- Pakistani clerk attempted CPR
+**The Heart Attack:**
+- Collapsed of cardiac arrest reaching for a Mountain Dew while the family occupied the bathroom for hours working on fireworks
+- EA had been verbally abusive to her through the door
+- Bug the clerk attempted CPR
 - Blamed on hereditary heart attack epidemic (not family's fault)
 
-**Second Death (Ghost Form):**
-- Returned as multiple Vanessa spirits/ghosts
-- Died again trying to keep up with Drew during jumping jacks
-- Second cardiac arrest while exercising
+**The Wraiths:**
+- Returned as five wraiths in Vanessa's visage, vowing revenge; insulting her only split another off
+- Belch (backwards chair, persuasion 23), EA's apology, Auntie Poopy (persuasion 18) and Bru (persuasion 19) talked several of them down
+- One died again of cardiac arrest trying to keep up with Dru's jumping jacks
+- The last one lit the final firework
 
-**Third Death (Mass Multiplication):**
-- Eventually split into "a thousand wraiths"
+**The Thousand Wraiths:**
+- Unimpressed by the firework ("This isn't offensive at all"), and told it meant their branch of the family was the best, she split into a thousand wraiths
 - Killed everyone in the goblin city
-- Family reconciled with her "purely out of spite"
+- The family had spiritually reconciled with her "purely out of spite"
 
 **Family Reaction:**
 - "Vanessa sucks" (general consensus)
-- Drew: "She really really sucks, can't stay alive"
+- Dru: "She really really sucks, can't stay alive"
 - EA: "I'm so glad she's dead"
 - Taskmaster Grit: "Why'd you have to kill Vanessa?"
-- No one attended her funeral (discussed but decided it was "too much work")
+- A memorial was floated afterward, but it "feels like a lot of work"
 
 ## The Nerve Hub & Heart of Tortuga
 
@@ -171,34 +173,32 @@ The sewer ladder from the 7-Eleven bathroom led directly to the **Nerve Hub**, a
 - Massive drug usage (cocaine, hallucinogens)
 - Winter solstice party in full swing
 - DJs rhythm their music to the heartbeat of Tortuga
+- Dealers dressed as elves sell cocaine (Dru bought a pound for brass tacks, a brass candlestick and two doorknobs)
 
 **The Heart of Tortuga:**
 - Physical, beating heart beneath the island
 - Creates rhythmic thumping: "boop boop boop"
 - Shakes the nightclub with each beat
-- Central to the island's existence
-- Target location for the sacred disturbance
+- Next to it, a candlelit hallway labeled "to the ear"—the ear canal leading to the eardrum, the real target of the sacred disturbance
 
-### The Laboratory Setup
+### The Bathroom Workshop
 
-Bru's explosive laboratory became the staging ground for the sacred disturbance:
+The 7-Eleven bathroom became the staging ground for the sacred disturbance:
 
 **Equipment & Materials:**
 - Firework construction supplies
-- Multiple types of cocaine
-- God ear wax jar (discovered later by Bru in present day)
-- Leather jacket for Bru's "angsty teenage" aesthetic
+- Multiple types of cocaine (bomb cocaine is not the same as customer cocaine)
 - Various explosive components
+- The rest of the family practicing for their garage band in the background
 
 **The Firework Design:**
 
 Bru attempted to design a firework with a "B" symbol (for Bru), but EA took over:
 
 **Original Design (Bru):**
-- Large "B" shape
-- Diamond in the center
-- Amateurish construction
-- Multiple technical flaws
+- A diamond with a "B" in the middle, as a calling card
+- Arcana check with disadvantage (everyone was watching): 17
+- The diamond came out "weirdly hard," possibly a circle
 
 **Final Design (EA's Improvements):**
 - Bru family crest inside diamond
@@ -220,22 +220,21 @@ Bru attempted to design a firework with a "B" symbol (for Bru), but EA took over
 
 ### The Plan
 
-The family needed to create maximum chaos at the Nerve Hub to shake the Heart of Tortuga:
+The family needed to make a big boom next to the Turtle God's eardrum:
 
-**Components:**
-- Detach Heart of Tortuga from its moorings
-- Set off massive firework display
-- Use explosive laboratory as additional catalyst
-- Perform ritual (including sitting backwards in chairs for "down and chill" vibes)
-- Light final firework with Vanessa's spirit
+**The Ear Canal:**
+- The canal was blocked by a wall of god earwax
+- Bru's rudimentary "burninator" and EA's heat metal on Auntie Poopy's battle axe melted through it; Bru saved a jar of the god wax
+- Taskmaster Grit (being chased by a goblin whose pants he had stolen) got caught in the flowing wax; both became wax statues, and when Auntie Poopy peeled Grit's face free it was glowing with revitalization
+- At the eardrum, the family balked at hurting the turtle—so Grit threw a stick of dynamite himself
+- Belch, EA and Auntie Poopy caught it together and it exploded in their hands; a wave of wax shielded them as they were thrown back down the canal
 
-**Execution:**
-- Family infiltrated Nerve Hub through sewer entrance
-- Set up explosives at the Heart
-- Performed "sitting backwards in chairs" ritual
-- Drew led group in cocaine-fueled jumping jacks
-- Vanessa (ghost form) lit the final firework
-- Bru watched from his laboratory
+**The Awakening:**
+- The sound reverberated through the ear, and the Turtle God began to wake with an earth-shaking growl
+- Bru remembered the "Bru protocol": his explosives lab would crash into the city unless it was unlatched
+- The family took a zeppelin across the city to the lab, where Vanessa's wraiths ambushed them
+- Bru fought a slide puzzle on the lab's computer while the rest sat backwards in chairs—hats, shirts and pants backwards—to talk the wraiths down
+- Dru led cocaine-fueled jumping jacks; Vanessa (ghost form) lit the final firework
 
 ### The Catastrophic Success
 
@@ -243,21 +242,19 @@ The sacred disturbance exceeded all expectations:
 
 **The Explosion:**
 - Massive firework display showing Bru family crest
-- Earth began to crack beneath the city
-- Bru's laboratory broke free from the city
-- Laboratory descended toward the ground below
-- Island of Tortuga began rising from the sea
+- Earth cracked beneath the city
+- Bru's laboratory broke free from the city and fell, with Bru inside
+- Island of Tortuga rose from the sea
 
-**The Awakening:**
+**The Walk Away:**
 - Turtle God awakened by the disturbance
 - Island lifted on the back of the awakened turtle
 - Entire goblin city began walking away on turtle's back
-- Ground fell away beneath Bru's falling laboratory
 
 ### The Aftermath
 
 **Immediate Consequences:**
-- Bru deployed emergency parachute (all family members had them)
+- Bru deployed his parachute (the family had grabbed them on the zeppelin)
 - Escaped falling laboratory as it crashed
 - Watched his home city walk away on the turtle
 - Separated from his entire family
@@ -280,7 +277,7 @@ The session established key aspects of Bru's character:
 - Early experimentation with explosives
 - Learning technical skills from EA
 - Attention to detail (why family considers him the leader)
-- Angsty teenage aesthetic (leather jacket, wants to seem cool)
+- Angsty teenage attitude, and a signed skateboard
 - Knowledge of technical facts (glass tubes in glow sticks)
 
 **Trauma Origins:**
@@ -293,13 +290,13 @@ The session established key aspects of Bru's character:
 **Family Relationships:**
 - Close with Uncle Belch (learned conspiracy theories)
 - Mentored by EA (learned fireworks)
-- Typical younger sibling dynamic with Drew
-- Respected as natural leader despite being youngest
+- Typical sibling dynamic with his younger brother Dru
+- Respected as natural leader despite his youth
 - Connected to large extended family
 
-### Drew's Cocaine Journey
+### Dru's Cocaine Journey
 
-Luke played Drew as perpetually high with escalating energy:
+Luke played Dru as perpetually high with escalating energy:
 
 **Cocaine Management:**
 - Separate stashes for every occasion and location
@@ -324,13 +321,14 @@ Luke played Drew as perpetually high with escalating energy:
 
 ### Uncle Belch's Conspiracy Theories
 
-Tyram played Belch as the paranoid uncle teaching Bru worldview:
+Taylor played Belch as the paranoid uncle teaching Bru worldview:
 
 **Theories:**
 - Winter King is a front for the mind flayer mafia
-- Water janazi (in skimpy clothes) is part of the conspiracy
-- Sacred disturbances have hidden purposes
-- Always suspicious of official narratives
+- Water genasi (in skimpy clothes) is part of the conspiracy
+- Vampires talk inside your head—always ask "Who is this?"
+- Reading is a conspiracy by wizards
+- Always keep your food with you: brown is the only safe food
 - Taught Bru his conspiratorial thinking
 
 **Skills:**
@@ -363,8 +361,16 @@ Ali played EA as the harsh but effective teacher:
 - Technical expertise with explosives
 - Passed knowledge to young Bru
 
+### Auntie Poopy's Late Arrival
+
+Ellis joined as Auntie Poopy in the nightclub and immediately asked why they were blowing up a turtle:
+
+- Worried throughout about hurting the Turtle God
+- Carved through the god wax with her heated battle axe and freed Grit's face
+- Offered to investigate Vanessa's death: "cults are my specialty, but serial killers and murders I love"
+
 **Epilogue:**
-- Possibly opened spa with god ear wax
+- Opened a spa with the god ear wax
 - "Rejuvenating all of the goblins"
 - Life extension treatments through "deep moisturizer"
 - Created wellness craze among goblins
@@ -374,7 +380,7 @@ Ali played EA as the harsh but effective teacher:
 
 1. **Bru's Return:** Can Bru reunite with his family now that he has access to the island (if any survived)?
 
-2. **The God Ear Wax:** Bru discovered a jar of god ear wax in present day—connection to EA's spa business?
+2. **The God Ear Wax:** In a flash-forward, Bru finds the jar of god ear wax in the Bugatti—connection to Auntie Poopy's spa business?
 
 3. **Vanessa's Wraith:** Christopher noted to remind him "Vanessa might come back as a wraith to haunt them"—will this haunt Bru?
 
@@ -382,15 +388,15 @@ Ali played EA as the harsh but effective teacher:
 
 5. **Family Reunion Possibility:** "Bru family reunion—oops, all bruises" discussed as future possibility
 
-6. **Drew's Recovery:** Successfully got clean—could appear as NPC helping others?
+6. **Dru's Recovery:** Successfully got clean—could appear as NPC helping others?
 
 7. **Uncle Belch's Bowling Alley:** If survived, might own the bowling alley now
 
 8. **The Sacred Disturbance Success:** Did other bowling leagues also succeed? What happened to competitors?
 
-9. **Pakistani Clerk's Ban:** "You and your family and your bowling team are never allowed in my 7-Eleven again"—permanent ban enforced?
+9. **Bug's Ban:** "You and your family and your bowling team are never going to be in here again"—permanent ban enforced?
 
-10. **The 712 Alternative:** Bug's brother runs the 712 (better than 7-Eleven)—new family hangout?
+10. **The 712 Alternative:** Bug's brother Doug runs the 712 (closer to EA's house, and better than the 710)—new family hangout?
 
 ## Key Revelations
 
@@ -422,18 +428,18 @@ The session followed a fairly linear quest structure:
 
 **Act 1:** Mission briefing from Taskmaster Grit, family dynamics established
 
-**Act 2:** Oracle quest through festival, found coordinates, traveled to 7-Eleven
+**Act 2:** Oracle quest through festival, got the prophecy, traveled to 7-Eleven
 
-**Act 3:** Laboratory work, firework construction, family conflict (Bru vs EA)
+**Act 3:** Bathroom workshop, firework construction, family conflict (Bru vs EA), Vanessa's death
 
-**Act 4:** Journey to Nerve Hub, discovered the Heart of Tortuga
+**Act 4:** Down to the Nerve Hub beside the Heart of Tortuga, then up the waxed ear canal to the eardrum
 
-**Act 5:** Sacred disturbance ritual, explosive finale, island rises
+**Act 5:** Grit's dynamite, the race to Bru's lab, Vanessa's wraiths, explosive finale, island rises
 
 ### Comedy Highlights
 
 **Running Gags:**
-- Drew's cocaine addiction and separate stashes for every occasion
+- Dru's cocaine addiction and separate stashes for every occasion
 - Vanessa dying repeatedly from heart attacks
 - "Vanessa sucks" (family consensus)
 - Taskmaster Grit interrupting at inconvenient times
@@ -442,31 +448,31 @@ The session followed a fairly linear quest structure:
 - Goblin death toll from heart attacks
 
 **Physical Comedy:**
-- Drew swimming in cocaine piles
+- Dru swimming in cocaine piles
 - Snowball fights with cocaine-mud-rocks
 - Children getting cocaine in their eyes
-- Drew doing jumping jacks until ghost died
+- Dru doing jumping jacks until ghost died
 - Backwards everything (chairs, hats, shirts, pants)
 
 **Dark Comedy:**
 - Casual attitude toward Vanessa's deaths
 - "Did I finish my firework? Oh wait, she's dead"
 - Blaming Bru for bathroom-related death
-- No one attending Vanessa's funeral
-- Drew's inevitable cocaine crash
+- Skipping Vanessa's memorial because it's "a lot of work"
+- Dru's inevitable cocaine crash
 
 ### Meta Moments
 
 **Self-Aware Humor:**
 - Firework design includes "fireworks" (meta reference)
-- "Are we the baddies?" after killing everyone
+- "We are the baddies" while designing a firework over Vanessa's corpse
 - Discussion of AI recap vs actual events
 - References to previous interlude (Elspeth's racing)
-- Christopher adapting adventure from D&D Beyond source
+- Christopher claiming he lifted the adventure "word for word" from D&D Beyond
 
 **Player Creativity:**
-- 7-Eleven bathroom as laboratory (player suggestion)
-- Cocaine as Drew's character trait (improvised)
+- 7-Eleven as the oracle's destination (Taylor improvised it as Belch's old workplace)
+- Cocaine as Dru's character trait (improvised)
 - All character names and relationships player-created
 - Bru's Cousins bowling league concept
 - Family dynamics and conspiracy theories
@@ -486,7 +492,7 @@ Despite the comedy, the session established genuine tragedy:
 - Despite chaos, family worked together
 - Uncle Belch protective of younger members
 - EA improved Bru's work (harsh but caring)
-- Taskmaster Grit genuinely concerned about family
+- The family closed ranks against Taskmaster Grit, who kept popping up, threw the dynamite himself, and (the table decided) had been driving a wedge through the family
 - Strong sense of goblin community and belonging
 
 **Setting Destruction:**
@@ -523,9 +529,9 @@ The session explained several ongoing mysteries:
 ---
 
 :::tip Future Sessions
-Several character backstories remain: Ma's origin, Liliana's past, and Olivia's first case possibly involving Caspian and previous campaign characters. The Tortuga island could become a visitable location for family reunion adventures.
+Several character backstories remain: Ohma's origin, Leliana's past, and Olivia's first case possibly involving Caspian and previous campaign characters (Christopher also has an Olivia session ready about undead reported at a nursing home in the hills). The Tortuga island could become a visitable location for family reunion adventures.
 :::
 
 :::note DM's Note
-Christopher confirmed this adventure was adapted from D&D Beyond source material, though players' improvisation (cocaine, 7-Eleven, character dynamics) added significant original content. The session successfully established Bru's tragic backstory while maintaining the campaign's comedic tone.
+Christopher joked that he had lifted this adventure "word for word" from D&D Beyond—7-Eleven, cocaine and all—though Taylor pointed out the 7-Eleven was improvised on the spot as Belch's old workplace. The players' improvisation (cocaine, 7-Eleven, character dynamics) added significant original content. The session successfully established Bru's tragic backstory while maintaining the campaign's comedic tone.
 :::

@@ -13,6 +13,7 @@ A comprehensive Python script that automates the workflow of creating session no
 3. **Determines the next session number** by analyzing existing session files
 4. **Generates a Claude prompt** with context from recent sessions
 5. **Prepares everything** for Claude Code to create the full session notes
+6. **Updates the wiki pages** (NPCs, locations, organizations, items) the new recap involves (see [Wiki Pages](#wiki-pages-wiki_updatepy))
 
 ### Usage
 
@@ -124,6 +125,38 @@ nothing is committed and the SRT stays in `transcripts_raw/` so a re-run picks
 it up.
 
 Run the tests with `python -m pytest scripts/tests/ -q`.
+
+### Wiki Pages (`wiki_update.py`)
+
+The NPC, location, organization and item pages (`docs/npcs/`,
+`docs/locations/`, `docs/organizations/`, `docs/items/`) are kept current by
+this step. The first three were written once, around Session 36, and nothing
+ever updated them again. After each recap is published, the generator now:
+
+1. **Finds the pages the recap involves**: a link to the page, or the page's
+   `title` or one of its `aliases` appearing in the recap body. Matching is
+   case-sensitive (these are proper nouns), and it ignores the frontmatter,
+   editorial notes and correction notices.
+2. **Asks Haiku for one factual sentence per page** about what that entity did,
+   what happened there, or who used, gained or lost an item, *in this recap*. A passing mention gets nothing.
+3. **Writes it as that session's bullet** under the page's `## Session History`
+   section: `- **[Session 64](/sessions/session-64)** — …`. A regenerated recap
+   replaces its own bullet rather than adding a second one.
+
+Recurring characters, places, groups and items that have no page yet are listed in the
+run log and the Actions job summary. They are **never created automatically**:
+whether something deserves a page is an editorial call.
+
+The recap prompt also lists every existing wiki page, so new recaps link them
+by their real paths.
+
+To make a page easier to match, give it aliases in its frontmatter:
+
+```yaml
+aliases: ["Viper", "Elizandra Legrand"]
+```
+
+The step only warns on failure. A published recap never waits on the wiki.
 
 ### Output
 
@@ -243,6 +276,14 @@ Share the **tree root**, not an individual meeting folder — Drive permissions
 inherit, so each new per-meeting subfolder Meet creates is covered without
 further action. Share a leaf and you are back here next week.
 
+Sharing the tree root is not always enough either: Meet can create a whole new
+root. On 2026-09-26 it made a *second* `My Drive/Google Meet/` folder
+(`1YV_vLeKzQwEPJDv7Ogc2O9MyQHWdLPMk`) next to the first, and filed Session 63
+(recorded 2026-09-25) there. That run found only Session 62 in the roots it
+knew about, and reported "No new episodes found". When a session goes missing,
+search Drive for `DnD - <date> - Recording` and check which folder it is in.
+If that folder is not in `DRIVE_FOLDER_ID`, add it there and share it.
+
 `detect` probes every root with `files.get` before walking it, so the log says
 which of the two things went wrong:
 
@@ -273,6 +314,52 @@ followed, so a further reshuffle inside either tree needs no code change. A
 `DRIVE_FOLDER_ID` repository variable overrides the default; it takes the same
 comma-separated form. Overlapping roots are de-duplicated, and the walk stops
 after 200 folders so a cycle cannot run away.
+
+### Where the speaker names come from
+
+The transcript has never been speech-to-text. `extract` pulls the caption
+track Meet bakes into the recording (`ffmpeg -map 0:2`), and that track used
+to name every speaker — Episode 61's had five, with no unattributed cues.
+
+Episode 62's did not. 2,167 of its 3,581 cues carried an empty `()` tag and
+the only name present was the host's. `plugins/transcript_cleaner_ai_optimized.py`
+folds an unnamed cue into whoever spoke last, so the entire session collapsed
+into **one 44,318-character block attributed to a single person**, the recap
+model was handed a wall of unattributed text, hit `max_tokens`, and emitted no
+frontmatter. The validation gate caught it and refused to publish.
+
+Meet had not lost the attribution — it moved it, in the same reorganisation
+that moved the recordings into `Google Meet/<meeting name>/`. Each meeting now
+also produces a **`… - Transcript` document** beside the recording, and that
+document still names everyone: 1,927 attributed lines across four speakers for
+the session the caption track had reduced to one.
+
+`scripts/meet_transcript.py` converts that document back into the SRT shape the
+cleaner reads, so nothing downstream changes. Rebuilt from the document, the
+same session cleans to 126,772 characters across 1,585 dialogue blocks and four
+speakers.
+
+`extract` prefers that document automatically. When one exists beside the
+recording it is exported, converted, and used — and the caption track is **not
+pulled at all**, rather than pulled and discarded. Meet names the pair
+identically apart from the final word, so the document is derived from the
+recording's own name rather than searched for blindly. Audio extraction is
+untouched: the release needs the MP3 either way.
+
+Every fallback is deliberate. No document, an export that fails, or a document
+holding no attributed lines all fall back to the caption track, because a
+worse transcript still beats losing the episode. Drive being unreachable does
+too — that step did not need Drive before this, and a network blip must not
+cost an extraction the video alone can satisfy.
+
+Whichever source wins, the run reports how well attributed it is, and warns on
+stderr when only one speaker is named. That is the Episode 62 shape exactly:
+something was produced, but no recap can come from it.
+
+The document marks time only every five minutes, so cues are spread evenly
+across each section. That is accurate to within the window and never out of
+order — coarser than a caption track, and finer than the recap needs, since
+timestamps anchor narrative sections rather than quote to the second.
 
 ### Two files hold all the state
 

@@ -9,18 +9,18 @@ summary: "Luna's sending stone wakes the party with a panicked alarm — Eldoran
 
 ## Setting
 
-The morning after Razlemania. Greyport is still cleaning up the arena. Iro's workshop is locked and quiet. Roughly four in-game days have passed since the Luna Trench expedition, and Luna's sending stone has started lighting up with panic — Eldoran Knights have anchored an industrial operation directly to her remains. By session's end, the party will have severed the rebinding ritual, killed an Eldoran captain at sea, stuffed four crates of violescence into a god's chest cavity, and welcomed Luna — fully fleshed — back into the world.
+The day after Razlemania. Iro's workshop is locked and quiet. Roughly four in-game days have passed since the Luna Trench expedition, and Luna's sending stone has started lighting up with panic — Eldoran Knights have anchored an industrial operation directly to her remains. By session's end, the party will have severed the chain binding her to the Eldoran portals, killed an Eldoran captain at sea, poured a portable hole's worth of violescence into a god's chest cavity, and welcomed Luna — fully fleshed — back into the world.
 
 ---
 
 ## Players Present
 
-- **Topher** (DM)
+- **Topher** (DM) — also running Scarlet
 - **Taylor Ramsey** as **Silas Fairbanks** — Halfling Rogue/Sorcerer
 - **Justin Hale** as **Bru** — Goblin Artificer
 - **Ali Leonard** as **Elspeth Cooper** — Dwarf Artificer/Gunslinger
 - **Luke Neverisky** as **Leliana Goldspring** — Human Bard
-- **Ellis Taylor** as **Olivia Cooper** — Dwarf Paladin
+- **Ellis Taylor** (Olivia Cooper) absent this session — Olivia rides along in the background
 
 ---
 
@@ -28,43 +28,43 @@ The morning after Razlemania. Greyport is still cleaning up the arena. Iro's wor
 
 ### The Sending Stone Goes Off
 
-The session opens on a recap. Roughly four in-game days since Luna Trench. The party has named the location — Luna Trench — for marketing reasons, and trademarked it three times in case anyone is listening. Followers of Luna apparently pose like Sailor Moon now. This is canon.
+The session opens on a recap. Roughly four in-game days since the party went out to Luna's corpse, and the spot now has a name: Luna Trench. Followers of Luna pose like Sailor Moon now. This is canon.
 
-Then the sending stone lights up. Luna, panicked:
+Then the sending stone lights up. Luna, starting calm and ending scared:
 
-> *"Eldoran Knights are in the ocean. They have a device. There is a portal gate, with people moving in and out, and they are attaching chains and a spike. I believe they are trying to break my link to existence. I need Taco Cat's help."*
+> *"Luna here. I'm really scared. There are Eldoran Knights here in the ocean. It looks like they're setting up some sort of device. They opened a portal gate with lots of people moving in and out. I think they're trying to break my link to existence. They're setting up an empty portal gate that's attached to a chain, a spike. I'm worried it might be linked to somewhere else I exist. Please come as soon as you can. I need your help. You're the only ones that can save me."*
 
-The stone is not personalized — Luna has sent the same message to everyone she gave one to. The party heads for Iro's workshop to retrieve Gary's stone and find out what is left of the man, since Gary walked into Crowley's portal at the close of the last session.
+The message was probably just for them. The party is already on its way to Iro's workshop, where Gary promised to hand over a sending stone for reaching Caspian — unaware that Gary walked into Crowley's portal on his way home last night.
 
 ---
 
 ### Iro Returns
 
-The workshop is shuttered. The party knocks. Nothing — and then, with no warning, a portal tears open in the alley and Iro powerbombs Count Dastardio through a folding table in the street.
+The workshop is shuttered, the Iron Maiden moored outside, and the usual tinkerers are waiting at the door checking their watches — Iro is late, probably fighting Count Dastardio again. Then a portal tears open and Iro, still in his wrestling trunks, comes careening out with Dastardio over his head and powerbombs him through a folding table sitting in the middle of the street. They have been battling for who knows how long.
 
-Dastardio, before being thrown back through the portal:
+Dastardio, coughing blood:
 
-> *"If you kill me, the life of Princess Celestina shall be forfeit."*
+> *"You can't kill me, Iro. If you do, then the life of Princess Celestina shall be forfeit as well."*
 
-Iro vows to break the blood curse, kicks Dastardio back through the rift, and the count splits into multiple flickering Iros and vanishes. Iro himself walks back to the workshop sweaty and shirtless and unlocks the doors. Olivia, Leliana, and Elspeth take a long, appreciative moment to ogle his abs.
+Iro, furious, vows that someday he will find a way to break Dastardio's blood curse — and in the meantime banishes him to the jaws of infinity, hurling him back through the portal, where the count splinters apart and vanishes. Iro towels off, sweaty and shirtless, and unlocks the doors. Olivia, Leliana, and Elspeth take a long, appreciative moment to ogle his abs.
 
-The party briefs him on the Luna alarm. Iro briefs them on explosives.
+The party briefs him on the Luna alarm, and Iro agrees to lend them his boat.
 
 ---
 
 ### The Plan
 
-Silas proposes the cover: disguise as members of the Order of St. George — dragon hunters, well-known Eldoran allies — and pretend to "betray" the operation mid-mission, splitting the Eldoran detachment from its support.
+Silas proposes the cover: disguise as members of the Order of St. George — dragon hunters, well-known Eldoran allies who rent random boats anyway — get close, then announce they are betraying the Eldorans, driving a rift between the two groups.
 
-History checks confirm the Order is legendary enough that the Eldorans on the barge probably don't know its individual operatives by sight. The Iron Maiden — the boat — is *too* recognizable, however. Silas uses his hat of disguise to dress himself as a St. George knight. The party renames the boat differently on each side: *Led Zeppelin* on one flank, *Dancing Queen* on the other. A divorce-down-the-middle motif, in case anyone asks.
+History checks raise one worry: the Iron Maiden is notorious, even legendary, around here. But these Eldoran Knights are not from around here, and probably know nothing about it. The party disguises the boat anyway. Silas uses his hat of disguise to dress himself as a St. George knight, then clings to the hull and paints *Led Zeppelin* on one flank while Elspeth, dangling upside down, paints *Dancing Queen* on the other. A divorce-down-the-middle motif, in case anyone asks.
 
 Bru consults Iro on how to weaponize the violescence crystals. Arcana with advantage and a bardic boost from Leliana: 33. Iro reasons through it like a physicist:
 
-> *"Putting interdimensional objects inside other interdimensional objects causes them to explode."*
+> *"If you're trying to take down portals, well, those are interdimensional objects. You know when you put a bag of holding in a bag of holding, they just kind of blow up."*
 
-Bag-of-holding-in-a-bag-of-holding logic. He hands Bru a grenade launcher roughly Bru's size and a bandolier of violescence to throw into anything that looks portal-shaped.
+Bag-of-holding-in-a-bag-of-holding logic. He hands Bru some rough violescence — smooth it out, work a little magic on it, throw it in the portal — and then a grenade launcher roughly Bru's size.
 
-Leliana takes the helm. Olivia, retired detective Olivia Cooper, and the NPC Scarlet ride along.
+Leliana takes the helm. Olivia rides along in the background, and so does Scarlet, reading a book about quantum physics and not helping a lick.
 
 ---
 
@@ -73,19 +73,19 @@ Leliana takes the helm. Olivia, retired detective Olivia Cooper, and the NPC Sca
 The party arrives offshore to find a three-barge industrial operation directly above Luna's resting place:
 
 - Two floating platforms, each connected by huge iron chains running down to spikes anchored into Luna's crown.
-- A third barge with an active portal on its deck — a shimmering vertical column of light through which laborers and knights are moving up and down, ferrying material between the surface and somewhere below. The drop to the water is roughly three hundred feet.
+- A third barge with an active portal on its deck, and a shimmering, almost holographic levitation shaft through which people are moving up and down between the barge and the seabed three hundred feet below.
 
-Forces: ten Eldoran Knights, ten or so laborers, five scientists or researchers around a ritual circle, and a single captain at the center, watching everything in silence. Each knight wears six violescence crystals visibly mounted on their armor. The captain has fifteen.
+Forces: ten Eldoran Knights, ten or so laborers, five scientists or researchers around the ritual site where the party did the rebinding, and a captain down at the site, silently watching everything. The knights wear six violescence crystals each, visibly mounted on their armor. The captain has fifteen.
 
 Leliana crits Perception (24) and spots two enormous anchor bolts driven into Luna's skull.
 
-The crystals are clearly the source of Eldoran power — they glow when used. Elspeth files this away: when they get back, Scarlet and Jasper need to start figuring out how to neutralize one.
+The crystals seem to be the source of Eldoran power — they glow when used. Elspeth asks Scarlet to figure out how to neutralize them; Scarlet, who did not know where they were going, suggests finding someone who can, and Elspeth and Silas land on Jasper. When they get back to town, Scarlet and Jasper are to blue-sky it.
 
 ---
 
 ### Cover Story
 
-Silas opens on the radio, calmly identifying himself as Order of St. George patrol, sweeping for dragons. Deception: 45. The Eldoran captain welcomes them in. Boat closes from three hundred feet to one hundred, well within grenade range of the active portal.
+The radio buzzes: unidentified craft, report your purpose. Silas answers as an Order of St. George patrol — they had a report that a dragon was coming to attack their allies, and had to rent a boat from the harbor. Deception: 45. The Eldorans welcome the *Led Zeppelin* to the scene and promise to be out of its hair in a couple of minutes. Boat closes from three hundred feet to one hundred, well within grenade range of the active portal.
 
 Bru fires.
 
@@ -101,17 +101,17 @@ The chain on the previously inert portal lights up with bluish-white magic. The 
 
 Silas, perception jacked to 28 with Psychic Knack and bardic inspiration, looks through the opening — and recognizes the place.
 
-Beach. Lake. Quiet village at the foot of a mountain. Iro, visible in the middle distance.
+Beach. Lake. Quiet village at the foot of a mountain. A beach boy who looks just like Iro.
 
 It is the inside of the pocket village.
 
-The Eldoran chain-portal isn't just anchored to Luna — it is *tuned* to wherever Luna is, and Luna is currently inside the pocket village the party uses for rest. Destroying the portal would cut the link. So would severing the chain. Either is doable, but the second portal must not be detonated like the first.
+Silas's read: the portals must be tuned to wherever Luna exists — and that includes the pocket village the party uses for rest. Blowing up this portal could take the village with it. Cutting the chain instead should sever the link. The second portal must not be detonated like the first.
 
-Silas radios the captain:
+Silas radios the Eldorans:
 
 > *"You've served your purpose, Eldorans. The Order of St. George stands alone now."*
 
-The captain, evenly:
+The reply:
 
 > *"Roger that, you dragon bastards. We're going to shoot you right out of the ocean. And we will lay waste to everyone you called friends and family."*
 
@@ -121,9 +121,9 @@ The cover is blown. The fight is on.
 
 ### Severing the Chain
 
-Silas Misty Steps seventy feet, then swims another ten — eighty feet closer to the ritual site. Leliana spots the captain and her surrounding soldiers injecting themselves with something at the ritual circle, six hundred feet away. The crew of one of the remaining barges is wheeling a mounted gun around to point at the party's ship.
+Silas teleports seventy feet toward the nearest barge, then swims another ten. Leliana, on a Luck reroll, spots the captain dropping something into an eye and the soldiers around the ritual site injecting themselves, six hundred feet away. The crew of one of the remaining barges is wheeling a mounted gun around to point at the party's ship.
 
-Leliana drops Antagonize on the closest of the three soldiers manning the gun. He fails the INT save and, in his mind, every other Eldoran around him is suddenly an enemy — he draws his sword and starts hacking at his own crew while the other two scramble to defend themselves.
+Leliana brings the boat within 120 feet and casts Enemies Abound on one of the three soldiers manning the gun. He fails the INT save and, in his mind, every other Eldoran around him is suddenly an enemy — he draws his sword and starts hacking at his own crew while the other two scramble to defend themselves.
 
 She gives Bru juice.
 
@@ -131,9 +131,9 @@ Bru fires the grenade launcher at the chain. Hit. Thirty-six damage. The chain h
 
 Bru's bonus action: Eldritch Cannon, force ballista. Crit. Thirty-nine damage. The chain severs.
 
-The dead portal goes inert — just rotting iron now. The unanchored barge starts drifting. Silas's pocket-village link is intact. Luna's rebinding to the Eldoran portal network is broken.
+The dead portal goes inert — just rotting iron now. The unanchored barge starts drifting. The pocket village is safe. Luna's rebinding to the Eldoran portal network is broken.
 
-The captain, mid-ritual, lifts off the deck on her own power and starts flying directly at the party's ship.
+The captain rises from the ritual site on her own power and starts flying directly at the party's ship.
 
 ---
 
@@ -141,11 +141,11 @@ The captain, mid-ritual, lifts off the deck on her own power and starts flying d
 
 Elspeth opens with Heat Metal on the captain's armor. Eleven damage on contact, and the captain's attack rolls go to disadvantage as her plate cooks. Her counter-attack on Elspeth — five, five, six, four, finishing at twelve — misses cleanly.
 
-Silas's plan is independent and elegant: teleport to the partially destroyed enemy boat, use telekinesis to swivel the mounted cannon, aim it at the command tower, and pull the trigger remotely. He executes it in stages over the next two rounds — eighty feet of teleport, fifteen feet of athletic swimming (18), and a 23 sleight-of-hand to redirect the cannon. The shot punches a ten-by-ten hole through the enemy command center and capsizes that boat. Workers flee for the lifeboats. The Antagonized knight finishes off his unconscious comrade with a sword through the head and turns toward Silas.
+Silas's plan is independent and elegant: teleport to the drifting gun barge, use telekinesis to swivel the mounted cannon, aim it at the command tower, and pull the trigger remotely. He executes it in stages over the next two rounds — eighty feet of teleport, fifteen feet of athletic swimming (18), and a 23 sleight-of-hand to redirect the cannon. The shot punches a ten-by-ten hole through the enemy command center and capsizes that boat. Workers flee for the lifeboats. The ensorcelled knight finishes off his unconscious comrade with a sword through the head and turns toward Silas.
 
-Leliana commands the captain to halt. She saves with a 21 — the captain has stims in her system and her Wisdom is propped up. Leliana then spends her concentration on driving the boat through the wreckage, threading around the black hole and crushing bobbing knights with the propeller. A misfire of an accidental fireball catches Bru and Elspeth on her own boat — both fail their Dex saves, take thirteen fire damage each, but Warding Bond cuts Bru's load in half and Elspeth's resistance handles the rest.
+Leliana tries Command on the captain, who saves with a 21. Leliana turns back to driving, threading the boat through the wreckage around the black hole — Sleight of Hand 19, with a Luck reroll and Elspeth's Flash of Genius — and crushing bobbing knights with the propeller. The captain answers with a fireball at the boat. Bru and Elspeth both fail their Dex saves for thirteen fire damage each; Warding Bond's resistance halves Bru's share. Leliana, in the wheelhouse, is untouched.
 
-Bru grenade-launches the captain herself: twenty-three to hit, forty damage. She is now on fire, slowed, cooking inside her own armor, with disadvantage on everything.
+Bru grenade-launches the captain herself: twenty-three to hit, forty damage. She is still coming, cooking inside her own armor.
 
 She closes anyway. Her attack rolls on Elspeth: seventeen and twelve. Bru burns his Protective Wings reaction (Gift of the Metallic Dragon) for plus four AC. Both miss.
 
@@ -153,21 +153,19 @@ Elspeth reapplies Heat Metal — three damage — then shoots the captain with h
 
 Leliana casts Frostbite. Captain fails the Con save. Eleven cold damage.
 
-Bru finishes her with the force ballista. Twenty-three to hit. Sixteen force damage. The shot punches through her charred helmet and crumbles her skull inside the metal. Topher narrates her last expression as the moment she regrets ever going to the captain's academy. She sinks in burning, sizzling armor.
+Bru finishes her with the force ballista. Twenty-three to hit. Sixteen force damage. The shot punches through an opening in her charred helmet and crumbles her skull inside the metal. Frozen on her face is the moment she regrets ever going to the captain's academy. She sinks in burning, sizzling armor.
 
-Ali laments that Scarlet didn't get to see it.
+Elspeth laments that Scarlet didn't get to see it.
 
 ---
 
 ### The Sharks Are Bros
 
-The remaining mounted cannon, on a third boat at the edge of the engagement, opens fire on the party. Nat-four to hit — wide miss on most of the deck, but Elspeth and Leliana take seven fire each. Bru's resistance soaks his entirely. Boxbox repairs the boat for sixteen, lightning tendrils stitching the hull's wound shut — Ali notes this is a build choice she made over a year ago and has been waiting to use.
+The last chain is on the far side of the trench, some nine hundred feet off. Elspeth goes below to the engine, where Boxbox has been staring at it all fight, and — with his help, Arcana 22 — enlarges it just right without sinking the boat. The ship's speed triples. Leliana drives 250 feet toward the next portal.
 
-Ali has Boxbox enlarge the boat's engine. Arcana 22. The ship's top speed triples. Leliana drives 250 feet toward the next portal.
+Silas, meanwhile, has ridden the severed chain down to the seabed, and the knights who were chasing him are closing. Watching the bloody water, he spots dark shark-shaped silhouettes converging from the periphery — Perception 21, a full gentlemanly contingent. The gentleman sharks are old friends of the party, and they remain canon now. Silas leaves the knights to them.
 
-Silas, watching the bloody water, spots dark shark-shaped silhouettes converging from below — perception 21, polite gentlemen sharks in tuxedos and top hats. The sharks have been canon since Razlemania and they remain canon now. Silas leaves the surviving knights to them.
-
-He moves and bonus dashes sixty feet to the ritual site, unfurls the violescence, and stomps it down into Luna's chest cavity.
+He moves and bonus dashes sixty feet to the ritual site, unfurls the portable hole, pours its violescence into Luna's remains, and stomps it down into her chest cavity.
 
 > *"Wakey wakey, violescence and bakey. We are fucking Frankensteining a dead god. We are past the point of being creepy at this point."*
 
@@ -181,7 +179,7 @@ As Leliana drives, Luna's body assembles. Flesh forms over the ribs. Fingers and
 
 Bru tries to grenade-launch the dormant second portal — perception 25 confirms it is just iron now, not yet relit — at disadvantage. He rolls a twelve and misses, vaporizes a worker on a smoke break with a Charlie Chaplin mustache, and damages the barge underneath.
 
-The third boat's cannoneer keeps firing. A nat-twenty volley targets Elspeth. She Shields up to AC 20 to block the first hit but eats thirteen damage on the second. Knights on shore wing twenty-five damage onto Silas while he is hunched over the ritual; he takes it without dodging because his hands are full of violescence.
+The cannon on the far boat opens fire on the party's ship. Elspeth passes her Dex save for seven fire damage; Bru, with Warding Bond's resistance, takes three. Boxbox repairs the boat for sixteen, lightning tendrils stitching the hull's wound shut — a build choice Ali made over a year ago and has been waiting to use. The knights in the trench keep shooting Silas while he is hunched over the ritual — twenty-five damage across two volleys, and he is bloodied; he cannot bob and weave with his hands full of violescence.
 
 Luna's first arm sweeps a wave of about twenty tuxedoed sharks onto the knights — top hats, canes, polite bites in turns.
 
@@ -189,23 +187,25 @@ Luna's first arm sweeps a wave of about twenty tuxedoed sharks onto the knights 
 
 Her second arm raises a barrier of cover around Silas and lifts him as the new flesh folds in around the bones beneath him.
 
-Bru crits the cannoneer with the grenade launcher — nat twenty, forty-one damage — and blows him ten feet off his own gun. Eldritch Cannon takes the cannon off its pedestal but fails to wreck it.
+The cannoneer turns his gun on Elspeth. The first shot is a natural twenty for thirteen damage; she Shields up to AC 20 and turns the second.
 
-Combat ends. The sharks are eating the surviving knights. One knight escapes on a lifeboat. The party lets him go. Ellis predicts he will become their big bad nemesis, sworn to avenge his captain.
+Bru grenade-launches the cannoneer — a dirty twenty to hit, forty-one damage — and blows him ten feet off his own gun. Eldritch Cannon knocks the cannon off its pedestal but fails to wreck it.
+
+Combat ends. The sharks are eating the knights in the water. One knight escapes on a lifeboat. The party lets him go — he will only tell everyone the Order of St. George did it. Elspeth predicts he will become their big bad nemesis, sworn to avenge his captain.
 
 ---
 
 ### Luna Returns
 
-Luna fully materializes — flesh, skin, clothing — and a coral-style temple rises from the seabed under her. Silas, History 18 with Flash of Genius, recognizes the architecture. It matches the lower reaches of Haiou.
+Luna fully materializes — flesh, skin, clothing — and a coral-style temple rises from the seabed under her. Bru, History 18 with his Flash of Genius, recognizes the architecture. It matches the lower reaches of Haiou.
 
-Luna briefly teleports away. A distant shriek. She reappears.
+Luna briefly disappears. A distant shriek. She comes back.
 
-> *"I made sure he knew. Luna has returned. The Eldorans should take note."*
+> *"I had to make sure the escapee knew that Luna has returned, and the Eldorans should take note."*
 
 She turns to the party:
 
-> *"Thank you. I can help you, as I gather strength, to take on the Eldoran Empire."*
+> *"I want to thank you all so much. I believe I can help you, as I gather strength, to take on the Eldoran Empire."*
 
 Session ends.
 
@@ -213,15 +213,15 @@ Session ends.
 
 ## Notable Character Moments
 
-- **Silas spotting the pocket village through the second portal** is the structural pivot of the entire fight. The original plan was to blow up both portals. The reveal — that the chain-portal system is tuned to Luna wherever she is, and that Luna is currently inside the pocket village the party rests in — converts a demolition job into a precision job mid-combat. Severing the chain instead of nuking the portal is the difference between rescuing Luna and accidentally erasing the village.
+- **Silas spotting the pocket village through the second portal** is the structural pivot of the entire fight. The original plan was to blow up both portals. The reveal — that the chain-portal opens onto the pocket village the party rests in, apparently because it is tuned to wherever Luna exists — converts a demolition job into a precision job mid-combat. Severing the chain instead of nuking the portal is the difference between rescuing Luna and accidentally erasing the village.
 
-- **Bru's grenade launcher** earns its keep. He kills the active portal, severs the chain with a force-ballista crit, kills the captain, and crit-blows the third boat's cannoneer off his cannon. Iro's grenade launcher and Iro's bag-of-holding-in-a-bag-of-holding logic get a complete demonstration in a single session.
+- **Bru's grenade launcher** earns its keep. He kills the active portal, severs the chain with a force-ballista crit, kills the captain, and blows the far boat's cannoneer off his cannon. Iro's grenade launcher and Iro's bag-of-holding-in-a-bag-of-holding logic get a complete demonstration in a single session.
 
-- **Leliana's Antagonize on the gun crew** is the cleanest piece of crowd control in the fight. One spell, one failed save, and an entire mounted-gun team is fighting itself instead of the party — including the moment the Antagonized knight murders his own unconscious comrade with a sword to the head before turning on Silas.
+- **Leliana's Enemies Abound on the gun crew** is the cleanest piece of crowd control in the fight. One spell, one failed save, and an entire mounted-gun team is fighting itself instead of the party — including the moment the ensorcelled knight murders his own unconscious comrade with a sword to the head before turning on Silas.
 
-- **Elspeth's Heat Metal** is described, accurately, as an objectively horrific way to kill someone. The captain's stim-juiced resistance does not save her from cooking inside her own armor with disadvantage on every attack she throws. Bru finishes her, but Elspeth set her up.
+- **Elspeth's Heat Metal** is described, accurately, as an objectively horrific way to kill someone. The captain's drug-fueled speed does not save her from cooking inside her own armor with disadvantage on every attack she throws. Bru finishes her, but Elspeth set her up.
 
-- **Silas stuffing violescence into Luna's chest cavity** is the spiritual centerpiece of the session. He does it under fire, takes twenty-five damage standing still because his hands are full, and refuses to dodge while the ritual completes. The "wakey wakey, violescence and bakey" line lands on a literal Frankenstein procedure on a dead god.
+- **Silas stuffing violescence into Luna's chest cavity** is the spiritual centerpiece of the session. He does it under fire, takes twenty-five damage standing still because his hands are full, and does not stop while the ritual completes. The "wakey wakey, violescence and bakey" line lands on a literal Frankenstein procedure on a dead god.
 
 - **Boxbox's hull repair**, with the lightning tendrils stitching the boat's wound shut, is a payoff for a build decision Ali made over a year before this session. Combat moments like this don't happen by accident.
 
@@ -229,7 +229,7 @@ Session ends.
 
 ## Themes
 
-- **Severing instead of destroying**: The portal-and-chain system is architecturally a cage built around a god. The instinct is to detonate it. The discipline is to figure out which piece to cut so that the cage falls open without killing the prisoner. Silas's reading of the second portal is what converts the operation from a kill to a rescue.
+- **Severing instead of destroying**: The portal-and-chain system is architecturally a cage built around a god. The instinct is to detonate it. The discipline is to figure out which piece to cut so that the cage falls open without killing the prisoner. Silas's reading of the second portal is what converts the operation from a demolition to a rescue.
 
 - **Frankensteining a dead god**: Luna does not return on her own. The party physically packs her chest with crystallized violescence, and her body assembles around the offering in real time while combat continues around it. Resurrection in this campaign is a manual procedure performed on a corpse under fire.
 
@@ -241,4 +241,4 @@ Session ends.
 
 ## Session MVP
 
-**Silas** — For the deception roll that put Taco Cat inside the operation, the perception roll that recognized the pocket village through the second portal and converted the plan, the telekinetic redirect that turned the enemy's own cannon onto their command tower, and standing still inside Luna's chest cavity stuffing violescence into the bones while taking twenty-five damage from shore. Three roles in one session — infiltrator, planner, ritualist — all played with full commitment.
+**Silas** — For the deception roll that put Taco Cat inside the operation, the perception roll that recognized the pocket village through the second portal and converted the plan, the telekinetic redirect that turned the enemy's own cannon onto their command tower, and standing in Luna's chest cavity stuffing violescence into the bones while taking twenty-five damage from the knights in the trench. Three roles in one session — infiltrator, planner, ritualist — all played with full commitment.

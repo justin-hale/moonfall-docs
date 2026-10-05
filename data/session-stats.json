@@ -7,7 +7,7 @@
       "type": "session",
       "number": 1,
       "title": "1: Dinner and Nightcap",
-      "date": "2024-08-05",
+      "date": "2024-08-04",
       "href": "/sessions/session-1/",
       "has_transcript": false,
       "transcript_format": null,
@@ -41,7 +41,7 @@
       "type": "session",
       "number": 2,
       "title": "2: A Rock Show And A Briefcase",
-      "date": "2024-08-09",
+      "date": "2024-08-08",
       "href": "/sessions/session-2/",
       "has_transcript": false,
       "transcript_format": null,
@@ -68,7 +68,7 @@
       "type": "session",
       "number": 3,
       "title": "3: Unraveling Twilight",
-      "date": "2024-08-16",
+      "date": "2024-08-15",
       "href": "/sessions/session-3/",
       "has_transcript": false,
       "transcript_format": null,
@@ -95,7 +95,7 @@
       "type": "session",
       "number": 4,
       "title": "4: Love and Betrayal",
-      "date": "2024-08-25",
+      "date": "2024-08-24",
       "href": "/sessions/session-4/",
       "has_transcript": false,
       "transcript_format": null,
@@ -128,7 +128,7 @@
       "type": "session",
       "number": 5,
       "title": "5: A Pretty Good Concert",
-      "date": "2024-09-01",
+      "date": "2024-08-31",
       "href": "/sessions/session-5/",
       "has_transcript": false,
       "transcript_format": null,
@@ -155,7 +155,7 @@
       "type": "session",
       "number": 6,
       "title": "6: Highforge Sprint",
-      "date": "2024-09-07",
+      "date": "2024-09-06",
       "href": "/sessions/session-6/",
       "has_transcript": false,
       "transcript_format": null,
@@ -182,7 +182,7 @@
       "type": "session",
       "number": 7,
       "title": "7: Escape Highforge",
-      "date": "2024-09-14",
+      "date": "2024-09-13",
       "href": "/sessions/session-7/",
       "has_transcript": false,
       "transcript_format": null,
@@ -209,7 +209,7 @@
       "type": "session",
       "number": 8,
       "title": "8: Caravan Nights",
-      "date": "2024-10-03",
+      "date": "2024-10-02",
       "href": "/sessions/session-8/",
       "has_transcript": false,
       "transcript_format": null,
@@ -236,7 +236,7 @@
       "type": "session",
       "number": 9,
       "title": "9: A Stranger at the Crossroads",
-      "date": "2024-10-05",
+      "date": "2024-10-04",
       "href": "/sessions/session-9/",
       "has_transcript": false,
       "transcript_format": null,
@@ -297,7 +297,7 @@
       "type": "session",
       "number": 11,
       "title": "11: You Only Live Once",
-      "date": "2024-10-19",
+      "date": "2024-10-18",
       "href": "/sessions/session-11/",
       "has_transcript": false,
       "transcript_format": null,
@@ -324,7 +324,7 @@
       "type": "session",
       "number": 12,
       "title": "12: Out of the frying pan, into the Fire",
-      "date": "2024-10-26",
+      "date": "2024-10-25",
       "href": "/sessions/session-12/",
       "has_transcript": false,
       "transcript_format": null,
@@ -351,7 +351,7 @@
       "type": "session",
       "number": 13,
       "title": "13: Burning down the house",
-      "date": "2024-11-11",
+      "date": "2024-11-10",
       "href": "/sessions/session-13/",
       "has_transcript": false,
       "transcript_format": null,
@@ -378,7 +378,7 @@
       "type": "session",
       "number": 14,
       "title": "14: Ascending Grimvar's Spine",
-      "date": "2024-11-17",
+      "date": "2024-11-16",
       "href": "/sessions/session-14/",
       "has_transcript": false,
       "transcript_format": null,
@@ -405,7 +405,7 @@
       "type": "session",
       "number": 15,
       "title": "15: On George's Heels",
-      "date": "2024-11-23",
+      "date": "2024-11-22",
       "href": "/sessions/session-15/",
       "has_transcript": false,
       "transcript_format": null,
@@ -459,7 +459,7 @@
       "type": "session",
       "number": 17,
       "title": "17: The Skyhammers",
-      "date": "2024-12-14",
+      "date": "2024-12-13",
       "href": "/sessions/session-17/",
       "has_transcript": false,
       "transcript_format": null,
@@ -486,7 +486,7 @@
       "type": "session",
       "number": 18,
       "title": "Winter Solstice Special",
-      "date": "2024-12-21",
+      "date": "2024-12-20",
       "href": "/sessions/session-18/",
       "has_transcript": false,
       "transcript_format": null,
@@ -513,7 +513,7 @@
       "type": "session",
       "number": 20,
       "title": "20: Trials of the W****M Hole",
-      "date": "2025-01-11",
+      "date": "2025-01-10",
       "href": "/sessions/session-20/",
       "has_transcript": false,
       "transcript_format": null,
@@ -540,7 +540,7 @@
       "type": "session",
       "number": 21,
       "title": "21: Trapped In Tree Land",
-      "date": "2025-01-28",
+      "date": "2025-01-27",
       "href": "/sessions/session-21/",
       "has_transcript": false,
       "transcript_format": null,
@@ -1204,7 +1204,7 @@
           "name": "Helisanna",
           "canonical": "Helisanna Doomfall",
           "role": "pc",
-          "player": null,
+          "player": "Luke Neverisky",
           "blocks": 660,
           "words": 3889,
           "talk_seconds_est": null,
@@ -1255,8 +1255,10 @@
           "Chalk Rock": 7,
           "Victor": 5,
           "Astro": 3,
+          "Crowley": 3,
           "April Bonal": 2,
-          "Bafael": 1
+          "Bafael": 1,
+          "Luna": 1
         },
         "locations": {
           "Greyport": 1,
@@ -2226,6 +2228,7 @@
         "npcs": {
           "Scarlet": 46,
           "Naomi": 11,
+          "Crowley": 2,
           "George": 2,
           "Chalk Rock": 1
         },
@@ -2460,6 +2463,7 @@
       "attendance_source": "transcript",
       "mentions": {
         "npcs": {
+          "Gary": 3,
           "George": 2,
           "Iro": 2,
           "Scarlet": 1
@@ -3591,6 +3595,7 @@
       "mentions": {
         "npcs": {
           "George": 6,
+          "Gary": 3,
           "Astro": 1,
           "Chalk Rock": 1,
           "Iro": 1,
@@ -3799,6 +3804,7 @@
       "mentions": {
         "npcs": {
           "George": 23,
+          "Luna": 14,
           "Victor": 10,
           "Naomi": 6,
           "Bafael": 5,
@@ -4022,9 +4028,11 @@
       "attendance_source": "transcript",
       "mentions": {
         "npcs": {
+          "Luna": 34,
           "George": 23,
           "Astro": 21,
           "Bafael": 8,
+          "Crowley": 4,
           "Iro": 3,
           "Naomi": 1,
           "Victor": 1
@@ -4245,6 +4253,7 @@
       "attendance_source": "transcript",
       "mentions": {
         "npcs": {
+          "Luna": 11,
           "Victor": 10,
           "George": 6,
           "Astro": 1,
@@ -4465,6 +4474,7 @@
       "mentions": {
         "npcs": {
           "Victor": 61,
+          "Luna": 10,
           "George": 3,
           "Astro": 1,
           "Bafael": 1,
@@ -4679,6 +4689,8 @@
         "npcs": {
           "Iro": 33,
           "Scarlet": 22,
+          "Gary": 11,
+          "Crowley": 3,
           "Victor": 1
         },
         "locations": {
@@ -4882,7 +4894,9 @@
           "Victor": 53,
           "Iro": 16,
           "Scarlet": 13,
-          "Naomi": 3
+          "Luna": 7,
+          "Naomi": 3,
+          "Belspeth Booper": 1
         },
         "locations": {},
         "pcs": {
@@ -5076,6 +5090,7 @@
       "mentions": {
         "npcs": {
           "Victor": 17,
+          "Luna": 16,
           "Naomi": 16,
           "Astro": 10,
           "Scarlet": 10,
@@ -5243,12 +5258,14 @@
       "attendance_source": "transcript",
       "mentions": {
         "npcs": {
+          "Luna": 32,
           "Victor": 23,
           "Iro": 20,
           "Lady Viper": 18,
           "Scarlet": 18,
           "Astro": 8,
-          "Naomi": 4
+          "Naomi": 4,
+          "Belspeth Booper": 1
         },
         "locations": {
           "Greyport": 6,
@@ -5414,6 +5431,8 @@
         "npcs": {
           "Astro": 10,
           "Lady Viper": 10,
+          "Luna": 10,
+          "Belspeth Booper": 5,
           "Victor": 4,
           "Iro": 1,
           "Scarlet": 1
@@ -5599,6 +5618,8 @@
       "attendance_source": "transcript",
       "mentions": {
         "npcs": {
+          "Belspeth Booper": 6,
+          "Luna": 6,
           "Scarlet": 2,
           "Iro": 1,
           "Victor": 1
@@ -5803,7 +5824,10 @@
       ],
       "attendance_source": "transcript",
       "mentions": {
-        "npcs": {},
+        "npcs": {
+          "Belspeth Booper": 4,
+          "Luna": 3
+        },
         "locations": {},
         "pcs": {
           "Bru": 35,
@@ -6002,7 +6026,10 @@
       "attendance_source": "transcript",
       "mentions": {
         "npcs": {
+          "Gary": 72,
           "Iro": 19,
+          "Luna": 18,
+          "Crowley": 2,
           "Naomi": 1
         },
         "locations": {
@@ -6210,9 +6237,12 @@
       "attendance_source": "transcript",
       "mentions": {
         "npcs": {
+          "Luna": 41,
+          "Gary": 28,
           "Iro": 24,
           "Scarlet": 15,
           "George": 12,
+          "Crowley": 2,
           "Victor": 2
         },
         "locations": {
@@ -6284,7 +6314,7 @@
             "heroism": "I'm gonna I'm gonna double bonus action and toss the grenade launcher to Elf.",
             "comedy": "Every day of the week.",
             "immersion": "I got to refill all the bomb all the explosives materials that I used up.",
-            "strategy": "I had a plan of while we were on our way, I was going to hook up the grenade launcher or rocket launcher to also shoot biolescence.",
+            "strategy": "I had a plan of while we were on our way, I was going to hook up the grenade launcher or rocket launcher to also shoot violescence.",
             "curiosity": "What are you even reading, Scarlet?"
           },
           "Topher": {
@@ -6405,8 +6435,11 @@
         "npcs": {
           "Scarlet": 25,
           "Iro": 21,
+          "Luna": 6,
           "George": 5,
-          "Lady Viper": 3
+          "Lady Viper": 3,
+          "Gary": 2,
+          "Crowley": 1
         },
         "locations": {
           "Greyport": 4
@@ -6483,7 +6516,7 @@
             "chaos": "Um, mutation, Scarlet. We need to we need you to stay hot for just a moment longer. No, we're getting contacts that should exist in this setting, right?",
             "heroism": "I mean, honestly, yes. We are spoiled with like baddies that we can contact to do this.",
             "comedy": "You say that as though I was being facitious in some way. I wasn't. Elspeth is out there just like taking names and kicking ass all the time.",
-            "immersion": "Um, this is where uh our old gang used to uses basically our unofficial headquarters, the Kogan Steam. Um, they were all murdered uh by Helga and the Ironclaws except for Bru and uh me and uh apparently Thander, who uh is like a f****** baker now.",
+            "immersion": "Um, this is where uh our old gang used to uses basically our unofficial headquarters, the Kogan Steam. Um, they were all murdered uh by Helga and the Ironclaws except for Bru and uh me and uh apparently Sander, who uh is like a f****** baker now.",
             "strategy": "Okay. So, the main goal is to try to see if we can figure out where their main base of operations is. So, maybe we should kind of spread out and just see if anyone happens to be talking about it, you know?",
             "curiosity": "Um, you know, that makes sense. I guess it's just it seems like a weird amount of twins to all be in the same spot."
           },
@@ -6610,10 +6643,16 @@
           "Scarlet": 15,
           "George": 13,
           "Victor": 8,
+          "Finnegan": 5,
           "Iro": 4,
+          "Luna": 3,
+          "Lord Bradicus": 2,
+          "Crowley": 1,
+          "Gary": 1,
           "Naomi": 1
         },
         "locations": {
+          "Little Cradle": 6,
           "Greyport": 2,
           "High Forge": 2
         },
@@ -6807,6 +6846,7 @@
       "attendance_source": "transcript",
       "mentions": {
         "npcs": {
+          "Finnegan": 11,
           "Scarlet": 9,
           "Naomi": 5,
           "George": 3,
@@ -6815,7 +6855,8 @@
         },
         "locations": {
           "Eldoran": 3,
-          "High Forge": 1
+          "High Forge": 1,
+          "Little Cradle": 1
         },
         "pcs": {
           "Bru": 22
@@ -6996,6 +7037,7 @@
       "attendance_source": "transcript",
       "mentions": {
         "npcs": {
+          "Luna": 8,
           "Scarlet": 8,
           "George": 5,
           "Iro": 2
@@ -7215,11 +7257,19 @@
       "mentions": {
         "npcs": {
           "George": 11,
+          "Captain Steel": 5,
           "Scarlet": 3,
+          "Finnegan": 2,
+          "Luna": 2,
           "Astro": 1,
-          "Chalk Rock": 1
+          "Chalk Rock": 1,
+          "Steven Goldspring": 1,
+          "Toothy": 1,
+          "Y'chek": 1
         },
-        "locations": {},
+        "locations": {
+          "Sexy Peacock": 4
+        },
         "pcs": {
           "Bru": 8
         }
@@ -7433,12 +7483,17 @@
         "npcs": {
           "George": 47,
           "Victor": 15,
+          "Toothy": 12,
+          "Captain Steel": 4,
+          "Finnegan": 4,
           "Lady Viper": 4,
+          "Crowley": 2,
           "Chalk Rock": 1,
           "Naomi": 1,
           "Scarlet": 1
         },
         "locations": {
+          "Sexy Peacock": 8,
           "High Forge": 5
         },
         "pcs": {
@@ -7519,9 +7574,12 @@
           "Victor": 8,
           "Ben Boulage": 3,
           "George": 3,
-          "Scarlet": 2
+          "Scarlet": 2,
+          "Toothy": 1
         },
-        "locations": {},
+        "locations": {
+          "Sexy Peacock": 2
+        },
         "pcs": {
           "Bru": 23,
           "Red": 1
@@ -7682,8 +7740,11 @@
         "npcs": {
           "Scarlet": 37,
           "Victor": 10,
+          "Cassandra": 7,
+          "Captain Steel": 2,
           "George": 2,
           "Astro": 1,
+          "Gary": 1,
           "Iro": 1,
           "Lady Viper": 1
         },
@@ -7861,10 +7922,14 @@
         "npcs": {
           "George": 16,
           "Scarlet": 10,
+          "Captain Steel": 5,
           "Lady Viper": 3,
-          "April Bonal": 1
+          "Y'chek": 3,
+          "April Bonal": 1,
+          "Luna": 1
         },
         "locations": {
+          "Sexy Peacock": 3,
           "High Forge": 2
         },
         "pcs": {
@@ -7877,74 +7942,567 @@
         "nat1_mentions": 0
       },
       "personality": null
+    },
+    {
+      "id": "session-62",
+      "type": "session",
+      "number": 62,
+      "title": "62: Party Favors",
+      "date": "2026-09-18",
+      "href": "/sessions/session-62/",
+      "has_transcript": true,
+      "transcript_format": "json",
+      "timing_quality": "exact",
+      "duration_seconds": 9837,
+      "block_count": 1585,
+      "word_count": 18249,
+      "speakers": [
+        {
+          "name": "Topher",
+          "canonical": "Topher",
+          "role": "dm",
+          "player": "Topher",
+          "blocks": 558,
+          "words": 7222,
+          "talk_seconds_est": 3789,
+          "word_share": 0.3957
+        },
+        {
+          "name": "Silas",
+          "canonical": "Silas Fairbanks",
+          "role": "pc",
+          "player": "Taylor Ramsey",
+          "blocks": 362,
+          "words": 5005,
+          "talk_seconds_est": 2234,
+          "word_share": 0.2743
+        },
+        {
+          "name": "Elspeth",
+          "canonical": "Elspeth Cooper",
+          "role": "pc",
+          "player": "Ali Leonard",
+          "blocks": 409,
+          "words": 3396,
+          "talk_seconds_est": 1920,
+          "word_share": 0.1861
+        },
+        {
+          "name": "Leliana",
+          "canonical": "Leliana Goldspring",
+          "role": "pc",
+          "player": "Luke Neverisky",
+          "blocks": 256,
+          "words": 2626,
+          "talk_seconds_est": 1609,
+          "word_share": 0.1439
+        }
+      ],
+      "players_present": [
+        "Silas",
+        "Elspeth",
+        "Leliana"
+      ],
+      "attendance_source": "transcript",
+      "mentions": {
+        "npcs": {
+          "George": 35,
+          "Scarlet": 24,
+          "Cassandra": 8,
+          "Finnegan": 8,
+          "Captain Steel": 4,
+          "Lady Viper": 3,
+          "Iro": 1,
+          "Luna": 1,
+          "Toothy": 1,
+          "Victor": 1
+        },
+        "locations": {
+          "Sexy Peacock": 5,
+          "High Forge": 2
+        },
+        "pcs": {
+          "Bru": 22
+        }
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "personality": {
+        "scores": {
+          "Topher": {
+            "chaos": 8,
+            "heroism": 7,
+            "comedy": 14,
+            "immersion": 16,
+            "strategy": 15,
+            "curiosity": 12
+          },
+          "Silas": {
+            "chaos": 7,
+            "heroism": 13,
+            "comedy": 12,
+            "immersion": 14,
+            "strategy": 18,
+            "curiosity": 11
+          },
+          "Elspeth": {
+            "chaos": 9,
+            "heroism": 10,
+            "comedy": 13,
+            "immersion": 15,
+            "strategy": 11,
+            "curiosity": 10
+          },
+          "Leliana": {
+            "chaos": 6,
+            "heroism": 16,
+            "comedy": 10,
+            "immersion": 14,
+            "strategy": 13,
+            "curiosity": 12
+          }
+        },
+        "evidence": {
+          "Topher": {
+            "chaos": "He plays George mostly straight but allows NPCs to create lighter chaos; mostly controlled world-building.",
+            "heroism": "George offers to help the party escape and scouts the garrison; basic support but not particularly selfless given his undercover position.",
+            "comedy": "Sustained comedic scenes like the Fredo/Samo friendship moment, the Samoan marriage dilemma, and playful banter about birthdays and elves throughout.",
+            "immersion": "Detailed NPC voices, environmental descriptions like 'Toyota dealership spotlight beams,' and sustained roleplay across multiple scenes with George, Fredo, Cassandra.",
+            "strategy": "Provides tactical advice on timing explosions, suggests the Sexy Peacock as a safe hideout, warns about city lockdown—clearly thinking ahead about the heist logistics.",
+            "curiosity": "Asks probing questions about the plan and pushes players to consider logistics; 'Do y'all have a way out?' and builds world details organically."
+          },
+          "Silas": {
+            "chaos": "Generally cautious about the plan; joked about Colonel Sanders flash mob but mostly stays on task.",
+            "heroism": "Tells Leliana 'if you see an opportunity to kill his ass, I got your back'—willing to risk the mission for her revenge against Captain Steel.",
+            "comedy": "Good comedic timing with lines like 'You don't believe that' and riffs on business jargon; not the primary joke engine but solid contributions.",
+            "immersion": "Sustained in-character decision-making; speaks as Silas throughout, maintains the halfling worker cover, thinks through character motivations.",
+            "strategy": "Drives the entire heist planning; 'should we split up? have two people go to the factory, two to the garrison'; coordinates timing, anticipates complications with the research center, deliberates escape routes methodically.",
+            "curiosity": "Asks about the scientist's presence, confirms George's role, questions detonation methods ('Detonators exist'), but mostly focused on execution rather than exploration."
+          },
+          "Elspeth": {
+            "chaos": "Mostly follows the plan; mild impulsiveness with 'I'm gonna be Stephanie from Full House' and some playful tangents but nothing derailing.",
+            "heroism": "Participates in the group's efforts but no standout self-sacrifice; willing to go along with the heist but not driving it.",
+            "comedy": "Solid joke contributions: 'CM Junk,' 'Brainies,' various quips about the party and NPCs; present but not dominating the humor.",
+            "immersion": "Strong roleplay at the party scene; good interaction with Cassandra and Gracie, maintains cover, reacts authentically to events like the lake swim.",
+            "strategy": "Follows Silas's lead on the heist plan; offers minor input on timing and tactics but defers to group decisions.",
+            "curiosity": "Asks about harmonic engines, inquires about other cities, gathers intel from Cassandra's friends about factory layoffs—moderate engagement with world-building."
+          },
+          "Leliana": {
+            "chaos": "Minimal chaos; focused on the mission. One mistake with the bomb timer but corrects course quickly.",
+            "heroism": "Expresses strong determination to confront Captain Steel: 'I'm gonna do something. I don't know what. I'm gonna do something'; takes on most dangerous solo mission at the barracks; risked visibility to disable the bomb.",
+            "comedy": "Occasional light moments ('the sexy peacock,' comments on brain talkies) but mostly serious and mission-focused.",
+            "immersion": "Good in-character roleplay as Leliana/Helisana; maintains cover at the barracks, reacts authentically to bomb timer malfunction, engages in downtime conversations.",
+            "strategy": "Suggests using the Sexy Peacock as a hideout, proposes trying the World Tree as escape route, helps brainstorm logistics—solid strategic input without dominating.",
+            "curiosity": "Asks clarifying questions about the plan, shows interest in escape routes, inquires about whether she can see people; moderate engagement."
+          }
+        },
+        "superlatives": {
+          "mvp": {
+            "player": "Silas",
+            "quote": "I'm going to send out a message to all my teammates. I can probably go and scoop the ticket up really quick, but if you guys can make a distraction for me for just a few seconds, I can probably do it."
+          },
+          "best_joke": {
+            "player": "Elspeth",
+            "quote": "CM Junk."
+          },
+          "most_chaotic": {
+            "player": "Elspeth",
+            "quote": "So that's why he's not here. Yep. It's canon now. [re: Bru being carried off by Colonel Sanders flash mob]"
+          },
+          "decision_driver": "Silas"
+        }
+      }
+    },
+    {
+      "id": "session-63",
+      "type": "session",
+      "number": 63,
+      "title": "63: The Sun in a Suitcase",
+      "date": "2026-09-25",
+      "href": "/sessions/session-63/",
+      "has_transcript": true,
+      "transcript_format": "json",
+      "timing_quality": "exact",
+      "duration_seconds": 299,
+      "block_count": 2302,
+      "word_count": 24084,
+      "speakers": [
+        {
+          "name": "Topher",
+          "canonical": "Topher",
+          "role": "dm",
+          "player": "Topher",
+          "blocks": 685,
+          "words": 8046,
+          "talk_seconds_est": 102,
+          "word_share": 0.3341
+        },
+        {
+          "name": "Olivia",
+          "canonical": "Olivia Cooper",
+          "role": "pc",
+          "player": "Ellis Taylor",
+          "blocks": 515,
+          "words": 5220,
+          "talk_seconds_est": 57,
+          "word_share": 0.2167
+        },
+        {
+          "name": "Bru",
+          "canonical": "Bru (Felonias Bru)",
+          "role": "pc",
+          "player": "Justin Hale",
+          "blocks": 543,
+          "words": 4992,
+          "talk_seconds_est": 70,
+          "word_share": 0.2073
+        },
+        {
+          "name": "Silas",
+          "canonical": "Silas Fairbanks",
+          "role": "pc",
+          "player": "Taylor Ramsey",
+          "blocks": 339,
+          "words": 4745,
+          "talk_seconds_est": 42,
+          "word_share": 0.197
+        },
+        {
+          "name": "Leliana",
+          "canonical": "Leliana Goldspring",
+          "role": "pc",
+          "player": "Luke Neverisky",
+          "blocks": 181,
+          "words": 1038,
+          "talk_seconds_est": 24,
+          "word_share": 0.0431
+        },
+        {
+          "name": "01",
+          "canonical": "01",
+          "role": "guest",
+          "player": null,
+          "blocks": 12,
+          "words": 12,
+          "talk_seconds_est": 1,
+          "word_share": 0.0005
+        },
+        {
+          "name": "02",
+          "canonical": "02",
+          "role": "guest",
+          "player": null,
+          "blocks": 12,
+          "words": 12,
+          "talk_seconds_est": 2,
+          "word_share": 0.0005
+        },
+        {
+          "name": "00",
+          "canonical": "00",
+          "role": "guest",
+          "player": null,
+          "blocks": 11,
+          "words": 11,
+          "talk_seconds_est": 1,
+          "word_share": 0.0005
+        },
+        {
+          "name": "﻿DnD - 2026/09/25 19",
+          "canonical": "﻿DnD - 2026/09/25 19",
+          "role": "guest",
+          "player": null,
+          "blocks": 1,
+          "words": 4,
+          "talk_seconds_est": 0,
+          "word_share": 0.0002
+        },
+        {
+          "name": "03",
+          "canonical": "03",
+          "role": "guest",
+          "player": null,
+          "blocks": 2,
+          "words": 2,
+          "talk_seconds_est": 0,
+          "word_share": 0.0001
+        },
+        {
+          "name": "Meeting ended after 03",
+          "canonical": "Meeting ended after 03",
+          "role": "guest",
+          "player": null,
+          "blocks": 1,
+          "words": 2,
+          "talk_seconds_est": 15,
+          "word_share": 0.0001
+        }
+      ],
+      "players_present": [
+        "Olivia",
+        "Bru",
+        "Silas",
+        "Leliana"
+      ],
+      "attendance_source": "transcript",
+      "mentions": {
+        "npcs": {
+          "Scarlet": 16,
+          "Captain Steel": 11,
+          "Victor": 4,
+          "George": 3,
+          "Cassandra": 1,
+          "Finnegan": 1,
+          "Fredo Boggins": 1,
+          "Luna": 1
+        },
+        "locations": {
+          "High Forge": 1
+        },
+        "pcs": {
+          "Bru": 42,
+          "Red": 3
+        }
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "personality": {
+        "scores": {
+          "Topher": {
+            "chaos": 14,
+            "heroism": 8,
+            "comedy": 16,
+            "immersion": 15,
+            "strategy": 12,
+            "curiosity": 13
+          },
+          "Silas": {
+            "chaos": 12,
+            "heroism": 14,
+            "comedy": 13,
+            "immersion": 16,
+            "strategy": 17,
+            "curiosity": 15
+          },
+          "00": {
+            "chaos": 10,
+            "heroism": 10,
+            "comedy": 10,
+            "immersion": 10,
+            "strategy": 10,
+            "curiosity": 10
+          },
+          "Leliana": {
+            "chaos": 11,
+            "heroism": 13,
+            "comedy": 12,
+            "immersion": 14,
+            "strategy": 11,
+            "curiosity": 10
+          },
+          "Olivia": {
+            "chaos": 13,
+            "heroism": 15,
+            "comedy": 14,
+            "immersion": 14,
+            "strategy": 11,
+            "curiosity": 12
+          },
+          "Bru": {
+            "chaos": 16,
+            "heroism": 14,
+            "comedy": 18,
+            "immersion": 15,
+            "strategy": 14,
+            "curiosity": 13
+          },
+          "01": {
+            "chaos": 10,
+            "heroism": 10,
+            "comedy": 10,
+            "immersion": 10,
+            "strategy": 10,
+            "curiosity": 10
+          },
+          "02": {
+            "chaos": 10,
+            "heroism": 10,
+            "comedy": 10,
+            "immersion": 10,
+            "strategy": 10,
+            "curiosity": 10
+          },
+          "03": {
+            "chaos": 10,
+            "heroism": 10,
+            "comedy": 10,
+            "immersion": 10,
+            "strategy": 10,
+            "curiosity": 10
+          }
+        },
+        "evidence": {
+          "Topher": {
+            "chaos": "You see Captain Steel pop out one millisecond before he sees you... he is floating looks towards you, your group and is bolting to your group right now.",
+            "heroism": "I'm going to take a moment because this is actually important.",
+            "comedy": "What is that rope you're carrying? service rope. This is my emotional support rope.",
+            "immersion": "Captain Steel,… sorry to open. we have a critical issue on the line and we need to escalate as soon as possible as at your soonest convenience.",
+            "strategy": "I think what we'll do here is we're going to have an initiative off. Basically, can you make an action before he notices you?",
+            "curiosity": "So it's a switchover. So he's not smelting, he's changing the casting plates. So you're basically molten metal flows from the furnace into these four different bays."
+          },
+          "Silas": {
+            "chaos": "I'm going to change my groundskeeper disguise. Now I'm like a tree groundskeeper instead of a pond groundskeeper.",
+            "heroism": "I say Silus will back up any ploy that Helis or… Leliana makes to get revenge, even if it kind of makes the plan more complicated.",
+            "comedy": "Everything's a f*** lie. (re: names in the tree)",
+            "immersion": "as far as we can tell, then if there's kids climbing into it, it's not just passively dangerous, I guess. can I recognize… what part of the tree we emerge from?",
+            "strategy": "I'd like try to investigate the roots to see if there's still a portal or something to the other dimension.",
+            "curiosity": "Does the area underneath the tree remind me of that other dimension we were in when we planted the seed?"
+          },
+          "00": {
+            "chaos": "No substantive speaking lines recorded.",
+            "heroism": "No substantive speaking lines recorded.",
+            "comedy": "No substantive speaking lines recorded.",
+            "immersion": "No substantive speaking lines recorded.",
+            "strategy": "No substantive speaking lines recorded.",
+            "curiosity": "No substantive speaking lines recorded."
+          },
+          "Leliana": {
+            "chaos": "F*** it. (racing Banana up the tree with no hesitation)",
+            "heroism": "Leliana, you're just going to pretend like I don't know what it is and, give it some touch and just admire examine it nonchalantly.",
+            "comedy": "My name is Apple... No means I wish I had apples.",
+            "immersion": "I'm just going to pretend like I don't know what it is and, give it some touch and just admire examine it nonchalantly.",
+            "strategy": "It's kind of dangerous. kind of torturous. Kind of s***. A crappy excuse. This is Dtier option.",
+            "curiosity": "I'm climbing this tree, too. I'm checking it out. It wasn't here before last time I was here."
+          },
+          "Olivia": {
+            "chaos": "just pitched up alley. Yeah. Perfect. No notes. (embracing chaotic improvisation at the factory)",
+            "heroism": "I'm going to get to the furnace to plant the bomb. It's like in the back corner.",
+            "comedy": "Are you an idiot? Yes. Sir, I just pour the forges. I'm not sure what the science of the giant ball.",
+            "immersion": "We're going to move further away... As soon as these bombs go off, we need to be mid escape, right?",
+            "strategy": "We can try that. if we were sent as reinforcements essentially, extra set of hands,… that's plausible.",
+            "curiosity": "So, it's a Sailor Moon power up montage, but permanent into one of the like Yeah."
+          },
+          "Bru": {
+            "chaos": "If… if Bru can say that he's going to steal the sun, which is the opposite of the whole premise of the first Despicable Me movie... I can take the sun with me.",
+            "heroism": "I'm going to rip band-aids Now… everything exploding.",
+            "comedy": "What? I walked in with this rope. service rope. Sorry. got. This is my emotional support rope.",
+            "immersion": "I pull the simulation umbilical cord. Bru looks like he's on so many drugs right now. Just on cloud9. You're just like That was insane.",
+            "strategy": "from what I remember about the Elspeth clones,… okay, so I guess this complicates things, but Silus would probably remember that the Elspeth clones were savable.",
+            "curiosity": "Is It's really white hot in the middle with the what? When I was in there,… it got really really big and I had to get to the side and… then it got really really small."
+          },
+          "01": {
+            "chaos": "No substantive speaking lines recorded.",
+            "heroism": "No substantive speaking lines recorded.",
+            "comedy": "No substantive speaking lines recorded.",
+            "immersion": "No substantive speaking lines recorded.",
+            "strategy": "No substantive speaking lines recorded.",
+            "curiosity": "No substantive speaking lines recorded."
+          },
+          "02": {
+            "chaos": "No substantive speaking lines recorded.",
+            "heroism": "No substantive speaking lines recorded.",
+            "comedy": "No substantive speaking lines recorded.",
+            "immersion": "No substantive speaking lines recorded.",
+            "strategy": "No substantive speaking lines recorded.",
+            "curiosity": "No substantive speaking lines recorded."
+          },
+          "03": {
+            "chaos": "No substantive speaking lines recorded.",
+            "heroism": "No substantive speaking lines recorded.",
+            "comedy": "No substantive speaking lines recorded.",
+            "immersion": "No substantive speaking lines recorded.",
+            "strategy": "No substantive speaking lines recorded.",
+            "curiosity": "No substantive speaking lines recorded."
+          }
+        },
+        "superlatives": {
+          "mvp": {
+            "player": "Bru",
+            "quote": "If… if Bru can say that he's going to steal the sun... I can take the sun with me. It's in the rope trick. it's in an interdimensional field."
+          },
+          "best_joke": {
+            "player": "Bru",
+            "quote": "This is my emotional support rope. You didn't see this when I came in?"
+          },
+          "most_chaotic": {
+            "player": "Bru",
+            "quote": "If… if Bru can say that he's going to steal the sun, which is the opposite of the whole premise of the first Despicable Me movie, Okay. So if Bru can say that he's going to steal the sun... I can take the sun with me."
+          },
+          "decision_driver": "Silas"
+        }
+      }
     }
   ],
   "aggregate": {
-    "total_sessions": 76,
-    "sessions_with_transcripts": 33,
-    "total_words": 847345,
-    "total_blocks": 123660,
-    "total_duration_seconds": 341064,
+    "total_sessions": 78,
+    "sessions_with_transcripts": 35,
+    "total_words": 889678,
+    "total_blocks": 127547,
+    "total_duration_seconds": 351200,
     "speaker_totals": [
       {
         "name": "Topher",
         "canonical": "Topher",
         "role": "dm",
         "player": "Topher",
-        "sessions": 33,
-        "blocks": 31100,
-        "words": 268408,
-        "talk_seconds_est": 49299
+        "sessions": 35,
+        "blocks": 32343,
+        "words": 283676,
+        "talk_seconds_est": 53190
       },
       {
         "name": "Silas",
         "canonical": "Silas Fairbanks",
         "role": "pc",
         "player": "Taylor Ramsey",
-        "sessions": 33,
-        "blocks": 26154,
-        "words": 212561,
-        "talk_seconds_est": 20169
+        "sessions": 35,
+        "blocks": 26855,
+        "words": 222311,
+        "talk_seconds_est": 22445
       },
       {
         "name": "Elspeth",
         "canonical": "Elspeth Cooper",
         "role": "pc",
         "player": "Ali Leonard",
-        "sessions": 26,
-        "blocks": 18348,
-        "words": 101371,
-        "talk_seconds_est": 23397
+        "sessions": 27,
+        "blocks": 18757,
+        "words": 104767,
+        "talk_seconds_est": 25317
       },
       {
         "name": "Bru",
         "canonical": "Bru (Felonias Bru)",
         "role": "pc",
         "player": "Justin Hale",
-        "sessions": 30,
-        "blocks": 16162,
-        "words": 89603,
-        "talk_seconds_est": 19459
+        "sessions": 31,
+        "blocks": 16705,
+        "words": 94595,
+        "talk_seconds_est": 19529
       },
       {
         "name": "Olivia",
         "canonical": "Olivia Cooper",
         "role": "pc",
         "player": "Ellis Taylor",
-        "sessions": 25,
-        "blocks": 14749,
-        "words": 81969,
-        "talk_seconds_est": 12986
+        "sessions": 26,
+        "blocks": 15264,
+        "words": 87189,
+        "talk_seconds_est": 13043
       },
       {
         "name": "Leliana",
         "canonical": "Leliana Goldspring",
         "role": "pc",
         "player": "Luke Neverisky",
-        "sessions": 25,
-        "blocks": 11034,
-        "words": 49056,
-        "talk_seconds_est": 11376
+        "sessions": 27,
+        "blocks": 11471,
+        "words": 52720,
+        "talk_seconds_est": 13009
       },
       {
         "name": "Ohma",
@@ -7960,39 +8518,113 @@
         "name": "Helisanna",
         "canonical": "Helisanna Doomfall",
         "role": "pc",
-        "player": null,
+        "player": "Luke Neverisky",
         "sessions": 1,
         "blocks": 660,
         "words": 3889,
         "talk_seconds_est": 0
+      },
+      {
+        "name": "01",
+        "canonical": "01",
+        "role": "guest",
+        "player": null,
+        "sessions": 1,
+        "blocks": 12,
+        "words": 12,
+        "talk_seconds_est": 1
+      },
+      {
+        "name": "02",
+        "canonical": "02",
+        "role": "guest",
+        "player": null,
+        "sessions": 1,
+        "blocks": 12,
+        "words": 12,
+        "talk_seconds_est": 2
+      },
+      {
+        "name": "00",
+        "canonical": "00",
+        "role": "guest",
+        "player": null,
+        "sessions": 1,
+        "blocks": 11,
+        "words": 11,
+        "talk_seconds_est": 1
+      },
+      {
+        "name": "﻿DnD - 2026/09/25 19",
+        "canonical": "﻿DnD - 2026/09/25 19",
+        "role": "guest",
+        "player": null,
+        "sessions": 1,
+        "blocks": 1,
+        "words": 4,
+        "talk_seconds_est": 0
+      },
+      {
+        "name": "03",
+        "canonical": "03",
+        "role": "guest",
+        "player": null,
+        "sessions": 1,
+        "blocks": 2,
+        "words": 2,
+        "talk_seconds_est": 0
+      },
+      {
+        "name": "Meeting ended after 03",
+        "canonical": "Meeting ended after 03",
+        "role": "guest",
+        "player": null,
+        "sessions": 1,
+        "blocks": 1,
+        "words": 2,
+        "talk_seconds_est": 15
       }
     ],
     "top_npcs": {
-      "Scarlet": 268,
-      "Victor": 241,
-      "George": 202,
-      "Iro": 148,
-      "Lady Viper": 64,
+      "Scarlet": 308,
+      "Victor": 246,
+      "George": 240,
+      "Luna": 225,
+      "Iro": 149,
+      "Gary": 121,
+      "Lady Viper": 67,
       "Astro": 63,
       "Naomi": 60,
       "Chalk Rock": 35,
+      "Captain Steel": 31,
+      "Finnegan": 31,
+      "Crowley": 20,
+      "Belspeth Booper": 17,
       "Bafael": 16,
+      "Cassandra": 16,
+      "Toothy": 15,
       "Bon Bonnery": 9,
       "April Bonal": 4,
       "Lady Corwin": 4,
-      "Ben Boulage": 3
+      "Y'chek": 4,
+      "Ben Boulage": 3,
+      "Lord Bradicus": 2,
+      "Fredo Boggins": 1,
+      "Steven Goldspring": 1
     },
     "top_locations": {
       "Greyport": 74,
-      "High Forge": 52,
+      "High Forge": 55,
+      "Sexy Peacock": 22,
+      "Little Cradle": 7,
       "Eldoran": 3,
       "Milstrom": 3,
       "Gold Road": 2,
       "Grimvar's Spine": 1
     },
     "top_pcs_mentioned": {
-      "Bru": 1121,
-      "Red": 21,
+      "Bru": 1185,
+      "Red": 24,
       "Olivia": 20,
       "Elspeth": 5,
       "Leliana": 1
@@ -8000,15 +8632,211 @@
     "nat20_mentions": 13,
     "nat1_mentions": 1,
     "personality_by_player": {
-      "Bru": {
-        "sessions_scored": 28,
+      "00": {
+        "sessions_scored": 1,
         "mean_scores": {
-          "chaos": 12.0,
-          "heroism": 9.7,
-          "comedy": 11.3,
-          "immersion": 10.4,
+          "chaos": 10.0,
+          "heroism": 10.0,
+          "comedy": 10.0,
+          "immersion": 10.0,
+          "strategy": 10.0,
+          "curiosity": 10.0
+        },
+        "signature_evidence": {
+          "chaos": {
+            "quote": "No substantive speaking lines recorded.",
+            "session": "session-63",
+            "score": 10
+          },
+          "heroism": {
+            "quote": "No substantive speaking lines recorded.",
+            "session": "session-63",
+            "score": 10
+          },
+          "comedy": {
+            "quote": "No substantive speaking lines recorded.",
+            "session": "session-63",
+            "score": 10
+          },
+          "immersion": {
+            "quote": "No substantive speaking lines recorded.",
+            "session": "session-63",
+            "score": 10
+          },
+          "strategy": {
+            "quote": "No substantive speaking lines recorded.",
+            "session": "session-63",
+            "score": 10
+          },
+          "curiosity": {
+            "quote": "No substantive speaking lines recorded.",
+            "session": "session-63",
+            "score": 10
+          }
+        },
+        "superlative_counts": {
+          "mvp": 0,
+          "best_joke": 0,
+          "most_chaotic": 0,
+          "decision_driver": 0
+        }
+      },
+      "01": {
+        "sessions_scored": 1,
+        "mean_scores": {
+          "chaos": 10.0,
+          "heroism": 10.0,
+          "comedy": 10.0,
+          "immersion": 10.0,
+          "strategy": 10.0,
+          "curiosity": 10.0
+        },
+        "signature_evidence": {
+          "chaos": {
+            "quote": "No substantive speaking lines recorded.",
+            "session": "session-63",
+            "score": 10
+          },
+          "heroism": {
+            "quote": "No substantive speaking lines recorded.",
+            "session": "session-63",
+            "score": 10
+          },
+          "comedy": {
+            "quote": "No substantive speaking lines recorded.",
+            "session": "session-63",
+            "score": 10
+          },
+          "immersion": {
+            "quote": "No substantive speaking lines recorded.",
+            "session": "session-63",
+            "score": 10
+          },
+          "strategy": {
+            "quote": "No substantive speaking lines recorded.",
+            "session": "session-63",
+            "score": 10
+          },
+          "curiosity": {
+            "quote": "No substantive speaking lines recorded.",
+            "session": "session-63",
+            "score": 10
+          }
+        },
+        "superlative_counts": {
+          "mvp": 0,
+          "best_joke": 0,
+          "most_chaotic": 0,
+          "decision_driver": 0
+        }
+      },
+      "02": {
+        "sessions_scored": 1,
+        "mean_scores": {
+          "chaos": 10.0,
+          "heroism": 10.0,
+          "comedy": 10.0,
+          "immersion": 10.0,
+          "strategy": 10.0,
+          "curiosity": 10.0
+        },
+        "signature_evidence": {
+          "chaos": {
+            "quote": "No substantive speaking lines recorded.",
+            "session": "session-63",
+            "score": 10
+          },
+          "heroism": {
+            "quote": "No substantive speaking lines recorded.",
+            "session": "session-63",
+            "score": 10
+          },
+          "comedy": {
+            "quote": "No substantive speaking lines recorded.",
+            "session": "session-63",
+            "score": 10
+          },
+          "immersion": {
+            "quote": "No substantive speaking lines recorded.",
+            "session": "session-63",
+            "score": 10
+          },
+          "strategy": {
+            "quote": "No substantive speaking lines recorded.",
+            "session": "session-63",
+            "score": 10
+          },
+          "curiosity": {
+            "quote": "No substantive speaking lines recorded.",
+            "session": "session-63",
+            "score": 10
+          }
+        },
+        "superlative_counts": {
+          "mvp": 0,
+          "best_joke": 0,
+          "most_chaotic": 0,
+          "decision_driver": 0
+        }
+      },
+      "03": {
+        "sessions_scored": 1,
+        "mean_scores": {
+          "chaos": 10.0,
+          "heroism": 10.0,
+          "comedy": 10.0,
+          "immersion": 10.0,
+          "strategy": 10.0,
+          "curiosity": 10.0
+        },
+        "signature_evidence": {
+          "chaos": {
+            "quote": "No substantive speaking lines recorded.",
+            "session": "session-63",
+            "score": 10
+          },
+          "heroism": {
+            "quote": "No substantive speaking lines recorded.",
+            "session": "session-63",
+            "score": 10
+          },
+          "comedy": {
+            "quote": "No substantive speaking lines recorded.",
+            "session": "session-63",
+            "score": 10
+          },
+          "immersion": {
+            "quote": "No substantive speaking lines recorded.",
+            "session": "session-63",
+            "score": 10
+          },
+          "strategy": {
+            "quote": "No substantive speaking lines recorded.",
+            "session": "session-63",
+            "score": 10
+          },
+          "curiosity": {
+            "quote": "No substantive speaking lines recorded.",
+            "session": "session-63",
+            "score": 10
+          }
+        },
+        "superlative_counts": {
+          "mvp": 0,
+          "best_joke": 0,
+          "most_chaotic": 0,
+          "decision_driver": 0
+        }
+      },
+      "Bru": {
+        "sessions_scored": 29,
+        "mean_scores": {
+          "chaos": 12.1,
+          "heroism": 9.9,
+          "comedy": 11.5,
+          "immersion": 10.6,
           "strategy": 11.8,
-          "curiosity": 9.3
+          "curiosity": 9.4
         },
         "signature_evidence": {
           "chaos": {
@@ -8022,14 +8850,14 @@
             "score": 15
           },
           "comedy": {
-            "quote": "I think you forget in goblin culture in goblin culture when we're in goblin culture when we're trying to hit on each other we pee on each other. You didn't know that? It's like so obvious.",
-            "session": "session-56",
-            "score": 16
+            "quote": "What? I walked in with this rope. service rope. Sorry. got. This is my emotional support rope.",
+            "session": "session-63",
+            "score": 18
           },
           "immersion": {
-            "quote": "So the uh Brit costume is just like my working apron and that's pretty much it. So you just see like my butt whenever I'm from behind.",
-            "session": "session-51",
-            "score": 14
+            "quote": "I pull the simulation umbilical cord. Bru looks like he's on so many drugs right now. Just on cloud9. You're just like That was insane.",
+            "session": "session-63",
+            "score": 15
           },
           "strategy": {
             "quote": "I'm going to hex that one because then if it dies, I'll just bounce the hex.",
@@ -8043,18 +8871,18 @@
           }
         },
         "superlative_counts": {
-          "mvp": 2,
-          "best_joke": 3,
-          "most_chaotic": 19,
+          "mvp": 3,
+          "best_joke": 4,
+          "most_chaotic": 20,
           "decision_driver": 0
         }
       },
       "Elspeth": {
-        "sessions_scored": 24,
+        "sessions_scored": 25,
         "mean_scores": {
-          "chaos": 9.8,
-          "heroism": 12.0,
-          "comedy": 11.1,
+          "chaos": 9.7,
+          "heroism": 11.9,
+          "comedy": 11.2,
           "immersion": 12.8,
           "strategy": 11.2,
           "curiosity": 10.5
@@ -8093,8 +8921,8 @@
         },
         "superlative_counts": {
           "mvp": 3,
-          "best_joke": 4,
-          "most_chaotic": 2,
+          "best_joke": 5,
+          "most_chaotic": 3,
           "decision_driver": 4
         }
       },
@@ -8148,13 +8976,13 @@
         }
       },
       "Leliana": {
-        "sessions_scored": 23,
+        "sessions_scored": 25,
         "mean_scores": {
           "chaos": 9.0,
-          "heroism": 11.7,
-          "comedy": 9.7,
-          "immersion": 12.9,
-          "strategy": 10.4,
+          "heroism": 11.9,
+          "comedy": 9.8,
+          "immersion": 13.0,
+          "strategy": 10.5,
           "curiosity": 10.2
         },
         "signature_evidence": {
@@ -8246,14 +9074,14 @@
         }
       },
       "Olivia": {
-        "sessions_scored": 24,
+        "sessions_scored": 25,
         "mean_scores": {
-          "chaos": 8.3,
+          "chaos": 8.5,
           "heroism": 13.0,
-          "comedy": 9.6,
+          "comedy": 9.8,
           "immersion": 11.8,
-          "strategy": 12.4,
-          "curiosity": 11.1
+          "strategy": 12.3,
+          "curiosity": 11.2
         },
         "signature_evidence": {
           "chaos": {
@@ -8267,9 +9095,9 @@
             "score": 18
           },
           "comedy": {
-            "quote": "Muscle grandmommy. Grandommy. Yeah, muscle grandmommy.",
-            "session": "session-41",
-            "score": 13
+            "quote": "Are you an idiot? Yes. Sir, I just pour the forges. I'm not sure what the science of the giant ball.",
+            "session": "session-63",
+            "score": 14
           },
           "immersion": {
             "quote": "you can like feel it into your molecules. It's like your entire body starts resonating",
@@ -8295,13 +9123,13 @@
         }
       },
       "Silas": {
-        "sessions_scored": 31,
+        "sessions_scored": 33,
         "mean_scores": {
           "chaos": 10.5,
-          "heroism": 10.6,
+          "heroism": 10.8,
           "comedy": 12.4,
-          "immersion": 13.3,
-          "strategy": 15.1,
+          "immersion": 13.4,
+          "strategy": 15.3,
           "curiosity": 12.3
         },
         "signature_evidence": {
@@ -8337,20 +9165,20 @@
           }
         },
         "superlative_counts": {
-          "mvp": 11,
+          "mvp": 12,
           "best_joke": 13,
           "most_chaotic": 5,
-          "decision_driver": 23
+          "decision_driver": 25
         }
       },
       "Topher": {
-        "sessions_scored": 31,
+        "sessions_scored": 33,
         "mean_scores": {
-          "chaos": 12.6,
-          "heroism": 10.5,
-          "comedy": 13.3,
+          "chaos": 12.5,
+          "heroism": 10.3,
+          "comedy": 13.4,
           "immersion": 15.0,
-          "strategy": 12.7,
+          "strategy": 12.8,
           "curiosity": 11.8
         },
         "signature_evidence": {

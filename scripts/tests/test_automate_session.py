@@ -183,6 +183,40 @@ def test_guardrails_exempt_interludes_from_the_section_rules(automation):
 
 
 # --------------------------------------------------------------------------- #
+#  update_wiki_pages                                                           #
+# --------------------------------------------------------------------------- #
+
+def test_update_wiki_pages_writes_history_and_reports_new_entities(automation, monkeypatch, tmp_path):
+    npcs = automation.project_root / "docs" / "npcs"
+    npcs.mkdir(parents=True)
+    (npcs / "iro.md").write_text("---\ntitle: Iro\n---\n\n# Iro\n", encoding="utf-8")
+    summary = tmp_path / "summary.md"
+    monkeypatch.setenv("GITHUB_STEP_SUMMARY", str(summary))
+    monkeypatch.setattr(automation, "_call_model", lambda **kw: (
+        '{"updates": {"npcs/iro": "Iro repaired the van."},'
+        ' "new_entities": [{"type": "npc", "name": "Toothy", "why": "runs the safehouse"}]}'))
+
+    written = automation.update_wiki_pages(64, "## Plot Events\nIro fixed things.\n")
+
+    assert written == ["npcs/iro"]
+    assert "- **[Session 64](/sessions/session-64)** — Iro repaired the van." in (npcs / "iro.md").read_text()
+    assert "**Toothy** (npc) — runs the safehouse" in summary.read_text()
+
+
+def test_update_wiki_pages_survives_a_failed_call(automation, monkeypatch):
+    npcs = automation.project_root / "docs" / "npcs"
+    npcs.mkdir(parents=True)
+    (npcs / "iro.md").write_text("---\ntitle: Iro\n---\n\n# Iro\n", encoding="utf-8")
+
+    def boom(**kw):
+        raise auto.EmptyResponseError("nothing")
+    monkeypatch.setattr(automation, "_call_model", boom)
+
+    assert automation.update_wiki_pages(64, "Iro fixed things.") == []
+    assert "Session History" not in (npcs / "iro.md").read_text()
+
+
+# --------------------------------------------------------------------------- #
 #  Transcripts with unnamed speakers                                           #
 # --------------------------------------------------------------------------- #
 

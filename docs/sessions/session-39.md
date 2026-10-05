@@ -1,8 +1,8 @@
 ---
 title: "39: The Dragon's Hide"
 date: 2026-01-16
-description: "A bakery explosion reunites the party with their old crew member Theirsander, leading to a rooftop chase through Greyport and an introduction to the Order of St. George."
-summary: "A bakery explosion reunites the party with their old crew member Theirsander, leading to a rooftop chase through Greyport and an introduction to the Order of St. George."
+description: "A bakery explosion reunites the party with their old crew member Sander, leading to a rooftop chase through Greyport and an introduction to the Order of St. George."
+summary: "A bakery explosion reunites the party with their old crew member Sander, leading to a rooftop chase through Greyport and an introduction to the Order of St. George."
 featureimage: "C4E39.webp"
 image: "/img/C4E39.webp"
 podcastlink: ""
@@ -12,9 +12,9 @@ podcastlink: ""
 
 ## A Reunion Interrupted
 
-The session begins with the party walking down the main thoroughfare of Greyport, approaching **Jasper's Bakery, Brewery, and Bakery** to cash in their VIP tickets. Through the shop window, they spot a familiar face: **Theirsander**, the former leader of the Sisyphus Circle, wearing a baker's apron and carrying a huge bag of bread as he restocks the shop.
+The session begins with the party walking down the main thoroughfare of Greyport, approaching **Jasper's Bakery, Brewery, and Bakery** to cash in their VIP tickets. Through the shop window, they spot a familiar face: **Sander**, the former leader of the Sisyphus Circle, wearing a baker's apron and carrying a huge bag of bread as he restocks the shop.
 
-The reunion is short-lived. The moment Theirsander makes eye contact with [Silas](/player-characters/silas) and [Bru](/player-characters/bru), the bakery explodes.
+The reunion is short-lived. The moment Sander makes eye contact with [Silas](/player-characters/silas) and [Bru](/player-characters/bru), the bakery explodes.
 
 ### The Explosion
 
@@ -26,26 +26,26 @@ The party is caught in a devastating blast that tears through the storefront:
 - **[Leliana](/player-characters/leliana)** (Dex save: 13): Takes 19 damage, knocked prone
 - **[Silas](/player-characters/silas)** (Dex save: 21): Uses Evasion to take no damage
 
-[Silas](/player-characters/silas) immediately springs into action, using his Psychic Phone ability to communicate with his deafened companions. He races toward the explosion to find Theirsander pinned under the blown-out door, which ironically protected him from the worst of the blast.
+[Silas](/player-characters/silas) immediately springs into action, using his Psychic Phone ability to communicate with his deafened companions. He races toward the explosion to find Sander pinned under the blown-out door, which ironically protected him from the worst of the blast.
 
-### Saving Theirsander
+### Saving Sander
 
 **[Silas](/player-characters/silas)'s Rescue Effort:**
 - Spots a heavy iron pizza paddle inside the burning building (Perception: 16)
 - Dives through flames to retrieve it (Acrobatics: 23)
 - Uses it as a lever to lift the debris
 
-**[Ohma](/player-characters/ohma)** arrives to help, effortlessly cradling the unconscious dwarf in one arm while simultaneously rubbing debris from his eye with the other. [Leliana](/player-characters/leliana) administers a Cure Wounds spell, jolting Theirsander back to consciousness.
+**[Ohma](/player-characters/ohma)** arrives to help, effortlessly cradling the unconscious dwarf in one arm while simultaneously rubbing debris from his eye with the other. [Leliana](/player-characters/leliana) administers a Cure Wounds spell, jolting Sander back to consciousness.
 
-> **Theirsander:** "Silas? I thought you were dead. I thought I was dead."
+> **Sander:** "Silas? I thought you were dead. I thought I was dead."
 
 > **[Silas](/player-characters/silas):** "Not how I pictured our reunion going, but it's good to see you again."
 
-> **Theirsander:** "Jury's still out on seeing you."
+> **Sander:** "Jury's still out on seeing you."
 
 ## The Rooftop Chase
 
-While stabilizing Theirsander, [Bru](/player-characters/bru) scans the chaos with a natural 20 perception check (30 total). His deafened state ironically sharpens his vision, and he spots figures in knight's armor with dragon skull emblems moving orderly through a back alley—not fleeing in panic, but pursuing someone.
+While stabilizing Sander, [Bru](/player-characters/bru) scans the chaos with a natural 20 perception check (30 total). His deafened state ironically sharpens his vision, and he spots figures in knight's armor with dragon skull emblems moving orderly through a back alley—not fleeing in panic, but pursuing someone.
 
 ### Crimson Takes Flight
 
@@ -53,9 +53,9 @@ While stabilizing Theirsander, [Bru](/player-characters/bru) scans the chaos wit
 
 > **[Bru](/player-characters/bru):** "I think the people that did this are heading toward the university district. I'm going to chase them."
 
-> **[Silas](/player-characters/silas):** "Hold on, Bru. We probably need to stick together. Ellith, Olivia—can you take Theirsander to the safe place while we chase the bad guys?"
+> **[Silas](/player-characters/silas):** "Hold on, Bru. We probably need to stick together. Olivia, Elspeth—can you take Sander to the safe place while we chase the bad guys?"
 
-[Elspeth](/player-characters/elspeth) and retired detective [Olivia](/player-characters/olivia) escort Theirsander while the rest of the party gives chase. [Silas](/player-characters/silas) uses his spider climb ability to scale a building, letting everyone out of the portable hole onto the rooftops.
+[Elspeth](/player-characters/elspeth) and retired detective [Olivia](/player-characters/olivia) escort Sander while the rest of the party gives chase. [Silas](/player-characters/silas) uses his spider climb ability to scale a building, letting everyone out of the portable hole onto the rooftops.
 
 ### Parkour Through Greyport
 
@@ -75,10 +75,14 @@ The party sprints across the rooftops, pursuing the dragon-armored knights who a
 
 **Iron Claw Counterattack:**
 - One casts Fireball at the party (DC 15 Dex save)
-- [Silas](/player-characters/silas) and [Ohma](/player-characters/ohma) use Evasion for no damage
-- [Bru](/player-characters/bru) and [Leliana](/player-characters/leliana) take 9 fire damage (successful saves)
+- [Silas](/player-characters/silas) (21) uses Evasion for no damage
+- [Ohma](/player-characters/ohma), too busy watching Bru in the air, fails the save, but Evasion cuts the damage to 9
 
 ### Combat on the Rooftops
+
+Before charging in, [Silas](/player-characters/silas) thinks to the group through the Psychic Phone:
+
+> **[Silas](/player-characters/silas):** "We only need one to answer questions."
 
 **[Silas](/player-characters/silas)'s Assault:**
 - Misty Steps behind the fireball caster
@@ -93,15 +97,13 @@ The party sprints across the rooftops, pursuing the dragon-armored knights who a
 - The resulting thump is... final
 
 **[Silas](/player-characters/silas)'s Execution:**
-- Teleports onto the shoulders of a paralyzed Iron Claw
+- Hops up onto the shoulders of the paralyzed Iron Claw that [Leliana](/player-characters/leliana) is struggling to push
 - Materializes his psychic dagger and drives it straight down through the target's skull
 - **63 damage** (automatic critical with sneak attack)
 
-> **[Silas](/player-characters/silas)** (looking at [Leliana](/player-characters/leliana) who's struggling to push her paralyzed target): "We only need one to answer questions."
-
 **[Leliana](/player-characters/leliana)'s Contribution:**
-- First attempt to push her paralyzed target off the roof: Athletics 3 (fails spectacularly)
-- Second attempt with a running start: Athletics 17 (success)
+- First attempt to push her paralyzed target off the roof: Athletics 3 (fails spectacularly) — this is the one Silas then finishes
+- With a running start, she shoves the last paralyzed Iron Claw: Athletics 17 (success)
 - Another silent thump from below
 
 ## Meeting the Order of St. George
@@ -116,7 +118,7 @@ While [Silas](/player-characters/silas) and [Leliana](/player-characters/leliana
 
 One Iron Claw lunges at him. The knight swiftly beheads him with a single stroke.
 
-### Ma's Wrestling Persona
+### Ohma's Wrestling Persona
 
 [Ohma](/player-characters/ohma) dons his black wrestling mask and drops into an intimidating stance.
 
@@ -138,9 +140,9 @@ He casually one-hands the unconscious Iron Claw by the ankle and slings him over
 
 > **Commander Edgar:** "This is not a good place. Would you follow me to our headquarters?"
 
-> **[Silas](/player-characters/silas):** "Is that where you took our mutual friend Theirsander?"
+> **[Silas](/player-characters/silas):** "Is that where you took our mutual friend Sander?"
 
-> **Commander Edgar:** "I believe Theirsander to be dead in the explosion. Is he alive? Good. Then he will know to go to the headquarters. Let's go."
+> **Commander Edgar:** "I believe Sander to be dead in the explosion. Is he alive? Good. Then he will know to go to the headquarters. Let's go."
 
 ## Leliana's Misadventure
 
@@ -239,23 +241,23 @@ Commander Edgar's eyes go wide.
 
 > **Commander Edgar:** "You have the orb? Oh god. Okay. Holy s***."
 
-## Commander Tannondel
+While the scan continues, [Silas](/player-characters/silas) gives Edgar a condensed version of their history:
 
-Edgar hands off the party to **Commander Tannondel**, who will debrief them properly.
+> **[Silas](/player-characters/silas):** "I'm part of—or was part of—a group of acquisition experts. We were hired to steal this from a gang of ne'er-do-wells. Turns out we were hired by Helja Ungar of the Iron Claws. She murdered all of our friends—or so we thought, until one turned up alive. We killed her, but now we're back to deal with this orb once and for all."
 
-> **Commander Tannondel:** "I was sent a message that you have the orb. The dwarves call it Rain Goth—the orb that holds Astro. You bringing it here is a huge boon to our efforts. I understand everything has its price, and I'm sure folks of your stature went through a lot to get this."
-
-[Silas](/player-characters/silas) provides a condensed version of their history:
-
-> **[Silas](/player-characters/silas):** "I'm part of—or was part of—a group of acquisition experts. We were hired to steal this from a gang of ne'er-do-wells. Turns out we were hired by Helja Utgart of the Iron Claws. She murdered all of our friends—or so we thought, until one turned up alive. We killed her, but now we're back to deal with this orb once and for all."
-
-> **Commander Tannondel:** "Theirsander said you were part of the Sisyphus Circle heist."
+> **Commander Edgar:** "Sander said you were part of the Sisyphus Circle heist."
 
 > **[Silas](/player-characters/silas):** "That's us."
 
+## Commander Tannondel
+
+Once the party is cleared, Edgar formally introduces himself and hands the party off to **Commander Tannondel**, who will take them through the Order's operation and debrief them on the orb.
+
+> **Commander Tannondel:** "I was sent a message that you have the orb. The dwarves call it Raingoth—the orb that holds Astro. You bringing it here is a huge boon to our efforts. I understand everything has its price, and I'm sure folks of your stature went through a lot to get this."
+
 ## Reunion in the Medical Bay
 
-Commander Tannondel leads the party to the Order's medical bay, where Theirsander lies recovering with a cleric attending to his wounds. [Elspeth](/player-characters/elspeth) and [Olivia](/player-characters/olivia) have fallen asleep in chairs beside him.
+Commander Tannondel leads the party to the Order's medical bay, where Sander lies recovering with a cleric attending to his wounds. [Elspeth](/player-characters/elspeth) and [Olivia](/player-characters/olivia) have fallen asleep in chairs beside him.
 
 The cleric speaks quietly:
 
@@ -290,9 +292,9 @@ The session concludes with the party being shown to clean, private rooms in the 
 - Led by commanders including Edgar and Tannondel
 - Headquarters in the Dragon's Hide tavern/inn
 - In open conflict with the Iron Claws
-- Extremely interested in the dragon orb (Rain Goth)
+- Extremely interested in the dragon orb (Raingoth)
 
-**Theirsander:**
+**Sander:**
 - Alive and working at Jasper's bakery
 - Connected to the Order of St. George
 - Survived the Sisyphus Circle massacre
@@ -306,7 +308,7 @@ The session concludes with the party being shown to clean, private rooms in the 
 
 ## Character Moments
 
-**[Silas](/player-characters/silas):** Demonstrates his evolution from pure self-interest to genuine leadership, coordinating the rescue of Theirsander and establishing contact with potential allies. His 63-damage psychic execution showcases his deadly capabilities.
+**[Silas](/player-characters/silas):** Demonstrates his evolution from pure self-interest to genuine leadership, coordinating the rescue of Sander and establishing contact with potential allies. His 63-damage psychic execution showcases his deadly capabilities.
 
 **[Ohma](/player-characters/ohma):** The wrestling persona returns as he dons his black mask and intimidates enemies with his "Are you ready, brother?" catchphrase. His willingness to push himself (taking damage for speed) shows his commitment to the team.
 
@@ -319,7 +321,7 @@ The session concludes with the party being shown to clean, private rooms in the 
 - What caused the bakery explosion and who specifically ordered it?
 - What ritual must be performed on the dragon orb and can the Order complete it?
 - What is the Order of St. George's full agenda regarding the orb?
-- Will Theirsander have answers about what happened to the Sisyphus Circle?
+- Will Sander have answers about what happened to the Sisyphus Circle?
 - Where is Helja's mother and what is her connection to the Iron Claws in Greyport?
 - What reward will the Order offer for bringing them the dragon orb?
 - Is Jasper okay? His family's bakery was just destroyed.

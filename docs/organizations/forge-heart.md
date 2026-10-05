@@ -1,370 +1,43 @@
 ---
 title: The Forge Heart
-description: High Forge's underground community and resistance center
-sidebar_position: 10
+description: Ancient magma-forged anvil temple at the heart of High Forge, used as a concert venue and later as Helja Ungar's throne room; destroyed in Sessions 36–37
+aliases: ["Forge Heart", "forge heart"]
 ---
 
 # The Forge Heart
 
-*Underground Community • Resistance Base • Safe Haven*
+*Ancient Anvil Temple • Concert Venue • Helja Ungar's Throne Room*
 
 ## Overview
 
-**The Forge Heart** refers to the extensive underground tunnel system beneath High Forge that serves as both a community for those living beneath the city and headquarters for resistance operations against the Iron Claws. These tunnels contain safe houses, living spaces, and strategic locations that proved crucial during the campaign.
+**The Forge Heart** is a legendary, ancient anvil temple forged from magma, deep inside [High Forge](/locations/high-forge). It is full of lava tubes and cavernous acoustics, and a great stone-and-iron gate at the end of the [Great Hall](/locations/great-hall) separates it from the rest of the city. [Doomfall](/organizations/doomfall) played its biggest early concert there, and under the [Iron Claws](/organizations/iron-claws) it became [Helja Ungar](/npcs/helja-ungar)'s throne room.
 
-## Geography and Structure
+**Status as of Session 63:** destroyed. [Bru](/player-characters/bru)'s charges wrecked the throne room when [Silas](/player-characters/silas) killed Helja there (Session 36), and the Forge Heart then erupted "from an unstable volcano" as the party fled (Session 37 transcript). It has not been mentioned since.
 
-### The Underground Tunnels
-**Extensive Network**:
-- Complex system beneath High Forge
-- Multiple access points and routes
-- Connected to various surface locations
-- Secret passages and hidden entrances
-- Strategic importance for movement and hiding
+This page is about the temple itself. Older versions of this page confused it with the tunnels beneath High Forge, where the [resistance](/organizations/resistance) had its headquarters. Those are a different place.
 
-### Key Locations
+## The Concert Venue
 
-**Resistance Headquarters**:
-- Command center for operations
-- Meeting space for leadership
-- Weapons and supplies storage
-- Communication hub
-- Right next to underground nightclub (Session 26)
+In [Session 5](/sessions/session-5), Sandra Talks's 10,000-gold booking put Helisanna's band in the Forge Heart in front of thousands. The party fitted it out themselves with flame turrets, a sound system, recording equipment and Bru's firework cannons, which doubled as defences. Two groups tried to rob or kill Silas before and during the show. The set started flat, but pyrotechnics and Red's blessing rescued it, and glowing-eyed fans climbed on stage for the finale.
 
-**Safe Houses**:
-- Multiple locations throughout tunnels
-- Shelter for resistance members
-- Hiding places for marked individuals
-- Supply caches
-- Emergency escape routes
+## Helja's Throne Room
 
-**Living Areas**:
-- Underground community dwellings
-- Permanent residents
-- April Bonal's synthesis lab and home
-- Self-sufficient spaces
-- Hidden from surface authorities
+- **Planning the assault:** After the vault heist, the party listed infiltrating the Forge Heart during the chaos as one way to bring Helja down (Session 31). The plan settled on a concert in the Great Hall, which runs straight up to the gate of the Forge Heart (Session 33 transcript). Two card-playing constructs and Iron Claws patrols guarded the gateway (Session 35 transcript).
+- **Opening a path:** The party needed a detailed city map so their magic paint could open a vertical route from the surface down to the Forge Heart, where they meant to bring the dragons in. They stole the maps from Olivia's old police precinct (Session 35).
+- **The assassination:** Lieutenant Grimjaw led Silas, posing as a traitor with a fake dragon orb, up flight after flight of stairs to Helja's throne. Bru, who had faked his own death, rigged the room with timed charges while Silas negotiated. When Helja agreed to shake on the deal the charges went off, Silas critically stabbed her, and Bru's cannon finished her. Her skeleton fell into her throne (Session 36).
+- **The collapse:** The throne room came down behind the party as the charges kept going off. Several Iron Claws lieutenants teleported out with rings (Session 36). As the party left the Great Hall, Grimjaw warned that the Forge Heart was about to blow, and it exploded (Session 37).
 
-**The Underground Nightclub** (Session 26):
-- Massive rave venue
-- Thousands of ravers gathered
-- Dangerously close to resistance headquarters
-- "Greatest party of all time"
-- Security concern and acoustic nightmare
+## Related
 
-## Inhabitants
+- [High Forge](/locations/high-forge) and the [Great Hall](/locations/great-hall)
+- [Helja Ungar](/npcs/helja-ungar) and the [Iron Claws](/organizations/iron-claws)
+- [Doomfall](/organizations/doomfall)
 
-### Underground Residents
+## Session History
 
-**April Bonal**:
-- Chemist living in tunnels (Sessions 33-35)
-- Synthesis lab for experiments
-- Originally missing person
-- Provided safe haven for Taco Cat
-- Underground community member
-
-**Resistance Members**:
-- Active fighters and operatives
-- Safe house occupants
-- Tunnel guides and scouts
-- Intelligence gatherers
-- Support personnel
-
-**Refugees**:
-- Fleeing Iron Claws persecution
-- Hiding from bounties
-- Political dissidents
-- Families seeking safety
-
-### Temporary Visitors
-
-**Taco Cat** (Sessions 33-36):
-- Took refuge after bounties increased
-- Used April's space as base
-- Coordinated from underground
-- Prepared for Great Hall attack
-- Escaped Iron Claws detection
-
-## Historical Context
-
-### Origins
-**When Established**:
-- Long-standing tunnel system (ancient?)
-- Resistance use began during Iron Claws rise
-- Community development over time
-- Gradual transformation into resistance center
-
-**Purpose Evolution**:
-- Originally: Utility/access tunnels
-- Then: Underground living spaces
-- Finally: Resistance headquarters and safe haven
-
-## Strategic Importance
-
-### For Resistance Operations
-
-**Advantages**:
-- Hidden from Iron Claws patrols
-- Protected communication and planning
-- Safe storage for weapons and supplies
-- Emergency escape routes
-- Coordination without detection
-
-**Intelligence Value** (Session 25-26):
-- [Lark](/npcs/lark) provided tunnel maps
-- Inside knowledge of Iron Claws patrol patterns
-- Strategic routes revealed
-- Access to key surface locations
-- Enabled Great Hall infiltration
-
-### For Taco Cat
-
-**Sessions 33-36 Refuge**:
-- Hid from $50,000 bounties
-- Planned Great Hall attack
-- Resupplied and rested safely
-- Coordinated with resistance
-- Avoided surface detection
-
-## The Nightclub Problem (Session 26)
-
-### Dangerous Proximity
-**Security Concerns**:
-- Thousands of ravers next to resistance HQ
-- Loud bass reverberating through tunnels
-- Potential for discovery
-- Ach'uk's influence nearby
-- Operational security compromised
-
-**Acoustics**:
-- Sound carries through tunnels
-- "Greatest party of all time" noise level
-- Difficult to maintain secrecy
-- Communication challenges
-- Cover for resistance noise operations?
-
-## Key Features
-
-### Infrastructure
-
-**Essential Systems**:
-- Ventilation (how underground residents breathe)
-- Water access (drinkable? contaminated?)
-- Lighting sources (magical? conventional?)
-- Food storage and preparation
-- Waste management
-
-**Security Measures**:
-- Hidden entrances and exits
-- Guard posts and lookouts
-- Warning systems
-- Escape route protocols
-- Tunnel collapse contingencies
-
-### Resources
-
-**Supplies**:
-- Weapons caches for resistance
-- Food and water storage
-- Medical supplies
-- Communication equipment
-- Survival necessities
-
-**Facilities**:
-- April's synthesis lab
-- Meeting rooms
-- Sleeping quarters
-- Armory
-- Command center
-
-## Access Points
-
-### Known Entrances
-**Surface Connections**:
-- Multiple secret entrances
-- Lark's intelligence provided maps (Session 25)
-- Great Hall connection (Session 36 infiltration)
-- Various building basements
-- Sewer system connections
-
-**Security**:
-- Guarded access points
-- Password systems (likely)
-- Trusted guide requirements
-- Hidden from casual discovery
-
-## The Community
-
-### Underground Society
-
-**Living Conditions**:
-- Permanent residents like April
-- Self-sustaining subsystems
-- Social structures and relationships
-- Adaptation to subterranean life
-- Community bonds through shared hardship
-
-**Culture**:
-- Resistance mindset prevalent
-- Mutual support essential
-- Secrecy as survival
-- Innovation and resourcefulness
-- Alternative to surface oppression
-
-### Relationship with Surface
-**Limited Contact**:
-- Some residents never surface
-- Supply runs necessary
-- Information gathering missions
-- Coordinated with surface allies
-- Parallel society beneath city
-
-## April Bonal's Lab (Sessions 33-35)
-
-### Safe Haven for Party
-**Temporary Base**:
-- Chemistry lab and living space
-- Supplied Taco Cat with resources
-- Meeting location for planning
-- Relatively safe from Iron Claws
-- Base for Session 36 preparations
-
-**The Poison Incident** (Session 35):
-- Bru accidentally poisoned by bad stew
-- April's chemistry experiments nearby
-- Underground cooking challenges
-- Medical emergency in tunnels
-- Limited surface access complications
-
-## Great Hall Infiltration (Session 36)
-
-### Strategic Route
-**Attack Planning**:
-- Tunnel system enabled secret approach
-- Avoided surface Iron Claws detection
-- Element of surprise maintained
-- Resistance and Taco Cat coordination
-- Underground army deployment
-
-**Execution**:
-- Multiple teams through tunnels
-- Synchronized surface emergence
-- Great Hall attack from below
-- Iron Claws caught off-guard
-- Underground advantage decisive
-
-## Post-Iron Claws Status
-
-### After Helja's Death (Session 36)
-**Changed Situation**:
-- Iron Claws leadership eliminated
-- Reduced surface oppression likely
-- Resistance victory achieved
-- Underground community's future uncertain
-- Will residents return to surface?
-
-**Questions**:
-- Is underground still necessary?
-- Will resistance disband or reorganize?
-- Community's next purpose?
-- Infrastructure maintenance and ownership?
-- Integration with surface society?
-
-## Challenges and Dangers
-
-### Living Underground
-
-**Practical Issues**:
-- Limited sunlight and fresh air
-- Difficult resource acquisition
-- Health concerns from subterranean living
-- Psychological impact of isolation
-- Navigation in darkness
-
-**Security Risks**:
-- Discovery by enemies
-- Tunnel collapse
-- Fire or smoke (limited escape)
-- Flooding potential
-- Resource exhaustion
-
-### Coexistence Issues
-**Internal Conflicts**:
-- Resistance vs. civilian residents
-- Nightclub noise vs. security needs
-- Resource allocation
-- Space constraints
-- Authority and governance
-
-## Significance
-
-### To High Forge
-**Hidden Foundation**:
-- Literal underground beneath city
-- Alternative power structure
-- Resistance coordination center
-- Symbol of opposition to tyranny
-- Community resilience
-
-### To Campaign
-**Strategic Asset**:
-- Enabled party survival
-- Resistance coordination hub
-- Great Hall attack launching point
-- Safe haven during crisis
-- Intelligence gathering center
-
-### To Themes
-- **Hidden Communities**: Survival beneath oppression
-- **Resistance**: Organized opposition infrastructure
-- **Community**: Mutual support in hardship
-- **Secrecy**: Survival through concealment
-- **Adaptation**: Life in harsh conditions
-
-## Related Characters
-- [April Bonal](/npcs/april-bonal) - Underground resident, chemist
-- [Lark](/npcs/lark) - Provided tunnel intelligence
-- [Victor](/npcs/victor) - Resistance operative using tunnels
-- **Resistance Leadership** - Coordinated from underground
-
-## Related Organizations
-- [The Resistance](/organizations/resistance) - Primary users, headquarters location
-- [Taco Cat](/organizations/taco-cat) - Temporary refuge (Sessions 33-36)
-- [The Ravers](/organizations/ravers) - Underground nightclub attendees
-- [Iron Claws](/organizations/iron-claws) - Fled from, fought against
-
-## Key Sessions
-- **Session 25**: Lark provides tunnel maps and intelligence
-- **Session 26**: Underground nightclub discovered with thousands
-- **Sessions 33-35**: Taco Cat takes refuge in April's space
-- **Session 36**: Great Hall infiltration via tunnels
-
-## Key Locations
-- **Resistance Headquarters** - Command center
-- **April Bonal's Lab** - Chemistry workspace and safe house
-- **Underground Nightclub** - Massive rave venue
-- **Multiple Safe Houses** - Throughout tunnel system
-- **Great Hall Access** - Secret infiltration route
-
-## Future Possibilities
-
-### Post-Victory Options
-**Community Development**:
-- Formal organization of underground
-- Tourism or historical site
-- Emergency shelter network
-- Infrastructure improvement
-- Integration with surface governance
-
-**Continued Use**:
-- Resistance reorganizes for new threats
-- Underground community remains
-- Strategic reserve maintained
-- Alternative to surface life
-- Protected space for vulnerable
-
----
-
-*"We're right next to the resistance headquarters, and there are thousands of ravers having the greatest party of all time. How did nobody notice?"* - Party reaction, Session 26
-
-*"The tunnels saved us. Without Lark's maps and April's hospitality, we'd have never survived those bounties or pulled off the Great Hall attack."* - Campaign reflection
+- **[Session 5](/sessions/session-5)** — The party stages Helisanna's concert for thousands in the Forge Heart and fends off two attacks on Silas.
+- **[Session 31](/sessions/session-31)** — Infiltrating the Forge Heart during the chaos is one of the options for the assault on Helja.
+- **[Session 33](/sessions/session-33)** — The DM sets out the approach: a concert in the Great Hall, which ends at the gate to the Forge Heart.
+- **[Session 35](/sessions/session-35)** — The party scouts the constructs guarding the gateway and steals maps to paint a route down to the Forge Heart for the dragons.
+- **[Session 36](/sessions/session-36)** — Silas and Bru kill Helja in her throne room in the Forge Heart; Bru's charges bring the room down.
+- **[Session 37](/sessions/session-37)** — The Forge Heart erupts as the party escapes through the Great Hall.

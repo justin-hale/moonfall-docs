@@ -1,0 +1,184 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-09-25",
+  "model": "claude-haiku-4-5",
+  "players": {
+    "Topher": {
+      "scores": {
+        "chaos": 14,
+        "heroism": 8,
+        "comedy": 16,
+        "immersion": 15,
+        "strategy": 12,
+        "curiosity": 13
+      },
+      "evidence": {
+        "chaos": "You see Captain Steel pop out one millisecond before he sees you... he is floating looks towards you, your group and is bolting to your group right now.",
+        "heroism": "I'm going to take a moment because this is actually important.",
+        "comedy": "What is that rope you're carrying? service rope. This is my emotional support rope.",
+        "immersion": "Captain Steel,… sorry to open. we have a critical issue on the line and we need to escalate as soon as possible as at your soonest convenience.",
+        "strategy": "I think what we'll do here is we're going to have an initiative off. Basically, can you make an action before he notices you?",
+        "curiosity": "So it's a switchover. So he's not smelting, he's changing the casting plates. So you're basically molten metal flows from the furnace into these four different bays."
+      }
+    },
+    "Silas": {
+      "scores": {
+        "chaos": 12,
+        "heroism": 14,
+        "comedy": 13,
+        "immersion": 16,
+        "strategy": 17,
+        "curiosity": 15
+      },
+      "evidence": {
+        "chaos": "I'm going to change my groundskeeper disguise. Now I'm like a tree groundskeeper instead of a pond groundskeeper.",
+        "heroism": "I say Silus will back up any ploy that Helis or… Leliana makes to get revenge, even if it kind of makes the plan more complicated.",
+        "comedy": "Everything's a f*** lie. (re: names in the tree)",
+        "immersion": "as far as we can tell, then if there's kids climbing into it, it's not just passively dangerous, I guess. can I recognize… what part of the tree we emerge from?",
+        "strategy": "I'd like try to investigate the roots to see if there's still a portal or something to the other dimension.",
+        "curiosity": "Does the area underneath the tree remind me of that other dimension we were in when we planted the seed?"
+      }
+    },
+    "00": {
+      "scores": {
+        "chaos": 10,
+        "heroism": 10,
+        "comedy": 10,
+        "immersion": 10,
+        "strategy": 10,
+        "curiosity": 10
+      },
+      "evidence": {
+        "chaos": "No substantive speaking lines recorded.",
+        "heroism": "No substantive speaking lines recorded.",
+        "comedy": "No substantive speaking lines recorded.",
+        "immersion": "No substantive speaking lines recorded.",
+        "strategy": "No substantive speaking lines recorded.",
+        "curiosity": "No substantive speaking lines recorded."
+      }
+    },
+    "Leliana": {
+      "scores": {
+        "chaos": 11,
+        "heroism": 13,
+        "comedy": 12,
+        "immersion": 14,
+        "strategy": 11,
+        "curiosity": 10
+      },
+      "evidence": {
+        "chaos": "F*** it. (racing Banana up the tree with no hesitation)",
+        "heroism": "Leliana, you're just going to pretend like I don't know what it is and, give it some touch and just admire examine it nonchalantly.",
+        "comedy": "My name is Apple... No means I wish I had apples.",
+        "immersion": "I'm just going to pretend like I don't know what it is and, give it some touch and just admire examine it nonchalantly.",
+        "strategy": "It's kind of dangerous. kind of torturous. Kind of s***. A crappy excuse. This is Dtier option.",
+        "curiosity": "I'm climbing this tree, too. I'm checking it out. It wasn't here before last time I was here."
+      }
+    },
+    "Olivia": {
+      "scores": {
+        "chaos": 13,
+        "heroism": 15,
+        "comedy": 14,
+        "immersion": 14,
+        "strategy": 11,
+        "curiosity": 12
+      },
+      "evidence": {
+        "chaos": "just pitched up alley. Yeah. Perfect. No notes. (embracing chaotic improvisation at the factory)",
+        "heroism": "I'm going to get to the furnace to plant the bomb. It's like in the back corner.",
+        "comedy": "Are you an idiot? Yes. Sir, I just pour the forges. I'm not sure what the science of the giant ball.",
+        "immersion": "We're going to move further away... As soon as these bombs go off, we need to be mid escape, right?",
+        "strategy": "We can try that. if we were sent as reinforcements essentially, extra set of hands,… that's plausible.",
+        "curiosity": "So, it's a Sailor Moon power up montage, but permanent into one of the like Yeah."
+      }
+    },
+    "Bru": {
+      "scores": {
+        "chaos": 16,
+        "heroism": 14,
+        "comedy": 18,
+        "immersion": 15,
+        "strategy": 14,
+        "curiosity": 13
+      },
+      "evidence": {
+        "chaos": "If… if Bru can say that he's going to steal the sun, which is the opposite of the whole premise of the first Despicable Me movie... I can take the sun with me.",
+        "heroism": "I'm going to rip band-aids Now… everything exploding.",
+        "comedy": "What? I walked in with this rope. service rope. Sorry. got. This is my emotional support rope.",
+        "immersion": "I pull the simulation umbilical cord. Bru looks like he's on so many drugs right now. Just on cloud9. You're just like That was insane.",
+        "strategy": "from what I remember about the Elspeth clones,… okay, so I guess this complicates things, but Silus would probably remember that the Elspeth clones were savable.",
+        "curiosity": "Is It's really white hot in the middle with the what? When I was in there,… it got really really big and I had to get to the side and… then it got really really small."
+      }
+    },
+    "01": {
+      "scores": {
+        "chaos": 10,
+        "heroism": 10,
+        "comedy": 10,
+        "immersion": 10,
+        "strategy": 10,
+        "curiosity": 10
+      },
+      "evidence": {
+        "chaos": "No substantive speaking lines recorded.",
+        "heroism": "No substantive speaking lines recorded.",
+        "comedy": "No substantive speaking lines recorded.",
+        "immersion": "No substantive speaking lines recorded.",
+        "strategy": "No substantive speaking lines recorded.",
+        "curiosity": "No substantive speaking lines recorded."
+      }
+    },
+    "02": {
+      "scores": {
+        "chaos": 10,
+        "heroism": 10,
+        "comedy": 10,
+        "immersion": 10,
+        "strategy": 10,
+        "curiosity": 10
+      },
+      "evidence": {
+        "chaos": "No substantive speaking lines recorded.",
+        "heroism": "No substantive speaking lines recorded.",
+        "comedy": "No substantive speaking lines recorded.",
+        "immersion": "No substantive speaking lines recorded.",
+        "strategy": "No substantive speaking lines recorded.",
+        "curiosity": "No substantive speaking lines recorded."
+      }
+    },
+    "03": {
+      "scores": {
+        "chaos": 10,
+        "heroism": 10,
+        "comedy": 10,
+        "immersion": 10,
+        "strategy": 10,
+        "curiosity": 10
+      },
+      "evidence": {
+        "chaos": "No substantive speaking lines recorded.",
+        "heroism": "No substantive speaking lines recorded.",
+        "comedy": "No substantive speaking lines recorded.",
+        "immersion": "No substantive speaking lines recorded.",
+        "strategy": "No substantive speaking lines recorded.",
+        "curiosity": "No substantive speaking lines recorded."
+      }
+    }
+  },
+  "superlatives": {
+    "mvp": {
+      "player": "Bru",
+      "quote": "If… if Bru can say that he's going to steal the sun... I can take the sun with me. It's in the rope trick. it's in an interdimensional field."
+    },
+    "best_joke": {
+      "player": "Bru",
+      "quote": "This is my emotional support rope. You didn't see this when I came in?"
+    },
+    "most_chaotic": {
+      "player": "Bru",
+      "quote": "If… if Bru can say that he's going to steal the sun, which is the opposite of the whole premise of the first Despicable Me movie, Okay. So if Bru can say that he's going to steal the sun... I can take the sun with me."
+    },
+    "decision_driver": "Silas"
+  }
+}

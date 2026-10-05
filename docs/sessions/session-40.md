@@ -1,8 +1,8 @@
 ---
 title: "40: Uneasy Alliances"
 date: 2026-01-23
-description: "The party learns disturbing truths about the Order of St. George's connection to Eldoran, reunites with Theirsander, and sets sail for the underwater ritual site where Luna fell."
-summary: "The party learns disturbing truths about the Order of St. George's connection to Eldoran, reunites with Theirsander, and sets sail for the underwater ritual site where Luna fell."
+description: "The party learns disturbing truths about the Order of St. George's connection to Eldoran, reunites with Sander, and sets sail for the underwater ritual site where Luna fell."
+summary: "The party learns disturbing truths about the Order of St. George's connection to Eldoran, reunites with Sander, and sets sail for the underwater ritual site where Luna fell."
 featureimage: "C4E40.webp"
 image: "/img/C4E40.webp"
 podcastlink: ""
@@ -34,7 +34,7 @@ After a restful long rest (for most), the party gathers in the mess hall for bre
 
 **Commander Tannondel** approaches:
 
-> "Ah, you are awake. Great. I'd like to brief you on the dragon orb you've taken to Graeme Goth—I believe your orb's name is Rain Goth—and we'd like to talk about next steps. I believe you're interested in the rebinding ritual, which we have a plan for, and we'd love your help."
+> "Ah, you are awake. Great. I'd like to brief you on the dragon orb you've taken—Raingoth, I believe your orb's name is—and we'd like to talk about next steps. I believe you're interested in the rebinding ritual, which we have a plan for, and we'd love your help."
 
 ### Silas's Morning Call
 
@@ -95,19 +95,27 @@ She also reveals her surprise that [Silas](/player-characters/silas) could carry
 
 > **[Silas](/player-characters/silas):** "We're just really good guys, I guess."
 
-[Silas](/player-characters/silas) hands over Helga's journals for the Order's research, prompting an excited response from Tannondel.
+### Sander as Bait
 
-## Reunion with Theirsander
+Tannondel then lets slip why the orb's arrival matters so much to her:
 
-[Silas](/player-characters/silas) and [Bru](/player-characters/bru) visit Theirsander in the medical bay, finding him with oatmeal and apple juice, just woken up.
+> **Commander Tannondel:** "The whole reason we had him at that bakery was to bring out this orb. We were hoping that he would be targeted, and sure enough he was. I can't believe it actually worked."
+
+She calls it their last option. The Order had assumed the Iron Claws held the orb, with Astro orchestrating them through it, and Silas having carried it all along "makes things very confusing." Asked, she confirms Sander knew he was bait. When Silas proposes taking down the Iron Claws once the party returns, she cheerfully offers to put Sander back at the bakery "as a honeypot again."
+
+[Silas](/player-characters/silas) hands over Helja's journals for the Order's research, prompting an excited response from Tannondel.
+
+## Reunion with Sander
+
+[Silas](/player-characters/silas) and [Bru](/player-characters/bru) visit Sander in the medical bay, finding him with oatmeal and apple juice, just woken up.
 
 [Bru](/player-characters/bru) immediately jumps on him:
 
 > **[Bru](/player-characters/bru):** "I left you in bed this whole time! Never do this to me again!"
 
-### Theirsander's Story
+### Sander's Story
 
-Theirsander recounts his survival:
+Sander recounts his survival:
 
 > "They stabbed me, but they never checked to make sure I was actually dead. When I woke up, my dead sister was next to me. I crawled out into a local coffee shop where there was a beautiful man, and he healed me. He told me, 'You're gonna use this sacrifice to change the world, and you're going to hunt dragons.' And that's what I did. Never saw him again."
 
@@ -115,19 +123,19 @@ Theirsander recounts his survival:
 
 ### The Flour Network
 
-Theirsander, still recovering from his concussion, has built a new life at the bakery:
+Sander, still recovering from his concussion, has built a new life at the bakery:
 
-> **Theirsander:** "I've got a few leads through the bakery. There's this whole flour network I've been figuring out. There's some real money to be made. If y'all are scam for cash, we got some business going on."
+> **Sander:** "I've got a few leads through the bakery. There's this whole flour network I've been figuring out. There's some real money to be made. If y'all are scam for cash, we got some business going on."
 
 > **[Silas](/player-characters/silas):** "I'm sorry, are you offering us a job in the baked goods industry right now?"
 
-> **Theirsander:** "It's not a job in the baked goods business. It's THE job. The big dough payday. You know what I'm talking about."
+> **Sander:** "It's not a job in the baked goods business. It's THE job. The big dough payday. You know what I'm talking about."
 
 > **[Bru](/player-characters/bru):** "No, we literally don't know what you're talking about."
 
-Despite his head injury-induced fixation on flour, Theirsander explains he's found something with the Order—safety, routine, and friends who don't require crime to hang out.
+Sander blames the Iron Claws for the blast: after months of nothing, they blew up the whole bakery—"an orchestrated signal to everyone"—and he warns that in Greyport they are "something deeper" than the gang the party knew in High Forge. Despite his head injury-induced fixation on flour, he explains he's found something with the Order—safety, routine, and friends who don't require crime to hang out. The bakery "honey trap" seemed dangerous at first, but the knights were always a block away; the explosion surprised everyone.
 
-> **Theirsander:** "Y'all were the best friends I'll ever have. Nothing bonds you like a heist mission. But when you're not doing heists, it's cool to just make some bread with people."
+> **Sander:** "Y'all were the best friends I'll ever have. Nothing bonds you like a heist mission. But when you're not doing heists, it's cool to just make some bread with people."
 
 [Bru](/player-characters/bru) pulls out a piece of paper and writes "Operation Cogenstein" at the top.
 
@@ -239,7 +247,7 @@ Victor is at the zoo ("I love the zoo. I've got a membership.") and needs a drag
 
 ## Setting Sail
 
-The party boards Captain Buckle's vessel, which must row out of the harbor ("It's a no-wake zone," the DM insists) before engaging its motor.
+The party boards Captain Buckle's vessel, which must row out through the harbor's no-wake zone before engaging its motor.
 
 ### The Expedition Force
 
@@ -279,7 +287,7 @@ As night falls and the ship approaches dragon territory, Bafael gathers the part
 
 > **[Silas](/player-characters/silas):** "How much blood are we talking? Like prick our fingers, or bleed out an unsettling amount?"
 
-> **Bafael:** "I don't know. I've never done this before. I have already collected the violescent spheres and the salt. And we know the dragon name, right? Whoever holds Rain Goth must be the one to speak the name. But I do not know what will happen."
+> **Bafael:** "I don't know. I've never done this before. I have already collected the violescent spheres and the salt. And we know the dragon name, right? Whoever holds Raingoth must be the one to speak the name. But I do not know what will happen."
 
 > **Bafael:** "Silas, is it? Will you be ready to do this? I think she will seek to challenge you. Challenge your will, your mind. Are you the best suited?"
 
@@ -302,6 +310,7 @@ As night falls and the ship approaches dragon territory, Bafael gathers the part
 - Developing a weapon based on whatever struck Luna
 - Plan to use it against **Noraxis**, the dragon god of fire
 - Main income comes from dragon parts and skeleton-themed bachelor party taverns
+- Kept Sander at the bakery as bait to draw out the orb
 
 **The Rebinding Ritual:**
 - Requires: blood freely given, violescent spheres, salt, and the dragon's true name
@@ -309,17 +318,17 @@ As night falls and the ship approaches dragon territory, Bafael gathers the part
 - The dragon will challenge the speaker's will
 - The Order plans to use instrumentation to detect other orbs during the ritual
 
-**Theirsander:**
+**Sander:**
 - Survived the Sisyphus Circle massacre
 - Healed by a mysterious "beautiful man" who told him to hunt dragons
-- Now working at Jasper's bakery with the Order
+- Worked at Jasper's bakery as the Order's bait, knowingly, with the knights a block away
 - Has a concerning fixation on "the flour network" (likely concussion-related)
 
 ## Character Moments
 
-**[Silas](/player-characters/silas):** His nightly calls to Naomi show his commitment to maintaining relationships despite the chaos. His reunion with Theirsander—one of genuine warmth despite the danger—demonstrates how far he's come from pure self-interest.
+**[Silas](/player-characters/silas):** His nightly calls to Naomi show his commitment to maintaining relationships despite the chaos. His reunion with Sander—one of genuine warmth despite the danger—demonstrates how far he's come from pure self-interest.
 
-**[Bru](/player-characters/bru):** Immediately writes "Operation Cogenstein" when Theirsander mentions the Iron Claws still control their old neighborhood. The goblin family reunion at the armory reminds us of his extensive clan connections.
+**[Bru](/player-characters/bru):** Immediately writes "Operation Cogenstein" when Sander mentions the Iron Claws still control their old neighborhood. The goblin family reunion at the armory reminds us of his extensive clan connections.
 
 **[Ohma](/player-characters/ohma):** Faces a genuine moral crisis when his monk brother reveals the Order's true allegiances. His willingness to relay everything through the psychic network shows his trust in the party.
 
@@ -336,15 +345,15 @@ As night falls and the ship approaches dragon territory, Bafael gathers the part
 - Will the party investigate the Cogenstein and confront the Iron Claws?
 - Can Bafael be trusted, and what is his endgame regarding Luna?
 - Is Jasper okay after his bakery was destroyed?
-- Who was the "beautiful man" who healed Theirsander and set him on the path of dragon hunting?
+- Who was the "beautiful man" who healed Sander and set him on the path of dragon hunting?
 
 ## Notable Quotes
 
 > **[Silas](/player-characters/silas):** "Just once, just one goddamn time, I want us to find a group of people who are ostensibly trying to help us, and for them to not end up being a bunch of assholes."
 
-> **[Bru](/player-characters/bru):** "We hung out plenty of times outside of crime!" *(defending their friendship to Theirsander)*
+> **[Bru](/player-characters/bru):** "We hung out plenty of times outside of crime!" *(defending their friendship to Sander)*
 
-> **Theirsander:** "Y'all were the best friends I'll ever have. Nothing bonds you like a heist mission."
+> **Sander:** "Y'all were the best friends I'll ever have. Nothing bonds you like a heist mission."
 
 > **[Ohma](/player-characters/ohma):** "I find that I must make a choice between saving everything or sticking to my own principles. What am I if everything were to fall to darkness?"
 

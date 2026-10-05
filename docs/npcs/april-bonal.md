@@ -1,280 +1,39 @@
 ---
 title: April Bonal
-description: Chemist and missing persons case subject
-sidebar_position: 5
+description: Human socialite and escaped lab test subject who hid in the High Forge sewers, then looted the dwarven vaults and was steered into working with Chalk Rock
 ---
 
 # April Bonal
 
-*Human • Chemist • Underground Dweller*
+*Human • Socialite • Escaped Test Subject*
 
 ## Overview
 
-**April Bonal** is a human socialite from a wealthy chocolate trading family who went missing after attending a Doomfall concert. A talented chemist, she was captured and subjected to experiments before escaping to live in High Forge's underground sewer systems, where she continues her chemical research and provides sanctuary to others.
+**April Bonal** is a human socialite from a chocolate-trading family whose disappearance after a [Doomfall](/organizations/doomfall) concert became one of Detective [Chalk Rock](/npcs/chalk-rock)'s missing persons cases in [High Forge](/locations/high-forge). She had been held in the synthesis laboratory and escaped when [Silas](/player-characters/silas) blew the place up, then hid in an encampment beneath the city with Casey Bones and the tortle monk Bernardo. She was last seen after the fall of the Iron Claws (Session 37), when [Olivia](/player-characters/olivia) and [Elspeth](/player-characters/elspeth) talked her group out of throwing looted vault gold at crowds and into working with Chalk Rock on relief distribution. She has not appeared since.
 
 ## Background
 
-### Family and Wealth
-- **Family Business**: Chocolate trading empire
-- **Social Status**: Socialite with connections
-- **Resources**: Access to wealth and materials
-- **Last Name Recognition**: Bonal family known in High Forge
+- **Family:** A chocolate-trading family; recaps call her a socialite.
+- **Disappearance:** Last seen at a Doomfall concert months before Session 32. Her friends Snickers and Kit Kat were looking for her, and Chalk Rock linked her case to other missing people (Casey Bones, Bernardo, Montgomery Bell and Taylor Kyler Moore), all tied to the synthesis lab.
+- **Escape:** She was one of the test subjects in the synthesis lab and got out when Silas blew it up. She told the party she jumped out through the glass and had been lying low since.
 
-### Disappearance
-- **Last Seen**: Doomfall concert months before Session 32
-- **Missing Persons Case**: Investigated by Detective Chalk Rock
-- **Connected Disappearances**: Casey Bones, Bernardo, Montgomery Bell, Taylor Kyler Moore
-- **Friends**: Snickers and Kit Kat (looking for her)
+## The Sewer Encampment
 
-## Capture and Experiments
+The trail from Chalk Rock's case ran through Rattie's Pie Land, a pizza place Bernardo had taken over, and down a sewer grate in its kitchen. Below it April, Casey Bones and Bernardo, [Ohma](/player-characters/ohma)'s fellow monk, had set up camp. April told the party that the [ravers](/organizations/ravers) were being run by a raver called Kang One from a nightclub under the city, and she and Bernardo led the party through the sewers to it.
 
-### Synthesis Laboratory
-- **Abduction**: Taken from concert to experimental facility
-- **Test Subject**: Experimented on at synthesis lab
-- **Connected Cases**: Part of larger pattern of missing persons
-- **Lab Location**: Where party previously rescued test subjects
-- **Escape**: Successfully fled captivity
-
-### Effects of Experiments
-- Unknown what experiments were conducted
-- Physical/mental impacts unclear
-- Developed enhanced or altered abilities (speculation)
-- Survived experience to continue chemistry work
-
-## Underground Life (Sessions 33-35)
-
-### Sewer Encampment
-**Location**: Underground system beneath High Forge
-
-**Residents**:
-- **April Bonal** - Running chemistry operations
-- **Casey Bones** - Fellow escapee/underground dweller
-- **Bernardo** - Tortle monk (Ohma's fellow monk)
-- Later: Taco Cat party members
-
-**Facilities**:
-- Chemistry set for April's work
-- Living quarters
-- Kitchen/dining area
-- Hot tub (installed by Litu)
-- Street hockey practice area (Casey Bones)
-
-### Chemical Research
-
-**Focus**: Poison development and refinement
-- Trying to improve poison formulations
-- Testing on willing (?) subjects
-- Chemistry set always active
-- Continuous experimentation
-
-**The Bru Incident** (Session 35):
-- Bru tested April's poison
-- Nearly died multiple times from toxin
-- April watched with "scientific curiosity"
-- Insisted poison "should have killed him by now"
-- Remarkable resistance surprised her
-- Continued arguing with Bru about poison afterward
-
-## Personality
-
-### Scientific Mind
-- **Analytical**: Approaches problems methodically
-- **Curious**: Tests with scientific interest
-- **Persistent**: Continues refining formulas
-- **Detached**: Scientific observation over emotion
-- **Dedicated**: Maintains research despite circumstances
-
-### Social Interactions
-- **Argumentative**: Ongoing debates with Bru about poison
-- **Hospitable**: Provides safe haven for party
-- **Practical**: Accepts underground life pragmatically
-- **Connected**: Maintains relationships with other escapees
-
-### Survival Instinct
-- Escaped dangerous captivity
-- Adapted to underground living
-- Continues valuable work despite hardship
-- Created community with other survivors
-
-## Skills and Capabilities
-
-### Chemistry Expertise
-- **Poison Crafting**: Advanced toxin development
-- **Formula Refinement**: Iterative improvement process
-- **Analysis**: Understanding of chemical reactions
-- **Application**: Practical use of chemical knowledge
-
-### Resources
-- **Equipment**: Full chemistry set in sewers
-- **Materials**: Access to compounds and reagents
-- **Knowledge**: Extensive chemical education
-- **Funding**: Presumably family wealth accessible
-
-### Underground Skills
-- **Navigation**: Knows sewer systems
-- **Survival**: Thriving in harsh environment
-- **Community Building**: Created safe haven
-- **Adaptation**: Adjusted to new circumstances
+The party came back to rest at the encampment during the push against the Iron Claws. By then April had a chemistry set and a poison that she, Casey and Bernardo had meant to put in pizza for Kang One.
 
 ## Relationships
 
-### With Taco Cat
-**Bru**:
-- Ongoing argument about poison potency
-- Test subject for her toxins
-- "Bitter about nearly dying from testing her toxin"
-- Mutual antagonism with underlying respect
+- **[Bru](/player-characters/bru):** Rivals. Bru beat her at arm-wrestling, then drank her poison to prove it was weak. It nearly killed him, and she watched his saving throws, insisting it should have killed him already.
+- **Casey Bones:** Her companion in the encampment. The two share a tent.
+- **Bernardo:** Tortle monk from Ohma's order who runs Rattie's Pie Land and makes pizza for the group.
+- **[Chalk Rock](/npcs/chalk-rock):** Investigated her disappearance. Her group agreed in Session 37 to work with him on handing out the vault gold.
+- **[Silas](/player-characters/silas):** She recognizes him as the man who blew up the lab and freed her.
 
-**Party Generally**:
-- Provided safe haven (Sessions 33-35)
-- Allowed use of encampment
-- Hosted party during preparations
-- Tolerated their chaos
+## Session History
 
-### Underground Community
-**Casey Bones**:
-- Fellow missing person
-- Practices street hockey in encampment
-- Shares underground living space
-
-**Bernardo**:
-- Tortle monk running pizza operation
-- Ohma's fellow monk from same order
-- Follows leads about fallen moon goddess
-- Makes authentic pizza for community
-
-### Old Life
-**Snickers and Kit Kat**:
-- Friends searching for her
-- Encountered at The Little Hobble
-- Connection to above-ground life
-
-**Family**:
-- Chocolate trading empire
-- Status unclear if they know she's alive
-- Resources potentially still accessible
-
-## The Investigation (Session 32-33)
-
-### Chalk Rock's Case
-**Missing Persons Investigation**:
-- April listed as missing
-- Last seen at Doomfall concert
-- Friends reported disappearance
-- Connected to synthesis lab victims
-
-**Party's Discovery**:
-- Led to Rattie's Pie Land
-- Footprints to sewer grate
-- Found April in underground encampment
-- Resolved missing persons case (partially)
-
-### Reunions
-- Found alive in sewers
-- Living with other missing persons
-- Case "solved" but she remains underground
-- Chose not to return to surface life
-
-## Role in Story
-
-### Safe Haven Provider (Sessions 33-35)
-**Services to Party**:
-- Shelter during planning phases
-- Chemistry expertise available
-- Safe location from Iron Claws
-- Community atmosphere
-
-**Calm Before Storm**:
-- Session 35 specifically noted as rest location
-- Party prepared for Great Hall battle
-- Litu set up hot tub
-- Dinners and planning sessions
-
-### Comic Relief
-**The Poison Debates**:
-- Ongoing argument with Bru
-- Scientific curiosity about his resistance
-- Insistence her poison should be lethal
-- Bru's stubbornness vs. her formulations
-
-### Survivor Representative
-- Escaped experimentation
-- Built new life from trauma
-- Represents missing persons victims
-- Shows resilience and adaptation
-
-## Current Status (Post-Session 36)
-
-### Underground Life Continues
-- Presumably still in sewer encampment
-- Chemistry work ongoing
-- Community with Casey Bones and Bernardo
-- Safe from Iron Claws (now weakened)
-
-### Potential Changes
-- With Iron Claws defeated, could return to surface
-- May choose to remain underground
-- Chemistry skills valuable to new governance
-- Family reunion possible
-
-## Future Potential
-
-### Storylines
-- Reunion with family and old life
-- Chemistry expertise for party/resistance
-- Further development of poison work
-- Other missing persons investigation continuation
-
-### Skills Utilization
-- Alchemical support for party
-- Poison crafting for specific needs
-- Chemical knowledge for puzzles/obstacles
-- Resource connection through family wealth
-
-### Character Development
-- Processing trauma from experiments
-- Choosing between underground and surface life
-- Relationship with family
-- Purpose beyond survival
-
-## Significance
-
-### To Missing Persons Plot
-- Central figure in Chalk Rock's investigation
-- Connected to synthesis lab experiments
-- Represents victims of Iron Claws era
-- Shows aftermath of criminal experiments
-
-### To Party
-- Provides safe haven during critical period
-- Comic relief through Bru interactions
-- Resource and potential ally
-- Connection to High Forge's hidden world
-
-### To Themes
-- **Survival**: Thriving despite trauma
-- **Science**: Knowledge continues in any circumstance
-- **Community**: Found family underground
-- **Resilience**: Building new life from tragedy
-
-## Related Characters
-- [Chalk Rock](/npcs/chalk-rock) - Detective investigating her disappearance
-- [Bru](/player-characters/bru) - Test subject and antagonist
-- **Bernardo** - Underground community member, Ohma's fellow monk
-- **Casey Bones** - Fellow missing person
-- **Snickers and Kit Kat** - Friends from above-ground life
-
-## Related Locations
-- **Underground Encampment** - Current home
-- **Synthesis Laboratory** - Site of experiments
-- **The Little Hobble** - Where friends searched for her
-- **Rattie's Pie Land** - Entry to underground system
-
-## Key Sessions
-- **Session 32**: Missing persons case introduced
-- **Session 33**: Found in underground encampment, sewer exploration
-- **Session 35**: Provided safe haven, poison incident with Bru, chemistry ongoing
-
----
-
-*"My poison should have killed him by now. This is scientifically fascinating."* - April Bonal, watching Bru's constitution saves (Session 35)
+- **[Session 32](/sessions/session-32)** — Chalk Rock tells the party about her disappearance after a Doomfall concert and links it to the synthesis lab victims. Her friends Snickers and Kit Kat are looking for her.
+- **[Session 33](/sessions/session-33)** — The party follows her trail through Rattie's Pie Land into the sewers and finds her with Casey Bones and Bernardo. She explains her escape, names Kang One as the ravers' controller, and guides the party to his nightclub.
+- **[Session 35](/sessions/session-35)** — The party rests at her encampment. Bru beats her at arm-wrestling, then drinks her poison and nearly dies, while she insists it should already have killed him.
+- **[Session 37](/sessions/session-37)** — After Helja's fall, her group takes the Ford F-150, robs the dwarven vaults and throws gold at lunchtime crowds. Olivia and Elspeth persuade them to work with Chalk Rock on distributing it instead.

@@ -8,7 +8,7 @@ image: "/img/C4E32.webp"
 podcastlink: "https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4E32-September-5-e37skuu"
 ---
 
-**[🎧 Podcast Link](https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4E32-September-5-e37skuu) • *September 4, 2025***
+**[🎧 Podcast Link](https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4E32-September-5-e37skuu) • *September 5, 2025***
 
 ## Recap from Previous Session
 In the previous session, the party successfully executed their heist of the Blackstone vault beneath High Forge. They infiltrated the underground complex, overcame magical defenses and guardians, and made off with a massive haul of gold, jewelry, and most importantly, crucial intelligence about dragon tributes and cosmic threats. During their escape, they also acquired a luxury Bugatti from the garage. The session ended with the party having the location of the dragon tribute drop-off point and planning their next move to potentially turn the dragons against the Iron Claws who have been controlling High Forge.
@@ -70,9 +70,9 @@ Despite warnings about the mind-control effects, Helisanna performs at The Littl
 ### Cosmic Revelations and Dragon Lore
 
 The party learns crucial information about the cosmic conflict:
-- **Nuraxis** - Dragon god of cosmic tempests, paramour of Luna (the fallen moon goddess)
+- **Noraxis** - Dragon god of cosmic tempests, paramour of Luna (the fallen moon goddess)
 - **Astraenominoir** - Sister dragon of cosmic balance, imprisoned in the orb the party possesses
-- The dragons currently in High Forge serve Astraenominoir, not Nuraxis
+- The dragons currently in High Forge serve Astraenominoir, not Noraxis
 - Ancient dwarven prophecy warns of world-ending consequences if the imprisoned dragon awakens
 
 ## Character Development and Relationships

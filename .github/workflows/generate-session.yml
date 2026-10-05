@@ -92,6 +92,7 @@ jobs:
           # them stale on main, which failed the Stats & Build Check staleness
           # gate on every PR opened afterwards.
           git add docs/sessions/ docs/transcripts/ transcripts_raw/ \
+                  docs/npcs/ docs/locations/ docs/organizations/ docs/items/ \
                   data/campaign-state.md data/personality-cache/ \
                   data/session-stats.json data/session-stat-blocks.json \
                   static/data/session-stats.csv src/data/sessions.json

@@ -36,13 +36,13 @@ With the forest cleared away, Leliana can see the road to her family's cottage, 
 
 Inside is a memory: **Mom**, **Dad (Josiah)**, and Leliana's brother **Steven**, playing an electric guitar strung with steel and painted with a blue crescent moon. Mom is cooking roast beef stew, Steven's favorite. It is one of the last times the family was ever together, and Leliana has walked part of this path before — this is how she first became connected to Helisanna.
 
-The party's suspicion sharpens when they realize they all remember the shade damage identically, "a stone in our shoe," a shared reality-check that confirms the illusion. Leliana takes "Mom" aside, and Mom transforms: skin sagging away, hair curling to sticks, revealing an old green-skinned woman with blind crystal-white eyes and long nails. She is **Straenona**, the guide who leads travelers through the stops along the path.
+The party's suspicion sharpens as the memory itself hits Leliana for 8 psychic damage, and Olivia steadies her with a lay on hands. When Leliana tries to beg off dinner, "Mom" leads her aside into the sitting room and transforms: skin sagging away, hair curling to sticks, revealing an old green-skinned woman with blind crystal-white eyes and long nails. She is **Straenona**, the guide who leads travelers through the stops along the path.
 
 ### The Guide's Bargain
 
 Straenona explains the rules like a grim Ghost of Christmas Past. She takes wanderers from one painful memory to the next, but she will not enter the final one. Stray from the path and **the ghost dog** — a phantom she also calls "Eg" — will eat you or transform you. To keep it at bay, she gifts the party a **bone** the dogs won't cross for a while. At the end of the path lies a **Dead Forest** where everything has died, and the only way through is to bring a **new seed** to replant it.
 
-The party remembers they are carrying exactly that: a **World Tree seed** taken from an alternate-universe Scarlet's home. Olivia, ever practical, offers up sliced tomatoes, carrots, and PB&Js from her packed lunches. Food and curiosity buy Straenona's cooperation, and Leliana braces herself to keep walking. She should be far stronger this time through, having lived everything that comes after.
+The party remembers they are carrying exactly that: a **World Tree seed**, given to Bru by the dying world tree Matthew Broadtwig in [Interlude XI](/sessions/interlude-11). Olivia, ever practical, offers up sliced tomatoes, carrots, and PB&Js from her packed lunches. Food and curiosity buy Straenona's cooperation, and Leliana braces herself to keep walking. She should be far stronger this time through, having lived everything that comes after.
 
 ### Steven Joins the Army
 
@@ -68,9 +68,9 @@ The weapon comes into focus: a "moon laser" built on Steven's own fission-power 
 
 ### The Funeral on Her Birthday
 
-The next stop is the military cemetery, the day before Leliana walked into the library. She sits between her mother and father as an Eldoran cleric gives the sermon. Captain Steel reads the will: Steven leaves the **Blue Moon guitar** to his parents and everything else to his family. Josiah hands Leliana a **birthday card** — the same card the party found among the dead months ago. The funeral falls on her birthday.
+The next stop is the military cemetery, the day before Leliana walked into the library. She sits between her mother and father as an Eldoran cleric gives the sermon. Captain Steel reads the will, and Steven's **Blue Moon guitar** passes to Leliana, just as he promised it would. Josiah hands Leliana a **birthday card** — the same card the party found among the dead in the library only hours before. The funeral falls on her birthday.
 
-Leliana takes up the Blue Moon guitar, and this time it is real, with weight in her hands. Her memories are now complete, whole up to the day she stepped into the library. And in the back of the funeral, veiled and reading a newspaper, sits the phantom dog — revealed to be Straenona herself, a shapeshifter who was there all along.
+Leliana takes up the Blue Moon guitar, and this time it is real, with weight in her hands. Her memories are now complete, whole up to the day she stepped into the library. And in the back of the funeral, veiled and reading a newspaper, sits the phantom dog, watching them. As the scene dissolves, "Mom" dissolves with it, back into Straenona, who was there all along.
 
 Silas, who has spent months with both halves of her, offers Leliana the truest thing he can:
 
@@ -84,7 +84,7 @@ The scene collapses into the present. The party stands with Straenona at the edg
 
 > *"No, I just use blood magic and suckers who stick around. I harvest their goods."*
 
-The abandoned campsite holds skeletons in tents and leftover supplies. The party pays Straenona off with root vegetables and a "brown" slushie substance, tries to teach her to germinate tomatoes, and agrees to stop leaning on such a terrible guide. Silas catches sight of someone bolting from the camp into the trees and gives chase — carefully, without leaving the path.
+The abandoned campsite holds skeletons in tents and leftover supplies. The party pays Straenona off with root vegetables and a "brown" slushie substance, tries to teach her to germinate tomatoes, and agrees to stop leaning on such a terrible guide. Silas catches sight of someone bolting from the camp into the trees. Bru runs straight into the forest after them while Silas, holding to the one rule they were given, begs everyone not to leave the path.
 
 ### Ben Gunn
 
@@ -98,17 +98,17 @@ The runes are an ancient forest language older than Elvish or Gnomish, tied to b
 
 ### The World Tree
 
-After debating the World Seed against Olivia's tomato, the party plants the World Seed — with a potato tossed in for good measure. It erupts. Roots surge inward crackling with red lightning, and a massive World Tree rockets skyward. Silas spider-climbs, and the whole party — plus Ben Gunn and even Straenona (*"I see your suckers later,"* she says, grabbing a branch) — ride it up through the cloud cover and an earthen ceiling in the sky.
+After debating the World Seed against Olivia's tomato, the party plants them together — the World Seed, one of Olivia's cherry tomatoes, and a potato tossed in for good measure. It erupts. Roots surge inward crackling with red lightning, and a massive World Tree rockets skyward. Silas spider-climbs, and the whole party — plus Ben Gunn and even Straenona (*"I see your suckers later,"* she says, grabbing a branch) — ride it up through the cloud cover and an earthen ceiling in the sky.
+
+When the roots connected, the Dead Forest linked back to the birth of Helisanna — and Leliana finally understands. She and Helisanna are not two people, but two extremes of one person; she is both. Using her guitar, she can now switch between the Leliana and Helisanna personas at will — bard or warlock, one or the other, no blending yet. Becoming truly whole is a journey still ahead of her, but the guitar, her brother's last gift to her, is the key.
 
 > *"This is pretty metal."* — Leliana
-
-When the roots connected, the Dead Forest linked back to the birth of Helisanna — and Leliana finally understands. She and Helisanna are not two people, but two extremes of one person; she is both. Using her guitar, she can now switch between the Leliana and Helisanna personas at will — bard or warlock, one or the other, no blending yet. Becoming truly whole is a journey still ahead of her, but the guitar, a birthday gift built for exactly this, is the key.
 
 ### The Capital of Eldora
 
 The World Tree bursts up through a park in **Eldora's capital city**, and the party climbs out into a hyper-advanced world: hovercraft, drones, a space shuttle launching from the harbor, glowing lamp posts, shimmering shape-shifting fabrics, and citizens with cybernetic red-glowing eyes. Meanwhile, on the distant game-show feed, vines and tomato plants and a giant potato are erupting out of the library floor — the far end of the same seed.
 
-The city is powered by five giant floating crystals of iridescence arranged in a pentagon, one at the spaceport, beaming purple energy down to distributed pylons. Elspeth immediately scouts them as sabotage targets. The inner ring is affluent and mostly human; the outer worker rings are diverse, with dwarves running shops — but goblins are conspicuously absent from every work crew, and halflings, gnomes, and orcs serve as labor.
+The city is powered by five giant floating crystals of violescence arranged in a pentagon, one at the spaceport, beaming purple energy down to distributed pylons. Elspeth immediately scouts them as sabotage targets. The inner ring is affluent and mostly human; the outer worker rings are diverse, with dwarves running shops — but goblins are conspicuously absent from every work crew, and halflings, gnomes, and orcs serve as labor.
 
 The party disguises themselves to blend in: Silas as a human child, then a street urchin, with Leliana posing as a wealthy jogging mother and the others as nannies and children. Their old cover — winning Bradicus's contest — is void, since they never actually won it, so they'll need a new story and must stash their weapons and magic items in the portable hole to slip past the city's magic detectors. Their contact **Finnegan** points them to **George Cooper** ("Georgie Boy"), now embedded in the city guard, to be met at a bar on the outskirts called the **Sexy Peacock**, where soldiers gather after their shifts. The session ends as the party walks in the door.
 
@@ -116,7 +116,7 @@ The party disguises themselves to blend in: Silas as a human child, then a stree
 
 ## Notable Character Moments
 
-- **Leliana's whole journey** is the session. She walks back through her brother's enlistment, his murder, and his funeral on her own birthday, taking real psychic damage each step, and comes out the other end understanding that she and Helisanna were never two people. Luke's character carried the entire night, and the guitar in her hands at the end is the proof.
+- **Leliana's whole journey** is the session. She walks back through her brother's enlistment, his murder, and his funeral on her own birthday, taking real psychic damage as the memories return and as Steel tears out her heart, and comes out the other end understanding that she and Helisanna were never two people. Luke's character carried the entire night, and the guitar in her hands at the end is the proof.
 
 - **Silas choosing the person over the memory.** After watching both halves of her for months, he tells Leliana plainly that the rude, selfish Helisanna was a coping mechanism and that this — the whole version — is the one he prefers. It's the emotional anchor the whole memory-walk needed.
 
@@ -144,4 +144,4 @@ The party disguises themselves to blend in: Silas as a human child, then a stree
 
 ## Session MVP
 
-**Leliana** — This was her episode start to finish. She refused to skip her brother's death, took psychic damage reliving the lab and the funeral, retrieved the Blue Moon guitar with real weight in her hands, deciphered the ancient runes that marked the planting site, and walked out the far side finally understanding that she and Helisanna are the same person. The World Tree that broke the sky and delivered the party to Eldora's capital grew from the seed she chose to plant at the end of her own path.
+**Leliana** — This was her episode start to finish. She refused to skip her brother's death, took psychic damage reliving the cottage and the lab, retrieved the Blue Moon guitar with real weight in her hands, deciphered the ancient runes that marked the planting site, and walked out the far side finally understanding that she and Helisanna are the same person. The World Tree that broke the sky and delivered the party to Eldora's capital grew from the seed she chose to plant at the end of her own path.

@@ -51,7 +51,7 @@ podcastlink: ""
 - **[Olivia](/player-characters/olivia)**: Initially joining but ultimately staying with baby Julius
 - **[Elspeth](/player-characters/elspeth)**: Providing support and sneaking skills
 - **[Leliana](/player-characters/leliana)**: Former connection to Helisanna, now in a complicated situation
-- **[Scarlet]**: Coming along despite **[Silas](/player-characters/silas)'s** warnings not to get inspired by interdimensional travel
+- **[Scarlet](/npcs/scarlet)**: Coming along despite **[Silas](/player-characters/silas)'s** warnings not to get inspired by interdimensional travel
 - **[Ohma](/player-characters/ohma)**: Joining the infiltration team
 
 ## Arrival at the Lotus
@@ -105,9 +105,9 @@ In a hidden supply closet in the laundry room (the most boring, back-of-house lo
 The party analyzes the situation with insight checks:
 
 **High Rollers**:
-- **[Silas](/player-characters/silas)**: Natural 20 on insight
+- **[Silas](/player-characters/silas)**: 20 on insight
 - **[Bru](/player-characters/bru)**: 21 on insight
-- **[Scarlet]**: Shocking 28 on insight
+- **[Scarlet](/npcs/scarlet)**: Shocking 28 on insight
 
 **The Deduction**:
 - **Marvin**, while incompetent with potions, is actually quite knowledgeable about magic
@@ -115,7 +115,7 @@ The party analyzes the situation with insight checks:
   - Wouldn't fall under **Helisanna's** thrall
   - Is well-trained and reliable
   - Is a "good boy"
-- The party quickly deduces: **It's Fufu!**
+- **[Elspeth](/player-characters/elspeth)** gets there first: **It's Fufu!**
 
 **The Time Crunch**:
 - **David Blaine's** magic show starts in 10 minutes
@@ -129,14 +129,14 @@ The party analyzes the situation with insight checks:
 The party uses **Hats of Disguise** to appear as ravers and make their way to the theater:
 
 **First Attempt** (Performance checks):
-- **[Scarlet]**: 28 (extremely convincing)
+- **[Scarlet](/npcs/scarlet)**: 28 (extremely convincing)
 - **[Silas](/player-characters/silas)**: 26 (very convincing)
 - **[Bru](/player-characters/bru)**: 18 (solid performance)
 - **[Leliana](/player-characters/leliana)**: Low roll (struggling)
-- **[Ohma](/player-characters/ohma)**: Only toral in the casino, draws some attention but passes
+- **[Ohma](/player-characters/ohma)**: The only tortle in the casino, draws some attention but passes
 
 **Scarlet's Faux Pas**:
-- **[Scarlet]** sees **Fufu** backstage and exclaims "Holy shit, what is that thing?"
+- **[Scarlet](/npcs/scarlet)** sees **Fufu** backstage and exclaims "Holy shit, what is that thing?"
 - **[Silas](/player-characters/silas)** scolds her: "Were you raised in a barn? It's just Fufu, it's not that big a deal"
 - The party debates whether to use speak with animals or animal handling
 
@@ -153,8 +153,8 @@ The party uses **Hats of Disguise** to appear as ravers and make their way to th
 - **Fufu** runs off to his performance cue as the party celebrates
 
 **Quick Success**:
-- The entire infiltration takes less than 10 minutes
-- **Naomi** is impressed by their efficiency (she had prepared puzzles and challenges that weren't needed)
+- The party gets the key before **Fufu's** cue, well inside the 10 minutes before his act
+- When they report back, **Naomi** admits she should have called them weeks ago
 
 ## The Basement Journey
 
@@ -168,22 +168,30 @@ The party uses **Hats of Disguise** to appear as ravers and make their way to th
 - **[Silas](/player-characters/silas)** responds that he comes up with way better insults than that
 - **[Bru](/player-characters/bru)** just does heavy breathing into the mental link
 - **[Silas](/player-characters/silas)** eventually cuts **[Elspeth](/player-characters/elspeth)** off: "You abused the phone privileges and they've been revoked"
-- **[Scarlet]** tries to call people but no one responds
+- **[Scarlet](/npcs/scarlet)** tries to call people but no one responds
 
-### Second Disguise Run
+### Back to Naomi
 
-The party makes their way to the basement entrance with another round of performance checks:
+The party heads back through the lobby to **Naomi** with another round of performance checks:
 
 **Second Performance Results**:
 - **[Silas](/player-characters/silas)**: Another 26 (consistently convincing)
-- Most of the party does well
-- **[Leliana](/player-characters/leliana)** and **[Ohma](/player-characters/ohma)** use bardic inspiration after poor initial rolls
-- **[Scarlet]** trips and loses her hat, but the party forms a protective circle around her to shield her from ravers
+- **[Ohma](/player-characters/ohma)** rolls a total of one and burns his inspiration to get a 13
+- **[Scarlet](/npcs/scarlet)** trips, skins her knee and loses her hat, but the party forms a protective circle around her to shield her from the ravers
+- **[Leliana](/player-characters/leliana)** checks the knee (Medicine 16) and offers Cure Wounds, but **[Scarlet](/npcs/scarlet)** just wants a band-aid and refuses to be touched
 
 **Navigation**:
-- **Naomi** provides directions to use the key to access the basement elevator
-- The key grants security clearance to the restricted basement level
-- The party takes the elevator down to the secure area
+- **Naomi** explains that the key opens the basement elevator, grants security clearance to the restricted basement level, and unlocks the reset button
+- She warns that Marvin has tightened security since the last takeover
+
+### The Run to the Elevator
+
+**[Silas](/player-characters/silas)** goes back for **[Scarlet](/npcs/scarlet)'s** hat, but a raver has already taken it. Without a disguise, she plays blackout drunk while **[Ohma](/player-characters/ohma)** carries her over his shoulder:
+
+- The group's performance averages a dismal 8, and ravers and employees start eyeing them suspiciously
+- **[Leliana](/player-characters/leliana)** peels away and plays an unplugged, acoustic version of one of **[Helisanna](/player-characters/helisanna)'s** most popular songs (Performance 30), drawing the crowd to her
+- Once her cover is done, she vanishes in a shower of flowers and turns invisible, and **[Silas](/player-characters/silas)** points down the hall: "She went that way!" (Deception 21). The ravers chase the music
+- The party swipes the key card and takes the elevator down, to an elevator-music version of one of **[Helisanna](/player-characters/helisanna)'s** songs
 
 ## The Basement Puzzle Chambers
 
@@ -209,17 +217,17 @@ The elevator opens into a dimly lit stone chamber with a single door at the far 
 The party enters a stone room with a door bearing text in Common: "Do not knock the door" (with "knock" capitalized).
 
 **Initial Confusion**:
-- **[Scarlet]** tries to simply open the door and takes 3 bludgeoning damage from a golden magical force that punches her back
+- **[Scarlet](/npcs/scarlet)** tries to simply open the door and takes 3 bludgeoning damage from a golden magical force that punches her back
 - **[Ohma](/player-characters/ohma)** flexes and tries to force the door open, taking 2 bludgeoning damage from another punch
 - **[Elspeth](/player-characters/elspeth)** uses mage hand to caress/knock the door - it takes damage and dissipates
-- **[Scarlet]** casts detect magic and determines it's abjuration (protection) magic
+- **[Scarlet](/npcs/scarlet)** casts detect magic and determines it's abjuration (protection) magic
 - The party debates getting the water bowl from the previous room, trying knock-knock jokes, and whether "knock" is some kind of magical spell
 
 **Scarlet's Book Problem**:
-- Throughout the puzzle, **[Scarlet]** keeps pulling out books: "100 Riddles and Puzzles," a book about water bowls, "Alexandra's Favorite Stone Room Book"
+- Throughout the puzzle, **[Scarlet](/npcs/scarlet)** keeps pulling out books: "100 Riddles and Puzzles," a book about water bowls, "Alexandra's Favorite Stone Room Book"
 - **[Bru](/player-characters/bru)** and **[Silas](/player-characters/silas)** keep slapping books out of her hands
 - "This is where book burning starts"
-- **[Scarlet]** reveals she has a bag of holding filled with books (accidentally established as canon by DM Ellis)
+- **[Scarlet](/npcs/scarlet)** reveals she has a bag of holding filled with books (accidentally established as canon by DM Ellis)
 
 **The Breakthrough**:
 - **[Silas](/player-characters/silas)** rolls a 29 on insight
@@ -237,7 +245,7 @@ The party enters a stone room with a door bearing text in Common: "Do not knock 
 This room contains a door with no handle. Pictograms cover the walls showing a figure using hand signs to communicate a message.
 
 **Investigation**:
-- **[Scarlet]** rolls 25 on investigation
+- **[Scarlet](/npcs/scarlet)** rolls 25 on investigation
 - **[Silas](/player-characters/silas)** rolls 29 on insight (continuing his hot streak)
 - The images depict someone using sign language, but most of the party can't read it
 
@@ -247,86 +255,59 @@ This room contains a door with no handle. Pictograms cover the walls showing a f
 - The party tries walking back through the previous door, but it simply closes behind them
 - They realize they need to walk *backwards* through the next door
 - **[Silas](/player-characters/silas)** walks backward through the door and disappears, teleporting to the next room
-- **[Ohma](/player-characters/ohma)** doesn't walk backward well due to his shell, so he does a backwards jumping "cowabunga" through the door, nearly crashing into **[Silas](/player-characters/silas)** (who makes a DC 22 Dexterity save to dodge)
-- **[Bru](/player-characters/bru)** climbs onto **[Elspeth](/player-characters/elspeth)**, and when **[Scarlet]** walks through backward, **[Bru](/player-characters/bru)** "accidentally" puts his hands on her rear, leading to jokes about **[Scarlet]** having books on "goblin love"
+- **[Ohma](/player-characters/ohma)** doesn't walk backward well due to his shell, so he does a backwards jumping "cowabunga" through the door, nearly crashing into **[Silas](/player-characters/silas)** (who rolls a 22 on his Dexterity save to dodge)
+- **[Bru](/player-characters/bru)** climbs onto **[Elspeth](/player-characters/elspeth)**, and when **[Scarlet](/npcs/scarlet)** walks through backward, **[Bru](/player-characters/bru)** "accidentally" puts his hands on her rear, leading to jokes about **[Scarlet](/npcs/scarlet)** having books on "goblin love"
 
 ### Chamber 4: The Crushing Ceiling
 
 The final chamber is sunken down (like a conversation pit) with a lever next to a door with no handle on the far side.
 
 **The Trap**:
-- **[Scarlet]** (having the lowest HP at 26/29) volunteers to pull the lever
+- **[Scarlet](/npcs/scarlet)** (having the lowest HP at 26/29) volunteers to pull the lever
 - The ceiling begins slowly descending to crush the party
 - Pushing the lever back makes it stop and retract to its original position
 - There's no other interactable object in the room
 
 **Failed Attempts**:
-- The party tries opening the door while holding the lever down - nothing happens
+- The party tries opening the handleless door - nothing happens
 - They consider lying flat under where the previous door was to avoid being crushed
-- They debate running back through the door they came through after pulling the lever
-- **[Scarlet]** lays down in the "conversation pit" and pulls the lever
+- **[Scarlet](/npcs/scarlet)** tests the way out: going back forwards through the door doesn't work, but backwards does, and when she lies down to try it she falls backwards into the "conversation pit"
 
 **The Solution**:
-- The party realizes they need to let the ceiling come all the way down
-- It's not actually crushing them - it's lowering the entire floor/room to the next level
-- They pull the lever and wait as the room descends
-- When it stops, they're at the basement level with the reset chamber
+- **[Scarlet](/npcs/scarlet)** pulls the lever again, and the whole party hops backwards through the door into the previous room
+- They hear rock sliding against rock, then a boom
+- When they walk back in (backwards), the room has changed: in its middle stands a pedestal with a slot for the key card
 
-## The Reset Room
+## The Reset Button
 
-**Naomi** explains the reset mechanism as they enter the final chamber:
+**[Silas](/player-characters/silas)** slots the key card into the pedestal, and a button pops up.
 
-**The Reset Mechanism**:
-- A large circular chamber with crystalline walls
-- In the center: a pedestal with a slot for the key card
-- Magical runes covering the floor in concentric circles
-- A large lever next to the pedestal
+**A Parting Gift**:
+- Before heading down, **[Silas](/player-characters/silas)** had given **Naomi** a necklace and **Julius** a ring, both taken from the dwarven vaults in **High Forge** (probably carrying some dwarven family insignia)
 
-**Naomi's Explanation**:
-- Inserting the key and pulling the lever will activate the reset
-- Everyone not an official employee will be sent back to where they teleported from
-- The casino will relocate in space/time and be inaccessible for an unknown period
-- **Naomi** and the baby will be stuck until the magic resets and stabilizes
-
-### The Emotional Farewell
-
-**[Silas](/player-characters/silas)** has a moment with **Naomi** before activating the reset:
-
-**The Conversation**:
-- **[Silas](/player-characters/silas)**: "So we're going to be cut off from each other for who knows how long?"
-- **Naomi**: "I know, honey bear. But this is the only way to save the casino and get Julius some sleep"
-- They discuss trying to establish communication while she's trapped
-- **[Silas](/player-characters/silas)** promises to find a way to stay in touch
-- **Naomi** confirms she'll use the separation to focus on baby care and recovery
-
-**Final Warnings**:
-- **[Silas](/player-characters/silas)** to **[Scarlet]**: "Promise you won't be inspired by anything related to interdimensional travel"
-- **[Scarlet]**: "What? Why would I not be inspired by interdimensional travel?"
-- The party debates whether to drop **[Helisanna](/player-characters/helisanna)** in the ocean when she gets sent back
-- **[Leliana](/player-characters/leliana)** argues they should try to save **Helisanna** since she's still technically an ally
-- **[Elspeth](/player-characters/elspeth)** notes she worked really hard on **Helisanna's** outfits and doesn't want that to go to waste
+**The Helisanna Question**:
+The debate over **[Helisanna](/player-characters/helisanna)** had come up back in the laundry-room meeting:
+- **[Leliana](/player-characters/leliana)** pointed out that the reset would just send **[Helisanna](/player-characters/helisanna)** back where they had tried to drive her away from
+- **[Scarlet](/npcs/scarlet)** suggested dropping her in the ocean (or on the moon)
+- **[Leliana](/player-characters/leliana)** allowed that she is "kind of" like a sister, and she did save them
+- **[Elspeth](/player-characters/elspeth)** asked whether she is still their friend, and noted she worked really hard on **[Helisanna](/player-characters/helisanna)'s** outfits and doesn't want that to go to waste
+- **Naomi** was blunt: the button just sends everyone home, and **[Helisanna](/player-characters/helisanna)** is "y'all's problem"
+- She also warned that after the reset the casino is cut off for a long time, with no way to know how long until the magic stabilizes
 
 ## Activating the Reset
 
-**[Silas](/player-characters/silas)** inserts the key card into the slot and pulls the lever:
+**[Silas](/player-characters/silas)** hits the button:
 
 **The Reset Effect**:
-- Magical energy swirls around the room
-- The runes on the floor light up in sequence
-- A countdown timer appears in the air: 60 seconds
-- Throughout the casino, magical pulses ripple outward
-- Ravers begin disappearing in flashes of light, sent back to **High Forge**
-- **[Helisanna](/player-characters/helisanna)** and her entire entourage vanish mid-concert
-- The halfpipe, graffiti, and destruction begin magically cleaning and repairing
-- **Marvin** reappears in his office, confused but unharmed
+- The world starts vibrating, resonating down to the party's molecules
+- Visible strings of light vibrate beside each party member, and their faces repeat over and over across the visible spectrum and beyond
+- Then, poof: the party is back in **[Olivia](/player-characters/olivia)'s** apartment in **High Forge**, and **[Olivia](/player-characters/olivia)** teleported home with them
 
-**The Party's Departure**:
-- The party members begin glowing as the teleportation magic affects them
-- **[Silas](/player-characters/silas)** blows a kiss to **Naomi**
-- **Naomi**: "I'll see you soon, sugar bear"
-- Flash of light, and the party is back in **[Olivia](/player-characters/olivia)'s** apartment in **High Forge**
-- **[Helisanna](/player-characters/helisanna)** and all the ravers are back in **High Forge**, confused
-- **Pepsi** is happy to see everyone return
+**The Aftermath**:
+- Everyone is sent back to where they came from. **[Helisanna](/player-characters/helisanna)**, who seems to have gone alone, is back at the concert venue she originally left from
+- Anyone she turned into a raver at the **Lotus** has been sent home and wiped clean by the casino's magic
+- Waiting on the counter for **[Silas](/player-characters/silas)** is a special sending stone with a note from **Naomi**: "Call me maybe." He messages her that they hit the button and asks her to let him know when she's off work
+- Soon after, the party hears a dragon roar as **[Helisanna](/player-characters/helisanna)** flies off. Future Silas and future Bru can deal with that
 
 ## Character Moments
 
@@ -348,25 +329,24 @@ The session highlights **[Silas](/player-characters/silas)'s** softer side throu
 ### Scarlet's Gambling Problem
 
 Continuing the trend of **Christopher's** characters being gamblers:
-- **[Scarlet]** wants to learn about the casino to place bets on motorsports
-- Debates gambling with **[Bru](/player-characters/bru)** about **[Olivia](/player-characters/olivia)'s** racing
+- **[Scarlet](/npcs/scarlet)** wants to learn about the casino to place bets on motorsports
+- Debates gambling with **[Bru](/player-characters/bru)** about **[Elspeth](/player-characters/elspeth)'s** racing
 - Gets called out for creating characters with gambling addictions
 
-### Olivia's Racing Controversy
+### Elspeth's Racing Controversy
 
-The party discusses **[Olivia](/player-characters/olivia)'s** past "cheating scandal":
-- **[Olivia](/player-characters/olivia)** vehemently denies ever cheating: "I've never cheated a day in my life"
+The party discusses **[Elspeth](/player-characters/elspeth)'s** past "cheating scandal":
+- **[Elspeth](/player-characters/elspeth)** vehemently denies ever cheating: "I've never cheated a day in my life"
 - **[Bru](/player-characters/bru)** notes she's "never once not cheated"
-- **[Scarlet]** reveals **[Olivia](/player-characters/olivia)** is the "only high-profile racer with a cheating scandal"
-- **[Olivia](/player-characters/olivia)** insists she was framed and threatens violence over the accusations
+- **[Scarlet](/npcs/scarlet)** reveals **[Elspeth](/player-characters/elspeth)** is the only high-profile racer she knows of with a cheating scandal
+- **[Elspeth](/player-characters/elspeth)** insists she was framed and threatens violence over the accusations, and **[Olivia](/player-characters/olivia)** backs her up
 
 ### Leliana's Complicated Relationship with Helisanna
 
 **[Leliana](/player-characters/leliana)** struggles with her connection to **[Helisanna](/player-characters/helisanna)**:
-- Refers to her as "kind of like a sister"
+- Agrees she is "kind of" like a sister
 - Notes that **[Helisanna](/player-characters/helisanna)** did save them in the past
-- Advocates for trying to save her rather than just ejecting her
-- Questions whether **[Helisanna](/player-characters/helisanna)** is still their friend
+- Points out that the reset just sends her back to where they had tried to drive her away from
 
 ### The Kevin and Elspeth Bond
 
@@ -380,9 +360,14 @@ The party discusses **[Olivia](/player-characters/olivia)'s** past "cheating sca
 
 ### The Golden Key Card
 
-- Successfully used to activate the casino reset
-- One-time use item that likely dissolved after activation
+- Found as a golden tag with a picture of a key on **Fufu's** collar
+- Opens the basement elevator's security level and unlocks the reset button
 - Proof of **Marvin's** trust in **Fufu**
+
+### Naomi's Sending Stone
+
+- Left for **[Silas](/player-characters/silas)** in **[Olivia](/player-characters/olivia)'s** apartment with the note "Call me maybe"
+- Keeps him in touch with **Naomi** while the **Lotus** is cut off
 
 ### Pepsi's Development
 
@@ -399,16 +384,16 @@ The party discusses **[Olivia](/player-characters/olivia)'s** past "cheating sca
 ## Ongoing Plot Threads
 
 1. **The Lotus Casino Offline**: The casino is now inaccessible for an unknown period, cutting off access to **Naomi**, **Marvin**, and the resistance
-2. **Helisanna's Return**: She's back in **High Forge** with all her ravers, potentially creating new chaos
-3. **Communication Challenge**: **[Silas](/player-characters/silas)** wants to find a way to stay in touch with **Naomi** during the casino's downtime
-4. **Scarlet's Dimensional Curiosity**: Despite warnings, **[Scarlet]** remains interested in interdimensional travel technology
+2. **Helisanna's Return**: She's back in **High Forge** and has flown off on her dragon, potentially creating new chaos
+3. **Communication Challenge**: **Naomi's** sending stone keeps **[Silas](/player-characters/silas)** in touch with her during the casino's downtime
+4. **Scarlet's Dimensional Curiosity**: Despite warnings, **[Scarlet](/npcs/scarlet)** remains interested in interdimensional travel. She admits her father wasn't around, which drove her to explore other dimensions to find him
 5. **Naomi's Career**: She mentioned being on an "upper management track" and organizing the resistance - this crisis may accelerate her promotion
 6. **David Blaine and Fufu**: The magic show duo's dynamic and **Fufu's** treatment as **Marvin's** most trusted employee
 7. **Julius's Wellbeing**: **Naomi's** baby son needed the chaos to end to get proper sleep
 
 ## Session Conclusion
 
-This interlude provided a lighter, more comedic adventure with clever puzzle-solving and character moments. The party solved the basement trials much faster than the DM anticipated (who had prepared additional puzzles), demonstrating their growing problem-solving skills. **[Silas](/player-characters/silas)'s** relationship with **Naomi** added emotional weight to the otherwise humorous session, while **[Scarlet]'s** book obsession and the psychic phone antics kept things entertaining.
+This interlude provided a lighter, more comedic adventure with clever puzzle-solving and character moments. The party moved much faster than the DM anticipated (she had considered cutting a puzzle because she expected them to take longer), demonstrating their growing problem-solving skills. **[Silas](/player-characters/silas)'s** relationship with **Naomi** added emotional weight to the otherwise humorous session, while **[Scarlet](/npcs/scarlet)'s** book obsession and the psychic phone antics kept things entertaining.
 
 The session successfully balanced humor with genuine character development and sets up future complications with the **Lotus Casino** offline and **[Helisanna](/player-characters/helisanna)** returning to **High Forge**.
 

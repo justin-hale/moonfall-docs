@@ -1,355 +1,65 @@
 ---
 title: Greyport
-description: Coastal city and site of tragedy
-sidebar_position: 4
+description: East-coast port city and main city of the Free Republic; the party's base in Sessions 38–54, where Luna was restored and a new moon rose
 ---
 
 # Greyport
 
-*Coastal City • Site of Massacre • Silas's Past*
+*Main City of the Free Republic • City of the Steve Squad • Where Luna Fell*
 
 ## Overview
 
-**Greyport** is a coastal city that holds deep significance for Silas Whitlock and the broader campaign, as it was the site where [Helja Ungar](/npcs/helja-ungar) massacred Silas's entire crew, setting in motion his vendetta against the Iron Claws and establishing Helja's reputation for brutal violence.
+**Greyport** is an overcast port city on the east side of the continent and the main city of the Free Republic — the "free states," mostly islands in the shattered oceans, that still resist the [Eldoran Empire](/organizations/eldoran-empire). It is the last human city in the region the Empire has not taken, and until recently most of its people assumed they would be absorbed eventually.
 
-## Geography
+Greyport is where [Silas](/player-characters/silas) and [Bru](/player-characters/bru)'s old crew was massacred and where [Elspeth](/player-characters/elspeth)'s racing career was ended by a frame-up, both shown in flashback interludes. The party arrived in [Session 38](/sessions/session-38) and made the city their base through [Session 54](/sessions/session-54): they rebound the dragon orb at the crash site offshore, restored the moon goddess [Luna](/npcs/luna), and — with Leliana's concert in Session 53 — hung a new moon in the sky over the city. By the time the party left for the Eldoran capital, people in Greyport were talking openly about resisting the Empire.
 
-### Coastal Location
-- Port city with ocean access
-- Connected to other cities via trade routes
-- Access to [Gold Road](/locations/gold-road) system
-- Strategic location for maritime trade
-- Distance from High Forge (travel time unspecified)
+## The City
 
-### Urban Layout
-**Port City Features**:
-- Docks and harbor facilities
-- Maritime commerce districts
-- Residential neighborhoods
-- Taverns and establishments frequented by crews
-- Criminal underworld presence
+- **Setting:** Grey, overcast skies most of the year; a river runs through the city, which has outgrown its medieval walls and now has skyscrapers (Session 38).
+- **Legacy of the Steve Squad:** Greyport honors the Steve Squad, the heroes of roughly two hundred years ago. Statues of them — with Steve the dire wolf, disproportionately large, in sunglasses at the center — stand over the main city gate (Session 38).
+- **Style:** Gentrified around its university and waterfront, with an aesthetic the DM called "disco punk" (Session 38); the older dock district beyond the trendy cafes is blue-collar (Session 44).
 
-## The Massacre
+## Landmarks
 
-### Silas's Crew
-**Before the Tragedy**:
-- Silas led a crew (details limited)
-- Criminal activities (implied)
-- Based in or operating from Greyport
-- Established relationships and operations
-- Normal criminal enterprise
+- **Greyport Zoo** — Founded by the Steve Squad's Dane as a small petting zoo and now a vast attraction, with a bronze statue of Dane and Steve at the gate, an owlbear exhibit and Fufu the chimera (Sessions 38, 43). [Victor](/npcs/victor)'s lab lies in the sewers beneath the chimera enclosure, and beyond it a headquarters of the [Twilight Company](/organizations/twilight-company); the Company's front building near the zoo operates as "Richard Jones Investments" (Sessions 43, 47). The Company lent the party a three-story brownstone safe house across the drive from the zoo.
+- **The Dragon's Hide** — An inn with an adult dragon skeleton on its roof, headquarters of the [Order of St. George](/organizations/order-of-st-george), with the Order's working rooms in the basement (Session 39).
+- **Caspian Center** — A religious campus dedicated to the Winter King, named for the Steve Squad's Caspian, with a chapel, a humanities center and a pizza place on the quad (Session 38). Thugs set it on fire in Session 44; Iro put the fire out with a thunderstorm.
+- **Fluke's Workshop** — [Iro](/npcs/iro)'s free, open crafting workshop in the old dock district, keeping his father Fluke's steamboat, the *Iron Maiden*, and a memorial wall to the Steve Squad. Scarlet's pocket village was completed in its catalytic chamber (Sessions 44–45).
+- **Gaines Bruery, Bakery and Bankery** — [Jasper](/player-characters/jasper)'s business. Its main-street bakery exploded as the party arrived (Session 39); the port-side brewery sits beside an old church and an orphanage, which Jasper runs (Sessions 47–48). It hosted the benefit concert of Session 53.
+- **The Cog & Steam** — The Sisyphus Circle's favorite bar, overlooking the zoo (Interlude XIII); now held by the Iron Claws (Session 53).
+- **Greyport Speedway** — Scene of the race where Elspeth was framed (Interludes XIV–XV).
+- **The Checkered Rest** — A restaurant near Jasper's bakery, owned by Dolly (Session 48).
+- **Denlin's orphanage** — A converted factory where Denlin had children refine violescence and was transforming children in vats into copies of Elspeth (Sessions 48–50).
+- **Razlemania arena** — A wrestling arena on its own island off the coast (Session 51).
+- **The Lenny T Museum** — An old opera house being renovated as a performance venue and memorial to a famous bard (Session 38).
 
-### Helja's Attack
-**The Violent Takeover**:
-- Helja Ungar killed Silas's entire crew
-- Brutal demonstration of power
-- Message to other criminal organizations
-- Established Helja's reputation for violence
-- Personal vendetta created with Silas
+## Luna Trench
 
-**Victims**:
-- Silas's entire crew murdered
-- Only Silas survived or escaped
-- Names and details of crew members unknown
-- Losses that drove Silas's revenge
+Just off Greyport's coast lies the site where Luna fell when the Eldoran weapon struck her: a ring in the sea where the water simply ends, with a dry ocean floor some 300 feet below and Luna's 400-foot glowing skeleton lying across it. The site is an ancient holy place — a "rift site" to the Aquans who once lived there, a "place of balancing" to the dwarves — that softened Luna's landing (Sessions 40–41). The party performed the rebinding ritual on the dragon orb beside her skull in Session 41, and in Session 52 drove off an Eldoran operation chaining her remains, packing her chest with stolen violescence until she returned in the flesh. The party named the site "Luna Trench" (Session 52).
 
-### Aftermath
-**Impact on Silas**:
-- Sole survivor of massacre
-- Deep personal loss and trauma
-- Vendetta against Helja and Iron Claws
-- Motivation for joining resistance
-- Drove his actions throughout campaign
+## Greyport and the Party's Pasts
 
-## Silas's Connection
+**Silas and Bru.** Years ago their crew, the [Sisyphus Circle](/organizations/sisyphus-circle), robbed the Pandora gang's vault in Greyport of the dragon orb for a client who turned out to be [Helja Ungar](/npcs/helja-ungar). At the drop in Blackwell Memorial Park she had the crew gunned down; Silas and Bru escaped through the storm drains with the orb (Interlude XIII). One crew member, Sander, survived and was working at Jasper's bakery when the party arrived (Session 39). The [Iron Claws](/organizations/iron-claws) still hold the crew's old neighborhood (Session 40), and Helja's mother has taken back the boss's seat since Helja's death (Session 53).
 
-### Before the Massacre
-**Criminal Life**:
-- Led crew in Greyport area
-- Established criminal operations
-- Built relationships with crew
-- Life before Taco Cat
-- Identity as crew leader
+**Elspeth.** At the Greyport Speedway finale, rival racers conspired to disgrace her on the orders of the circuit board, and her brother Zachary switched her registered racing crystal for an unregistered one, ending her twenty-year career (Interludes XIV–XV). Back in Greyport she found [Belspeth Booper](/npcs/belspeth-booper) racing under a copy of her name for the orphanage owner Denlin, exposed his child-labor violescence operation, punched Zachary at his garage, and won Denlin's race in Denlin's own car (Sessions 45–50).
 
-### After the Massacre
-**Changed Man**:
-- Loss of crew and friends
-- Fugitive from Iron Claws
-- Eventually joined Taco Cat
-- Revenge as driving motivation
-- Journey from criminal to hero
+## Session History
 
-### Revenge Completed (Session 36)
-**Full Circle**:
-- Silas killed Helja Ungar at Great Hall
-- Avenged his murdered crew
-- Decade-long vendetta concluded
-- Personal closure achieved
-- Greyport victims finally avenged
-
-## Iron Claws Presence
-
-### Criminal Operations
-**Port City Control**:
-- Iron Claws presence in Greyport
-- Criminal enterprises established
-- Violence used to control territory
-- Massacre as power demonstration
-- Part of broader Iron Claws network
-
-### Helja's Power Base
-**Before High Forge Takeover**:
-- Established reputation in Greyport
-- Massacre demonstrated ruthlessness
-- Built fear-based control
-- Launched broader criminal empire
-- Greyport as stepping stone to High Forge
-
-## Maritime Context
-
-### Port Operations
-**Coastal Trade**:
-- Maritime commerce hub
-- Ships and cargo handling
-- Sailor and merchant population
-- Connections to other coastal cities
-- Trade route nexus
-
-### Criminal Opportunities
-**Smuggling and Crime**:
-- Port city criminal activities
-- Smuggling operations
-- Black market goods
-- Crew-based criminal enterprises
-- Competition between gangs
-
-## Cultural Atmosphere
-
-### Port City Character
-**Maritime Culture**:
-- Sailor and dockworker communities
-- Taverns and entertainment for crews
-- Transient population
-- Rough and tumble reputation
-- Working-class coastal identity
-
-### Criminal Underworld
-**Before/During Iron Claws**:
-- Multiple criminal organizations
-- Competition for territory
-- Violence and intimidation
-- Helja's massacre as turning point
-- Fear-based control established
-
-## Current Status
-
-### Post-Iron Claws Era (After Session 36)
-**Unknown Present State**:
-- Iron Claws defeated in High Forge
-- Greyport's current situation unclear
-- Are Iron Claws remnants still operating?
-- Local criminals filling power vacuum?
-- Recovery from Iron Claws control?
-
-### Legacy of Massacre
-**Long-term Impact**:
-- Remembered as site of brutal violence
-- Warning to other criminals
-- Silas's crew victims memorialized by revenge
-- Part of Iron Claws legend
-- Historical significance in campaign
-
-## Strategic Importance
-
-### To Iron Claws
-**Territorial Control**:
-- Port access valuable
-- Criminal operations hub
-- Power base for expansion
-- Example made through massacre
-- Strategic location for smuggling
-
-### To Silas
-**Personal Significance**:
-- Where crew was murdered
-- Source of trauma and motivation
-- Drive for revenge originated here
-- Identity shaped by events here
-- Cannot return without pain
-
-## Notable Events
-
-### The Massacre (Pre-Campaign)
-**Defining Moment**:
-- Helja killed Silas's entire crew
-- Brutal and total elimination
-- No survivors except Silas
-- Established Helja's reputation
-- Set Silas's path in motion
-
-### Silas's Survival
-**Escape or Absence**:
-- How did Silas survive? (Unknown)
-- Was he absent during attack?
-- Did he fight and escape?
-- Guilt over survival?
-- Mystery of his survival
-
-### Revenge (Session 36)
-**Closure**:
-- Years later, Silas kills Helja
-- Crew finally avenged
-- Greyport's victims honored
-- Justice for massacre
-- Personal story arc completed
-
-## Connections to Campaign
-
-### Silas's Character Arc
-**Origin of Motivation**:
-- Greyport massacre shaped him
-- Revenge drove his actions
-- From criminal to hero through loss
-- Personal stakes in Iron Claws conflict
-- Identity tied to this tragedy
-
-### Iron Claws Rise
-**Establishment of Power**:
-- Massacre demonstrated Helja's methods
-- Fear-based control model
-- Expansion to High Forge followed
-- Pattern of brutal violence
-- Origin point of threat
-
-## Potential Locations
-
-### Unknown Specific Sites
-**Massacre Location**:
-- Where crew was killed (dock? hideout? ambush?)
-- Specific site unknown
-- Possible memorial or haunting location
-- Significant to Silas personally
-
-**Crew's Haunts**:
-- Taverns they frequented
-- Criminal hideouts used
-- Operations bases
-- Places Silas cannot return to
-
-## Comparison to High Forge
-
-### Similar Patterns
-**Iron Claws Methodology**:
-- Violence to establish control
-- Criminal takeover of city
-- Fear and intimidation tactics
-- Greyport as blueprint for High Forge
-- Repeated pattern of conquest
-
-### Different Outcomes
-**Greyport vs. High Forge**:
-- Greyport: Massacre successful, control established
-- High Forge: Resistance formed, eventually defeated
-- Learning from Greyport's fall
-- High Forge citizens fought back
-- Different endings to similar stories
-
-## Thematic Significance
-
-### Revenge and Justice
-**Central Themes**:
-- Personal vengeance vs. heroism
-- Justice delayed but achieved
-- Cost of revenge on soul
-- Honoring the dead through action
-- Closure and healing
-
-### Loss and Trauma
-**Psychological Impact**:
-- How loss shapes character
-- Trauma as motivation
-- Survivor's guilt
-- Moving forward while remembering
-- Defining moments that change lives
-
-## Future Possibilities
-
-### Potential Storylines
-**Return to Greyport**:
-- Silas returning after Helja's death
-- Memorial for fallen crew
-- Confronting past and trauma
-- Claiming peace after revenge
-- New chapter in Greyport
-
-**Iron Claws Remnants**:
-- Remaining gang members in Greyport
-- Local criminal power vacuum
-- Silas's reputation there now
-- Potential new threats
-- Ongoing consequences
-
-## Related Characters
-- [Silas Whitlock](/player-characters/silas) - Survivor, revenge seeker
-- [Helja Ungar](/npcs/helja-ungar) - Perpetrator of massacre (deceased Session 36)
-- **Silas's Crew** - Murdered victims (names unknown)
-- **Local Iron Claws** - Participated in or knew of massacre
-
-## Related Organizations
-- [Iron Claws](/organizations/iron-claws) - Perpetrators
-- [Taco Cat](/organizations/taco-cat) - Silas's new family
-- **Silas's Original Crew** - Victims (organization destroyed)
-
-## Related Locations
-- [High Forge](/locations/high-forge) - Where revenge was achieved
-- [Gold Road](/locations/gold-road) - Travel route connecting cities
-- **Coastal Trade Routes** - Maritime connections
-
-## Key Timeline
-- **Years Before Campaign**: Massacre occurs
-- **Campaign Start**: Silas motivated by revenge
-- **Session 24**: Helja takes control of High Forge (pattern repeats)
-- **Session 36**: Silas kills Helja, avenges Greyport victims
-
-## Mysteries
-
-### Unanswered Questions
-- How exactly did Silas survive the massacre?
-- What were the names of his crew members?
-- What was their specific criminal operation?
-- How many years ago did massacre occur?
-- Are there other survivors or witnesses?
-- What is Greyport's status after Iron Claws defeat?
-
-## Significance
-
-### To Campaign
-**Motivation Origin**:
-- Set Silas's path in motion
-- Personal stakes in Iron Claws conflict
-- Revenge as driving force
-- Connection to main antagonist
-- Resolution in Session 36
-
-### To Silas's Character
-**Defining Trauma**:
-- Loss that shaped him
-- Survivor of massacre
-- From criminal to hero
-- Revenge completed but at what cost?
-- Finding new purpose after vengeance
-
-### To Themes
-- **Revenge**: Its necessity and cost
-- **Loss**: How tragedy defines us
-- **Justice**: Personal vs. systemic
-- **Memory**: Honoring the dead
-- **Redemption**: From criminal past to heroic present
-
----
-
-*"Helja killed my entire crew in Greyport. Every single one of them. I'll never forget. I'll never forgive."* - Silas, explaining his vendetta
-
-*"For my crew. For Greyport. This ends now."* - Silas, confronting Helja (Session 36)
-
-*"The massacre in Greyport was where Helja made her name. It's where she showed everyone what she was capable of. It's where I lost everything."* - Silas's reflection
+- **[Interlude 13](/sessions/interlude-13)** — In flashback, the Sisyphus Circle robs the Pandora gang's Greyport vault of the dragon orb, and Helja massacres the crew at Blackwell Memorial Park; Silas and Bru escape with the orb.
+- **[Interlude 14](/sessions/interlude-14)** — In flashback, six rival racers plot to disgrace Elspeth during finale weekend at the Greyport Speedway.
+- **[Interlude 15](/sessions/interlude-15)** — The Greyport Speedway finale is run, and Elspeth is disgraced when officials find her brother's unregistered crystal in her car.
+- **[Session 38](/sessions/session-38)** — The party arrives in Greyport and sees the Steve Squad statues over the gate, the expanded zoo, the Lenny T Museum site and the Caspian Center.
+- **[Session 39](/sessions/session-39)** — Jasper's bakery explodes as the party reunites with Sander, and a rooftop chase after Iron Claws ends at the Dragon's Hide with the Order of St. George.
+- **[Session 40](/sessions/session-40)** — The party is briefed at the Dragon's Hide, learns the Order works with the Eldoran Empire, and sails from the Greyport docks for Luna's crash site.
+- **[Session 42](/sessions/session-42)** — The party limps back to Greyport harbor after the dragon fight at the crash site, to a crowd of dragon knights preparing a victory picnic.
+- **[Session 43](/sessions/session-43)** — After the victory picnic on Harbor Row, the party tracks Victor through the Greyport Zoo to his lab and a Twilight Company headquarters beneath it.
+- **[Session 44](/sessions/session-44)** — The party defends Fluke's Workshop from a developer's coordinated assault while Iro saves the burning Caspian Center.
+- **[Session 45](/sessions/session-45)** — The party stakes out the zoo for Victor's sending stone, meets a racer calling herself Belith Booper, and opens the pocket village at Fluke's Workshop.
+- **[Session 47](/sessions/session-47)** — The party meets Lady Viper at the Twilight Company's hidden headquarters and plans a Luna concert with Jasper at his port-side brewery.
+- **[Session 48](/sessions/session-48)** — At a gala in Jasper's bakery the party overhears Denlin, then questions Belspeth Booper after a staged car service from the Checkered Rest.
+- **[Session 49](/sessions/session-49)** — Disguised as orphans, the party infiltrates Denlin's orphanage and finds tanks of figures built in Elspeth's image.
+- **[Session 50](/sessions/session-50)** — The party frees the orphanage's children, steals its violescence, and Elspeth wins Denlin's race in his own car.
+- **[Session 51](/sessions/session-51)** — The party wrestles at Razlemania, on an island arena off Greyport, where Gary retires and is lured away by Crowley.
+- **[Session 52](/sessions/session-52)** — Iro returns to his Greyport workshop, and the party sails to Luna Trench, breaks the Eldoran chains on Luna and restores her.
+- **[Session 53](/sessions/session-53)** — The party raids the Iron Claws' Cog & Steam, and Leliana's benefit concert at Jasper's brewery raises a new moon over Greyport.
+- **[Session 54](/sessions/session-54)** — Lady Viper briefs the party over a pre-dawn dinner at Twilight Company headquarters, and the party leaves Greyport for the Eldoran capital.

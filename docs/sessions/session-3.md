@@ -1,6 +1,6 @@
 ---
 title: "3: Unraveling Twilight"
-date: 2024-08-16
+date: 2024-08-15
 description: "The party is in the dwarven city of High Forge, a place with strict rules."
 summary: "The party is in the dwarven city of High Forge, a place with strict rules."
 featureimage: "https://d2a9bkgsuxmqe2.cloudfront.net/staging/podcast_uploaded_episode400/41448639/41448639-1723920027113-51135146463c2.jpg"

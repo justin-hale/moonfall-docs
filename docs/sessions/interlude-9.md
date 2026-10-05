@@ -7,7 +7,7 @@ featureimage: "C4I9.webp"
 podcastlink: "https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4-interlude-May-9th--2025-DM-Zack-e32pvpk"
 ---
 
-**[🎧 Podcast Link](https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4-interlude-May-9th--2025-DM-Zack-e32pvpk) • *May 8, 2025***
+**[🎧 Podcast Link](https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4-interlude-May-9th--2025-DM-Zack-e32pvpk) • *May 9, 2025***
 
 ## Session Overview
 

@@ -401,7 +401,7 @@
       "top_npcs": {
         "Scarlet": 46,
         "Naomi": 11,
-        "George": 2
+        "Crowley": 2
       },
       "fun": {
         "nat20_mentions": 0,
@@ -467,9 +467,9 @@
         }
       ],
       "top_npcs": {
+        "Gary": 3,
         "George": 2,
-        "Iro": 2,
-        "Scarlet": 1
+        "Iro": 2
       },
       "fun": {
         "nat20_mentions": 0,
@@ -804,8 +804,8 @@
       ],
       "top_npcs": {
         "George": 6,
-        "Astro": 1,
-        "Chalk Rock": 1
+        "Gary": 3,
+        "Astro": 1
       },
       "fun": {
         "nat20_mentions": 2,
@@ -872,8 +872,8 @@
       ],
       "top_npcs": {
         "George": 23,
-        "Victor": 10,
-        "Naomi": 6
+        "Luna": 14,
+        "Victor": 10
       },
       "fun": {
         "nat20_mentions": 0,
@@ -939,9 +939,9 @@
         }
       ],
       "top_npcs": {
+        "Luna": 34,
         "George": 23,
-        "Astro": 21,
-        "Bafael": 8
+        "Astro": 21
       },
       "fun": {
         "nat20_mentions": 1,
@@ -1007,9 +1007,9 @@
         }
       ],
       "top_npcs": {
+        "Luna": 11,
         "Victor": 10,
-        "George": 6,
-        "Astro": 1
+        "George": 6
       },
       "fun": {
         "nat20_mentions": 1,
@@ -1076,8 +1076,8 @@
       ],
       "top_npcs": {
         "Victor": 61,
-        "George": 3,
-        "Astro": 1
+        "Luna": 10,
+        "George": 3
       },
       "fun": {
         "nat20_mentions": 0,
@@ -1139,7 +1139,7 @@
       "top_npcs": {
         "Iro": 33,
         "Scarlet": 22,
-        "Victor": 1
+        "Gary": 11
       },
       "fun": {
         "nat20_mentions": 0,
@@ -1262,8 +1262,8 @@
       ],
       "top_npcs": {
         "Victor": 17,
-        "Naomi": 16,
-        "Astro": 10
+        "Luna": 16,
+        "Naomi": 16
       },
       "fun": {
         "nat20_mentions": 0,
@@ -1317,9 +1317,9 @@
         }
       ],
       "top_npcs": {
+        "Luna": 32,
         "Victor": 23,
-        "Iro": 20,
-        "Lady Viper": 18
+        "Iro": 20
       },
       "fun": {
         "nat20_mentions": 0,
@@ -1375,7 +1375,7 @@
       "top_npcs": {
         "Astro": 10,
         "Lady Viper": 10,
-        "Victor": 4
+        "Luna": 10
       },
       "fun": {
         "nat20_mentions": 0,
@@ -1441,9 +1441,9 @@
         }
       ],
       "top_npcs": {
-        "Scarlet": 2,
-        "Iro": 1,
-        "Victor": 1
+        "Belspeth Booper": 6,
+        "Luna": 6,
+        "Scarlet": 2
       },
       "fun": {
         "nat20_mentions": 0,
@@ -1502,7 +1502,10 @@
           "word_share": 0.0752
         }
       ],
-      "top_npcs": {},
+      "top_npcs": {
+        "Belspeth Booper": 4,
+        "Luna": 3
+      },
       "fun": {
         "nat20_mentions": 1,
         "nat1_mentions": 0
@@ -1567,8 +1570,9 @@
         }
       ],
       "top_npcs": {
+        "Gary": 72,
         "Iro": 19,
-        "Naomi": 1
+        "Luna": 18
       },
       "fun": {
         "nat20_mentions": 0,
@@ -1628,9 +1632,9 @@
         }
       ],
       "top_npcs": {
-        "Iro": 24,
-        "Scarlet": 15,
-        "George": 12
+        "Luna": 41,
+        "Gary": 28,
+        "Iro": 24
       },
       "fun": {
         "nat20_mentions": 0,
@@ -1692,7 +1696,7 @@
       "top_npcs": {
         "Scarlet": 25,
         "Iro": 21,
-        "George": 5
+        "Luna": 6
       },
       "fun": {
         "nat20_mentions": 1,
@@ -1814,9 +1818,9 @@
         }
       ],
       "top_npcs": {
+        "Finnegan": 11,
         "Scarlet": 9,
-        "Naomi": 5,
-        "George": 3
+        "Naomi": 5
       },
       "fun": {
         "nat20_mentions": 2,
@@ -1882,9 +1886,9 @@
         }
       ],
       "top_npcs": {
+        "Luna": 8,
         "Scarlet": 8,
-        "George": 5,
-        "Iro": 2
+        "George": 5
       },
       "fun": {
         "nat20_mentions": 0,
@@ -1951,8 +1955,8 @@
       ],
       "top_npcs": {
         "George": 11,
-        "Scarlet": 3,
-        "Astro": 1
+        "Captain Steel": 5,
+        "Scarlet": 3
       },
       "fun": {
         "nat20_mentions": 0,
@@ -2020,7 +2024,7 @@
       "top_npcs": {
         "George": 47,
         "Victor": 15,
-        "Lady Viper": 4
+        "Toothy": 12
       },
       "fun": {
         "nat20_mentions": 0,
@@ -2119,7 +2123,7 @@
       "top_npcs": {
         "Scarlet": 37,
         "Victor": 10,
-        "George": 2
+        "Cassandra": 7
       },
       "fun": {
         "nat20_mentions": 0,
@@ -2181,13 +2185,161 @@
       "top_npcs": {
         "George": 16,
         "Scarlet": 10,
-        "Lady Viper": 3
+        "Captain Steel": 5
       },
       "fun": {
         "nat20_mentions": 0,
         "nat1_mentions": 0
       },
       "superlatives": null
+    },
+    "session-62": {
+      "timing_quality": "exact",
+      "duration_seconds": 9837,
+      "word_count": 18249,
+      "players_present": [
+        "Silas",
+        "Elspeth",
+        "Leliana"
+      ],
+      "attendance_source": "transcript",
+      "speakers": [
+        {
+          "name": "Topher",
+          "role": "dm",
+          "word_share": 0.3957
+        },
+        {
+          "name": "Silas",
+          "role": "pc",
+          "word_share": 0.2743
+        },
+        {
+          "name": "Elspeth",
+          "role": "pc",
+          "word_share": 0.1861
+        },
+        {
+          "name": "Leliana",
+          "role": "pc",
+          "word_share": 0.1439
+        }
+      ],
+      "top_npcs": {
+        "George": 35,
+        "Scarlet": 24,
+        "Cassandra": 8
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "superlatives": {
+        "mvp": {
+          "player": "Silas",
+          "quote": "I'm going to send out a message to all my teammates. I can probably go and scoop the ticket up really quick, but if you guys can make a distraction for me for just a few seconds, I can probably do it."
+        },
+        "best_joke": {
+          "player": "Elspeth",
+          "quote": "CM Junk."
+        },
+        "most_chaotic": {
+          "player": "Elspeth",
+          "quote": "So that's why he's not here. Yep. It's canon now. [re: Bru being carried off by Colonel Sanders flash mob]"
+        }
+      }
+    },
+    "session-63": {
+      "timing_quality": "exact",
+      "duration_seconds": 299,
+      "word_count": 24084,
+      "players_present": [
+        "Olivia",
+        "Bru",
+        "Silas",
+        "Leliana"
+      ],
+      "attendance_source": "transcript",
+      "speakers": [
+        {
+          "name": "Topher",
+          "role": "dm",
+          "word_share": 0.3341
+        },
+        {
+          "name": "Olivia",
+          "role": "pc",
+          "word_share": 0.2167
+        },
+        {
+          "name": "Bru",
+          "role": "pc",
+          "word_share": 0.2073
+        },
+        {
+          "name": "Silas",
+          "role": "pc",
+          "word_share": 0.197
+        },
+        {
+          "name": "Leliana",
+          "role": "pc",
+          "word_share": 0.0431
+        },
+        {
+          "name": "01",
+          "role": "guest",
+          "word_share": 0.0005
+        },
+        {
+          "name": "02",
+          "role": "guest",
+          "word_share": 0.0005
+        },
+        {
+          "name": "00",
+          "role": "guest",
+          "word_share": 0.0005
+        },
+        {
+          "name": "﻿DnD - 2026/09/25 19",
+          "role": "guest",
+          "word_share": 0.0002
+        },
+        {
+          "name": "03",
+          "role": "guest",
+          "word_share": 0.0001
+        },
+        {
+          "name": "Meeting ended after 03",
+          "role": "guest",
+          "word_share": 0.0001
+        }
+      ],
+      "top_npcs": {
+        "Scarlet": 16,
+        "Captain Steel": 11,
+        "Victor": 4
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "superlatives": {
+        "mvp": {
+          "player": "Bru",
+          "quote": "If… if Bru can say that he's going to steal the sun... I can take the sun with me. It's in the rope trick. it's in an interdimensional field."
+        },
+        "best_joke": {
+          "player": "Bru",
+          "quote": "This is my emotional support rope. You didn't see this when I came in?"
+        },
+        "most_chaotic": {
+          "player": "Bru",
+          "quote": "If… if Bru can say that he's going to steal the sun, which is the opposite of the whole premise of the first Despicable Me movie, Okay. So if Bru can say that he's going to steal the sun... I can take the sun with me."
+        }
+      }
     }
   }
 }

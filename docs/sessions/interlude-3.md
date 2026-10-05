@@ -7,7 +7,7 @@ featureimage: "C4I3.webp"
 podcastlink: "https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4-Interlude-March-14th-e308dbm"
 ---
 
-**[🎧 Podcast Link](https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4-Interlude-March-14th-e308dbm) • *March 13, 2025***
+**[🎧 Podcast Link](https://creators.spotify.com/pod/profile/topher-hooper/episodes/C4-Interlude-March-14th-e308dbm) • *March 14, 2025***
 
 ## Session Overview
 

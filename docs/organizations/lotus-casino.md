@@ -1,365 +1,55 @@
 ---
 title: Lotus Casino
-description: High Forge's premier entertainment venue
-sidebar_position: 8
+description: Magical hotel and casino in its own pocket of space, run by Marvin Jr. Jr. Jr. and home to Naomi; reachable through a door in the party's pocket village
+aliases: ["Lotus Hotel and Casino", "Lotus Hotel"]
 ---
 
 # Lotus Casino
 
-*Entertainment Venue • Social Hub • Potential Solution*
+*Magical Resort • Naomi's Workplace • Source of Marvin's brew*
 
 ## Overview
 
-The **Lotus Casino** is High Forge's premier entertainment establishment, offering performances, drinks, and social gathering space. Managed by [Naomi](/npcs/naomi) (Silas's girlfriend), the casino represents legitimate entertainment business in contrast to the city's darker elements and has been proposed as a potential solution to the raver crisis.
+The **Lotus Hotel and Casino** is a flashy magical resort that sits in its own pocket of space rather than in any city. It offers gambling, a spa, shopping and stage shows. It is run by **Marvin Jr. Jr. Jr.**, the nerdy great-grandson of its founder. [Naomi](/npcs/naomi), [Silas](/player-characters/silas)'s girlfriend, works there and lives there with her baby son **Julius**.
 
-## Location and Facility
+**Status as of Session 63:** operating normally. Since Session 45 the party can reach it through a door in the [pocket village](/locations/pocket-village), which glows with the same light as the casino's portal. They last used that route in Session 55 to buy a bottle of Marvin's brew.
 
-### High Forge Entertainment District
-- Central location in city
-- Accessible to residents
-- Safe venue during uncertain times
-- Regular performances scheduled
+## The Resort
 
-### Venue Features
-**Entertainment Space**:
-- Performance stage for acts
-- Bar and drinks service
-- Social gathering areas
-- Seating for audiences
-- Professional atmosphere
+- **Getting in:** Visitors originally arrived through a portal that opens and closes every 24 hours (Interlude VII). A gold "Guest Transport" card can also teleport its holder straight to the lobby (Interlude XII).
+- **Amenities:** A casino, a spa with massages, mud baths and hot tubs, fancy clothes shops, concerts, and a magic show starring David Blaine and **Fufu**, the casino's performing owlbear. The lobby has a statue of Marvin's ancestor.
+- **Marvin's brew:** Marvin is knowledgeable about magic but hopeless at potions. His failed "recuperation" potion wiped the party's memory of their first night there (Interlude VII). Silas later bought a bottle to use as a weapon (Session 55).
+- **The reset:** Marvin's great-grandfather built a "factory reset" into the basement as a failsafe against takeovers. It sends every unauthorised guest back to where they teleported from, repairs the damage, and moves the casino in space and time so that no one can reach it for a while. It takes a key, and the key is guarded by a run of puzzle chambers (Interlude XII).
 
-## Management
+## People
 
-### Naomi - General Manager
-**Leadership**:
-- Manages daily operations
-- Books performances and acts
-- Handles business relationships
-- Professional and capable
-- Contact saved as "Muscle Mommy" in Silas's phone
+- **Marvin Jr. Jr. Jr.:** The owner. Helisanna held him captive during her occupation (Interlude XII). The Session 35 recap calls him difficult to deal with.
+- **[Naomi](/npcs/naomi):** A muscular half-orc who worked in the spa when the party met her (Interlude VII). By Interlude XII she was in upper management and organised the staff against the occupation. She is a single mother to Julius, and she and Silas have been together since the party's first visit. He calls her every night on his sending stone (Session 40).
+- **The staff:** Spike Bison and his bodyguards Click and Clack, Carl from Maintenance (immune to Helisanna's thrall), Lily and Lana from the spa, and a British-voiced bartender (Interlude XII).
 
-**Personal Stakes**:
-- Single mother to Julius
-- Relationship with Silas (Interlude 7)
-- Proposed as future High Forge leader (Session 35)
-- Balances motherhood with career
-- Trusted by resistance and party
+## History
 
-## Business Operations
+### The Hangover (Interlude VII)
 
-### Entertainment Booking
-- Regular performance schedule
-- Variety of acts and performers
-- Community entertainment hub
-- Legitimate business model
+The fox-like being Toonlock treated the party to a stay at the Lotus, which the recap describes as a flashy but lower-budget version of his own realm. After a night on Marvin's accidental potion, they spent the next day piecing together what they had done: a baby in Olivia's room, an owlbear asleep in their jacuzzi, and a gnome tied up in a coffin. They also found that Silas had wooed Naomi. Marvin comped them a second night by way of apology.
 
-### Social Function
-**Community Space**:
-- Safe gathering location
-- Social hub for High Forge residents
-- Entertainment during difficult times
-- Alternative to underground scenes
+### Helisanna's Occupation (Interlude XII)
 
-## The Vegas Solution (Session 35)
+After Arc 2, Naomi wrote to Silas for help. [Helisanna](/player-characters/helisanna), who by then had her own body and was running with her [ravers](/organizations/ravers), had come to the Lotus for an audition and ended up occupying it. She turned it into a round-the-clock concert venue, trashed the lobby, built a halfpipe, kidnapped Marvin, and forced Fufu to do three shows a day. Using the guest card, the party teleported in disguised as ravers. They worked out that Marvin had entrusted the reset key to Fufu, solved the basement puzzles, and Silas pulled the lever. The ravers and Helisanna were sent back to [High Forge](/locations/high-forge) and the casino repaired itself. It then vanished for a time, leaving Naomi and Julius cut off from Silas.
 
-### Helisanna Residency Proposal
-**Containment Strategy**:
-- Give Helisanna/Ach'uk permanent venue
-- Nightly performances at Lotus Casino
-- Free booze and adoring raver crowds
-- Satisfies entity's desire for audience and worship
-- Prevents "party the city to death" scenario
+Earlier, in Session 35, the party had floated giving Helisanna a Lotus residency, hoping nightly shows would keep her and the ravers contented. The idea was never put into practice.
 
-**Benefits**:
-- Keeps thousands of ravers contained and happy
-- Provides venue for supernatural performances
-- Non-violent solution to raver crisis
-- Gives Ach'uk what it wants without destruction
-- Protects city from cosmic threat
+### Through the Pocket Village
 
-**Concerns**:
-- Massive capacity needed for thousands
-- Venue modification required
-- Ongoing supernatural influence in establishment
-- Safety of other patrons/staff
-- Long-term sustainability
+- **The door:** When Silas stepped into the newly opened pocket village and thought of the Lotus, a coin fountain and a door glowing like the Lotus portal appeared. Naomi came through it with a birthday cake for him (Session 45), and she stayed the night during the void-being attack (Session 46).
+- **A change of clothes:** [Elspeth](/player-characters/elspeth) ran through the pocket village to the Lotus to change into her pinstripe suit before meeting Lady Viper (Session 47).
+- **Marvin's brew:** During the Eldoran infiltration, Silas slipped through to the Lotus, bought a bottle of Marvin's brew, and left a necklace and a note on Naomi's desk. The party used the brew to knock out rival mercenary crews at breakfast before Lord Bradicus's contest (Session 55).
 
-### Naomi's Potential Role
-- Would need to manage supernatural element
-- Coordinate with Helisanna/entity
-- Ensure safety protocols
-- Handle unprecedented situation
-- Key figure in implementation
+## Session History
 
-## Political Significance
-
-### Future High Forge Leadership (Session 35)
-**Governance Proposal**:
-- Naomi suggested as potential new leader
-- Casino as power base
-- Community trust already established
-- Capable administrator demonstrated
-- Alternative to traditional power structures
-
-**Qualifications**:
-- Manages complex venue successfully
-- Respected in community
-- Personal relationships with key figures
-- Mother brings stability perspective
-- Practical and level-headed
-
-## Relationship with Other Factions
-
-### Taco Cat
-**Allied Through Silas**:
-- Silas's relationship with Naomi
-- Party frequents establishment
-- Potential solution host for Helisanna
-- Trust and cooperation established
-- Personal investment in success
-
-### The Resistance
-**Positive Relationship**:
-- Legitimate business supporting community
-- Naomi proposed as leader by resistance members
-- Safe meeting location potential
-- Alternative to underground operations
-
-### The Ravers (Potential)
-**Future Venue**:
-- Could host thousands if Vegas solution implemented
-- Regular performances satisfying Ach'uk
-- Containment location for purple-eyed followers
-- Transformation from casino to supernatural concert hall
-
-## Historical Context
-
-### Pre-Crisis
-- Established entertainment venue
-- Regular operations in High Forge
-- Community gathering space
-- Normal business before supernatural events
-
-### During Iron Claws Era
-- Continued operations despite city chaos
-- Safe space maintained
-- Naomi kept business running
-- Stability amid instability
-
-## The Vegas Vision
-
-### Ideal Implementation
-**Residency Details**:
-- Nightly Helisanna performances
-- All-you-can-drink for ravers
-- Adoring crowd worship for Ach'uk
-- Contained supernatural energy
-- Satisfied ancient entity
-
-**Venue Transformation**:
-- Expand capacity for thousands
-- Supernatural accommodations
-- Enhanced sound system
-- Safety protocols for possessed performer
-- Dedicated raver space
-
-### Practical Challenges
-**Implementation Issues**:
-- Physical space limitations
-- Cost of expansion/modification
-- Managing possessed performer
-- Thousands of compelled attendees
-- Ongoing supernatural influence
-- Staff safety and training
-
-## Economic Impact
-
-### Current Operations
-- Legitimate revenue source
-- Employment provider
-- Tax contributor (presumably)
-- Economic stability for High Forge
-
-### Potential Changes
-**Vegas Solution Economics**:
-- Massive revenue from nightly shows
-- Free drinks offset by attendance volume
-- Potential city funding needed
-- Tourism/attendance from region
-- Economic boom or drain depending on model
-
-## Cultural Significance
-
-### Community Role
-- Entertainment and normalcy source
-- Social gathering enables community bonds
-- Alternative to criminal underground
-- Represents civilization and order
-
-### Future Identity
-**Post-Vegas Solution**:
-- Could become legendary venue
-- "Casino where we contained cosmic entity"
-- Tourist attraction or cautionary tale
-- Symbol of creative problem-solving
-- Historical significance
-
-## Physical Description
-
-### The Venue
-- Performance stage (size unspecified)
-- Bar area with drinks service
-- Seating/standing room for audience
-- Professional lighting and sound
-- Welcoming atmosphere
-
-### Potential Modifications
-**For Helisanna Residency**:
-- Expanded capacity (thousands)
-- Reinforced structure (supernatural energy)
-- Enhanced acoustics (cosmic-level music)
-- Dedicated raver sections
-- Control room for management
-
-## Staff and Operations
-
-### Current Staff (Implied)
-- Naomi as general manager
-- Bartenders and servers
-- Sound/lighting technicians
-- Security personnel
-- Support staff
-
-### Future Needs
-**Vegas Solution Staffing**:
-- Supernatural event coordinators
-- Crowd control for thousands
-- Medical support (raver withdrawal/safety)
-- Security for possessed performer
-- Crisis management team
-
-## Safety Considerations
-
-### Current Safety
-- Normal venue safety protocols
-- Professional operations
-- Community trust in management
-- No major incidents noted
-
-### Future Safety Challenges
-**With Helisanna Residency**:
-- Possessed performer unpredictability
-- Thousands of mind-controlled attendees
-- Eldritch blast during performances
-- Structural integrity (supernatural power)
-- Evacuation protocols for cosmic events
-
-## Success Factors
-
-### Why It Could Work
-**Strategic Advantages**:
-- Gives Ach'uk desired worship/audience
-- Contains ravers in known location
-- Non-violent solution
-- Helisanna gets stage for powers
-- City protected from wandering threat
-
-**Naomi's Management**:
-- Capable administrator
-- Personal connection to party
-- Community trust established
-- Practical problem-solver
-- Motivated by city safety
-
-### Potential Obstacles
-- Scale of transformation needed
-- Cost and resources required
-- Convincing Helisanna/Ach'uk
-- Managing ongoing supernatural presence
-- Long-term sustainability questions
-
-## Alternative Uses
-
-### Beyond Vegas Solution
-**Other Proposals**:
-- Resistance meeting location
-- Taco Cat performance venue
-- Community governance center (if Naomi leads)
-- Safe haven during conflicts
-- Economic recovery hub post-Iron Claws
-
-## Current Status (Post-Session 36)
-
-### After Great Hall Battle
-- Presumably still operating
-- Status during/after conflict uncertain
-- Naomi's leadership proposal still relevant
-- Vegas solution still viable option
-- Awaiting party's next move on Helisanna
-
-### Next Steps
-**Potential Developments**:
-- Approach Naomi about Vegas solution
-- Assess venue capacity and modifications needed
-- Negotiate with Helisanna/Ach'uk
-- Secure funding for transformation
-- Implement containment strategy
-
-## Significance
-
-### To Campaign
-- Potential non-violent solution to major threat
-- Represents stability and civilization
-- Key to future governance structure
-- Symbol of creative problem-solving
-- Community hub in crisis
-
-### To Characters
-**Silas**:
-- Girlfriend's workplace and potential power base
-- Personal investment in success
-- Support for Naomi's leadership
-- Family connections (Julius)
-
-**Taco Cat**:
-- Potential solution to Helisanna crisis
-- Band performance venue
-- Allied location
-- Responsibility for Vegas solution success
-
-### To Themes
-- **Creativity Over Violence**: Solving cosmic threat with venue
-- **Community**: Casino as gathering space
-- **Adaptation**: Traditional business transformed for supernatural needs
-- **Leadership**: Naomi as unconventional leader
-- **Containment**: Control without destruction
-
-## Related Characters
-- [Naomi](/npcs/naomi) - General manager, proposed leader
-- [Silas Whitlock](/player-characters/silas) - Boyfriend connection
-- [Helisanna Doomfall](/player-characters/helisanna) - Potential residency performer
-- **Julius** - Naomi's son
-
-## Related Organizations
-- [Taco Cat](/organizations/taco-cat) - Allied party
-- [The Ravers](/organizations/ravers) - Potential audience/contained threat
-- [The Resistance](/organizations/resistance) - Political support
-- [Iron Claws](/organizations/iron-claws) - Former city threat (defeated)
-
-## Key Sessions
-- **Interlude 7**: Silas and Naomi's relationship established
-- **Session 35**: Vegas solution proposed, Naomi as leader suggested
-- **Session 36**: Post-battle context for implementation
-
-## Future Hooks
-- Implementing Vegas solution
-- Naomi's leadership campaign
-- Venue transformation logistics
-- First Helisanna residency performance
-- Managing supernatural casino
-
----
-
-*"What if we give Helisanna a Vegas residency at the Lotus Casino? Nightly performances, free booze, adoring crowds... Ach'uk gets worship, ravers get shows, city stays safe."* - Vegas Solution Proposal, Session 35
-
-*"Naomi for High Forge leader!"* - Governance discussion, Session 35
+- **[Interlude 7](/sessions/interlude-7)** — Toonlock treats the party to the Lotus; Marvin's failed potion wipes their night, and Silas wins over Naomi.
+- **[Session 35](/sessions/session-35)** — Silas suggests enlisting Naomi to help steady High Forge, and the party floats a Lotus residency for Helisanna.
+- **[Interlude 12](/sessions/interlude-12)** — Helisanna and her ravers occupy the casino; the party finds the reset key on Fufu and resets the Lotus, cutting it off for a time.
+- **[Session 45](/sessions/session-45)** — A door to the Lotus forms in the pocket village, and Naomi comes through it for Silas's birthday.
+- **[Session 47](/sessions/session-47)** — Elspeth dashes through the pocket village to the Lotus for her pinstripe suit.
+- **[Session 55](/sessions/session-55)** — Silas buys Marvin's brew at the Lotus and leaves a necklace for Naomi; the brew knocks out the rival crews.

@@ -57,9 +57,9 @@ Elspeth combines **technical ingenuity** with **battlefield courage**, showing h
 - Represents the ideal fusion of artificial and organic intelligence
 
 ### Family Connection
-- Related to Retired Detective Olivia Cooper
-- Shares Cooper family traits of determination and justice
-- Professional respect between the Cooper family members
+- Granddaughter of retired detective [Olivia Cooper](/player-characters/olivia)
+- Cousin of [George](/npcs/george), Olivia's grandson
+- Sister of Zachary Cooper, who swapped her registered [racing crystal](/items/cooper-racing-crystal) and ended her career (Interlude 15, Session 50)
 
 ## Character Development
 
@@ -104,6 +104,10 @@ Whether she's providing covering fire with her magical gun, setting elaborate tr
 - **Tinker's Tools**: For building and repairing magical devices
 - **Spell Focus**: Channels magic through crafted items
 - **Construction Kit**: Materials for building traps and devices
+
+### Vehicles
+- **[The Vroomfall](/items/vroomfall)**: her race car, fitted with wheel spikes and a spoiler for the mountain race she won (Sessions 23–24)
+- **[The Zoomfall](/items/zoomfall)**: the party's van, which she often drives, drifting it out of Lord Bradicus's estate in Session 56
 
 ### Specialized Gear
 - **Enhanced Ammunition**: Magical bullets with various effects

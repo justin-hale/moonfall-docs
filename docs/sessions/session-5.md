@@ -1,6 +1,6 @@
 ---
 title: "5: A Pretty Good Concert"
-date: 2024-09-01
+date: 2024-08-31
 description: "Our heroes throw a pretty good concert."
 summary: "Our heroes throw a pretty good concert."
 featureimage: "https://d2a9bkgsuxmqe2.cloudfront.net/staging/podcast_uploaded_episode400/41448639/41448639-1725217230877-74e9a0fe61bc7.jpg"
