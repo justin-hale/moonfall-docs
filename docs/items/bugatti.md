@@ -56,3 +56,4 @@ In Session 62 Silas pitched the ideal escape from the capital: "peel out in the 
 - **[Session 54](/sessions/session-54)** — The party decides the Bugatti is too recognisable for the Little Cradle job, leaves it in the pocket village and takes Lady Viper's wagon.
 - **[Session 62](/sessions/session-62)** — Silas proposes escaping Eldoran by jumping the Bugatti. Finnegan is sent to scout a ramp, a boat or the sewers.
 - **[Session 63](/sessions/session-63)** — The ramp jump is Plan A. After the bombs go off and the session ends, Silas votes to drive the Bugatti off the fallen research tower and over the city wall.
+- **[Session 64](/sessions/session-64)** — The Bugatti was driven off the collapsed Research Tower by Elspeth, pursued by two angel-soldiers and a warplane over Eldoran farmland, and was struck by a missile mid-air that dealt 36 fire damage and caused the car to begin coming apart.

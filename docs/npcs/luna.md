@@ -46,3 +46,4 @@ description: Moon goddess struck down by an Eldoran weapon, restored by the part
 - **[Session 52](/sessions/session-52)** — She calls for help as Eldoran knights chain her skull. The party cuts the link and packs violescence into her chest, and she returns in the flesh, promising to help against Eldoran.
 - **[Session 53](/sessions/session-53)** — Leliana's candlelit concert turns the audience's belief into a new moon for her over Greyport.
 - **[Session 56](/sessions/session-56)** — The party finds three of her faithful dead in the haunted library, one carrying Leliana's birthday card.
+- **[Session 64](/sessions/session-64)** — Silas invoked Luna's name while killing the first angel, declaring to it that if it believed in Luna it would go to heaven.

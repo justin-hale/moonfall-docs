@@ -38,3 +38,4 @@ Elspeth, working the floor in disguise, befriended the factory workers — [Cass
 - **[Session 60](/sessions/session-60)** — The party confirms the furnace is a contained power core, sees Captain Steel on the floor, and learns of the next day's shutdown and layoffs as Elspeth befriends the workers.
 - **[Session 62](/sessions/session-62)** — At Cassandra's lakeside birthday, the factory workers confirm their whole shift is being laid off the next day.
 - **[Session 63](/sessions/session-63)** — Bru and Olivia infiltrate the skeleton crew, Bru shrinks and steals the miniature sun from the furnace, Olivia plants the casing bomb, and the factory is bombed.
+- **[Session 64](/sessions/session-64)** — The Spaceport Factory's stolen star was folded away in Scarlet's pocket dimension.

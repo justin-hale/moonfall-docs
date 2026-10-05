@@ -53,3 +53,4 @@ The **Portable Hole** (the "pee hole" at the table) is a folding extradimensiona
 - **[Session 59](/sessions/session-59)** — Silas asks for a lead box to hide the hole from the sweeps, and carries Bru and Olivia inside it up the factory wall.
 - **[Session 60](/sessions/session-60)** — Olivia rides inside the hole for the rest of the day at the factory, since only two people fit.
 - **[Session 61](/sessions/session-61)** — At the barracks' rear wall, the party plans to lift two people over in the hole ("effectively weightless", but only two fit).
+- **[Session 64](/sessions/session-64)** — A portable hole was proposed as temporary breathable storage for party members who could not fit in the Bugatti.

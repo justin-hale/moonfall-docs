@@ -89,3 +89,4 @@ Neighbouring **Bradicus** is an independent state whose status the Empire contes
 - **[Session 61](/sessions/session-61)** — A soldier ascends with wings in the barracks concert hall; the research tower's notes lay out harmonic resonance and violescence.
 - **[Session 62](/sessions/session-62)** — A bomb is armed in the barracks concert hall, and Fredo Boggins describes harmonic engines.
 - **[Session 63](/sessions/session-63)** — Bru steals the factory's miniature sun, six Elspeth clones are found in the research tower, and three bombs go off across the capital.
+- **[Session 64](/sessions/session-64)** — Silas hijacked broadcast drones used by the Eldoran Empire to declare that Eldora is a false god, broadcasting this message across every screen in the empire.

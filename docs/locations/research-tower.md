@@ -33,3 +33,4 @@ In Session 63 the party entered disguised as university faculty, and Silas spide
 - **[Session 61](/sessions/session-61)** — Posing as researchers with stolen key cards, the party reaches the acoustics floor and learns the harmonic science behind the Empire's divine power.
 - **[Session 62](/sessions/session-62)** — Silas steals a top-floor scientist's lab coat and passcode at Cassandra's lakeside birthday party.
 - **[Session 63](/sessions/session-63)** — The party bombs the elevator shaft, pulls six figures in Elspeth's likeness out of flight simulators, evacuates the tower, and brings it down onto the city wall.
+- **[Session 64](/sessions/session-64)** — The Research Tower was collapsed and its base was broken off by Elspeth with a Shatter spell to form a ramp for the Bugatti's launch.

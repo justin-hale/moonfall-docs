@@ -52,3 +52,4 @@ Through a sending stone, Luna then manifested in the village by its lake. Silas 
 - **[Session 50](/sessions/session-50)** — The party stores the four crates of violescence stolen from Denlin's orphanage in the village.
 - **[Session 52](/sessions/session-52)** — Silas sees the village's interior through an Eldoran portal tuned to Luna, and the party cuts the chain instead of destroying the portal.
 - **[Session 54](/sessions/session-54)** — The party stows its cars in the village and gets the disguised capsule past an Eldoran checkpoint.
+- **[Session 64](/sessions/session-64)** — The Bugatti was hauled out of the pocket village before being driven off the Research Tower.

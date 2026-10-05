@@ -59,3 +59,4 @@ The [time gun](/items/time-gun) that destroyed the Quizzites' universe gets buil
 - **[Session 61](/sessions/session-61)** — Dressed as the nun "Sister Margaret," she escorts the party, disguised as orphans, into the barracks.
 - **[Session 62](/sessions/session-62)** — She goes with Elspeth to the Tony meeting and passes Elspeth's secret straight to Silas. She tells Elspeth she is three hundred years old and was born under an apple tree, and helps Elspeth into a swimsuit disguise at the lake party.
 - **[Session 63](/sessions/session-63)** — The party agrees to keep steering her away from a time gun. She stores the shrunken sun in her *Leomund's Secret Chest*.
+- **[Session 64](/sessions/session-64)** — Scarlet carried the stolen star from the spaceport factory in a pocket dimension.

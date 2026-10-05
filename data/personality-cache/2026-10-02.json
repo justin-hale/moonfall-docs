@@ -1,0 +1,112 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-10-02",
+  "model": "claude-haiku-4-5",
+  "players": {
+    "Unidentified Speaker": {
+      "scores": {
+        "chaos": 14,
+        "heroism": 12,
+        "comedy": 11,
+        "immersion": 13,
+        "strategy": 10,
+        "curiosity": 9
+      },
+      "evidence": {
+        "chaos": "Can we just use the van or we just all hop in the pocket village and only Elspeth does the jump?",
+        "heroism": "I am going to use my whenever I whenever it's my turn and I can use objure foe in there within 60 ft. I'm going to use my bonus action and touch myself and heal myself a little bit.",
+        "comedy": "Liberty Mutual's commercials. It's perfect time for some car insurance has great coverage and save. Thanks.",
+        "immersion": "Uh she's gonna like as she's leaning in, she's like as she's swinging her axe and the you can see like the power of tear come out around her ax and maybe even like forms like him on the end.",
+        "strategy": "So when the angel's within 60 ft of us, I want to try using objure foe, casting that with one of my channel divinities.",
+        "curiosity": "Is the fact that Tier is beating the Seldoran soldiers uh goddess giving them any sort of existential crisis yet?"
+      }
+    },
+    "Leliana": {
+      "scores": {
+        "chaos": 6,
+        "heroism": 11,
+        "comedy": 8,
+        "immersion": 12,
+        "strategy": 13,
+        "curiosity": 10
+      },
+      "evidence": {
+        "chaos": "I'm going to put it on Bruce's task list to create submarine gear or like a a breather just for like like one of those little like O2 canisters.",
+        "heroism": "I will heal Bru. This time with the current I'm going use a decent one. 14 health for Bru.",
+        "comedy": "Um, so the spell description on levitate says by the way when the spell ends the target floats gently to the ground if it is still allowed. So can I just kill it midair and then have I mean if we interpret that",
+        "immersion": "Um, all right. Angel, we cast command on you and wisdom saving throw 17.",
+        "strategy": "I mean, we're lightening it, right? So what about fast speed? But hear me out. What if instead of trying to have them pull, it's more like the movie Up with like balloons and that they're like a bunch of birds like slowing the descent.",
+        "curiosity": "Um, is the plane is the plane doing something to protect? No, it's the person. What's protect? Where is"
+      }
+    },
+    "Silas": {
+      "scores": {
+        "chaos": 12,
+        "heroism": 14,
+        "comedy": 13,
+        "immersion": 15,
+        "strategy": 14,
+        "curiosity": 11
+      },
+      "evidence": {
+        "chaos": "Um, I'm going to use the grapple hook to tether us to the car and I'm going to stick myself to the angel so that we're dragging him and hopefully he's like holding us up a little",
+        "heroism": "And I want to whisper into her ear as I do it. Um, if you believed in Luna, you'd go to heaven.",
+        "comedy": "Yeah, Paladins heal and they smash. That's about it.",
+        "immersion": "Um, as like I guess he like stabs at me, suddenly I like dig deep and I like have this massive surge of power like you know Goku style here. Okay.",
+        "strategy": "Like if you were to have that conversation in character, I feel like uh Silas would be like, 'What are you complaining about? I sent you with Bru.' You know, he's a professional criminal.",
+        "curiosity": "Um, does silos suspect does like silos have a reason to think that when we pulled one of the L's bits out of that what we thought was like a training simulator, they might have actually been piloting a ship"
+      }
+    },
+    "Topher": {
+      "scores": {
+        "chaos": 8,
+        "heroism": 7,
+        "comedy": 12,
+        "immersion": 14,
+        "strategy": 15,
+        "curiosity": 9
+      },
+      "evidence": {
+        "chaos": "Um, I think we already noted the bugatti can only hold two people. Um, so, I think fitting everybody will be pretty difficult.",
+        "heroism": "I note this because it allows me to um attempt to destroy you all. And so those are the stakes that leaving the city will be.",
+        "comedy": "Okay, oh, are you reeling in the grappling hook, too? Okay. Okay, or you know when you get your like navigation instructions and they're like turn in two feet. Oh s***.",
+        "immersion": "And like uh the the blood like leaves it leaves her brain and she uh starts falling.",
+        "strategy": "So I think you could like levitate 500 lb worth of the car effectively like reducing its like you know gravitational uh effect of it.",
+        "curiosity": "Um, I would like to let you know. Um you all have uh a chance to level up. Now I don't want you to do it yet."
+      }
+    },
+    "Olivia": {
+      "scores": {
+        "chaos": 9,
+        "heroism": 16,
+        "comedy": 9,
+        "immersion": 13,
+        "strategy": 12,
+        "curiosity": 8
+      },
+      "evidence": {
+        "chaos": "I think the plan is we're going to uh try to clear this this forest. So, I'm going to need you to make us some sort of like little air halfpipey ramp to kind of that will will land and launch us over this this uh forest.",
+        "heroism": "And she's just going to shout like, 'f*** your fake moon.' and slice her head off.",
+        "comedy": "The roll was amazing. I rolled. It was amazing.",
+        "immersion": "Yeah, I'm just fighting. I'm just being real cool fighting on the standing on the back of a flying car fighting stole. Here's the Bugatti.",
+        "strategy": "As long as they're within 60 ft, I'm going to try and scare them. It's a wisdom save with a uh",
+        "curiosity": "Um, she's really far away. I am going to question. Can I use Bob the turn that I summon him or do I have to wait a turn?"
+      }
+    }
+  },
+  "superlatives": {
+    "mvp": {
+      "player": "Olivia",
+      "quote": "And she's just going to shout like, 'f*** your fake moon.' and slice her head off."
+    },
+    "best_joke": {
+      "player": "Silas",
+      "quote": "Yeah, Paladins heal and they smash. That's about it."
+    },
+    "most_chaotic": {
+      "player": "Silas",
+      "quote": "I'm going to throw a dagger in the air, arc it, and collide right on top of the angel as they are like steaming ahead and I'm on top of them."
+    },
+    "decision_driver": "Unidentified Speaker"
+  }
+}

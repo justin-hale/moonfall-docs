@@ -248,6 +248,10 @@ The party finalizes its three-pronged strike plan: Bru constructs two suitcase b
 **Session 63** – The Sun in a Suitcase
 Bru infiltrates the spaceport factory disguised as Colonel Sanders and pivots from demolition to theft, shrinking and stealing the miniature sun powering the furnace. Simultaneously, the party discovers six Elspeth clones being trained as dragon-war shock troopers in the research tower, triggers evacuation, and leaves the tower collapsed against the city wall; the session ends with the party proposing to drive the Bugatti off it and over the wall. The recovered star goes into Scarlet's Secret Chest.
 
+
+**Session 64** – Two Angels and a Falling Car
+The party launches the Bugatti off the collapsed research tower into open sky, pursued by two angel-soldiers and a warplane over the Eldoran countryside. Silas boards an angel mid-flight with a grapple hook, nearly dies, levels up mid-duel, and kills it with a psychic blow. Olivia, mounted on Bob, delivers two critical hits totaling 164 damage and decapitates the second angel. A final missile from the warplane strikes the car mid-air as the session ends.
+
 ## Active Plot Threads
 
 ### 1. The Three-Target Strike on the Eldoran Capital
@@ -327,6 +331,13 @@ The moon exploded in Session 16. At Luna's underwater crash site the party resea
 - **Leliana/Helisanna**: Luke says the personas are "aware of each other", and switching is at will and "very controlled… like flipping a switch… that's it for now."
 - **Scarlet's Time Gun**: The party steers Scarlet away from inventing a time gun. In every timeline someone builds one (Marcus in one, an alternate Scarlet in another), and it wrecked Marcus's world (Interlude XI).
 - **Escape**: The session ends as the tower falls; Finnegan waits at the docks.
+
+
+#### Session 64 Updates
+- **Escape from the capital**: In progress; party airborne several hundred feet over farmland with a damaged Bugatti.
+- **Silas's heresy broadcast**: Silas hijacked a news drone mid-flight to declare "Eldora failed to stop this because she is a false god" to every screen in the Eldoran Empire.
+- **Eldoran Empire's divine system**: Confirmed as belief-into-power architecture; the party's broadcast directly challenged Eldora's authority live.
+- **Angel-soldiers**: Two of the winged knights summoned from the barracks ritual engaged the party in aerial combat; both killed (Sessions 61, 63, 64).
 
 ## Character Status
 
@@ -419,6 +430,13 @@ The moon exploded in Session 16. At Luna's underwater crash site the party resea
 - **Leliana**: Played a guitar riff as the tower fell.
 - **Scarlet**: Cast *Leomund's Secret Chest*; the party is trying to be kinder to her.
 
+
+#### Session 64 Updates
+- **Silas Fairbanks**: Leveled to [new level]; Charisma increased to 19; learned Silent Image as new spell; health dropped to 2 HP mid-combat then recovered via level-up; killed an angel in hand-to-hand on the Bugatti's hood.
+- **Olivia Cooper**: Leveled to 12; gained Shadow Touched feat with daily invisibility and choice of illusion/necromancy spell; Charisma increased to 18; dealt 164 damage across two critical hits in single engagement.
+- **Leliana Goldspring**: Dropped to 4 HP during second angel fight; used Hypnotic Pattern to freeze warplane pilot, Command spell (DC 17) to force pilot to grovel; maintained concentration split between levitate and crowd control throughout flight.
+- **Elspeth Cooper**: Achieved DC 30 driving check for Bugatti launch; cast Shatter to create tower-base ramp; took full 36 fire damage from final missile strike without making save.
+
 ## Key Callbacks & Unresolved Hooks
 
 ### Unresolved Plot Threads
@@ -484,3 +502,11 @@ The moon exploded in Session 16. At Luna's underwater crash site the party resea
 - **George, Cassandra**: Fates after the blasts unknown.
 - **Helisanna Mode**: One person switching at will, one woman who is "both of them" (Session 57); Helisanna carries the vendetta against Steel.
 - **Elspeth's Burden**: Friendships with the factory workers, and her own copies in the tower.
+
+
+#### Session 64 Updates
+- **Silas's broadcast sermon**: "If you believed in Luna, you'd go to heaven" / "I'll kill you again" — the angel's final words before death, and the party's theological challenge now witnessed by the entire capital.
+- **The Bugatti's landing problem**: No landing gear, hundreds of feet up, damaged mid-air; immediate threat to party survival.
+- **Bob's phase-step combat**: Olivia's fey steed proved decisive in mounted aerial combat; mechanical advantage against Medium enemies confirmed.
+- **Captain Steel's flight capability**: Confirmed he can fly (Session 63); he was headed to the barracks instead of pursuing (Session 64).
+- **George at the barracks during the blast**: No contact since detonation; fate unknown.

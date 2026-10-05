@@ -8435,34 +8435,226 @@
           "decision_driver": "Silas"
         }
       }
+    },
+    {
+      "id": "session-64",
+      "type": "session",
+      "number": 64,
+      "title": "64: Two Angels and a Falling Car",
+      "date": "2026-10-02",
+      "href": "/sessions/session-64/",
+      "has_transcript": true,
+      "transcript_format": "json",
+      "timing_quality": "exact",
+      "duration_seconds": 11900,
+      "block_count": 3821,
+      "word_count": 28077,
+      "speakers": [
+        {
+          "name": "Topher",
+          "canonical": "Topher",
+          "role": "dm",
+          "player": "Topher",
+          "blocks": 1218,
+          "words": 9498,
+          "talk_seconds_est": 4664,
+          "word_share": 0.3383
+        },
+        {
+          "name": "Silas",
+          "canonical": "Silas Fairbanks",
+          "role": "pc",
+          "player": "Taylor Ramsey",
+          "blocks": 915,
+          "words": 7835,
+          "talk_seconds_est": 4883,
+          "word_share": 0.2791
+        },
+        {
+          "name": "Unidentified Speaker",
+          "canonical": "Unidentified Speaker",
+          "role": "guest",
+          "player": null,
+          "blocks": 913,
+          "words": 6561,
+          "talk_seconds_est": 1068,
+          "word_share": 0.2337
+        },
+        {
+          "name": "Leliana",
+          "canonical": "Leliana Goldspring",
+          "role": "pc",
+          "player": "Luke Neverisky",
+          "blocks": 634,
+          "words": 3334,
+          "talk_seconds_est": 932,
+          "word_share": 0.1187
+        },
+        {
+          "name": "Olivia",
+          "canonical": "Olivia Cooper",
+          "role": "pc",
+          "player": "Ellis Taylor",
+          "blocks": 141,
+          "words": 849,
+          "talk_seconds_est": 96,
+          "word_share": 0.0302
+        }
+      ],
+      "players_present": [
+        "Silas",
+        "Leliana",
+        "Olivia"
+      ],
+      "attendance_source": "transcript",
+      "mentions": {
+        "npcs": {
+          "Scarlet": 5,
+          "Captain Steel": 2,
+          "Iro": 2,
+          "Luna": 1,
+          "Naomi": 1
+        },
+        "locations": {
+          "Greyport": 1
+        },
+        "pcs": {
+          "Bru": 32
+        }
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 1
+      },
+      "personality": {
+        "scores": {
+          "Unidentified Speaker": {
+            "chaos": 14,
+            "heroism": 12,
+            "comedy": 11,
+            "immersion": 13,
+            "strategy": 10,
+            "curiosity": 9
+          },
+          "Leliana": {
+            "chaos": 6,
+            "heroism": 11,
+            "comedy": 8,
+            "immersion": 12,
+            "strategy": 13,
+            "curiosity": 10
+          },
+          "Silas": {
+            "chaos": 12,
+            "heroism": 14,
+            "comedy": 13,
+            "immersion": 15,
+            "strategy": 14,
+            "curiosity": 11
+          },
+          "Topher": {
+            "chaos": 8,
+            "heroism": 7,
+            "comedy": 12,
+            "immersion": 14,
+            "strategy": 15,
+            "curiosity": 9
+          },
+          "Olivia": {
+            "chaos": 9,
+            "heroism": 16,
+            "comedy": 9,
+            "immersion": 13,
+            "strategy": 12,
+            "curiosity": 8
+          }
+        },
+        "evidence": {
+          "Unidentified Speaker": {
+            "chaos": "Can we just use the van or we just all hop in the pocket village and only Elspeth does the jump?",
+            "heroism": "I am going to use my whenever I whenever it's my turn and I can use objure foe in there within 60 ft. I'm going to use my bonus action and touch myself and heal myself a little bit.",
+            "comedy": "Liberty Mutual's commercials. It's perfect time for some car insurance has great coverage and save. Thanks.",
+            "immersion": "Uh she's gonna like as she's leaning in, she's like as she's swinging her axe and the you can see like the power of tear come out around her ax and maybe even like forms like him on the end.",
+            "strategy": "So when the angel's within 60 ft of us, I want to try using objure foe, casting that with one of my channel divinities.",
+            "curiosity": "Is the fact that Tier is beating the Seldoran soldiers uh goddess giving them any sort of existential crisis yet?"
+          },
+          "Leliana": {
+            "chaos": "I'm going to put it on Bruce's task list to create submarine gear or like a a breather just for like like one of those little like O2 canisters.",
+            "heroism": "I will heal Bru. This time with the current I'm going use a decent one. 14 health for Bru.",
+            "comedy": "Um, so the spell description on levitate says by the way when the spell ends the target floats gently to the ground if it is still allowed. So can I just kill it midair and then have I mean if we interpret that",
+            "immersion": "Um, all right. Angel, we cast command on you and wisdom saving throw 17.",
+            "strategy": "I mean, we're lightening it, right? So what about fast speed? But hear me out. What if instead of trying to have them pull, it's more like the movie Up with like balloons and that they're like a bunch of birds like slowing the descent.",
+            "curiosity": "Um, is the plane is the plane doing something to protect? No, it's the person. What's protect? Where is"
+          },
+          "Silas": {
+            "chaos": "Um, I'm going to use the grapple hook to tether us to the car and I'm going to stick myself to the angel so that we're dragging him and hopefully he's like holding us up a little",
+            "heroism": "And I want to whisper into her ear as I do it. Um, if you believed in Luna, you'd go to heaven.",
+            "comedy": "Yeah, Paladins heal and they smash. That's about it.",
+            "immersion": "Um, as like I guess he like stabs at me, suddenly I like dig deep and I like have this massive surge of power like you know Goku style here. Okay.",
+            "strategy": "Like if you were to have that conversation in character, I feel like uh Silas would be like, 'What are you complaining about? I sent you with Bru.' You know, he's a professional criminal.",
+            "curiosity": "Um, does silos suspect does like silos have a reason to think that when we pulled one of the L's bits out of that what we thought was like a training simulator, they might have actually been piloting a ship"
+          },
+          "Topher": {
+            "chaos": "Um, I think we already noted the bugatti can only hold two people. Um, so, I think fitting everybody will be pretty difficult.",
+            "heroism": "I note this because it allows me to um attempt to destroy you all. And so those are the stakes that leaving the city will be.",
+            "comedy": "Okay, oh, are you reeling in the grappling hook, too? Okay. Okay, or you know when you get your like navigation instructions and they're like turn in two feet. Oh s***.",
+            "immersion": "And like uh the the blood like leaves it leaves her brain and she uh starts falling.",
+            "strategy": "So I think you could like levitate 500 lb worth of the car effectively like reducing its like you know gravitational uh effect of it.",
+            "curiosity": "Um, I would like to let you know. Um you all have uh a chance to level up. Now I don't want you to do it yet."
+          },
+          "Olivia": {
+            "chaos": "I think the plan is we're going to uh try to clear this this forest. So, I'm going to need you to make us some sort of like little air halfpipey ramp to kind of that will will land and launch us over this this uh forest.",
+            "heroism": "And she's just going to shout like, 'f*** your fake moon.' and slice her head off.",
+            "comedy": "The roll was amazing. I rolled. It was amazing.",
+            "immersion": "Yeah, I'm just fighting. I'm just being real cool fighting on the standing on the back of a flying car fighting stole. Here's the Bugatti.",
+            "strategy": "As long as they're within 60 ft, I'm going to try and scare them. It's a wisdom save with a uh",
+            "curiosity": "Um, she's really far away. I am going to question. Can I use Bob the turn that I summon him or do I have to wait a turn?"
+          }
+        },
+        "superlatives": {
+          "mvp": {
+            "player": "Olivia",
+            "quote": "And she's just going to shout like, 'f*** your fake moon.' and slice her head off."
+          },
+          "best_joke": {
+            "player": "Silas",
+            "quote": "Yeah, Paladins heal and they smash. That's about it."
+          },
+          "most_chaotic": {
+            "player": "Silas",
+            "quote": "I'm going to throw a dagger in the air, arc it, and collide right on top of the angel as they are like steaming ahead and I'm on top of them."
+          },
+          "decision_driver": "Unidentified Speaker"
+        }
+      }
     }
   ],
   "aggregate": {
-    "total_sessions": 78,
-    "sessions_with_transcripts": 35,
-    "total_words": 889678,
-    "total_blocks": 127547,
-    "total_duration_seconds": 351200,
+    "total_sessions": 79,
+    "sessions_with_transcripts": 36,
+    "total_words": 917755,
+    "total_blocks": 131368,
+    "total_duration_seconds": 363100,
     "speaker_totals": [
       {
         "name": "Topher",
         "canonical": "Topher",
         "role": "dm",
         "player": "Topher",
-        "sessions": 35,
-        "blocks": 32343,
-        "words": 283676,
-        "talk_seconds_est": 53190
+        "sessions": 36,
+        "blocks": 33561,
+        "words": 293174,
+        "talk_seconds_est": 57854
       },
       {
         "name": "Silas",
         "canonical": "Silas Fairbanks",
         "role": "pc",
         "player": "Taylor Ramsey",
-        "sessions": 35,
-        "blocks": 26855,
-        "words": 222311,
-        "talk_seconds_est": 22445
+        "sessions": 36,
+        "blocks": 27770,
+        "words": 230146,
+        "talk_seconds_est": 27328
       },
       {
         "name": "Elspeth",
@@ -8489,20 +8681,20 @@
         "canonical": "Olivia Cooper",
         "role": "pc",
         "player": "Ellis Taylor",
-        "sessions": 26,
-        "blocks": 15264,
-        "words": 87189,
-        "talk_seconds_est": 13043
+        "sessions": 27,
+        "blocks": 15405,
+        "words": 88038,
+        "talk_seconds_est": 13139
       },
       {
         "name": "Leliana",
         "canonical": "Leliana Goldspring",
         "role": "pc",
         "player": "Luke Neverisky",
-        "sessions": 27,
-        "blocks": 11471,
-        "words": 52720,
-        "talk_seconds_est": 13009
+        "sessions": 28,
+        "blocks": 12105,
+        "words": 56054,
+        "talk_seconds_est": 13941
       },
       {
         "name": "Ohma",
@@ -8513,6 +8705,16 @@
         "blocks": 5453,
         "words": 40488,
         "talk_seconds_est": 0
+      },
+      {
+        "name": "Unidentified Speaker",
+        "canonical": "Unidentified Speaker",
+        "role": "guest",
+        "player": null,
+        "sessions": 1,
+        "blocks": 913,
+        "words": 6561,
+        "talk_seconds_est": 1068
       },
       {
         "name": "Helisanna",
@@ -8586,17 +8788,17 @@
       }
     ],
     "top_npcs": {
-      "Scarlet": 308,
+      "Scarlet": 313,
       "Victor": 246,
       "George": 240,
-      "Luna": 225,
-      "Iro": 149,
+      "Luna": 226,
+      "Iro": 151,
       "Gary": 121,
       "Lady Viper": 67,
       "Astro": 63,
-      "Naomi": 60,
+      "Naomi": 61,
       "Chalk Rock": 35,
-      "Captain Steel": 31,
+      "Captain Steel": 33,
       "Finnegan": 31,
       "Crowley": 20,
       "Belspeth Booper": 17,
@@ -8613,7 +8815,7 @@
       "Steven Goldspring": 1
     },
     "top_locations": {
-      "Greyport": 74,
+      "Greyport": 75,
       "High Forge": 55,
       "Sexy Peacock": 22,
       "Little Cradle": 7,
@@ -8623,14 +8825,14 @@
       "Grimvar's Spine": 1
     },
     "top_pcs_mentioned": {
-      "Bru": 1185,
+      "Bru": 1217,
       "Red": 24,
       "Olivia": 20,
       "Elspeth": 5,
       "Leliana": 1
     },
     "nat20_mentions": 13,
-    "nat1_mentions": 1,
+    "nat1_mentions": 2,
     "personality_by_player": {
       "00": {
         "sessions_scored": 1,
@@ -8976,13 +9178,13 @@
         }
       },
       "Leliana": {
-        "sessions_scored": 25,
+        "sessions_scored": 26,
         "mean_scores": {
-          "chaos": 9.0,
+          "chaos": 8.9,
           "heroism": 11.9,
           "comedy": 9.8,
-          "immersion": 13.0,
-          "strategy": 10.5,
+          "immersion": 12.9,
+          "strategy": 10.6,
           "curiosity": 10.2
         },
         "signature_evidence": {
@@ -9074,14 +9276,14 @@
         }
       },
       "Olivia": {
-        "sessions_scored": 25,
+        "sessions_scored": 26,
         "mean_scores": {
           "chaos": 8.5,
-          "heroism": 13.0,
+          "heroism": 13.2,
           "comedy": 9.8,
-          "immersion": 11.8,
+          "immersion": 11.9,
           "strategy": 12.3,
-          "curiosity": 11.2
+          "curiosity": 11.0
         },
         "signature_evidence": {
           "chaos": {
@@ -9116,20 +9318,20 @@
           }
         },
         "superlative_counts": {
-          "mvp": 8,
+          "mvp": 9,
           "best_joke": 1,
           "most_chaotic": 0,
           "decision_driver": 2
         }
       },
       "Silas": {
-        "sessions_scored": 33,
+        "sessions_scored": 34,
         "mean_scores": {
           "chaos": 10.5,
-          "heroism": 10.8,
+          "heroism": 10.9,
           "comedy": 12.4,
           "immersion": 13.4,
-          "strategy": 15.3,
+          "strategy": 15.2,
           "curiosity": 12.3
         },
         "signature_evidence": {
@@ -9166,20 +9368,20 @@
         },
         "superlative_counts": {
           "mvp": 12,
-          "best_joke": 13,
-          "most_chaotic": 5,
+          "best_joke": 14,
+          "most_chaotic": 6,
           "decision_driver": 25
         }
       },
       "Topher": {
-        "sessions_scored": 33,
+        "sessions_scored": 34,
         "mean_scores": {
-          "chaos": 12.5,
-          "heroism": 10.3,
+          "chaos": 12.4,
+          "heroism": 10.2,
           "comedy": 13.4,
           "immersion": 15.0,
-          "strategy": 12.8,
-          "curiosity": 11.8
+          "strategy": 12.9,
+          "curiosity": 11.7
         },
         "signature_evidence": {
           "chaos": {
@@ -9218,6 +9420,55 @@
           "best_joke": 6,
           "most_chaotic": 2,
           "decision_driver": 0
+        }
+      },
+      "Unidentified Speaker": {
+        "sessions_scored": 1,
+        "mean_scores": {
+          "chaos": 14.0,
+          "heroism": 12.0,
+          "comedy": 11.0,
+          "immersion": 13.0,
+          "strategy": 10.0,
+          "curiosity": 9.0
+        },
+        "signature_evidence": {
+          "chaos": {
+            "quote": "Can we just use the van or we just all hop in the pocket village and only Elspeth does the jump?",
+            "session": "session-64",
+            "score": 14
+          },
+          "heroism": {
+            "quote": "I am going to use my whenever I whenever it's my turn and I can use objure foe in there within 60 ft. I'm going to use my bonus action and touch myself and heal myself a little bit.",
+            "session": "session-64",
+            "score": 12
+          },
+          "comedy": {
+            "quote": "Liberty Mutual's commercials. It's perfect time for some car insurance has great coverage and save. Thanks.",
+            "session": "session-64",
+            "score": 11
+          },
+          "immersion": {
+            "quote": "Uh she's gonna like as she's leaning in, she's like as she's swinging her axe and the you can see like the power of tear come out around her ax and maybe even like forms like him on the end.",
+            "session": "session-64",
+            "score": 13
+          },
+          "strategy": {
+            "quote": "So when the angel's within 60 ft of us, I want to try using objure foe, casting that with one of my channel divinities.",
+            "session": "session-64",
+            "score": 10
+          },
+          "curiosity": {
+            "quote": "Is the fact that Tier is beating the Seldoran soldiers uh goddess giving them any sort of existential crisis yet?",
+            "session": "session-64",
+            "score": 9
+          }
+        },
+        "superlative_counts": {
+          "mvp": 0,
+          "best_joke": 0,
+          "most_chaotic": 0,
+          "decision_driver": 1
         }
       }
     }

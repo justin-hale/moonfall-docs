@@ -2340,6 +2340,67 @@
           "quote": "If… if Bru can say that he's going to steal the sun, which is the opposite of the whole premise of the first Despicable Me movie, Okay. So if Bru can say that he's going to steal the sun... I can take the sun with me."
         }
       }
+    },
+    "session-64": {
+      "timing_quality": "exact",
+      "duration_seconds": 11900,
+      "word_count": 28077,
+      "players_present": [
+        "Silas",
+        "Leliana",
+        "Olivia"
+      ],
+      "attendance_source": "transcript",
+      "speakers": [
+        {
+          "name": "Topher",
+          "role": "dm",
+          "word_share": 0.3383
+        },
+        {
+          "name": "Silas",
+          "role": "pc",
+          "word_share": 0.2791
+        },
+        {
+          "name": "Unidentified Speaker",
+          "role": "guest",
+          "word_share": 0.2337
+        },
+        {
+          "name": "Leliana",
+          "role": "pc",
+          "word_share": 0.1187
+        },
+        {
+          "name": "Olivia",
+          "role": "pc",
+          "word_share": 0.0302
+        }
+      ],
+      "top_npcs": {
+        "Scarlet": 5,
+        "Captain Steel": 2,
+        "Iro": 2
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 1
+      },
+      "superlatives": {
+        "mvp": {
+          "player": "Olivia",
+          "quote": "And she's just going to shout like, 'f*** your fake moon.' and slice her head off."
+        },
+        "best_joke": {
+          "player": "Silas",
+          "quote": "Yeah, Paladins heal and they smash. That's about it."
+        },
+        "most_chaotic": {
+          "player": "Silas",
+          "quote": "I'm going to throw a dagger in the air, arc it, and collide right on top of the angel as they are like steaming ahead and I'm on top of them."
+        }
+      }
     }
   }
 }
