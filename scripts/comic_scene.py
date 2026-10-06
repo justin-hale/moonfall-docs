@@ -60,6 +60,12 @@ FONTS_DIR = Path(__file__).resolve().parent / "fonts"
 SCRIPT_MODEL = "claude-opus-5-5"
 # Gemini image model IDs churn; override without a code change.
 IMAGE_MODEL = os.environ.get("GEMINI_IMAGE_MODEL", "gemini-3-pro-image-preview")
+# A per-run ceiling on Gemini image requests, retries included: the backstop
+# for the AI Studio spend cap, which Google enforces up to ~10 minutes late.
+# The default fits a full 6-panel page plus a few retries.
+MAX_IMAGE_REQUESTS = int(os.environ.get("COMIC_MAX_IMAGES", "10"))
+# Only for the cost estimate printed at the end. Nano Banana Pro at 1K-2K.
+PRICE_PER_IMAGE = float(os.environ.get("GEMINI_PRICE_PER_IMAGE", "0.134"))
 
 MIN_PANELS, MAX_PANELS = 3, 6
 
@@ -295,7 +301,25 @@ def unverified_lines(script, blocks, window=6, threshold=0.7):
 # Stage 2: art
 # --------------------------------------------------------------------------
 
+image_requests = 0
+
+
+def check_image_budget(needed):
+    """Refuse a run that cannot finish within the cap before it spends anything."""
+    if needed > MAX_IMAGE_REQUESTS:
+        raise SystemExit(
+            f"This run needs at least {needed} image requests but COMIC_MAX_IMAGES is "
+            f"{MAX_IMAGE_REQUESTS}. Draw fewer (--panel N, or name fewer portraits) or "
+            f"raise COMIC_MAX_IMAGES.")
+
+
+def image_cost_summary():
+    return (f"Gemini image requests this run: {image_requests} "
+            f"(about ${image_requests * PRICE_PER_IMAGE:.2f} at ${PRICE_PER_IMAGE} each)")
+
+
 def gemini_image(contents, aspect, attempts=3):
+    global image_requests
     from google import genai
     from google.genai import types
 
@@ -306,6 +330,11 @@ def gemini_image(contents, aspect, attempts=3):
     )
     last = None
     for attempt in range(1, attempts + 1):
+        if image_requests >= MAX_IMAGE_REQUESTS:
+            raise SystemExit(
+                f"Stopped at COMIC_MAX_IMAGES={MAX_IMAGE_REQUESTS} image requests. "
+                f"Panels already drawn are saved; finish with --redraw --panel N.")
+        image_requests += 1
         response = client.models.generate_content(model=IMAGE_MODEL, contents=contents, config=config)
         for candidate in response.candidates or []:
             for part in (candidate.content.parts if candidate.content else None) or []:
@@ -351,6 +380,7 @@ def reference_parts(panel, sheets, previous=None):
 
 def draw_panels(script, sheets, comic_dir, only=None):
     comic_dir.mkdir(parents=True, exist_ok=True)
+    check_image_budget(1 if only is not None else len(script.panels))
     previous = None
     for number, panel in enumerate(script.panels, 1):
         path = comic_dir / f"panel-{number}.webp"
@@ -368,16 +398,19 @@ def draw_panels(script, sheets, comic_dir, only=None):
 
 def draw_portraits(names, force=False):
     sheets = load_sheets()
-    targets = names or list(sheets["characters"])
-    for name in targets:
+    todo = []
+    for name in names or list(sheets["characters"]):
         key, entry = find_character(sheets, name)
         if not entry:
             raise SystemExit(f"{name} is not in {SHEETS_PATH.relative_to(ROOT)}")
         ref = entry.get("reference") or f"static/img/characters/{slugify(key)}.webp"
-        path = ROOT / ref
-        if path.exists() and not force:
+        if (ROOT / ref).exists() and not force:
             print(f"  {key}: {ref} exists (use --force to redraw)")
             continue
+        todo.append((key, entry, ref))
+    check_image_budget(len(todo))
+    for key, entry, ref in todo:
+        path = ROOT / ref
         print(f"  Drawing reference portrait for {key}")
         prompt = (
             f"{sheets['style']}\n\nCharacter reference sheet for {key}: {entry['description']}\n\n"
@@ -386,9 +419,11 @@ def draw_portraits(names, force=False):
         )
         path.parent.mkdir(parents=True, exist_ok=True)
         gemini_image([prompt], "3:4").save(path, "WEBP", quality=90)
-        if entry.get("reference") != ref:
-            entry["reference"] = ref
-    SHEETS_PATH.write_text(json.dumps(sheets, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+        entry["reference"] = ref
+        # Saved per portrait, so hitting the image cap keeps the ones drawn.
+        SHEETS_PATH.write_text(json.dumps(sheets, indent=2, ensure_ascii=False) + "\n",
+                               encoding="utf-8")
+    print(f"  {image_cost_summary()}")
 
 
 # --------------------------------------------------------------------------
@@ -608,6 +643,7 @@ def main(argv=None):
 
     if not args.letter_only:
         draw_panels(script, sheets, comic_dir, only=args.panel if args.redraw else None)
+        print(f"  {image_cost_summary()}")
 
     session_title = rp.get_frontmatter_value(recap_text, "title") or recap_path.stem
     page = letter_page(script, sheets, comic_dir, f"Session {session_title}")

@@ -432,9 +432,91 @@ edit `data/comics/<slug>/script.json` on the PR branch and run Draw Comic
 again **from that branch** with mode `redraw` (add a panel number to redraw
 just one) or `letter-only` for wording changes, which costs nothing.
 
-Needs a `GEMINI_API_KEY` repository secret next to `ANTHROPIC_API_KEY`. The
-image model defaults to `gemini-3-pro-image-preview`; set a
-`GEMINI_IMAGE_MODEL` repository variable to change it without a code change.
+Needs a `GEMINI_API_KEY` repository secret next to `ANTHROPIC_API_KEY`; see
+**Gemini key and budget** below. The image model defaults to
+`gemini-3-pro-image-preview`; set a `GEMINI_IMAGE_MODEL` repository variable
+to change it without a code change.
+
+### Gemini key and budget
+
+Comics are billed to whoever owns the Gemini key, and Gemini's image models
+have no free tier. So the key lives in its own Google project with a hard
+monthly cap, and the script has a per-run cap of its own. Google's menu
+names move around; if a label below has changed, the
+[billing docs](https://ai.google.dev/gemini-api/docs/billing) have the
+current one.
+
+**What it costs** (Google's list prices as of October 2026; check the
+[pricing page](https://ai.google.dev/gemini-api/docs/pricing)):
+
+| Run | Gemini image requests | Approx. cost |
+|-----|-----------------------|--------------|
+| One 3-panel comic | 3 | $0.40 |
+| One 6-panel comic | 6 | $0.80 |
+| Redraw one panel | 1 | $0.13 |
+| One reference portrait | 1 | $0.13 |
+| Portraits for the whole sheet (15) | 15 | $2.00 |
+| `--letter-only` | 0 | free |
+
+That is about $0.134 per image for Nano Banana Pro at the default resolution,
+plus a fraction of a cent for the reference images it reads. A retry after
+a blocked image is another request. The Claude call that writes the script
+is billed separately, to `ANTHROPIC_API_KEY`: one call that reads the whole
+transcript, roughly $0.25–0.50 per comic.
+
+**1. Create the key in its own project**
+1. Sign in at [Google AI Studio](https://aistudio.google.com) with the Google
+   account that will pay.
+2. Open **Get API key** (or **API keys**) → **Create API key** → **Create in a
+   new project**, and name the project something like `moonfall-comics`. A
+   project of its own keeps comic spend out of anything else on the account,
+   and gives it its own cap.
+3. Next to the new key, choose **Set up billing** and attach a billing account.
+   Image generation fails until you do.
+
+**2. Cap the spend** (the actual budget limit)
+1. In AI Studio open **Spend**, pick the `moonfall-comics` project, then
+   **Monthly spend cap** → **Edit spend cap**. Setting it needs the project's
+   owner, editor or admin role.
+2. **$10/month** is a sensible start: about ten full comics with redraws, or
+   every portrait several times over. Once the project reaches the cap, Gemini
+   refuses requests (HTTP 429) until the month rolls over or someone raises it.
+3. Google enforces the cap up to **about 10 minutes late**, and you pay for
+   whatever runs in that window. That is why the script also stops itself at
+   `COMIC_MAX_IMAGES` requests per run (default 10, retries included). It
+   refuses a run that needs more than that before making a single request,
+   and every run ends by printing its request count and estimated cost.
+4. Optional: in the Google Cloud console under **Billing → Budgets & alerts**,
+   add a budget for the same amount to get emails at 50/90/100%. Budgets only
+   warn; the AI Studio cap is what actually stops spending.
+
+**3. Lock the key down** (optional, recommended)
+
+In the [Google Cloud console](https://console.cloud.google.com) for that
+project: **APIs & Services → Credentials** → the key → **API restrictions →
+Restrict key** → only **Generative Language API**. A leaked key then can't be
+used for any other Google service.
+
+**4. Give it to GitHub**
+1. On GitHub open `justin-hale/moonfall-docs` → **Settings → Secrets and
+   variables → Actions**. Only a repository admin sees **Settings**.
+2. **New repository secret**, name `GEMINI_API_KEY`, paste the key, save.
+   Never paste the key into an issue, PR, commit or chat; the secret store is
+   the only place it goes.
+3. Optional, on the **Variables** tab: `COMIC_MAX_IMAGES` to change the
+   per-run cap, `GEMINI_IMAGE_MODEL` to switch models (a Flash image model is
+   cheaper per image; update `GEMINI_PRICE_PER_IMAGE` locally if you want the
+   printed estimate to match).
+
+**5. Check it with the cheapest possible run**
+
+Run **Draw Comic** with mode `portraits` and target `Bru`. That is one image,
+about $0.13. It should open a PR with `static/img/characters/bru.webp`, and the
+spend should appear on AI Studio's **Spend** page shortly after. Keep the
+portrait if Bru's player likes it; otherwise close the PR.
+
+To run locally instead, `export GEMINI_API_KEY=...` in your shell. Don't put
+it in a file in the repo.
 
 ### Locally
 
@@ -473,6 +555,13 @@ about how each character looks; each entry's `gaps` lists what nobody has
 described, which the art model will otherwise make up. Filling those in,
 then generating a portrait per PC with `--portraits` and keeping the one its
 player likes, does more for consistency than anything else.
+
+Art the group already has works as a reference too. Save it at the path in
+the character's `reference` field (`static/img/characters/<name>.webp`; any
+image format opens, but keep the name) and commit it. A character whose
+`reference` file does not exist yet is simply drawn from the description.
+Leliana, Elspeth and Scarlet have reference paths set, with their portraits
+still to be added.
 
 ## Other Scripts
 

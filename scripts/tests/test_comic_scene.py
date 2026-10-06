@@ -113,3 +113,31 @@ def test_letter_page_renders_every_panel(tmp_path):
     assert page.size == (cs.PAGE_W, height)
     assert len(boxes) == 3
     assert boxes[1][1] == boxes[2][1]  # the halves share a row
+
+
+def test_budget_refuses_an_oversized_run_up_front(monkeypatch):
+    monkeypatch.setattr(cs, "MAX_IMAGE_REQUESTS", 4)
+    cs.check_image_budget(4)
+    with pytest.raises(SystemExit, match="COMIC_MAX_IMAGES"):
+        cs.check_image_budget(5)
+
+
+def test_budget_counts_retries_and_stops_at_the_cap(monkeypatch):
+    from types import SimpleNamespace
+
+    from google import genai
+
+    calls = []
+
+    class FakeModels:
+        def generate_content(self, **kwargs):
+            calls.append(kwargs)
+            return SimpleNamespace(candidates=[], prompt_feedback="blocked")
+
+    monkeypatch.setattr(genai, "Client", lambda: SimpleNamespace(models=FakeModels()))
+    monkeypatch.setattr(cs, "MAX_IMAGE_REQUESTS", 2)
+    monkeypatch.setattr(cs, "image_requests", 0)
+    with pytest.raises(SystemExit, match="Stopped at COMIC_MAX_IMAGES=2"):
+        cs.gemini_image(["prompt"], "16:9", attempts=3)
+    assert len(calls) == 2
+    assert cs.image_requests == 2

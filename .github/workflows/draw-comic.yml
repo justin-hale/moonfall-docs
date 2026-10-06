@@ -51,6 +51,8 @@ jobs:
       ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
       GEMINI_IMAGE_MODEL: ${{ vars.GEMINI_IMAGE_MODEL || 'gemini-3-pro-image-preview' }}
+      # Per-run ceiling on image requests (retries count). See scripts/README.md → Gemini key and budget.
+      COMIC_MAX_IMAGES: ${{ vars.COMIC_MAX_IMAGES || '10' }}
       TARGET: ${{ github.event.inputs.target }}
       MODE: ${{ github.event.inputs.mode }}
       SCENE: ${{ github.event.inputs.scene }}
@@ -75,11 +77,12 @@ jobs:
         if: env.MODE != 'letter-only'
         run: |
           if [ -z "$GEMINI_API_KEY" ]; then
-            echo "::error::Add a GEMINI_API_KEY repository secret (Settings → Secrets and variables → Actions)."
+            echo "::error::No GEMINI_API_KEY secret. Setup steps: scripts/README.md, section 'Gemini key and budget'."
             exit 1
           fi
 
       - name: Draw
+        id: draw
         run: |
           set -o pipefail
           case "$MODE" in
@@ -90,7 +93,10 @@ jobs:
           esac
           python scripts/comic_scene.py "${args[@]}" | tee "$RUNNER_TEMP/comic-log.txt"
 
+      # Also after a failed Draw: a run stopped by COMIC_MAX_IMAGES has already
+      # paid for the panels it drew, so they are kept (the job still goes red).
       - name: Commit and open PR
+        if: ${{ !cancelled() }}
         env:
           GH_TOKEN: ${{ secrets.OMELAS_PAT || github.token }}
         run: |
@@ -105,6 +111,9 @@ jobs:
             message="Draw reference portraits: $TARGET"
           else
             message="Comic for session $TARGET ($MODE)"
+          fi
+          if [ "${{ steps.draw.outcome }}" != "success" ]; then
+            message="Incomplete: $message"
           fi
           if [ "${GITHUB_REF_NAME}" != "main" ]; then
             git commit -m "$message"
