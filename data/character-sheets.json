@@ -69,17 +69,17 @@
       "aliases": [
         "Olivia"
       ],
-      "description": "Elderly female dwarf paladin and retired detective, Elspeth's grandmother. Subtle three-piece pinstripe suit, fedora with a feather, a cane carried for fun, and a monocle (her Eyes of Minute Seeing). Fights with an axe.",
-      "gaps": [
-        "hair",
-        "face"
-      ],
+      "description": "Elderly female dwarf paladin and retired detective, Elspeth's grandmother: short curly silver-grey hair, stern weathered face. Everyday look: subtle three-piece pinstripe suit, fedora with a feather, a cane carried for fun, and a monocle (her Eyes of Minute Seeing). In battle: ornate gold breastplate and pauldrons over ochre and teal robes, a cream shawl, leather belts and boots, a round bronze shield; fights with an axe.",
+      "gaps": [],
       "sources": [
         "sessions/interlude-7.md",
         "sessions/session-47.md",
         "sessions/session-43.md",
-        "sessions/interlude-14.md"
-      ]
+        "sessions/interlude-14.md",
+        "reference portrait supplied by the group (2026-10-06)"
+      ],
+      "reference": "static/img/characters/olivia-cooper.webp",
+      "notes": "The reference portrait shows her battle gear with a sword; the transcripts have her fighting with an axe, so the description keeps the axe."
     },
     "Bob": {
       "label": "Bob",
