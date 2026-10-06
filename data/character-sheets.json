@@ -7,18 +7,16 @@
       "aliases": [
         "Silas"
       ],
-      "description": "Male halfling rogue-sorcerer, small and wiry, band manager with a showman's swagger. Wears the Cloak of Arachnida and scuttles on all fours spider-style; a memorial spell tattoo, and the name ASTRO written on his forearm.",
-      "gaps": [
-        "hair",
-        "face",
-        "build",
-        "usual clothes"
-      ],
+      "description": "Male halfling rogue-sorcerer, about 40, small and wiry, a grifter and band manager with a showman's swagger. Mop of dark curly hair, short scruffy beard, pointed ears, sharp friendly face with keen eyes. Weathered olive-green leather-bound overcoat with pouches and brass fittings over a red waistcoat, grey-green scarf; belts hung with gears, chains, a compass and a small telescope; thick leather bracers; laced mid-calf boots. Sometimes wears the Cloak of Arachnida and scuttles on all fours spider-style; a memorial spell tattoo, and the name ASTRO written on his forearm.",
+      "gaps": [],
       "sources": [
         "items/cloak-of-arachnida.md",
         "sessions/session-22.md",
-        "npcs/astro.md"
-      ]
+        "npcs/astro.md",
+        "Taylor's character doc (Google Drive)",
+        "reference portrait supplied by the group (2026-10-06)"
+      ],
+      "reference": "static/img/characters/silas-fairbanks.webp"
     },
     "Bru": {
       "label": "Bru",
