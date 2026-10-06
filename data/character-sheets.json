@@ -1,0 +1,224 @@
+{
+  "_about": "Visual reference for scripts/comic_scene.py. 'description' goes into every image prompt, so keep it to what the table has actually said; 'gaps' lists what nobody has described yet and the art model will otherwise make up. 'reference' is an approved portrait (generate with --portraits, keep the one the player likes). 'label' is the name shown in speech balloons.",
+  "style": "Comic book panel art in a modern fantasy-meets-technology world (magic, guns, cars, starships, broadcast drones). Bold confident ink linework, flat cel-shaded colour with halftone-dot shading, dramatic lighting, dynamic camera angles, expressive faces. Consistent character designs throughout.",
+  "characters": {
+    "Silas Fairbanks": {
+      "label": "Silas",
+      "aliases": [
+        "Silas"
+      ],
+      "description": "Male halfling rogue-sorcerer, about 40, small and wiry, a grifter and band manager with a showman's swagger. Mop of dark curly hair, short scruffy beard, pointed ears, sharp friendly face with keen eyes. Weathered olive-green leather-bound overcoat with pouches and brass fittings over a red waistcoat, grey-green scarf; belts hung with gears, chains, a compass and a small telescope; thick leather bracers; laced mid-calf boots. Sometimes wears the Cloak of Arachnida and scuttles on all fours spider-style; a memorial spell tattoo, and the name ASTRO written on his forearm.",
+      "gaps": [],
+      "sources": [
+        "items/cloak-of-arachnida.md",
+        "sessions/session-22.md",
+        "npcs/astro.md",
+        "Taylor's character doc (Google Drive)",
+        "reference portrait supplied by the group (2026-10-06)"
+      ],
+      "reference": "static/img/characters/silas-fairbanks.webp"
+    },
+    "Bru": {
+      "label": "Bru",
+      "aliases": [
+        "Felonias Bru"
+      ],
+      "description": "Male goblin artificer, small, inventive and scheming: bright green bald head, long pointed ears, long hooked nose, big expressive eyes and a sly grin. Layered cream and blue-grey scarves, a dark fur-trimmed coat over a brown buttoned tunic and belt; carries a wooden staff topped with a glowing crystal. Often in disguise; a favourite is a white Colonel-Sanders-style suit with black tie. Has worn a top hat, and a luchador mask with welding goggles.",
+      "gaps": [
+        "his construct Kevin",
+        "his familiar Crimson"
+      ],
+      "sources": [
+        "sessions/session-26.md",
+        "sessions/interlude-7.md",
+        "sessions/session-63.md",
+        "reference portrait supplied by the group (2026-10-06)"
+      ],
+      "reference": "static/img/characters/bru.webp",
+      "notes": "Reference is a small screenshot (about 120px); swap in the full-size original when available."
+    },
+    "Elspeth Cooper": {
+      "label": "Elspeth",
+      "aliases": [
+        "Elspeth"
+      ],
+      "description": "Female dwarf artificer and gunslinger, a racer and mechanic. Dark hair in long braids with brass goggles pushed up into it, freckles, grease smudged on her face; khaki work jacket or overalls with leather straps. Carries magical firearms.",
+      "gaps": [],
+      "sources": [
+        "transcript 2026-05-15 (S53, her player)",
+        "transcript 2026-05-29 (S54)",
+        "reference portrait supplied by the group (2026-10-06)"
+      ],
+      "reference": "static/img/characters/elspeth-cooper.webp"
+    },
+    "BoxBox": {
+      "label": "BoxBox",
+      "aliases": [
+        "Box Box"
+      ],
+      "description": "Elspeth's steel defender, a sturdy boxy mechanical construct companion (he).",
+      "gaps": [
+        "everything beyond 'steel defender'"
+      ],
+      "sources": [
+        "player-characters/elspeth.md"
+      ]
+    },
+    "Olivia Cooper": {
+      "label": "Olivia",
+      "aliases": [
+        "Olivia"
+      ],
+      "description": "Elderly female dwarf paladin and retired detective, Elspeth's grandmother: short curly silver-grey hair, stern weathered face. Everyday look: subtle three-piece pinstripe suit, fedora with a feather, a cane carried for fun, and a monocle (her Eyes of Minute Seeing). In battle: ornate gold breastplate and pauldrons over ochre and teal robes, a cream shawl, leather belts and boots, a round bronze shield; fights with an axe.",
+      "gaps": [],
+      "sources": [
+        "sessions/interlude-7.md",
+        "sessions/session-47.md",
+        "sessions/session-43.md",
+        "sessions/interlude-14.md",
+        "reference portrait supplied by the group (2026-10-06)"
+      ],
+      "reference": "static/img/characters/olivia-cooper.webp",
+      "notes": "The reference portrait shows her battle gear with a sword; the transcripts have her fighting with an axe, so the description keeps the axe."
+    },
+    "Bob": {
+      "label": "Bob",
+      "aliases": [],
+      "description": "Olivia's fey steed: a horse-sized woolly ram, mountain-goat-like (he).",
+      "gaps": [
+        "colour",
+        "horns",
+        "fey details"
+      ],
+      "sources": [
+        "sessions/session-64.md",
+        "transcript 2026-09-25"
+      ]
+    },
+    "Ohma Kapua": {
+      "label": "Ohma",
+      "aliases": [
+        "Ohma"
+      ],
+      "description": "Male tortle monk and wrestler: a humanoid turtle whose shell bears ancient curse markings.",
+      "gaps": [
+        "shell and skin colour",
+        "clothing"
+      ],
+      "sources": [
+        "player-characters/ohma.md"
+      ]
+    },
+    "Leliana Goldspring": {
+      "label": "Leliana",
+      "aliases": [
+        "Leliana",
+        "Lily"
+      ],
+      "description": "Human woman, bard: tan skin, long loose wavy blonde hair, warm and friendly face; bright colourful summery clothes in warm tones over studded leather. Plays the Blue Moon guitar, an electric guitar with a blue crescent moon and steel strings, and can fly on it. Same face and build as Helisanna, her other persona; when she switches, a lightning streak of colour runs down her right eye.",
+      "gaps": [],
+      "sources": [
+        "player-characters/leliana.md",
+        "data/campaign-kb.md",
+        "transcript 2026-07-17 (S57, DM)",
+        "reference portrait supplied by the group (2026-10-06)"
+      ],
+      "reference": "static/img/characters/leliana-goldspring.webp",
+      "notes": "The reference portrait shows an acoustic guitar; the DM described the Blue Moon guitar as electric (Session 57), so the description keeps the electric one. Reference is a small screenshot (about 120px); swap in the full-size original when available."
+    },
+    "Helisanna Doomfall": {
+      "label": "Helisanna",
+      "aliases": [
+        "Helisanna"
+      ],
+      "description": "Human woman, gothic rock frontwoman: pale skin, white hair, purple veins, dressed in black (gothic dress, ornate black cloak). Same face and build as Leliana, her other persona. Plays the Blue Moon guitar, an electric guitar with a blue crescent moon.",
+      "gaps": [
+        "hairstyle"
+      ],
+      "sources": [
+        "player-characters/helisanna.md",
+        "data/campaign-kb.md",
+        "sessions/session-26.md",
+        "sessions/interlude-7.md"
+      ]
+    },
+    "Scarlet": {
+      "label": "Scarlet",
+      "aliases": [
+        "Scarlett"
+      ],
+      "description": "Female elf engineer, about 300 years old but youthful in looks, with long pointed ears. Wavy shoulder-length blonde hair held back by a jewelled headband (sometimes tied in a ponytail), round wire-rimmed glasses, green eyes, freckles, red lipstick; drop earrings and layers of beaded necklaces. Pale blue floral short-sleeved blouse with brown suspenders; goggles when working. Sharp, sceptical expression. Tinkerer running dimensional experiments.",
+      "gaps": [],
+      "sources": [
+        "sessions/session-53.md",
+        "transcript 2026-09-18 (S62, DM)",
+        "reference portrait supplied by the group (2026-10-06)"
+      ],
+      "reference": "static/img/characters/scarlet.webp"
+    },
+    "Captain Steel": {
+      "label": "Steel",
+      "aliases": [
+        "Steel"
+      ],
+      "description": "Eldoran officer (he): ghastly grey, thin, androgynous-looking human, much of him replaced with bioforged parts, including a fully robotic arm and half his skull.",
+      "gaps": [
+        "uniform"
+      ],
+      "sources": [
+        "npcs/captain-steel.md",
+        "transcript 2026-07-17 (S57, DM)"
+      ]
+    },
+    "Lady Viper": {
+      "label": "Viper",
+      "aliases": [
+        "Elizandra Legrand"
+      ],
+      "description": "Twilight Company leader (she): black masquerade mask, a cobra (Mr. Slithers) draped on her shoulders, red-and-black floor-length coat that moves like a gown, brown hair in a precise bun, black leather gloves, long cigarette holder, thin dagger in a thigh holster.",
+      "gaps": [],
+      "sources": [
+        "npcs/lady-viper.md",
+        "transcript 2026-03-27 (DM)"
+      ]
+    },
+    "Naomi": {
+      "label": "Naomi",
+      "aliases": [],
+      "description": "Muscular half-orc woman, impeccably dressed; manager of the Lotus Casino.",
+      "gaps": [
+        "hair",
+        "outfit specifics"
+      ],
+      "sources": [
+        "npcs/naomi.md"
+      ]
+    },
+    "Luna": {
+      "label": "Luna",
+      "aliases": [],
+      "description": "The moon goddess (she): small and slight, elven features, bathed in brilliant moonlight.",
+      "gaps": [
+        "hair",
+        "clothing"
+      ],
+      "sources": [
+        "transcript 2026-03-20 (S46, DM)",
+        "npcs/luna.md"
+      ]
+    },
+    "The Bugatti": {
+      "label": "Bugatti",
+      "aliases": [
+        "Bugatti"
+      ],
+      "description": "The party's stolen luxury sports car, roughly a four-seater, much abused.",
+      "gaps": [
+        "colour"
+      ],
+      "sources": [
+        "items/bugatti.md"
+      ]
+    }
+  }
+}

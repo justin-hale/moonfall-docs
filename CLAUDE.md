@@ -10,6 +10,8 @@ This is a Docusaurus site (v3.9.2) serving as the documentation site for a D&D c
 - `data/campaign-kb.md` - Campaign knowledge base (canonical names, errors, plot threads)
 - `data/campaign-state.md` - Auto-updating running memory of all sessions
 - `data/publication-arc.json` - Publication meta-narrative config (writer personas, storyline beats)
+- `data/character-sheets.json` - How each character looks, for comic art (only what the table has said; `gaps` lists the rest)
+- `data/comics/<slug>/` - Comic panel scripts (`script.json`, hand-editable) and raw panel art; lettered pages go to `static/img/comics/`
 - `scripts/` - Automation scripts (Python)
 - `plugins/` - Transcript processing scripts
 
@@ -116,6 +118,7 @@ deployed by hand.
 
 ## Commands
 - `/fix-notes <page URL or session number> — <what is wrong>` - Correct a published recap (see above)
+- `python scripts/comic_scene.py <session> [--scene "Heading"]` - Draw a scene as a comic page and embed it under that heading in the recap (or run the **Draw Comic** workflow, which opens a PR). Comic text is lettered in code, never by the image model
 - `npm run build` - Build the Docusaurus site
 - `npm run start` - Start dev server
 - `python scripts/automate_session.py` - Generate session notes from transcript (also updates session stats)
