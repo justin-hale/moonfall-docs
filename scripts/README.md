@@ -417,6 +417,63 @@ deliberately stops at the PR: nothing is published until someone merges.
 
 Run the tests with `python -m pytest scripts/tests/ -q`.
 
+## comic_scene.py
+
+Turns a scene from a session into a comic-book page and embeds it in that
+session's recap, directly under the scene's `###` heading. Run on demand,
+never automatically: the group picks the moments worth drawing.
+
+### Easiest: the Draw Comic workflow
+
+Actions → **Draw Comic** → Run workflow from `main` with the session number
+(leave *scene* blank to let Claude choose, or paste a recap heading). It opens
+a "Comic for session N" PR; merging it publishes the page. To fix a panel,
+edit `data/comics/<slug>/script.json` on the PR branch and run Draw Comic
+again **from that branch** with mode `redraw` (add a panel number to redraw
+just one) or `letter-only` for wording changes, which costs nothing.
+
+Needs a `GEMINI_API_KEY` repository secret next to `ANTHROPIC_API_KEY`. The
+image model defaults to `gemini-3-pro-image-preview`; set a
+`GEMINI_IMAGE_MODEL` repository variable to change it without a code change.
+
+### Locally
+
+```bash
+pip install anthropic google-genai pillow pydantic
+python scripts/comic_scene.py 64                      # Claude picks the scene
+python scripts/comic_scene.py 64 --scene "The Missile"
+python scripts/comic_scene.py 64 --script-only        # script only, no art
+python scripts/comic_scene.py 64 --redraw --panel 3   # after editing script.json
+python scripts/comic_scene.py 64 --letter-only        # re-letter, no API calls
+python scripts/comic_scene.py --portraits Bru         # reference portrait
+```
+
+### How it works
+
+1. **Script**: Claude reads the recap and the transcript and writes 3–6
+   panels: what to draw, a caption, and dialogue trimmed from what was said
+   at the table. The transcript decides, as with `/fix-notes`. Any line it
+   cannot find in the transcript is printed (and lands in the PR body) as
+   "Check against the transcript". The KB's name-correction table is applied
+   to every word, the same guardrail recaps get.
+2. **Art**: Gemini draws each panel with no text in it. Characters come from
+   `data/character-sheets.json`; once a character has an approved portrait
+   (`reference`), it is passed as a reference image so they look the same
+   from panel to panel. The previous panel is passed too, to keep the style
+   steady. Raw panels are kept in `data/comics/<slug>/`.
+3. **Lettering**: Pillow lays out the page and adds captions, balloons and
+   sound effects in code (fonts in `scripts/fonts/`, both SIL OFL). The
+   model never draws text, so names can't come out misspelled. The page is
+   written to `static/img/comics/<slug>.webp`.
+
+### Character sheets
+
+`data/character-sheets.json` holds only what the table has actually said
+about how each character looks; each entry's `gaps` lists what nobody has
+described, which the art model will otherwise make up. Filling those in,
+then generating a portrait per PC with `--portraits` and keeping the one its
+player likes, does more for consistency than anything else.
+
 ## Other Scripts
 
 ### generate-sessions-data.js

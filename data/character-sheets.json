@@ -1,0 +1,111 @@
+{
+  "_about": "Visual reference for scripts/comic_scene.py. 'description' goes into every image prompt, so keep it to what the table has actually said; 'gaps' lists what nobody has described yet and the art model will otherwise make up. 'reference' is an approved portrait (generate with --portraits, keep the one the player likes). 'label' is the name shown in speech balloons.",
+  "style": "Comic book panel art in a modern fantasy-meets-technology world (magic, guns, cars, starships, broadcast drones). Bold confident ink linework, flat cel-shaded colour with halftone-dot shading, dramatic lighting, dynamic camera angles, expressive faces. Consistent character designs throughout.",
+  "characters": {
+    "Silas Fairbanks": {
+      "label": "Silas",
+      "aliases": ["Silas"],
+      "description": "Male halfling rogue-sorcerer, small and wiry, band manager with a showman's swagger. Wears the Cloak of Arachnida and scuttles on all fours spider-style; a memorial spell tattoo, and the name ASTRO written on his forearm.",
+      "gaps": ["hair", "face", "build", "usual clothes"],
+      "sources": ["items/cloak-of-arachnida.md", "sessions/session-22.md", "npcs/astro.md"]
+    },
+    "Bru": {
+      "label": "Bru",
+      "aliases": ["Felonias Bru"],
+      "description": "Male goblin artificer with green skin, small, inventive and scheming. Often in disguise; a favourite is a white Colonel-Sanders-style suit with black tie. Has worn a top hat, and a luchador mask with welding goggles.",
+      "gaps": ["face", "hair", "everyday outfit", "his construct Kevin", "his familiar Crimson"],
+      "sources": ["sessions/session-26.md", "sessions/interlude-7.md", "sessions/session-63.md"]
+    },
+    "Elspeth Cooper": {
+      "label": "Elspeth",
+      "aliases": ["Elspeth"],
+      "description": "Female dwarf artificer and gunslinger, a racer and mechanic. Braided hair with goggles pushed up into it, grease smudged on her face, overalls. Carries magical firearms.",
+      "gaps": ["hair colour", "face"],
+      "sources": ["transcript 2026-05-15 (S53, her player)", "transcript 2026-05-29 (S54)"]
+    },
+    "BoxBox": {
+      "label": "BoxBox",
+      "aliases": ["Box Box"],
+      "description": "Elspeth's steel defender, a sturdy boxy mechanical construct companion (he).",
+      "gaps": ["everything beyond 'steel defender'"],
+      "sources": ["player-characters/elspeth.md"]
+    },
+    "Olivia Cooper": {
+      "label": "Olivia",
+      "aliases": ["Olivia"],
+      "description": "Elderly female dwarf paladin and retired detective, Elspeth's grandmother. Subtle three-piece pinstripe suit, fedora with a feather, a cane carried for fun, and a monocle (her Eyes of Minute Seeing). Fights with an axe.",
+      "gaps": ["hair", "face"],
+      "sources": ["sessions/interlude-7.md", "sessions/session-47.md", "sessions/session-43.md", "sessions/interlude-14.md"]
+    },
+    "Bob": {
+      "label": "Bob",
+      "aliases": [],
+      "description": "Olivia's fey steed: a horse-sized woolly ram, mountain-goat-like (he).",
+      "gaps": ["colour", "horns", "fey details"],
+      "sources": ["sessions/session-64.md", "transcript 2026-09-25"]
+    },
+    "Ohma Kapua": {
+      "label": "Ohma",
+      "aliases": ["Ohma"],
+      "description": "Male tortle monk and wrestler: a humanoid turtle whose shell bears ancient curse markings.",
+      "gaps": ["shell and skin colour", "clothing"],
+      "sources": ["player-characters/ohma.md"]
+    },
+    "Leliana Goldspring": {
+      "label": "Leliana",
+      "aliases": ["Leliana", "Lily"],
+      "description": "Human woman, bard: tan skin, blonde hair, bright colourful summery clothes over studded leather. Plays the Blue Moon guitar, an electric guitar with a blue crescent moon and steel strings, and can fly on it. Same face and build as Helisanna, her other persona; when she switches, a lightning streak of colour runs down her right eye.",
+      "gaps": ["hairstyle"],
+      "sources": ["player-characters/leliana.md", "data/campaign-kb.md", "transcript 2026-07-17 (S57, DM)"]
+    },
+    "Helisanna Doomfall": {
+      "label": "Helisanna",
+      "aliases": ["Helisanna"],
+      "description": "Human woman, gothic rock frontwoman: pale skin, white hair, purple veins, dressed in black (gothic dress, ornate black cloak). Same face and build as Leliana, her other persona. Plays the Blue Moon guitar, an electric guitar with a blue crescent moon.",
+      "gaps": ["hairstyle"],
+      "sources": ["player-characters/helisanna.md", "data/campaign-kb.md", "sessions/session-26.md", "sessions/interlude-7.md"]
+    },
+    "Scarlet": {
+      "label": "Scarlet",
+      "aliases": [],
+      "description": "Female elf engineer, about 300 years old but elf-young in looks. Glasses, ponytail tied with a hair tie, goggles, suspenders. Tinkerer running dimensional experiments.",
+      "gaps": ["hair colour", "clothes beyond suspenders"],
+      "sources": ["sessions/session-53.md", "transcript 2026-09-18 (S62, DM)"]
+    },
+    "Captain Steel": {
+      "label": "Steel",
+      "aliases": ["Steel"],
+      "description": "Eldoran officer (he): ghastly grey, thin, androgynous-looking human, much of him replaced with bioforged parts, including a fully robotic arm and half his skull.",
+      "gaps": ["uniform"],
+      "sources": ["npcs/captain-steel.md", "transcript 2026-07-17 (S57, DM)"]
+    },
+    "Lady Viper": {
+      "label": "Viper",
+      "aliases": ["Elizandra Legrand"],
+      "description": "Twilight Company leader (she): black masquerade mask, a cobra (Mr. Slithers) draped on her shoulders, red-and-black floor-length coat that moves like a gown, brown hair in a precise bun, black leather gloves, long cigarette holder, thin dagger in a thigh holster.",
+      "gaps": [],
+      "sources": ["npcs/lady-viper.md", "transcript 2026-03-27 (DM)"]
+    },
+    "Naomi": {
+      "label": "Naomi",
+      "aliases": [],
+      "description": "Muscular half-orc woman, impeccably dressed; manager of the Lotus Casino.",
+      "gaps": ["hair", "outfit specifics"],
+      "sources": ["npcs/naomi.md"]
+    },
+    "Luna": {
+      "label": "Luna",
+      "aliases": [],
+      "description": "The moon goddess (she): small and slight, elven features, bathed in brilliant moonlight.",
+      "gaps": ["hair", "clothing"],
+      "sources": ["transcript 2026-03-20 (S46, DM)", "npcs/luna.md"]
+    },
+    "The Bugatti": {
+      "label": "Bugatti",
+      "aliases": ["Bugatti"],
+      "description": "The party's stolen luxury sports car, roughly a four-seater, much abused.",
+      "gaps": ["colour"],
+      "sources": ["items/bugatti.md"]
+    }
+  }
+}
