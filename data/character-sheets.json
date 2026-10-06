@@ -23,19 +23,19 @@
       "aliases": [
         "Felonias Bru"
       ],
-      "description": "Male goblin artificer with green skin, small, inventive and scheming. Often in disguise; a favourite is a white Colonel-Sanders-style suit with black tie. Has worn a top hat, and a luchador mask with welding goggles.",
+      "description": "Male goblin artificer, small, inventive and scheming: bright green bald head, long pointed ears, long hooked nose, big expressive eyes and a sly grin. Layered cream and blue-grey scarves, a dark fur-trimmed coat over a brown buttoned tunic and belt; carries a wooden staff topped with a glowing crystal. Often in disguise; a favourite is a white Colonel-Sanders-style suit with black tie. Has worn a top hat, and a luchador mask with welding goggles.",
       "gaps": [
-        "face",
-        "hair",
-        "everyday outfit",
         "his construct Kevin",
         "his familiar Crimson"
       ],
       "sources": [
         "sessions/session-26.md",
         "sessions/interlude-7.md",
-        "sessions/session-63.md"
-      ]
+        "sessions/session-63.md",
+        "reference portrait supplied by the group (2026-10-06)"
+      ],
+      "reference": "static/img/characters/bru.webp",
+      "notes": "Reference is a small screenshot (about 120px); swap in the full-size original when available."
     },
     "Elspeth Cooper": {
       "label": "Elspeth",
@@ -124,7 +124,7 @@
         "reference portrait supplied by the group (2026-10-06)"
       ],
       "reference": "static/img/characters/leliana-goldspring.webp",
-      "notes": "The reference portrait shows an acoustic guitar; the DM described the Blue Moon guitar as electric (Session 57), so the description keeps the electric one."
+      "notes": "The reference portrait shows an acoustic guitar; the DM described the Blue Moon guitar as electric (Session 57), so the description keeps the electric one. Reference is a small screenshot (about 120px); swap in the full-size original when available."
     },
     "Helisanna Doomfall": {
       "label": "Helisanna",

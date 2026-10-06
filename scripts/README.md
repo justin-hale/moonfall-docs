@@ -560,8 +560,9 @@ Art the group already has works as a reference too. Save it at the path in
 the character's `reference` field (`static/img/characters/<name>.webp`; any
 image format opens, but keep the name) and commit it. A character whose
 `reference` file does not exist yet is simply drawn from the description.
-Silas and Elspeth have portraits; Leliana and Scarlet have reference paths
-set, waiting for their image files.
+Silas, Bru, Elspeth, Leliana and Scarlet have portraits. Bru's and Leliana's
+are small screenshots for now; replace them with the full-size originals when
+someone finds them (same filename).
 
 ## Other Scripts
 
