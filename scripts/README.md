@@ -419,126 +419,47 @@ Run the tests with `python -m pytest scripts/tests/ -q`.
 
 ## comic_scene.py
 
-Turns one scene from a session into a comic strip of 1–3 panels and embeds
-it in that session's recap, directly under the scene's `###` heading. A
-session can have up to three strips, one per scene. Made on demand only: the
+Turns one moment from a session into a single epic illustration and embeds it
+in that session's recap, directly under the scene's `###` heading. Nothing is
+printed on the art: the title, an optional quote and the session sit in a
+band underneath. A session can have up to three. Made on demand only: the
 group picks the moments worth drawing.
 
-### Making a strip
+### Making an image
 
-1. **Write the script.** Each strip lives in `data/comics/<name>/script.json`,
+1. **Write the script.** Each image lives in `data/comics/<name>/script.json`,
    where `<name>` is the recap stem plus the scene heading, e.g.
-   `session-64-silas-and-the-first-angel`. It holds a title, the exact
-   `section` heading, and 1–3 panels, each with what to draw (`visual`), who
-   is in it, a caption, up to two lines of dialogue taken from the transcript,
-   and an optional sound effect. The usual way is to write it with Claude in a
-   chat and commit it to a branch.
-2. **Draw it.** Actions → **Draw Comic** → Run workflow, choosing that branch
-   under *Use workflow from*, mode `draw`, *comic* = the folder name. Gemini
-   draws the panels, the script letters the strip and embeds it in the recap,
-   and the result is committed back to the branch. Merging the branch's PR
-   publishes it.
-3. **Fix it on the same branch.** Edit `script.json`, then run mode `letter`
-   for wording (free) or `draw` with a *panel* number to redraw one panel.
+   `session-64-the-launch`. It holds a title, the exact `section` heading,
+   the `characters` in it, an optional `quote` (verbatim from the transcript)
+   and one or more `shots`: alternative ways to frame the same instant, each
+   written like a director's shot (camera position and angle, where the focal
+   subject sits, foreground/midground/background, light, motion). The usual
+   way is to write it with Claude in a chat and commit it to a branch.
+2. **Draw the shots.** Actions → **Draw Comic** → Run workflow, choosing that
+   branch under *Use workflow from*, mode `draw`, *comic* = the folder name.
+   Gemini draws every shot (about $0.13 each) and the previews
+   (`preview-<n>.webp`) are committed back to the branch.
+3. **Pick one.** Set `"chosen": <n>` in `script.json` and run mode `letter`
+   (free): the chosen shot is published to `static/img/comics/<name>.webp`
+   and embedded in the recap. To redraw a single shot, run `draw` with *shot*.
+   Changing the title or quote later is also just `letter`.
 
 Mode `portraits` draws character reference portraits (*characters* =
-`Ohma Bru`). Mode `auto` has Claude pick the scene and write the script in
-the workflow itself (*session* = `64`, optional *scene*); it is there, but
-writing the script in a chat gives far more control.
+`Ohma Bru`). Mode `auto` has Claude pick the scene and write the script in the
+workflow itself (*session* = `64`, optional *scene*); writing it in a chat
+gives far more control.
 
-Needs a `GEMINI_API_KEY` repository secret next to `ANTHROPIC_API_KEY`; see
-**Gemini key and budget** below. The image model defaults to
-`gemini-3-pro-image-preview`; set a `GEMINI_IMAGE_MODEL` repository variable
-to change it without a code change.
-
-### Gemini key and budget
-
-Comics are billed to whoever owns the Gemini key, and Gemini's image models
-have no free tier. So the key lives in its own Google project with a hard
-monthly cap, and the script has a per-run cap of its own. Google's menu
-names move around; if a label below has changed, the
-[billing docs](https://ai.google.dev/gemini-api/docs/billing) have the
-current one.
-
-**What it costs** (Google's list prices as of October 2026; check the
-[pricing page](https://ai.google.dev/gemini-api/docs/pricing)):
-
-| Run | Gemini image requests | Approx. cost |
-|-----|-----------------------|--------------|
-| One 1-panel strip | 1 | $0.13 |
-| One 3-panel strip | 3 | $0.40 |
-| Redraw one panel | 1 | $0.13 |
-| One reference portrait | 1 | $0.13 |
-| Portraits for the whole sheet (15) | 15 | $2.00 |
-| `--letter-only` | 0 | free |
-
-That is about $0.134 per image for Nano Banana Pro at the default resolution,
-plus a fraction of a cent for the reference images it reads. A retry after
-a blocked image is another request. The Claude call that writes the script
-is billed separately, to `ANTHROPIC_API_KEY`: one call that reads the whole
-transcript, roughly $0.25–0.50 per strip, and only in auto mode.
-
-**1. Create the key in its own project**
-1. Sign in at [Google AI Studio](https://aistudio.google.com) with the Google
-   account that will pay.
-2. Open **Get API key** (or **API keys**) → **Create API key** → **Create in a
-   new project**, and name the project something like `moonfall-comics`. A
-   project of its own keeps comic spend out of anything else on the account,
-   and gives it its own cap.
-3. Next to the new key, choose **Set up billing** and attach a billing account.
-   Image generation fails until you do.
-
-**2. Cap the spend** (the actual budget limit)
-1. In AI Studio open **Spend**, pick the `moonfall-comics` project, then
-   **Monthly spend cap** → **Edit spend cap**. Setting it needs the project's
-   owner, editor or admin role.
-2. **$10/month** is a sensible start: about ten full comics with redraws, or
-   every portrait several times over. Once the project reaches the cap, Gemini
-   refuses requests (HTTP 429) until the month rolls over or someone raises it.
-3. Google enforces the cap up to **about 10 minutes late**, and you pay for
-   whatever runs in that window. That is why the script also stops itself at
-   `COMIC_MAX_IMAGES` requests per run (default 10, retries included). It
-   refuses a run that needs more than that before making a single request,
-   and every run ends by printing its request count and estimated cost.
-4. Optional: in the Google Cloud console under **Billing → Budgets & alerts**,
-   add a budget for the same amount to get emails at 50/90/100%. Budgets only
-   warn; the AI Studio cap is what actually stops spending.
-
-**3. Lock the key down** (optional, recommended)
-
-In the [Google Cloud console](https://console.cloud.google.com) for that
-project: **APIs & Services → Credentials** → the key → **API restrictions →
-Restrict key** → only **Generative Language API**. A leaked key then can't be
-used for any other Google service.
-
-**4. Give it to GitHub**
-1. On GitHub open `justin-hale/moonfall-docs` → **Settings → Secrets and
-   variables → Actions**. Only a repository admin sees **Settings**.
-2. **New repository secret**, name `GEMINI_API_KEY`, paste the key, save.
-   Never paste the key into an issue, PR, commit or chat; the secret store is
-   the only place it goes.
-3. Optional, on the **Variables** tab: `COMIC_MAX_IMAGES` to change the
-   per-run cap, `GEMINI_IMAGE_MODEL` to switch models (a Flash image model is
-   cheaper per image; update `GEMINI_PRICE_PER_IMAGE` locally if you want the
-   printed estimate to match).
-
-**5. Check it with the cheapest possible run**
-
-Run **Draw Comic** with mode `portraits` and target `Bru`. That is one image,
-about $0.13. It should open a PR with `static/img/characters/bru.webp`, and the
-spend should appear on AI Studio's **Spend** page shortly after. Keep the
-portrait if Bru's player likes it; otherwise close the PR.
-
-To run locally instead, `export GEMINI_API_KEY=...` in your shell. Don't put
-it in a file in the repo.
+The art style is the `style` line in `data/character-sheets.json` (currently
+90s hand-drawn action-anime key art), sent with every image together with a
+fixed set of composition rules (`COMPOSITION` in the script).
 
 ### Locally
 
 ```bash
 pip install anthropic google-genai pillow pydantic
-python scripts/comic_scene.py --comic session-64-the-missile --draw            # art + lettering
-python scripts/comic_scene.py --comic session-64-the-missile --draw --panel 2  # one panel
-python scripts/comic_scene.py --comic session-64-the-missile --letter-only     # re-letter, no API
+python scripts/comic_scene.py --comic session-64-the-launch --draw             # every shot
+python scripts/comic_scene.py --comic session-64-the-launch --draw --shot 2    # one shot
+python scripts/comic_scene.py --comic session-64-the-launch --letter-only      # band/publish, no API
 python scripts/comic_scene.py --portraits Bru                                  # reference portrait
 python scripts/comic_scene.py 64 [--scene "The Missile"] [--script-only]       # auto mode
 ```
@@ -547,20 +468,17 @@ python scripts/comic_scene.py 64 [--scene "The Missile"] [--script-only]       #
 
 1. **Script**: written by hand or, in auto mode, by Claude from the recap and
    the transcript. Either way the transcript decides, as with `/fix-notes`.
-   In auto mode any line Claude's dialogue can't be matched to is printed
+   In auto mode a quote that can't be matched to the transcript is printed
    (and lands in the PR body) as "Check against the transcript". The KB's
    name-correction table is applied to every word of every script, the same
    guardrail recaps get.
-2. **Art**: Gemini draws each panel with no text in it. Characters come from
-   `data/character-sheets.json`; once a character has an approved portrait
-   (`reference`), it is passed as a reference image so they look the same
-   from panel to panel. The previous panel is passed too, to keep the style
-   steady. Raw panels are kept in `data/comics/<slug>/`.
-3. **Lettering**: Pillow lays the panels out in one row (one panel 16:9, two
-   at 4:3, three square) and adds captions, balloons and
-   sound effects in code (fonts in `scripts/fonts/`, both SIL OFL). The
-   model never draws text, so names can't come out misspelled. The page is
-   written to `static/img/comics/<name>.webp`.
+2. **Art**: Gemini draws each shot at 16:9 and 2K with no text in it.
+   Characters come from `data/character-sheets.json`; every character with a
+   portrait (`reference`) has it passed as a reference image. Raw art is kept
+   losslessly as `data/comics/<name>/art-<n>.png`.
+3. **Band**: Pillow puts the art full width (2048px) and adds the title,
+   quote and session underneath (fonts in `scripts/fonts/`, both SIL OFL).
+   The model never draws text, so names can't come out misspelled.
 
 ### Character sheets
 

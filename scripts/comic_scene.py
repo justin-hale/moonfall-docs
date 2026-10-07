@@ -1,36 +1,40 @@
 #!/usr/bin/env python3
-"""Turn a scene from a session into a comic strip of 1-3 panels.
+"""Turn one moment from a session into a single epic illustration.
 
-Each strip is one scene, embedded under that scene's heading in the recap; a
-session can have several. The usual flow writes `script.json` by hand (or
-with Claude in a chat) and only uses this script to draw and letter it:
+Each image is one scene, shown full width under that scene's heading in the
+recap, with nothing printed on the art: its title and an optional quote sit
+in a band underneath. A session can have up to three. The usual flow writes
+`script.json` by hand (or with Claude in a chat) and only uses this script
+to draw it:
 
-    python scripts/comic_scene.py --comic session-64-the-missile --draw
-    python scripts/comic_scene.py --comic session-64-the-missile --draw --panel 2
-    python scripts/comic_scene.py --comic session-64-the-missile --letter-only
+    python scripts/comic_scene.py --comic session-64-the-launch --draw            # every shot
+    python scripts/comic_scene.py --comic session-64-the-launch --draw --shot 2   # just one
+    python scripts/comic_scene.py --comic session-64-the-launch --letter-only     # band only
     python scripts/comic_scene.py --portraits Bru Silas  # draw reference portraits
-    python scripts/comic_scene.py 64 [--scene "The Missile"]  # auto: Claude scripts it too
+    python scripts/comic_scene.py 64 [--scene "The Launch"]  # auto: Claude scripts it too
 
 Three stages, each of which can be re-run on its own:
 
-1. **Script.** `data/comics/<slug>/script.json`: what each panel shows, the
-   narration caption, and dialogue lifted from what was said at the table.
-   The slug is `<recap stem>-<scene heading>`. Written by hand, or by Claude
-   (`ANTHROPIC_API_KEY`) in auto mode from the recap and transcript.
-2. **Art** (Gemini, `GEMINI_API_KEY`). One image per panel, with no text in
-   it. Every character in the panel is described from
-   `data/character-sheets.json` and, once someone has approved a portrait,
-   shown to the model as a reference image so they look the same from panel
-   to panel. Raw panels are kept in `data/comics/<slug>/` so lettering
-   changes never cost another generation.
-3. **Lettering** (Pillow, no API). Lays the panels out, adds captions,
-   balloons and sound effects in code. Image models misspell names, and the
-   name rules in CLAUDE.md are not optional, so no text is ever drawn by the
-   model. The strip goes to `static/img/comics/<slug>.webp` and is embedded
-   in the recap under the heading of the scene it shows.
+1. **Script.** `data/comics/<name>/script.json`: who is in it, a title, an
+   optional quote lifted from what was said at the table, and one or more
+   `shots`: alternative ways to frame the same instant, each written like a
+   director's shot (camera, framing, depth, light). With several shots, every
+   one is drawn as a preview; setting `chosen` to a shot's number publishes it. The name is `<recap stem>-<scene heading>`. Written by hand, or by
+   Claude (`ANTHROPIC_API_KEY`) in auto mode from the recap and transcript.
+2. **Art** (Gemini, `GEMINI_API_KEY`). One 16:9 image per shot, no text in it.
+   Every character in it is described from `data/character-sheets.json` and,
+   where the group has supplied a portrait, shown to the model as a reference
+   image. Raw art is kept losslessly as `data/comics/<name>/art-<shot>.png`,
+   so changing the title or quote never costs another generation.
+3. **Band** (Pillow, no API). Adds the title, quote and session under the art.
+   Image models misspell names, and the name rules in CLAUDE.md are not
+   optional, so no text is ever drawn by the model. Each shot gets a preview
+   at `data/comics/<name>/preview-<shot>.webp`; the chosen one goes to
+   `static/img/comics/<name>.webp` and is embedded in the recap under the
+   heading of the scene it shows.
 
 Nothing here publishes on its own: the result is a working-tree change to
-review, and the "Draw Comic" workflow opens it as a PR.
+review, and the "Draw Comic" workflow commits it to a branch or opens a PR.
 """
 
 import argparse
@@ -40,7 +44,6 @@ import re
 import sys
 from io import BytesIO
 from pathlib import Path
-from typing import Literal
 
 from PIL import Image, ImageDraw, ImageFont, ImageOps
 from pydantic import BaseModel, Field
@@ -61,84 +64,95 @@ FONTS_DIR = Path(__file__).resolve().parent / "fonts"
 SCRIPT_MODEL = "claude-opus-5-5"
 # Gemini image model IDs churn; override without a code change.
 IMAGE_MODEL = os.environ.get("GEMINI_IMAGE_MODEL", "gemini-3-pro-image-preview")
+IMAGE_SIZE = os.environ.get("GEMINI_IMAGE_SIZE", "2K")
 # A per-run ceiling on Gemini image requests, retries included: the backstop
 # for the AI Studio spend cap, which Google enforces up to ~10 minutes late.
-# The default fits a 3-panel strip with retries to spare.
 MAX_IMAGE_REQUESTS = int(os.environ.get("COMIC_MAX_IMAGES", "10"))
 # Only for the cost estimate printed at the end. Nano Banana Pro at 1K-2K.
 PRICE_PER_IMAGE = float(os.environ.get("GEMINI_PRICE_PER_IMAGE", "0.134"))
 
-MIN_PANELS, MAX_PANELS = 1, 3
+# Output geometry (pixels): the art at 16:9, then the band. 2048 wide stays
+# sharp on high-density screens at the recap's column width.
+PAGE_W = 2048
+ART_H = PAGE_W * 9 // 16
+SCALE = PAGE_W / 1600
+BAND_PAD = round(28 * SCALE)
+BAND_BG = "#14110F"
 
-# Strip geometry (pixels). Panels sit in one row; their shape depends on how
-# many there are, so the strip stays a sensible size inside the recap.
-PAGE_W = 1600
-MARGIN = 24
-GUTTER = 16
-BORDER = 6
-HEADER_H = 72
-FOOTER_H = 40
-PANEL_ASPECT = {1: (16, 9), 2: (4, 3), 3: (1, 1)}
+# Sent with every scene so the model stages a shot instead of an inventory.
+COMPOSITION = (
+    "Composition: stage this as a film director's shot of one peak instant. One clear focal "
+    "point, placed off-centre; strong diagonals and leading lines; distinct foreground, "
+    "midground and background for depth; the camera exactly as described; one dominant light "
+    "source with deep shadows; visible motion and scale. Characters other than the focus may be "
+    "small, partly hidden or in silhouette. Never a centred, eye-level, evenly lit product shot."
+)
 
 
 # --------------------------------------------------------------------------
 # Script schema
 # --------------------------------------------------------------------------
 
-class Line(BaseModel):
+class Quote(BaseModel):
     speaker: str = Field(description="Canonical character name, never a player's name")
     text: str = Field(description="What they said, trimmed from the transcript. 25 words at most")
-    position: Literal["left", "center", "right"] = Field(
-        description="Where the speaker stands in the frame; the balloon tail points there")
 
 
-class Panel(BaseModel):
-    characters: list[str] = Field(
-        description="Everyone visible, using names from the character sheet where they appear there")
-    visual: str = Field(
-        description="What the artist draws: setting, action, camera angle, who is where, expressions, "
-                    "lighting. Do not restate appearances from the character sheet. No text in the image")
-    caption: str = Field(description="Narration box, present tense, 20 words at most. Empty string for none")
-    dialogue: list[Line] = Field(description="At most two balloons, in reading order")
-    sfx: str = Field(description="Sound effect lettering such as KRA-KOOM!, or empty string")
-
-
-class ComicScript(BaseModel):
-    title: str = Field(description="Short punchy title for the strip")
+class SceneImage(BaseModel):
+    title: str = Field(description="Short punchy title for the image")
     section: str = Field(description="The recap's ### heading this scene falls under, copied exactly")
-    why: str = Field(description="One sentence: why this is the scene worth drawing")
+    why: str = Field(description="One sentence: why this is the moment worth drawing")
     transcript_evidence: list[str] = Field(
         description="Verbatim transcript lines that show this happened as drawn")
-    panels: list[Panel]
+    characters: list[str] = Field(
+        description="Everyone visible, using names from the character sheet where they appear there")
+    shots: list[str] = Field(
+        description="1-3 alternative ways to frame the same instant, each written as a director's shot: "
+                    "the instant, camera position/angle/lens, where the focal subject sits, foreground/"
+                    "midground/background, light source, motion and scale cues. Do not restate "
+                    "appearances from the character sheet. No text in the image")
+    chosen: int | None = Field(
+        default=None, description="Which shot (1-based) to publish; leave empty to compare previews first")
+    quote: Quote | None = Field(
+        default=None, description="Optional line shown under the image, verbatim from the transcript")
+
+    def chosen_shot(self):
+        """The 1-based shot to publish, or None while previews are being compared."""
+        return self.chosen or (1 if len(self.shots) == 1 else None)
 
 
 SCRIPT_SYSTEM = """\
-You adapt moments from a D&D campaign (Moonfall) into a short comic strip of \
-{min}-{max} panels that sits inside the session's published recap.
+You turn one moment from a D&D campaign (Moonfall) into a single epic \
+illustration that sits under its scene's heading in the session's published \
+recap.
 
 You get the session's published recap, its raw transcript, and the character \
-sheet the artist works from. Pick the scene (or use the one you are given) and \
-script it in as few panels as tell it: one when a single image is the moment.
+sheet the artist works from. Pick the scene (or use the one you are given), \
+then the one instant in it that makes the best image: a splash page, not a \
+sequence.
 
 The transcript is the source of truth. The recap is a guide to where things \
 are, but it has been wrong before; never draw something the transcript does not \
 support. Use only in-character play, not table talk about rules or snacks.
 
-Dialogue is what the players and DM actually said in character, trimmed of \
-filler and false starts and shortened where needed, never invented. Attribute \
-it to the character, never to the player (the roster in the recap's Players \
-Present section maps them). Leliana and Helisanna are one woman with two \
-personas: name whichever persona is out at that moment.
+The optional quote is what a player or the DM actually said in character, \
+trimmed of filler and false starts, never invented. Attribute it to the \
+character, never to the player (the roster in the recap's Players Present \
+section maps them). Leliana and Helisanna are one woman with two personas: \
+name whichever persona is out at that moment.
 
 Spelling is fixed: Bru (never Brew), Elspeth (never Ellsworth or Elizabeth), \
 Leliana (never Liliana), Eldoran, Greyport, Astro.
 
-Write each panel's `visual` for an illustrator who has never heard of the \
-campaign: make it concrete and stageable in one image. Appearances come from \
-the character sheet, so name the characters in `characters` instead of \
-describing them again. Build to the scene's payoff and land it in the last \
-panel.\
-""".format(min=MIN_PANELS, max=MAX_PANELS)
+Write each shot for an illustrator who has never heard of the campaign, as \
+a director would: the one instant, where the camera is and how it is angled, \
+where the focal subject sits in the wide frame, what is in the foreground, \
+midground and background, the light, and the cues for motion and scale. Pick \
+one or two heroes; everyone else can be small or in silhouette. Write two or \
+three genuinely different shots (for example vertigo, heroic low angle, epic \
+wide) so the group can choose. Appearances come from the character sheet, so \
+name the characters in `characters` instead of describing them again.\
+"""
 
 
 # --------------------------------------------------------------------------
@@ -204,7 +218,7 @@ def write_script(recap_text, transcript_text, sheets, scene=None):
         f"- {name}: {entry['description']}" for name, entry in sheets["characters"].items())
     headings = section_headings(recap_text)
     ask = (f'Script the scene under the recap heading "{scene}".' if scene
-           else "Pick the single most comic-worthy scene in this session and script it.")
+           else "Pick the single most epic moment in this session and script it.")
     user = (
         f"<character_sheet>\n{roster}\n</character_sheet>\n\n"
         f"<recap_headings>\n" + "\n".join(headings) + "\n</recap_headings>\n\n"
@@ -219,7 +233,7 @@ def write_script(recap_text, transcript_text, sheets, scene=None):
         system=SCRIPT_SYSTEM,
         messages=[{"role": "user", "content": user}],
         output_config={"effort": "high"},
-        output_format=ComicScript,
+        output_format=SceneImage,
         # On a safety decline, re-run on a fallback model instead of failing
         # (campaign combat reads as violence often enough to matter).
         betas=["server-side-fallback-2026-07-01"],
@@ -237,24 +251,22 @@ def write_script(recap_text, transcript_text, sheets, scene=None):
 
 
 def normalize_script(script, corrections):
-    """Enforce the guardrails the model is only asked to follow."""
+    """Enforce the guardrails the model (or a hand edit) is only asked to follow."""
     def fix(text):
         return rp.apply_name_corrections(text, corrections)[0]
 
     script.title = fix(script.title)
-    panels = script.panels[:MAX_PANELS]
-    if len(panels) < MIN_PANELS:
-        raise SystemExit("The script has no panels")
-    for panel in panels:
-        panel.visual = fix(panel.visual)
-        panel.caption = fix(panel.caption)
-        panel.sfx = fix(panel.sfx)
-        panel.characters = [fix(c) for c in panel.characters]
-        panel.dialogue = panel.dialogue[:2]
-        for line in panel.dialogue:
-            line.speaker = fix(line.speaker)
-            line.text = fix(line.text)
-    script.panels = panels
+    script.shots = [fix(s) for s in script.shots if s.strip()]
+    if not script.shots:
+        raise SystemExit("The script has no shots")
+    if script.chosen is not None and not 1 <= script.chosen <= len(script.shots):
+        raise SystemExit(f"chosen is {script.chosen}, but the script has {len(script.shots)} shot(s)")
+    script.characters = [fix(c) for c in script.characters]
+    if script.quote and not script.quote.text.strip():
+        script.quote = None
+    if script.quote:
+        script.quote.speaker = fix(script.quote.speaker)
+        script.quote.text = fix(script.quote.text)
     return script
 
 
@@ -262,24 +274,23 @@ _WORD = re.compile(r"[a-z0-9']+")
 
 
 def unverified_lines(script, blocks, window=6, threshold=0.7):
-    """Dialogue whose words don't turn up together anywhere in the transcript.
+    """A quote whose words don't turn up together anywhere in the transcript.
 
     The transcript's caption blocks split sentences across speakers, so this
-    looks for most of a line's words inside a few consecutive blocks rather
+    looks for most of the quote's words inside a few consecutive blocks rather
     than for an exact match. A hit is not proof, a miss is worth a look.
     """
     texts = [b.get("text", "") for b in blocks]
     windows = [set(_WORD.findall(" ".join(texts[i:i + window]).lower()))
                for i in range(0, max(len(texts) - window + 1, 1))]
     missing = []
-    for panel in script.panels:
-        for line in panel.dialogue:
-            words = [w for w in _WORD.findall(line.text.lower()) if len(w) > 2]
-            if not words:
-                continue
-            best = max((sum(w in win for w in words) / len(words) for win in windows), default=0)
-            if best < threshold:
-                missing.append(f'{line.speaker}: "{line.text}"')
+    for line in [script.quote] if script.quote else []:
+        words = [w for w in _WORD.findall(line.text.lower()) if len(w) > 2]
+        if not words:
+            continue
+        best = max((sum(w in win for w in words) / len(words) for win in windows), default=0)
+        if best < threshold:
+            missing.append(f'{line.speaker}: "{line.text}"')
     return missing
 
 
@@ -295,7 +306,7 @@ def check_image_budget(needed):
     if needed > MAX_IMAGE_REQUESTS:
         raise SystemExit(
             f"This run needs at least {needed} image requests but COMIC_MAX_IMAGES is "
-            f"{MAX_IMAGE_REQUESTS}. Draw fewer (--panel N, or name fewer portraits) or "
+            f"{MAX_IMAGE_REQUESTS}. Name fewer portraits or "
             f"raise COMIC_MAX_IMAGES.")
 
 
@@ -304,7 +315,7 @@ def image_cost_summary():
             f"(about ${image_requests * PRICE_PER_IMAGE:.2f} at ${PRICE_PER_IMAGE} each)")
 
 
-def gemini_image(contents, aspect, attempts=3):
+def gemini_image(contents, aspect, attempts=3, size=None):
     global image_requests
     from google import genai
     from google.genai import types
@@ -312,14 +323,14 @@ def gemini_image(contents, aspect, attempts=3):
     client = genai.Client()  # reads GEMINI_API_KEY
     config = types.GenerateContentConfig(
         response_modalities=["IMAGE"],
-        image_config=types.ImageConfig(aspect_ratio=aspect),
+        image_config=types.ImageConfig(aspect_ratio=aspect, image_size=size),
     )
     last = None
     for attempt in range(1, attempts + 1):
         if image_requests >= MAX_IMAGE_REQUESTS:
             raise SystemExit(
                 f"Stopped at COMIC_MAX_IMAGES={MAX_IMAGE_REQUESTS} image requests. "
-                f"Panels already drawn are saved; finish with --draw --panel N.")
+                f"Raise it to finish.")
         image_requests += 1
         response = client.models.generate_content(model=IMAGE_MODEL, contents=contents, config=config)
         for candidate in response.candidates or []:
@@ -332,54 +343,58 @@ def gemini_image(contents, aspect, attempts=3):
     raise SystemExit(f"{IMAGE_MODEL} returned no image after {attempts} attempts: {last}")
 
 
-def panel_prompt(panel, sheets):
-    lines = [sheets["style"], "", "Characters in this panel:"]
-    for name in panel.characters:
+def art_path(comic_dir, shot):
+    return comic_dir / f"art-{shot}.png"
+
+
+def image_prompt(script, sheets, shot):
+    lines = [sheets["style"], "", "Characters in this image:"]
+    for name in script.characters:
         key, entry = find_character(sheets, name)
         lines.append(f"- {key}: {entry['description']}" if entry else f"- {name}")
     lines += [
         "",
-        f"Panel: {panel.visual}",
+        f"Shot: {script.shots[shot - 1]}",
         "",
-        "Draw ONLY the artwork. No text, letters, speech balloons, captions, sound "
-        "effects, signatures, watermarks or panel borders anywhere in the image. "
-        "Keep the top fifth of the frame free of faces and key action, because "
-        "lettering will be laid over it.",
+        COMPOSITION,
+        "",
+        "A single wide cinematic illustration that fills the whole frame. Draw ONLY the "
+        "artwork: no text, letters, speech balloons, captions, sound effects, signatures, "
+        "watermarks, borders or panels anywhere in the image.",
     ]
     return "\n".join(lines)
 
 
-def reference_parts(panel, sheets, previous=None):
-    """Interleaved labels and images for every reference the panel has."""
+def reference_parts(script, sheets):
+    """Interleaved labels and images for every character portrait available."""
     parts = []
-    for name in panel.characters:
+    for name in script.characters:
         key, entry = find_character(sheets, name)
         ref = entry and entry.get("reference")
         if ref and (ROOT / ref).exists():
-            parts += [f"Reference image for {key} - match this design exactly:",
+            parts += [f"Reference image for {key} - match this character's design exactly:",
                       Image.open(ROOT / ref).convert("RGB")]
-    if previous is not None:
-        parts += ["The previous panel in this strip - keep the art style, palette and "
-                  "costumes consistent with it:", previous]
     return parts
 
 
-def draw_panels(script, sheets, comic_dir, only=None):
+def shots_to_draw(script, only=None):
+    """--shot N, else the chosen shot, else every shot (to compare)."""
+    if only is not None:
+        if not 1 <= only <= len(script.shots):
+            raise SystemExit(f"--shot {only}, but the script has {len(script.shots)} shot(s)")
+        return [only]
+    chosen = script.chosen_shot()
+    return [chosen] if chosen else list(range(1, len(script.shots) + 1))
+
+
+def draw_art(script, sheets, comic_dir, shots):
     comic_dir.mkdir(parents=True, exist_ok=True)
-    check_image_budget(1 if only is not None else len(script.panels))
-    previous = None
-    for number, panel in enumerate(script.panels, 1):
-        path = comic_dir / f"panel-{number}.webp"
-        if only is not None and number != only:
-            if path.exists():
-                previous = Image.open(path).convert("RGB")
-            continue
-        aspect = "{}:{}".format(*PANEL_ASPECT[len(script.panels)])
-        print(f"  Drawing panel {number}/{len(script.panels)} ({aspect})")
-        contents = [*reference_parts(panel, sheets, previous), panel_prompt(panel, sheets)]
-        image = gemini_image(contents, aspect)
-        image.save(path, "WEBP", quality=90)
-        previous = image
+    check_image_budget(len(shots))
+    refs = reference_parts(script, sheets)
+    for shot in shots:
+        print(f"  Drawing shot {shot}/{len(script.shots)} (16:9, {IMAGE_SIZE})")
+        image = gemini_image([*refs, image_prompt(script, sheets, shot)], "16:9", size=IMAGE_SIZE)
+        image.save(art_path(comic_dir, shot), "PNG")
 
 
 def draw_portraits(names, force=False):
@@ -413,7 +428,7 @@ def draw_portraits(names, force=False):
 
 
 # --------------------------------------------------------------------------
-# Stage 3: lettering
+# Stage 3: the band under the art
 # --------------------------------------------------------------------------
 
 def font(name, size):
@@ -434,125 +449,70 @@ def wrap(text, fnt, max_width):
     return lines
 
 
-def layout(panels):
-    """Panel boxes (x, y, w, h) in one row below the header, and the strip height."""
-    n = len(panels)
-    aw, ah = PANEL_ASPECT[n]
-    w = (PAGE_W - 2 * MARGIN - GUTTER * (n - 1)) // n
-    h = w * ah // aw
-    y = MARGIN + HEADER_H
-    boxes = [(MARGIN + i * (w + GUTTER), y, w, h) for i in range(n)]
-    return boxes, y + h + FOOTER_H + MARGIN
-
-
-def draw_caption(draw, x, y, max_w, text):
-    fnt = font("ComicNeue-Bold.ttf", 26)
-    lines = wrap(text.upper(), fnt, max_w - 28)
-    line_h = 32
-    w = int(max(fnt.getlength(l) for l in lines)) + 28
-    h = line_h * len(lines) + 20
-    draw.rectangle([x, y, x + w, y + h], fill="#FFE8A3", outline="black", width=3)
-    for n, line in enumerate(lines):
-        draw.text((x + 14, y + 10 + n * line_h), line, font=fnt, fill="black")
-    return h
-
-
-def draw_balloon(draw, box, y, line, label):
-    px, py, pw, ph = box
-    name_font = font("Bangers-Regular.ttf", 24)
-    text_font = font("ComicNeue-Bold.ttf", 28)
-    lines = wrap(line.text.upper(), text_font, min(pw * 0.62, 560))
-    line_h = 34
-    text_w = max([text_font.getlength(l) for l in lines] + [name_font.getlength(label)])
-    w, h = int(text_w) + 56, line_h * len(lines) + 30 + 28
-    anchor = {"left": 0.08, "center": 0.5, "right": 0.92}[line.position]
-    bx = int(min(max(px + 16, px + pw * anchor - w / 2), px + pw - w - 16))
-    by = y
-    radius = min(h // 2, 40)
-
-    # Tail toward where the speaker stands.
-    base_x = bx + w * {"left": 0.3, "center": 0.5, "right": 0.7}[line.position]
-    tip_x = base_x + {"left": -40, "center": 0, "right": 40}[line.position]
-    tip_y = by + h + 46
-    outer = [(base_x - 22, by + h - 8), (base_x + 22, by + h - 8), (tip_x, tip_y)]
-    inner = [(base_x - 17, by + h - 12), (base_x + 17, by + h - 12), (tip_x, tip_y - 7)]
-
-    draw.rounded_rectangle([bx - 3, by - 3, bx + w + 3, by + h + 3], radius=radius + 3, fill="black")
-    draw.polygon(outer, fill="black")
-    draw.rounded_rectangle([bx, by, bx + w, by + h], radius=radius, fill="white")
-    draw.polygon(inner, fill="white")
-    draw.text((bx + 28, by + 14), label.upper(), font=name_font, fill="#B3261E")
-    for n, text in enumerate(lines):
-        draw.text((bx + 28, by + 42 + n * line_h), text, font=text_font, fill="black")
-    return h + 56
-
-
-def draw_sfx(page, box, text):
-    px, py, pw, ph = box
-    size = max(48, pw // 8)
-    fnt = font("Bangers-Regular.ttf", size)
-    stroke = max(4, size // 14)
-    tw = int(fnt.getlength(text)) + 4 * stroke
-    layer = Image.new("RGBA", (tw, size + 4 * stroke), (0, 0, 0, 0))
-    ImageDraw.Draw(layer).text((2 * stroke, stroke), text, font=fnt, fill="#FFD23F",
-                               stroke_width=stroke, stroke_fill="black")
-    layer = layer.rotate(8, expand=True, resample=Image.BICUBIC)
-    if layer.width > pw - 32:
-        scale = (pw - 32) / layer.width
-        layer = layer.resize((int(layer.width * scale), int(layer.height * scale)), Image.LANCZOS)
-    page.alpha_composite(layer, (px + pw - layer.width - 16, py + ph - layer.height - 16))
-
-
 def speaker_label(sheets, name):
     key, entry = find_character(sheets, name)
     return (entry or {}).get("label") or (key or name).split()[0]
 
 
-def letter_page(script, sheets, comic_dir, session_title):
-    boxes, page_h = layout(script.panels)
-    page = Image.new("RGBA", (PAGE_W, page_h), "#FBF7EE")
+def compose(script, sheets, comic_dir, shot, meta):
+    """The shot's art full width, with the title, quote and session in a band below it."""
+    art = Image.open(art_path(comic_dir, shot)).convert("RGB")
+    art = ImageOps.fit(art, (PAGE_W, ART_H), Image.LANCZOS)
+
+    s = SCALE
+    title_font = font("Bangers-Regular.ttf", round(56 * s))
+    quote_font = font("ComicNeue-Bold.ttf", round(30 * s))
+    meta_font = font("ComicNeue-Bold.ttf", round(22 * s))
+    title_lh, quote_lh = round(62 * s), round(40 * s)
+    right_w = int(PAGE_W * 0.55)
+    title_lines = wrap(script.title.upper(), title_font, PAGE_W - 2 * BAND_PAD - right_w - round(40 * s))
+    quote_lines = []
+    if script.quote:
+        text = f"\u201c{script.quote.text}\u201d \u2014 {speaker_label(sheets, script.quote.speaker)}"
+        quote_lines = wrap(text, quote_font, right_w)
+    title_h = title_lh * len(title_lines)
+    right_h = quote_lh * len(quote_lines) + round(30 * s)
+    band_h = max(title_h, right_h) + 2 * BAND_PAD
+
+    page = Image.new("RGB", (PAGE_W, ART_H + band_h), BAND_BG)
+    page.paste(art, (0, 0))
     draw = ImageDraw.Draw(page)
-
-    title_font = font("Bangers-Regular.ttf", 60)
-    kicker_font = font("Bangers-Regular.ttf", 28)
-    draw.text((MARGIN, MARGIN), script.title.upper(), font=title_font, fill="black",
-              stroke_width=1, stroke_fill="black")
-    kicker = "MOONFALL SESSIONS"
-    draw.text((PAGE_W - MARGIN - kicker_font.getlength(kicker), MARGIN + 24), kicker,
-              font=kicker_font, fill="#B3261E")
-
-    for number, (panel, box) in enumerate(zip(script.panels, boxes), 1):
-        px, py, pw, ph = box
-        art = Image.open(comic_dir / f"panel-{number}.webp").convert("RGBA")
-        page.alpha_composite(ImageOps.fit(art, (pw, ph), Image.LANCZOS), (px, py))
-        draw.rectangle([px, py, px + pw, py + ph], outline="black", width=BORDER)
-
-        y = py + BORDER + 10
-        if panel.caption:
-            y += draw_caption(draw, px + BORDER + 10, y, int(pw * 0.6), panel.caption) + 14
-        for line in panel.dialogue:
-            y += draw_balloon(draw, box, y, line, speaker_label(sheets, line.speaker))
-        if panel.sfx:
-            draw_sfx(page, box, panel.sfx.upper())
-
-    footer_font = font("ComicNeue-Bold.ttf", 22)
-    draw.text((MARGIN, page_h - MARGIN - 28), session_title, font=footer_font, fill="#555555")
-    return page.convert("RGB")
+    for n, line in enumerate(title_lines):
+        draw.text((BAND_PAD, ART_H + BAND_PAD - round(6 * s) + n * title_lh), line, font=title_font,
+                  fill="#FFD23F")
+    y = ART_H + BAND_PAD
+    for line in quote_lines:
+        draw.text((PAGE_W - BAND_PAD - quote_font.getlength(line), y), line, font=quote_font,
+                  fill="#F3EEE4")
+        y += quote_lh
+    draw.text((PAGE_W - BAND_PAD - meta_font.getlength(meta), y + round(4 * s)), meta, font=meta_font,
+              fill="#9A9184")
+    return page
 
 
 # --------------------------------------------------------------------------
 # Recap embed
 # --------------------------------------------------------------------------
 
+def alt_text(script, shot, limit=320):
+    text = f"{script.title}: {script.shots[shot - 1]}"
+    if len(text) <= limit:
+        return text
+    cut = text[:limit]
+    return cut[:cut.rfind(". ") + 1] if ". " in cut else cut.rsplit(" ", 1)[0] + "\u2026"
+
+
 def embed_in_recap(recap_text, section, image_url, alt):
-    """Put the comic directly under its scene's heading. Idempotent by URL."""
-    if image_url in recap_text:
-        return recap_text, False
+    """Put the image directly under its scene's heading; on a redraw, refresh its alt text."""
+    alt = alt.replace("[", "(").replace("]", ")")
+    existing = re.compile(rf"!\[[^\]\n]*\]\({re.escape(image_url)}\)")
+    if existing.search(recap_text):
+        updated = existing.sub(lambda m: f"![{alt}]({image_url})", recap_text, count=1)
+        return updated, updated != recap_text
     heading = re.compile(rf"^### {re.escape(section)}\s*$", flags=re.M)
     match = heading.search(recap_text)
     if not match:
         raise SystemExit(f'Heading "### {section}" not found in the recap')
-    alt = alt.replace("[", "(").replace("]", ")")
     insert = f"\n\n![{alt}]({image_url})\n"
     return recap_text[:match.end()] + insert + recap_text[match.end():], True
 
@@ -584,15 +544,16 @@ def recap_ref_from_slug(slug):
 
 def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__.split("\n\n")[0])
-    parser.add_argument("session", nargs="?", help="Session number, recap stem, or page URL")
-    parser.add_argument("--scene", help="Recap ### heading to draw (default: Claude picks)")
-    parser.add_argument("--comic", help="Comic folder under data/comics, e.g. session-64-the-missile")
+    parser.add_argument("session", nargs="?", help="Auto mode: session number, recap stem, or page URL")
+    parser.add_argument("--scene", help="Auto mode: recap ### heading to draw (default: Claude picks)")
+    parser.add_argument("--comic", help="Image folder under data/comics, e.g. session-64-the-launch")
     parser.add_argument("--script-only", action="store_true", help="Auto mode: write the script, draw nothing")
     parser.add_argument("--draw", "--redraw", dest="redraw", action="store_true",
-                        help="Draw (or redraw) the art from the comic's script.json, then letter it")
-    parser.add_argument("--panel", type=int, help="With --draw: only this panel")
-    parser.add_argument("--letter-only", action="store_true", help="Re-letter existing art, no API")
-    parser.add_argument("--no-embed", action="store_true", help="Don't add the page to the recap")
+                        help="Draw (or redraw) the art from the image's script.json, then add the band")
+    parser.add_argument("--shot", type=int, help="With --draw: only this shot number")
+    parser.add_argument("--letter-only", action="store_true",
+                        help="Rebuild the band (title, quote) on the existing art, no API")
+    parser.add_argument("--no-embed", action="store_true", help="Don't add the image to the recap")
     parser.add_argument("--portraits", nargs="*", metavar="NAME",
                         help="Draw reference portraits (all characters without one if no names)")
     parser.add_argument("--force", action="store_true", help="With --portraits: redraw existing ones")
@@ -605,7 +566,7 @@ def main(argv=None):
         args.session = recap_ref_from_slug(args.comic)
     if not args.session:
         parser.error("give a session number (auto mode) or --comic NAME")
-    if (args.redraw or args.letter_only) is False and args.comic:
+    if args.comic and not (args.redraw or args.letter_only):
         parser.error("--comic needs --draw or --letter-only")
 
     recap_path = resolve_recap(args.session)
@@ -616,7 +577,7 @@ def main(argv=None):
     if args.redraw or args.letter_only:
         comic_dir = existing_comic(recap_path.stem, args.comic)
         data = json.loads((comic_dir / "script.json").read_text(encoding="utf-8"))
-        script = normalize_script(ComicScript.model_validate(data), corrections)
+        script = normalize_script(SceneImage.model_validate(data), corrections)
     else:
         transcript_text, blocks = load_transcript(recap_text)
         print(f"Scripting {recap_path.stem} with {SCRIPT_MODEL}...")
@@ -624,7 +585,7 @@ def main(argv=None):
             write_script(recap_text, transcript_text, sheets, args.scene), corrections)
         comic_dir = COMICS_DATA_DIR / f"{recap_path.stem}-{slugify(script.section)}"
         comic_dir.mkdir(parents=True, exist_ok=True)
-        print(f'  "{script.title}" — {script.section} ({len(script.panels)} panels)')
+        print(f'  "{script.title}" \u2014 {script.section}')
         print(f"  Why: {script.why}")
         for line in unverified_lines(script, blocks):
             print(f"  Check against the transcript (not found there): {line}")
@@ -636,20 +597,33 @@ def main(argv=None):
         return
 
     if not args.letter_only:
-        draw_panels(script, sheets, comic_dir, only=args.panel if args.redraw else None)
+        draw_art(script, sheets, comic_dir, shots_to_draw(script, args.shot))
         print(f"  {image_cost_summary()}")
 
-    session_title = rp.get_frontmatter_value(recap_text, "title") or recap_path.stem
-    page = letter_page(script, sheets, comic_dir, f"Session {session_title}")
+    number = re.sub(r"\D", "", recap_path.stem)
+    kind = "Interlude" if recap_path.stem.startswith("interlude") else "Session"
+    meta = f"{kind} {number} \u00b7 {script.section}"
+    drawn = [n for n in range(1, len(script.shots) + 1) if art_path(comic_dir, n).exists()]
+    for shot in drawn:
+        compose(script, sheets, comic_dir, shot, meta).save(
+            comic_dir / f"preview-{shot}.webp", "WEBP", quality=85)
+        print(f"  Preview: {(comic_dir / f'preview-{shot}.webp').relative_to(ROOT)}")
+
+    chosen = script.chosen_shot()
+    if chosen is None:
+        print(f"  {len(script.shots)} shots: compare the previews, set \"chosen\" in script.json, "
+              f"then run --letter-only to publish (free).")
+        return
+    if chosen not in drawn:
+        raise SystemExit(f"Shot {chosen} is chosen but has no art yet; run --draw --shot {chosen}")
     COMICS_IMG_DIR.mkdir(parents=True, exist_ok=True)
     out = COMICS_IMG_DIR / f"{comic_dir.name}.webp"
-    page.save(out, "WEBP", quality=88)
-    print(f"  Page: {out.relative_to(ROOT)}")
+    compose(script, sheets, comic_dir, chosen, meta).save(out, "WEBP", quality=92)
+    print(f"  Image (shot {chosen}): {out.relative_to(ROOT)}")
 
     if not args.no_embed:
-        url = f"/img/comics/{out.name}"
-        alt = f"Comic: {script.title}. " + " ".join(p.visual.split(".")[0] + "." for p in script.panels)
-        updated, changed = embed_in_recap(recap_text, script.section, url, alt)
+        updated, changed = embed_in_recap(recap_text, script.section, f"/img/comics/{out.name}",
+                                          alt_text(script, chosen))
         if changed:
             recap_path.write_text(updated, encoding="utf-8")
             print(f"  Embedded under '### {script.section}' in {recap_path.relative_to(ROOT)}")

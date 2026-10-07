@@ -11,7 +11,7 @@ This is a Docusaurus site (v3.9.2) serving as the documentation site for a D&D c
 - `data/campaign-state.md` - Auto-updating running memory of all sessions
 - `data/publication-arc.json` - Publication meta-narrative config (writer personas, storyline beats)
 - `data/character-sheets.json` - How each character looks, for comic art (only what the table has said; `gaps` lists the rest)
-- `data/comics/<name>/` - One folder per comic strip (`<recap stem>-<scene heading>`): `script.json` (hand-editable) and raw panel art; lettered strips go to `static/img/comics/`
+- `data/comics/<name>/` - One folder per scene image (`<recap stem>-<scene heading>`): `script.json` (hand-editable), raw shot art and previews; the published image goes to `static/img/comics/`
 - `scripts/` - Automation scripts (Python)
 - `plugins/` - Transcript processing scripts
 
@@ -118,7 +118,7 @@ deployed by hand.
 
 ## Commands
 - `/fix-notes <page URL or session number> — <what is wrong>` - Correct a published recap (see above)
-- `python scripts/comic_scene.py --comic <name> --draw` - Draw a 1–3 panel comic strip from `data/comics/<name>/script.json` and embed it under its scene's heading in the recap (0–3 strips per session). Usually the script is written in a chat, committed to a branch, and drawn by the **Draw Comic** workflow run from that branch. Dialogue comes from the transcript; comic text is lettered in code, never by the image model
+- `python scripts/comic_scene.py --comic <name> --draw` - Draw a scene image (one epic 16:9 illustration, title and quote in a band below it, nothing printed on the art) from `data/comics/<name>/script.json`; it draws every shot in the script as a preview, and setting `chosen` then `--letter-only` publishes one under its scene's heading in the recap (0–3 images per session). Usually the script is written in a chat, committed to a branch, and drawn by the **Draw Comic** workflow run from that branch. Quotes come from the transcript; text is set in code, never by the image model
 - `npm run build` - Build the Docusaurus site
 - `npm run start` - Start dev server
 - `python scripts/automate_session.py` - Generate session notes from transcript (also updates session stats)
