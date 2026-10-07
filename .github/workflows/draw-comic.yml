@@ -59,11 +59,12 @@ jobs:
       PANEL: ${{ github.event.inputs.panel }}
 
     steps:
-      # A PAT, not GITHUB_TOKEN, so the push and PR trigger Stats & Build Check.
+      # The built-in GITHUB_TOKEN pushes the branch and opens the PR, as Process
+      # Episode does; OMELAS_PAT cannot write to this repo (run #1 got a 403).
+      # A PR opened by GITHUB_TOKEN does not start Stats & Build Check on its
+      # own; the build still runs on merge (deploy.yml).
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.OMELAS_PAT || github.token }}
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -98,7 +99,7 @@ jobs:
       - name: Commit and open PR
         if: ${{ !cancelled() }}
         env:
-          GH_TOKEN: ${{ secrets.OMELAS_PAT || github.token }}
+          GH_TOKEN: ${{ github.token }}
         run: |
           git config user.email "actions@github.com"
           git config user.name "GitHub Actions"
