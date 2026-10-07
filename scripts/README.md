@@ -419,18 +419,32 @@ Run the tests with `python -m pytest scripts/tests/ -q`.
 
 ## comic_scene.py
 
-Turns a scene from a session into a comic-book page and embeds it in that
-session's recap, directly under the scene's `###` heading. Run on demand,
-never automatically: the group picks the moments worth drawing.
+Turns one scene from a session into a comic strip of 1–3 panels and embeds
+it in that session's recap, directly under the scene's `###` heading. A
+session can have up to three strips, one per scene. Made on demand only: the
+group picks the moments worth drawing.
 
-### Easiest: the Draw Comic workflow
+### Making a strip
 
-Actions → **Draw Comic** → Run workflow from `main` with the session number
-(leave *scene* blank to let Claude choose, or paste a recap heading). It opens
-a "Comic for session N" PR; merging it publishes the page. To fix a panel,
-edit `data/comics/<slug>/script.json` on the PR branch and run Draw Comic
-again **from that branch** with mode `redraw` (add a panel number to redraw
-just one) or `letter-only` for wording changes, which costs nothing.
+1. **Write the script.** Each strip lives in `data/comics/<name>/script.json`,
+   where `<name>` is the recap stem plus the scene heading, e.g.
+   `session-64-silas-and-the-first-angel`. It holds a title, the exact
+   `section` heading, and 1–3 panels, each with what to draw (`visual`), who
+   is in it, a caption, up to two lines of dialogue taken from the transcript,
+   and an optional sound effect. The usual way is to write it with Claude in a
+   chat and commit it to a branch.
+2. **Draw it.** Actions → **Draw Comic** → Run workflow, choosing that branch
+   under *Use workflow from*, mode `draw`, *comic* = the folder name. Gemini
+   draws the panels, the script letters the strip and embeds it in the recap,
+   and the result is committed back to the branch. Merging the branch's PR
+   publishes it.
+3. **Fix it on the same branch.** Edit `script.json`, then run mode `letter`
+   for wording (free) or `draw` with a *panel* number to redraw one panel.
+
+Mode `portraits` draws character reference portraits (*characters* =
+`Ohma Bru`). Mode `auto` has Claude pick the scene and write the script in
+the workflow itself (*session* = `64`, optional *scene*); it is there, but
+writing the script in a chat gives far more control.
 
 Needs a `GEMINI_API_KEY` repository secret next to `ANTHROPIC_API_KEY`; see
 **Gemini key and budget** below. The image model defaults to
@@ -451,8 +465,8 @@ current one.
 
 | Run | Gemini image requests | Approx. cost |
 |-----|-----------------------|--------------|
-| One 3-panel comic | 3 | $0.40 |
-| One 6-panel comic | 6 | $0.80 |
+| One 1-panel strip | 1 | $0.13 |
+| One 3-panel strip | 3 | $0.40 |
 | Redraw one panel | 1 | $0.13 |
 | One reference portrait | 1 | $0.13 |
 | Portraits for the whole sheet (15) | 15 | $2.00 |
@@ -462,7 +476,7 @@ That is about $0.134 per image for Nano Banana Pro at the default resolution,
 plus a fraction of a cent for the reference images it reads. A retry after
 a blocked image is another request. The Claude call that writes the script
 is billed separately, to `ANTHROPIC_API_KEY`: one call that reads the whole
-transcript, roughly $0.25–0.50 per comic.
+transcript, roughly $0.25–0.50 per strip, and only in auto mode.
 
 **1. Create the key in its own project**
 1. Sign in at [Google AI Studio](https://aistudio.google.com) with the Google
@@ -522,31 +536,31 @@ it in a file in the repo.
 
 ```bash
 pip install anthropic google-genai pillow pydantic
-python scripts/comic_scene.py 64                      # Claude picks the scene
-python scripts/comic_scene.py 64 --scene "The Missile"
-python scripts/comic_scene.py 64 --script-only        # script only, no art
-python scripts/comic_scene.py 64 --redraw --panel 3   # after editing script.json
-python scripts/comic_scene.py 64 --letter-only        # re-letter, no API calls
-python scripts/comic_scene.py --portraits Bru         # reference portrait
+python scripts/comic_scene.py --comic session-64-the-missile --draw            # art + lettering
+python scripts/comic_scene.py --comic session-64-the-missile --draw --panel 2  # one panel
+python scripts/comic_scene.py --comic session-64-the-missile --letter-only     # re-letter, no API
+python scripts/comic_scene.py --portraits Bru                                  # reference portrait
+python scripts/comic_scene.py 64 [--scene "The Missile"] [--script-only]       # auto mode
 ```
 
 ### How it works
 
-1. **Script**: Claude reads the recap and the transcript and writes 3–6
-   panels: what to draw, a caption, and dialogue trimmed from what was said
-   at the table. The transcript decides, as with `/fix-notes`. Any line it
-   cannot find in the transcript is printed (and lands in the PR body) as
-   "Check against the transcript". The KB's name-correction table is applied
-   to every word, the same guardrail recaps get.
+1. **Script**: written by hand or, in auto mode, by Claude from the recap and
+   the transcript. Either way the transcript decides, as with `/fix-notes`.
+   In auto mode any line Claude's dialogue can't be matched to is printed
+   (and lands in the PR body) as "Check against the transcript". The KB's
+   name-correction table is applied to every word of every script, the same
+   guardrail recaps get.
 2. **Art**: Gemini draws each panel with no text in it. Characters come from
    `data/character-sheets.json`; once a character has an approved portrait
    (`reference`), it is passed as a reference image so they look the same
    from panel to panel. The previous panel is passed too, to keep the style
    steady. Raw panels are kept in `data/comics/<slug>/`.
-3. **Lettering**: Pillow lays out the page and adds captions, balloons and
+3. **Lettering**: Pillow lays the panels out in one row (one panel 16:9, two
+   at 4:3, three square) and adds captions, balloons and
    sound effects in code (fonts in `scripts/fonts/`, both SIL OFL). The
    model never draws text, so names can't come out misspelled. The page is
-   written to `static/img/comics/<slug>.webp`.
+   written to `static/img/comics/<name>.webp`.
 
 ### Character sheets
 
@@ -560,7 +574,7 @@ Art the group already has works as a reference too. Save it at the path in
 the character's `reference` field (`static/img/characters/<name>.webp`; any
 image format opens, but keep the name) and commit it. A character whose
 `reference` file does not exist yet is simply drawn from the description.
-Silas, Bru, Elspeth, Olivia, Leliana and Scarlet have portraits. Bru's and Leliana's
+Silas, Bru, Elspeth, Olivia, Ohma, Leliana and Scarlet have portraits. Bru's and Leliana's
 are small screenshots for now; replace them with the full-size originals when
 someone finds them (same filename).
 

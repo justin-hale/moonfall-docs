@@ -1,37 +1,44 @@
 name: Draw Comic
 
-# Turns a scene from a session into a comic page (scripts/comic_scene.py) and
-# opens it as a PR, so nothing reaches the site until someone has looked at
-# it and merged. Merging publishes through deploy.yml like any other edit.
-#
-# Run from main to start a new comic: it opens a "Comic: ..." PR. To fix one,
-# edit data/comics/<slug>/script.json on that PR's branch, then run this
-# again choosing the PR branch under "Use workflow from" with mode "redraw"
-# (or "letter-only" for text-only changes, which costs nothing). Runs on a
-# branch other than main commit back to that branch instead of opening a PR.
+# Draws comic strips (scripts/comic_scene.py). Usual flow: the strip's
+# data/comics/<name>/script.json is written by hand (or with Claude in a
+# chat) and committed to a branch; then this workflow is run FROM THAT BRANCH
+# ("Use workflow from") with mode "draw", which draws the panels, letters
+# the strip, embeds it in the recap and commits the result back to the
+# branch. Runs from main open their own PR instead. Nothing reaches the site
+# until the PR is merged.
 
 on:
   workflow_dispatch:
     inputs:
-      target:
-        description: 'Session number (e.g. 64), or character names for portraits mode'
-        required: true
       mode:
-        description: 'new = script + art + lettering; redraw = art from the edited script; letter-only = text only (no API); portraits = character reference art'
+        description: 'draw = art + lettering from script.json · letter = re-letter only, free · portraits = character reference art · auto = Claude also writes the script'
         required: true
-        default: 'new'
+        default: 'draw'
         type: choice
         options:
-          - 'new'
-          - 'redraw'
-          - 'letter-only'
+          - 'draw'
+          - 'letter'
           - 'portraits'
-      scene:
-        description: 'new: recap ### heading to draw (blank = let Claude pick)'
+          - 'auto'
+      comic:
+        description: 'draw / letter: the comic folder under data/comics, e.g. session-64-silas-and-the-first-angel'
         required: false
         default: ''
       panel:
-        description: 'redraw: only this panel number (blank = all)'
+        description: 'draw: redraw only this panel number (blank = all panels)'
+        required: false
+        default: ''
+      characters:
+        description: 'portraits: character names separated by spaces, e.g. Ohma Bru'
+        required: false
+        default: ''
+      session:
+        description: 'auto: session number, e.g. 64'
+        required: false
+        default: ''
+      scene:
+        description: 'auto: the recap ### heading to draw (blank = Claude picks)'
         required: false
         default: ''
 
@@ -53,10 +60,12 @@ jobs:
       GEMINI_IMAGE_MODEL: ${{ vars.GEMINI_IMAGE_MODEL || 'gemini-3-pro-image-preview' }}
       # Per-run ceiling on image requests (retries count). See scripts/README.md → Gemini key and budget.
       COMIC_MAX_IMAGES: ${{ vars.COMIC_MAX_IMAGES || '10' }}
-      TARGET: ${{ github.event.inputs.target }}
       MODE: ${{ github.event.inputs.mode }}
-      SCENE: ${{ github.event.inputs.scene }}
+      COMIC: ${{ github.event.inputs.comic }}
       PANEL: ${{ github.event.inputs.panel }}
+      CHARACTERS: ${{ github.event.inputs.characters }}
+      SESSION: ${{ github.event.inputs.session }}
+      SCENE: ${{ github.event.inputs.scene }}
 
     steps:
       # The built-in GITHUB_TOKEN pushes the branch and opens the PR, as Process
@@ -75,7 +84,7 @@ jobs:
         run: pip install anthropic google-genai pillow pydantic
 
       - name: Check the Gemini key
-        if: env.MODE != 'letter-only'
+        if: env.MODE != 'letter'
         run: |
           if [ -z "$GEMINI_API_KEY" ]; then
             echo "::error::No GEMINI_API_KEY secret. Setup steps: scripts/README.md, section 'Gemini key and budget'."
@@ -86,11 +95,15 @@ jobs:
         id: draw
         run: |
           set -o pipefail
+          need() { [ -n "$2" ] || { echo "::error::Mode '$MODE' needs the '$1' input."; exit 1; }; }
           case "$MODE" in
-            portraits)   read -ra names <<< "$TARGET"; args=(--portraits "${names[@]}") ;;
-            new)         args=("$TARGET"); [ -n "$SCENE" ] && args+=(--scene "$SCENE") ;;
-            redraw)      args=("$TARGET" --redraw); [ -n "$PANEL" ] && args+=(--panel "$PANEL") ;;
-            letter-only) args=("$TARGET" --letter-only) ;;
+            draw)      need comic "$COMIC"; args=(--comic "$COMIC" --draw)
+                       [ -n "$PANEL" ] && args+=(--panel "$PANEL") ;;
+            letter)    need comic "$COMIC"; args=(--comic "$COMIC" --letter-only) ;;
+            portraits) need characters "$CHARACTERS"; read -ra names <<< "$CHARACTERS"
+                       args=(--portraits "${names[@]}") ;;
+            auto)      need session "$SESSION"; args=("$SESSION")
+                       [ -n "$SCENE" ] && args+=(--scene "$SCENE") ;;
           esac
           python scripts/comic_scene.py "${args[@]}" | tee "$RUNNER_TEMP/comic-log.txt"
 
@@ -108,11 +121,11 @@ jobs:
             echo "Nothing changed."
             exit 0
           fi
-          if [ "$MODE" = "portraits" ]; then
-            message="Draw reference portraits: $TARGET"
-          else
-            message="Comic for session $TARGET ($MODE)"
-          fi
+          case "$MODE" in
+            portraits) label="$CHARACTERS"; message="Draw reference portraits: $CHARACTERS" ;;
+            auto)      label="session-$SESSION"; message="Comic for session $SESSION (auto)" ;;
+            *)         label="$COMIC"; message="Comic $COMIC ($MODE)" ;;
+          esac
           if [ "${{ steps.draw.outcome }}" != "success" ]; then
             message="Incomplete: $message"
           fi
@@ -121,14 +134,14 @@ jobs:
             git push
             exit 0
           fi
-          branch="comic/$(echo "$TARGET" | tr -cs 'A-Za-z0-9' '-' | sed 's/-$//')-${GITHUB_RUN_ID}"
+          branch="comic/$(echo "$label" | tr -cs 'A-Za-z0-9' '-' | sed 's/-$//')-${GITHUB_RUN_ID}"
           git checkout -b "$branch"
           git commit -m "$message"
           git push -u origin "$branch"
           {
             echo "Generated by the Draw Comic workflow (\`$MODE\`). Look at the page before merging: merging publishes it."
             echo
-            echo "To fix it, edit \`data/comics/<slug>/script.json\` on this branch and re-run Draw Comic from this branch with mode \`redraw\` (art) or \`letter-only\` (text)."
+            echo "To fix it, edit \`data/comics/<name>/script.json\` on this branch and re-run Draw Comic from this branch with mode \`draw\` (art; set \`panel\` to redraw just one) or \`letter\` (text only, free)."
             echo
             echo '```'
             cat "$RUNNER_TEMP/comic-log.txt"

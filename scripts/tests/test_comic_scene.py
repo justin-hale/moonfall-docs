@@ -18,8 +18,8 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 import comic_scene as cs  # noqa: E402
 
 
-def panel(size="wide", dialogue=(), caption="", sfx="", characters=()):
-    return cs.Panel(size=size, characters=list(characters), visual="A scene.", caption=caption,
+def panel(dialogue=(), caption="", sfx="", characters=()):
+    return cs.Panel(characters=list(characters), visual="A scene.", caption=caption,
                     dialogue=list(dialogue), sfx=sfx)
 
 
@@ -46,14 +46,33 @@ A missile hits.
 """
 
 
-def test_lone_half_panels_become_wide():
-    panels = cs.pair_halves([panel("half"), panel("wide"), panel("half"), panel("half"), panel("half")])
-    assert [p.size for p in panels] == ["wide", "wide", "half", "half", "wide"]
+@pytest.mark.parametrize("count", [1, 2, 3])
+def test_strip_panels_share_one_row_with_their_aspect(count):
+    boxes, height = cs.layout([panel()] * count)
+    assert len(boxes) == count
+    assert len({y for _, y, _, _ in boxes}) == 1
+    aw, ah = cs.PANEL_ASPECT[count]
+    for _, _, w, h in boxes:
+        assert abs(w * ah - h * aw) <= aw  # integer rounding only
+    x, _, w, _ = boxes[-1]
+    assert cs.PAGE_W - cs.MARGIN - count <= x + w <= cs.PAGE_W - cs.MARGIN  # fills the row
+
+
+def test_comic_name_maps_to_its_recap():
+    assert cs.recap_ref_from_slug("session-64-the-missile") == "session-64"
+    assert cs.recap_ref_from_slug("interlude-12-a-quiet-night") == "interlude-12"
+    with pytest.raises(SystemExit):
+        cs.recap_ref_from_slug("the-missile")
+
+
+def test_script_with_no_panels_is_refused():
+    with pytest.raises(SystemExit):
+        cs.normalize_script(script(), {})
 
 
 def test_normalize_applies_name_rules_everywhere():
     s = script(panel(caption="Brew grins.", dialogue=[line("Brew", "Ellsworth, duck!")],
-                     characters=["Brew"]), panel(), panel())
+                     characters=["Brew"]))
     out = cs.normalize_script(s, {"Brew": "Bru", "Ellsworth": "Elspeth"})
     p = out.panels[0]
     assert p.caption == "Bru grins."
@@ -103,16 +122,15 @@ def test_find_character_by_alias_ignores_case():
 
 
 def test_letter_page_renders_every_panel(tmp_path):
-    s = script(panel("wide", caption="Over the farmland.", sfx="KRA-KOOM!"),
-               panel("half", dialogue=[line("Silas Fairbanks", "Hey guys.")]),
-               panel("half", dialogue=[line("Angel", "I'll kill you again.", "right")]))
+    s = script(panel(caption="Over the farmland.", sfx="KRA-KOOM!"),
+               panel(dialogue=[line("Silas Fairbanks", "Hey guys.")]),
+               panel(dialogue=[line("Angel", "I'll kill you again.", "right")]))
     for n in range(1, 4):
         Image.new("RGB", (640, 480), (30 * n, 60, 120)).save(tmp_path / f"panel-{n}.webp")
     page = cs.letter_page(s, cs.load_sheets(), tmp_path, "Session 64")
     boxes, height = cs.layout(s.panels)
     assert page.size == (cs.PAGE_W, height)
     assert len(boxes) == 3
-    assert boxes[1][1] == boxes[2][1]  # the halves share a row
 
 
 def test_budget_refuses_an_oversized_run_up_front(monkeypatch):

@@ -1,21 +1,22 @@
 #!/usr/bin/env python3
-"""Turn a scene from a session into a comic-book page.
+"""Turn a scene from a session into a comic strip of 1-3 panels.
 
-    python scripts/comic_scene.py 64                     # Claude picks the best scene
-    python scripts/comic_scene.py 64 --scene "The Missile"
-    python scripts/comic_scene.py 64 --script-only       # write the panel script, draw nothing
-    python scripts/comic_scene.py 64 --redraw            # redraw from the (hand-edited) script
-    python scripts/comic_scene.py 64 --redraw --panel 3  # redraw one panel only
-    python scripts/comic_scene.py 64 --letter-only       # re-letter the existing art, no API calls
+Each strip is one scene, embedded under that scene's heading in the recap; a
+session can have several. The usual flow writes `script.json` by hand (or
+with Claude in a chat) and only uses this script to draw and letter it:
+
+    python scripts/comic_scene.py --comic session-64-the-missile --draw
+    python scripts/comic_scene.py --comic session-64-the-missile --draw --panel 2
+    python scripts/comic_scene.py --comic session-64-the-missile --letter-only
     python scripts/comic_scene.py --portraits Bru Silas  # draw reference portraits
+    python scripts/comic_scene.py 64 [--scene "The Missile"]  # auto: Claude scripts it too
 
 Three stages, each of which can be re-run on its own:
 
-1. **Script** (Claude, `ANTHROPIC_API_KEY`). Reads the recap and the session's
-   transcript and writes a 3-6 panel script: what each panel shows, the
+1. **Script.** `data/comics/<slug>/script.json`: what each panel shows, the
    narration caption, and dialogue lifted from what was said at the table.
-   Saved to `data/comics/<slug>/script.json`, the file to hand-edit when a
-   panel is wrong.
+   The slug is `<recap stem>-<scene heading>`. Written by hand, or by Claude
+   (`ANTHROPIC_API_KEY`) in auto mode from the recap and transcript.
 2. **Art** (Gemini, `GEMINI_API_KEY`). One image per panel, with no text in
    it. Every character in the panel is described from
    `data/character-sheets.json` and, once someone has approved a portrait,
@@ -25,7 +26,7 @@ Three stages, each of which can be re-run on its own:
 3. **Lettering** (Pillow, no API). Lays the panels out, adds captions,
    balloons and sound effects in code. Image models misspell names, and the
    name rules in CLAUDE.md are not optional, so no text is ever drawn by the
-   model. The page goes to `static/img/comics/<slug>.webp` and is embedded
+   model. The strip goes to `static/img/comics/<slug>.webp` and is embedded
    in the recap under the heading of the scene it shows.
 
 Nothing here publishes on its own: the result is a working-tree change to
@@ -62,22 +63,22 @@ SCRIPT_MODEL = "claude-opus-5-5"
 IMAGE_MODEL = os.environ.get("GEMINI_IMAGE_MODEL", "gemini-3-pro-image-preview")
 # A per-run ceiling on Gemini image requests, retries included: the backstop
 # for the AI Studio spend cap, which Google enforces up to ~10 minutes late.
-# The default fits a full 6-panel page plus a few retries.
+# The default fits a 3-panel strip with retries to spare.
 MAX_IMAGE_REQUESTS = int(os.environ.get("COMIC_MAX_IMAGES", "10"))
 # Only for the cost estimate printed at the end. Nano Banana Pro at 1K-2K.
 PRICE_PER_IMAGE = float(os.environ.get("GEMINI_PRICE_PER_IMAGE", "0.134"))
 
-MIN_PANELS, MAX_PANELS = 3, 6
+MIN_PANELS, MAX_PANELS = 1, 3
 
-# Page geometry (pixels).
+# Strip geometry (pixels). Panels sit in one row; their shape depends on how
+# many there are, so the strip stays a sensible size inside the recap.
 PAGE_W = 1600
-MARGIN = 40
-GUTTER = 24
+MARGIN = 24
+GUTTER = 16
 BORDER = 6
-HEADER_H = 150
-FOOTER_H = 60
-WIDE_ASPECT = (16, 9)
-HALF_ASPECT = (4, 5)
+HEADER_H = 72
+FOOTER_H = 40
+PANEL_ASPECT = {1: (16, 9), 2: (4, 3), 3: (1, 1)}
 
 
 # --------------------------------------------------------------------------
@@ -92,8 +93,6 @@ class Line(BaseModel):
 
 
 class Panel(BaseModel):
-    size: Literal["wide", "half"] = Field(
-        description="wide = full page width, 16:9. half = half width, portrait; halves sit side by side in pairs")
     characters: list[str] = Field(
         description="Everyone visible, using names from the character sheet where they appear there")
     visual: str = Field(
@@ -105,7 +104,7 @@ class Panel(BaseModel):
 
 
 class ComicScript(BaseModel):
-    title: str = Field(description="Short punchy title for the page")
+    title: str = Field(description="Short punchy title for the strip")
     section: str = Field(description="The recap's ### heading this scene falls under, copied exactly")
     why: str = Field(description="One sentence: why this is the scene worth drawing")
     transcript_evidence: list[str] = Field(
@@ -114,11 +113,12 @@ class ComicScript(BaseModel):
 
 
 SCRIPT_SYSTEM = """\
-You adapt moments from a D&D campaign (Moonfall) into a single comic-book page.
+You adapt moments from a D&D campaign (Moonfall) into a short comic strip of \
+{min}-{max} panels that sits inside the session's published recap.
 
 You get the session's published recap, its raw transcript, and the character \
 sheet the artist works from. Pick the scene (or use the one you are given) and \
-script it as {min}-{max} panels.
+script it in as few panels as tell it: one when a single image is the moment.
 
 The transcript is the source of truth. The recap is a guide to where things \
 are, but it has been wrong before; never draw something the transcript does not \
@@ -137,7 +137,7 @@ Write each panel's `visual` for an illustrator who has never heard of the \
 campaign: make it concrete and stageable in one image. Appearances come from \
 the character sheet, so name the characters in `characters` instead of \
 describing them again. Build to the scene's payoff and land it in the last \
-panel. Usually open wide to establish where we are. Halves come in pairs.\
+panel.\
 """.format(min=MIN_PANELS, max=MAX_PANELS)
 
 
@@ -244,7 +244,7 @@ def normalize_script(script, corrections):
     script.title = fix(script.title)
     panels = script.panels[:MAX_PANELS]
     if len(panels) < MIN_PANELS:
-        print(f"  Warning: only {len(panels)} panels scripted")
+        raise SystemExit("The script has no panels")
     for panel in panels:
         panel.visual = fix(panel.visual)
         panel.caption = fix(panel.caption)
@@ -254,22 +254,8 @@ def normalize_script(script, corrections):
         for line in panel.dialogue:
             line.speaker = fix(line.speaker)
             line.text = fix(line.text)
-    script.panels = pair_halves(panels)
+    script.panels = panels
     return script
-
-
-def pair_halves(panels):
-    """A half panel without a neighbouring half becomes wide."""
-    out = list(panels)
-    i = 0
-    while i < len(out):
-        if out[i].size == "half":
-            if i + 1 < len(out) and out[i + 1].size == "half":
-                i += 2
-                continue
-            out[i].size = "wide"
-        i += 1
-    return out
 
 
 _WORD = re.compile(r"[a-z0-9']+")
@@ -333,7 +319,7 @@ def gemini_image(contents, aspect, attempts=3):
         if image_requests >= MAX_IMAGE_REQUESTS:
             raise SystemExit(
                 f"Stopped at COMIC_MAX_IMAGES={MAX_IMAGE_REQUESTS} image requests. "
-                f"Panels already drawn are saved; finish with --redraw --panel N.")
+                f"Panels already drawn are saved; finish with --draw --panel N.")
         image_requests += 1
         response = client.models.generate_content(model=IMAGE_MODEL, contents=contents, config=config)
         for candidate in response.candidates or []:
@@ -373,7 +359,7 @@ def reference_parts(panel, sheets, previous=None):
             parts += [f"Reference image for {key} - match this design exactly:",
                       Image.open(ROOT / ref).convert("RGB")]
     if previous is not None:
-        parts += ["The previous panel on this page - keep the art style, palette and "
+        parts += ["The previous panel in this strip - keep the art style, palette and "
                   "costumes consistent with it:", previous]
     return parts
 
@@ -388,8 +374,8 @@ def draw_panels(script, sheets, comic_dir, only=None):
             if path.exists():
                 previous = Image.open(path).convert("RGB")
             continue
-        aspect = "16:9" if panel.size == "wide" else "4:5"
-        print(f"  Drawing panel {number}/{len(script.panels)} ({panel.size})")
+        aspect = "{}:{}".format(*PANEL_ASPECT[len(script.panels)])
+        print(f"  Drawing panel {number}/{len(script.panels)} ({aspect})")
         contents = [*reference_parts(panel, sheets, previous), panel_prompt(panel, sheets)]
         image = gemini_image(contents, aspect)
         image.save(path, "WEBP", quality=90)
@@ -449,21 +435,14 @@ def wrap(text, fnt, max_width):
 
 
 def layout(panels):
-    """Panel boxes (x, y, w, h) below the header, and the page height."""
-    inner = PAGE_W - 2 * MARGIN
-    half_w = (inner - GUTTER) // 2
-    boxes, y, i = [], MARGIN + HEADER_H, 0
-    while i < len(panels):
-        if panels[i].size == "half" and i + 1 < len(panels) and panels[i + 1].size == "half":
-            h = half_w * HALF_ASPECT[1] // HALF_ASPECT[0]
-            boxes += [(MARGIN, y, half_w, h), (MARGIN + half_w + GUTTER, y, half_w, h)]
-            i += 2
-        else:
-            h = inner * WIDE_ASPECT[1] // WIDE_ASPECT[0]
-            boxes.append((MARGIN, y, inner, h))
-            i += 1
-        y += h + GUTTER
-    return boxes, y - GUTTER + FOOTER_H + MARGIN
+    """Panel boxes (x, y, w, h) in one row below the header, and the strip height."""
+    n = len(panels)
+    aw, ah = PANEL_ASPECT[n]
+    w = (PAGE_W - 2 * MARGIN - GUTTER * (n - 1)) // n
+    h = w * ah // aw
+    y = MARGIN + HEADER_H
+    boxes = [(MARGIN + i * (w + GUTTER), y, w, h) for i in range(n)]
+    return boxes, y + h + FOOTER_H + MARGIN
 
 
 def draw_caption(draw, x, y, max_w, text):
@@ -534,11 +513,13 @@ def letter_page(script, sheets, comic_dir, session_title):
     page = Image.new("RGBA", (PAGE_W, page_h), "#FBF7EE")
     draw = ImageDraw.Draw(page)
 
-    title_font = font("Bangers-Regular.ttf", 96)
-    kicker_font = font("Bangers-Regular.ttf", 32)
-    draw.text((MARGIN, MARGIN - 6), "MOONFALL SESSIONS", font=kicker_font, fill="#B3261E")
-    draw.text((MARGIN, MARGIN + 30), script.title.upper(), font=title_font, fill="black",
-              stroke_width=2, stroke_fill="black")
+    title_font = font("Bangers-Regular.ttf", 60)
+    kicker_font = font("Bangers-Regular.ttf", 28)
+    draw.text((MARGIN, MARGIN), script.title.upper(), font=title_font, fill="black",
+              stroke_width=1, stroke_fill="black")
+    kicker = "MOONFALL SESSIONS"
+    draw.text((PAGE_W - MARGIN - kicker_font.getlength(kicker), MARGIN + 24), kicker,
+              font=kicker_font, fill="#B3261E")
 
     for number, (panel, box) in enumerate(zip(script.panels, boxes), 1):
         px, py, pw, ph = box
@@ -554,8 +535,8 @@ def letter_page(script, sheets, comic_dir, session_title):
         if panel.sfx:
             draw_sfx(page, box, panel.sfx.upper())
 
-    footer_font = font("ComicNeue-Bold.ttf", 24)
-    draw.text((MARGIN, page_h - MARGIN - 30), session_title, font=footer_font, fill="#555555")
+    footer_font = font("ComicNeue-Bold.ttf", 22)
+    draw.text((MARGIN, page_h - MARGIN - 28), session_title, font=footer_font, fill="#555555")
     return page.convert("RGB")
 
 
@@ -593,14 +574,23 @@ def existing_comic(stem, slug=None):
     return found[0]
 
 
+def recap_ref_from_slug(slug):
+    """'session-64-the-missile' -> 'session-64' (the recap the comic belongs to)."""
+    match = re.match(r"((?:session|interlude)-\d+)-", slug)
+    if not match:
+        raise SystemExit(f"Comic name {slug!r} should start with its recap, e.g. session-64-...")
+    return match.group(1)
+
+
 def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__.split("\n\n")[0])
     parser.add_argument("session", nargs="?", help="Session number, recap stem, or page URL")
     parser.add_argument("--scene", help="Recap ### heading to draw (default: Claude picks)")
-    parser.add_argument("--comic", help="Existing comic slug, for --redraw/--letter-only")
-    parser.add_argument("--script-only", action="store_true", help="Write the script, draw nothing")
-    parser.add_argument("--redraw", action="store_true", help="Redraw art from the existing script")
-    parser.add_argument("--panel", type=int, help="With --redraw: only this panel")
+    parser.add_argument("--comic", help="Comic folder under data/comics, e.g. session-64-the-missile")
+    parser.add_argument("--script-only", action="store_true", help="Auto mode: write the script, draw nothing")
+    parser.add_argument("--draw", "--redraw", dest="redraw", action="store_true",
+                        help="Draw (or redraw) the art from the comic's script.json, then letter it")
+    parser.add_argument("--panel", type=int, help="With --draw: only this panel")
     parser.add_argument("--letter-only", action="store_true", help="Re-letter existing art, no API")
     parser.add_argument("--no-embed", action="store_true", help="Don't add the page to the recap")
     parser.add_argument("--portraits", nargs="*", metavar="NAME",
@@ -611,8 +601,12 @@ def main(argv=None):
     if args.portraits is not None:
         draw_portraits(args.portraits, force=args.force)
         return
+    if args.comic and not args.session:
+        args.session = recap_ref_from_slug(args.comic)
     if not args.session:
-        parser.error("session is required")
+        parser.error("give a session number (auto mode) or --comic NAME")
+    if (args.redraw or args.letter_only) is False and args.comic:
+        parser.error("--comic needs --draw or --letter-only")
 
     recap_path = resolve_recap(args.session)
     recap_text = recap_path.read_text(encoding="utf-8")
