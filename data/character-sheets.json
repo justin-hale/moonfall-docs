@@ -1,13 +1,13 @@
 {
   "_about": "Visual reference for scripts/comic_scene.py. 'description' goes into every image prompt, so keep it to what the table has actually said; 'gaps' lists what nobody has described yet and the art model will otherwise make up. 'reference' is an approved portrait (generate with --portraits, keep the one the player likes). 'label' is the name shown in speech balloons.",
-  "style": "Comic book panel art in a modern fantasy-meets-technology world (magic, guns, cars, starships, broadcast drones). Bold confident ink linework, flat cel-shaded colour with halftone-dot shading, dramatic lighting, dynamic camera angles, expressive faces. Consistent character designs throughout.",
+  "style": "Hand-drawn 1990s cel-animation action-anime key art. Clean, confident ink lines; flat cel shading with crisp two-tone shadows; richly painted backgrounds with atmospheric depth. Cinematic, dynamic composition: dramatic low or tilted camera angles, strong foreshortening, the action frozen at its peak moment. Motion everywhere: speed lines, flying debris, dust trails, whipping hair and coats, glowing magic with light bloom. Grounded, realistic proportions. Saturated colour lit by one strong light source with deep shadows. A modern fantasy world mixing magic with guns, cars, starships and broadcast drones.",
   "characters": {
     "Silas Fairbanks": {
       "label": "Silas",
       "aliases": [
         "Silas"
       ],
-      "description": "Male halfling rogue-sorcerer, about 40, small and wiry, a grifter and band manager with a showman's swagger. Mop of dark curly hair, short scruffy beard, pointed ears, sharp friendly face with keen eyes. Weathered olive-green leather-bound overcoat with pouches and brass fittings over a red waistcoat, grey-green scarf; belts hung with gears, chains, a compass and a small telescope; thick leather bracers; laced mid-calf boots. Sometimes wears the Cloak of Arachnida and scuttles on all fours spider-style; a memorial spell tattoo, and the name ASTRO written on his forearm.",
+      "description": "Male halfling rogue-sorcerer, about 40, only about three feet tall (child-height next to humans), small and wiry, a grifter and band manager with a showman's swagger. Mop of dark curly hair, short scruffy beard, pointed ears, sharp friendly face with keen eyes. Weathered olive-green leather-bound overcoat with pouches and brass fittings over a red waistcoat, grey-green scarf; belts hung with gears, chains, a compass and a small telescope; thick leather bracers; laced mid-calf boots. Sometimes wears the Cloak of Arachnida and scuttles on all fours spider-style; a memorial spell tattoo, and the name ASTRO written on his forearm.",
       "gaps": [],
       "sources": [
         "items/cloak-of-arachnida.md",
@@ -42,7 +42,7 @@
       "aliases": [
         "Elspeth"
       ],
-      "description": "Female dwarf artificer and gunslinger, a racer and mechanic. Dark hair in long braids with brass goggles pushed up into it, freckles, grease smudged on her face; khaki work jacket or overalls with leather straps. Carries magical firearms.",
+      "description": "Female dwarf (about four feet tall, stocky and broad) artificer and gunslinger, a racer and mechanic. Dark hair in long braids with brass goggles pushed up into it, freckles, grease smudged on her face; khaki work jacket or overalls with leather straps. Carries magical firearms.",
       "gaps": [],
       "sources": [
         "transcript 2026-05-15 (S53, her player)",
@@ -69,7 +69,7 @@
       "aliases": [
         "Olivia"
       ],
-      "description": "Elderly female dwarf paladin and retired detective, Elspeth's grandmother: short curly silver-grey hair, stern weathered face. Everyday look: subtle three-piece pinstripe suit, fedora with a feather, a cane carried for fun, and a monocle (her Eyes of Minute Seeing). In battle: ornate gold breastplate and pauldrons over ochre and teal robes, a cream shawl, leather belts and boots, a round bronze shield; fights with an axe.",
+      "description": "Elderly female dwarf (about four feet tall, stocky and broad) paladin and retired detective, Elspeth's grandmother: short curly silver-grey hair, stern weathered face. Everyday look: subtle three-piece pinstripe suit, fedora with a feather, a cane carried for fun, and a monocle (her Eyes of Minute Seeing). In battle: ornate gold breastplate and pauldrons over ochre and teal robes, a cream shawl, leather belts and boots, a round bronze shield; fights with an axe.",
       "gaps": [],
       "sources": [
         "sessions/interlude-7.md",
