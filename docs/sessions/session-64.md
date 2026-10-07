@@ -28,6 +28,9 @@ The table spent a long, cheerfully undignified stretch doing math on a car. Four
 Elspeth broke off the tower's leaning base section with a Shatter spell — a clean 16, enough to send the slab crashing down parallel to the building in something close to a ramp. Silas and Bru checked the drones circling overhead on perception (16 boosted to 24, and 18, respectively), confirming they were the same broadcast model that had carried [Lord Bradicus](/npcs/lord-bradicus)'s death-game across every screen in the capital months earlier. That confirmation mattered. It meant the whole city was about to be watching.
 
 ### The Launch
+
+![Comic: Let's Rock, Let's Roll. Night, the Eldoran capital burning in the background. The sleek luxury sports car at the bottom of a steep, rough ramp of broken tower rubble, engine roaring, headlights blazing, dust kicking up from the rear wheels. The sports car soaring through open night sky, launched off the end of the fallen tower over the capital's city wall, wheels spinning in the air.](/img/comics/session-64-the-launch.webp)
+
 Elspeth drove. An absorb elements spell went onto the car before the wheels ever left the slab, on the theory — correct, as it turned out — that something out there was going to throw fire at them. The jump itself needed a 30 on a driving check and got one; the Bugatti cleared the ramp, carried the tower's momentum into the open air, and sailed out over the capital's estate district toward dense forest and open farmland beyond the walls.
 
 Behind them: two angel-soldiers, risen from the barracks ritual the party had witnessed weeks earlier, peeling off in pursuit — one angling toward the barracks itself (where, by the dice, [Captain Steel](/npcs/captain-steel) was headed instead), the other locking directly onto the fleeing car. A warplane banked in behind them both.
