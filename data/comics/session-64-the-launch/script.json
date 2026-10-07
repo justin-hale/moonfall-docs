@@ -1,0 +1,42 @@
+{
+  "title": "Let's Rock, Let's Roll",
+  "section": "The Launch",
+  "why": "The Bugatti's jump off the fallen research tower: the ramp made by axe, the whole party crammed in, a perfect driving check into open sky.",
+  "transcript_evidence": [
+    "Christopher Hooper: Brew uh breaks off. He did Oh, he had a total of 21 uh for breaking off a piece to create a ramp. Uh I think that's not going to quite do it.",
+    "Olivia (Ellis Taylor): No, I'm just going to hit it.",
+    "Christopher Hooper: So, you you like hit it and hit it again and then it just collapses on you. ... it looks like the ramp is down now.",
+    "Silas (Tyram): I just I just like jump onto the back of the car ... like one of those like Garfield things people put in their windshields",
+    "Silas (Tyram): I like to pass out a bunch of sunglasses for us to all put on, right, as they like crest over the wall and like go into the open sky.",
+    "Christopher Hooper: so you two right as you get to the edge of the building ... when you cast levitate",
+    "Olivia (Ellis Taylor): Guys, we need some luck.",
+    "Christopher Hooper: And that was with Elspeth's driving check of a 30. ... you're able to time this uh absolutely perfectly, just jettisoning off the end of the building."
+  ],
+  "panels": [
+    {
+      "characters": ["Olivia Cooper"],
+      "visual": "Night, the Eldoran capital burning in the background. The base of a collapsed high-tech research tower juts out at an angle, a huge cracked slab of stone and steel leaning against the fallen building, still smoking from a spell. Olivia stands at its foot and swings her battle axe into it with both hands; the slab is breaking loose and tipping down toward her, chunks of rubble raining around her. Low angle looking up, dramatic and heavy.",
+      "caption": "Bru's Shatter cracks the tower's base. It doesn't quite fall.",
+      "dialogue": [
+        {"speaker": "Olivia Cooper", "text": "No, I'm just going to hit it.", "position": "left"}
+      ],
+      "sfx": "KRA-KOOM!"
+    },
+    {
+      "characters": ["The Bugatti", "Elspeth Cooper", "Olivia Cooper", "Leliana Goldspring", "Silas Fairbanks"],
+      "visual": "The sleek luxury sports car at the bottom of a steep, rough ramp of broken tower rubble, engine roaring, headlights blazing, dust kicking up from the rear wheels. Elspeth grips the wheel; Olivia and Leliana are squeezed in beside her. Silas, the small halfling, is splayed flat across the outside of the rear window like a suction-cup window toy, grinning. Leliana's hands glow with soft blue light as she casts a levitation spell on the car. Three-quarter view from the front, looking up the ramp toward the sky.",
+      "caption": "",
+      "dialogue": [
+        {"speaker": "Olivia Cooper", "text": "Guys, we need some luck.", "position": "center"}
+      ],
+      "sfx": "VRRRMMM!"
+    },
+    {
+      "characters": ["The Bugatti", "Elspeth Cooper", "Olivia Cooper", "Leliana Goldspring", "Silas Fairbanks"],
+      "visual": "The sports car soaring through open night sky, launched off the end of the fallen tower over the capital's city wall, wheels spinning in the air. Through the windows everyone wears sunglasses; Silas still clings to the outside, also in sunglasses. Ahead and below: dark forest and moonlit farmland. Far behind: the burning city, glowing winged angel-soldiers rising into the air and a warplane banking toward them. Wide shot, the car small against a huge sky, triumphant.",
+      "caption": "Elspeth's driving check: 30. They clear it perfectly.",
+      "dialogue": [],
+      "sfx": ""
+    }
+  ]
+}
