@@ -1,1 +1,2 @@
-anthropic>=0.39.0
+# >=0.98.0 required for workload identity federation (OIDC token exchange)
+anthropic>=0.98.0

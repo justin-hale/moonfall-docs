@@ -62,10 +62,52 @@ jobs:
         run: |
           pip install -r requirements.txt
 
+      # Claude API auth: workload identity federation is the primary path —
+      # a short-lived GitHub OIDC token is exchanged for Claude API access,
+      # no static key stored. Until federation is configured (or if it needs
+      # to be rolled back), ANTHROPIC_FALLBACK_API_KEY keeps the pipeline
+      # working. See .github/workload-identity-setup.md
+      - name: Select Claude API auth mode
+        env:
+          FEDERATION_RULE_ID: ${{ vars.ANTHROPIC_FEDERATION_RULE_ID }}
+          ORGANIZATION_ID: ${{ vars.ANTHROPIC_ORGANIZATION_ID }}
+          SERVICE_ACCOUNT_ID: ${{ vars.ANTHROPIC_SERVICE_ACCOUNT_ID }}
+          FALLBACK_KEY_SET: ${{ secrets.ANTHROPIC_FALLBACK_API_KEY != '' }}
+        run: |
+          if [ -n "$FEDERATION_RULE_ID" ] && [ -n "$ORGANIZATION_ID" ] && [ -n "$SERVICE_ACCOUNT_ID" ]; then
+            echo "Auth mode: workload identity federation"
+            echo "CLAUDE_AUTH_MODE=federation" >> "$GITHUB_ENV"
+          elif [ "$FALLBACK_KEY_SET" = "true" ]; then
+            echo "::warning::Workload identity federation not configured — using ANTHROPIC_FALLBACK_API_KEY. See .github/workload-identity-setup.md to finish the migration."
+            echo "CLAUDE_AUTH_MODE=api-key" >> "$GITHUB_ENV"
+          else
+            echo "::error::No Claude API auth configured. Either set the ANTHROPIC_FEDERATION_RULE_ID / ANTHROPIC_ORGANIZATION_ID / ANTHROPIC_SERVICE_ACCOUNT_ID repository variables (workload identity federation), or set the ANTHROPIC_FALLBACK_API_KEY secret. See .github/workload-identity-setup.md"
+            exit 1
+          fi
+
+      - name: Fetch GitHub OIDC token
+        if: env.CLAUDE_AUTH_MODE == 'federation'
+        run: |
+          curl -sS -H "Authorization: Bearer $ACTIONS_ID_TOKEN_REQUEST_TOKEN" \
+            "$ACTIONS_ID_TOKEN_REQUEST_URL&audience=https://api.anthropic.com" \
+            | jq -r .value > "$RUNNER_TEMP/claude-oidc-token"
+
       - name: Generate session notes
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          ANTHROPIC_FEDERATION_RULE_ID: ${{ vars.ANTHROPIC_FEDERATION_RULE_ID }}
+          ANTHROPIC_ORGANIZATION_ID: ${{ vars.ANTHROPIC_ORGANIZATION_ID }}
+          ANTHROPIC_SERVICE_ACCOUNT_ID: ${{ vars.ANTHROPIC_SERVICE_ACCOUNT_ID }}
+          ANTHROPIC_IDENTITY_TOKEN_FILE: ${{ runner.temp }}/claude-oidc-token
+          ANTHROPIC_FALLBACK_API_KEY: ${{ secrets.ANTHROPIC_FALLBACK_API_KEY }}
         run: |
+          # An API key takes precedence over federation in the SDK, so expose
+          # exactly one auth mechanism to the script.
+          if [ "$CLAUDE_AUTH_MODE" = "api-key" ]; then
+            export ANTHROPIC_API_KEY="$ANTHROPIC_FALLBACK_API_KEY"
+            unset ANTHROPIC_FEDERATION_RULE_ID ANTHROPIC_ORGANIZATION_ID \
+              ANTHROPIC_SERVICE_ACCOUNT_ID ANTHROPIC_IDENTITY_TOKEN_FILE
+          fi
+          unset ANTHROPIC_FALLBACK_API_KEY
           ARGS=""
           if [ -n "${{ inputs.session_number }}" ]; then
             ARGS="$ARGS --session-number ${{ inputs.session_number }}"
