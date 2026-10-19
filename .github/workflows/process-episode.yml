@@ -46,9 +46,11 @@ jobs:
       # 2026-09-19. Second and third are both named "Google Meet": Meet
       # created the first on 2026-09-19 and a second, alongside it at the
       # root of My Drive, on 2026-09-26 (Session 63). Meet made two more on
-      # 2026-10-02 (Session 64) and 2026-10-17 (Session 65). Any other shared
-      # folder named "Google Meet" is found by ci_process.py without a listing.
-      DRIVE_FOLDER_ID: ${{ vars.DRIVE_FOLDER_ID || '14EVI64FlpZCwRy4UL4ZhGjlsjK55XL1h,1hFJdv2ntSo9s1yQYK6QEv_EnaT8SzD8G,1YV_vLeKzQwEPJDv7Ogc2O9MyQHWdLPMk,1snn_mWOvgc5b4WivdEO14QIhf2Kh4KUJ,1mUl0OYEbfdSCL4jc8Ch-kmTrJOBRTvCh' }}
+      # 2026-10-02 (Session 64) and 2026-10-17 (Session 65); for the last, only
+      # its "DnD (recurring)" subfolder is shared, so that is what is listed.
+      # Any other shared folder named "Google Meet" is found by ci_process.py
+      # without a listing.
+      DRIVE_FOLDER_ID: ${{ vars.DRIVE_FOLDER_ID || '14EVI64FlpZCwRy4UL4ZhGjlsjK55XL1h,1hFJdv2ntSo9s1yQYK6QEv_EnaT8SzD8G,1YV_vLeKzQwEPJDv7Ogc2O9MyQHWdLPMk,1snn_mWOvgc5b4WivdEO14QIhf2Kh4KUJ,1Vg9sXRV0R4KZzxNnv5kxcW3CA_w0gVoo' }}
       GOOGLE_SERVICE_ACCOUNT_KEY: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_KEY }}
       OMELAS_PAT: ${{ secrets.OMELAS_PAT }}
 
