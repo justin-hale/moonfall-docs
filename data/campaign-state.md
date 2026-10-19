@@ -252,6 +252,10 @@ Bru infiltrates the spaceport factory disguised as Colonel Sanders and pivots fr
 **Session 64** – Two Angels and a Falling Car
 The party launches the Bugatti off the collapsed research tower into open sky, pursued by two angel-soldiers and a warplane over the Eldoran countryside. Silas boards an angel mid-flight with a grapple hook, nearly dies, levels up mid-duel, and kills it with a psychic blow. Olivia, mounted on Bob, delivers two critical hits totaling 164 damage and decapitates the second angel. A final missile from the warplane strikes the car mid-air as the session ends.
 
+
+**Session 65** – Homecoming in the Shire
+The party crashes in farmland outside Eldoran and infiltrates Leliana's childhood home to escape military lockdown. Leliana's parents shelter the group without questions, and her mother kills two soldiers at the gate with a rifle nobody knew she owned. The party escapes to the coast by stolen Jeep, confirming George and Finnegan are clear of the city and making for the docks.
+
 ## Active Plot Threads
 
 ### 1. The Three-Target Strike on the Eldoran Capital
@@ -338,6 +342,14 @@ The moon exploded in Session 16. At Luna's underwater crash site the party resea
 - **Silas's heresy broadcast**: Silas hijacked a news drone mid-flight to declare "Eldora failed to stop this because she is a false god" to every screen in the Eldoran Empire.
 - **Eldoran Empire's divine system**: Confirmed as belief-into-power architecture; the party's broadcast directly challenged Eldora's authority live.
 - **Angel-soldiers**: Two of the winged knights summoned from the barracks ritual engaged the party in aerial combat; both killed (Sessions 61, 63, 64).
+
+
+#### Session 65 Updates
+- **Escape from the capital**: Continuing; party now en route to coast by vehicle, approximately two hours away. River route confirmed useless (runs through city center).
+- **George's fate**: Confirmed clear of city and heading to docks with Finnegan (via sending stone contact).
+- **Leliana's double life**: Leliana consciously chose not to reveal her true identity to her parents, treating the concealment as protection. Her mother's lethal response to soldiers suggests the Goldsprings may already know more than stated.
+- **Leliana and Helisanna personas**: Leliana visibly shaken by her mother's violence in ways combat has not affected her; emotional weight of the moment noted.
+- **Chewy (half-gnome farmhand)**: Talked down from poisoning neighbors' wells by Leliana's economic reasoning; warned by Leliana's mind message to run; fate after soldiers' retreat unknown, but alive.
 
 ## Character Status
 
@@ -437,6 +449,13 @@ The moon exploded in Session 16. At Luna's underwater crash site the party resea
 - **Leliana Goldspring**: Dropped to 4 HP during second angel fight; used Hypnotic Pattern to freeze warplane pilot, Command spell (DC 17) to force pilot to grovel; maintained concentration split between levitate and crowd control throughout flight.
 - **Elspeth Cooper**: Achieved DC 30 driving check for Bugatti launch; cast Shatter to create tower-base ramp; took full 36 fire damage from final missile strike without making save.
 
+
+#### Session 65 Updates
+- **Leliana Goldspring**: Mass Suggested two soldiers (DC 17 Wisdom saves; both failed at 12 and 2) into retreat with two-word command "return to base." Persuasion check of 24 (burned luck point) convinced her mother to shelter the group. Emotional toll from her mother's lethal response notable; standing in her childhood bedroom choosing concealment over confession.
+- **Silas Fairbanks**: Natural 20 perception check identified Chewy's gnomish heritage before introduction. Sleight of Hand 24 hotwiring family Jeep under fire. Silent Image spell cast to mask their departure from the road.
+- **Olivia Cooper**: Natural 20 slipping out window unnoticed during soldier inspection.
+- **Bru**: Grief over Bugatti destruction noted as liability for future operations requiring discretion.
+
 ## Key Callbacks & Unresolved Hooks
 
 ### Unresolved Plot Threads
@@ -510,3 +529,10 @@ The moon exploded in Session 16. At Luna's underwater crash site the party resea
 - **Bob's phase-step combat**: Olivia's fey steed proved decisive in mounted aerial combat; mechanical advantage against Medium enemies confirmed.
 - **Captain Steel's flight capability**: Confirmed he can fly (Session 63); he was headed to the barracks instead of pursuing (Session 64).
 - **George at the barracks during the blast**: No contact since detonation; fate unknown.
+
+
+#### Session 65 Updates
+- **Leliana's mother and the rifle**: Unknown source of weapon; unknown whether parents genuinely didn't know who Leliana was or were protecting her through deliberate ignorance. Two soldiers' bodies left at the farm gate. Possible leverage or future complication if discovered.
+- **Chewy's fate**: Last seen fleeing into fields after Leliana's warning; may resurface as contact or complication in the Shire region.
+- **The Goldspring farm safehouse**: Burned as location; 300 gold left behind. Parents now aware of military interest and daughter's involvement in something large enough to bring soldiers to their door.
+- **Helisanna's emotional state**: First time depicted as shaken by violence; mother's lethal response triggered response Leliana's own magic had not. Possible thread for future processing or conflict between personas.

@@ -42,3 +42,4 @@ The Session 2 recap describes him as a charming, young, blonde halfling who was 
 - **[Session 57](/sessions/session-57)** — Directs the party to George at the Sexy Peacock.
 - **[Session 62](/sessions/session-62)** — Helps Silas plan the three-target strike at Toothy's and takes charge of mapping escape routes.
 - **[Session 63](/sessions/session-63)** — Waits at the docks with the escape options as the research tower falls.
+- **[Session 65](/sessions/session-65)** — Finnegan was confirmed by sending stone to be clear of Eldoran city and heading toward the docks.

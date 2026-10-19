@@ -42,3 +42,4 @@ The party took the ritual as harmonic resonance at work — belief powering the 
 - **[Session 61](/sessions/session-61)** — Disguised as orphans, the party watches a concert-ritual raise a soldier into a winged knight before a hall of chained prisoners.
 - **[Session 62](/sessions/session-62)** — Leliana, disguised as a sergeant, arms a suitcase bomb in the barracks auditorium and warns George to clear out.
 - **[Session 63](/sessions/session-63)** — The barracks bomb goes off alongside those at the Spaceport Factory and the Research Tower.
+- **[Session 65](/sessions/session-65)** — The Eldoran Barracks took heavier damage than the Spaceport Factory during the party's strike.

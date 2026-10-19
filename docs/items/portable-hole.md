@@ -54,3 +54,4 @@ The **Portable Hole** (the "pee hole" at the table) is a folding extradimensiona
 - **[Session 60](/sessions/session-60)** — Olivia rides inside the hole for the rest of the day at the factory, since only two people fit.
 - **[Session 61](/sessions/session-61)** — At the barracks' rear wall, the party plans to lift two people over in the hole ("effectively weightless", but only two fit).
 - **[Session 64](/sessions/session-64)** — A portable hole was proposed as temporary breathable storage for party members who could not fit in the Bugatti.
+- **[Session 65](/sessions/session-65)** — The party folded into the portable hole while approaching Leliana's family farm to avoid detection.

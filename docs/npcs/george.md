@@ -40,3 +40,4 @@ aliases: ["George Cooper", "Georgie Boy"]
 - **[Session 60](/sessions/session-60)** — Scouting the barracks, the party glimpses him leaving a building across a courtyard of chained prisoners.
 - **[Session 61](/sessions/session-61)** — The party spots him running laps with his squadron. When Leliana contacts him by message spell, he puts off meeting until later at the Sexy Peacock.
 - **[Session 62](/sessions/session-62)** — He helps finalise the three-pronged strike, advising a midday blast and warning of a citywide lockdown, and takes the barracks lookout post. After Leliana arms the bomb, she psychically warns him to get out.
+- **[Session 65](/sessions/session-65)** — George was reached by sending stone and confirmed to be clear of the city with Finnegan, making for the docks.

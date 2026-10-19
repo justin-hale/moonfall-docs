@@ -8627,34 +8627,230 @@
           "decision_driver": "Unidentified Speaker"
         }
       }
+    },
+    {
+      "id": "session-65",
+      "type": "session",
+      "number": 65,
+      "title": "65: Homecoming in the Shire",
+      "date": "2026-10-16",
+      "href": "/sessions/session-65/",
+      "has_transcript": true,
+      "transcript_format": "json",
+      "timing_quality": "exact",
+      "duration_seconds": 9080,
+      "block_count": 2886,
+      "word_count": 21747,
+      "speakers": [
+        {
+          "name": "Topher",
+          "canonical": "Topher",
+          "role": "dm",
+          "player": "Topher",
+          "blocks": 805,
+          "words": 8513,
+          "talk_seconds_est": 4048,
+          "word_share": 0.3915
+        },
+        {
+          "name": "Olivia",
+          "canonical": "Olivia Cooper",
+          "role": "pc",
+          "player": "Ellis Taylor",
+          "blocks": 782,
+          "words": 5038,
+          "talk_seconds_est": 576,
+          "word_share": 0.2317
+        },
+        {
+          "name": "Silas",
+          "canonical": "Silas Fairbanks",
+          "role": "pc",
+          "player": "Taylor Ramsey",
+          "blocks": 636,
+          "words": 4574,
+          "talk_seconds_est": 2995,
+          "word_share": 0.2103
+        },
+        {
+          "name": "Leliana",
+          "canonical": "Leliana Goldspring",
+          "role": "pc",
+          "player": "Luke Neverisky",
+          "blocks": 633,
+          "words": 3447,
+          "talk_seconds_est": 1048,
+          "word_share": 0.1585
+        },
+        {
+          "name": "Unidentified Speaker",
+          "canonical": "Unidentified Speaker",
+          "role": "guest",
+          "player": null,
+          "blocks": 30,
+          "words": 175,
+          "talk_seconds_est": 72,
+          "word_share": 0.008
+        }
+      ],
+      "players_present": [
+        "Olivia",
+        "Silas",
+        "Leliana"
+      ],
+      "attendance_source": "transcript",
+      "mentions": {
+        "npcs": {
+          "George": 21,
+          "Finnegan": 8,
+          "Lark": 4,
+          "Iro": 3,
+          "Victor": 3,
+          "Scarlet": 2,
+          "Luna": 1,
+          "Naomi": 1
+        },
+        "locations": {
+          "Eldoran": 1
+        },
+        "pcs": {
+          "Bru": 19,
+          "Olivia": 1
+        }
+      },
+      "fun": {
+        "nat20_mentions": 3,
+        "nat1_mentions": 0
+      },
+      "personality": {
+        "scores": {
+          "Silas": {
+            "chaos": 14,
+            "heroism": 12,
+            "comedy": 13,
+            "immersion": 15,
+            "strategy": 16,
+            "curiosity": 14
+          },
+          "Leliana": {
+            "chaos": 11,
+            "heroism": 14,
+            "comedy": 12,
+            "immersion": 16,
+            "strategy": 13,
+            "curiosity": 11
+          },
+          "Topher": {
+            "chaos": 14,
+            "heroism": 10,
+            "comedy": 15,
+            "immersion": 17,
+            "strategy": 14,
+            "curiosity": 12
+          },
+          "Olivia": {
+            "chaos": 11,
+            "heroism": 15,
+            "comedy": 14,
+            "immersion": 14,
+            "strategy": 15,
+            "curiosity": 13
+          },
+          "Unidentified Speaker": {
+            "chaos": 9,
+            "heroism": 10,
+            "comedy": 11,
+            "immersion": 8,
+            "strategy": 10,
+            "curiosity": 9
+          }
+        },
+        "evidence": {
+          "Silas": {
+            "chaos": "I mean, we just blew up a bunch of f****** buildings. I feel like we need to like kind of not be so precious about our crime.",
+            "heroism": "We need to find a way to get out of town unnoticed... I'm going to duck into a corner somewhere and like uh change our appearance.",
+            "comedy": "It would be really funny if like one of the like Tilta worlds from like a carnival had been like chasing us through the air this whole time.",
+            "immersion": "Okay, Science is going to pop into like a secluded area... I think that that's what makes teleportation circle like the downgrade of just straight up teleportation.",
+            "strategy": "We need to make this uh nonremarkable, you know... We need to be very we got to give a non like suspicious looking reason for us to duck out here.",
+            "curiosity": "I think that that's what makes teleportation circle like the downgrade of just straight up teleportation... Do we know if they're going to recognize the van?"
+          },
+          "Leliana": {
+            "chaos": "I mean, I just I don't think walking's in the cards. I mean either that or we walk.",
+            "heroism": "I'm going to cast mass suggestion on them... to return to base basically... This is not the boy you're looking for.",
+            "comedy": "I have no idea what you're talking about. That's insight, isn't it?",
+            "immersion": "Um, I'll uh I think I have I think I have... Um, my folks house probably. Yeah, but like, you know, I used to live there.",
+            "strategy": "I'll give a fat stack, take the car, and we'll be on our way... I can't lie to my parents.",
+            "curiosity": "Well, what's that called? A tilt rotor... What does this one do?"
+          },
+          "Topher": {
+            "chaos": "Well, I thought it was perfect. You know, they're real racist bastards, but that's all right. I'll figure something else out.",
+            "heroism": "Hey, uh, Jameson, go check outside... Um, are y'all upstairs people?",
+            "comedy": "I think I know what you're talking about... It would be really funny if like one of the like Tilta worlds from like a carnival had been like chasing us through the air.",
+            "immersion": "Um, it looks like there's a helicopter uh flying in one of those like osprey uh headed around... they're just running all over town. Um like asking questions, going door to door.",
+            "strategy": "I think your insight's good enough. It seems like it feels pretty exposed uh by itself... You probably have at least 5 to 10 minutes.",
+            "curiosity": "Let me check this. Get Okay... Um, let me check... what's the diversity of this town?"
+          },
+          "Olivia": {
+            "chaos": "What if the farmer runs a dog fighting ring? Can we just steal his car... then? We'll take all the dogs too.",
+            "heroism": "I'm going to look at them and like, does anyone have an illusion spell? Just disguise the man.",
+            "comedy": "Olivia would definitely like bulge behind her because she's like big jacked and... I have to like walk sideways.",
+            "immersion": "Why are you and not mama?... I'm so happy you haven't started it. We h are late.",
+            "strategy": "My vote is hoofing it and getting maybe sneaking around some of the security checks on the road... we got two hours to go 15 miles.",
+            "curiosity": "Can I do an insight check? Cuz I have a feeling my cop senses are tingling that they're already part of the resistance."
+          },
+          "Unidentified Speaker": {
+            "chaos": "Well, it worked.",
+            "heroism": "You say good night to everybody. Good night.",
+            "comedy": "It means like a hero in a story. Yeah, that's what it means.",
+            "immersion": "Good night. Good night. Good dreams.",
+            "strategy": "What does that mean? It means like a hero in a story.",
+            "curiosity": "What does that mean?"
+          }
+        },
+        "superlatives": {
+          "mvp": {
+            "player": "Leliana",
+            "quote": "I'm going to cast mass suggestion on them... to return to base basically."
+          },
+          "best_joke": {
+            "player": "Silas",
+            "quote": "It would be really funny if like one of the like Tilta worlds from like a carnival had been like chasing us through the air this whole time."
+          },
+          "most_chaotic": {
+            "player": "Silas",
+            "quote": "I mean, we just blew up a bunch of f****** buildings. I feel like we need to like kind of not be so precious about our crime."
+          },
+          "decision_driver": "Olivia"
+        }
+      }
     }
   ],
   "aggregate": {
-    "total_sessions": 79,
-    "sessions_with_transcripts": 36,
-    "total_words": 917755,
-    "total_blocks": 131368,
-    "total_duration_seconds": 363100,
+    "total_sessions": 80,
+    "sessions_with_transcripts": 37,
+    "total_words": 939502,
+    "total_blocks": 134254,
+    "total_duration_seconds": 372180,
     "speaker_totals": [
       {
         "name": "Topher",
         "canonical": "Topher",
         "role": "dm",
         "player": "Topher",
-        "sessions": 36,
-        "blocks": 33561,
-        "words": 293174,
-        "talk_seconds_est": 57854
+        "sessions": 37,
+        "blocks": 34366,
+        "words": 301687,
+        "talk_seconds_est": 61902
       },
       {
         "name": "Silas",
         "canonical": "Silas Fairbanks",
         "role": "pc",
         "player": "Taylor Ramsey",
-        "sessions": 36,
-        "blocks": 27770,
-        "words": 230146,
-        "talk_seconds_est": 27328
+        "sessions": 37,
+        "blocks": 28406,
+        "words": 234720,
+        "talk_seconds_est": 30323
       },
       {
         "name": "Elspeth",
@@ -8681,20 +8877,20 @@
         "canonical": "Olivia Cooper",
         "role": "pc",
         "player": "Ellis Taylor",
-        "sessions": 27,
-        "blocks": 15405,
-        "words": 88038,
-        "talk_seconds_est": 13139
+        "sessions": 28,
+        "blocks": 16187,
+        "words": 93076,
+        "talk_seconds_est": 13715
       },
       {
         "name": "Leliana",
         "canonical": "Leliana Goldspring",
         "role": "pc",
         "player": "Luke Neverisky",
-        "sessions": 28,
-        "blocks": 12105,
-        "words": 56054,
-        "talk_seconds_est": 13941
+        "sessions": 29,
+        "blocks": 12738,
+        "words": 59501,
+        "talk_seconds_est": 14989
       },
       {
         "name": "Ohma",
@@ -8711,10 +8907,10 @@
         "canonical": "Unidentified Speaker",
         "role": "guest",
         "player": null,
-        "sessions": 1,
-        "blocks": 913,
-        "words": 6561,
-        "talk_seconds_est": 1068
+        "sessions": 2,
+        "blocks": 943,
+        "words": 6736,
+        "talk_seconds_est": 1140
       },
       {
         "name": "Helisanna",
@@ -8788,18 +8984,18 @@
       }
     ],
     "top_npcs": {
-      "Scarlet": 313,
-      "Victor": 246,
-      "George": 240,
-      "Luna": 226,
-      "Iro": 151,
+      "Scarlet": 315,
+      "George": 261,
+      "Victor": 249,
+      "Luna": 227,
+      "Iro": 154,
       "Gary": 121,
       "Lady Viper": 67,
       "Astro": 63,
-      "Naomi": 61,
+      "Naomi": 62,
+      "Finnegan": 39,
       "Chalk Rock": 35,
       "Captain Steel": 33,
-      "Finnegan": 31,
       "Crowley": 20,
       "Belspeth Booper": 17,
       "Bafael": 16,
@@ -8808,6 +9004,7 @@
       "Bon Bonnery": 9,
       "April Bonal": 4,
       "Lady Corwin": 4,
+      "Lark": 4,
       "Y'chek": 4,
       "Ben Boulage": 3,
       "Lord Bradicus": 2,
@@ -8819,19 +9016,19 @@
       "High Forge": 55,
       "Sexy Peacock": 22,
       "Little Cradle": 7,
-      "Eldoran": 3,
+      "Eldoran": 4,
       "Milstrom": 3,
       "Gold Road": 2,
       "Grimvar's Spine": 1
     },
     "top_pcs_mentioned": {
-      "Bru": 1217,
+      "Bru": 1236,
       "Red": 24,
-      "Olivia": 20,
+      "Olivia": 21,
       "Elspeth": 5,
       "Leliana": 1
     },
-    "nat20_mentions": 13,
+    "nat20_mentions": 16,
     "nat1_mentions": 2,
     "personality_by_player": {
       "00": {
@@ -9178,14 +9375,14 @@
         }
       },
       "Leliana": {
-        "sessions_scored": 26,
+        "sessions_scored": 27,
         "mean_scores": {
-          "chaos": 8.9,
-          "heroism": 11.9,
-          "comedy": 9.8,
-          "immersion": 12.9,
-          "strategy": 10.6,
-          "curiosity": 10.2
+          "chaos": 9.0,
+          "heroism": 12.0,
+          "comedy": 9.9,
+          "immersion": 13.0,
+          "strategy": 10.7,
+          "curiosity": 10.3
         },
         "signature_evidence": {
           "chaos": {
@@ -9220,7 +9417,7 @@
           }
         },
         "superlative_counts": {
-          "mvp": 6,
+          "mvp": 7,
           "best_joke": 2,
           "most_chaotic": 2,
           "decision_driver": 1
@@ -9276,14 +9473,14 @@
         }
       },
       "Olivia": {
-        "sessions_scored": 26,
+        "sessions_scored": 27,
         "mean_scores": {
-          "chaos": 8.5,
+          "chaos": 8.6,
           "heroism": 13.2,
-          "comedy": 9.8,
-          "immersion": 11.9,
-          "strategy": 12.3,
-          "curiosity": 11.0
+          "comedy": 9.9,
+          "immersion": 12.0,
+          "strategy": 12.4,
+          "curiosity": 11.1
         },
         "signature_evidence": {
           "chaos": {
@@ -9321,17 +9518,17 @@
           "mvp": 9,
           "best_joke": 1,
           "most_chaotic": 0,
-          "decision_driver": 2
+          "decision_driver": 3
         }
       },
       "Silas": {
-        "sessions_scored": 34,
+        "sessions_scored": 35,
         "mean_scores": {
-          "chaos": 10.5,
+          "chaos": 10.6,
           "heroism": 10.9,
           "comedy": 12.4,
-          "immersion": 13.4,
-          "strategy": 15.2,
+          "immersion": 13.5,
+          "strategy": 15.3,
           "curiosity": 12.3
         },
         "signature_evidence": {
@@ -9368,18 +9565,18 @@
         },
         "superlative_counts": {
           "mvp": 12,
-          "best_joke": 14,
-          "most_chaotic": 6,
+          "best_joke": 15,
+          "most_chaotic": 7,
           "decision_driver": 25
         }
       },
       "Topher": {
-        "sessions_scored": 34,
+        "sessions_scored": 35,
         "mean_scores": {
-          "chaos": 12.4,
+          "chaos": 12.5,
           "heroism": 10.2,
           "comedy": 13.4,
-          "immersion": 15.0,
+          "immersion": 15.1,
           "strategy": 12.9,
           "curiosity": 11.7
         },
@@ -9423,12 +9620,12 @@
         }
       },
       "Unidentified Speaker": {
-        "sessions_scored": 1,
+        "sessions_scored": 2,
         "mean_scores": {
-          "chaos": 14.0,
-          "heroism": 12.0,
+          "chaos": 11.5,
+          "heroism": 11.0,
           "comedy": 11.0,
-          "immersion": 13.0,
+          "immersion": 10.5,
           "strategy": 10.0,
           "curiosity": 9.0
         },
