@@ -163,6 +163,11 @@ These are systematic speech-to-text mistakes that appear in generated notes:
 
 Corrections applied via `/fix-notes` are logged here for pattern detection.
 
+### Session 65 (2026-10-16)
+- Fixed: Justin Hale (Bru) and Ali Leonard (Elspeth) listed as present. Neither speaks in the transcript, and the table says so ("poor Justin who's not involved", "so sad Justin is missing this"). The DM voiced Bru, whom the party chose to bring along; Elspeth stayed in the pocket village. Players Present is now Taylor, Luke and Ellis, with an absence note [confirmed against transcript]
+
+**Pattern:** a party member who appears in the story is not proof that their player was at the table. Before listing a player as present, confirm their Meet name speaks in the transcript (Sessions 63 and 65 both listed absent players).
+
 ### DM rulings and the Sessions 33–52 audit (2026-09-29)
 - Applied the DM rulings (see "DM Rulings" above) across recaps, wiki pages and campaign-state: Y'chek (was Ach'uk; page moved to /npcs/ychek), Vroomfall = race car / Zoomfall = van, Olivia is Elspeth's grandmother, Denlin, Noraxis, Tannondel, Caspian alive and held by Crowley, "violin crystal" = violescence, "Anna" dropped, Blue Moon Guitar = reflavored Mandolin of Rude Truths, Helisanna Human, World Seed from Matthew Broadtwig, the Session 56 card signed by Steven [DM ruling]
 - Sessions 33–52 and Interludes XII–XVI audited against their transcripts and corrected silently (they predate the arc). Largest fixes: S33 half the Crang battle was played (not "ended with initiative"); S35 poison and apartment scenes rebuilt in order; S37 the real orb ordered the dragons out, the Great Hall section was missing, loot and downtime labels swapped; Interlude XII chamber 4 and the reset were invented; Interlude XIII the orb was stolen for Helja; Interludes XIV–XV the player-to-racer mapping was wrong and XV's ending was invented (race cancelled lap one, Elspeth suspended); S38 "Guild of the Scaled Paw" is the Order of St. George and the Sander reveal was missing; S41 re-ordered; S42 combat and aftermath rebuilt; S47 Denlin conflated with Belspeth; S48 the recording stones captured nothing; S50 the Zachary reveal belongs to the Interlude XIV–XV flashback; S51 Taylor was guest DM; S52 the captain's fireball, not a Leliana misfire [confirmed against transcript]

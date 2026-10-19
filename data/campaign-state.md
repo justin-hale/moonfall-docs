@@ -254,7 +254,7 @@ The party launches the Bugatti off the collapsed research tower into open sky, p
 
 
 **Session 65** – Homecoming in the Shire
-The party crashes in farmland outside Eldoran and infiltrates Leliana's childhood home to escape military lockdown. Leliana's parents shelter the group without questions, and her mother kills two soldiers at the gate with a rifle nobody knew she owned. The party escapes to the coast by stolen Jeep, confirming George and Finnegan are clear of the city and making for the docks.
+The party crashes in farmland outside Eldoran and infiltrates Leliana's childhood home to escape military lockdown. Leliana's parents shelter the group without questions, and her mother kills two soldiers at the gate with a rifle nobody knew she owned. The party escapes to the coast by stolen Jeep, confirming George and Finnegan are clear of the city and making for the docks. (Justin and Ali were away; Bru rode along, and Elspeth stayed in the pocket village.)
 
 ## Active Plot Threads
 

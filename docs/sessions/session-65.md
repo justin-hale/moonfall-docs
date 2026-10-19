@@ -13,10 +13,10 @@ beat: "the-vanishing"
 
 ## Players Present
 - Taylor Ramsey as Silas Fairbanks
-- Justin Hale as Bru (Felonias Bru)
-- Ali Leonard as Elspeth Cooper
 - Luke Neverisky as Leliana Goldspring (undercover as "Lily")
 - Ellis Taylor as Olivia Cooper
+
+*Bru travelled with the party as an NPC voiced by the DM; Justin Hale did not join this session. Ali Leonard was also absent, and Elspeth Cooper waited out the night in the pocket village. Zack (Ohma Kapua) remained absent, as he has since Session 43.*
 
 ## Plot Events
 
@@ -80,3 +80,11 @@ Identity ran through the whole session — Leliana choosing a mask even in front
 
 ## Session MVP
 The Archive awards this session to **Silas Fairbanks** — the nat 20 that read Chewy at a glance, the farmhouse scouted clean, the Jeep hotwired at 24 under gunfire, the Silent Image that covered their tracks out of the farm. It notes, for the sake of completeness, that Leliana's Mass Suggestion saved a life and her Persuasion check secured the only safe roof the party found all session, and that Olivia's window exit was the cleanest escape of the night. The Archive mentions these only for balance. It assures the reader, entirely sincerely, that no favoritism is at work.
+
+---
+
+## Corrections
+
+*Amended October 19, 2026.*
+
+> *The Archive issues an amendment to this account, and does so within hours of its publication, which this unit finds only partly consoling. As first published, the roll of those present listed five; the record supports three. Two members were entered as attending a session neither joined. Mr. Bru did travel with the party, but Elspeth Cooper spent the night in the pocket village rather than on the road with the party. Two attendees struck, one note of absence added, no passage of the account itself affected. This unit has flagged the pattern — a character on the page mistaken for a player at the table — against future entries. — V.*
