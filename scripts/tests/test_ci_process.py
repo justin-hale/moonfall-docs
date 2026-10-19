@@ -532,6 +532,31 @@ NESTED = {
 }
 
 
+class FakeDriveWithMeetRoots:
+    """Answers the "every folder named Google Meet" query, paged."""
+
+    def __init__(self, pages):
+        self.pages = pages
+        self.queries = []
+
+    def files(self):
+        return self
+
+    def list(self, q=None, pageToken=None, **kwargs):
+        self.queries.append(q)
+        index = int(pageToken or 0)
+        payload = {"files": [{"id": i} for i in self.pages[index]]}
+        if index + 1 < len(self.pages):
+            payload["nextPageToken"] = str(index + 1)
+        return _FakeRequest(payload)
+
+
+def test_every_shared_google_meet_root_is_discovered_across_pages():
+    drive = FakeDriveWithMeetRoots([["meet-0926", "meet-1002"], ["meet-1017"]])
+    assert ci.discover_meet_roots(drive) == ["meet-0926", "meet-1002", "meet-1017"]
+    assert all("name = 'Google Meet'" in q for q in drive.queries)
+
+
 def test_scan_finds_a_recording_nested_a_folder_deep():
     drive = FakeDrive(NESTED)
     found = ci.list_videos_recursive(drive, ["google-meet"])

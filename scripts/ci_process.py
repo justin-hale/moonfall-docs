@@ -263,6 +263,31 @@ def probe_folder(service, folder_id):
         return False, str(exc).strip()
 
 
+def discover_meet_roots(service):
+    """Ids of every folder named "Google Meet" this credential can see.
+
+    Meet keeps creating fresh "Google Meet" roots at the top of My Drive
+    (2026-09-19, 09-26, 10-02, 10-17), and each one used to need its id added
+    to DRIVE_FOLDER_ID before the scan would look inside. Sharing the new
+    folder with the service account is still required — Drive shows this
+    credential nothing it was not given — but that share is now the only step.
+    """
+    roots = []
+    page_token = None
+    while True:
+        result = service.files().list(
+            q="name = 'Google Meet' and mimeType = "
+              "'application/vnd.google-apps.folder' and trashed = false",
+            pageSize=100,
+            pageToken=page_token,
+            fields="nextPageToken, files(id)",
+        ).execute()
+        roots.extend(f["id"] for f in result.get("files", []))
+        page_token = result.get("nextPageToken")
+        if not page_token:
+            return roots
+
+
 def list_videos_recursive(service, root_ids, max_folders=200):
     """Return every video file under *root_ids*, newest first.
 
@@ -559,8 +584,14 @@ def cmd_detect():
     drive_folder_ids = [
         f.strip() for f in env("DRIVE_FOLDER_ID").split(",") if f.strip()
     ]
-    print(f"Scanning Drive folders {', '.join(drive_folder_ids)}...")
     service = get_drive_service()
+    discovered = [
+        f for f in discover_meet_roots(service) if f not in drive_folder_ids
+    ]
+    if discovered:
+        print(f"Discovered shared 'Google Meet' folders: {', '.join(discovered)}")
+        drive_folder_ids += discovered
+    print(f"Scanning Drive folders {', '.join(drive_folder_ids)}...")
 
     try:
         files = list_videos_recursive(service, drive_folder_ids)
