@@ -62,3 +62,4 @@ George, embedded in the city guard for the Twilight Company, gave the party thre
 - **[Session 62](/sessions/session-62)** — Leliana arms a bomb in the barracks auditorium, Elspeth gathers intelligence from Fredo Boggins, and Silas steals a scientist's lab coat and passcode at a lakeside party in the park.
 - **[Session 63](/sessions/session-63)** — Bru steals the star from the factory furnace, the party evacuates and bombs the research tower, and explosions go off at three sites across the city as the tower falls onto the city wall.
 - **[Session 64](/sessions/session-64)** — The party launched the Bugatti from the collapsed Research Tower and fled over Eldoran's estate district toward forest and farmland beyond the capital walls while being broadcast live across every screen in the city.
+- **[Session 65](/sessions/session-65)** — The party fled Eldoran with helicopters in pursuit, heading toward the open coastline roughly two hours away by vehicle.

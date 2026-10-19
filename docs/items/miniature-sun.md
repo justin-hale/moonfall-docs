@@ -46,3 +46,4 @@ The players noted that they had "stolen a central component of their rocket fact
 - **[Session 59](/sessions/session-59)** — The party's inside man, Bon Bonnery, speaks in code of a key that must be found inside and a furnace that would "ignite this city", and the party sees the warded furnace at the end of the factory line.
 - **[Session 60](/sessions/session-60)** — Scouting from the ceiling, the party finds that the furnace is a contained power plant held stable by stasis magic, and plans a bomb to breach it.
 - **[Session 63](/sessions/session-63)** — Inside the furnace Bru finds a sun whose radius is about a school bus long. He shrinks it with *Reduce*, smuggles it out in a *Rope Trick*, and Scarlet seals it in her *Leomund's Secret Chest*.
+- **[Session 65](/sessions/session-65)** — Bru stole the miniature sun rather than detonating it at the Spaceport Factory.

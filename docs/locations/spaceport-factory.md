@@ -39,3 +39,4 @@ Elspeth, working the floor in disguise, befriended the factory workers — [Cass
 - **[Session 62](/sessions/session-62)** — At Cassandra's lakeside birthday, the factory workers confirm their whole shift is being laid off the next day.
 - **[Session 63](/sessions/session-63)** — Bru and Olivia infiltrate the skeleton crew, Bru shrinks and steals the miniature sun from the furnace, Olivia plants the casing bomb, and the factory is bombed.
 - **[Session 64](/sessions/session-64)** — The Spaceport Factory's stolen star was folded away in Scarlet's pocket dimension.
+- **[Session 65](/sessions/session-65)** — The Spaceport Factory explosion was smaller than planned because Bru stole the miniature sun rather than detonating it.

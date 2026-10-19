@@ -2401,6 +2401,67 @@
           "quote": "I'm going to throw a dagger in the air, arc it, and collide right on top of the angel as they are like steaming ahead and I'm on top of them."
         }
       }
+    },
+    "session-65": {
+      "timing_quality": "exact",
+      "duration_seconds": 9080,
+      "word_count": 21747,
+      "players_present": [
+        "Olivia",
+        "Silas",
+        "Leliana"
+      ],
+      "attendance_source": "transcript",
+      "speakers": [
+        {
+          "name": "Topher",
+          "role": "dm",
+          "word_share": 0.3915
+        },
+        {
+          "name": "Olivia",
+          "role": "pc",
+          "word_share": 0.2317
+        },
+        {
+          "name": "Silas",
+          "role": "pc",
+          "word_share": 0.2103
+        },
+        {
+          "name": "Leliana",
+          "role": "pc",
+          "word_share": 0.1585
+        },
+        {
+          "name": "Unidentified Speaker",
+          "role": "guest",
+          "word_share": 0.008
+        }
+      ],
+      "top_npcs": {
+        "George": 21,
+        "Finnegan": 8,
+        "Lark": 4
+      },
+      "fun": {
+        "nat20_mentions": 3,
+        "nat1_mentions": 0
+      },
+      "superlatives": {
+        "mvp": {
+          "player": "Leliana",
+          "quote": "I'm going to cast mass suggestion on them... to return to base basically."
+        },
+        "best_joke": {
+          "player": "Silas",
+          "quote": "It would be really funny if like one of the like Tilta worlds from like a carnival had been like chasing us through the air this whole time."
+        },
+        "most_chaotic": {
+          "player": "Silas",
+          "quote": "I mean, we just blew up a bunch of f****** buildings. I feel like we need to like kind of not be so precious about our crime."
+        }
+      }
     }
   }
 }

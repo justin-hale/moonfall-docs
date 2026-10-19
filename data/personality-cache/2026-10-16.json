@@ -1,0 +1,112 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-10-16",
+  "model": "claude-haiku-4-5",
+  "players": {
+    "Silas": {
+      "scores": {
+        "chaos": 14,
+        "heroism": 12,
+        "comedy": 13,
+        "immersion": 15,
+        "strategy": 16,
+        "curiosity": 14
+      },
+      "evidence": {
+        "chaos": "I mean, we just blew up a bunch of f****** buildings. I feel like we need to like kind of not be so precious about our crime.",
+        "heroism": "We need to find a way to get out of town unnoticed... I'm going to duck into a corner somewhere and like uh change our appearance.",
+        "comedy": "It would be really funny if like one of the like Tilta worlds from like a carnival had been like chasing us through the air this whole time.",
+        "immersion": "Okay, Science is going to pop into like a secluded area... I think that that's what makes teleportation circle like the downgrade of just straight up teleportation.",
+        "strategy": "We need to make this uh nonremarkable, you know... We need to be very we got to give a non like suspicious looking reason for us to duck out here.",
+        "curiosity": "I think that that's what makes teleportation circle like the downgrade of just straight up teleportation... Do we know if they're going to recognize the van?"
+      }
+    },
+    "Leliana": {
+      "scores": {
+        "chaos": 11,
+        "heroism": 14,
+        "comedy": 12,
+        "immersion": 16,
+        "strategy": 13,
+        "curiosity": 11
+      },
+      "evidence": {
+        "chaos": "I mean, I just I don't think walking's in the cards. I mean either that or we walk.",
+        "heroism": "I'm going to cast mass suggestion on them... to return to base basically... This is not the boy you're looking for.",
+        "comedy": "I have no idea what you're talking about. That's insight, isn't it?",
+        "immersion": "Um, I'll uh I think I have I think I have... Um, my folks house probably. Yeah, but like, you know, I used to live there.",
+        "strategy": "I'll give a fat stack, take the car, and we'll be on our way... I can't lie to my parents.",
+        "curiosity": "Well, what's that called? A tilt rotor... What does this one do?"
+      }
+    },
+    "Topher": {
+      "scores": {
+        "chaos": 14,
+        "heroism": 10,
+        "comedy": 15,
+        "immersion": 17,
+        "strategy": 14,
+        "curiosity": 12
+      },
+      "evidence": {
+        "chaos": "Well, I thought it was perfect. You know, they're real racist bastards, but that's all right. I'll figure something else out.",
+        "heroism": "Hey, uh, Jameson, go check outside... Um, are y'all upstairs people?",
+        "comedy": "I think I know what you're talking about... It would be really funny if like one of the like Tilta worlds from like a carnival had been like chasing us through the air.",
+        "immersion": "Um, it looks like there's a helicopter uh flying in one of those like osprey uh headed around... they're just running all over town. Um like asking questions, going door to door.",
+        "strategy": "I think your insight's good enough. It seems like it feels pretty exposed uh by itself... You probably have at least 5 to 10 minutes.",
+        "curiosity": "Let me check this. Get Okay... Um, let me check... what's the diversity of this town?"
+      }
+    },
+    "Olivia": {
+      "scores": {
+        "chaos": 11,
+        "heroism": 15,
+        "comedy": 14,
+        "immersion": 14,
+        "strategy": 15,
+        "curiosity": 13
+      },
+      "evidence": {
+        "chaos": "What if the farmer runs a dog fighting ring? Can we just steal his car... then? We'll take all the dogs too.",
+        "heroism": "I'm going to look at them and like, does anyone have an illusion spell? Just disguise the man.",
+        "comedy": "Olivia would definitely like bulge behind her because she's like big jacked and... I have to like walk sideways.",
+        "immersion": "Why are you and not mama?... I'm so happy you haven't started it. We h are late.",
+        "strategy": "My vote is hoofing it and getting maybe sneaking around some of the security checks on the road... we got two hours to go 15 miles.",
+        "curiosity": "Can I do an insight check? Cuz I have a feeling my cop senses are tingling that they're already part of the resistance."
+      }
+    },
+    "Unidentified Speaker": {
+      "scores": {
+        "chaos": 9,
+        "heroism": 10,
+        "comedy": 11,
+        "immersion": 8,
+        "strategy": 10,
+        "curiosity": 9
+      },
+      "evidence": {
+        "chaos": "Well, it worked.",
+        "heroism": "You say good night to everybody. Good night.",
+        "comedy": "It means like a hero in a story. Yeah, that's what it means.",
+        "immersion": "Good night. Good night. Good dreams.",
+        "strategy": "What does that mean? It means like a hero in a story.",
+        "curiosity": "What does that mean?"
+      }
+    }
+  },
+  "superlatives": {
+    "mvp": {
+      "player": "Leliana",
+      "quote": "I'm going to cast mass suggestion on them... to return to base basically."
+    },
+    "best_joke": {
+      "player": "Silas",
+      "quote": "It would be really funny if like one of the like Tilta worlds from like a carnival had been like chasing us through the air this whole time."
+    },
+    "most_chaotic": {
+      "player": "Silas",
+      "quote": "I mean, we just blew up a bunch of f****** buildings. I feel like we need to like kind of not be so precious about our crime."
+    },
+    "decision_driver": "Olivia"
+  }
+}
