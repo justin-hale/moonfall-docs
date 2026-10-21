@@ -284,6 +284,18 @@ knew about, and reported "No new episodes found". When a session goes missing,
 search Drive for `DnD - <date> - Recording` and check which folder it is in.
 If that folder is not in `DRIVE_FOLDER_ID`, add it there and share it.
 
+It kept happening: Meet made a third root on 2026-10-02 (Session 64) and a
+fourth on 2026-10-17 (Session 65), and the Saturday runs on 10-10 and 10-17
+both reported "No new episodes found". So `detect` now also asks Drive for
+every folder named `Google Meet` that the service account can see, and scans
+those too. A new root still has to be **shared** — nothing makes an unshared
+folder visible to this identity — but sharing it is now the whole fix.
+
+For the 2026-10-17 root only its `DnD (recurring)` subfolder
+(`1Vg9sXRV0R4KZzxNnv5kxcW3CA_w0gVoo`) is shared, so that subfolder, not the
+root, is what `DRIVE_FOLDER_ID` lists. Listing the unshared root would fail
+every run.
+
 `detect` probes every root with `files.get` before walking it, so the log says
 which of the two things went wrong:
 
