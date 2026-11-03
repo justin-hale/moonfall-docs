@@ -39,3 +39,4 @@ The Session 52 recap says Luna sent the same message to everyone she gave a ston
 - **[Session 54](/sessions/session-54)** — Olivia makes Finnegan give up the sending stone George reports through, and pockets it.
 - **[Session 58](/sessions/session-58)** — George tells the party a sending stone would be tracked to him and to message him through Toothy.
 - **[Session 65](/sessions/session-65)** — The party took inventory of five sending stones belonging to Luna, Naomi, one taken from Denlin, Lark, and George while en route to the coast.
+- **[Session 66](/sessions/session-66)** — George used a sending stone to warn the party of chaos at the harbor and the feeling of being watched as they approached the coast.

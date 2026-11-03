@@ -43,3 +43,4 @@ The Session 2 recap describes him as a charming, young, blonde halfling who was 
 - **[Session 62](/sessions/session-62)** — Helps Silas plan the three-target strike at Toothy's and takes charge of mapping escape routes.
 - **[Session 63](/sessions/session-63)** — Waits at the docks with the escape options as the research tower falls.
 - **[Session 65](/sessions/session-65)** — Finnegan was confirmed by sending stone to be clear of Eldoran city and heading toward the docks.
+- **[Session 66](/sessions/session-66)** — Finnegan stole a schooner roughly thirty minutes before the party reached the pier and crewed it with George, Dylan, and several children to facilitate the party's escape from the capital.

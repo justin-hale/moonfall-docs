@@ -8823,34 +8823,105 @@
           "decision_driver": "Olivia"
         }
       }
+    },
+    {
+      "id": "session-66",
+      "type": "session",
+      "number": 66,
+      "title": "66: Through the Deep Green",
+      "date": "2026-10-30",
+      "href": "/sessions/session-66/",
+      "has_transcript": true,
+      "transcript_format": "json",
+      "timing_quality": "exact",
+      "duration_seconds": 10812,
+      "block_count": 2645,
+      "word_count": 24481,
+      "speakers": [
+        {
+          "name": "Topher",
+          "canonical": "Topher",
+          "role": "dm",
+          "player": "Topher",
+          "blocks": 1072,
+          "words": 10347,
+          "talk_seconds_est": 3184,
+          "word_share": 0.4227
+        },
+        {
+          "name": "Bru",
+          "canonical": "Bru (Felonias Bru)",
+          "role": "pc",
+          "player": "Justin Hale",
+          "blocks": 888,
+          "words": 7215,
+          "talk_seconds_est": 3607,
+          "word_share": 0.2947
+        },
+        {
+          "name": "Silas",
+          "canonical": "Silas Fairbanks",
+          "role": "pc",
+          "player": "Taylor Ramsey",
+          "blocks": 685,
+          "words": 6919,
+          "talk_seconds_est": 3904,
+          "word_share": 0.2826
+        }
+      ],
+      "players_present": [
+        "Bru",
+        "Silas"
+      ],
+      "attendance_source": "transcript",
+      "mentions": {
+        "npcs": {
+          "George": 12,
+          "Finnegan": 8,
+          "Iro": 1,
+          "Scarlet": 1
+        },
+        "locations": {
+          "Sexy Peacock": 2,
+          "High Forge": 1
+        },
+        "pcs": {
+          "Bru": 25
+        }
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 1
+      },
+      "personality": null
     }
   ],
   "aggregate": {
-    "total_sessions": 80,
-    "sessions_with_transcripts": 37,
-    "total_words": 939502,
-    "total_blocks": 134254,
-    "total_duration_seconds": 372180,
+    "total_sessions": 81,
+    "sessions_with_transcripts": 38,
+    "total_words": 963983,
+    "total_blocks": 136899,
+    "total_duration_seconds": 382992,
     "speaker_totals": [
       {
         "name": "Topher",
         "canonical": "Topher",
         "role": "dm",
         "player": "Topher",
-        "sessions": 37,
-        "blocks": 34366,
-        "words": 301687,
-        "talk_seconds_est": 61902
+        "sessions": 38,
+        "blocks": 35438,
+        "words": 312034,
+        "talk_seconds_est": 65086
       },
       {
         "name": "Silas",
         "canonical": "Silas Fairbanks",
         "role": "pc",
         "player": "Taylor Ramsey",
-        "sessions": 37,
-        "blocks": 28406,
-        "words": 234720,
-        "talk_seconds_est": 30323
+        "sessions": 38,
+        "blocks": 29091,
+        "words": 241639,
+        "talk_seconds_est": 34227
       },
       {
         "name": "Elspeth",
@@ -8867,10 +8938,10 @@
         "canonical": "Bru (Felonias Bru)",
         "role": "pc",
         "player": "Justin Hale",
-        "sessions": 31,
-        "blocks": 16705,
-        "words": 94595,
-        "talk_seconds_est": 19529
+        "sessions": 32,
+        "blocks": 17593,
+        "words": 101810,
+        "talk_seconds_est": 23136
       },
       {
         "name": "Olivia",
@@ -8984,16 +9055,16 @@
       }
     ],
     "top_npcs": {
-      "Scarlet": 315,
-      "George": 261,
+      "Scarlet": 316,
+      "George": 273,
       "Victor": 249,
       "Luna": 227,
-      "Iro": 154,
+      "Iro": 155,
       "Gary": 121,
       "Lady Viper": 67,
       "Astro": 63,
       "Naomi": 62,
-      "Finnegan": 39,
+      "Finnegan": 47,
       "Chalk Rock": 35,
       "Captain Steel": 33,
       "Crowley": 20,
@@ -9013,8 +9084,8 @@
     },
     "top_locations": {
       "Greyport": 75,
-      "High Forge": 55,
-      "Sexy Peacock": 22,
+      "High Forge": 56,
+      "Sexy Peacock": 24,
       "Little Cradle": 7,
       "Eldoran": 4,
       "Milstrom": 3,
@@ -9022,14 +9093,14 @@
       "Grimvar's Spine": 1
     },
     "top_pcs_mentioned": {
-      "Bru": 1236,
+      "Bru": 1261,
       "Red": 24,
       "Olivia": 21,
       "Elspeth": 5,
       "Leliana": 1
     },
     "nat20_mentions": 16,
-    "nat1_mentions": 2,
+    "nat1_mentions": 3,
     "personality_by_player": {
       "00": {
         "sessions_scored": 1,

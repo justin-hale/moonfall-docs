@@ -30,3 +30,4 @@ Soldiers then entered wearing magic-detection helmets and began scanning the din
 
 - **[Session 57](/sessions/session-57)** — Finnegan sends the party to meet George at the Sexy Peacock, and the session ends as they walk in the door.
 - **[Session 58](/sessions/session-58)** — Over dinner George briefs the party on its three targets, and Silas slips onto the roof through a stained-glass window while soldiers with magic-detecting helmets search the next table.
+- **[Session 66](/sessions/session-66)** — George and his boyfriend Dylan had met at the Sexy Peacock back in Session 58.

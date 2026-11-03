@@ -2462,6 +2462,43 @@
           "quote": "I mean, we just blew up a bunch of f****** buildings. I feel like we need to like kind of not be so precious about our crime."
         }
       }
+    },
+    "session-66": {
+      "timing_quality": "exact",
+      "duration_seconds": 10812,
+      "word_count": 24481,
+      "players_present": [
+        "Bru",
+        "Silas"
+      ],
+      "attendance_source": "transcript",
+      "speakers": [
+        {
+          "name": "Topher",
+          "role": "dm",
+          "word_share": 0.4227
+        },
+        {
+          "name": "Bru",
+          "role": "pc",
+          "word_share": 0.2947
+        },
+        {
+          "name": "Silas",
+          "role": "pc",
+          "word_share": 0.2826
+        }
+      ],
+      "top_npcs": {
+        "George": 12,
+        "Finnegan": 8,
+        "Iro": 1
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 1
+      },
+      "superlatives": null
     }
   }
 }

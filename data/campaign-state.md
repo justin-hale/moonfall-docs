@@ -256,6 +256,10 @@ The party launches the Bugatti off the collapsed research tower into open sky, p
 **Session 65** – Homecoming in the Shire
 The party crashes in farmland outside Eldoran and infiltrates Leliana's childhood home to escape military lockdown. Leliana's parents shelter the group without questions, and her mother kills two soldiers at the gate with a rifle nobody knew she owned. The party escapes to the coast by stolen Jeep, confirming George and Finnegan are clear of the city and making for the docks. (Justin and Ali were away; Bru rode along, and Elspeth stayed in the pocket village.)
 
+
+**Session 66** – Through the Deep Green
+The party flees north from the capital through a metal-dissolving fungal swamp, commandeers a Humvee and its dead soldiers' identity, and uses a stolen radio deception (Deception 32) to talk down a military search-and-rescue. A building-sized war machine emerges from the sea at the docks; Bru destroys its sensor node with a concussive grenade before Silas catches him mid-fall on a natural 20, and the party escapes aboard Finnegan's stolen schooner into open water.
+
 ## Active Plot Threads
 
 ### 1. The Three-Target Strike on the Eldoran Capital
@@ -350,6 +354,14 @@ The moon exploded in Session 16. At Luna's underwater crash site the party resea
 - **Leliana's double life**: Leliana consciously chose not to reveal her true identity to her parents, treating the concealment as protection. Her mother's lethal response to soldiers suggests the Goldsprings may already know more than stated.
 - **Leliana and Helisanna personas**: Leliana visibly shaken by her mother's violence in ways combat has not affected her; emotional weight of the moment noted.
 - **Chewy (half-gnome farmhand)**: Talked down from poisoning neighbors' wells by Leliana's economic reasoning; warned by Leliana's mind message to run; fate after soldiers' retreat unknown, but alive.
+
+
+#### Session 66 Updates
+- **Escape from the capital (ongoing)**: Party now at sea aboard schooner; pursuing war machine did not follow after grenade strike to sensor node.
+- **The war machine**: New threat. Building-sized humanoid construct with purple-white crystal points at shoulders/hips and red spinning sensor node on shoulder blade. Did not pursue past initial intercept; purpose and origin unknown.
+- **George's fate**: Confirmed alive and at the docks with Finnegan, Dylan, and several children; now aboard the schooner.
+- **Military hunt**: Empire actively hunting party by name for the capital attack. Two Eldoran units reported dark: one door-to-door through farming country ("the Shire"), one in the swamp reporting aggressive fauna.
+- **Private Jeffers Walaby (Unit 34)**: Identity used for radio deception; left unconscious in swamp with two other infected soldiers after Bru's *Shatter* spell (14 thunder damage, failed CON save, natural 1).
 
 ## Character Status
 
@@ -456,6 +468,13 @@ The moon exploded in Session 16. At Luna's underwater crash site the party resea
 - **Olivia Cooper**: Natural 20 slipping out window unnoticed during soldier inspection.
 - **Bru**: Grief over Bugatti destruction noted as liability for future operations requiring discretion.
 
+
+#### Session 66 Updates
+- **Silas Fairbanks**: Executed Deception check of 32 impersonating Private Walaby; adopted broad Australian accent and fielded military command chatter. Burned a short rest and hit dice to recover from angel fight damage. Natural 20 DEX save to catch Bru out of freefall mid-sail swing.
+- **Bru**: Used *Shatter* spell (DC 16) to silence awakening Private Walaby; climbed to bird's nest for grenade shot; took fall damage from rigging collapse after grenade strike; caught by Silas. Wired Humvee with timed charges and drove it off pier into water.
+- **Leliana Goldspring / Helisanna Doomfall**: Off-page during swamp/coast sequence (rotated out via pocket village capsule).
+- **Olivia Cooper**: Off-page during swamp/coast sequence (rotated out via pocket village capsule).
+
 ## Key Callbacks & Unresolved Hooks
 
 ### Unresolved Plot Threads
@@ -536,3 +555,10 @@ The moon exploded in Session 16. At Luna's underwater crash site the party resea
 - **Chewy's fate**: Last seen fleeing into fields after Leliana's warning; may resurface as contact or complication in the Shire region.
 - **The Goldspring farm safehouse**: Burned as location; 300 gold left behind. Parents now aware of military interest and daughter's involvement in something large enough to bring soldiers to their door.
 - **Helisanna's emotional state**: First time depicted as shaken by violence; mother's lethal response triggered response Leliana's own magic had not. Possible thread for future processing or conflict between personas.
+
+
+#### Session 66 Updates
+- **The war machine's nature**: Building-sized humanoid construct with crystal resonance points; possible connection to the space weapon and harmonic loop (Sessions 47, 57, 61).
+- **"Tuni" the soldier**: Same name as factory worker encountered in Session 63; coincidence or pattern unknown.
+- **Walaby's missing unit mates**: "Tuni and Starlight" — identities and fates unknown; possible future contact point.
+- **The swamp's fungus**: Metal-dissolving, spore-producing aggressive infection; origin (natural or engineered) unexplained; covers active swamp region.
