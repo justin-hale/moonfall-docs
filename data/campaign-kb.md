@@ -57,7 +57,9 @@ Luke Neverisky plays **one woman with two personas**. Write about them this way:
 | George | Olivia's grandson (calls her "Grandma"; youngest of her grandchildren), dimensional rift investigator, Twilight Company plant in the Eldoran city guard (Session 58). Species never stated — do not call him half-elf | george.md | |
 | Captain Steel | Eldoran officer, gaunt and half-machine (he/him). Murdered Leliana's brother, Lieutenant Steven Goldspring (Session 57); resides at the university (Session 58). ALWAYS "Captain" — the DM confirmed it in Session 62. NOT the head scientist, and the head scientist's wife is not his wife | captain-steel.md | "Commander Steel" |
 | Steven Goldspring | Leliana's late brother, a lieutenant; left her the Blue Moon guitar (Session 57). Transcripts also spell him "Stephen" | — | |
-| Finnegan | Active Twilight Company agent Lady Viper sends with the party; supplies the bomb-making materials (Session 54). Male | finnegan.md | |
+| Finnegan | Active Twilight Company agent Lady Viper sends with the party; supplies the bomb-making materials (Session 54). Male. Stole the schooner the party escaped on (Session 66); prefers sail to engines | finnegan.md | "Benigan" |
+| Dylan | George's boyfriend, met at the Sexy Peacock. First named as the companion of a guard who eats there (Session 62); at the docks minding the children (Session 65); aboard Finnegan's schooner (Session 66). No page yet | | |
+| Private Jeffers Walaby | Eldoran soldier, Unit 34; the one survivor of the fungus-eaten Humvee. Silas used his name on the radio; Bru put him down with *Shatter*; left in the swamp (Session 66). Unit mates "Tuni" and "Starlight" named but never seen | | "Wabby", "Wallaby" |
 | Fredo Boggins | Tony-icon shop owner in the Eldoran capital; sold the dampening stickers (Session 60) | fredo-boggins.md | |
 | Ben Boulage | Private detective, party contact in the Eldoran capital; arranged the Bon Bonnery meet (Session 59). Disguises himself as a blonde woman as "standard cover" | — | "Bin Bullage", "Bim Bulage", "Ben Bulage" |
 | Bon Bonnery | Actor and inside man at the Eldoran spaceport factory (Session 59) | — | "Bon Bonner", "Bon Boner", "Pon Poty" |
@@ -162,6 +164,18 @@ These are systematic speech-to-text mistakes that appear in generated notes:
 ## Session Correction Log
 
 Corrections applied via `/fix-notes` are logged here for pattern detection.
+
+### Session 66 (2026-10-30)
+- Fixed: Players Present was a prose paragraph; now the standard list (Taylor, Justin) with an absence note for Luke, Ellis and Ali. Olivia was not "carried through the swamp" by the DM — she swapped into the pocket village for Bru at the top of the night; Leliana was DM-voiced and drove the others ahead in the Jeep [user-reported / confirmed against transcript]
+- Fixed: "A Scout Reconsidered" — Silas never proposed scouting ahead alone. The DM's pre-session joke ("Silas is in a field alone… now you can finally do the stealth mission") was recorded as an in-world decision. Section replaced with the actual opening (the capsule swap, the drive north, Nature 18) [confirmed against transcript]
+- Fixed: one Humvee was written as two vehicles ("The Truck in the Fungus" and "The Humvee in the Swamp"); merged. Nature was 18 (Taylor rolled 19 for 18), not 19 [confirmed against transcript]
+- Fixed: Hats of Disguise went on before Walaby woke (Silas and Bru posed as two other Eldoran soldiers), not after; George's sending stone call came at the Humvee, not at the coast; short rest, hit dice, minigun removal and Investigation 7 all happened at the pier; the Humvee was put in gear and rolled off the pier, not driven; command demanded the colonel (no "superior officer interjected"); the Empire hunts the party for the capital attack, not "by name"; "G'day" was not said [confirmed against transcript]
+- Fixed: Bru's Arcana 13 was a rolled check, not passive; the Insight 14 → 18 was Flash of Genius (not a reroll) and concerned the breadcrumb problem with dropping charges; the war machine was identified by a natural 20 Perception (~30 with advantage), which the recap omitted; fall damage was 2d10 of unspecified type, not lightning; Silas's catch was a Dexterity save of 20, not a natural 20 (three places) [confirmed against transcript]
+- Added: Silas's Deception 22 after the Shatter; the radio intel that the Mass Suggested soldiers reported back and forces are converging on the Shire; the Jeep went into the pocket village at the pier; Dylan is George's boyfriend, met at the Sexy Peacock (session not stated) [confirmed against transcript]
+- Added: Dylan and Private Jeffers Walaby to the NPC table
+- Open: the DM christened the Goldsprings' Jeep something that transcribes as "Roomfall 2"/"Broomfall 2, Electric Boogaloo" — probably "Vroomfall 2"; not used in the recap pending confirmation. Taylor says the grenade launcher came from Iro; the recap now says so
+
+**Pattern:** three failure modes in one recap — pre-session banter recorded as an in-world event (see also Session 63), one scene described twice under two headings (a truck and a Humvee that were the same vehicle), and good rolls inflated to perfect ones (a save of 20 became a "natural 20" in three places). When a recap has two vehicle scenes, two radio scenes or two of anything in a row, check whether the transcript has one.
 
 ### Session 65 (2026-10-16)
 - Fixed: Justin Hale (Bru) and Ali Leonard (Elspeth) listed as present. Neither speaks in the transcript, and the table says so ("poor Justin who's not involved", "so sad Justin is missing this"). The DM voiced Bru, whom the party chose to bring along; Elspeth stayed in the pocket village. Players Present is now Taylor, Luke and Ellis, with an absence note [confirmed against transcript]

@@ -541,7 +541,8 @@
         }
       ],
       "top_npcs": {
-        "George": 5
+        "George": 5,
+        "Dylan": 2
       },
       "fun": {
         "nat20_mentions": 0,
@@ -612,7 +613,9 @@
           "word_share": 0.053
         }
       ],
-      "top_npcs": {},
+      "top_npcs": {
+        "Dylan": 2
+      },
       "fun": {
         "nat20_mentions": 0,
         "nat1_mentions": 0
@@ -2491,8 +2494,8 @@
       ],
       "top_npcs": {
         "George": 12,
-        "Finnegan": 8,
-        "Iro": 1
+        "Finnegan": 9,
+        "Dylan": 4
       },
       "fun": {
         "nat20_mentions": 0,
