@@ -2693,7 +2693,8 @@
       "attendance_source": "transcript",
       "mentions": {
         "npcs": {
-          "George": 5
+          "George": 5,
+          "Dylan": 2
         },
         "locations": {
           "Greyport": 1
@@ -2935,7 +2936,9 @@
       ],
       "attendance_source": "transcript",
       "mentions": {
-        "npcs": {},
+        "npcs": {
+          "Dylan": 2
+        },
         "locations": {
           "Greyport": 1
         },
@@ -5434,6 +5437,7 @@
           "Luna": 10,
           "Belspeth Booper": 5,
           "Victor": 4,
+          "Dylan": 1,
           "Iro": 1,
           "Scarlet": 1
         },
@@ -7489,6 +7493,7 @@
           "Lady Viper": 4,
           "Crowley": 2,
           "Chalk Rock": 1,
+          "Dylan": 1,
           "Naomi": 1,
           "Scarlet": 1
         },
@@ -8012,6 +8017,7 @@
           "Finnegan": 8,
           "Captain Steel": 4,
           "Lady Viper": 3,
+          "Dylan": 1,
           "Iro": 1,
           "Luna": 1,
           "Toothy": 1,
@@ -8707,6 +8713,7 @@
           "Iro": 3,
           "Victor": 3,
           "Scarlet": 2,
+          "Dylan": 1,
           "Luna": 1,
           "Naomi": 1
         },
@@ -8877,7 +8884,9 @@
       "mentions": {
         "npcs": {
           "George": 12,
-          "Finnegan": 8,
+          "Finnegan": 9,
+          "Dylan": 4,
+          "Private Jeffers Walaby": 2,
           "Iro": 1,
           "Scarlet": 1
         },
@@ -9064,7 +9073,7 @@
       "Lady Viper": 67,
       "Astro": 63,
       "Naomi": 62,
-      "Finnegan": 47,
+      "Finnegan": 48,
       "Chalk Rock": 35,
       "Captain Steel": 33,
       "Crowley": 20,
@@ -9072,6 +9081,7 @@
       "Bafael": 16,
       "Cassandra": 16,
       "Toothy": 15,
+      "Dylan": 12,
       "Bon Bonnery": 9,
       "April Bonal": 4,
       "Lady Corwin": 4,
@@ -9079,6 +9089,7 @@
       "Y'chek": 4,
       "Ben Boulage": 3,
       "Lord Bradicus": 2,
+      "Private Jeffers Walaby": 2,
       "Fredo Boggins": 1,
       "Steven Goldspring": 1
     },

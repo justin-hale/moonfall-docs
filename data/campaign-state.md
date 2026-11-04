@@ -258,7 +258,7 @@ The party crashes in farmland outside Eldoran and infiltrates Leliana's childhoo
 
 
 **Session 66** – Through the Deep Green
-The party flees north from the capital through a metal-dissolving fungal swamp, commandeers a Humvee and its dead soldiers' identity, and uses a stolen radio deception (Deception 32) to talk down a military search-and-rescue. A building-sized war machine emerges from the sea at the docks; Bru destroys its sensor node with a concussive grenade before Silas catches him mid-fall on a natural 20, and the party escapes aboard Finnegan's stolen schooner into open water.
+The party flees north from the capital through a metal-dissolving fungal swamp, burns an Eldoran Humvee free of the fungus, and uses its radio and a dying private's name (Deception 32) to steer the search away from the deep green. Bru puts the one surviving soldier, Private Jeffers Walaby of Unit 34, back down with *Shatter* when he tries to follow, and the pair drive the Humvee to the coast disguised as Eldoran soldiers. Finnegan's stolen schooner is waiting with George, George's boyfriend Dylan and several children aboard. A building-sized humanoid war machine closes from the sea; Bru lands a concussive grenade on its sensor node from the bird's nest, Silas catches him mid-fall with a sail (Dexterity save 20), and the machine holds its original course while the schooner turns for the North Sea. (Luke, Ellis and Ali were away; Leliana drove the others ahead in the Jeep, and Olivia swapped into the pocket village for Bru.)
 
 ## Active Plot Threads
 
@@ -357,11 +357,12 @@ The moon exploded in Session 16. At Luna's underwater crash site the party resea
 
 
 #### Session 66 Updates
-- **Escape from the capital (ongoing)**: Party now at sea aboard schooner; pursuing war machine did not follow after grenade strike to sensor node.
-- **The war machine**: New threat. Building-sized humanoid construct with purple-white crystal points at shoulders/hips and red spinning sensor node on shoulder blade. Did not pursue past initial intercept; purpose and origin unknown.
-- **George's fate**: Confirmed alive and at the docks with Finnegan, Dylan, and several children; now aboard the schooner.
-- **Military hunt**: Empire actively hunting party by name for the capital attack. Two Eldoran units reported dark: one door-to-door through farming country ("the Shire"), one in the swamp reporting aggressive fauna.
-- **Private Jeffers Walaby (Unit 34)**: Identity used for radio deception; left unconscious in swamp with two other infected soldiers after Bru's *Shatter* spell (14 thunder damage, failed CON save, natural 1).
+- **Escape from the capital (ongoing)**: Party now at sea aboard Finnegan's stolen schooner, bound for the North Sea. The pursuing war machine held its original course when the schooner turned hard to starboard; the grenade strike on its sensor node had no visible effect.
+- **The war machine**: New threat. Building-sized humanoid construct, four purple-white glows at shoulders and hips and a red spinning sensor node above one shoulder blade; approached submerged and head-first, fast enough to run down a schooner. Did not pursue past the turn; purpose and origin unknown.
+- **George's fate**: Confirmed alive; crewing the schooner with Finnegan, his boyfriend Dylan (whom he met at the Sexy Peacock) and several children.
+- **Military hunt**: The Empire is hunting the party for the capital attack. The soldiers Leliana Mass Suggested back to base (Session 65) reported a trucker carrying a possible suspect, and forces are converging on the Shire. Two Eldoran units are dark: one door-to-door in the Shire, one ranging northwest into "the deep green" — the Humvee crew the party found. Silas, as Walaby, told command the unit was fine and had seen nothing.
+- **Private Jeffers Walaby (Unit 34)**: Name used for the radio deception; told by two "Eldoran soldiers" (Silas and Bru under Hats of Disguise) that they were taking his Humvee; put back down by Bru's *Shatter* (natural 1 CON save, 14 thunder damage) when he tried to stand, and left in the swamp with his two dying unit mates.
+- **The Humvee**: Minigun stripped by Bru; rolled off the pier in gear with timed charges aboard, which detonated underwater.
 
 ## Character Status
 
@@ -470,10 +471,10 @@ The moon exploded in Session 16. At Luna's underwater crash site the party resea
 
 
 #### Session 66 Updates
-- **Silas Fairbanks**: Executed Deception check of 32 impersonating Private Walaby; adopted broad Australian accent and fielded military command chatter. Burned a short rest and hit dice to recover from angel fight damage. Natural 20 DEX save to catch Bru out of freefall mid-sail swing.
-- **Bru**: Used *Shatter* spell (DC 16) to silence awakening Private Walaby; climbed to bird's nest for grenade shot; took fall damage from rigging collapse after grenade strike; caught by Silas. Wired Humvee with timed charges and drove it off pier into water.
-- **Leliana Goldspring / Helisanna Doomfall**: Off-page during swamp/coast sequence (rotated out via pocket village capsule).
-- **Olivia Cooper**: Off-page during swamp/coast sequence (rotated out via pocket village capsule).
+- **Silas Fairbanks**: Nature 18 and Medicine 21 on the fungus and its victims; Insight 20 on the radio chatter; Deception 32 impersonating Private Walaby in a broad Australian accent, and Deception 22 selling Walaby's collapse as a faint. Burned a short rest and all his hit dice on the pier to recover from the angel fight. Dexterity save of 20 to catch Bru in a swung sail. Investigation 7 under the Humvee's hood found nothing.
+- **Bru**: Passive Perception 25 spotted the Humvee and the thing in the water. Flamethrower cleared the fungus; pocket dynamite cleared the road out. *Shatter* (DC 16) put Walaby back down. Stripped the Humvee's minigun, planted timed charges and let it roll off the pier in gear. Arcana 13 on the submerged pursuer; Insight 14 → 18 (Flash of Genius) on the breadcrumb problem; signal sparker, then a natural 20 Perception (~30) that identified the war machine. Attack 21 with the concussive grenade from the bird's nest; Dexterity save 4 against the recoil, two dice of fall damage, caught by Silas. Has a banked level-up (to 12) still unused.
+- **Leliana Goldspring / Helisanna Doomfall**: Present but DM-voiced; drove the others ahead in the Jeep from the Humvee to the coast.
+- **Olivia Cooper**: Swapped into the pocket village capsule for Bru at the start of the night; off-page thereafter.
 
 ## Key Callbacks & Unresolved Hooks
 

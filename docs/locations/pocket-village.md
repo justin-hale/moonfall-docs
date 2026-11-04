@@ -53,4 +53,4 @@ Through a sending stone, Luna then manifested in the village by its lake. Silas 
 - **[Session 52](/sessions/session-52)** — Silas sees the village's interior through an Eldoran portal tuned to Luna, and the party cuts the chain instead of destroying the portal.
 - **[Session 54](/sessions/session-54)** — The party stows its cars in the village and gets the disguised capsule past an Eldoran checkpoint.
 - **[Session 64](/sessions/session-64)** — The Bugatti was hauled out of the pocket village before being driven off the Research Tower.
-- **[Session 66](/sessions/session-66)** — The Pocket Village capsule was kept in the back of the stolen Jeep and allowed the table to rotate characters out of the active narrative during scenes where they were not needed.
+- **[Session 66](/sessions/session-66)** — Riding in the back of the stolen Jeep, the capsule let Bru come out and Olivia go in — a swap that takes a few minutes even on the move. At the pier the Jeep itself went into the Pocket Village before the party boarded Finnegan's schooner.
