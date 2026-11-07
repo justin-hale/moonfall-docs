@@ -2502,6 +2502,62 @@
         "nat1_mentions": 1
       },
       "superlatives": null
+    },
+    "session-67": {
+      "timing_quality": "exact",
+      "duration_seconds": 9628,
+      "word_count": 23349,
+      "players_present": [
+        "Bru",
+        "Silas",
+        "Leliana"
+      ],
+      "attendance_source": "transcript",
+      "speakers": [
+        {
+          "name": "Bru",
+          "role": "pc",
+          "word_share": 0.4018
+        },
+        {
+          "name": "Silas",
+          "role": "pc",
+          "word_share": 0.3018
+        },
+        {
+          "name": "Topher",
+          "role": "dm",
+          "word_share": 0.2359
+        },
+        {
+          "name": "Leliana",
+          "role": "pc",
+          "word_share": 0.0605
+        }
+      ],
+      "top_npcs": {
+        "Scarlet": 38,
+        "Iro": 2,
+        "Lady Viper": 1
+      },
+      "fun": {
+        "nat20_mentions": 1,
+        "nat1_mentions": 1
+      },
+      "superlatives": {
+        "mvp": {
+          "player": "Silas",
+          "quote": "I go up to a reception and I'm like, 'Hey, we're from corporate and we want to fire Rivet even more and we need to report what Rivet did.' Tell us."
+        },
+        "best_joke": {
+          "player": "Bru",
+          "quote": "The Tacoma, it's still a truck probably for now. Now available at partic participating dealerships and on the shoulder of every major road in Greyboard."
+        },
+        "most_chaotic": {
+          "player": "Bru",
+          "quote": "I found somebody that can uh open just kind of blow the doors off of this thing... but like kind of made myself known. Uh, so I'm hiding out a little bit in here."
+        }
+      }
     }
   }
 }

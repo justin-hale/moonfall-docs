@@ -260,6 +260,10 @@ The party crashes in farmland outside Eldoran and infiltrates Leliana's childhoo
 **Session 66** – Through the Deep Green
 The party flees north from the capital through a metal-dissolving fungal swamp, burns an Eldoran Humvee free of the fungus, and uses its radio and a dying private's name (Deception 32) to steer the search away from the deep green. Bru puts the one surviving soldier, Private Jeffers Walaby of Unit 34, back down with *Shatter* when he tries to follow, and the pair drive the Humvee to the coast disguised as Eldoran soldiers. Finnegan's stolen schooner is waiting with George, George's boyfriend Dylan and several children aboard. A building-sized humanoid war machine closes from the sea; Bru lands a concussive grenade on its sensor node from the bird's nest, Silas catches him mid-fall with a sail (Dexterity save 20), and the machine holds its original course while the schooner turns for the North Sea. (Luke, Ellis and Ali were away; Leliana drove the others ahead in the Jeep, and Olivia swapped into the pocket village for Bru.)
 
+
+**Session 67** – "Tacoma, We Have a Problem"
+Bru's holographic distress call draws Silas, Leliana, and Scarlet undercover to the crumbling Toyota Works factory, where they pose as corporate investigators to clear the name of fired inspector Rivet and retrieve Bru's hidden findings. The party uncovers a Ford-backed sabotage plot, discovers a book cipher in Rivet's hideout that remains unsolved, and confirms Bru's involvement in a factory fire—all while Bru hides in the break room as a disguised janitor, denying arson to his own rescue party.
+
 ## Active Plot Threads
 
 ### 1. The Three-Target Strike on the Eldoran Capital
@@ -363,6 +367,14 @@ The moon exploded in Session 16. At Luna's underwater crash site the party resea
 - **Military hunt**: The Empire is hunting the party for the capital attack. The soldiers Leliana Mass Suggested back to base (Session 65) reported a trucker carrying a possible suspect, and forces are converging on the Shire. Two Eldoran units are dark: one door-to-door in the Shire, one ranging northwest into "the deep green" — the Humvee crew the party found. Silas, as Walaby, told command the unit was fine and had seen nothing.
 - **Private Jeffers Walaby (Unit 34)**: Name used for the radio deception; told by two "Eldoran soldiers" (Silas and Bru under Hats of Disguise) that they were taking his Humvee; put back down by Bru's *Shatter* (natural 1 CON save, 14 thunder damage) when he tried to stand, and left in the swamp with his two dying unit mates.
 - **The Humvee**: Minigun stripped by Bru; rolled off the pier in gear with timed charges aboard, which detonated underwater.
+
+
+#### Session 67 Updates
+- **NEW: Toyota Works sabotage conspiracy** – Ford is systematically undermining Toyota from inside via "old-school Iron Claws" muscle; employees cycled every six months under forged performance terminations signed by Henrietta Oll; corporate spy feeds Ford marketing copy into Toyota's internal communications; Mr. Toyota himself employed Bru to investigate.
+- **NEW: Rivet (peace-forged robot inspector)** – Fired for asking questions about the Tacoma explosion; hidden in factory break room with manifesto ("The reliability is a lie," "Ford spreads lies"); identity and full involvement still unknown.
+- **NEW: Book cipher unsolved** – Found in Rivet's hideout, keyed to sentence/word/letter encoding; useless without the specific text (likely Toyota employee handbook); critical to proving Rivet's claims and clearing her name.
+- **NEW: Bru's factory fire** – Bru admits to arson at Toyota Works; denies it can be proven; employment status and reasons unclear; currently hiding as janitor in break room when session ends.
+- **Bru's investigation (Session 63 connection)** – Bru was investigating the Tacoma explosion independently of the party's capital strike; Mr. Toyota's involvement adds new layer to earlier encounters.
 
 ## Character Status
 
@@ -476,6 +488,13 @@ The moon exploded in Session 16. At Luna's underwater crash site the party resea
 - **Leliana Goldspring / Helisanna Doomfall**: Present but DM-voiced; drove the others ahead in the Jeep from the Humvee to the coast.
 - **Olivia Cooper**: Swapped into the pocket village capsule for Bru at the start of the night; off-page thereafter.
 
+
+#### Session 67 Updates
+- **Silas Fairbanks** – Investigation 16 mapped building directory; Stealth 23 slipped behind wall panel undetected; disguised as "Kid Sour Patch" corporate investigator; recovered Rivet's coded note.
+- **Leliana Goldspring** – Attempted three *Message* spells to reach Bru at session opening, all failed against unknown jamming; disguised as "Miss Airhead"; Acrobatics 15 on break-room cartwheel escape.
+- **Scarlet** – Perception 24 parking lot scout (flagged tarped car, absence of Tacomas); Investigation 26 cracked Ford marketing whiteboard cipher; Acrobatics 7 (humiliating) then natural 20 (flawless landing) on same maneuver minutes apart; "Dr. Sour Straw" persona.
+- **Bru** – Revealed as Mr. Toyota's employee investigating Tacoma explosion; denies arson despite admitting to factory fire; ran as janitor NPC by Justin Hale from DM's chair; warned party of camera via psychic contact; unrepentant about circumstances.
+
 ## Key Callbacks & Unresolved Hooks
 
 ### Unresolved Plot Threads
@@ -563,3 +582,14 @@ The moon exploded in Session 16. At Luna's underwater crash site the party resea
 - **"Tuni" the soldier**: Same name as factory worker encountered in Session 63; coincidence or pattern unknown.
 - **Walaby's missing unit mates**: "Tuni and Starlight" — identities and fates unknown; possible future contact point.
 - **The swamp's fungus**: Metal-dissolving, spore-producing aggressive infection; origin (natural or engineered) unexplained; covers active swamp region.
+
+
+#### Session 67 Updates
+- **Rivet's hideout access** – Hidden panel behind break-room wall; manifesto written in shaking hand; manifesto content ("reliability is a lie") suggests systematic knowledge of sabotage.
+- **Henrietta Oll** – Signs every employee termination at Toyota Works; potential villain or unwilling administrator; location and role unexplained.
+- **Pel Firestone (Head Inspector, Quality Control)** – Name extracted from Madison Ali under Intimidation; not yet encountered; possible additional contact or witness.
+- **Madison Ali (HR head)** – Convinced to call and reinstate Rivet; leverage gained; possible future contact for information.
+- **The tarped car in side alley** – Spotted by Scarlet (Perception 24); contents and purpose unknown; potential evidence or escape vehicle.
+- **Toyota's manufacturing crisis** – Factory produces no actual Tacomas despite being a Tacoma factory; ties to Tacoma explosion (Sessions 59–63 capital strike context); suggests systemic operational collapse.
+- **Mr. Toyota as employer** – Desperate to reclaim sabotaged company; employed Bru directly; motive and identity unexplained; possible future contact or ally.
+- **Camera in break room** – Still active; party visibility compromised; potential pursuit or containment threat.

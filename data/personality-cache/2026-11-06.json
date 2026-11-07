@@ -1,0 +1,94 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-11-06",
+  "model": "claude-haiku-4-5",
+  "players": {
+    "Topher": {
+      "scores": {
+        "chaos": 14,
+        "heroism": 15,
+        "comedy": 12,
+        "immersion": 13,
+        "strategy": 11,
+        "curiosity": 16
+      },
+      "evidence": {
+        "chaos": "I used firebolt to burn all the the blinds away. the sun and then I burn the rest of the evidence.",
+        "heroism": "I think we should prioritize the strangers cuz I feel like Bru is like fully capable, but every stranger we meet, they're pitiful.",
+        "comedy": "I would like to say, you know, we got to be fast. So, and this but this this toast is really good. It's got really good butter",
+        "immersion": "I'll be uh I'll figure it out. [casting dancing lights and investigating the whiteboard methodically]",
+        "strategy": "And as far as like a firing pattern, um, did it seem like they're all dated like recently? Um, or can I find like the oldest record and if it's like the same people?",
+        "curiosity": "One of the big questions or one of the big things I wanted to find was is there any are there any names for like who's signing off on these firings, especially hers?"
+      }
+    },
+    "Leliana": {
+      "scores": {
+        "chaos": 8,
+        "heroism": 12,
+        "comedy": 11,
+        "immersion": 10,
+        "strategy": 9,
+        "curiosity": 10
+      },
+      "evidence": {
+        "chaos": "We're dog sitting. Friends dropped the dog over and then uh it was not a quick exchange.",
+        "heroism": "I'm going to show Scarlet up. I'm going to cartwheel to the tune of a 15 instead. Acrobatics. I do better.",
+        "comedy": "Yeah. Love that for you. [in response to Bru staying behind while they investigate]",
+        "immersion": "Um a veggie wrap, hummus, sprouts, lettuce. You know it. [describing Leliana's meal choice]",
+        "strategy": "Oh, could the last line be Tacoma? T A C O M A. Unless an A appears multiple sent like if it says sentence word letter then it could be there are multiple appearances of A within a sentence.",
+        "curiosity": "Where's a lot of words? How many uh motivational posters were hanging up? Those are like a lot. A lot."
+      }
+    },
+    "Silas": {
+      "scores": {
+        "chaos": 16,
+        "heroism": 11,
+        "comedy": 18,
+        "immersion": 14,
+        "strategy": 13,
+        "curiosity": 14
+      },
+      "evidence": {
+        "chaos": "Okay, so I'm thinking over at you guys with I got psychic phone going. Okay. Look, we're all using fake names. I feel like I shouldn't have had to have to tell you that.",
+        "heroism": "I mean, if Bru is very capable, but also like I feel like he uh doesn't read a situation very well, you know?",
+        "comedy": "Oh, Man, Tacomaomas sure do suck, right guys? I mean, they're just being honest. I mean, you can't do much to polish those turds.",
+        "immersion": "I open up the uh the the communicate device. [responding in character to Kevin]",
+        "strategy": "I just think if you Bru, you know, there's few things I'm passionate about in this world, and one of them is the sterling reputation of the Ford Motor Company.",
+        "curiosity": "Okay. So, um, any clue as to what this like how we could find a some sort of hint to this cipher?"
+      }
+    },
+    "Bru": {
+      "scores": {
+        "chaos": 18,
+        "heroism": 13,
+        "comedy": 17,
+        "immersion": 16,
+        "strategy": 14,
+        "curiosity": 12
+      },
+      "evidence": {
+        "chaos": "I found somebody that can uh open just kind of blow the doors off of this thing. Uh, I can't trace a lot of the information of who's in charge, but I promise this person that we can look into this and we can we can fix this situation, but uh I I kind of kind of blew up a couple of things.",
+        "heroism": "Mr. Toyota himself uh answered the call and pieced it together. So, like look, we're here. Let's let's return this place to what it should be.",
+        "comedy": "The Tacoma, it's still a truck probably for now. Now available at partic participating dealerships and on the shoulder of every major road in Greyboard.",
+        "immersion": "[sustained roleplay of a panicked goblin in hiding, maintaining character throughout the break room sequence]",
+        "strategy": "There's there's a night shift inspector named Rivet got fired for asking questions. So, she hid some things at the Toyota Works. So, if you can get down there, um that would be helpful.",
+        "curiosity": "So I made some calls and made some connections and Mr. Toyota himself uh answered the call and pieced it together."
+      }
+    }
+  },
+  "superlatives": {
+    "mvp": {
+      "player": "Silas",
+      "quote": "I go up to a reception and I'm like, 'Hey, we're from corporate and we want to fire Rivet even more and we need to report what Rivet did.' Tell us."
+    },
+    "best_joke": {
+      "player": "Bru",
+      "quote": "The Tacoma, it's still a truck probably for now. Now available at partic participating dealerships and on the shoulder of every major road in Greyboard."
+    },
+    "most_chaotic": {
+      "player": "Bru",
+      "quote": "I found somebody that can uh open just kind of blow the doors off of this thing... but like kind of made myself known. Uh, so I'm hiding out a little bit in here."
+    },
+    "decision_driver": "Silas"
+  }
+}
