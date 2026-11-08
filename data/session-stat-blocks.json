@@ -2536,9 +2536,9 @@
         }
       ],
       "top_npcs": {
+        "Rivet": 38,
         "Scarlet": 38,
-        "Iro": 2,
-        "Lady Viper": 1
+        "Mr. Toyota": 3
       },
       "fun": {
         "nat20_mentions": 1,

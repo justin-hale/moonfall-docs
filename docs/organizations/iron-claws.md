@@ -66,4 +66,4 @@ Before the campaign, Helja hired the [Sisyphus Circle](/organizations/sisyphus-c
 - **[Session 38](/sessions/session-38)** — Helja's journals reveal her mother's pressure and her failed hunt for Sander.
 - **[Session 39](/sessions/session-39)** — After the bakery explosion, the party and the Order of St. George fight Iron Claws across Greyport's rooftops.
 - **[Session 53](/sessions/session-53)** — The party infiltrates the Iron Claws' Cog & Steam; Helja's mother is running the gang again.
-- **[Session 67](/sessions/session-67)** — Bru claimed that Ford employed "old-school Iron Claws" muscle at Toyota Works to sabotage the company and keep quality and morale low.
+- **[Session 67](/sessions/session-67)** — Bru said he was fairly sure "old-school Iron Claws" were employed at Toyota Works, the factory he believes Ford is sabotaging from inside.

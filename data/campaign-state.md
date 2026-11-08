@@ -262,7 +262,7 @@ The party flees north from the capital through a metal-dissolving fungal swamp, 
 
 
 **Session 67** – "Tacoma, We Have a Problem"
-Bru's holographic distress call draws Silas, Leliana, and Scarlet undercover to the crumbling Toyota Works factory, where they pose as corporate investigators to clear the name of fired inspector Rivet and retrieve Bru's hidden findings. The party uncovers a Ford-backed sabotage plot, discovers a book cipher in Rivet's hideout that remains unsolved, and confirms Bru's involvement in a factory fire—all while Bru hides in the break room as a disguised janitor, denying arson to his own rescue party.
+A side story run by Justin as guest DM, set shortly after the mini-sun heist (all of Taylor, Luke and Christopher present; Ellis, Ali and Zack absent). Bru's holographic distress call, delivered by Kevin to a diner brunch, draws Silas, Leliana, and Scarlet undercover to the crumbling Toyota Works factory, posing as corporate, to follow up on Rivet — a fired night-shift inspector who hid something there. They find a Ford-backed sabotage plot, Bru disguised as the break-room janitor (all but admitting to a factory fire while insisting no one can prove it), and Rivet's hideout behind a break-room panel. Bru hands over Rivet's unsolved book-cipher note and stays hidden; the vignette continues next session.
 
 ## Active Plot Threads
 
@@ -370,11 +370,11 @@ The moon exploded in Session 16. At Luna's underwater crash site the party resea
 
 
 #### Session 67 Updates
-- **NEW: Toyota Works sabotage conspiracy** – Ford is systematically undermining Toyota from inside via "old-school Iron Claws" muscle; employees cycled every six months under forged performance terminations signed by Henrietta Oll; corporate spy feeds Ford marketing copy into Toyota's internal communications; Mr. Toyota himself employed Bru to investigate.
-- **NEW: Rivet (peace-forged robot inspector)** – Fired for asking questions about the Tacoma explosion; hidden in factory break room with manifesto ("The reliability is a lie," "Ford spreads lies"); identity and full involvement still unknown.
-- **NEW: Book cipher unsolved** – Found in Rivet's hideout, keyed to sentence/word/letter encoding; useless without the specific text (likely Toyota employee handbook); critical to proving Rivet's claims and clearing her name.
-- **NEW: Bru's factory fire** – Bru admits to arson at Toyota Works; denies it can be proven; employment status and reasons unclear; currently hiding as janitor in break room when session ends.
-- **Bru's investigation (Session 63 connection)** – Bru was investigating the Tacoma explosion independently of the party's capital strike; Mr. Toyota's involvement adds new layer to earlier encounters.
+- **NEW: Toyota Works sabotage conspiracy** – Rivet believed, and Bru agrees but cannot prove, that Ford is sabotaging Toyota from inside; Bru is fairly sure "old-school Iron Claws" are employed there; staff are hired and fired about six months apart, every termination signed by Henrietta Oll; Ford marketing copy was found on the HR office whiteboard; Mr. Toyota gave Bru the lead.
+- **NEW: Rivet (peace-forged robot inspector)** – Night-shift quality-control inspector fired for asking questions (HR file is pretextual strikes, signed off by Henrietta Oll); her hideout is a crawl space behind a loose break-room panel, walls scrawled "The reliability is a lie" and "Ford spreads lies"; whereabouts unknown.
+- **NEW: Book cipher unsolved** – Rivet's note, found by Bru and handed to the party: rows of three-number clusters (each line a word, each cluster a letter), with "they wrote it themselves; sentence, word, letter" in Rivet's hand, signed "R"; useless without the source text (Silas suggests a Toyota employee handbook).
+- **NEW: Bru's factory fire** – A fire on the Toyota Works factory floor was pinned on Bru; he insists "nobody saw me do it, you can't prove anything"; high-level magic sees through every disguise he tries, so he stays hidden behind the break-room panel when the session ends.
+- **Bru's investigation** – Began after a Tacoma blew up on the party's way to the mini-sun heist; Bru made calls, and Mr. Toyota, the company's original owner, answered — he wants his company back and says plants inside are sabotaging it.
 
 ## Character Status
 
@@ -490,10 +490,10 @@ The moon exploded in Session 16. At Luna's underwater crash site the party resea
 
 
 #### Session 67 Updates
-- **Silas Fairbanks** – Investigation 16 mapped building directory; Stealth 23 slipped behind wall panel undetected; disguised as "Kid Sour Patch" corporate investigator; recovered Rivet's coded note.
-- **Leliana Goldspring** – Attempted three *Message* spells to reach Bru at session opening, all failed against unknown jamming; disguised as "Miss Airhead"; Acrobatics 15 on break-room cartwheel escape.
-- **Scarlet** – Perception 24 parking lot scout (flagged tarped car, absence of Tacomas); Investigation 26 cracked Ford marketing whiteboard cipher; Acrobatics 7 (humiliating) then natural 20 (flawless landing) on same maneuver minutes apart; "Dr. Sour Straw" persona.
-- **Bru** – Revealed as Mr. Toyota's employee investigating Tacoma explosion; denies arson despite admitting to factory fire; ran as janitor NPC by Justin Hale from DM's chair; warned party of camera via psychic contact; unrepentant about circumstances.
+- **Silas Fairbanks** – Perception 16 read the lobby directory; Sleight of Hand 31 through HR's filing cabinets (Investigation 7); burned a psychic die to lift the group Intimidation to 23; Perception 25 over his psychic link clocked Bru as the janitor; 23 to slip behind the panel unseen; cover name "Kid Sour Patch"; passed Rivet's note to Scarlet.
+- **Leliana Goldspring** – Perception 22 spotted the receptionist at the entrance; natural 1 on Investigation at the filing cabinets; Acrobatics 15 on the break-room cartwheel past the camera; cover name "Dr. Warhead".
+- **Scarlet** – Natural 1 Perception at the entrance; Perception 24 on the parking lot (tarped car, no Toyotas); three *Message* spells to Bru on one flat roll (6), no reply; Investigation 26 read Ford marketing copy on the HR office whiteboard; Investigation 23 found the six-month hire-to-fire pattern; natural 20 Perception in the break room (it smells vile); Acrobatics 7 cartwheel, then a natural 20 floor routine out of the break room; Intelligence 18 worked out the cipher's structure; cover name "Dr. Sour Straw".
+- **Bru** – Voiced by Justin as guest DM; disguised as the break-room janitor; working Mr. Toyota's lead; warned the party of the camera over Silas's psychic link; the factory-floor fire was pinned on him and he will not admit to it.
 
 ## Key Callbacks & Unresolved Hooks
 
@@ -587,9 +587,9 @@ The moon exploded in Session 16. At Luna's underwater crash site the party resea
 #### Session 67 Updates
 - **Rivet's hideout access** – Hidden panel behind break-room wall; manifesto written in shaking hand; manifesto content ("reliability is a lie") suggests systematic knowledge of sabotage.
 - **Henrietta Oll** – Signs every employee termination at Toyota Works; potential villain or unwilling administrator; location and role unexplained.
-- **Pel Firestone (Head Inspector, Quality Control)** – Name extracted from Madison Ali under Intimidation; not yet encountered; possible additional contact or witness.
-- **Madison Ali (HR head)** – Convinced to call and reinstate Rivet; leverage gained; possible future contact for information.
+- **Pel Firestone (Head Inspector, Quality Control)** – Named by Madison Ali; usually on the factory floor; not yet encountered. Other department heads in the complaint files: Maxwell Truffle and Rusty Power Boost.
+- **Madison Ali (HR head)** – Walked in on the party in her office; believes they are from corporate; promised to make calls to track Rivet down and rehire her.
 - **The tarped car in side alley** – Spotted by Scarlet (Perception 24); contents and purpose unknown; potential evidence or escape vehicle.
-- **Toyota's manufacturing crisis** – Factory produces no actual Tacomas despite being a Tacoma factory; ties to Tacoma explosion (Sessions 59–63 capital strike context); suggests systemic operational collapse.
+- **Toyota Works' parking lot** – Not a single Toyota among the staff cars (Fords, Volkswagens, Chevys) at a Toyota factory; Room 190, "Marketing," is the only non-factory office on the first floor.
 - **Mr. Toyota as employer** – Desperate to reclaim sabotaged company; employed Bru directly; motive and identity unexplained; possible future contact or ally.
 - **Camera in break room** – Still active; party visibility compromised; potential pursuit or containment threat.

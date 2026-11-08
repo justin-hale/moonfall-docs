@@ -73,6 +73,11 @@ Luke Neverisky plays **one woman with two personas**. Write about them this way:
 | Toothy | Twilight Company safehouse keeper in the Eldoran capital (room 238) | toothy.md | |
 | Cassandra | Eldoran spaceport factory worker and Elspeth's friend (Sessions 60, 62) | cassandra.md | |
 | Elder Ragar | Goliath elder, Skyhammer Clan leader | elder-ragar.md | |
+| Rivet | Peace-forged night-shift quality-control inspector fired from Toyota Works for asking questions; her hideout is behind a break-room panel (Session 67 vignette) | | "Riven", "Rippet", "Ribbon", "Rivid" |
+| Madison Ali | Head of HR at Toyota Works (Session 67) | | |
+| Henrietta Oll | Signs off on all hiring and termination at Toyota Works (Session 67) | | "Henry" |
+| Pel Firestone | Head Inspector of Quality Control at Toyota Works (Session 67) | | |
+| Mr. Toyota | Original owner of Toyota Works; gave Bru his lead and wants the company back (Session 67) | | |
 
 ## Locations
 | Location | Correct Spelling | Transcript Aliases | Notes |
@@ -151,6 +156,8 @@ These are systematic speech-to-text mistakes that appear in generated notes:
 | Pelch | Belch | Uncle Belch, Bru's uncle (Interlude XVI) |
 | Naraxis / Nuraxis | Noraxis | DM ruling: Luna's dragon partner |
 | Tannell | Tannondel | DM ruling: Order of St. George commander |
+| Riven / Rippet / Ribbon / Rivid | Rivet | Toyota Works inspector (Session 67) |
+| Silus | Silas | Character name — Silas Fairbanks |
 
 ## Active Plot Threads
 - **Astro**: Dragon imprisoned in Raingoth (Silas's orb). Silas attempting dialogue. Silas carries the orb (Sessions 41–47); his Session 47 claim that he had slipped it into Bru's bag contradicts earlier play. Others speaking to Astro through other orbs.
@@ -164,6 +171,17 @@ These are systematic speech-to-text mistakes that appear in generated notes:
 ## Session Correction Log
 
 Corrections applied via `/fix-notes` are logged here for pattern detection.
+
+### Session 67 (2026-11-06)
+- Fixed: Luke was present all game (he rejoined before play began), not "for the back half"; Leliana's cover name was "Dr. Warhead", not "Miss Airhead"; there was no fourth operative — "Miss Airhead" was offered to Scarlet, who chose Dr. Sour Straw [confirmed against transcript]
+- Fixed: the three *Message* spells (one flat d20 roll of 6) were Scarlet's, cast in the atrium; Leliana cast none [confirmed against transcript]
+- Fixed: Rivet hid things at the Toyota Works, not Bru; the Ford copy was on the HR office whiteboard, not in the break room; the HR door was kicked in and was never said to be locked; Madison Ali walked in on the party rather than being cornered; the cipher note was found by Bru and handed over, not found among Rivet's writings; Scarlet's natural 20 floor routine took her out of the break room — she never entered the hideout [confirmed against transcript]
+- Fixed: Silas's directory read was Perception 16, not Investigation; his 23 behind the panel was not a Stealth check (the DM asked for Sleight of Hand or Acrobatics); the group Intimidation was 26/18/natural 1, averaged to 15 and lifted to 23 with Silas's psychic die, not "around 15"; Scarlet's Intelligence 18 revealed the cipher's structure rather than "coming up short"; the handbook "the party's personas were supposed to have written" was invented [confirmed against transcript]
+- Added: the diner opening (radio ad, exploding Tacoma); Leliana's Perception 22 and Scarlet's natural 1 at the entrance; Silas's Sleight of Hand 31 and Leliana's natural 1 at the cabinets; department heads Maxwell Truffle and Rusty Power Boost; Scarlet's Investigation 23 for the six-month pattern; Scarlet's natural 20 Perception and Silas's Perception 25 in the break room; Bru's disguises being seen through [confirmed against transcript]
+- Added: Rivet, Madison Ali, Henrietta Oll, Pel Firestone and Mr. Toyota to the NPC table; Rivet's mis-hearings and "Silus" to the transcription-error table
+- Open: the transcript gives Scarlet's pattern search as "14 for a total of 23" and the DM repeats it as "23 plus 11"; the recap uses 23
+
+**Pattern:** a player who stepped away before the game is marked as arriving late even though he was back before play began, and the recap then hands his character another PC's actions (Scarlet's *Message* spells became Leliana's). A gap in the record ("Dr. Warhead" with no owner) was filled by inventing a fourth person instead of checking who the table called by that name. Rooms drift too: a clue found in one office moves to the room where the next scene happens. Check attendance against the first in-game minutes, not the pre-game chatter.
 
 ### Session 66 (2026-10-30)
 - Fixed: Players Present was a prose paragraph; now the standard list (Taylor, Justin) with an absence note for Luke, Ellis and Ali. Olivia was not "carried through the swamp" by the DM — she swapped into the pocket village for Bru at the top of the night; Leliana was DM-voiced and drove the others ahead in the Jeep [user-reported / confirmed against transcript]
