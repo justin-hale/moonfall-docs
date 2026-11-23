@@ -239,3 +239,94 @@ def test_build_slim_blocks_shape():
     assert block["speakers"] == [{"name": "Bru", "role": "pc", "word_share": 1.0}]
     # Superlatives keep only entries with a player; decision_driver excluded.
     assert block["superlatives"] == {"mvp": {"player": "Bru", "quote": "boom"}}
+
+
+# --------------------------------------------------------------------------- #
+#  Side arcs: a guest DM and different characters                              #
+# --------------------------------------------------------------------------- #
+#
+# Session 69 opened the H.I.D.E. arc: Taylor ran the game and Topher, Justin
+# and Luke played Tex, Shade and Ward. The roster maps each Meet name to one
+# character and assumes Topher is DM, so the stats credited Silas, Bru and
+# Leliana and marked Topher as DM.
+
+ARC = {
+    "id": "hide",
+    "name": "H.I.D.E.",
+    "dm": {"name": "Taylor", "player": "Taylor Ramsey", "meet_names": ["Tyram"]},
+    "cast": [
+        {"character": "Tex", "player": "Topher", "meet_names": ["Christopher Hooper"]},
+        {"character": "Shade", "player": "Justin Hale", "meet_names": ["Justin Hale"]},
+        {"character": "Ward", "player": "Luke Neverisky", "meet_names": ["Luke Neverisky"]},
+    ],
+}
+
+ARC_RECAP = """\
+## Players Present
+- Christopher "Topher" Hooper as Tex
+- Justin Hale as [Shade](/player-characters/shade)
+- **Luke Neverisky** as **Ward**
+
+*Taylor Ramsey served as Dungeon Master.*
+
+## Plot Events
+Silas was mentioned as Tex walked in.
+"""
+
+MAIN_RECAP = """\
+## Players Present
+- **Taylor Ramsey** as **Silas Fairbanks** — Rogue
+- **Justin Hale** as **Bru** — Artificer
+
+## Plot Events
+The party met a courier who introduced himself as Tex. Ward off the cold.
+"""
+
+
+def test_side_arc_detected_from_players_present():
+    assert ess.detect_side_arc(ARC_RECAP, [ARC]) is ARC
+
+
+def test_side_arc_not_detected_in_main_campaign_recap():
+    # "as Tex" and "Ward" appear in the prose, not under Players Present.
+    assert ess.detect_side_arc(MAIN_RECAP, [ARC]) is None
+    assert ess.detect_side_arc("no attendance section at all", [ARC]) is None
+
+
+def test_side_arc_recredits_speakers(tmp_path, kb, roster):
+    alias_to_canonical, replacements = kb
+    path = tmp_path / "2026-11-20.md"
+    path.write_text(MD_TRANSCRIPT, encoding="utf-8")
+    blocks, _, quality = ess.parse_md_transcript(
+        path, "2026-11-20", alias_to_canonical, replacements)
+
+    moved = ess.apply_side_arc(blocks, ARC)
+    speakers, _, _ = ess.summarize_speakers(
+        blocks, {**roster, **ess.side_arc_roster(ARC)}, quality)
+
+    by_name = {s["name"]: s for s in speakers}
+    assert set(by_name) == {"Taylor", "Tex", "Shade", "Ward"}
+    assert by_name["Taylor"]["role"] == "dm"
+    assert by_name["Tex"]["role"] == "pc" and by_name["Tex"]["player"] == "Topher"
+    assert moved["Silas Fairbanks"] == "Taylor Ramsey"
+    assert moved["Topher"] == "Tex"
+
+
+def test_side_arc_mentions_are_case_sensitive():
+    patterns = ess.side_arc_pc_patterns(ARC)
+    counts = ess.count_mentions("Ward took the ward; Shade stood in the shade.", patterns)
+    assert counts == {"Shade": 1, "Ward": 1}
+
+
+def test_slim_blocks_relabel_superlatives_in_a_side_arc():
+    dataset = {"sessions": [{
+        "id": "session-69", "has_transcript": True, "players_present": ["Tex"],
+        "timing_quality": "exact", "duration_seconds": 60, "word_count": 10,
+        "attendance_source": "transcript",
+        "speakers": [{"name": "Tex", "role": "pc", "word_share": 1.0}],
+        "mentions": {"npcs": {}}, "fun": {"nat20_mentions": 0, "nat1_mentions": 0},
+        "personality": {"superlatives": {"mvp": {"player": "Topher", "quote": "q"}}},
+        "side_arc": {"id": "hide", "name": "H.I.D.E.", "labels": {"Topher": "Tex"}},
+    }]}
+    block = ess.build_slim_blocks(dataset)["blocks"]["session-69"]
+    assert block["superlatives"]["mvp"] == {"player": "Tex", "quote": "q"}

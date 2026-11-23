@@ -33,7 +33,7 @@ Luke Neverisky plays **one woman with two personas**. Write about them this way:
 - **In recaps:** name whichever persona is acting ("Leliana, switching to Helisanna, …"). Never treat Helisanna as departed, as an NPC, or as Leliana's patron, and don't call either persona "the original": since Session 57 the DM's framing is that she is "both of them".
 
 ### The H.I.D.E. side arc (Session 69 onward)
-A mini-arc run by **Taylor Ramsey as DM** (Meet name "Tyram"), set in the present day in the elven kingdom of Liberia while Taco Cat is at sea. It is an arc of this campaign, not a new campaign. While it runs, Topher is a **player**, not the DM. The three PCs are Peace Forged and are deliberately kept out of the roster table above, because the transcript cleaner and stats extractor map each Meet name to the last table row that names it.
+A mini-arc run by **Taylor Ramsey as DM** (Meet name "Tyram"), set in the present day in the elven kingdom of Liberia while Taco Cat is at sea. It is an arc of this campaign, not a new campaign. While it runs, Topher is a **player**, not the DM. The three PCs are Peace Forged and are deliberately kept out of the roster table above, because the transcript cleaner and stats extractor map each Meet name to the last table row that names it. Their stats come from `data/side-arcs.json` instead.
 - **Tex** (Texas Instrument 87) — Christopher "Topher" Hooper. Open Hand monk.
 - **Shade** — Justin Hale. Barbarian, Path of the World Tree; a seedling of Shield.
 - **Ward** — Luke Neverisky. Horizon Walker ranger.

@@ -2620,29 +2620,29 @@
       "duration_seconds": 7280,
       "word_count": 15547,
       "players_present": [
-        "Silas",
-        "Bru",
-        "Leliana"
+        "Tex",
+        "Shade",
+        "Ward"
       ],
       "attendance_source": "transcript",
       "speakers": [
         {
-          "name": "Silas",
-          "role": "pc",
+          "name": "Taylor",
+          "role": "dm",
           "word_share": 0.5692
         },
         {
-          "name": "Topher",
-          "role": "dm",
+          "name": "Tex",
+          "role": "pc",
           "word_share": 0.2058
         },
         {
-          "name": "Bru",
+          "name": "Shade",
           "role": "pc",
           "word_share": 0.123
         },
         {
-          "name": "Leliana",
+          "name": "Ward",
           "role": "pc",
           "word_share": 0.1021
         }
@@ -2658,15 +2658,15 @@
       },
       "superlatives": {
         "mvp": {
-          "player": "Silas",
+          "player": "Taylor",
           "quote": "She lowers her hood and uh you guys instantly recognize the uh famous and beloved Princess Val. I have an inkling."
         },
         "best_joke": {
-          "player": "Topher",
+          "player": "Tex",
           "quote": "I think he's going to go by the name Tex. Um, he's named after uh Texas Instrument 87, which is one of some of the parts that he was made from."
         },
         "most_chaotic": {
-          "player": "Topher",
+          "player": "Tex",
           "quote": "I guess I do have to uh allow for the possibility that Topher will just help the bad guys, you know, just, you know, pull that kind of dick move by the end of this one."
         }
       }

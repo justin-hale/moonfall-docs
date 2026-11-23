@@ -1,0 +1,19 @@
+{
+  "_readme": "Casts for side arcs, where the usual DM plays and another player runs the game. scripts/extract_session_stats.py applies an arc to a session when that session's recap lists one of the arc's characters under Players Present (\"- Player as Tex\"), so a new session of the arc needs no entry here. meet_names are the speaker labels as they appear in the transcripts. Keep these characters out of the roster table in data/campaign-kb.md.",
+  "arcs": [
+    {
+      "id": "hide",
+      "name": "H.I.D.E.",
+      "dm": {
+        "name": "Taylor",
+        "player": "Taylor Ramsey",
+        "meet_names": ["Tyram", "Taylor Ramsey"]
+      },
+      "cast": [
+        {"character": "Tex", "player": "Topher", "meet_names": ["Christopher Hooper"]},
+        {"character": "Shade", "player": "Justin Hale", "meet_names": ["Justin Hale"]},
+        {"character": "Ward", "player": "Luke Neverisky", "meet_names": ["Luke Neverisky"]}
+      ]
+    }
+  ]
+}
