@@ -9238,44 +9238,208 @@
           "decision_driver": "Silas"
         }
       }
+    },
+    {
+      "id": "session-69",
+      "type": "session",
+      "number": 69,
+      "title": "69: The HYDE Protocol",
+      "date": "2026-11-20",
+      "href": "/sessions/session-69/",
+      "has_transcript": true,
+      "transcript_format": "json",
+      "timing_quality": "exact",
+      "duration_seconds": 7280,
+      "block_count": 1881,
+      "word_count": 15547,
+      "speakers": [
+        {
+          "name": "Silas",
+          "canonical": "Silas Fairbanks",
+          "role": "pc",
+          "player": "Taylor Ramsey",
+          "blocks": 695,
+          "words": 8849,
+          "talk_seconds_est": 2584,
+          "word_share": 0.5692
+        },
+        {
+          "name": "Topher",
+          "canonical": "Topher",
+          "role": "dm",
+          "player": "Topher",
+          "blocks": 544,
+          "words": 3199,
+          "talk_seconds_est": 2536,
+          "word_share": 0.2058
+        },
+        {
+          "name": "Bru",
+          "canonical": "Bru (Felonias Bru)",
+          "role": "pc",
+          "player": "Justin Hale",
+          "blocks": 313,
+          "words": 1912,
+          "talk_seconds_est": 384,
+          "word_share": 0.123
+        },
+        {
+          "name": "Leliana",
+          "canonical": "Leliana Goldspring",
+          "role": "pc",
+          "player": "Luke Neverisky",
+          "blocks": 329,
+          "words": 1587,
+          "talk_seconds_est": 1707,
+          "word_share": 0.1021
+        }
+      ],
+      "players_present": [
+        "Silas",
+        "Bru",
+        "Leliana"
+      ],
+      "attendance_source": "transcript",
+      "mentions": {
+        "npcs": {
+          "Gary": 4,
+          "Iro": 2,
+          "Crowley": 1
+        },
+        "locations": {
+          "Eldoran": 1
+        },
+        "pcs": {
+          "Bru": 2
+        }
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "personality": {
+        "scores": {
+          "Silas": {
+            "chaos": 8,
+            "heroism": 10,
+            "comedy": 14,
+            "immersion": 16,
+            "strategy": 17,
+            "curiosity": 15
+          },
+          "Bru": {
+            "chaos": 7,
+            "heroism": 9,
+            "comedy": 11,
+            "immersion": 10,
+            "strategy": 8,
+            "curiosity": 9
+          },
+          "Leliana": {
+            "chaos": 6,
+            "heroism": 11,
+            "comedy": 9,
+            "immersion": 12,
+            "strategy": 10,
+            "curiosity": 11
+          },
+          "Topher": {
+            "chaos": 9,
+            "heroism": 10,
+            "comedy": 15,
+            "immersion": 14,
+            "strategy": 11,
+            "curiosity": 13
+          }
+        },
+        "evidence": {
+          "Silas": {
+            "chaos": "I'm going to incorporate all the things Topher hates, right? So, like we're going to have like helpful NPCs...dungeons with like puzzles...multiple fights.",
+            "heroism": "if you guys ever need to like fill out some paperwork or go meet someone, we'll just have you go there. You won't have to like wait in line",
+            "comedy": "Silas and Bru are the best fraors in Taco Cat. They have terrible strength. I'm just picturing like a character with like Beyonce's like uh like widebrimmed hat from the Lemonade album.",
+            "immersion": "She lowers her hood and uh you guys instantly recognize the uh famous and beloved Princess Val.",
+            "strategy": "just kind of the uh the premise here. Um I'll just read from what I wrote on the Discord because that's like a pretty good um...200 years ago, the elven kingdom of Liberia was brought to the brink of ruin",
+            "curiosity": "Well, from what you guys were telling me earlier, sounds like no one's really skewing unless Justin does decide to be a druid towards having a lot of magic in the party."
+          },
+          "Bru": {
+            "chaos": "I could be a peace force. My old thought was that I got sucked into a portal and that's like f***** me up. So like I become a barbarian on that side",
+            "heroism": "I mean, could be. At this point, Shield's like over 200 years old. Is that right?",
+            "comedy": "Bru: I think I'm going to make my character a seedling from the tree that Shield came that Shield was turning into. I think I'm going to make my character a seedling from the tree",
+            "immersion": "I think our team name should be Hyde...Hyde. I'm going to put it in the chat. Infiltrate and disappearance.",
+            "strategy": "I could use some money. Literally flew in front of my face and now it's just like dive bombing me.",
+            "curiosity": "did not know that season one was supposed to be a mini arc or a miniseries"
+          },
+          "Leliana": {
+            "chaos": "What if you're a War Forge, but you're like role playing",
+            "heroism": "And I war, of course. Well, we should make no waste no time.",
+            "comedy": "And I think that's how I think I like that name. Also, call back to Fallout in Vegas. That's good.",
+            "immersion": "And I war, of course. Well, I war, of course. That's um um you said there are demon portals here.",
+            "strategy": "I think peace forged I think courier so that way you can out of again naturally leverage like stealth and things like that to maybe move packages",
+            "curiosity": "Could this be? Do you think the Peace Forged would have their own dedicated bar?"
+          },
+          "Topher": {
+            "chaos": "I would have loved for the whole series to make Aman the bad guy the whole time. I guess I do have to uh allow for the possibility that Topher will just help the bad guys",
+            "heroism": "I wouldn't have it any other way. I get it. You want us to kill the king.",
+            "comedy": "I think he's going to go by the name Tex. Um, he's named after uh Texas Instrument 87, which is one of some of the parts that he was made from.",
+            "immersion": "I think he's going to go by the name Tex...I think um he's going to go by the name Tex. Yeah, that's on it.",
+            "strategy": "So since it So it kind of seems like our enemy is mostly so so we're being sent to deal with the portals and probably the plague.",
+            "curiosity": "So um so are we part of like a a team like we already know each other?"
+          }
+        },
+        "superlatives": {
+          "mvp": {
+            "player": "Silas",
+            "quote": "She lowers her hood and uh you guys instantly recognize the uh famous and beloved Princess Val. I have an inkling."
+          },
+          "best_joke": {
+            "player": "Topher",
+            "quote": "I think he's going to go by the name Tex. Um, he's named after uh Texas Instrument 87, which is one of some of the parts that he was made from."
+          },
+          "most_chaotic": {
+            "player": "Topher",
+            "quote": "I guess I do have to uh allow for the possibility that Topher will just help the bad guys, you know, just, you know, pull that kind of dick move by the end of this one."
+          },
+          "decision_driver": "Silas"
+        }
+      }
     }
   ],
   "aggregate": {
-    "total_sessions": 83,
-    "sessions_with_transcripts": 40,
-    "total_words": 1014791,
-    "total_blocks": 144068,
-    "total_duration_seconds": 404300,
+    "total_sessions": 84,
+    "sessions_with_transcripts": 41,
+    "total_words": 1030338,
+    "total_blocks": 145949,
+    "total_duration_seconds": 411580,
     "speaker_totals": [
       {
         "name": "Topher",
         "canonical": "Topher",
         "role": "dm",
         "player": "Topher",
-        "sessions": 40,
-        "blocks": 37479,
-        "words": 324317,
-        "talk_seconds_est": 68097
+        "sessions": 41,
+        "blocks": 38023,
+        "words": 327516,
+        "talk_seconds_est": 70633
       },
       {
         "name": "Silas",
         "canonical": "Silas Fairbanks",
         "role": "pc",
         "player": "Taylor Ramsey",
-        "sessions": 40,
-        "blocks": 30960,
-        "words": 255777,
-        "talk_seconds_est": 40894
+        "sessions": 41,
+        "blocks": 31655,
+        "words": 264626,
+        "talk_seconds_est": 43478
       },
       {
         "name": "Bru",
         "canonical": "Bru (Felonias Bru)",
         "role": "pc",
         "player": "Justin Hale",
-        "sessions": 34,
-        "blocks": 19815,
-        "words": 122016,
-        "talk_seconds_est": 32324
+        "sessions": 35,
+        "blocks": 20128,
+        "words": 123928,
+        "talk_seconds_est": 32708
       },
       {
         "name": "Elspeth",
@@ -9302,10 +9466,10 @@
         "canonical": "Leliana Goldspring",
         "role": "pc",
         "player": "Luke Neverisky",
-        "sessions": 31,
-        "blocks": 13775,
-        "words": 63682,
-        "talk_seconds_est": 17413
+        "sessions": 32,
+        "blocks": 14104,
+        "words": 65269,
+        "talk_seconds_est": 19120
       },
       {
         "name": "Ohma",
@@ -9403,8 +9567,8 @@
       "George": 273,
       "Victor": 249,
       "Luna": 227,
-      "Iro": 168,
-      "Gary": 124,
+      "Iro": 170,
+      "Gary": 128,
       "Lady Viper": 68,
       "Rivet": 66,
       "Astro": 63,
@@ -9412,7 +9576,7 @@
       "Finnegan": 48,
       "Chalk Rock": 35,
       "Captain Steel": 33,
-      "Crowley": 20,
+      "Crowley": 21,
       "Belspeth Booper": 17,
       "Bafael": 16,
       "Cassandra": 16,
@@ -9438,13 +9602,13 @@
       "High Forge": 58,
       "Sexy Peacock": 24,
       "Little Cradle": 7,
-      "Eldoran": 4,
+      "Eldoran": 5,
       "Milstrom": 3,
       "Gold Road": 2,
       "Grimvar's Spine": 1
     },
     "top_pcs_mentioned": {
-      "Bru": 1357,
+      "Bru": 1359,
       "Red": 24,
       "Olivia": 21,
       "Elspeth": 5,
@@ -9650,13 +9814,13 @@
         }
       },
       "Bru": {
-        "sessions_scored": 31,
+        "sessions_scored": 32,
         "mean_scores": {
-          "chaos": 12.5,
+          "chaos": 12.3,
           "heroism": 10.1,
           "comedy": 11.9,
           "immersion": 10.8,
-          "strategy": 12.0,
+          "strategy": 11.9,
           "curiosity": 9.5
         },
         "signature_evidence": {
@@ -9797,13 +9961,13 @@
         }
       },
       "Leliana": {
-        "sessions_scored": 29,
+        "sessions_scored": 30,
         "mean_scores": {
-          "chaos": 8.9,
+          "chaos": 8.8,
           "heroism": 12.0,
           "comedy": 9.8,
           "immersion": 12.9,
-          "strategy": 10.7,
+          "strategy": 10.6,
           "curiosity": 10.2
         },
         "signature_evidence": {
@@ -9944,13 +10108,13 @@
         }
       },
       "Silas": {
-        "sessions_scored": 37,
+        "sessions_scored": 38,
         "mean_scores": {
           "chaos": 10.9,
           "heroism": 11.0,
           "comedy": 12.6,
-          "immersion": 13.5,
-          "strategy": 15.2,
+          "immersion": 13.6,
+          "strategy": 15.3,
           "curiosity": 12.4
         },
         "signature_evidence": {
@@ -9986,21 +10150,21 @@
           }
         },
         "superlative_counts": {
-          "mvp": 14,
+          "mvp": 15,
           "best_joke": 15,
           "most_chaotic": 8,
-          "decision_driver": 27
+          "decision_driver": 28
         }
       },
       "Topher": {
-        "sessions_scored": 37,
+        "sessions_scored": 38,
         "mean_scores": {
-          "chaos": 12.6,
+          "chaos": 12.5,
           "heroism": 10.4,
           "comedy": 13.5,
-          "immersion": 15.0,
-          "strategy": 12.8,
-          "curiosity": 11.8
+          "immersion": 14.9,
+          "strategy": 12.7,
+          "curiosity": 11.9
         },
         "signature_evidence": {
           "chaos": {
@@ -10036,8 +10200,8 @@
         },
         "superlative_counts": {
           "mvp": 0,
-          "best_joke": 6,
-          "most_chaotic": 2,
+          "best_joke": 7,
+          "most_chaotic": 3,
           "decision_driver": 0
         }
       },

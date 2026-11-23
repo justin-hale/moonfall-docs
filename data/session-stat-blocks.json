@@ -2614,6 +2614,62 @@
           "quote": "Every camera in this place gets the same treatment. Go. [later] I feel like Silence would go all the way and just kill them."
         }
       }
+    },
+    "session-69": {
+      "timing_quality": "exact",
+      "duration_seconds": 7280,
+      "word_count": 15547,
+      "players_present": [
+        "Silas",
+        "Bru",
+        "Leliana"
+      ],
+      "attendance_source": "transcript",
+      "speakers": [
+        {
+          "name": "Silas",
+          "role": "pc",
+          "word_share": 0.5692
+        },
+        {
+          "name": "Topher",
+          "role": "dm",
+          "word_share": 0.2058
+        },
+        {
+          "name": "Bru",
+          "role": "pc",
+          "word_share": 0.123
+        },
+        {
+          "name": "Leliana",
+          "role": "pc",
+          "word_share": 0.1021
+        }
+      ],
+      "top_npcs": {
+        "Gary": 4,
+        "Iro": 2,
+        "Crowley": 1
+      },
+      "fun": {
+        "nat20_mentions": 0,
+        "nat1_mentions": 0
+      },
+      "superlatives": {
+        "mvp": {
+          "player": "Silas",
+          "quote": "She lowers her hood and uh you guys instantly recognize the uh famous and beloved Princess Val. I have an inkling."
+        },
+        "best_joke": {
+          "player": "Topher",
+          "quote": "I think he's going to go by the name Tex. Um, he's named after uh Texas Instrument 87, which is one of some of the parts that he was made from."
+        },
+        "most_chaotic": {
+          "player": "Topher",
+          "quote": "I guess I do have to uh allow for the possibility that Topher will just help the bad guys, you know, just, you know, pull that kind of dick move by the end of this one."
+        }
+      }
     }
   }
 }

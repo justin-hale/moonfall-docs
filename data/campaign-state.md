@@ -268,6 +268,10 @@ A side story run by Justin as guest DM, set shortly after the mini-sun heist (al
 **Session 68** – Brand Recall
 The party decoded Rivet's cipher hidden in a chip bag, triggering a factory-wide uprising that forced a confrontation with COO Henrietta Oll and her mercenary backup. Bru revealed himself as the architect of the operation, brokering a deal to hand the stolen sun to Toyota in exchange for a fleet of Taco Cat-branded trucks, with Iro present to enforce the arrangement and eject Oll from the premises.
 
+
+**Session 69** – The HYDE Protocol
+Two hundred years after the Steve Squad's victory, three newly forged Peace Forged—Tex, Shade, and Ward—are recruited into a clandestine cell called HYDE and meet Princess Valandis in a private tavern room above The Tavern in Moon Reach. Tasked with investigating reality-tearing portals opening across Liberia in secret, away from King Alvar's knowledge, the recruits accept a contract to travel to the farming town of Moon Tier and determine why the tears in reality favor elven soil.
+
 ## Active Plot Threads
 
 ### 1. The Three-Target Strike on the Eldoran Capital
@@ -390,6 +394,13 @@ The moon exploded in Session 16. At Luna's underwater crash site the party resea
 - **Denlin** – On-site filming commercial in dressing room wearing ankle monitor; possessions traced to orphanage operation and shell purchasing chain to Toyota; true name and current status after confrontation unknown.
 - **Geis (magical compulsion, three scrolls)** – Identified as Gaelic-rooted spell; triggered by verbal phrase "Have you driven a Ford lately?"; resisted by Henrietta Oll; scrolls recovered.
 - **Ford infiltration of Toyota** – Confirmed: shell company Denlin feeding stolen Toyota designs to Ford while posing as parts supplier; employee plants seeded throughout marketing department.
+
+
+#### Session 69 Updates
+- **New: Portal Eruptions Across Liberia** – Reality tearing at multiple points; concentrated over Liberia more than any other region; source and cause unknown; HYDE contracted to investigate.
+- **New: The Blight's Persistence** – Feral forbidden nature magic that swallowed the capital of Shaar a hundred years ago and has never fully released it; northern reaches of Liberia remain unsettled.
+- **New: HYDE Cell Structure** – Hunt, Infiltrate, Disappear, Exterminate; successor organization to the Fight Institute; cell-based so members know nothing of hierarchy above or below; Princess Valandis funding from personal purse, not crown resources.
+- **New: Moon Tier Investigation** – Farming town experiencing missing livestock and demon sightings; full day's travel from Moon Reach; contract terms ten thousand gold or favor of equal weight on completion.
 
 ## Character Status
 
@@ -518,6 +529,13 @@ The moon exploded in Session 16. At Luna's underwater crash site the party resea
 - **Bru** – Revealed as architect of entire operation; undercover as janitor throughout session; negotiated deal with Mr. Toyota to exchange stolen sun for Taco Cat-branded truck fleet; unmasked in front of party and Iro.
 - **Iro** – Present on Fight Institute business; physically ejected Henrietta Oll from premises; unified with Bru at operation's conclusion.
 
+
+#### Session 69 Updates
+- **Tex** (Peace Forged, Monk) – Decommissioned calculator model; Abyssal fluency; seeking to realize humanity rather than imitate it; anchored party philosophy.
+- **Shade** (Peace Forged, Barbarian) – Wood-grained Peace Forge stock; descended from Shield (previous-age warforged barbarian); oath sworn to the World Tree; raised in dragonborn city.
+- **Ward** (Peace Forged, Ranger) – Horizon Walker; youngest of the three; built outside the Blight's reach; expertise with disguise kit; achieved Stealth 37 carrying entire party through The Tavern unseen.
+- **Princess Valandis** – Head of Liberia's intelligence apparatus in all but title; old ally of the Steve Squad generation; funding HYDE investigation personally; brother King Alvar unaware of operation.
+
 ## Key Callbacks & Unresolved Hooks
 
 ### Unresolved Plot Threads
@@ -625,3 +643,11 @@ The moon exploded in Session 16. At Luna's underwater crash site the party resea
 - **Taco Cat-branded truck fleet** – Promised to Bru as compensation; symbolic callback to Taco Cat legend (Session 62); delivery and use unknown.
 - **Ford-Toyota corporate war** – Denlin operating as double agent; extent of infiltration and future moves unknown.
 - **Henrietta Oll's spell-resistance** – Method and source unexplained; "told Rivet that before she got fired" suggests prior knowledge of Geis.
+
+
+#### Session 69 Updates
+- **The World Tree oath connection** – Shade's sworn oath to the World Tree may connect to the sapling planted in Eldora's capital two centuries prior (Session 57).
+- **Shield's lineage** – Shade's descent from the warforged barbarian Shield creates continuity across two centuries; implications of metal-based inheritance in Peace Forged bloodlines unexplained.
+- **The moon's old business with Eldora and dragons** – Valandis references settled history; portals' concentration over Liberia may relate to prior magical conflicts.
+- **Moon Tier demon sightings** – First concrete manifestation of portal creatures; livestock predation and missing persons pattern suggests active threat escalation.
+- **The sending stone** – Direct communication line to Princess Valandis; only contact method for HYDE cell; potential surveillance risk if compromised.

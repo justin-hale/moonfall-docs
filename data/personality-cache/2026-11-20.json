@@ -1,0 +1,94 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-11-20",
+  "model": "claude-haiku-4-5",
+  "players": {
+    "Silas": {
+      "scores": {
+        "chaos": 8,
+        "heroism": 10,
+        "comedy": 14,
+        "immersion": 16,
+        "strategy": 17,
+        "curiosity": 15
+      },
+      "evidence": {
+        "chaos": "I'm going to incorporate all the things Topher hates, right? So, like we're going to have like helpful NPCs...dungeons with like puzzles...multiple fights.",
+        "heroism": "if you guys ever need to like fill out some paperwork or go meet someone, we'll just have you go there. You won't have to like wait in line",
+        "comedy": "Silas and Bru are the best fraors in Taco Cat. They have terrible strength. I'm just picturing like a character with like Beyonce's like uh like widebrimmed hat from the Lemonade album.",
+        "immersion": "She lowers her hood and uh you guys instantly recognize the uh famous and beloved Princess Val.",
+        "strategy": "just kind of the uh the premise here. Um I'll just read from what I wrote on the Discord because that's like a pretty good um...200 years ago, the elven kingdom of Liberia was brought to the brink of ruin",
+        "curiosity": "Well, from what you guys were telling me earlier, sounds like no one's really skewing unless Justin does decide to be a druid towards having a lot of magic in the party."
+      }
+    },
+    "Bru": {
+      "scores": {
+        "chaos": 7,
+        "heroism": 9,
+        "comedy": 11,
+        "immersion": 10,
+        "strategy": 8,
+        "curiosity": 9
+      },
+      "evidence": {
+        "chaos": "I could be a peace force. My old thought was that I got sucked into a portal and that's like f***** me up. So like I become a barbarian on that side",
+        "heroism": "I mean, could be. At this point, Shield's like over 200 years old. Is that right?",
+        "comedy": "Bru: I think I'm going to make my character a seedling from the tree that Shield came that Shield was turning into. I think I'm going to make my character a seedling from the tree",
+        "immersion": "I think our team name should be Hyde...Hyde. I'm going to put it in the chat. Infiltrate and disappearance.",
+        "strategy": "I could use some money. Literally flew in front of my face and now it's just like dive bombing me.",
+        "curiosity": "did not know that season one was supposed to be a mini arc or a miniseries"
+      }
+    },
+    "Leliana": {
+      "scores": {
+        "chaos": 6,
+        "heroism": 11,
+        "comedy": 9,
+        "immersion": 12,
+        "strategy": 10,
+        "curiosity": 11
+      },
+      "evidence": {
+        "chaos": "What if you're a War Forge, but you're like role playing",
+        "heroism": "And I war, of course. Well, we should make no waste no time.",
+        "comedy": "And I think that's how I think I like that name. Also, call back to Fallout in Vegas. That's good.",
+        "immersion": "And I war, of course. Well, I war, of course. That's um um you said there are demon portals here.",
+        "strategy": "I think peace forged I think courier so that way you can out of again naturally leverage like stealth and things like that to maybe move packages",
+        "curiosity": "Could this be? Do you think the Peace Forged would have their own dedicated bar?"
+      }
+    },
+    "Topher": {
+      "scores": {
+        "chaos": 9,
+        "heroism": 10,
+        "comedy": 15,
+        "immersion": 14,
+        "strategy": 11,
+        "curiosity": 13
+      },
+      "evidence": {
+        "chaos": "I would have loved for the whole series to make Aman the bad guy the whole time. I guess I do have to uh allow for the possibility that Topher will just help the bad guys",
+        "heroism": "I wouldn't have it any other way. I get it. You want us to kill the king.",
+        "comedy": "I think he's going to go by the name Tex. Um, he's named after uh Texas Instrument 87, which is one of some of the parts that he was made from.",
+        "immersion": "I think he's going to go by the name Tex...I think um he's going to go by the name Tex. Yeah, that's on it.",
+        "strategy": "So since it So it kind of seems like our enemy is mostly so so we're being sent to deal with the portals and probably the plague.",
+        "curiosity": "So um so are we part of like a a team like we already know each other?"
+      }
+    }
+  },
+  "superlatives": {
+    "mvp": {
+      "player": "Silas",
+      "quote": "She lowers her hood and uh you guys instantly recognize the uh famous and beloved Princess Val. I have an inkling."
+    },
+    "best_joke": {
+      "player": "Topher",
+      "quote": "I think he's going to go by the name Tex. Um, he's named after uh Texas Instrument 87, which is one of some of the parts that he was made from."
+    },
+    "most_chaotic": {
+      "player": "Topher",
+      "quote": "I guess I do have to uh allow for the possibility that Topher will just help the bad guys, you know, just, you know, pull that kind of dick move by the end of this one."
+    },
+    "decision_driver": "Silas"
+  }
+}
