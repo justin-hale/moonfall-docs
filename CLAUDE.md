@@ -116,6 +116,21 @@ first one starts anything — the other two are useless until it has run.
 A merge to main is therefore live within a few minutes. Nothing needs to be
 deployed by hand.
 
+### Starting or retrying a run without dispatch
+Claude's GitHub access can push and merge but gets a 403 on workflow dispatch
+and re-run. Two request files give it (or anyone) a trigger that is just a
+commit on main:
+
+- `data/intake-request.json` — a change starts **Process Episode**. Leave the
+  fields empty to scan Drive as the Saturday run does, or set `drive_file_id`
+  (and optionally `episode_number`, `session_date`) to process one recording.
+- `data/notes-request.json` — a change re-runs **Generate Session Notes** for
+  whatever transcript is still queued in `transcripts_raw/`. Use it to retry a
+  failed generation.
+
+Edit the `note` field so the commit is not empty. Neither file is state: the
+workflows read them only on the push that changed them.
+
 ## Commands
 - `/fix-notes <page URL or session number> — <what is wrong>` - Correct a published recap (see above)
 - `python scripts/comic_scene.py <session> [--scene "Heading"]` - Draw a scene as a comic page and embed it under that heading in the recap (or run the **Draw Comic** workflow, which opens a PR). Comic text is lettered in code, never by the image model

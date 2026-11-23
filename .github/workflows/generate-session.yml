@@ -6,6 +6,10 @@ on:
       - main
     paths:
       - "transcripts_raw/*.srt"
+      # A change to this file re-runs generation for whatever is still queued
+      # in transcripts_raw/ — the retry for a failed run, for anything that
+      # can merge a commit but cannot dispatch or re-run a workflow.
+      - "data/notes-request.json"
   workflow_dispatch:
     inputs:
       session_number:
@@ -123,7 +127,30 @@ jobs:
               echo "session_slug=$SLUG" >> "$GITHUB_OUTPUT"
             fi
             git commit -m "Generate session notes [automated]"
-            git push
+            # A plain `git push` is rejected whenever main has moved since
+            # this job checked out — always true of a re-run, which checks
+            # out the original commit again. Run 45105756855 generated
+            # Session 68 on its second attempt and then lost it here, because
+            # the Episode 69 intake had pushed the episode registry in
+            # between. Rebase onto whatever landed and try again; the site is
+            # then built from the rebased tree.
+            pushed=false
+            for attempt in 1 2 3; do
+              if git push origin HEAD:main; then
+                pushed=true
+                break
+              fi
+              echo "Push rejected (attempt $attempt); rebasing onto origin/main." >&2
+              if ! git pull --rebase origin main; then
+                git rebase --abort || true
+                echo "::error::Could not rebase the generated notes onto origin/main. The transcript is still queued; start a fresh run."
+                exit 1
+              fi
+            done
+            if [ "$pushed" != "true" ]; then
+              echo "::error::Could not push the generated notes after 3 attempts."
+              exit 1
+            fi
             echo "has_changes=true" >> "$GITHUB_OUTPUT"
           fi
 

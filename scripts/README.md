@@ -230,6 +230,13 @@ be dispatched by hand.
 detect → download → extract → release → update-feed → open-pr
 ```
 
+A commit on main that changes `data/intake-request.json` starts the workflow
+as well — the trigger for anything that can merge but cannot dispatch. The
+`read-request` stage runs first on those pushes and exports the file's
+`drive_file_id`, `episode_number` and `session_date` as the same overrides the
+dispatch inputs carry; with all three empty it is a plain Drive scan. Values
+are validated before they reach `$GITHUB_ENV`.
+
 `detect` picks the oldest published release that has no `open-pr` recorded, so
 a run that stops halfway is picked up by the next one. Nothing else about the
 pipeline is worth understanding before this:

@@ -4,6 +4,15 @@ on:
   schedule:
     # Saturday 10:00 EDT (14:00 UTC)
     - cron: '0 14 * * 6'
+  # A commit to main that changes the request file starts a run too. This is
+  # the trigger for anything that can push and merge but cannot dispatch a
+  # workflow (Claude's GitHub access returns 403 on dispatch and re-run). The
+  # run reads its overrides from the file; see scripts/README.md.
+  push:
+    branches:
+      - main
+    paths:
+      - "data/intake-request.json"
   workflow_dispatch:
     inputs:
       drive_file_id:
@@ -94,6 +103,11 @@ jobs:
 
       - name: Create workspace directory
         run: mkdir -p workspace
+
+      # ── Push-triggered runs take their overrides from the request file ──
+      - name: Read intake request
+        if: github.event_name == 'push'
+        run: python scripts/ci_process.py read-request
 
       # ── Auto-detect: find newest Drive file with no matching release ──
       - name: Detect episode

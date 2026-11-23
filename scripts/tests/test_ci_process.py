@@ -855,3 +855,67 @@ def test_count_srt_speakers_separates_named_from_unattributed():
     named, unnamed = ci.count_srt_speakers(srt)
     assert named == {"Ali Leonard"}
     assert unnamed == 1
+
+
+# ── read-request: push-triggered runs ───────────────────────────────────────
+#
+# Process Episode could only be started by its schedule or by a dispatch, and
+# an agent that can push and merge can do neither (403 on dispatch). A commit
+# that changes data/intake-request.json starts it instead, and `read-request`
+# turns that file into the same overrides the dispatch inputs carry.
+
+
+def _run_read_request(tmp_path, monkeypatch, request):
+    env_file = tmp_path / "github_env"
+    env_file.write_text("")
+    monkeypatch.setenv("GITHUB_ENV", str(env_file))
+    for key in ("DRIVE_FILE_ID", "EPISODE_NUMBER", "SESSION_DATE"):
+        monkeypatch.setenv(key, "")
+    request_path = tmp_path / "intake-request.json"
+    if request is not None:
+        request_path.write_text(
+            request if isinstance(request, str) else json.dumps(request)
+        )
+    monkeypatch.setattr(ci, "INTAKE_REQUEST_PATH", str(request_path))
+    ci.cmd_read_request()
+    return env_file.read_text()
+
+
+def test_read_request_exports_overrides(tmp_path, monkeypatch):
+    written = _run_read_request(tmp_path, monkeypatch, {
+        "drive_file_id": "1YIRgSQy4lD9C6mb9MhWRAS_crgCr1HMY",
+        "episode_number": 69,
+        "session_date": "2026-11-20",
+        "note": "missed by the Saturday run",
+    })
+    assert written.splitlines() == [
+        "DRIVE_FILE_ID=1YIRgSQy4lD9C6mb9MhWRAS_crgCr1HMY",
+        "EPISODE_NUMBER=69",
+        "SESSION_DATE=2026-11-20",
+    ]
+
+
+def test_read_request_with_no_fields_is_plain_autodetect(tmp_path, monkeypatch):
+    written = _run_read_request(tmp_path, monkeypatch, {
+        "drive_file_id": "", "episode_number": "", "session_date": "",
+        "note": "scan Drive now",
+    })
+    assert written == ""
+
+
+def test_read_request_missing_file_is_plain_autodetect(tmp_path, monkeypatch):
+    assert _run_read_request(tmp_path, monkeypatch, None) == ""
+
+
+@pytest.mark.parametrize("request_body", [
+    {"drive_file_id": "abc123defg\nSKIP=true"},
+    {"drive_file_id": "has spaces in it"},
+    {"episode_number": "69; rm -rf"},
+    {"session_date": "last Friday"},
+    "not json at all",
+    ["a", "list"],
+])
+def test_read_request_rejects_bad_values(tmp_path, monkeypatch, request_body):
+    with pytest.raises(SystemExit):
+        _run_read_request(tmp_path, monkeypatch, request_body)
+    assert (tmp_path / "github_env").read_text() == ""
