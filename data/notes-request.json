@@ -1,3 +1,4 @@
 {
-  "note": "Committing a change to this file on main re-runs the Generate Session Notes workflow for whatever transcript is still queued in transcripts_raw/. Change this note (for example to today's date and the reason) to retry a failed run."
+  "note": "Committing a change to this file on main re-runs the Generate Session Notes workflow for whatever transcript is still queued in transcripts_raw/. Change this note (for example to today's date and the reason) to retry a failed run.",
+  "requested": "2026-11-23: generate Session 69 (DnD_2026-11-20.srt). Its run 45260237803 was cancelled in the shared pages queue when two PRs merged seconds apart."
 }
