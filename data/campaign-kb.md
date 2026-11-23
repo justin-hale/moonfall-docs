@@ -1,6 +1,6 @@
 # Campaign Knowledge Base
 
-Last updated: 2026-09-28
+Last updated: 2026-11-23
 
 ## Character Roster
 
@@ -31,6 +31,13 @@ Luke Neverisky plays **one woman with two personas**. Write about them this way:
 - **The Blue Moon Guitar:** mechanically it is her Mandolin of Rude Truths, reflavored as Steven's guitar after Session 57 — so she flies on the guitar using the mandolin's Fly. Helisanna is Human.
 - **Roster order matters:** keep the Helisanna row above Leliana's in the table above. The transcript cleaner and the stats extractor map Luke's Meet name to the *last* row that names him, and his transcript lines belong to Leliana from Session 34 on (lines before that are credited to Helisanna by `DATED_SPEAKER_OVERRIDES` in `scripts/extract_session_stats.py`).
 - **In recaps:** name whichever persona is acting ("Leliana, switching to Helisanna, …"). Never treat Helisanna as departed, as an NPC, or as Leliana's patron, and don't call either persona "the original": since Session 57 the DM's framing is that she is "both of them".
+
+### The H.I.D.E. side arc (Session 69 onward)
+A mini-arc run by **Taylor Ramsey as DM** (Meet name "Tyram"), set in the present day in the elven kingdom of Liberia while Taco Cat is at sea. It is an arc of this campaign, not a new campaign. While it runs, Topher is a **player**, not the DM. The three PCs are Peace Forged and are deliberately kept out of the roster table above, because the transcript cleaner and stats extractor map each Meet name to the last table row that names it.
+- **Tex** (Texas Instrument 87) — Christopher "Topher" Hooper. Open Hand monk.
+- **Shade** — Justin Hale. Barbarian, Path of the World Tree; a seedling of Shield.
+- **Ward** — Luke Neverisky. Horizon Walker ranger.
+- The team is **H.I.D.E.** — Hired Infiltration & Disappearance Experts (speech-to-text writes "Hyde"). Tell who is DM from who narrates and voices NPCs in the transcript, never from the roster default.
 
 ### Player Characters (Departed/Inactive)
 | Character | Status | File | Notes |
@@ -77,6 +84,9 @@ Luke Neverisky plays **one woman with two personas**. Write about them this way:
 | Madison Ali | Head of HR at Toyota Works (Session 67) | | |
 | Henrietta Oll | Signs off on all hiring and termination at Toyota Works (Session 67) | | "Henry" |
 | Pel Firestone | Head Inspector of Quality Control at Toyota Works (Session 67) | | |
+| Princess Valandis ("Val") | Elven princess of Liberia and its spymaster in all but title; old ally of the Steve Squad; hires H.I.D.E. to investigate the portals (Session 69) | | |
+| King Alvar | King of Liberia, Valandis's brother, eldest son of the late King Baris (Session 69) | | "Arl" |
+| Tapper | Peace Forged barkeep of The Tavern in Moon Reach (Session 69). The transcript also writes "Pepper" and "paper" — not listed as aliases because both are ordinary words | | |
 | Mr. Toyota | Original owner of Toyota Works; gave Bru his lead and wants the company back (Session 67) | | |
 
 ## Locations
@@ -158,6 +168,7 @@ These are systematic speech-to-text mistakes that appear in generated notes:
 | Tannell | Tannondel | DM ruling: Order of St. George commander |
 | Riven / Rippet / Ribbon / Rivid | Rivet | Toyota Works inspector (Session 67) |
 | Silus | Silas | Character name — Silas Fairbanks |
+| HYDE | H.I.D.E. | Team name in the Session 69 side arc: Hired Infiltration & Disappearance Experts ("run, fight, hide"; modelled on the FIGHT Institute) |
 
 ## Active Plot Threads
 - **Astro**: Dragon imprisoned in Raingoth (Silas's orb). Silas attempting dialogue. Silas carries the orb (Sessions 41–47); his Session 47 claim that he had slipped it into Bru's bag contradicts earlier play. Others speaking to Astro through other orbs.
@@ -171,6 +182,19 @@ These are systematic speech-to-text mistakes that appear in generated notes:
 ## Session Correction Log
 
 Corrections applied via `/fix-notes` are logged here for pattern detection.
+
+### Session 69 (2026-11-20)
+- Fixed: Taylor Ramsey was DM and Topher played Tex; the recap had them swapped [user-reported, confirmed against transcript]
+- Fixed: the arc is set in the present day ("current day with the campaign", Taco Cat heading off on the boat), not two hundred years in the future; the 200 years are since the Steve Squad saved Liberia. Removed "another century", "two centuries dead", "two hundred years in the ground" and "settled history" [user-reported, confirmed against transcript]
+- Fixed: team name "HYDE" → "H.I.D.E.", including the title; the expansion "Hunt, Infiltrate, Disappear, Exterminate" was invented — it is Hired Infiltration & Disappearance Experts [user-reported; the transcript has only "infiltrate and disappearance"]; H.I.D.E. was not called the successor to the Fight Institute — Shade comes from it [confirmed against transcript]
+- Fixed: Shield was not described as a barbarian or as dead (the table assumes he is alive; Valandis is "an old friend of your father's"); Shade is a seedling of the tree Shield is turning into [confirmed against transcript]
+- Fixed: Tex is named for the Texas Instrument 87 parts a hobbyist built him from, not "a decommissioned calculator model", and was not "built to wander"; removed Ward "built outside the Blight's reach" (his answer is cut off in the transcript) [confirmed against transcript]
+- Fixed: Stealth totals with Pass Without a Trace were Tex 31, Shade 33, Ward 37 (recap printed Tex 21 and Shade 23, the rolls before the +10); the room was empty and there was no crowded tavern floor; Valandis entered hooded through a wall panel afterwards [confirmed against transcript]
+- Fixed: the sending stone and five gold were given by Valandis at the end of the meeting, not as the summons; payment is 10,000 gold each or a favor of their choice; Moon Tier is an hour away, not "a full day's travel" (the recap said both) [confirmed against transcript]
+- Fixed: invented quote "If Alvar won't spend the crown's gold on this, I'll spend mine" replaced with her actual line; removed "murdered predecessors" and the populace wondering why she isn't queen; the barkeep is Tapper, not "Pepper and Tapper" [confirmed against transcript]
+- Added: Princess Valandis, King Alvar and Tapper to the NPC table; "HYDE" to the transcription-error table; a "H.I.D.E. side arc" roster note
+- **Pattern:** Guest-DM default. The generator assumes Topher is DM and gives each other speaker a PC. When another player runs the game, it swaps the DM with a player. Decide the DM from who narrates in the transcript.
+- **Pattern:** Lore dates read as setting dates. "200 years ago…" in a DM's background reading was taken as when the session is set, and the error then spread through callbacks, Themes and Notable Moments.
 
 ### Session 67 (2026-11-06)
 - Fixed: Luke was present all game (he rejoined before play began), not "for the back half"; Leliana's cover name was "Dr. Warhead", not "Miss Airhead"; there was no fourth operative — "Miss Airhead" was offered to Scarlet, who chose Dr. Sour Straw [confirmed against transcript]

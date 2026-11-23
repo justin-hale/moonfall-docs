@@ -269,8 +269,8 @@ A side story run by Justin as guest DM, set shortly after the mini-sun heist (al
 The party decoded Rivet's cipher hidden in a chip bag, triggering a factory-wide uprising that forced a confrontation with COO Henrietta Oll and her mercenary backup. Bru revealed himself as the architect of the operation, brokering a deal to hand the stolen sun to Toyota in exchange for a fleet of Taco Cat-branded trucks, with Iro present to enforce the arrangement and eject Oll from the premises.
 
 
-**Session 69** – The HYDE Protocol
-Two hundred years after the Steve Squad's victory, three newly forged Peace Forged—Tex, Shade, and Ward—are recruited into a clandestine cell called HYDE and meet Princess Valandis in a private tavern room above The Tavern in Moon Reach. Tasked with investigating reality-tearing portals opening across Liberia in secret, away from King Alvar's knowledge, the recruits accept a contract to travel to the farming town of Moon Tier and determine why the tears in reality favor elven soil.
+**Session 69** – The H.I.D.E. Protocol
+Session zero for a side arc set in the present day, while Taco Cat sails from Eldoran (Taylor Ramsey as DM; Topher, Justin and Luke playing). Two hundred years after the Steve Squad saved the elven kingdom of Liberia, three Peace Forged—Tex, Shade, and Ward—operate as a cell of an outfit called H.I.D.E. and meet Princess Valandis in a private room above The Tavern in Moon Reach. Tasked with investigating reality-tearing portals opening across Liberia in secret, away from King Alvar's knowledge, they accept a contract to travel to the farming town of Moon Tier, an hour away, and determine why the tears in reality favor elven soil.
 
 ## Active Plot Threads
 
@@ -397,10 +397,10 @@ The moon exploded in Session 16. At Luna's underwater crash site the party resea
 
 
 #### Session 69 Updates
-- **New: Portal Eruptions Across Liberia** – Reality tearing at multiple points; concentrated over Liberia more than any other region; source and cause unknown; HYDE contracted to investigate.
-- **New: The Blight's Persistence** – Feral forbidden nature magic that swallowed the capital of Shaar a hundred years ago and has never fully released it; northern reaches of Liberia remain unsettled.
-- **New: HYDE Cell Structure** – Hunt, Infiltrate, Disappear, Exterminate; successor organization to the Fight Institute; cell-based so members know nothing of hierarchy above or below; Princess Valandis funding from personal purse, not crown resources.
-- **New: Moon Tier Investigation** – Farming town experiencing missing livestock and demon sightings; full day's travel from Moon Reach; contract terms ten thousand gold or favor of equal weight on completion.
+- **New: Portal Eruptions Across Liberia** – Reality tearing at multiple points; opening in Liberia at a greater rate than anywhere else on the continent; they appear to open onto hell; source and cause unknown; H.I.D.E. contracted to investigate and stop them.
+- **New: The Blight's Persistence** – Forbidden nature magic the elves unleashed two hundred years ago to slow Igdum's invasion; it consumed almost all of Liberia's northern territory, including the old capital of Shaar. Peace Forged, unaffected by it, live there. The capital is now Moon Reach on the Isle of Dusk.
+- **New: H.I.D.E. Cell Structure** – Hired Infiltration & Disappearance Experts; cell-based, so members are not allowed to know how large the organization is; Shade comes from the Fight Institute; Princess Valandis is paying from her personal funds, not crown resources.
+- **New: Moon Tier Investigation** – Farming town experiencing missing livestock and demon sightings; about an hour's journey from Moon Reach; contract terms ten thousand gold each or a favor of their choice on completion, with five gold advanced for travel.
 
 ## Character Status
 
@@ -531,10 +531,10 @@ The moon exploded in Session 16. At Luna's underwater crash site the party resea
 
 
 #### Session 69 Updates
-- **Tex** (Peace Forged, Monk) – Decommissioned calculator model; Abyssal fluency; seeking to realize humanity rather than imitate it; anchored party philosophy.
-- **Shade** (Peace Forged, Barbarian) – Wood-grained Peace Forge stock; descended from Shield (previous-age warforged barbarian); oath sworn to the World Tree; raised in dragonborn city.
-- **Ward** (Peace Forged, Ranger) – Horizon Walker; youngest of the three; built outside the Blight's reach; expertise with disguise kit; achieved Stealth 37 carrying entire party through The Tavern unseen.
-- **Princess Valandis** – Head of Liberia's intelligence apparatus in all but title; old ally of the Steve Squad generation; funding HYDE investigation personally; brother King Alvar unaware of operation.
+- **Tex** (Peace Forged, Open Hand Monk; played by Topher) – Texas Instrument 87, named for the parts a hobbyist first built him from; old enough to predate the Blight; travels between the capital and the Blight villages keeping the Peace Forged connected; Abyssal fluency; believes in Peace Forged independence and realizing their humanity; holds Valandis's sending stone.
+- **Shade** (Peace Forged, Barbarian; played by Justin) – Wood-grained Peace Forge stock; a seedling of the tree Shield (Steve Squad) has been turning into; Path of the World Tree; from the old floating dragonborn city where Shield is based; comes from the Fight Institute; relatively young.
+- **Ward** (Peace Forged, Ranger; played by Luke) – Horizon Walker; young and zealous; disguise kit that swaps the parts of his own face; cast Pass Without a Trace so the three reached the private room unseen (Stealth 37; Tex 31, Shade 33).
+- **Princess Valandis** – Head of Liberia's intelligence apparatus in all but title; old ally of the Steve Squad generation; old friend of Shield; funding H.I.D.E.'s investigation personally; brother King Alvar unaware of operation.
 
 ## Key Callbacks & Unresolved Hooks
 
@@ -646,8 +646,8 @@ The moon exploded in Session 16. At Luna's underwater crash site the party resea
 
 
 #### Session 69 Updates
-- **The World Tree oath connection** – Shade's sworn oath to the World Tree may connect to the sapling planted in Eldora's capital two centuries prior (Session 57).
-- **Shield's lineage** – Shade's descent from the warforged barbarian Shield creates continuity across two centuries; implications of metal-based inheritance in Peace Forged bloodlines unexplained.
-- **The moon's old business with Eldora and dragons** – Valandis references settled history; portals' concentration over Liberia may relate to prior magical conflicts.
-- **Moon Tier demon sightings** – First concrete manifestation of portal creatures; livestock predation and missing persons pattern suggests active threat escalation.
-- **The sending stone** – Direct communication line to Princess Valandis; only contact method for HYDE cell; potential surveillance risk if compromised.
+- **The World Tree connection** – Shade walks the Path of the World Tree; the table wondered whether Shield is tuning in to the World Tree the party planted in the Eldoran capital (Session 57). Left open.
+- **Shield's lineage** – Shade is a seedling of Shield, a link to the Steve Squad of two hundred years ago; Shield is assumed to be alive and has not yet appeared in this campaign.
+- **Eldoran and the dragons** – Valandis names the growth of Eldoran, the invasion of dragons and the portals as current troubles; King Alvar says troops cannot be spared from the Eldoran border.
+- **Moon Tier demon sightings** – First concrete manifestation of portal creatures; locals report missing livestock and sightings of demons.
+- **The sending stone** – Direct communication line to Princess Valandis; handed to Tex at the end of the meeting.
