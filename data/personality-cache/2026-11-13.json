@@ -1,0 +1,94 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-11-13",
+  "model": "claude-haiku-4-5",
+  "players": {
+    "Leliana": {
+      "scores": {
+        "chaos": 7,
+        "heroism": 14,
+        "comedy": 8,
+        "immersion": 12,
+        "strategy": 11,
+        "curiosity": 9
+      },
+      "evidence": {
+        "chaos": "She mostly stays within bounds, but occasionally pushes—though hesitantly: 'You're going to be...this close to getting sent home'",
+        "heroism": "She uses Hold Person strategically to paralyze enemies and protect the group: 'paralyzed. He's hold the person. Um, so enjoy your free crits.'",
+        "comedy": "She makes a few light jokes: 'Two of us are all in on that. Yeah, we've got Scarlet, don't you have a port tint to turn it into Nocrret?'",
+        "immersion": "Maintains character play but with some detachment: 'Okay, that's fine. Yeah, I know I debated also holding what's her name, too'",
+        "strategy": "Makes tactical decisions with Hold Person and positioning: 'I want to target with this... I'm going to upcast it. So, can what's her name also give me one?'",
+        "curiosity": "Asks moderate questions about the scenario: 'Is Bru in the break room still?' and 'Isn't he in prison?'"
+      }
+    },
+    "Topher": {
+      "scores": {
+        "chaos": 15,
+        "heroism": 12,
+        "comedy": 16,
+        "immersion": 14,
+        "strategy": 10,
+        "curiosity": 11
+      },
+      "evidence": {
+        "chaos": "Drives the Tacoma through the facility to block doors, casts spells recklessly, and generally escalates: 'I'm gonna try to drive the Tacoma and if I can also sideswipe Dinland'",
+        "heroism": "Attempts to protect others and confront the COO: 'Oh, hey, Bru. Are you um you going to stay janitor now that the cameras are gone?'",
+        "comedy": "Consistently lands jokes and funny moments: 'Well, jokes's on you. I am a wizard.' and the whole Scarlet existential crisis bit gets laughs",
+        "immersion": "Strong character voice and decisions: 'Scarlet opens it up and spits in it' and uses actions to embody the character",
+        "strategy": "Makes some tactical choices but often impulsive: 'I'm going to burn a second level spell slot to cast it in this green room'",
+        "curiosity": "Investigates the blueprints and cipher: 'I think Scarlet would be really interested in like trying to decipher the technology'"
+      }
+    },
+    "Silas": {
+      "scores": {
+        "chaos": 18,
+        "heroism": 16,
+        "comedy": 14,
+        "immersion": 15,
+        "strategy": 17,
+        "curiosity": 12
+      },
+      "evidence": {
+        "chaos": "Consistently pushes boundaries and derails into murder: 'Let's just kill her.' and 'Every camera in this place gets the same treatment.'",
+        "heroism": "Commits to the mission despite frustration and protects the group tactically: 'I'm paralyzed. That's miserable.' but continues fighting effectively",
+        "comedy": "Sharp, cutting humor often at others' expense: 'I feel like Silence would go all the way and just kill them' and 'Silas kills Iron Claws on sight.'",
+        "immersion": "Deep engagement with character voice and motivations: 'Silas bends down and whispers into the ironclaw's ear, I'm going to do this to every f****** one of you.'",
+        "strategy": "Drives most tactical decisions with forethought: 'I'm going to position I'm going to walk straight above the iron claw and just like drop down with like a dagger'",
+        "curiosity": "Asks pointed questions to understand situations: 'How far away are they from me? Okay. Um, I'm going to start off by uh chucking a dagger'"
+      }
+    },
+    "Bru": {
+      "scores": {
+        "chaos": 16,
+        "heroism": 14,
+        "comedy": 18,
+        "immersion": 13,
+        "strategy": 15,
+        "curiosity": 10
+      },
+      "evidence": {
+        "chaos": "Creates elaborate setups that cause mayhem: 'Bru tried to direct us to go into this like hidden al cove' and coordinates explosions and camera destruction",
+        "heroism": "Helps the party and reveals himself as a key ally: 'All right. He uh he takes his hat off and like pops it and then puts it back on and he turns into his like normal Colonel Sanders.'",
+        "comedy": "The comedic engine of the session with consistent funny moments and voices: 'I don't know. It's your phone, dude.' and the whole Bru reveal at the end is played for laughs",
+        "immersion": "Maintains character consistency and uses distinct voices: 'Oh yeah. Carlo, this is Bru. Um, Bru. Why are you being so condescending on that?'",
+        "strategy": "Plans elaborate scenarios and coordinates multiple elements: 'So, uh Silas is the one that can recognize that these names are the same names that you've seen from the F-150'",
+        "curiosity": "Introduces information and clues throughout: 'So, when I clicked on it on Discord, it made it smaller instead of bigger.'"
+      }
+    }
+  },
+  "superlatives": {
+    "mvp": {
+      "player": "Silas",
+      "quote": "I'm going to position I'm going to walk straight above the iron claw and just like drop down with like a dagger drawn like so that my dagger just like lands straight into the top of their head and it's a free it's an auto crit...Uh 78 psychic damage. Um, Braa drops."
+    },
+    "best_joke": {
+      "player": "Bru",
+      "quote": "It was me the whole time. [pulls off janitor disguise] No, you didn't. It was a masterful disguise and you knew nothing."
+    },
+    "most_chaotic": {
+      "player": "Silas",
+      "quote": "Every camera in this place gets the same treatment. Go. [later] I feel like Silence would go all the way and just kill them."
+    },
+    "decision_driver": "Silas"
+  }
+}

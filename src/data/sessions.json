@@ -1,6 +1,12 @@
 {
   "sessions": [
     {
+      "number": 68,
+      "title": "Session 68",
+      "href": "/sessions/session-68",
+      "id": "session-68"
+    },
+    {
       "number": 67,
       "title": "Session 67",
       "href": "/sessions/session-67",

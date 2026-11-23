@@ -9071,44 +9071,211 @@
           "decision_driver": "Silas"
         }
       }
+    },
+    {
+      "id": "session-68",
+      "type": "session",
+      "number": 68,
+      "title": "68: Brand Recall",
+      "date": "2026-11-13",
+      "href": "/sessions/session-68/",
+      "has_transcript": true,
+      "transcript_format": "json",
+      "timing_quality": "exact",
+      "duration_seconds": 11680,
+      "block_count": 4311,
+      "word_count": 27459,
+      "speakers": [
+        {
+          "name": "Bru",
+          "canonical": "Bru (Felonias Bru)",
+          "role": "pc",
+          "player": "Justin Hale",
+          "blocks": 1345,
+          "words": 10824,
+          "talk_seconds_est": 3840,
+          "word_share": 0.3942
+        },
+        {
+          "name": "Silas",
+          "canonical": "Silas Fairbanks",
+          "role": "pc",
+          "player": "Taylor Ramsey",
+          "blocks": 1058,
+          "words": 7091,
+          "talk_seconds_est": 4343,
+          "word_share": 0.2582
+        },
+        {
+          "name": "Topher",
+          "canonical": "Topher",
+          "role": "dm",
+          "player": "Topher",
+          "blocks": 1200,
+          "words": 6775,
+          "talk_seconds_est": 1300,
+          "word_share": 0.2467
+        },
+        {
+          "name": "Leliana",
+          "canonical": "Leliana Goldspring",
+          "role": "pc",
+          "player": "Luke Neverisky",
+          "blocks": 708,
+          "words": 2769,
+          "talk_seconds_est": 2212,
+          "word_share": 0.1008
+        }
+      ],
+      "players_present": [
+        "Bru",
+        "Silas",
+        "Leliana"
+      ],
+      "attendance_source": "transcript",
+      "mentions": {
+        "npcs": {
+          "Scarlet": 64,
+          "Rivet": 27,
+          "Iro": 11,
+          "Gary": 3,
+          "Dylan": 1,
+          "Pel Firestone": 1
+        },
+        "locations": {
+          "High Forge": 2
+        },
+        "pcs": {
+          "Bru": 54
+        }
+      },
+      "fun": {
+        "nat20_mentions": 1,
+        "nat1_mentions": 0
+      },
+      "personality": {
+        "scores": {
+          "Leliana": {
+            "chaos": 7,
+            "heroism": 14,
+            "comedy": 8,
+            "immersion": 12,
+            "strategy": 11,
+            "curiosity": 9
+          },
+          "Topher": {
+            "chaos": 15,
+            "heroism": 12,
+            "comedy": 16,
+            "immersion": 14,
+            "strategy": 10,
+            "curiosity": 11
+          },
+          "Silas": {
+            "chaos": 18,
+            "heroism": 16,
+            "comedy": 14,
+            "immersion": 15,
+            "strategy": 17,
+            "curiosity": 12
+          },
+          "Bru": {
+            "chaos": 16,
+            "heroism": 14,
+            "comedy": 18,
+            "immersion": 13,
+            "strategy": 15,
+            "curiosity": 10
+          }
+        },
+        "evidence": {
+          "Leliana": {
+            "chaos": "She mostly stays within bounds, but occasionally pushes—though hesitantly: 'You're going to be...this close to getting sent home'",
+            "heroism": "She uses Hold Person strategically to paralyze enemies and protect the group: 'paralyzed. He's hold the person. Um, so enjoy your free crits.'",
+            "comedy": "She makes a few light jokes: 'Two of us are all in on that. Yeah, we've got Scarlet, don't you have a port tint to turn it into Nocrret?'",
+            "immersion": "Maintains character play but with some detachment: 'Okay, that's fine. Yeah, I know I debated also holding what's her name, too'",
+            "strategy": "Makes tactical decisions with Hold Person and positioning: 'I want to target with this... I'm going to upcast it. So, can what's her name also give me one?'",
+            "curiosity": "Asks moderate questions about the scenario: 'Is Bru in the break room still?' and 'Isn't he in prison?'"
+          },
+          "Topher": {
+            "chaos": "Drives the Tacoma through the facility to block doors, casts spells recklessly, and generally escalates: 'I'm gonna try to drive the Tacoma and if I can also sideswipe Dinland'",
+            "heroism": "Attempts to protect others and confront the COO: 'Oh, hey, Bru. Are you um you going to stay janitor now that the cameras are gone?'",
+            "comedy": "Consistently lands jokes and funny moments: 'Well, jokes's on you. I am a wizard.' and the whole Scarlet existential crisis bit gets laughs",
+            "immersion": "Strong character voice and decisions: 'Scarlet opens it up and spits in it' and uses actions to embody the character",
+            "strategy": "Makes some tactical choices but often impulsive: 'I'm going to burn a second level spell slot to cast it in this green room'",
+            "curiosity": "Investigates the blueprints and cipher: 'I think Scarlet would be really interested in like trying to decipher the technology'"
+          },
+          "Silas": {
+            "chaos": "Consistently pushes boundaries and derails into murder: 'Let's just kill her.' and 'Every camera in this place gets the same treatment.'",
+            "heroism": "Commits to the mission despite frustration and protects the group tactically: 'I'm paralyzed. That's miserable.' but continues fighting effectively",
+            "comedy": "Sharp, cutting humor often at others' expense: 'I feel like Silence would go all the way and just kill them' and 'Silas kills Iron Claws on sight.'",
+            "immersion": "Deep engagement with character voice and motivations: 'Silas bends down and whispers into the ironclaw's ear, I'm going to do this to every f****** one of you.'",
+            "strategy": "Drives most tactical decisions with forethought: 'I'm going to position I'm going to walk straight above the iron claw and just like drop down with like a dagger'",
+            "curiosity": "Asks pointed questions to understand situations: 'How far away are they from me? Okay. Um, I'm going to start off by uh chucking a dagger'"
+          },
+          "Bru": {
+            "chaos": "Creates elaborate setups that cause mayhem: 'Bru tried to direct us to go into this like hidden al cove' and coordinates explosions and camera destruction",
+            "heroism": "Helps the party and reveals himself as a key ally: 'All right. He uh he takes his hat off and like pops it and then puts it back on and he turns into his like normal Colonel Sanders.'",
+            "comedy": "The comedic engine of the session with consistent funny moments and voices: 'I don't know. It's your phone, dude.' and the whole Bru reveal at the end is played for laughs",
+            "immersion": "Maintains character consistency and uses distinct voices: 'Oh yeah. Carlo, this is Bru. Um, Bru. Why are you being so condescending on that?'",
+            "strategy": "Plans elaborate scenarios and coordinates multiple elements: 'So, uh Silas is the one that can recognize that these names are the same names that you've seen from the F-150'",
+            "curiosity": "Introduces information and clues throughout: 'So, when I clicked on it on Discord, it made it smaller instead of bigger.'"
+          }
+        },
+        "superlatives": {
+          "mvp": {
+            "player": "Silas",
+            "quote": "I'm going to position I'm going to walk straight above the iron claw and just like drop down with like a dagger drawn like so that my dagger just like lands straight into the top of their head and it's a free it's an auto crit...Uh 78 psychic damage. Um, Braa drops."
+          },
+          "best_joke": {
+            "player": "Bru",
+            "quote": "It was me the whole time. [pulls off janitor disguise] No, you didn't. It was a masterful disguise and you knew nothing."
+          },
+          "most_chaotic": {
+            "player": "Silas",
+            "quote": "Every camera in this place gets the same treatment. Go. [later] I feel like Silence would go all the way and just kill them."
+          },
+          "decision_driver": "Silas"
+        }
+      }
     }
   ],
   "aggregate": {
-    "total_sessions": 82,
-    "sessions_with_transcripts": 39,
-    "total_words": 987332,
-    "total_blocks": 139757,
-    "total_duration_seconds": 392620,
+    "total_sessions": 83,
+    "sessions_with_transcripts": 40,
+    "total_words": 1014791,
+    "total_blocks": 144068,
+    "total_duration_seconds": 404300,
     "speaker_totals": [
       {
         "name": "Topher",
         "canonical": "Topher",
         "role": "dm",
         "player": "Topher",
-        "sessions": 39,
-        "blocks": 36279,
-        "words": 317542,
-        "talk_seconds_est": 66797
+        "sessions": 40,
+        "blocks": 37479,
+        "words": 324317,
+        "talk_seconds_est": 68097
       },
       {
         "name": "Silas",
         "canonical": "Silas Fairbanks",
         "role": "pc",
         "player": "Taylor Ramsey",
-        "sessions": 39,
-        "blocks": 29902,
-        "words": 248686,
-        "talk_seconds_est": 36551
+        "sessions": 40,
+        "blocks": 30960,
+        "words": 255777,
+        "talk_seconds_est": 40894
       },
       {
         "name": "Bru",
         "canonical": "Bru (Felonias Bru)",
         "role": "pc",
         "player": "Justin Hale",
-        "sessions": 33,
-        "blocks": 18470,
-        "words": 111192,
-        "talk_seconds_est": 28484
+        "sessions": 34,
+        "blocks": 19815,
+        "words": 122016,
+        "talk_seconds_est": 32324
       },
       {
         "name": "Elspeth",
@@ -9135,10 +9302,10 @@
         "canonical": "Leliana Goldspring",
         "role": "pc",
         "player": "Luke Neverisky",
-        "sessions": 30,
-        "blocks": 13067,
-        "words": 60913,
-        "talk_seconds_est": 15201
+        "sessions": 31,
+        "blocks": 13775,
+        "words": 63682,
+        "talk_seconds_est": 17413
       },
       {
         "name": "Ohma",
@@ -9232,17 +9399,17 @@
       }
     ],
     "top_npcs": {
-      "Scarlet": 354,
+      "Scarlet": 418,
       "George": 273,
       "Victor": 249,
       "Luna": 227,
-      "Iro": 157,
-      "Gary": 121,
+      "Iro": 168,
+      "Gary": 124,
       "Lady Viper": 68,
+      "Rivet": 66,
       "Astro": 63,
       "Naomi": 62,
       "Finnegan": 48,
-      "Rivet": 39,
       "Chalk Rock": 35,
       "Captain Steel": 33,
       "Crowley": 20,
@@ -9250,7 +9417,7 @@
       "Bafael": 16,
       "Cassandra": 16,
       "Toothy": 15,
-      "Dylan": 12,
+      "Dylan": 13,
       "Bon Bonnery": 9,
       "April Bonal": 4,
       "Lady Corwin": 4,
@@ -9258,9 +9425,9 @@
       "Y'chek": 4,
       "Ben Boulage": 3,
       "Mr. Toyota": 3,
+      "Pel Firestone": 3,
       "Henrietta Oll": 2,
       "Lord Bradicus": 2,
-      "Pel Firestone": 2,
       "Private Jeffers Walaby": 2,
       "Fredo Boggins": 1,
       "Madison Ali": 1,
@@ -9268,7 +9435,7 @@
     },
     "top_locations": {
       "Greyport": 75,
-      "High Forge": 56,
+      "High Forge": 58,
       "Sexy Peacock": 24,
       "Little Cradle": 7,
       "Eldoran": 4,
@@ -9277,13 +9444,13 @@
       "Grimvar's Spine": 1
     },
     "top_pcs_mentioned": {
-      "Bru": 1303,
+      "Bru": 1357,
       "Red": 24,
       "Olivia": 21,
       "Elspeth": 5,
       "Leliana": 1
     },
-    "nat20_mentions": 17,
+    "nat20_mentions": 18,
     "nat1_mentions": 4,
     "personality_by_player": {
       "00": {
@@ -9483,13 +9650,13 @@
         }
       },
       "Bru": {
-        "sessions_scored": 30,
+        "sessions_scored": 31,
         "mean_scores": {
-          "chaos": 12.3,
-          "heroism": 10.0,
-          "comedy": 11.7,
+          "chaos": 12.5,
+          "heroism": 10.1,
+          "comedy": 11.9,
           "immersion": 10.8,
-          "strategy": 11.9,
+          "strategy": 12.0,
           "curiosity": 9.5
         },
         "signature_evidence": {
@@ -9526,7 +9693,7 @@
         },
         "superlative_counts": {
           "mvp": 3,
-          "best_joke": 5,
+          "best_joke": 6,
           "most_chaotic": 21,
           "decision_driver": 0
         }
@@ -9630,13 +9797,13 @@
         }
       },
       "Leliana": {
-        "sessions_scored": 28,
+        "sessions_scored": 29,
         "mean_scores": {
           "chaos": 8.9,
           "heroism": 12.0,
-          "comedy": 9.9,
+          "comedy": 9.8,
           "immersion": 12.9,
-          "strategy": 10.6,
+          "strategy": 10.7,
           "curiosity": 10.2
         },
         "signature_evidence": {
@@ -9777,10 +9944,10 @@
         }
       },
       "Silas": {
-        "sessions_scored": 36,
+        "sessions_scored": 37,
         "mean_scores": {
-          "chaos": 10.8,
-          "heroism": 10.9,
+          "chaos": 10.9,
+          "heroism": 11.0,
           "comedy": 12.6,
           "immersion": 13.5,
           "strategy": 15.2,
@@ -9819,21 +9986,21 @@
           }
         },
         "superlative_counts": {
-          "mvp": 13,
+          "mvp": 14,
           "best_joke": 15,
-          "most_chaotic": 7,
-          "decision_driver": 26
+          "most_chaotic": 8,
+          "decision_driver": 27
         }
       },
       "Topher": {
-        "sessions_scored": 36,
+        "sessions_scored": 37,
         "mean_scores": {
-          "chaos": 12.5,
+          "chaos": 12.6,
           "heroism": 10.4,
-          "comedy": 13.4,
+          "comedy": 13.5,
           "immersion": 15.0,
           "strategy": 12.8,
-          "curiosity": 11.9
+          "curiosity": 11.8
         },
         "signature_evidence": {
           "chaos": {

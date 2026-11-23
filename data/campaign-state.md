@@ -264,6 +264,10 @@ The party flees north from the capital through a metal-dissolving fungal swamp, 
 **Session 67** – "Tacoma, We Have a Problem"
 A side story run by Justin as guest DM, set shortly after the mini-sun heist (all of Taylor, Luke and Christopher present; Ellis, Ali and Zack absent). Bru's holographic distress call, delivered by Kevin to a diner brunch, draws Silas, Leliana, and Scarlet undercover to the crumbling Toyota Works factory, posing as corporate, to follow up on Rivet — a fired night-shift inspector who hid something there. They find a Ford-backed sabotage plot, Bru disguised as the break-room janitor (all but admitting to a factory fire while insisting no one can prove it), and Rivet's hideout behind a break-room panel. Bru hands over Rivet's unsolved book-cipher note and stays hidden; the vignette continues next session.
 
+
+**Session 68** – Brand Recall
+The party decoded Rivet's cipher hidden in a chip bag, triggering a factory-wide uprising that forced a confrontation with COO Henrietta Oll and her mercenary backup. Bru revealed himself as the architect of the operation, brokering a deal to hand the stolen sun to Toyota in exchange for a fleet of Taco Cat-branded trucks, with Iro present to enforce the arrangement and eject Oll from the premises.
+
 ## Active Plot Threads
 
 ### 1. The Three-Target Strike on the Eldoran Capital
@@ -375,6 +379,17 @@ The moon exploded in Session 16. At Luna's underwater crash site the party resea
 - **NEW: Book cipher unsolved** – Rivet's note, found by Bru and handed to the party: rows of three-number clusters (each line a word, each cluster a letter), with "they wrote it themselves; sentence, word, letter" in Rivet's hand, signed "R"; useless without the source text (Silas suggests a Toyota employee handbook).
 - **NEW: Bru's factory fire** – A fire on the Toyota Works factory floor was pinned on Bru; he insists "nobody saw me do it, you can't prove anything"; high-level magic sees through every disguise he tries, so he stays hidden behind the break-room panel when the session ends.
 - **Bru's investigation** – Began after a Tacoma blew up on the party's way to the mini-sun heist; Bru made calls, and Mr. Toyota, the company's original owner, answered — he wants his company back and says plants inside are sabotaging it.
+
+
+#### Session 68 Updates
+- **Escape from the capital and lockdown** – Status unclear; party currently at Toyota Works with no immediate pursuit indicated.
+- **The stolen sun** – Transferred to Toyota as part of Bru's deal; current custody and location unknown.
+- **Cassandra and the factory shift** – Murloc labor force incited to riot; shift fate still unresolved.
+- **Henrietta Oll** – Identified as COO with spell-resistance; ejected from premises by Iro; current location unknown.
+- **Pel Firestone (Quality Control)** – Broke under interrogation; admitted Rivet was fired for questioning performance claims; Denlin's presence on-site confirmed.
+- **Denlin** – On-site filming commercial in dressing room wearing ankle monitor; possessions traced to orphanage operation and shell purchasing chain to Toyota; true name and current status after confrontation unknown.
+- **Geis (magical compulsion, three scrolls)** – Identified as Gaelic-rooted spell; triggered by verbal phrase "Have you driven a Ford lately?"; resisted by Henrietta Oll; scrolls recovered.
+- **Ford infiltration of Toyota** – Confirmed: shell company Denlin feeding stolen Toyota designs to Ford while posing as parts supplier; employee plants seeded throughout marketing department.
 
 ## Character Status
 
@@ -495,6 +510,14 @@ The moon exploded in Session 16. At Luna's underwater crash site the party resea
 - **Scarlet** – Natural 1 Perception at the entrance; Perception 24 on the parking lot (tarped car, no Toyotas); three *Message* spells to Bru on one flat roll (6), no reply; Investigation 26 read Ford marketing copy on the HR office whiteboard; Investigation 23 found the six-month hire-to-fire pattern; natural 20 Perception in the break room (it smells vile); Acrobatics 7 cartwheel, then a natural 20 floor routine out of the break room; Intelligence 18 worked out the cipher's structure; cover name "Dr. Sour Straw".
 - **Bru** – Voiced by Justin as guest DM; disguised as the break-room janitor; working Mr. Toyota's lead; warned the party of the camera over Silas's psychic link; the factory-floor fire was pinned on him and he will not admit to it.
 
+
+#### Session 68 Updates
+- **Silas Fairbanks** – Attack roll 26 destroying security camera; Intimidation 28 establishing policy; dropped from rafters for auto-critical dagger dealing 78 psychic damage to Broka; Initiative 20 in soundstage combat.
+- **Scarlet** – Perception 20 reading whiteout-hidden signatures; Perception 24 detecting factory room details; natural 100 on percentile roll (celestial/supernatural event) hearing Earth Tree guidance in Bru's voice; Sleight of Hand 20 (failed) attempting Mage Hand vending machine heist; Firebolt 20 hitting Henrietta Oll for 20 fire damage; abandoned vending machine mid-riot.
+- **Leliana Goldspring** – Perception 22 spotting empty QA office; Hold Person (upcast) paralyzing both Broka and Henrietta Oll; Command spell via Beguiling Magic breaking Henrietta's composure and triggering fear; Initiative 6 in soundstage combat.
+- **Bru** – Revealed as architect of entire operation; undercover as janitor throughout session; negotiated deal with Mr. Toyota to exchange stolen sun for Taco Cat-branded truck fleet; unmasked in front of party and Iro.
+- **Iro** – Present on Fight Institute business; physically ejected Henrietta Oll from premises; unified with Bru at operation's conclusion.
+
 ## Key Callbacks & Unresolved Hooks
 
 ### Unresolved Plot Threads
@@ -593,3 +616,12 @@ The moon exploded in Session 16. At Luna's underwater crash site the party resea
 - **Toyota Works' parking lot** – Not a single Toyota among the staff cars (Fords, Volkswagens, Chevys) at a Toyota factory; Room 190, "Marketing," is the only non-factory office on the first floor.
 - **Mr. Toyota as employer** – Desperate to reclaim sabotaged company; employed Bru directly; motive and identity unexplained; possible future contact or ally.
 - **Camera in break room** – Still active; party visibility compromised; potential pursuit or containment threat.
+
+
+#### Session 68 Updates
+- **Mr. Toyota's direct employment of Bru** – Motive and full scope of his involvement unexplained; installed as CEO figure overseeing factory.
+- **Peace Forge audit unit** – Appeared with Iro; read Henrietta Oll's violations (shell companies, duress-extracted shares, labor law breaches) with mechanical precision.
+- **Rivet's firing and cipher expertise** – Fired for performance-integrity questioning; constructed complex multi-layer cipher; current whereabouts and future role unknown.
+- **Taco Cat-branded truck fleet** – Promised to Bru as compensation; symbolic callback to Taco Cat legend (Session 62); delivery and use unknown.
+- **Ford-Toyota corporate war** – Denlin operating as double agent; extent of infiltration and future moves unknown.
+- **Henrietta Oll's spell-resistance** – Method and source unexplained; "told Rivet that before she got fired" suggests prior knowledge of Geis.

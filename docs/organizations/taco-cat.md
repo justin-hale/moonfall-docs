@@ -74,3 +74,4 @@ aliases: ["Pupusa Possum"]
 - **[Session 57](/sessions/session-57)** — Leliana learns she is both herself and Helisanna, and the party climbs a World Tree into the Eldoran capital.
 - **[Session 62](/sessions/session-62)** — The bombs are placed, and Elspeth tells the legend of Taco Cat to Eldoran factory workers.
 - **[Session 63](/sessions/session-63)** — Bru steals a miniature sun, the party finds six Elspeth clones, and three bombs go off across the capital.
+- **[Session 68](/sessions/session-68)** — Bru brokered a deal to establish Taco Cat Motors as Toyota's new branded production fleet, with trim levels named BRU, DC5, and TRD powered by the miniature sun.

@@ -47,3 +47,4 @@ The players noted that they had "stolen a central component of their rocket fact
 - **[Session 60](/sessions/session-60)** — Scouting from the ceiling, the party finds that the furnace is a contained power plant held stable by stasis magic, and plans a bomb to breach it.
 - **[Session 63](/sessions/session-63)** — Inside the furnace Bru finds a sun whose radius is about a school bus long. He shrinks it with *Reduce*, smuggles it out in a *Rope Trick*, and Scarlet seals it in her *Leomund's Secret Chest*.
 - **[Session 65](/sessions/session-65)** — Bru stole the miniature sun rather than detonating it at the Spaceport Factory.
+- **[Session 68](/sessions/session-68)** — The miniature sun, stolen from the Eldoran spaceport factory and kept in Scarlet's Leomund's Secret Chest since Session 63, was traded to Toyota by Bru to serve as a power core for the assembly line and to power the top-tier TRD truck.

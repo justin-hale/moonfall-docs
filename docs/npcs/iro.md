@@ -40,3 +40,4 @@ description: Fluke's youngest son and Gary's brother, a lightning-wielding non-h
 - **[Session 51](/sessions/session-51)** — He gives the party backstage passes to Gary's retirement match at Razlemania as thanks for saving the shop. Museum footage shows he is at least a century old. He breaks free of demon chains to help Gary win, and Count Dastardio drags him through a portal.
 - **[Session 52](/sessions/session-52)** — Iro powerbombs Dastardio out of a portal in the alley and vows to break his blood curse. He then equips Bru with a violescence grenade launcher for the strike at Luna Trench, which the party reaches in his boat, the Iron Maiden.
 - **[Session 53](/sessions/session-53)** — Oiled up for Leliana's concert crowd-builder, he wrestles and clotheslines Bru, then vanishes in a smoke bomb.
+- **[Session 68](/sessions/session-68)** — Iro arrived at the Toyota Works soundstage on Fight Institute business and threw the corrupt COO Henrietta Oll off the premises.

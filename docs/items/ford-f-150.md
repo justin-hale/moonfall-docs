@@ -49,3 +49,4 @@ The getaway car of the Sisyphus Circle, which blew up with Spoons in it in the f
 - **[Session 31](/sessions/session-31)** — The party drives it through the mountains under dragon attack and reaches the Blackstone cabin.
 - **[Session 37](/sessions/session-37)** — April Bonal's teenagers take the truck on a gold-throwing Robin Hood spree. It ends up as Chalk Rock's government vehicle, and Elspeth points out each new ding to Olivia.
 - **[Session 38](/sessions/session-38)** — The F-150 stays with Chalk Rock in High Forge when the party leaves for Greyport.
+- **[Session 68](/sessions/session-68)** — Silas discovered a full F-150 specification sheet hidden inside a chip bag as Rivet's cipher, revealing the false performance claims at the heart of Toyota's corruption scheme.
