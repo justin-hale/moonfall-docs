@@ -9243,7 +9243,7 @@
       "id": "session-69",
       "type": "session",
       "number": 69,
-      "title": "69: The HYDE Protocol",
+      "title": "69: The H.I.D.E. Protocol",
       "date": "2026-11-20",
       "href": "/sessions/session-69/",
       "has_transcript": true,
@@ -9304,7 +9304,9 @@
         "npcs": {
           "Gary": 4,
           "Iro": 2,
-          "Crowley": 1
+          "Tapper": 2,
+          "Crowley": 1,
+          "King Alvar": 1
         },
         "locations": {
           "Eldoran": 1
@@ -9365,7 +9367,7 @@
             "chaos": "I could be a peace force. My old thought was that I got sucked into a portal and that's like f***** me up. So like I become a barbarian on that side",
             "heroism": "I mean, could be. At this point, Shield's like over 200 years old. Is that right?",
             "comedy": "Bru: I think I'm going to make my character a seedling from the tree that Shield came that Shield was turning into. I think I'm going to make my character a seedling from the tree",
-            "immersion": "I think our team name should be Hyde...Hyde. I'm going to put it in the chat. Infiltrate and disappearance.",
+            "immersion": "I think our team name should be H.I.D.E....H.I.D.E.. I'm going to put it in the chat. Infiltrate and disappearance.",
             "strategy": "I could use some money. Literally flew in front of my face and now it's just like dive bombing me.",
             "curiosity": "did not know that season one was supposed to be a mini arc or a miniseries"
           },
@@ -9593,7 +9595,9 @@
       "Henrietta Oll": 2,
       "Lord Bradicus": 2,
       "Private Jeffers Walaby": 2,
+      "Tapper": 2,
       "Fredo Boggins": 1,
+      "King Alvar": 1,
       "Madison Ali": 1,
       "Steven Goldspring": 1
     },
