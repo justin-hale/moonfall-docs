@@ -1,0 +1,6 @@
+{
+  "drive_file_id": "",
+  "episode_number": "",
+  "session_date": "",
+  "note": "Committing a change to this file on main starts the Process Episode workflow. Leave all three fields empty to scan Drive as the Saturday run does, or set drive_file_id to process one recording. Change this note (for example to today's date and the reason) so the commit is not empty."
+}

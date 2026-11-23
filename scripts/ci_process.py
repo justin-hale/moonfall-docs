@@ -1453,9 +1453,69 @@ def cmd_open_pr():
         subprocess.run(["git", "checkout", "main"], capture_output=True)
 
 
+# ── Intake request (push-triggered runs) ───────────────────────────────────
+
+INTAKE_REQUEST_PATH = os.path.join("data", "intake-request.json")
+
+# What each field of data/intake-request.json may hold. The values are written
+# to $GITHUB_ENV, one KEY=VALUE per line, so nothing that could carry a newline
+# or a second assignment is let through.
+INTAKE_REQUEST_FIELDS = {
+    "drive_file_id": ("DRIVE_FILE_ID", re.compile(r"[A-Za-z0-9_-]{10,100}")),
+    "episode_number": ("EPISODE_NUMBER", re.compile(r"[0-9]{1,4}")),
+    "session_date": ("SESSION_DATE", re.compile(r"\d{4}-\d{2}-\d{2}")),
+}
+
+
+def cmd_read_request():
+    """Turn data/intake-request.json into the same overrides a dispatch takes.
+
+    Process Episode can be started by hand or by its Saturday schedule, and
+    neither is open to an agent that can only push and merge. A push that
+    changes data/intake-request.json starts it too; this stage reads that
+    file and exports DRIVE_FILE_ID / EPISODE_NUMBER / SESSION_DATE exactly as
+    the workflow_dispatch inputs would have. Every field is optional: a
+    request with none set is "scan Drive now", the same as the scheduled run.
+    """
+    print("=== read-request ===")
+    try:
+        with open(INTAKE_REQUEST_PATH, encoding="utf-8") as f:
+            request = json.load(f)
+    except FileNotFoundError:
+        print(f"  {INTAKE_REQUEST_PATH} not found — plain auto-detect.")
+        return
+    except json.JSONDecodeError as e:
+        print(f"ERROR: {INTAKE_REQUEST_PATH} is not valid JSON: {e}", file=sys.stderr)
+        sys.exit(1)
+    if not isinstance(request, dict):
+        print(f"ERROR: {INTAKE_REQUEST_PATH} must hold a JSON object.", file=sys.stderr)
+        sys.exit(1)
+
+    overrides = {}
+    for field, (env_key, pattern) in INTAKE_REQUEST_FIELDS.items():
+        value = request.get(field)
+        if value is None or str(value).strip() == "":
+            continue
+        value = str(value).strip()
+        if not pattern.fullmatch(value):
+            print(
+                f"ERROR: {INTAKE_REQUEST_PATH}: {field} = {value!r} is not a "
+                f"valid value.",
+                file=sys.stderr,
+            )
+            sys.exit(1)
+        overrides[env_key] = value
+
+    if not overrides:
+        print("  No overrides in the request — plain auto-detect.")
+    for env_key, value in overrides.items():
+        write_github_env(env_key, value)
+
+
 # ── Entry point ─────────────────────────────────────────────────────────────
 
 SUBCOMMANDS = {
+    "read-request": cmd_read_request,
     "detect": cmd_detect,
     "download": cmd_download,
     "extract": cmd_extract,
