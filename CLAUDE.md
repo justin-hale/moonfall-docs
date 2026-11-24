@@ -143,5 +143,5 @@ workflows read them only on the push that changed them.
 ## Session Stats
 - `data/session-stats.json`, `data/session-stat-blocks.json` (slim slice for recap-page stat blocks), and `static/data/session-stats.csv` are GENERATED - never hand-edit; rerun the extractor instead
 - The stats dashboard lives at `/stats` (`src/pages/stats.tsx`); per-session stat blocks are auto-injected on recap pages via `src/theme/DocItem/Content`
-- Side arcs (a guest DM, different characters) are described in `data/side-arcs.json`. The extractor applies an arc to any session whose recap lists one of its characters under Players Present, so a wrong attendance list gives wrong stats: fix the recap, then rerun the extractor
+- Side arcs (a guest DM, different characters) are described in `data/side-arcs.json`. The extractor applies an arc to any session whose recap lists one of its characters under Players Present, so a wrong attendance list gives wrong stats: fix the recap, then rerun the extractor. An arc whose cast includes a regular character (Justin guest-DMing Sessions 67–68 while Topher played Scarlet) lists its recaps under `sessions` instead
 - The personality rubric in `analyze_session_personality.py` is frozen - changing it requires rescoring all sessions with `--force`

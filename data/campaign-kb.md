@@ -32,6 +32,9 @@ Luke Neverisky plays **one woman with two personas**. Write about them this way:
 - **Roster order matters:** keep the Helisanna row above Leliana's in the table above. The transcript cleaner and the stats extractor map Luke's Meet name to the *last* row that names him, and his transcript lines belong to Leliana from Session 34 on (lines before that are credited to Helisanna by `DATED_SPEAKER_OVERRIDES` in `scripts/extract_session_stats.py`).
 - **In recaps:** name whichever persona is acting ("Leliana, switching to Helisanna, …"). Never treat Helisanna as departed, as an NPC, or as Leliana's patron, and don't call either persona "the original": since Session 57 the DM's framing is that she is "both of them".
 
+### The Toyota Works vignette (Sessions 67–68)
+**Justin Hale was guest DM** for both sessions and voiced Bru along with the factory NPCs; Topher **played Scarlet** as a PC. Taylor and Luke kept Silas and Leliana. Because Scarlet also appears in recaps Justin did not run, `data/side-arcs.json` lists these two sessions by name rather than detecting them from attendance.
+
 ### The H.I.D.E. side arc (Session 69 onward)
 A mini-arc run by **Taylor Ramsey as DM** (Meet name "Tyram"), set in the present day in the elven kingdom of Liberia while Taco Cat is at sea. It is an arc of this campaign, not a new campaign. While it runs, Topher is a **player**, not the DM. The three PCs are Peace Forged and are deliberately kept out of the roster table above, because the transcript cleaner and stats extractor map each Meet name to the last table row that names it. Their stats come from `data/side-arcs.json` instead.
 - **Tex** (Texas Instrument 87) — Christopher "Topher" Hooper. Open Hand monk.

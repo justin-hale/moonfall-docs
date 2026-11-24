@@ -1,5 +1,5 @@
 {
-  "_readme": "Casts for side arcs, where the usual DM plays and another player runs the game. scripts/extract_session_stats.py applies an arc to a session when that session's recap lists one of the arc's characters under Players Present (\"- Player as Tex\"), so a new session of the arc needs no entry here. meet_names are the speaker labels as they appear in the transcripts. Keep these characters out of the roster table in data/campaign-kb.md.",
+  "_readme": "Casts for side arcs, where the usual DM plays and another player runs the game. scripts/extract_session_stats.py applies an arc to a session when that session's recap lists one of the arc's characters under Players Present (\"- Player as Tex\"), so a new session of the arc needs no entry here. An arc whose cast includes a regular character (Scarlet) lists its recaps under \"sessions\" instead and applies to exactly those. A cast names only the players who changed seats; everyone else keeps their usual character. meet_names are the speaker labels as they appear in the transcripts. Keep these characters out of the roster table in data/campaign-kb.md.",
   "arcs": [
     {
       "id": "hide",
@@ -13,6 +13,19 @@
         {"character": "Tex", "player": "Topher", "meet_names": ["Christopher Hooper"]},
         {"character": "Shade", "player": "Justin Hale", "meet_names": ["Justin Hale"]},
         {"character": "Ward", "player": "Luke Neverisky", "meet_names": ["Luke Neverisky"]}
+      ]
+    },
+    {
+      "id": "toyota-works",
+      "name": "Toyota Works",
+      "sessions": ["session-67", "session-68"],
+      "dm": {
+        "name": "Justin",
+        "player": "Justin Hale",
+        "meet_names": ["Justin Hale"]
+      },
+      "cast": [
+        {"character": "Scarlet", "player": "Topher", "meet_names": ["Christopher Hooper"]}
       ]
     }
   ]

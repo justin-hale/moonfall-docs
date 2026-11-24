@@ -2508,15 +2508,15 @@
       "duration_seconds": 9628,
       "word_count": 23349,
       "players_present": [
-        "Bru",
         "Silas",
+        "Scarlet",
         "Leliana"
       ],
       "attendance_source": "transcript",
       "speakers": [
         {
-          "name": "Bru",
-          "role": "pc",
+          "name": "Justin",
+          "role": "dm",
           "word_share": 0.4018
         },
         {
@@ -2525,8 +2525,8 @@
           "word_share": 0.3018
         },
         {
-          "name": "Topher",
-          "role": "dm",
+          "name": "Scarlet",
+          "role": "pc",
           "word_share": 0.2359
         },
         {
@@ -2550,11 +2550,11 @@
           "quote": "I go up to a reception and I'm like, 'Hey, we're from corporate and we want to fire Rivet even more and we need to report what Rivet did.' Tell us."
         },
         "best_joke": {
-          "player": "Bru",
+          "player": "Justin",
           "quote": "The Tacoma, it's still a truck probably for now. Now available at partic participating dealerships and on the shoulder of every major road in Greyboard."
         },
         "most_chaotic": {
-          "player": "Bru",
+          "player": "Justin",
           "quote": "I found somebody that can uh open just kind of blow the doors off of this thing... but like kind of made myself known. Uh, so I'm hiding out a little bit in here."
         }
       }
@@ -2564,15 +2564,15 @@
       "duration_seconds": 11680,
       "word_count": 27459,
       "players_present": [
-        "Bru",
         "Silas",
+        "Scarlet",
         "Leliana"
       ],
       "attendance_source": "transcript",
       "speakers": [
         {
-          "name": "Bru",
-          "role": "pc",
+          "name": "Justin",
+          "role": "dm",
           "word_share": 0.3942
         },
         {
@@ -2581,8 +2581,8 @@
           "word_share": 0.2582
         },
         {
-          "name": "Topher",
-          "role": "dm",
+          "name": "Scarlet",
+          "role": "pc",
           "word_share": 0.2467
         },
         {
@@ -2606,7 +2606,7 @@
           "quote": "I'm going to position I'm going to walk straight above the iron claw and just like drop down with like a dagger drawn like so that my dagger just like lands straight into the top of their head and it's a free it's an auto crit...Uh 78 psychic damage. Um, Braa drops."
         },
         "best_joke": {
-          "player": "Bru",
+          "player": "Justin",
           "quote": "It was me the whole time. [pulls off janitor disguise] No, you didn't. It was a masterful disguise and you knew nothing."
         },
         "most_chaotic": {
