@@ -230,3 +230,91 @@ def test_generation_prompt_omits_the_note_when_every_speaker_is_named(automation
     transcript = "**Christopher Hooper:** Roll.\n\n**Ali Leonard:** Nineteen."
     prompt = automation.build_generation_prompt(transcript, 62, False)
     assert auto.UNIDENTIFIED_SPEAKER_NOTE not in prompt
+
+
+# --------------------------------------------------------------------------- #
+#  Recaps are written from the full transcript                                 #
+# --------------------------------------------------------------------------- #
+
+def _no_summaries(*a, **kw):
+    raise AssertionError("summarised a transcript that should have been sent whole")
+
+
+def test_a_session_sized_transcript_is_sent_whole(automation, monkeypatch):
+    # The largest transcript on record is ~290k chars; it used to be cut into
+    # Haiku summaries at 60k, so every recap was written second-hand.
+    monkeypatch.setattr(automation, "_summarize_long_transcript", _no_summaries)
+    transcript = "**Christopher Hooper:** Roll for it, Bru.\n" * 7_000  # ~290k chars
+    prompt = automation.build_generation_prompt(transcript, 70, False)
+    assert "TRANSCRIPT CONTENT:" in prompt
+    assert transcript in prompt
+
+
+def test_an_oversized_transcript_is_still_summarised(automation, monkeypatch):
+    monkeypatch.setattr(automation, "_summarize_long_transcript", lambda t: "- bullet")
+    prompt = automation.build_generation_prompt("x" * (auto.MAX_DIRECT_CHARS + 1), 70, False)
+    assert "TRANSCRIPT SUMMARY" in prompt
+    assert "- bullet" in prompt
+
+
+def test_force_summary_summarises_a_small_transcript(automation, monkeypatch):
+    monkeypatch.setattr(automation, "_summarize_long_transcript", lambda t: "- bullet")
+    prompt = automation.build_generation_prompt("short", 70, False, force_summary=True)
+    assert "TRANSCRIPT SUMMARY" in prompt
+
+
+def _api_error(cls, message):
+    """An SDK error instance without building an HTTP response, whose class
+    lives in a different HTTP library depending on the SDK version."""
+    error = cls.__new__(cls)
+    Exception.__init__(error, message)
+    return error
+
+
+@pytest.fixture
+def recap_harness(automation, monkeypatch):
+    """generate_recap with everything but the model call stubbed out."""
+    (automation.project_root / "scripts").mkdir()
+    automation.sessions_dir.mkdir(parents=True)
+    transcript = automation.project_root / "2026-11-20.md"
+    transcript.write_text("**Christopher Hooper:** Roll.\n", encoding="utf-8")
+    monkeypatch.setattr(automation, "resolve_publication_context", lambda *a, **kw: None)
+    monkeypatch.setattr(automation, "build_system_prompt", lambda **kw: "SYSTEM")
+    monkeypatch.setattr(automation, "_apply_generation_guardrails",
+                        lambda text, *a, **kw: (text, []))
+    monkeypatch.setattr(automation, "update_campaign_state", lambda *a: None)
+    monkeypatch.setattr(automation, "update_wiki_pages", lambda *a: [])
+    monkeypatch.setattr(automation, "_summarize_long_transcript", lambda t: "- bullet")
+    return transcript
+
+
+def test_a_refused_full_transcript_falls_back_to_summaries(automation, monkeypatch, recap_harness):
+    prompts = []
+
+    def generate(system, user, timeout):
+        prompts.append(user)
+        if len(prompts) == 1:
+            raise _api_error(auto.anthropic.RateLimitError, "input tokens per minute exceeded")
+        return "recap"
+    monkeypatch.setattr(automation, "_generate", generate)
+
+    assert automation.generate_recap(recap_harness, 70, False) is True
+    assert "TRANSCRIPT CONTENT:" in prompts[0]
+    assert "TRANSCRIPT SUMMARY" in prompts[1]
+
+
+def test_an_unrelated_bad_request_is_not_retried(automation, monkeypatch, recap_harness):
+    calls = []
+
+    def generate(system, user, timeout):
+        calls.append(user)
+        raise _api_error(auto.anthropic.BadRequestError, "max_tokens: invalid value")
+    monkeypatch.setattr(automation, "_generate", generate)
+
+    assert automation.generate_recap(recap_harness, 70, False) is False
+    assert len(calls) == 1
+
+
+def test_a_too_long_prompt_is_a_size_refusal():
+    error = _api_error(auto.anthropic.BadRequestError, "prompt is too long: 210000 tokens > 200000 maximum")
+    assert auto.SessionAutomation._is_size_refusal(error)

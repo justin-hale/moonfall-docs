@@ -4,8 +4,9 @@ Session Automation Script for Docusaurus D&D Campaign
 
 This script automates the workflow of creating session notes from transcript files:
 1. Finds the latest transcript in docs/transcripts/
-2. Summarises long transcripts chunk-by-chunk (using Claude Haiku)
-3. Creates a comprehensive session note using Claude Sonnet
+2. Creates a comprehensive session note using Claude Sonnet, written from the
+   whole transcript (falling back to chunk-by-chunk Haiku summaries only for
+   a transcript too large to send, or when the API refuses the full prompt)
 4. Merges the new session's updates into the campaign-state.md running memory
 5. Adds the session to the Session History of every NPC, location,
    organization and item page the recap involves (scripts/wiki_update.py)
@@ -70,8 +71,15 @@ SUMMARIZATION_MODEL = "claude-haiku-4-5-20251001"
 GENERATION_MODEL = "claude-sonnet-5"
 
 # Transcript size thresholds.
-CHUNK_SIZE = 55_000       # Each chunk sent for summarisation.
-MAX_DIRECT_CHARS = 60_000 # Transcripts below this are sent whole (no pre-summary).
+CHUNK_SIZE = 55_000        # Each chunk sent for summarisation (fallback path only).
+# Transcripts up to this size are sent whole. The recap used to be written from
+# Haiku bullet summaries whenever a transcript passed 60k chars, which by 2026
+# was every session (115k-290k chars), so quotes and attributions came from
+# lossy summaries rather than the dialogue, and most recaps from 58 on needed a
+# /fix-notes correction. 450k chars is ~115k tokens: with the ~50k-token system
+# prompt that stays well inside the generation model's context window, and
+# above the largest transcript on record (290k).
+MAX_DIRECT_CHARS = 450_000
 
 # Returned by run_automation() when no new .srt is waiting to be processed.
 # This is a no-op, not a failure: the generator consumes (deletes) each SRT it
@@ -685,8 +693,14 @@ with the writer's signature, e.g.:
 Notes comment on the WRITING and on each other — they never contradict or alter the
 recorded events themselves.{dm_block}"""
 
-    def build_generation_prompt(self, transcript_content, session_number, is_interlude, dry_run=False):
+    def build_generation_prompt(self, transcript_content, session_number, is_interlude, dry_run=False,
+                                force_summary=False):
         """Build the user-facing prompt for recap generation.
+
+        The whole transcript goes in unless it is over MAX_DIRECT_CHARS, or
+        *force_summary* is set (generate_recap's fallback when the API refuses
+        the full-transcript request); only then is it condensed into Haiku
+        chunk summaries first.
 
         *dry_run* skips the Haiku summarisation call (which costs real
         money) and substitutes a truncated preview instead — used by
@@ -697,8 +711,8 @@ recorded events themselves.{dm_block}"""
         session_type = "interlude" if is_interlude else "session"
         speaker_note = unidentified_speaker_note(transcript_content)
 
-        # If transcript is too large, summarise first.
-        if len(transcript_content) > MAX_DIRECT_CHARS:
+        # If transcript is too large (or the full one was refused), summarise first.
+        if force_summary or len(transcript_content) > MAX_DIRECT_CHARS:
             if dry_run:
                 transcript_content = (
                     f"[DRY RUN: transcript is {len(transcript_content):,} chars — "
@@ -987,6 +1001,33 @@ Respond in this EXACT format (no other text):
             print("  Guardrails: nothing to correct")
         return recap_text, problems
 
+    def _generate(self, system_prompt, user_prompt, timeout_minutes):
+        """The recap call itself."""
+        return self._call_model(
+            model=GENERATION_MODEL,
+            system=system_prompt,
+            messages=[{"role": "user", "content": user_prompt}],
+            # Headroom: max_tokens caps thinking + response text together,
+            # and Sonnet 5 thinks by default. 16000 was not enough: on
+            # Session 64 thinking used ~14k of it and the recap stopped
+            # after ~1,750 tokens (Session 62 failed the same way).
+            max_tokens=64000,
+            timeout=timeout_minutes * 60,
+        )
+
+    @staticmethod
+    def _is_size_refusal(error):
+        """Whether an API error means the request was too big to accept.
+
+        Any 429 counts: per-minute input-token limits are what a whole
+        transcript is most likely to hit. A 400 counts only when it says the
+        prompt is too long, so a genuinely malformed request still fails.
+        """
+        if isinstance(error, anthropic.RateLimitError):
+            return True
+        text = str(error).lower()
+        return any(k in text for k in ("too long", "context window", "too many tokens", "maximum context"))
+
     def generate_recap(self, transcript_path, session_number, is_interlude, timeout_minutes=10,
                        transcript_date=None, podcast_link=""):
         """Generate the session recap using the Anthropic API."""
@@ -1025,20 +1066,26 @@ Respond in this EXACT format (no other text):
         print(f"  Prompt saved to {prompt_file}")
 
         backend = "local claude CLI" if self.use_local_cli else GENERATION_MODEL
+        summarised = len(transcript_content) > MAX_DIRECT_CHARS
+        print(f"  Source: {'Haiku chunk summaries' if summarised else 'full transcript'}")
         print(f"\n  Calling {backend} (timeout {timeout_minutes} min)...")
         start_time = time.time()
         try:
-            recap_text = self._call_model(
-                model=GENERATION_MODEL,
-                system=system_prompt,
-                messages=[{"role": "user", "content": user_prompt}],
-                # Headroom: max_tokens caps thinking + response text together,
-                # and Sonnet 5 thinks by default. 16000 was not enough: on
-                # Session 64 thinking used ~14k of it and the recap stopped
-                # after ~1,750 tokens (Session 62 failed the same way).
-                max_tokens=64000,
-                timeout=timeout_minutes * 60,
-            )
+            try:
+                recap_text = self._generate(system_prompt, user_prompt, timeout_minutes)
+            except (anthropic.RateLimitError, anthropic.BadRequestError) as e:
+                # The full transcript is the one large request this script
+                # makes, so a rate limit or a too-long prompt here is most
+                # likely its size. Retry once from chunk summaries rather than
+                # failing the run: a recap from summaries beats no recap.
+                if summarised or not self._is_size_refusal(e):
+                    raise
+                print(f"  The full-transcript request was refused ({e}).")
+                print("  Falling back to Haiku chunk summaries and retrying once...")
+                user_prompt = self.build_generation_prompt(
+                    transcript_content, session_number, is_interlude, force_summary=True)
+                prompt_file.write_text(f"SYSTEM:\n{system_prompt}\n\nUSER:\n{user_prompt}", encoding="utf-8")
+                recap_text = self._generate(system_prompt, user_prompt, timeout_minutes)
             elapsed = time.time() - start_time
             print(f"  Generation complete ({elapsed:.1f}s, {len(recap_text):,} chars)")
         except anthropic.APITimeoutError:

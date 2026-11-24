@@ -87,6 +87,33 @@ alias generate-session='python3 ~/Dev/docusaurus/scripts/automate_session.py'
 
 Then reload your shell: `source ~/.zshrc`
 
+### Written from the Full Transcript
+
+The recap model reads the **whole cleaned transcript**, not a summary of it.
+Until November 2026 any transcript over 60k characters was first cut into
+55k-character chunks and summarised by Haiku, and the recap was written from
+those bullet points. Every recent session is 115k–290k characters, so every
+recap was written second-hand: quotes were paraphrases of paraphrases and
+lines drifted to whoever already held the thread, which is most of what
+`/fix-notes` has had to correct since Session 58.
+
+Now a transcript up to `MAX_DIRECT_CHARS` (450k characters, about 115k tokens)
+goes in whole. With the ~33k-token system prompt, the largest transcript on
+record makes a request of roughly 110k input tokens, about $0.35 of input at
+Sonnet pricing.
+
+The chunk summaries survive only as a fallback:
+
+- a transcript over `MAX_DIRECT_CHARS` is still summarised first, and
+- if the API refuses the full-transcript request with a rate limit (per-minute
+  input-token limits are what a whole transcript is likely to hit) or a
+  "prompt is too long" error, the run rebuilds the prompt from summaries and
+  retries once. The log says `Falling back to Haiku chunk summaries`. Any
+  other API error still fails the run.
+
+The log line `Source: full transcript` (or `Haiku chunk summaries`) says which
+one a recap was written from.
+
 ### Generation Guardrails
 
 The model writes the whole recap file, frontmatter included — so it used to
