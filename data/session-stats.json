@@ -9001,9 +9001,9 @@
       "word_count": 23349,
       "speakers": [
         {
-          "name": "Bru",
-          "canonical": "Bru (Felonias Bru)",
-          "role": "pc",
+          "name": "Justin",
+          "canonical": "Justin Hale",
+          "role": "dm",
           "player": "Justin Hale",
           "blocks": 877,
           "words": 9382,
@@ -9021,9 +9021,9 @@
           "word_share": 0.3018
         },
         {
-          "name": "Topher",
-          "canonical": "Topher",
-          "role": "dm",
+          "name": "Scarlet",
+          "canonical": "Scarlet",
+          "role": "pc",
           "player": "Topher",
           "blocks": 841,
           "words": 5508,
@@ -9042,8 +9042,8 @@
         }
       ],
       "players_present": [
-        "Bru",
         "Silas",
+        "Scarlet",
         "Leliana"
       ],
       "attendance_source": "transcript",
@@ -9060,7 +9060,8 @@
         },
         "locations": {},
         "pcs": {
-          "Bru": 42
+          "Bru": 42,
+          "Scarlet": 38
         }
       },
       "fun": {
@@ -9152,7 +9153,14 @@
           "decision_driver": "Silas"
         }
       },
-      "side_arc": null
+      "side_arc": {
+        "id": "toyota-works",
+        "name": "Toyota Works",
+        "labels": {
+          "Bru": "Justin",
+          "Topher": "Scarlet"
+        }
+      }
     },
     {
       "id": "session-68",
@@ -9169,9 +9177,9 @@
       "word_count": 27459,
       "speakers": [
         {
-          "name": "Bru",
-          "canonical": "Bru (Felonias Bru)",
-          "role": "pc",
+          "name": "Justin",
+          "canonical": "Justin Hale",
+          "role": "dm",
           "player": "Justin Hale",
           "blocks": 1345,
           "words": 10824,
@@ -9189,9 +9197,9 @@
           "word_share": 0.2582
         },
         {
-          "name": "Topher",
-          "canonical": "Topher",
-          "role": "dm",
+          "name": "Scarlet",
+          "canonical": "Scarlet",
+          "role": "pc",
           "player": "Topher",
           "blocks": 1200,
           "words": 6775,
@@ -9210,8 +9218,8 @@
         }
       ],
       "players_present": [
-        "Bru",
         "Silas",
+        "Scarlet",
         "Leliana"
       ],
       "attendance_source": "transcript",
@@ -9228,6 +9236,7 @@
           "High Forge": 2
         },
         "pcs": {
+          "Scarlet": 64,
           "Bru": 54
         }
       },
@@ -9320,7 +9329,14 @@
           "decision_driver": "Silas"
         }
       },
-      "side_arc": null
+      "side_arc": {
+        "id": "toyota-works",
+        "name": "Toyota Works",
+        "labels": {
+          "Bru": "Justin",
+          "Topher": "Scarlet"
+        }
+      }
     },
     {
       "id": "session-69",
@@ -9514,10 +9530,10 @@
         "canonical": "Topher",
         "role": "dm",
         "player": "Topher",
-        "sessions": 40,
-        "blocks": 37479,
-        "words": 324317,
-        "talk_seconds_est": 68097
+        "sessions": 38,
+        "blocks": 35438,
+        "words": 312034,
+        "talk_seconds_est": 65086
       },
       {
         "name": "Silas",
@@ -9530,16 +9546,6 @@
         "talk_seconds_est": 40894
       },
       {
-        "name": "Bru",
-        "canonical": "Bru (Felonias Bru)",
-        "role": "pc",
-        "player": "Justin Hale",
-        "sessions": 34,
-        "blocks": 19815,
-        "words": 122016,
-        "talk_seconds_est": 32324
-      },
-      {
         "name": "Elspeth",
         "canonical": "Elspeth Cooper",
         "role": "pc",
@@ -9548,6 +9554,16 @@
         "blocks": 18757,
         "words": 104767,
         "talk_seconds_est": 25317
+      },
+      {
+        "name": "Bru",
+        "canonical": "Bru (Felonias Bru)",
+        "role": "pc",
+        "player": "Justin Hale",
+        "sessions": 32,
+        "blocks": 17593,
+        "words": 101810,
+        "talk_seconds_est": 23136
       },
       {
         "name": "Olivia",
@@ -9578,6 +9594,26 @@
         "blocks": 5453,
         "words": 40488,
         "talk_seconds_est": 0
+      },
+      {
+        "name": "Justin",
+        "canonical": "Justin Hale",
+        "role": "dm",
+        "player": "Justin Hale",
+        "sessions": 2,
+        "blocks": 2222,
+        "words": 20206,
+        "talk_seconds_est": 9188
+      },
+      {
+        "name": "Scarlet",
+        "canonical": "Scarlet",
+        "role": "pc",
+        "player": "Topher",
+        "sessions": 2,
+        "blocks": 2041,
+        "words": 12283,
+        "talk_seconds_est": 3011
       },
       {
         "name": "Taylor",
@@ -9749,6 +9785,7 @@
     },
     "top_pcs_mentioned": {
       "Bru": 1359,
+      "Scarlet": 102,
       "Red": 24,
       "Olivia": 21,
       "Shade": 15,

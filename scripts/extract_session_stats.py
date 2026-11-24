@@ -306,7 +306,11 @@ def summarize_speakers(blocks, roster, timing_quality):
 # on) Taylor runs the game and Topher, Justin and Luke play Tex, Shade and
 # Ward. Left alone, Session 69's stats credited Silas, Bru and Leliana and
 # marked Topher as DM. data/side-arcs.json names each arc's cast; an arc
-# applies to a session whose recap lists one of its characters as present.
+# applies to a session whose recap lists one of its characters as present,
+# or, if the arc lists its sessions, to exactly those. A cast need only name
+# the players who changed seats: in the Toyota Works vignette (Sessions 67-68)
+# Justin ran the game and Topher played Scarlet, while Taylor and Luke kept
+# Silas and Leliana.
 
 def load_side_arcs(path=None):
     path = path or SIDE_ARCS_PATH
@@ -332,10 +336,23 @@ def attendance_lines(text):
     return out
 
 
-def detect_side_arc(text, arcs):
-    """The arc whose characters this recap lists as present, if any."""
+def detect_side_arc(text, arcs, session_id=None):
+    """The arc this recap belongs to, if any.
+
+    An arc that lists its `sessions` (recap stems such as "session-67")
+    applies to exactly those. That is for a guest DM whose cast includes a
+    regular character, such as Scarlet in the Toyota Works vignette: Scarlet
+    also appears in recaps the guest did not run, so attendance can't pick
+    the arc out. Any other arc applies when the recap lists one of its
+    characters under Players Present.
+    """
+    for arc in arcs:
+        if "sessions" in arc and session_id in arc["sessions"]:
+            return arc
     lines = attendance_lines(text)
     for arc in arcs:
+        if "sessions" in arc:
+            continue
         for member in arc.get("cast", []):
             pattern = re.compile(
                 r"\bas\s+\**" + re.escape(member["character"]) + r"(?![A-Za-z0-9_])")
@@ -660,7 +677,7 @@ def extract_all():
             "personality": None,
             "side_arc": None,
         }
-        arc = detect_side_arc(text, side_arcs)
+        arc = detect_side_arc(text, side_arcs, path.stem)
 
         recap_players = parse_players_present(text, alias_to_canonical, roster)
         if recap_players:

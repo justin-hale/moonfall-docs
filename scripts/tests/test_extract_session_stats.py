@@ -330,3 +330,51 @@ def test_slim_blocks_relabel_superlatives_in_a_side_arc():
     }]}
     block = ess.build_slim_blocks(dataset)["blocks"]["session-69"]
     assert block["superlatives"]["mvp"] == {"player": "Tex", "quote": "q"}
+
+
+# A guest DM whose cast includes a regular character (Scarlet) can't be
+# picked out by attendance, so the arc lists its recaps.
+LISTED_ARC = {
+    "id": "toyota-works",
+    "name": "Toyota Works",
+    "sessions": ["session-67", "session-68"],
+    "dm": {"name": "Justin", "player": "Justin Hale", "meet_names": ["Justin Hale"]},
+    "cast": [{"character": "Scarlet", "player": "Topher", "meet_names": ["Christopher Hooper"]}],
+}
+
+SCARLET_RECAP = """\
+## Players Present
+- Taylor Ramsey as [Silas Fairbanks](/player-characters/silas)
+- Christopher "Topher" Hooper as [Scarlet](/npcs/scarlet)
+
+## Plot Events
+"""
+
+
+def test_listed_arc_applies_only_to_its_sessions():
+    arcs = [ARC, LISTED_ARC]
+    assert ess.detect_side_arc(MAIN_RECAP, arcs, "session-67") is LISTED_ARC
+    # Scarlet under Players Present in another recap is not this arc.
+    assert ess.detect_side_arc(SCARLET_RECAP, arcs, "session-44") is None
+    assert ess.detect_side_arc(SCARLET_RECAP, arcs, "interlude-67") is None
+    # Attendance-detected arcs still work alongside it.
+    assert ess.detect_side_arc(ARC_RECAP, arcs, "session-70") is ARC
+
+
+def test_listed_arc_recredits_only_the_seats_that_changed(tmp_path, kb, roster):
+    alias_to_canonical, replacements = kb
+    path = tmp_path / "2026-11-06.md"
+    path.write_text(MD_TRANSCRIPT, encoding="utf-8")
+    blocks, _, quality = ess.parse_md_transcript(
+        path, "2026-11-06", alias_to_canonical, replacements)
+
+    moved = ess.apply_side_arc(blocks, LISTED_ARC)
+    speakers, _, _ = ess.summarize_speakers(
+        blocks, {**roster, **ess.side_arc_roster(LISTED_ARC)}, quality)
+
+    by_name = {s["name"]: s for s in speakers}
+    assert by_name["Justin"]["role"] == "dm"
+    assert by_name["Scarlet"]["role"] == "pc" and by_name["Scarlet"]["player"] == "Topher"
+    assert "Topher" not in by_name and "Bru" not in by_name
+    assert by_name["Silas"]["role"] == "pc"
+    assert moved == {"Bru (Felonias Bru)": "Justin Hale", "Topher": "Scarlet"}
