@@ -51,6 +51,8 @@ OUTPUT_CSV = PROJECT_ROOT / "static" / "data" / "session-stats.csv"
 # Slim per-session slice consumed by the recap-page stat blocks, so doc pages
 # don't have to bundle the full dataset (quotes, aggregates, etc.).
 OUTPUT_SLIM_JSON = PROJECT_ROOT / "data" / "session-stat-blocks.json"
+# Casts for side arcs run by a guest DM; see load_side_arcs().
+SIDE_ARCS_PATH = PROJECT_ROOT / "data" / "side-arcs.json"
 
 # Names that are also ordinary English words must match case-sensitively,
 # otherwise "the red door" counts as a mention of Red.
@@ -226,6 +228,7 @@ def parse_json_transcript(path, date, alias_to_canonical, replacements):
                 canonical = override
         blocks.append({
             "start_seconds": b.get("start_seconds", 0),
+            "raw": b.get("speaker_raw", ""),
             "canonical": canonical or b.get("speaker_normalized") or b.get("speaker_raw"),
             "text": b.get("text", ""),
         })
@@ -248,6 +251,7 @@ def parse_md_transcript(path, date, alias_to_canonical, replacements):
             canonical = resolve_speaker(speaker_raw, date, alias_to_canonical, replacements)
             blocks.append({
                 "start_seconds": None,
+                "raw": speaker_raw,
                 "canonical": canonical or speaker_raw,
                 "text": apply_replacements(text, replacements),
             })
@@ -291,6 +295,97 @@ def summarize_speakers(blocks, roster, timing_quality):
         })
     speakers.sort(key=lambda s: -s["words"])
     return speakers, sum(v["words"] for v in per.values()), len(blocks)
+
+
+# --------------------------------------------------------------------------- #
+#  Side arcs (guest DM, different characters)                                  #
+# --------------------------------------------------------------------------- #
+#
+# The roster in campaign-kb.md maps each Meet name to one character, and the
+# DM is always Topher. A side arc breaks both: in the H.I.D.E. arc (Session 69
+# on) Taylor runs the game and Topher, Justin and Luke play Tex, Shade and
+# Ward. Left alone, Session 69's stats credited Silas, Bru and Leliana and
+# marked Topher as DM. data/side-arcs.json names each arc's cast; an arc
+# applies to a session whose recap lists one of its characters as present.
+
+def load_side_arcs(path=None):
+    path = path or SIDE_ARCS_PATH
+    if not path.exists():
+        return []
+    return json.loads(path.read_text(encoding="utf-8")).get("arcs", [])
+
+
+def attendance_lines(text):
+    """The bullet lines under a recap's Players Present heading."""
+    lines = text.splitlines()
+    out = []
+    started = False
+    for line in lines:
+        stripped = line.strip()
+        if not started:
+            started = bool(PLAYERS_HEADING_RE.match(stripped))
+            continue
+        if stripped.startswith("#") or stripped == "---":
+            break
+        if stripped.startswith("-"):
+            out.append(re.sub(r"\[([^\]]+)\]\([^)]*\)", r"\1", stripped))
+    return out
+
+
+def detect_side_arc(text, arcs):
+    """The arc whose characters this recap lists as present, if any."""
+    lines = attendance_lines(text)
+    for arc in arcs:
+        for member in arc.get("cast", []):
+            pattern = re.compile(
+                r"\bas\s+\**" + re.escape(member["character"]) + r"(?![A-Za-z0-9_])")
+            if any(pattern.search(line) for line in lines):
+                return arc
+    return None
+
+
+def side_arc_roster(arc):
+    """Roster entries for an arc's DM and cast, keyed by canonical name."""
+    entries = {
+        arc["dm"]["player"]: {
+            "display": arc["dm"]["name"], "player": arc["dm"]["player"], "role": "dm",
+        },
+    }
+    for member in arc.get("cast", []):
+        entries[member["character"]] = {
+            "display": member["character"], "player": member["player"], "role": "pc",
+        }
+    return entries
+
+
+def apply_side_arc(blocks, arc):
+    """Re-credit each block to the arc's DM or character, by Meet name.
+
+    Returns {usual label: arc label} for every speaker it moved, e.g.
+    {"Silas": "Taylor", "Topher": "Tex"}; `roster_display` supplies the usual
+    label through the returned function's caller.
+    """
+    by_meet_name = {name: arc["dm"]["player"] for name in arc["dm"].get("meet_names", [])}
+    for member in arc.get("cast", []):
+        for name in member.get("meet_names", []):
+            by_meet_name[name] = member["character"]
+    moved = {}
+    for b in blocks:
+        target = by_meet_name.get(b.get("raw"))
+        if target:
+            moved[b["canonical"]] = target
+            b["canonical"] = target
+    return moved
+
+
+def side_arc_pc_patterns(arc):
+    """Mention patterns for an arc's characters. Case-sensitive: "Shade" and
+    "Ward" are ordinary words."""
+    return {
+        member["character"]: [re.compile(
+            r"(?<![A-Za-z0-9_])" + re.escape(member["character"]) + r"(?![A-Za-z0-9_])")]
+        for member in arc.get("cast", [])
+    }
 
 
 # --------------------------------------------------------------------------- #
@@ -522,6 +617,7 @@ def extract_all():
     location_patterns = compile_mention_patterns(location_terms)
     pc_patterns = compile_mention_patterns(pc_terms)
     personality_cache = load_personality_cache()
+    side_arcs = load_side_arcs()
 
     # Index transcripts by date; prefer .json over .md for the same date.
     transcripts = {}
@@ -562,7 +658,9 @@ def extract_all():
             "mentions": {"npcs": {}, "locations": {}, "pcs": {}},
             "fun": {"nat20_mentions": 0, "nat1_mentions": 0},
             "personality": None,
+            "side_arc": None,
         }
+        arc = detect_side_arc(text, side_arcs)
 
         recap_players = parse_players_present(text, alias_to_canonical, roster)
         if recap_players:
@@ -578,7 +676,23 @@ def extract_all():
             else:
                 blocks, duration, quality = parse_md_transcript(
                     tpath, date, alias_to_canonical, replacements)
-            speakers, word_count, block_count = summarize_speakers(blocks, roster, quality)
+            session_roster = roster
+            if arc:
+                moved = apply_side_arc(blocks, arc)
+                session_roster = {**roster, **side_arc_roster(arc)}
+                record["side_arc"] = {
+                    "id": arc["id"],
+                    "name": arc["name"],
+                    # usual label -> label in this arc, for anything keyed by
+                    # the usual one (the personality cache's superlatives).
+                    "labels": {
+                        (roster[old]["display"] if old in roster else old):
+                            session_roster[new]["display"]
+                        for old, new in sorted(moved.items())
+                    },
+                }
+            speakers, word_count, block_count = summarize_speakers(
+                blocks, session_roster, quality)
             full_text = "\n".join(b["text"] for b in blocks)
 
             record.update({
@@ -599,6 +713,11 @@ def extract_all():
                     "nat1_mentions": len(NAT1_RE.findall(full_text)),
                 },
             })
+            if arc:
+                pcs = {**record["mentions"]["pcs"],
+                       **count_mentions(full_text, side_arc_pc_patterns(arc))}
+                record["mentions"]["pcs"] = dict(
+                    sorted(pcs.items(), key=lambda kv: (-kv[1], kv[0])))
             pcs_present = [s["name"] for s in speakers if s["role"] == "pc"]
             if pcs_present:
                 record["players_present"] = pcs_present
@@ -652,8 +771,11 @@ def build_slim_blocks(dataset):
         superlatives = None
         if s["personality"]:
             raw = s["personality"].get("superlatives") or {}
+            # The personality cache names players by their usual character;
+            # in a side arc, show the character they played that night.
+            labels = (s.get("side_arc") or {}).get("labels") or {}
             superlatives = {
-                key: raw[key]
+                key: {**raw[key], "player": labels.get(raw[key]["player"], raw[key]["player"])}
                 for key in ("mvp", "best_joke", "most_chaotic")
                 if isinstance(raw.get(key), dict) and raw[key].get("player")
             } or None

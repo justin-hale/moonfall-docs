@@ -34,7 +34,8 @@
         "nat20_mentions": 0,
         "nat1_mentions": 0
       },
-      "personality": null
+      "personality": null,
+      "side_arc": null
     },
     {
       "id": "session-2",
@@ -61,7 +62,8 @@
         "nat20_mentions": 0,
         "nat1_mentions": 0
       },
-      "personality": null
+      "personality": null,
+      "side_arc": null
     },
     {
       "id": "session-3",
@@ -88,7 +90,8 @@
         "nat20_mentions": 0,
         "nat1_mentions": 0
       },
-      "personality": null
+      "personality": null,
+      "side_arc": null
     },
     {
       "id": "session-4",
@@ -121,7 +124,8 @@
         "nat20_mentions": 0,
         "nat1_mentions": 0
       },
-      "personality": null
+      "personality": null,
+      "side_arc": null
     },
     {
       "id": "session-5",
@@ -148,7 +152,8 @@
         "nat20_mentions": 0,
         "nat1_mentions": 0
       },
-      "personality": null
+      "personality": null,
+      "side_arc": null
     },
     {
       "id": "session-6",
@@ -175,7 +180,8 @@
         "nat20_mentions": 0,
         "nat1_mentions": 0
       },
-      "personality": null
+      "personality": null,
+      "side_arc": null
     },
     {
       "id": "session-7",
@@ -202,7 +208,8 @@
         "nat20_mentions": 0,
         "nat1_mentions": 0
       },
-      "personality": null
+      "personality": null,
+      "side_arc": null
     },
     {
       "id": "session-8",
@@ -229,7 +236,8 @@
         "nat20_mentions": 0,
         "nat1_mentions": 0
       },
-      "personality": null
+      "personality": null,
+      "side_arc": null
     },
     {
       "id": "session-9",
@@ -263,7 +271,8 @@
         "nat20_mentions": 0,
         "nat1_mentions": 0
       },
-      "personality": null
+      "personality": null,
+      "side_arc": null
     },
     {
       "id": "session-10",
@@ -290,7 +299,8 @@
         "nat20_mentions": 0,
         "nat1_mentions": 0
       },
-      "personality": null
+      "personality": null,
+      "side_arc": null
     },
     {
       "id": "session-11",
@@ -317,7 +327,8 @@
         "nat20_mentions": 0,
         "nat1_mentions": 0
       },
-      "personality": null
+      "personality": null,
+      "side_arc": null
     },
     {
       "id": "session-12",
@@ -344,7 +355,8 @@
         "nat20_mentions": 0,
         "nat1_mentions": 0
       },
-      "personality": null
+      "personality": null,
+      "side_arc": null
     },
     {
       "id": "session-13",
@@ -371,7 +383,8 @@
         "nat20_mentions": 0,
         "nat1_mentions": 0
       },
-      "personality": null
+      "personality": null,
+      "side_arc": null
     },
     {
       "id": "session-14",
@@ -398,7 +411,8 @@
         "nat20_mentions": 0,
         "nat1_mentions": 0
       },
-      "personality": null
+      "personality": null,
+      "side_arc": null
     },
     {
       "id": "session-15",
@@ -425,7 +439,8 @@
         "nat20_mentions": 0,
         "nat1_mentions": 0
       },
-      "personality": null
+      "personality": null,
+      "side_arc": null
     },
     {
       "id": "session-16",
@@ -452,7 +467,8 @@
         "nat20_mentions": 0,
         "nat1_mentions": 0
       },
-      "personality": null
+      "personality": null,
+      "side_arc": null
     },
     {
       "id": "session-17",
@@ -479,7 +495,8 @@
         "nat20_mentions": 0,
         "nat1_mentions": 0
       },
-      "personality": null
+      "personality": null,
+      "side_arc": null
     },
     {
       "id": "session-18",
@@ -506,7 +523,8 @@
         "nat20_mentions": 0,
         "nat1_mentions": 0
       },
-      "personality": null
+      "personality": null,
+      "side_arc": null
     },
     {
       "id": "session-20",
@@ -533,7 +551,8 @@
         "nat20_mentions": 0,
         "nat1_mentions": 0
       },
-      "personality": null
+      "personality": null,
+      "side_arc": null
     },
     {
       "id": "session-21",
@@ -560,7 +579,8 @@
         "nat20_mentions": 0,
         "nat1_mentions": 0
       },
-      "personality": null
+      "personality": null,
+      "side_arc": null
     },
     {
       "id": "interlude-1",
@@ -587,7 +607,8 @@
         "nat20_mentions": 0,
         "nat1_mentions": 0
       },
-      "personality": null
+      "personality": null,
+      "side_arc": null
     },
     {
       "id": "interlude-2",
@@ -614,7 +635,8 @@
         "nat20_mentions": 0,
         "nat1_mentions": 0
       },
-      "personality": null
+      "personality": null,
+      "side_arc": null
     },
     {
       "id": "interlude-3",
@@ -641,7 +663,8 @@
         "nat20_mentions": 0,
         "nat1_mentions": 0
       },
-      "personality": null
+      "personality": null,
+      "side_arc": null
     },
     {
       "id": "interlude-4",
@@ -668,7 +691,8 @@
         "nat20_mentions": 0,
         "nat1_mentions": 0
       },
-      "personality": null
+      "personality": null,
+      "side_arc": null
     },
     {
       "id": "interlude-5",
@@ -695,7 +719,8 @@
         "nat20_mentions": 0,
         "nat1_mentions": 0
       },
-      "personality": null
+      "personality": null,
+      "side_arc": null
     },
     {
       "id": "interlude-6",
@@ -722,7 +747,8 @@
         "nat20_mentions": 0,
         "nat1_mentions": 0
       },
-      "personality": null
+      "personality": null,
+      "side_arc": null
     },
     {
       "id": "interlude-7",
@@ -749,7 +775,8 @@
         "nat20_mentions": 0,
         "nat1_mentions": 0
       },
-      "personality": null
+      "personality": null,
+      "side_arc": null
     },
     {
       "id": "interlude-8",
@@ -776,7 +803,8 @@
         "nat20_mentions": 0,
         "nat1_mentions": 0
       },
-      "personality": null
+      "personality": null,
+      "side_arc": null
     },
     {
       "id": "interlude-9",
@@ -803,7 +831,8 @@
         "nat20_mentions": 0,
         "nat1_mentions": 0
       },
-      "personality": null
+      "personality": null,
+      "side_arc": null
     },
     {
       "id": "interlude-10",
@@ -830,7 +859,8 @@
         "nat20_mentions": 0,
         "nat1_mentions": 0
       },
-      "personality": null
+      "personality": null,
+      "side_arc": null
     },
     {
       "id": "interlude-11",
@@ -857,7 +887,8 @@
         "nat20_mentions": 0,
         "nat1_mentions": 0
       },
-      "personality": null
+      "personality": null,
+      "side_arc": null
     },
     {
       "id": "session-22",
@@ -884,7 +915,8 @@
         "nat20_mentions": 0,
         "nat1_mentions": 0
       },
-      "personality": null
+      "personality": null,
+      "side_arc": null
     },
     {
       "id": "session-23",
@@ -911,7 +943,8 @@
         "nat20_mentions": 0,
         "nat1_mentions": 0
       },
-      "personality": null
+      "personality": null,
+      "side_arc": null
     },
     {
       "id": "session-24",
@@ -938,7 +971,8 @@
         "nat20_mentions": 0,
         "nat1_mentions": 0
       },
-      "personality": null
+      "personality": null,
+      "side_arc": null
     },
     {
       "id": "session-25",
@@ -965,7 +999,8 @@
         "nat20_mentions": 0,
         "nat1_mentions": 0
       },
-      "personality": null
+      "personality": null,
+      "side_arc": null
     },
     {
       "id": "session-26",
@@ -992,7 +1027,8 @@
         "nat20_mentions": 0,
         "nat1_mentions": 0
       },
-      "personality": null
+      "personality": null,
+      "side_arc": null
     },
     {
       "id": "session-27",
@@ -1019,7 +1055,8 @@
         "nat20_mentions": 0,
         "nat1_mentions": 0
       },
-      "personality": null
+      "personality": null,
+      "side_arc": null
     },
     {
       "id": "session-28",
@@ -1046,7 +1083,8 @@
         "nat20_mentions": 0,
         "nat1_mentions": 0
       },
-      "personality": null
+      "personality": null,
+      "side_arc": null
     },
     {
       "id": "session-29",
@@ -1073,7 +1111,8 @@
         "nat20_mentions": 0,
         "nat1_mentions": 0
       },
-      "personality": null
+      "personality": null,
+      "side_arc": null
     },
     {
       "id": "session-30",
@@ -1100,7 +1139,8 @@
         "nat20_mentions": 0,
         "nat1_mentions": 0
       },
-      "personality": null
+      "personality": null,
+      "side_arc": null
     },
     {
       "id": "session-31",
@@ -1127,7 +1167,8 @@
         "nat20_mentions": 0,
         "nat1_mentions": 0
       },
-      "personality": null
+      "personality": null,
+      "side_arc": null
     },
     {
       "id": "session-32",
@@ -1154,7 +1195,8 @@
         "nat20_mentions": 0,
         "nat1_mentions": 0
       },
-      "personality": null
+      "personality": null,
+      "side_arc": null
     },
     {
       "id": "session-33",
@@ -1406,7 +1448,8 @@
           },
           "decision_driver": "Helisanna"
         }
-      }
+      },
+      "side_arc": null
     },
     {
       "id": "session-34",
@@ -1625,7 +1668,8 @@
           },
           "decision_driver": "Silas"
         }
-      }
+      },
+      "side_arc": null
     },
     {
       "id": "session-35",
@@ -1849,7 +1893,8 @@
           },
           "decision_driver": "Silas"
         }
-      }
+      },
+      "side_arc": null
     },
     {
       "id": "session-36",
@@ -1876,7 +1921,8 @@
         "nat20_mentions": 0,
         "nat1_mentions": 0
       },
-      "personality": null
+      "personality": null,
+      "side_arc": null
     },
     {
       "id": "session-37",
@@ -2128,7 +2174,8 @@
           },
           "decision_driver": "Silas"
         }
-      }
+      },
+      "side_arc": null
     },
     {
       "id": "interlude-12",
@@ -2376,7 +2423,8 @@
           },
           "decision_driver": "Silas"
         }
-      }
+      },
+      "side_arc": null
     },
     {
       "id": "interlude-13",
@@ -2595,7 +2643,8 @@
           },
           "decision_driver": "Elspeth"
         }
-      }
+      },
+      "side_arc": null
     },
     {
       "id": "interlude-14",
@@ -2839,7 +2888,8 @@
           },
           "decision_driver": "Elspeth"
         }
-      }
+      },
+      "side_arc": null
     },
     {
       "id": "interlude-15",
@@ -3082,7 +3132,8 @@
           },
           "decision_driver": "Silas"
         }
-      }
+      },
+      "side_arc": null
     },
     {
       "id": "interlude-16",
@@ -3298,7 +3349,8 @@
           },
           "decision_driver": "Silas"
         }
-      }
+      },
+      "side_arc": null
     },
     {
       "id": "session-38",
@@ -3521,7 +3573,8 @@
           },
           "decision_driver": "Silas"
         }
-      }
+      },
+      "side_arc": null
     },
     {
       "id": "session-39",
@@ -3719,7 +3772,8 @@
           },
           "decision_driver": "Silas"
         }
-      }
+      },
+      "side_arc": null
     },
     {
       "id": "session-40",
@@ -3944,7 +3998,8 @@
           },
           "decision_driver": "Silas"
         }
-      }
+      },
+      "side_arc": null
     },
     {
       "id": "session-41",
@@ -4169,7 +4224,8 @@
           },
           "decision_driver": "Silas"
         }
-      }
+      },
+      "side_arc": null
     },
     {
       "id": "session-42",
@@ -4389,7 +4445,8 @@
           },
           "decision_driver": "Silas"
         }
-      }
+      },
+      "side_arc": null
     },
     {
       "id": "session-43",
@@ -4614,7 +4671,8 @@
           },
           "decision_driver": "Silas"
         }
-      }
+      },
+      "side_arc": null
     },
     {
       "id": "session-44",
@@ -4807,7 +4865,8 @@
           },
           "decision_driver": "Olivia"
         }
-      }
+      },
+      "side_arc": null
     },
     {
       "id": "session-45",
@@ -5027,7 +5086,8 @@
           },
           "decision_driver": "Silas"
         }
-      }
+      },
+      "side_arc": null
     },
     {
       "id": "session-46",
@@ -5196,7 +5256,8 @@
           },
           "decision_driver": "Silas"
         }
-      }
+      },
+      "side_arc": null
     },
     {
       "id": "session-47",
@@ -5367,7 +5428,8 @@
           },
           "decision_driver": "Olivia"
         }
-      }
+      },
+      "side_arc": null
     },
     {
       "id": "session-48",
@@ -5535,7 +5597,8 @@
           },
           "decision_driver": "Silas"
         }
-      }
+      },
+      "side_arc": null
     },
     {
       "id": "session-49",
@@ -5753,7 +5816,8 @@
           },
           "decision_driver": "Silas"
         }
-      }
+      },
+      "side_arc": null
     },
     {
       "id": "session-50",
@@ -5943,7 +6007,8 @@
           },
           "decision_driver": "Elspeth"
         }
-      }
+      },
+      "side_arc": null
     },
     {
       "id": "session-51",
@@ -6165,7 +6230,8 @@
           },
           "decision_driver": "Elspeth"
         }
-      }
+      },
+      "side_arc": null
     },
     {
       "id": "session-52",
@@ -6361,7 +6427,8 @@
           },
           "decision_driver": "Silas"
         }
-      }
+      },
+      "side_arc": null
     },
     {
       "id": "session-53",
@@ -6556,7 +6623,8 @@
           },
           "decision_driver": "Silas"
         }
-      }
+      },
+      "side_arc": null
     },
     {
       "id": "session-54",
@@ -6785,7 +6853,8 @@
           },
           "decision_driver": "Silas"
         }
-      }
+      },
+      "side_arc": null
     },
     {
       "id": "session-55",
@@ -6954,7 +7023,8 @@
           },
           "decision_driver": "Silas"
         }
-      }
+      },
+      "side_arc": null
     },
     {
       "id": "session-56",
@@ -7173,7 +7243,8 @@
           },
           "decision_driver": "Silas"
         }
-      }
+      },
+      "side_arc": null
     },
     {
       "id": "session-57",
@@ -7398,7 +7469,8 @@
           },
           "decision_driver": "Leliana"
         }
-      }
+      },
+      "side_arc": null
     },
     {
       "id": "session-58",
@@ -7510,7 +7582,8 @@
         "nat20_mentions": 0,
         "nat1_mentions": 0
       },
-      "personality": null
+      "personality": null,
+      "side_arc": null
     },
     {
       "id": "session-59",
@@ -7678,7 +7751,8 @@
           },
           "decision_driver": "Silas"
         }
-      }
+      },
+      "side_arc": null
     },
     {
       "id": "session-60",
@@ -7849,7 +7923,8 @@
           },
           "decision_driver": "Silas"
         }
-      }
+      },
+      "side_arc": null
     },
     {
       "id": "session-61",
@@ -7946,7 +8021,8 @@
         "nat20_mentions": 0,
         "nat1_mentions": 0
       },
-      "personality": null
+      "personality": null,
+      "side_arc": null
     },
     {
       "id": "session-62",
@@ -8119,7 +8195,8 @@
           },
           "decision_driver": "Silas"
         }
-      }
+      },
+      "side_arc": null
     },
     {
       "id": "session-63",
@@ -8441,7 +8518,8 @@
           },
           "decision_driver": "Silas"
         }
-      }
+      },
+      "side_arc": null
     },
     {
       "id": "session-64",
@@ -8633,7 +8711,8 @@
           },
           "decision_driver": "Unidentified Speaker"
         }
-      }
+      },
+      "side_arc": null
     },
     {
       "id": "session-65",
@@ -8830,7 +8909,8 @@
           },
           "decision_driver": "Olivia"
         }
-      }
+      },
+      "side_arc": null
     },
     {
       "id": "session-66",
@@ -8903,7 +8983,8 @@
         "nat20_mentions": 0,
         "nat1_mentions": 1
       },
-      "personality": null
+      "personality": null,
+      "side_arc": null
     },
     {
       "id": "session-67",
@@ -9070,7 +9151,8 @@
           },
           "decision_driver": "Silas"
         }
-      }
+      },
+      "side_arc": null
     },
     {
       "id": "session-68",
@@ -9237,7 +9319,8 @@
           },
           "decision_driver": "Silas"
         }
-      }
+      },
+      "side_arc": null
     },
     {
       "id": "session-69",
@@ -9254,9 +9337,9 @@
       "word_count": 15547,
       "speakers": [
         {
-          "name": "Silas",
-          "canonical": "Silas Fairbanks",
-          "role": "pc",
+          "name": "Taylor",
+          "canonical": "Taylor Ramsey",
+          "role": "dm",
           "player": "Taylor Ramsey",
           "blocks": 695,
           "words": 8849,
@@ -9264,9 +9347,9 @@
           "word_share": 0.5692
         },
         {
-          "name": "Topher",
-          "canonical": "Topher",
-          "role": "dm",
+          "name": "Tex",
+          "canonical": "Tex",
+          "role": "pc",
           "player": "Topher",
           "blocks": 544,
           "words": 3199,
@@ -9274,8 +9357,8 @@
           "word_share": 0.2058
         },
         {
-          "name": "Bru",
-          "canonical": "Bru (Felonias Bru)",
+          "name": "Shade",
+          "canonical": "Shade",
           "role": "pc",
           "player": "Justin Hale",
           "blocks": 313,
@@ -9284,8 +9367,8 @@
           "word_share": 0.123
         },
         {
-          "name": "Leliana",
-          "canonical": "Leliana Goldspring",
+          "name": "Ward",
+          "canonical": "Ward",
           "role": "pc",
           "player": "Luke Neverisky",
           "blocks": 329,
@@ -9295,9 +9378,9 @@
         }
       ],
       "players_present": [
-        "Silas",
-        "Bru",
-        "Leliana"
+        "Tex",
+        "Shade",
+        "Ward"
       ],
       "attendance_source": "transcript",
       "mentions": {
@@ -9312,6 +9395,9 @@
           "Eldoran": 1
         },
         "pcs": {
+          "Shade": 15,
+          "Ward": 8,
+          "Tex": 4,
           "Bru": 2
         }
       },
@@ -9403,6 +9489,16 @@
           },
           "decision_driver": "Silas"
         }
+      },
+      "side_arc": {
+        "id": "hide",
+        "name": "H.I.D.E.",
+        "labels": {
+          "Bru": "Shade",
+          "Leliana": "Ward",
+          "Silas": "Taylor",
+          "Topher": "Tex"
+        }
       }
     }
   ],
@@ -9418,30 +9514,30 @@
         "canonical": "Topher",
         "role": "dm",
         "player": "Topher",
-        "sessions": 41,
-        "blocks": 38023,
-        "words": 327516,
-        "talk_seconds_est": 70633
+        "sessions": 40,
+        "blocks": 37479,
+        "words": 324317,
+        "talk_seconds_est": 68097
       },
       {
         "name": "Silas",
         "canonical": "Silas Fairbanks",
         "role": "pc",
         "player": "Taylor Ramsey",
-        "sessions": 41,
-        "blocks": 31655,
-        "words": 264626,
-        "talk_seconds_est": 43478
+        "sessions": 40,
+        "blocks": 30960,
+        "words": 255777,
+        "talk_seconds_est": 40894
       },
       {
         "name": "Bru",
         "canonical": "Bru (Felonias Bru)",
         "role": "pc",
         "player": "Justin Hale",
-        "sessions": 35,
-        "blocks": 20128,
-        "words": 123928,
-        "talk_seconds_est": 32708
+        "sessions": 34,
+        "blocks": 19815,
+        "words": 122016,
+        "talk_seconds_est": 32324
       },
       {
         "name": "Elspeth",
@@ -9468,10 +9564,10 @@
         "canonical": "Leliana Goldspring",
         "role": "pc",
         "player": "Luke Neverisky",
-        "sessions": 32,
-        "blocks": 14104,
-        "words": 65269,
-        "talk_seconds_est": 19120
+        "sessions": 31,
+        "blocks": 13775,
+        "words": 63682,
+        "talk_seconds_est": 17413
       },
       {
         "name": "Ohma",
@@ -9482,6 +9578,16 @@
         "blocks": 5453,
         "words": 40488,
         "talk_seconds_est": 0
+      },
+      {
+        "name": "Taylor",
+        "canonical": "Taylor Ramsey",
+        "role": "dm",
+        "player": "Taylor Ramsey",
+        "sessions": 1,
+        "blocks": 695,
+        "words": 8849,
+        "talk_seconds_est": 2584
       },
       {
         "name": "Unidentified Speaker",
@@ -9502,6 +9608,36 @@
         "blocks": 660,
         "words": 3889,
         "talk_seconds_est": 0
+      },
+      {
+        "name": "Tex",
+        "canonical": "Tex",
+        "role": "pc",
+        "player": "Topher",
+        "sessions": 1,
+        "blocks": 544,
+        "words": 3199,
+        "talk_seconds_est": 2536
+      },
+      {
+        "name": "Shade",
+        "canonical": "Shade",
+        "role": "pc",
+        "player": "Justin Hale",
+        "sessions": 1,
+        "blocks": 313,
+        "words": 1912,
+        "talk_seconds_est": 384
+      },
+      {
+        "name": "Ward",
+        "canonical": "Ward",
+        "role": "pc",
+        "player": "Luke Neverisky",
+        "sessions": 1,
+        "blocks": 329,
+        "words": 1587,
+        "talk_seconds_est": 1707
       },
       {
         "name": "01",
@@ -9615,7 +9751,10 @@
       "Bru": 1359,
       "Red": 24,
       "Olivia": 21,
+      "Shade": 15,
+      "Ward": 8,
       "Elspeth": 5,
+      "Tex": 4,
       "Leliana": 1
     },
     "nat20_mentions": 18,
