@@ -9392,7 +9392,8 @@
           "King Alvar": 1
         },
         "locations": {
-          "Eldoran": 1
+          "Eldoran": 1,
+          "Moon Tear": 1
         },
         "pcs": {
           "Shade": 15,
@@ -9745,7 +9746,8 @@
       "Eldoran": 5,
       "Milstrom": 3,
       "Gold Road": 2,
-      "Grimvar's Spine": 1
+      "Grimvar's Spine": 1,
+      "Moon Tear": 1
     },
     "top_pcs_mentioned": {
       "Bru": 1359,
