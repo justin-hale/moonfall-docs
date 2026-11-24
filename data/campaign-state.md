@@ -270,7 +270,7 @@ The party decoded Rivet's cipher hidden in a chip bag, triggering a factory-wide
 
 
 **Session 69** – The H.I.D.E. Protocol
-Session zero for a side arc set in the present day, while Taco Cat sails from Eldoran (Taylor Ramsey as DM; Topher, Justin and Luke playing). Two hundred years after the Steve Squad saved the elven kingdom of Liberia, three Peace Forged—Tex, Shade, and Ward—operate as a cell of an outfit called H.I.D.E. and meet Princess Valandis in a private room above The Tavern in Moon Reach. Tasked with investigating reality-tearing portals opening across Liberia in secret, away from King Alvar's knowledge, they accept a contract to travel to the farming town of Moon Tier, an hour away, and determine why the tears in reality favor elven soil.
+Session zero for a side arc set in the present day, while Taco Cat sails from Eldoran (Taylor Ramsey as DM; Topher, Justin and Luke playing). Two hundred years after the Steve Squad saved the elven kingdom of Liberia, three Peace Forged—Tex, Shade, and Ward—operate as a cell of an outfit called H.I.D.E. and meet Princess Valandis in a private room above The Tavern in Moon Reach. Tasked with investigating reality-tearing portals opening across Liberia in secret, away from King Alvar's knowledge, they accept a contract to travel to the farming town of Moon Tear, an hour away, and determine why the tears in reality favor elven soil.
 
 ## Active Plot Threads
 
@@ -400,7 +400,7 @@ The moon exploded in Session 16. At Luna's underwater crash site the party resea
 - **New: Portal Eruptions Across Liberia** – Reality tearing at multiple points; opening in Liberia at a greater rate than anywhere else on the continent; they appear to open onto hell; source and cause unknown; H.I.D.E. contracted to investigate and stop them.
 - **New: The Blight's Persistence** – Forbidden nature magic the elves unleashed two hundred years ago to slow Igdum's invasion; it consumed almost all of Liberia's northern territory, including the old capital of Shaar. Peace Forged, unaffected by it, live there. The capital is now Moon Reach on the Isle of Dusk.
 - **New: H.I.D.E. Cell Structure** – Hired Infiltration & Disappearance Experts; cell-based, so members are not allowed to know how large the organization is; Shade comes from the Fight Institute; Princess Valandis is paying from her personal funds, not crown resources.
-- **New: Moon Tier Investigation** – Farming town experiencing missing livestock and demon sightings; about an hour's journey from Moon Reach; contract terms ten thousand gold each or a favor of their choice on completion, with five gold advanced for travel.
+- **New: Moon Tear Investigation** – Farming town experiencing missing livestock and demon sightings; about an hour's journey from Moon Reach; contract terms ten thousand gold each or a favor of their choice on completion, with five gold advanced for travel.
 
 ## Character Status
 
@@ -649,5 +649,5 @@ The moon exploded in Session 16. At Luna's underwater crash site the party resea
 - **The World Tree connection** – Shade walks the Path of the World Tree; the table wondered whether Shield is tuning in to the World Tree the party planted in the Eldoran capital (Session 57). Left open.
 - **Shield's lineage** – Shade is a seedling of Shield, a link to the Steve Squad of two hundred years ago; Shield is assumed to be alive and has not yet appeared in this campaign.
 - **Eldoran and the dragons** – Valandis names the growth of Eldoran, the invasion of dragons and the portals as current troubles; King Alvar says troops cannot be spared from the Eldoran border.
-- **Moon Tier demon sightings** – First concrete manifestation of portal creatures; locals report missing livestock and sightings of demons.
+- **Moon Tear demon sightings** – First concrete manifestation of portal creatures; locals report missing livestock and sightings of demons.
 - **The sending stone** – Direct communication line to Princess Valandis; handed to Tex at the end of the meeting.

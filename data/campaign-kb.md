@@ -102,6 +102,7 @@ A mini-arc run by **Taylor Ramsey as DM** (Meet name "Tyram"), set in the presen
 | Lakeshore Vale | Lakeshore Vale | | Dimensional village within trials |
 | Little Cradle | Little Cradle | | Merchant town outside the Eldoran capital (Sessions 54–55) |
 | Sexy Peacock | Sexy Peacock | | Family motel and restaurant in the Eldoran capital; George's meeting spot (Sessions 57–58) |
+| Moon Tear | Moon Tear | "Moon Tier" | Elven farming town an hour from Moon Reach, Liberia; Elvish for "tears of the moon spread across the land" (Session 69, H.I.D.E. side arc) |
 
 ## DM Rulings (2026-09-29)
 
@@ -169,6 +170,7 @@ These are systematic speech-to-text mistakes that appear in generated notes:
 | Riven / Rippet / Ribbon / Rivid | Rivet | Toyota Works inspector (Session 67) |
 | Silus | Silas | Character name — Silas Fairbanks |
 | HYDE | H.I.D.E. | Team name in the Session 69 side arc: Hired Infiltration & Disappearance Experts ("run, fight, hide"; modelled on the FIGHT Institute) |
+| Moon Tier | Moon Tear | Farming town in Liberia (Session 69): named for the tears of the moon; ties to the portals, "tears in reality" |
 
 ## Active Plot Threads
 - **Astro**: Dragon imprisoned in Raingoth (Silas's orb). Silas attempting dialogue. Silas carries the orb (Sessions 41–47); his Session 47 claim that he had slipped it into Bru's bag contradicts earlier play. Others speaking to Astro through other orbs.
@@ -193,6 +195,8 @@ Corrections applied via `/fix-notes` are logged here for pattern detection.
 - Fixed: the sending stone and five gold were given by Valandis at the end of the meeting, not as the summons; payment is 10,000 gold each or a favor of their choice; Moon Tier is an hour away, not "a full day's travel" (the recap said both) [confirmed against transcript]
 - Fixed: invented quote "If Alvar won't spend the crown's gold on this, I'll spend mine" replaced with her actual line; removed "murdered predecessors" and the populace wondering why she isn't queen; the barkeep is Tapper, not "Pepper and Tapper" [confirmed against transcript]
 - Added: Princess Valandis, King Alvar and Tapper to the NPC table; "HYDE" to the transcription-error table; a "H.I.D.E. side arc" roster note
+- Fixed (2026-11-24): the farming town is "Moon Tear", not "Moon Tier", in the summary and Plot Events; the November 23 notice that printed "Moon Tier" is left as issued and amended by a second notice. The player who named it gave the meaning as "tears of the moon spread across the land" and said "tears" right after the DM's "moon tier" [user-reported, confirmed against transcript]
+- Added: Moon Tear to the Locations table and "Moon Tier" to the transcription-error table
 - **Pattern:** Guest-DM default. The generator assumes Topher is DM and gives each other speaker a PC. When another player runs the game, it swaps the DM with a player. Decide the DM from who narrates in the transcript.
 - **Pattern:** Lore dates read as setting dates. "200 years ago…" in a DM's background reading was taken as when the session is set, and the error then spread through callbacks, Themes and Notable Moments.
 
